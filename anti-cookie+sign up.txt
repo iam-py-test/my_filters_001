@@ -1,0 +1,182 @@
+! Title: Notespad Anticookie and Sign up list
+! Description: Do you find cookie consent and sign up prompts annoying, especially if you already clear you cookies regularly or do not want to sign up to every website you visit. This list attempts to remove those annoyances and a few others. 
+! Expires: 1 day
+! Last updated: 14/5/2021
+
+!Cookie consent 
+! 2021-05-08 https://www.fortiguard.com
+www.fortiguard.com###__agreementBar
+
+! 2021-04-12 https://stackoverflow.com
+stackoverflow.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
+
+! 2021-04-14 https://askubuntu.com
+askubuntu.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
+
+! 2021-04-14 https://security.stackexchange.com
+security.stackexchange.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
+
+! 2021-04-07 https://quttera.com
+quttera.com###cookies-policy
+
+! 2021-04-06 https://tor.stackexchange.com
+tor.stackexchange.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
+
+! 2021-04-04 https://stackoverflow.com
+stackoverflow.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
+
+! 2021-03-21 https://www.universeguide.com
+www.universeguide.com###cookieConsent\ noprint
+
+!Both cookie consent and "Download our extension" full page alerts
+! 2021-04-30 https://www.mywot.com
+www.mywot.com##.dLClwL.StyledCookiesConsent__CookiesConsentContainer-sc-1hx0re8-0.StyledUtils__FlexRow-sc-14r66vj-0
+||www.mywot.com/images/popup/wot-laptop-tinified.png$image
+www.mywot.com##html > iframe
+www.mywot.com##.kQDsFi.StyledPopup__PopupContainer-sc-1ql589a-0.StyledUtils__FlexColumn-sc-14r66vj-1
+
+!From Notespad annoyances list
+!"Please sign up" alerts
+||optindesigner.com/members/app/show.php
+###ffpop
+###ffBlanket
+##.syndicated-modal
+www.nationalgeographic.com##.EmailStickyFooter__Container
+! 2021-04-19 https://www.nationalgeographic.com
+www.nationalgeographic.com##.ModalInner
+www.nationalgeographic.com###fittPortal_0 > .no-touch.bp-desktopLGPlus.bp-desktopPlus.bp-tabletPlus.bp-mobileLGPlus.bp-mobileMDPlus
+!Allow scrolling
+nationalgeographic.com##+js(aeld, scroll)
+
+!Cookie banners
+! 2021-04-12 https://blavity.com
+blavity.com##.Cookie--blood-orange.Cookie--bottom.Cookie
+##.cookie-notice-container
+malwarefixes.com##.cookie-notice-visible.cn-effect-none.cn-position-bottom.cookie-revoke-hidden
+
+
+!mediafire.com cookie banner - found via python (so not tested)
+!Be careful when visiting this site - some of the files/pages are malware
+
+!Hide the banner and delete the consent cookie
+mediafire.com##.CookieAcceptance
+mediafire.com###cookie-accept-footer
+mediafire.com##+js(cookie-remover,accept-cookies)
+
+!Hide the banner and delete the cookie
+www.codespeedy.com###catapult-cookie-bar
+www.codespeedy.com##+js(cookie-remover,catAccCookies)
+www.codespeedy.com###catapultCookie
+!Get rid of the remaining ads
+! 2021-05-09 https://www.codespeedy.com
+www.codespeedy.com##div.height_250_ad
+
+!Commonsensemedia paywall
+www.commonsensemedia.org##+js(cookie-remover,STYXKEY-content-gating-SR1)
+www.commonsensemedia.org##+js(cookie-remover,__cfduid)
+www.commonsensemedia.org##+js(aeld, scroll)
+www.commonsensemedia.org###csm-premium-gate
+
+!Hide the banner and delete the cookie
+www.urlvoid.com##+js(cookie-remover,cookiebanner-accepted)
+www.urlvoid.com##.cookiebanner
+
+!Time.com paywall
+!Delete all the cookies
+time.com##+js(cookie-remover,time_meter)
+time.com##+js(cookie-remover,OptanonConsent)
+time.com##+js(cookie-remover,usprivacy)
+! 2021-05-10 https://time.com
+time.com##.roadblock.hide-on-mobile.can-animate.meter-wall.component
+
+!www.nytimes.com paywall
+www.nytimes.com##+js(cookie-remover,datadome)
+www.nytimes.com##+js(cookie-remover,nyt-a)
+www.nytimes.com##+js(cookie-remover,nyt-auth-action)
+www.nytimes.com##+js(cookie-remover,nyt-gdpr)
+www.nytimes.com##+js(cookie-remover,nyt-geo)
+www.nytimes.com##+js(cookie-remover,nyt-purr)
+www.nytimes.com##+js(cookie-remover,nyt-us)
+! 2021-05-11 https://www.nytimes.com
+www.nytimes.com##.e1x0szx60.css-17nqy7q.expanded-dock.expanded.shown.MAG_web_regi_us_sale_apple-pay-dock-ecd-test
+
+! 2021-05-11 https://www.nytimes.com
+www.nytimes.com##div.egw6tc41.css-et84d3:nth-of-type(2)
+www.nytimes.com##.e1x0szx60.css-17nqy7q.expanded-dock.shown.MAG_web_regi_us_sale_apple-pay-dock-ecd-test
+www.nytimes.com##.nytcp-opt.css-1kj7lfb > .ez4a0qj0.css-zbkuyb
+
+!www.britannica.com tracking. 
+www.britannica.com##+js(cookie-remover,webstats)
+www.britannica.com##+js(cookie-remover,usprivacy)
+www.britannica.com##+js(cookie-remover,__mendel)
+
+! More paywall
+! 2021-05-11 https://www.independent.co.uk
+www.independent.co.uk##.bjWcZt.sc-ptRml
+www.independent.co.uk##.jEfqsK.sc-pZnSc
+www.independent.co.uk##.eAffPM.sc-qPwPv
+
+www.independent.co.uk##+js(cookie-remover,fresh8_toggle)
+
+!Annoying, scroll locking, cookie consent popup
+! 2021-05-13 https://www.fsma.be
+www.fsma.be###CybotCookiebotDialog
+www.fsma.be###CybotCookiebotDialogBodyUnderlay
+www.fsma.be##+js(cookie-remover,CookieConsent)
+www.fsma.be##+js(cookie-remover,has_js)
+www.fsma.be##+js(aeld,scroll)
+||consent.cookiebot.com/20b54b69-4b4d-48f1-9364-75c0686444e6/cc.js$script,domain=www.fsma.be
+||consentcdn.cookiebot.com/consentconfig/20b54b69-4b4d-48f1-9364-75c0686444e6/fsma.be/configuration.js$script,domain=www.fsma.be
+
+
+!Reddit "get premium"
+##.premium-banner
+
+!MyWot trying to get you to install the extension
+! 2021-05-05 https://www.mywot.com
+www.mywot.com##.fmdjuL.StyledIntroSection__IntroContent-zlf7ux-1.StyledUtils__FlexColumn-sc-14r66vj-1 > .ohnJg.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0 > .jss297.jss295.jss122.jss113.jss112.jss110.jss109.jss98.jss124
+
+! 2021-05-03 https://www.mywot.com
+www.mywot.com##.faGFby.StyledFloatingHorizontalAddWOT__FloatingHorizontalAddWOTContainer-sc-8kea3v-0.StyledUtils__FlexRow-sc-14r66vj-0
+
+! 2021-05-04 https://www.mywot.com
+www.mywot.com##.fmdjuL.StyledIntroSection__IntroContent-zlf7ux-1.StyledUtils__FlexColumn-sc-14r66vj-1 > .ohnJg.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0 > .jss319.jss317.jss122.jss113.jss112.jss110.jss109.jss98.jss124
+! 2021-05-03 https://www.mywot.com
+www.mywot.com##.kxzBLN.StyledRectangleDesktopConversionBanner__RectangleDesktopConversionBannerContainer-sc-1kgcajq-0.StyledUtils__FlexColumn-sc-14r66vj-1
+www.mywot.com##.dLClwL.StyledCookiesConsent__CookiesConsentContainer-sc-1hx0re8-0.StyledUtils__FlexRow-sc-14r66vj-0
+www.mywot.com##.kQDsFi.StyledPopup__PopupContainer-sc-1ql589a-0.StyledUtils__FlexColumn-sc-14r66vj-1
+www.mywot.com##.fizXGU.StyledHorizontalAddWOT-z0aeqf-0.StyledUtils__FlexRow-sc-14r66vj-0
+! 2021-03-21 https://www.mywot.com
+www.mywot.com##.jss332.jss334.jss132.jss123.jss122.jss120.jss119.jss108.jss134
+www.mywot.com##.bTrYWJ.StyledHorizontalAddWOT-z0aeqf-0.StyledUtils__FlexRow-sc-14r66vj-0
+! 2021-03-21 https://www.mywot.com
+www.mywot.com##.faGFby.StyledFloatingHorizontalAddWOT__FloatingHorizontalAddWOTContainer-sc-8kea3v-0.StyledUtils__FlexRow-sc-14r66vj-0
+www.mywot.com##.dLClwL.StyledCookiesConsent__CookiesConsentContainer-sc-1hx0re8-0.StyledUtils__FlexRow-sc-14r66vj-0
+www.mywot.com##.kQDsFi.StyledPopup__PopupContainer-sc-1ql589a-0.StyledUtils__FlexColumn-sc-14r66vj-1
+www.mywot.com##.byIuiX.StyledRectangleDesktopConversionBanner__RectangleDesktopConversionBannerContainer-sc-1kgcajq-0.StyledUtils__FlexColumn-sc-14r66vj-1
+www.mywot.com##.jss327.jss329.jss132.jss123.jss122.jss120.jss119.jss108.jss134
+
+! 2021-03-23 https://www.mywot.com
+www.mywot.com##.eYusTO.StyledScorecardHeader__Row-sc-1j5xgrs-3.StyledUtils__FlexRow-sc-14r66vj-0 > .gyaPxX.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0
+
+! 2021-03-24 https://www.mywot.com
+www.mywot.com##.fmdjuL.StyledIntroSection__IntroContent-zlf7ux-1.StyledUtils__FlexColumn-sc-14r66vj-1 > .gyaPxX.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0 > .jss298.jss296.jss124.jss115.jss114.jss112.jss111.jss100.jss126
+www.mywot.com##.bHRuhF.StyledFloatingAddWOT__FloatingAddWOTContainer-x3wli8-0.StyledUtils__FlexColumn-sc-14r66vj-1
+
+! 2021-04-05 https://www.mywot.com
+www.mywot.com##.fmdjuL.StyledIntroSection__IntroContent-zlf7ux-1.StyledUtils__FlexColumn-sc-14r66vj-1 > .gyaPxX.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0 > .jss297.jss295.jss122.jss113.jss112.jss110.jss109.jss98.jss124
+
+
+! 2021-04-22 https://www.mywot.com
+www.mywot.com##.fizXGU.StyledHorizontalAddWOT-z0aeqf-0.StyledUtils__FlexRow-sc-14r66vj-0
+
+! 2021-04-29 https://www.mywot.com
+www.mywot.com##.fmdjuL.StyledIntroSection__IntroContent-zlf7ux-1.StyledUtils__FlexColumn-sc-14r66vj-1 > .ohnJg.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0 > .jss297.jss295.jss122.jss113.jss112.jss110.jss109.jss98.jss124
+
+
+
+!More sign up/paywall
+
+! 2021-04-26 https://www.geeksforgeeks.org
+www.geeksforgeeks.org##.side--container_wscard > [href^="https://premium.geeksforgeeks.org/premium-plans/"]
+
