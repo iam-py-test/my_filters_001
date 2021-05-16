@@ -1,6 +1,9 @@
 ! Title: Domains and urls with porn and adult content
-!Commit: Switch from HOSTS to uBlock Origin style
-!Porn
+! Description: This list is designed to block porn, shocksites, and other adult websites. 
+! Expires: 1 day
+! Homepage: https://github.com/iam-py-test/my_filters_001
+! Last updated: 16/5/2021
+!Porn websites
 shesfreaky.com
 eroticbeauties.net
 milffox.com
