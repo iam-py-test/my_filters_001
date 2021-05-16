@@ -1,0 +1,37 @@
+! Title: Domains and urls with porn and adult content
+!Commit: Switch from HOSTS to uBlock Origin style
+!Porn
+shesfreaky.com
+eroticbeauties.net
+milffox.com
+xbabe.com
+sex.com
+scandalplanet.com
+galleries.nubiles.net
+!https://duckduckgo.com/?q=porn&t=ffab&iar=images&iax=images&ia=images&iai=https%3A%2F%2Fphotos.freeones.com%2Fv_various%2FBlacked%2FSkye_West_001%2Fimages%2FSkye-West-interracial-porn(4).jpg
+!Be sure to block images and visit in private mode
+photos.freeones.com
+freeones.com
+pornid.xxx
+fapality.com
+! https://www.pcworld.com/article/2034864/just-how-much-malware-is-on-free-porn-sites-.html
+burningangel.com
+brazzers.com
+suicidegirls.com
+! https://transparencyreport.google.com/safe-browsing/search?url=pornhub.com
+pornhub.com
+! https://blog.dynamoo.com/2013/04/top-porn-sites-lead-to-malware.html
+xvideos.com
+livejasmin.com
+redtube.com
+!https://www.mywot.com/scorecard/xnxx.com
+xnxx.com
+youporn.com
+adultfriendfinder.com
+!More porn
+allcuteteens.com
+!https://www.siteadvisor.com/sitereport.html?url=findxxx.net
+findxxx.net
+
+!Shock sites
+!
