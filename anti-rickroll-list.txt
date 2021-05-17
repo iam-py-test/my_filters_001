@@ -17,7 +17,8 @@ secretrickroll.com$all
 /*rickroll$frame,redirect=click2load.html
 rickroll$frame,redirect=click2load.html
 !Block rickroll links
-##[href*=rickroll]
+!Removed due to breakage which forced me to make this change on another device 
+!##[href*=rickroll]
 !YouTube rickrolling
 youtube.com##:has-text(rickroll)
 ||youtube.com/results?search_query=rick+roll$document
