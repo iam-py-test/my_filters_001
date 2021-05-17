@@ -172,6 +172,9 @@ xhamster2.com
 ! https://github.com/uBlockOrigin/uAssets/issues/8909
 ! https://www.siteadvisor.com/sitereport.html?url=epornstore.com
 epornstore.com
+! https://github.com/uBlockOrigin/uAssets/issues/8908
+! https://www.siteadvisor.com/sitereport.html?url=lewdstars.com
+lewdstars.com
 
 ! Porn from unsafe_domains.txt
 ! More porn domains
