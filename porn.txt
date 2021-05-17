@@ -187,6 +187,10 @@ imgdawgknuttz.com
 ! https://github.com/uBlockOrigin/uAssets/issues/8784
 ! https://www.siteadvisor.com/sitereport.html?url=xfreepornsite.com
 xfreepornsite.com
+! https://github.com/uBlockOrigin/uAssets/issues/8775
+! https://www.siteadvisor.com/sitereport.html?url=hentaidude.com
+! https://www.mywot.com/scorecard/hentaidude.com
+hentaidude.com
 
 ! Porn from unsafe_domains.txt
 ! More porn domains
