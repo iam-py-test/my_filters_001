@@ -126,9 +126,52 @@ pornobit.mobi
 ! https://www.siteadvisor.com/sitereport.html?url=hentaicloud.com
 ! https://www.mywot.com/scorecard/hentaicloud.com
 hentaicloud.com
+! https://github.com/uBlockOrigin/uAssets/issues/9110
+! https://www.siteadvisor.com/sitereport.html?url=influencersgonewild.com
+influencersgonewild.com
+! https://github.com/uBlockOrigin/uAssets/issues/8940
+! https://www.siteadvisor.com/sitereport.html?url=pornohans.com
+pornohans.com
+! https://github.com/uBlockOrigin/uAssets/issues/8915
+! https://www.siteadvisor.com/sitereport.html?url=biguz.net
+biguz.net
+! https://github.com/uBlockOrigin/uAssets/issues/8910
+! https://www.siteadvisor.com/sitereport.html?url=xhamster8.desi
+xhamster8.desi
+! https://www.siteadvisor.com/sitereport.html?url=xhamster7.desi
+xhamster7.desi
+! https://www.siteadvisor.com/sitereport.html?url=xhamster10.desi
+xhamster10.desi
+! https://github.com/uBlockOrigin/uAssets/commit/21e602140f90ab8ac79f895a1226b7db00c8c423
+! https://www.siteadvisor.com/sitereport.html?url=xhamsterlive.com
+xhamsterlive.com
+! https://www.siteadvisor.com/sitereport.html?url=xhamsterpremium.com
+xhamsterpremium.com
+! https://www.siteadvisor.com/sitereport.html?url=fullxh.com
+fullxh.com
+! https://www.siteadvisor.com/sitereport.html?url=unlockxh4.com
+unlockxh4.com
+! https://www.siteadvisor.com/sitereport.html?url=xhamster46.com
+xhamster46.com
+! Larger blocking filters
+xhamster4.*
+xhamster1.*
+xhamster5.*
+! https://www.siteadvisor.com/sitereport.html?url=xhamster11.com
+xhamster11.com
+! https://www.siteadvisor.com/sitereport.html?url=xhamster12.com
+xhamster12.com
+! https://www.siteadvisor.com/sitereport.html?url=xhamster13.com
+xhamster13.com
+! https://www.siteadvisor.com/sitereport.html?url=xhamster14.com
+xhamster14.com
+! https://www.siteadvisor.com/sitereport.html?url=xhamster15.com
+xhamster15.com
+! https://www.siteadvisor.com/sitereport.html?url=xhamster2.com
+xhamster2.com
 
-!Porn from unsafe_domains.txt
-!More porn domains
+! Porn from unsafe_domains.txt
+! More porn domains
 ! https://github.com/blocklistproject/Lists/issues/310
 bestporncomix.com
 worldporncomix.com
