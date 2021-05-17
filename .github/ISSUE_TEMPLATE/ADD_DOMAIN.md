@@ -2,7 +2,7 @@
 name: Unblocked domain report
 about: Report an ublocked domain
 title: ''
-labels: ''
+labels: 'Add domain'
 assignees: ''
 ---
 
