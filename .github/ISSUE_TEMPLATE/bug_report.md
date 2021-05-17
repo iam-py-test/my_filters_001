@@ -11,6 +11,7 @@ assignees: ''
 - [ ] AdGuard (browser)
 - [ ] uBlock Origin 
 - [ ] Other (explain)
+### What OS/browser do you have (optional)
 
 ### What list(s) are you using?
 - [ ] Porn.txt
@@ -22,3 +23,6 @@ assignees: ''
 ### What is the issue?
 
 - [ ] Is this a feature request?
+- [ ] Is this site breakage?
+#### If it is site breakage, how is the site broken:
+
