@@ -18,7 +18,7 @@ assignees: ''
 - [ ] Antimalware
 - [ ] Other (explain)
 ### What other lists do you have (optional - helps me find the problem)
-<br/>
+
 ### What is the issue?
 
 - [ ] Is this a feature request?
