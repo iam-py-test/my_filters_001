@@ -70,6 +70,49 @@ pornhubpremium.com
 ! https://www.mywot.com/scorecard/hot.xxx
 ! https://www.siteadvisor.com/sitereport.html?url=hot.xxx
 hot.xxx
+!From https://github.com/DandelionSprout/adfilt/blob/master/AntiAbusePorn.txt
+! https://www.siteadvisor.com/sitereport.html?url=rule34.xxx
+! https://www.mywot.com/en/scorecard/rule34.xxx
+rule34.xxx
+! https://www.siteadvisor.com/sitereport.html?url=gelbooru.com
+! https://www.mywot.com/scorecard/gelbooru.com
+gelbooru.com
+! https://www.mywot.com/scorecard/sankakucomplex.com
+! https://www.siteadvisor.com/sitereport.html?url=sankakucomplex.com
+sankakucomplex.com
+! https://www.mywot.com/scorecard/tbib.org
+! https://www.siteadvisor.com/sitereport.html?url=tbib.org
+tbib.org
+! https://www.siteadvisor.com/sitereport.html?url=xbooru.com
+! https://www.mywot.com/scorecard/xbooru.com
+xbooru.com
+! https://www.siteadvisor.com/sitereport.html?url=megabooru.com
+megabooru.com
+! https://www.siteadvisor.com/sitereport.html?url=zombooru.com
+zombooru.com
+! https://www.siteadvisor.com/sitereport.html?url=kusubooru.com
+kusubooru.com
+! https://www.siteadvisor.com/sitereport.html?url=tentaclerape.net
+tentaclerape.net
+! https://www.siteadvisor.com/sitereport.html?url=konachan.com
+konachan.com
+! https://www.siteadvisor.com/sitereport.html?url=yande.re
+! https://www.mywot.com/scorecard/yande.re
+yande.re
+! https://www.siteadvisor.com/sitereport.html?url=hypnohub.net
+! https://www.mywot.com/scorecard/hypnohub.net
+hypnohub.net
+! https://www.siteadvisor.com/sitereport.html?url=lolibooru.moe
+! https://www.mywot.com/scorecard/lolibooru.moe
+lolibooru.moe
+pornhubthbh7ap3u.onion
+! https://www.siteadvisor.com/sitereport.html?url=9hentai.com
+9hentai.com
+! https://www.siteadvisor.com/sitereport.html?url=scatpornxxx.com
+scatpornxxx.com
+! https://www.siteadvisor.com/sitereport.html?url=scatxxxporntube.com
+scatxxxporntube.com
+
 !Porn from unsafe_domains.txt
 !More porn domains
 ! https://github.com/blocklistproject/Lists/issues/310
@@ -89,6 +132,7 @@ hdhentaicomics.com
 comixzilla.com
 comicporns.com
 8muses.net
+
 
 !Shock sites
 ! https://someonewhocares.org/hosts/
