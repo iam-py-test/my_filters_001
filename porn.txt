@@ -169,6 +169,9 @@ xhamster14.com
 xhamster15.com
 ! https://www.siteadvisor.com/sitereport.html?url=xhamster2.com
 xhamster2.com
+! https://github.com/uBlockOrigin/uAssets/issues/8909
+! https://www.siteadvisor.com/sitereport.html?url=epornstore.com
+epornstore.com
 
 ! Porn from unsafe_domains.txt
 ! More porn domains
