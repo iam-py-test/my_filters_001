@@ -184,7 +184,9 @@ kaotic.com
 ! https://github.com/uBlockOrigin/uAssets/pull/8811
 ! https://www.siteadvisor.com/sitereport.html?url=imgdawgknuttz.com
 imgdawgknuttz.com
-
+! https://github.com/uBlockOrigin/uAssets/issues/8784
+! https://www.siteadvisor.com/sitereport.html?url=xfreepornsite.com
+xfreepornsite.com
 
 ! Porn from unsafe_domains.txt
 ! More porn domains
