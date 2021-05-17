@@ -10,7 +10,7 @@ secretrickroll.com$all
 ##[srcset*=rickroll]
 ##img[alt*=rickroll]
 !Block anything related to rickrolling except frames and xhrs, which are blocked separately. 
-/*rickroll$all,~frame,~xhr,domain=~wikipedia.org,~github.com
+/*rickroll$all,~frame,~xhr,domain=~wikipedia.org|~github.com|~githubusercontent.com
 !Block rickroll related xhrs
 /*rickroll$xhr,redirect=noop.txt
 !Make rickroll frames click2load
