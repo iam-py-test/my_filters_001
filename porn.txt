@@ -311,3 +311,6 @@ xxxtube.com
 ! https://someonewhocares.org/hosts/
 ! https://www.mywot.com/scorecard/lolshock.com
 lolshock.com
+
+! URLs
+||duckduckgo.com/?t=ffab&q=porn+sites$doc
