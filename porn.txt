@@ -48,6 +48,9 @@ xhamster.com
 !https://github.com/iam-py-test/my_filters_001/issues/10
 !https://blog.dynamoo.com/2013/04/top-porn-sites-lead-to-malware.html
 xvideos.com
+!https://www.mywot.com/scorecard/sex.xxx
+sex.xxx
 
 !Shock sites
-!
+!https://www.mywot.com/scorecard/lolshock.com
+lolshock.com
