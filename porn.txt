@@ -181,6 +181,10 @@ redgifs.com
 ! https://github.com/uBlockOrigin/uAssets/issues/8813
 ! https://www.siteadvisor.com/sitereport.html?url=kaotic.com
 kaotic.com
+! https://github.com/uBlockOrigin/uAssets/pull/8811
+! https://www.siteadvisor.com/sitereport.html?url=imgdawgknuttz.com
+imgdawgknuttz.com
+
 
 ! Porn from unsafe_domains.txt
 ! More porn domains
