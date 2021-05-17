@@ -39,18 +39,21 @@ findxxx.net
 sexy-lips.ru
 !https://github.com/iam-py-test/my_filters_001/issues/5
 0dayporno.com
-!https://github.com/iam-py-test/my_filters_001/issues/6
+! https://github.com/iam-py-test/my_filters_001/issues/6
 101boyvideos.com
-!https://github.com/iam-py-test/my_filters_001/issues/8
+! https://github.com/iam-py-test/my_filters_001/issues/8
 1youngteenporn.com
-!https://github.com/iam-py-test/my_filters_001/issues/9
+! https://github.com/iam-py-test/my_filters_001/issues/9
 xhamster.com
-!https://github.com/iam-py-test/my_filters_001/issues/10
-!https://blog.dynamoo.com/2013/04/top-porn-sites-lead-to-malware.html
+! https://github.com/iam-py-test/my_filters_001/issues/10
+! https://blog.dynamoo.com/2013/04/top-porn-sites-lead-to-malware.html
 xvideos.com
-!https://www.mywot.com/scorecard/sex.xxx
+! https://www.mywot.com/scorecard/sex.xxx
 sex.xxx
+!A random domain I made up
+! https://www.siteadvisor.com/sitereport.html?url=sexy-girls.com
+sexy-girls.com
 
 !Shock sites
-!https://www.mywot.com/scorecard/lolshock.com
+! https://www.mywot.com/scorecard/lolshock.com
 lolshock.com
