@@ -1,4 +1,4 @@
-! Title: Notespad antirickroll list - a list to block rickrolls
+! Title: Antirickroll list - a list to block rickrolls
 ! Description: Rickrolls are an annoying prank which is spreading on the internet. This list is designed to block known rickroll sites and rickroll images. It will be decommissioned once this dumb prank stops being popular.
 !A rickroll website
 secretrickroll.com$all
