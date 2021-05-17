@@ -22,7 +22,8 @@ burningangel.com
 brazzers.com
 suicidegirls.com
 ! https://transparencyreport.google.com/safe-browsing/search?url=pornhub.com
-pornhub.com
+! Already blocked
+!pornhub.com
 ! https://blog.dynamoo.com/2013/04/top-porn-sites-lead-to-malware.html
 xvideos.com
 livejasmin.com
@@ -288,7 +289,8 @@ youporn.com
 xvideos.com
 livejasmin.com
 redtube.com
-
+! https://www.mywot.com/scorecard/pornhub.net
+pornhub.net
 
 !Shock sites
 ! https://someonewhocares.org/hosts/
