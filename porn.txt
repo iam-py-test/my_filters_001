@@ -175,6 +175,9 @@ epornstore.com
 ! https://github.com/uBlockOrigin/uAssets/issues/8908
 ! https://www.siteadvisor.com/sitereport.html?url=lewdstars.com
 lewdstars.com
+! https://github.com/uBlockOrigin/uAssets/issues/8904
+! https://www.siteadvisor.com/sitereport.html?url=redgifs.com
+redgifs.com
 
 ! Porn from unsafe_domains.txt
 ! More porn domains
