@@ -233,6 +233,61 @@ hdhentaicomics.com
 comixzilla.com
 comicporns.com
 8muses.net
+!More porn/shock sites 
+! https://someonewhocares.org/hosts/
+! https://www.siteadvisor.com/sitereport.html?url=www.theexgirlfriends.com
+!https://www.virustotal.com/gui/domain/theexgirlfriends.com/detection
+www.theexgirlfriends.com
+theexgirlfriends.com
+!Even more porn
+! https://www.mywot.com/en/scorecard/0dayporno.com
+! https://github.com/iam-py-test/my_filters_001/issues/5
+0dayporno.com
+!Moved from badware.txt
+1youngteenporn.com
+! https://www.siteadvisor.com/sitereport.html?url=porn.biz
+! https://safeweb.norton.com/report/show?url=porn.biz
+! https://www.mywot.com/en/scorecard/porn.biz
+porn.biz
+! Porn sites are all around bad, and no one should ever visit them. 
+! https://www.nbcnews.com/id/wbna51498128
+! https://www.pcworld.com/article/2034864/just-how-much-malware-is-on-free-porn-sites-.html
+! https://blog.dynamoo.com/2013/04/top-porn-sites-lead-to-malware.html
+xhamster.com
+pornhub.com
+tube8.com
+youjizz.com
+!Strangly the same name as a malware (technically spyware) file. Wonder why???
+xnxx.com
+!Malware
+exposedcamz-live.com
+ceskeporno.tv
+brandreachsys.com
+traffichaus.com
+crakmedia.com
+rodriguezwoca.com.ar
+crucerosinfantiles.com.ar
+ingenet.com.ar
+trafficjunky.net
+gammae.com
+rockwork.ch
+gaypornplanet.com
+xgaytube.com
+pornmd.com
+tube8.com
+btsinvestments.com
+nymphdate.com
+dirtymechanics.org
+pornmd.com
+crakmedia.com
+justanaffiliate.com
+! Might be bad, and no one should visit these sites anyway
+!https://www.pcworld.com/article/206107/most_dangerous_places_on_the_web.html (Lists porn as one source of malware)
+adultfriendfinder.com
+youporn.com
+xvideos.com
+livejasmin.com
+redtube.com
 
 
 !Shock sites
