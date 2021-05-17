@@ -11,7 +11,7 @@ xbabe.com
 sex.com
 scandalplanet.com
 galleries.nubiles.net
-!https://duckduckgo.com/?q=porn&t=ffab&iar=images&iax=images&ia=images&iai=https%3A%2F%2Fphotos.freeones.com%2Fv_various%2FBlacked%2FSkye_West_001%2Fimages%2FSkye-West-interracial-porn(4).jpg
+! https://duckduckgo.com/?q=porn&t=ffab&iar=images&iax=images&ia=images&iai=https%3A%2F%2Fphotos.freeones.com%2Fv_various%2FBlacked%2FSkye_West_001%2Fimages%2FSkye-West-interracial-porn(4).jpg
 !Be sure to block images and visit in private mode
 photos.freeones.com
 freeones.com
@@ -27,30 +27,44 @@ pornhub.com
 xvideos.com
 livejasmin.com
 redtube.com
-!https://www.mywot.com/scorecard/xnxx.com
+! https://www.mywot.com/scorecard/xnxx.com
 xnxx.com
 youporn.com
 adultfriendfinder.com
 !More porn
 allcuteteens.com
-!https://www.siteadvisor.com/sitereport.html?url=findxxx.net
+! https://www.siteadvisor.com/sitereport.html?url=findxxx.net
 findxxx.net
-!https://github.com/iam-py-test/my_filters_001/issues/4
+! https://github.com/iam-py-test/my_filters_001/issues/4
 sexy-lips.ru
-!https://github.com/iam-py-test/my_filters_001/issues/5
+! https://github.com/iam-py-test/my_filters_001/issues/5
 0dayporno.com
-!https://github.com/iam-py-test/my_filters_001/issues/6
+! https://github.com/iam-py-test/my_filters_001/issues/6
 101boyvideos.com
-!https://github.com/iam-py-test/my_filters_001/issues/8
+! https://github.com/iam-py-test/my_filters_001/issues/8
 1youngteenporn.com
-!https://github.com/iam-py-test/my_filters_001/issues/9
+! https://github.com/iam-py-test/my_filters_001/issues/9
 xhamster.com
-!https://github.com/iam-py-test/my_filters_001/issues/10
-!https://blog.dynamoo.com/2013/04/top-porn-sites-lead-to-malware.html
+! https://github.com/iam-py-test/my_filters_001/issues/10
+! https://blog.dynamoo.com/2013/04/top-porn-sites-lead-to-malware.html
 xvideos.com
-!https://www.mywot.com/scorecard/sex.xxx
+! https://www.mywot.com/scorecard/sex.xxx
 sex.xxx
+!A random domain I made up
+! https://www.siteadvisor.com/sitereport.html?url=sexy-girls.com
+sexy-girls.com
+! https://www.siteadvisor.com/sitereport.html?url=porn.xxx
+! https://www.mywot.com/en/scorecard/porn.xxx
+porn.xxx
+! https://www.mywot.com/scorecard/porn.biz
+! http://www.siteadvisor.com/sitereport.html?url=porn.biz
+porn.biz
+! https://www.mywot.com/scorecard/sexy.com
+sexy.com
+! https://www.mywot.com/scorecard/hotgirls.com
+hotgirls.com
 
 !Shock sites
-!https://www.mywot.com/scorecard/lolshock.com
+! https://someonewhocares.org/hosts/
+! https://www.mywot.com/scorecard/lolshock.com
 lolshock.com
