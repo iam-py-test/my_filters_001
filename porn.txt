@@ -206,6 +206,13 @@ qcock.com
 ! https://github.com/uBlockOrigin/uAssets/issues/9116
 ! https://www.fortiguard.com/webfilter?q=justanime.net
 justanime.net
+! A few random domains I made up
+! https://www.siteadvisor.com/sitereport.html?url=pornxxx.net
+pornxxx.net
+! https://www.siteadvisor.com/sitereport.html?url=xxx.net
+xxx.net
+! https://www.siteadvisor.com/sitereport.html?url=xxxgirls.net
+xxxgirls.net
 
 ! Porn from unsafe_domains.txt
 ! More porn domains
