@@ -63,6 +63,10 @@ porn.biz
 sexy.com
 ! https://www.mywot.com/scorecard/hotgirls.com
 hotgirls.com
+! https://github.com/uBlockOrigin/uAssets/issues/9102
+! https://www.mywot.com/scorecard/pornhubpremium.com
+! https://siteadvisor.com/sitereport.html?url=pornhubpremium.com
+pornhubpremium.com
 
 !Shock sites
 ! https://someonewhocares.org/hosts/
