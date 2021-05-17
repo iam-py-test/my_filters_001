@@ -49,6 +49,11 @@ www.nationalgeographic.com###fittPortal_0 > .no-touch.bp-desktopLGPlus.bp-deskto
 !Allow scrolling
 nationalgeographic.com##+js(aeld, scroll)
 
+! 2021-05-17 https://www.opera.com
+www.opera.com##.cookie-consent
+www.opera.com##+js(cookie-remover,operf)
+addons.opera.com###overlay
+
 !Cookie banners
 ! 2021-04-12 https://blavity.com
 blavity.com##.Cookie--blood-orange.Cookie--bottom.Cookie
