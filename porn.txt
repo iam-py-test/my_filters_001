@@ -59,6 +59,8 @@ porn.xxx
 ! https://www.mywot.com/scorecard/porn.biz
 ! http://www.siteadvisor.com/sitereport.html?url=porn.biz
 porn.biz
+! https://www.mywot.com/scorecard/sexy.com
+sexy.com
 
 !Shock sites
 ! https://someonewhocares.org/hosts/
