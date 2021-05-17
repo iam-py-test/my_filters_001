@@ -13,9 +13,9 @@ assignees: ''
 - [ ] Other (explain)
 
 ###What list(s) are you using?
-- [ ]Porn.txt
+- [ ] Porn.txt
 - [ ] Antirickroll
-- [ ]Antimalware
+- [ ] Antimalware
 - [ ] Other (explain)
 ###What other lists do you have (optional - helps me find the problem)
 
