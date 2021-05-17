@@ -82,8 +82,8 @@ youtube.com##:has-text(rickroll)
 ||youtube.com/watch?v=ZXpThNX9IRc$document,frame
 ||youtube.com/watch?v=IpLUifjqlIs$document,frame
 ||youtube.com/watch?v=8EQRGf9GQPU$document,frame
-||youtube.com/watch?v=z6pBDrF7seo$document,frame
 !
+||youtube.com/watch?v=z6pBDrF7seo$document,frame
 ||youtube.com/watch?v=bxqLsrlakK8$document,frame
 ||youtube.com/watch?v=PhdSYf4uGjA$document,frame
 ||youtube.com/watch?v=8CfCBhfaJk4$document,frame
@@ -97,10 +97,10 @@ youtube.com##:has-text(rickroll)
 !Embed catch-all?
 ||youtube*.com/*gC7Plr1DgiI$all,redirect=click2load.html
 ||youtube*.com/*dQw4w9WgXcQ$all,redirect=click2load.html
-||youtube*6_b7RDuLwcI$all,redirect=click2load.html
-||youtube*1RY8-NddZso$all,redirect=click2load.html
-||youtube*4vfdufpZFJs$all,redirect=click2load.html
-||youtube*8CfCBhfaJk4$all,redirect=click2load.html
+||youtube*.com/*6_b7RDuLwcI$all,redirect=click2load.html
+||youtube*.com/*1RY8-NddZso$all,redirect=click2load.html
+||youtube*.com/*4vfdufpZFJs$all,redirect=click2load.html
+||youtube*.com/*8CfCBhfaJk4$all,redirect=click2load.html
 ||youtube*PhdSYf4uGjA$all
 ||youtube*bxqLsrlakK8$all
 ||youtube*hicswukmwow$all
