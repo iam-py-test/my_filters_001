@@ -203,6 +203,9 @@ sextvx.com
 ! https://github.com/uBlockOrigin/uAssets/issues/8720
 ! https://www.siteadvisor.com/sitereport.html?url=qcock.com
 qcock.com
+! https://github.com/uBlockOrigin/uAssets/issues/9116
+! https://www.fortiguard.com/webfilter?q=justanime.net
+justanime.net
 
 ! Porn from unsafe_domains.txt
 ! More porn domains
