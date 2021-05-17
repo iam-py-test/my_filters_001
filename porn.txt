@@ -70,6 +70,25 @@ pornhubpremium.com
 ! https://www.mywot.com/scorecard/hot.xxx
 ! https://www.siteadvisor.com/sitereport.html?url=hot.xxx
 hot.xxx
+!Porn from unsafe_domains.txt
+!More porn domains
+! https://github.com/blocklistproject/Lists/issues/310
+bestporncomix.com
+worldporncomix.com
+wporncomics.com
+erocomicsxxx.com
+hentaicomicsonline.com
+fotonovelasxxx.com
+www.sexcomix.me
+comix.site
+hornyson.com
+porncomixinfo.net
+porncomics.name
+8-muses.xyz
+hdhentaicomics.com
+comixzilla.com
+comicporns.com
+8muses.net
 
 !Shock sites
 ! https://someonewhocares.org/hosts/
