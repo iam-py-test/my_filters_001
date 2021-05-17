@@ -1,6 +1,7 @@
 ! Title: Anticookie and Sign up list
 ! Description: Do you find cookie consent and sign up prompts annoying, especially if you already clear you cookies regularly or do not want to sign up to every website you visit. This list attempts to remove those annoyances and a few others. 
 ! Expires: 1 day
+! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Last updated: 14/5/2021
 
 !Cookie consent 
