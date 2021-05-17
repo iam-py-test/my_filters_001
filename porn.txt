@@ -115,6 +115,13 @@ scatxxxporntube.com
 ! https://github.com/uBlockOrigin/uAssets/issues/5030#issue-415429960
 ! https://www.siteadvisor.com/sitereport.html?url=nijie.info
 nijie.info
+! https://github.com/uBlockOrigin/uAssets/issues/8995
+! https://www.siteadvisor.com/sitereport.html?url=my.pornobit.me
+my.pornobit.me
+! https://www.siteadvisor.com/sitereport.html?url=pornobit.me
+pornobit.me
+! https://www.siteadvisor.com/sitereport.html?url=pornobit.mobi
+pornobit.mobi
 
 !Porn from unsafe_domains.txt
 !More porn domains
