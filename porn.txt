@@ -1,4 +1,4 @@
-! Title: Domains and urls with porn and adult content
+! Title: Pornography blocklist
 ! Description: This list is designed to block porn, shocksites, and other adult websites. 
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
