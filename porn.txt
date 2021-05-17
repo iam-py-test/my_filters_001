@@ -122,6 +122,10 @@ my.pornobit.me
 pornobit.me
 ! https://www.siteadvisor.com/sitereport.html?url=pornobit.mobi
 pornobit.mobi
+! https://github.com/uBlockOrigin/uAssets/issues/8988
+! https://www.siteadvisor.com/sitereport.html?url=hentaicloud.com
+! https://www.mywot.com/scorecard/hentaicloud.com
+hentaicloud.com
 
 !Porn from unsafe_domains.txt
 !More porn domains
