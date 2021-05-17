@@ -200,6 +200,9 @@ porndish.com
 m.sextvx.com
 ! https://www.siteadvisor.com/sitereport.html?url=sextvx.com
 sextvx.com
+! https://github.com/uBlockOrigin/uAssets/issues/8720
+! https://www.siteadvisor.com/sitereport.html?url=qcock.com
+qcock.com
 
 ! Porn from unsafe_domains.txt
 ! More porn domains
