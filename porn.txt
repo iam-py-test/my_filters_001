@@ -191,6 +191,10 @@ xfreepornsite.com
 ! https://www.siteadvisor.com/sitereport.html?url=hentaidude.com
 ! https://www.mywot.com/scorecard/hentaidude.com
 hentaidude.com
+! https://github.com/uBlockOrigin/uAssets/issues/8765
+! https://www.siteadvisor.com/sitereport.html?url=porndish.com
+! https://www.mywot.com/scorecard/porndish.com
+porndish.com
 
 ! Porn from unsafe_domains.txt
 ! More porn domains
