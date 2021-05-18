@@ -221,6 +221,9 @@ fuq.com
 ! https://github.com/uBlockOrigin/uAssets/issues/8463
 ! https://siteadvisor.com/sitereport.html?url=milffox.com
 milffox.com
+! https://github.com/uBlockOrigin/uAssets/pull/7906
+! https://siteadvisor.com/sitereport.html?url=thegay.porn
+thegay.porn
 
 ! Porn from unsafe_domains.txt
 ! More porn domains
