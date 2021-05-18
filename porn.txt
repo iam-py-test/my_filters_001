@@ -224,6 +224,22 @@ milffox.com
 ! https://github.com/uBlockOrigin/uAssets/pull/7906
 ! https://siteadvisor.com/sitereport.html?url=thegay.porn
 thegay.porn
+! https://github.com/alex000kim/nsfw_data_scraper/blob/master/raw_data/porn/urls_porn.txt
+! https://www.siteadvisor.com/sitereport.html?url=hardcoreimpact.com
+! https://www.mywot.com/en/scorecard/hardcoreimpact.com
+hardcoreimpact.com
+! https://www.siteadvisor.com/sitereport.html?url=hardcoregangbang.com
+! https://www.mywot.com/scorecard/hardcoregangbang.com
+hardcoregangbang.com
+! https://www.mywot.com/scorecard/pornpics.com
+pornpics.com
+! https://www.siteadvisor.com/sitereport.html?url=cdn.pornpics.com
+cdn.pornpics.com
+! https://github.com/alex000kim/nsfw_data_scraper/blob/master/raw_data/sexy/urls_sexy.txt
+! https://www.siteadvisor.com/sitereport.html?url=content.japhole.com
+content.japhole.com
+! https://www.siteadvisor.com/sitereport.html?url=japhole.com
+japhole.com
 
 ! Porn from unsafe_domains.txt
 ! More porn domains
