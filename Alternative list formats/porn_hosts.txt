@@ -56,37 +56,37 @@
 127.0.0.1 sexy-girls.com
 # https://www.siteadvisor.com/sitereport.html?url=porn.xxx
 # https://www.mywot.com/en/scorecard/porn.xxx
-porn.xxx
-! https://www.mywot.com/scorecard/porn.biz
-! http://www.siteadvisor.com/sitereport.html?url=porn.biz
-porn.biz
-! https://www.mywot.com/scorecard/sexy.com
-sexy.com
-! https://www.mywot.com/scorecard/hotgirls.com
-hotgirls.com
-! https://github.com/uBlockOrigin/uAssets/issues/9102
-! https://www.mywot.com/scorecard/pornhubpremium.com
-! https://siteadvisor.com/sitereport.html?url=pornhubpremium.com
-pornhubpremium.com
-! https://www.mywot.com/scorecard/hot.xxx
-! https://www.siteadvisor.com/sitereport.html?url=hot.xxx
-hot.xxx
-!From https://github.com/DandelionSprout/adfilt/blob/master/AntiAbusePorn.txt
-! https://www.siteadvisor.com/sitereport.html?url=rule34.xxx
+127.0.0.1 porn.xxx
+# https://www.mywot.com/scorecard/porn.biz
+# http://www.siteadvisor.com/sitereport.html?url=porn.biz
+127.0.0.1 porn.biz
+# https://www.mywot.com/scorecard/sexy.com
+127.0.0.1 sexy.com
+# https://www.mywot.com/scorecard/hotgirls.com
+127.0.0.1 hotgirls.com
+# https://github.com/uBlockOrigin/uAssets/issues/9102
+# https://www.mywot.com/scorecard/pornhubpremium.com
+# https://siteadvisor.com/sitereport.html?url=pornhubpremium.com
+127.0.0.1 pornhubpremium.com
+# https://www.mywot.com/scorecard/hot.xxx
+# https://www.siteadvisor.com/sitereport.html?url=hot.xxx
+127.0.0.1 hot.xxx
+# From https://github.com/DandelionSprout/adfilt/blob/master/AntiAbusePorn.txt
+# https://www.siteadvisor.com/sitereport.html?url=rule34.xxx
 ! https://www.mywot.com/en/scorecard/rule34.xxx
-rule34.xxx
-! https://www.siteadvisor.com/sitereport.html?url=gelbooru.com
-! https://www.mywot.com/scorecard/gelbooru.com
-gelbooru.com
-! https://www.mywot.com/scorecard/sankakucomplex.com
-! https://www.siteadvisor.com/sitereport.html?url=sankakucomplex.com
-sankakucomplex.com
-! https://www.mywot.com/scorecard/tbib.org
-! https://www.siteadvisor.com/sitereport.html?url=tbib.org
-tbib.org
-! https://www.siteadvisor.com/sitereport.html?url=xbooru.com
-! https://www.mywot.com/scorecard/xbooru.com
-xbooru.com
+127.0.0.1 rule34.xxx
+# https://www.siteadvisor.com/sitereport.html?url=gelbooru.com
+# https://www.mywot.com/scorecard/gelbooru.com
+127.0.0.1 gelbooru.com
+# https://www.mywot.com/scorecard/sankakucomplex.com
+# https://www.siteadvisor.com/sitereport.html?url=sankakucomplex.com
+127.0.0.1 sankakucomplex.com
+# https://www.mywot.com/scorecard/tbib.org
+# https://www.siteadvisor.com/sitereport.html?url=tbib.org
+127.0.0.1 tbib.org
+# https://www.siteadvisor.com/sitereport.html?url=xbooru.com
+# https://www.mywot.com/scorecard/xbooru.com
+127.0.0.1 xbooru.com
 ! https://www.siteadvisor.com/sitereport.html?url=megabooru.com
 megabooru.com
 ! https://www.siteadvisor.com/sitereport.html?url=zombooru.com
