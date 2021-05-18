@@ -240,6 +240,10 @@ cdn.pornpics.com
 content.japhole.com
 ! https://www.siteadvisor.com/sitereport.html?url=japhole.com
 japhole.com
+! https://raw.githubusercontent.com/VernonStow/Filterlist/master/Filterlist.txt
+! https://www.mywot.com/scorecard/sniffies.com
+! https://www.siteadvisor.com/sitereport.html?url=sniffies.com
+sniffies.com
 
 ! Porn from unsafe_domains.txt
 ! More porn domains
