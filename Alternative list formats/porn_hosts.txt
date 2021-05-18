@@ -1,0 +1,322 @@
+# Title: Pornography blocklist
+# Description: This list is designed to block porn, shocksites, and other adult websites. 
+# Expires: 1 day
+# Homepage: https://github.com/iam-py-test/my_filters_001
+# Last updated: 16/5/2021
+#Porn websites
+127.0.0.1 shesfreaky.com
+127.0.0.1 eroticbeauties.net
+127.0.0.1 milffox.com
+127.0.0.1 xbabe.com
+127.0.0.1 sex.com
+127.0.0.1 scandalplanet.com
+127.0.0.1 galleries.nubiles.net
+# https://duckduckgo.com/?q=porn&t=ffab&iar=images&iax=images&ia=images&iai=https%3A%2F%2Fphotos.freeones.com%2Fv_various%2FBlacked%2FSkye_West_001%2Fimages%2FSkye-West-interracial-porn(4).jpg
+#Be sure to block images and visit in private mode
+127.0.0.1 photos.freeones.com
+127.0.0.1 freeones.com
+127.0.0.1 pornid.xxx
+127.0.0.1 fapality.com
+# https://www.pcworld.com/article/2034864/just-how-much-malware-is-on-free-porn-sites-.html
+127.0.0.1 burningangel.com
+127.0.0.1 brazzers.com
+127.0.0.1 suicidegirls.com
+# https://transparencyreport.google.com/safe-browsing/search?url=pornhub.com
+# Already blocked
+#pornhub.com
+# https://blog.dynamoo.com/2013/04/top-porn-sites-lead-to-malware.html
+127.0.0.1 xvideos.com
+127.0.0.1 livejasmin.com
+127.0.0.1 redtube.com
+# https://www.mywot.com/scorecard/xnxx.com
+127.0.0.1 xnxx.com
+127.0.0.1 youporn.com
+127.0.0.1 adultfriendfinder.com
+#More porn
+127.0.0.1 allcuteteens.com
+# https://www.siteadvisor.com/sitereport.html?url=findxxx.net
+127.0.0.1 findxxx.net
+# https://github.com/iam-py-test/my_filters_001/issues/4
+127.0.0.1 sexy-lips.ru
+# https://github.com/iam-py-test/my_filters_001/issues/5
+127.0.0.1 0dayporno.com
+# https://github.com/iam-py-test/my_filters_001/issues/6
+127.0.0.1 101boyvideos.com
+# https://github.com/iam-py-test/my_filters_001/issues/8
+127.0.0.1 1youngteenporn.com
+# https://github.com/iam-py-test/my_filters_001/issues/9
+127.0.0.1 xhamster.com
+# https://github.com/iam-py-test/my_filters_001/issues/10
+# https://blog.dynamoo.com/2013/04/top-porn-sites-lead-to-malware.html
+127.0.0.1 xvideos.com
+# https://www.mywot.com/scorecard/sex.xxx
+127.0.0.1 sex.xxx
+#A random domain I made up
+# https://www.siteadvisor.com/sitereport.html?url=sexy-girls.com
+127.0.0.1 sexy-girls.com
+# https://www.siteadvisor.com/sitereport.html?url=porn.xxx
+# https://www.mywot.com/en/scorecard/porn.xxx
+porn.xxx
+! https://www.mywot.com/scorecard/porn.biz
+! http://www.siteadvisor.com/sitereport.html?url=porn.biz
+porn.biz
+! https://www.mywot.com/scorecard/sexy.com
+sexy.com
+! https://www.mywot.com/scorecard/hotgirls.com
+hotgirls.com
+! https://github.com/uBlockOrigin/uAssets/issues/9102
+! https://www.mywot.com/scorecard/pornhubpremium.com
+! https://siteadvisor.com/sitereport.html?url=pornhubpremium.com
+pornhubpremium.com
+! https://www.mywot.com/scorecard/hot.xxx
+! https://www.siteadvisor.com/sitereport.html?url=hot.xxx
+hot.xxx
+!From https://github.com/DandelionSprout/adfilt/blob/master/AntiAbusePorn.txt
+! https://www.siteadvisor.com/sitereport.html?url=rule34.xxx
+! https://www.mywot.com/en/scorecard/rule34.xxx
+rule34.xxx
+! https://www.siteadvisor.com/sitereport.html?url=gelbooru.com
+! https://www.mywot.com/scorecard/gelbooru.com
+gelbooru.com
+! https://www.mywot.com/scorecard/sankakucomplex.com
+! https://www.siteadvisor.com/sitereport.html?url=sankakucomplex.com
+sankakucomplex.com
+! https://www.mywot.com/scorecard/tbib.org
+! https://www.siteadvisor.com/sitereport.html?url=tbib.org
+tbib.org
+! https://www.siteadvisor.com/sitereport.html?url=xbooru.com
+! https://www.mywot.com/scorecard/xbooru.com
+xbooru.com
+! https://www.siteadvisor.com/sitereport.html?url=megabooru.com
+megabooru.com
+! https://www.siteadvisor.com/sitereport.html?url=zombooru.com
+zombooru.com
+! https://www.siteadvisor.com/sitereport.html?url=kusubooru.com
+kusubooru.com
+! https://www.siteadvisor.com/sitereport.html?url=tentaclerape.net
+tentaclerape.net
+! https://www.siteadvisor.com/sitereport.html?url=konachan.com
+konachan.com
+! https://www.siteadvisor.com/sitereport.html?url=yande.re
+! https://www.mywot.com/scorecard/yande.re
+yande.re
+! https://www.siteadvisor.com/sitereport.html?url=hypnohub.net
+! https://www.mywot.com/scorecard/hypnohub.net
+hypnohub.net
+! https://www.siteadvisor.com/sitereport.html?url=lolibooru.moe
+! https://www.mywot.com/scorecard/lolibooru.moe
+lolibooru.moe
+pornhubthbh7ap3u.onion
+! https://www.siteadvisor.com/sitereport.html?url=9hentai.com
+9hentai.com
+! https://www.siteadvisor.com/sitereport.html?url=scatpornxxx.com
+scatpornxxx.com
+! https://www.siteadvisor.com/sitereport.html?url=scatxxxporntube.com
+scatxxxporntube.com
+! https://github.com/uBlockOrigin/uAssets/issues/5030#issue-415429960
+! https://www.siteadvisor.com/sitereport.html?url=nijie.info
+nijie.info
+! https://github.com/uBlockOrigin/uAssets/issues/8995
+! https://www.siteadvisor.com/sitereport.html?url=my.pornobit.me
+my.pornobit.me
+! https://www.siteadvisor.com/sitereport.html?url=pornobit.me
+pornobit.me
+! https://www.siteadvisor.com/sitereport.html?url=pornobit.mobi
+pornobit.mobi
+! https://github.com/uBlockOrigin/uAssets/issues/8988
+! https://www.siteadvisor.com/sitereport.html?url=hentaicloud.com
+! https://www.mywot.com/scorecard/hentaicloud.com
+hentaicloud.com
+! https://github.com/uBlockOrigin/uAssets/issues/9110
+! https://www.siteadvisor.com/sitereport.html?url=influencersgonewild.com
+influencersgonewild.com
+! https://github.com/uBlockOrigin/uAssets/issues/8940
+! https://www.siteadvisor.com/sitereport.html?url=pornohans.com
+pornohans.com
+! https://github.com/uBlockOrigin/uAssets/issues/8915
+! https://www.siteadvisor.com/sitereport.html?url=biguz.net
+biguz.net
+! https://github.com/uBlockOrigin/uAssets/issues/8910
+! https://www.siteadvisor.com/sitereport.html?url=xhamster8.desi
+xhamster8.desi
+! https://www.siteadvisor.com/sitereport.html?url=xhamster7.desi
+xhamster7.desi
+! https://www.siteadvisor.com/sitereport.html?url=xhamster10.desi
+xhamster10.desi
+! https://github.com/uBlockOrigin/uAssets/commit/21e602140f90ab8ac79f895a1226b7db00c8c423
+! https://www.siteadvisor.com/sitereport.html?url=xhamsterlive.com
+xhamsterlive.com
+! https://www.siteadvisor.com/sitereport.html?url=xhamsterpremium.com
+xhamsterpremium.com
+! https://www.siteadvisor.com/sitereport.html?url=fullxh.com
+fullxh.com
+! https://www.siteadvisor.com/sitereport.html?url=unlockxh4.com
+unlockxh4.com
+! https://www.siteadvisor.com/sitereport.html?url=xhamster46.com
+xhamster46.com
+! Larger blocking filters
+xhamster4.*
+xhamster1.*
+xhamster5.*
+! https://www.siteadvisor.com/sitereport.html?url=xhamster11.com
+xhamster11.com
+! https://www.siteadvisor.com/sitereport.html?url=xhamster12.com
+xhamster12.com
+! https://www.siteadvisor.com/sitereport.html?url=xhamster13.com
+xhamster13.com
+! https://www.siteadvisor.com/sitereport.html?url=xhamster14.com
+xhamster14.com
+! https://www.siteadvisor.com/sitereport.html?url=xhamster15.com
+xhamster15.com
+! https://www.siteadvisor.com/sitereport.html?url=xhamster2.com
+xhamster2.com
+! https://github.com/uBlockOrigin/uAssets/issues/8909
+! https://www.siteadvisor.com/sitereport.html?url=epornstore.com
+epornstore.com
+! https://github.com/uBlockOrigin/uAssets/issues/8908
+! https://www.siteadvisor.com/sitereport.html?url=lewdstars.com
+lewdstars.com
+! https://github.com/uBlockOrigin/uAssets/issues/8904
+! https://www.siteadvisor.com/sitereport.html?url=redgifs.com
+redgifs.com
+! https://github.com/uBlockOrigin/uAssets/issues/8813
+! https://www.siteadvisor.com/sitereport.html?url=kaotic.com
+kaotic.com
+! https://github.com/uBlockOrigin/uAssets/pull/8811
+! https://www.siteadvisor.com/sitereport.html?url=imgdawgknuttz.com
+imgdawgknuttz.com
+! https://github.com/uBlockOrigin/uAssets/issues/8784
+! https://www.siteadvisor.com/sitereport.html?url=xfreepornsite.com
+xfreepornsite.com
+! https://github.com/uBlockOrigin/uAssets/issues/8775
+! https://www.siteadvisor.com/sitereport.html?url=hentaidude.com
+! https://www.mywot.com/scorecard/hentaidude.com
+hentaidude.com
+! https://github.com/uBlockOrigin/uAssets/issues/8765
+! https://www.siteadvisor.com/sitereport.html?url=porndish.com
+! https://www.mywot.com/scorecard/porndish.com
+porndish.com
+! https://github.com/uBlockOrigin/uAssets/issues/8751
+! https://www.siteadvisor.com/sitereport.html?url=m.sextvx.com
+m.sextvx.com
+! https://www.siteadvisor.com/sitereport.html?url=sextvx.com
+sextvx.com
+! https://github.com/uBlockOrigin/uAssets/issues/8720
+! https://www.siteadvisor.com/sitereport.html?url=qcock.com
+qcock.com
+! https://github.com/uBlockOrigin/uAssets/issues/9116
+! https://www.fortiguard.com/webfilter?q=justanime.net
+justanime.net
+! A few random domains I made up
+! https://www.siteadvisor.com/sitereport.html?url=pornxxx.net
+pornxxx.net
+! https://www.siteadvisor.com/sitereport.html?url=xxx.net
+xxx.net
+! https://www.siteadvisor.com/sitereport.html?url=xxxgirls.net
+xxxgirls.net
+! From https://duckduckgo.com/?t=ffab&q=porn+sites&ia=web
+! https://www.siteadvisor.com/sitereport.html?url=fuq.com
+www.fuq.com
+fuq.com
+! https://github.com/uBlockOrigin/uAssets/issues/8463
+! https://siteadvisor.com/sitereport.html?url=milffox.com
+milffox.com
+! https://github.com/uBlockOrigin/uAssets/pull/7906
+! https://siteadvisor.com/sitereport.html?url=thegay.porn
+thegay.porn
+
+! Porn from unsafe_domains.txt
+! More porn domains
+! https://github.com/blocklistproject/Lists/issues/310
+bestporncomix.com
+worldporncomix.com
+wporncomics.com
+erocomicsxxx.com
+hentaicomicsonline.com
+fotonovelasxxx.com
+www.sexcomix.me
+comix.site
+hornyson.com
+porncomixinfo.net
+porncomics.name
+8-muses.xyz
+hdhentaicomics.com
+comixzilla.com
+comicporns.com
+8muses.net
+!More porn/shock sites 
+! https://someonewhocares.org/hosts/
+! https://www.siteadvisor.com/sitereport.html?url=www.theexgirlfriends.com
+!https://www.virustotal.com/gui/domain/theexgirlfriends.com/detection
+www.theexgirlfriends.com
+theexgirlfriends.com
+!Even more porn
+! https://www.mywot.com/en/scorecard/0dayporno.com
+! https://github.com/iam-py-test/my_filters_001/issues/5
+0dayporno.com
+!Moved from badware.txt
+1youngteenporn.com
+! https://www.siteadvisor.com/sitereport.html?url=porn.biz
+! https://safeweb.norton.com/report/show?url=porn.biz
+! https://www.mywot.com/en/scorecard/porn.biz
+porn.biz
+! Porn sites are all around bad, and no one should ever visit them. 
+! https://www.nbcnews.com/id/wbna51498128
+! https://www.pcworld.com/article/2034864/just-how-much-malware-is-on-free-porn-sites-.html
+! https://blog.dynamoo.com/2013/04/top-porn-sites-lead-to-malware.html
+xhamster.com
+pornhub.com
+tube8.com
+youjizz.com
+!Strangly the same name as a malware (technically spyware) file. Wonder why???
+xnxx.com
+!Malware
+exposedcamz-live.com
+ceskeporno.tv
+brandreachsys.com
+traffichaus.com
+crakmedia.com
+rodriguezwoca.com.ar
+crucerosinfantiles.com.ar
+ingenet.com.ar
+trafficjunky.net
+gammae.com
+rockwork.ch
+gaypornplanet.com
+xgaytube.com
+pornmd.com
+tube8.com
+btsinvestments.com
+nymphdate.com
+dirtymechanics.org
+pornmd.com
+crakmedia.com
+justanaffiliate.com
+! Might be bad, and no one should visit these sites anyway
+!https://www.pcworld.com/article/206107/most_dangerous_places_on_the_web.html (Lists porn as one source of malware)
+adultfriendfinder.com
+youporn.com
+xvideos.com
+livejasmin.com
+redtube.com
+! https://www.mywot.com/scorecard/pornhub.net
+pornhub.net
+! https://www.mywot.com/scorecard/pornhub.net
+pornsite.com
+porn.org
+livecams.com
+hardcore.com
+livecam.com
+xxx.org
+porno.net
+titties.com
+porn.xyz
+xxxtube.com
+
+!Shock sites
+! https://someonewhocares.org/hosts/
+! https://www.mywot.com/scorecard/lolshock.com
+lolshock.com
+
+! URLs
+||duckduckgo.com/?t=ffab&q=porn+sites$doc
