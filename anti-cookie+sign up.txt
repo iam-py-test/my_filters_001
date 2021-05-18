@@ -29,6 +29,9 @@ stackoverflow.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.p
 ! 2021-03-21 https://www.universeguide.com
 www.universeguide.com###cookieConsent\ noprint
 
+! 2021-05-18 https://community.broadcom.com
+community.broadcom.com###onetrust-consent-sdk
+
 !Both cookie consent and "Download our extension" full page alerts
 ! 2021-04-30 https://www.mywot.com
 www.mywot.com##.dLClwL.StyledCookiesConsent__CookiesConsentContainer-sc-1hx0re8-0.StyledUtils__FlexRow-sc-14r66vj-0
