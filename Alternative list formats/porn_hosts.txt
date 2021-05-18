@@ -73,7 +73,7 @@
 127.0.0.1 hot.xxx
 # From https://github.com/DandelionSprout/adfilt/blob/master/AntiAbusePorn.txt
 # https://www.siteadvisor.com/sitereport.html?url=rule34.xxx
-! https://www.mywot.com/en/scorecard/rule34.xxx
+# https://www.mywot.com/en/scorecard/rule34.xxx
 127.0.0.1 rule34.xxx
 # https://www.siteadvisor.com/sitereport.html?url=gelbooru.com
 # https://www.mywot.com/scorecard/gelbooru.com
@@ -87,10 +87,10 @@
 # https://www.siteadvisor.com/sitereport.html?url=xbooru.com
 # https://www.mywot.com/scorecard/xbooru.com
 127.0.0.1 xbooru.com
-! https://www.siteadvisor.com/sitereport.html?url=megabooru.com
-megabooru.com
-! https://www.siteadvisor.com/sitereport.html?url=zombooru.com
-zombooru.com
+# https://www.siteadvisor.com/sitereport.html?url=megabooru.com
+127.0.0.1 megabooru.com
+# https://www.siteadvisor.com/sitereport.html?url=zombooru.com
+127.0.0.1 zombooru.com
 ! https://www.siteadvisor.com/sitereport.html?url=kusubooru.com
 kusubooru.com
 ! https://www.siteadvisor.com/sitereport.html?url=tentaclerape.net
