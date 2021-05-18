@@ -61,6 +61,11 @@ addons.opera.com###overlay
 ! https://github.com/uBlockOrigin/uAssets/issues/5030
 addons.opera.com##+js(nostif, showOverlay)
 
+! Fix badbitcoin.org
+! 2021-05-18 https://badbitcoin.org
+badbitcoin.org##[href^="https://partners_click.bitcasino.io/"]
+||badbitcoin.org/images/freebitcoin728x90.png$image
+
 !Cookie banners
 ! 2021-04-12 https://blavity.com
 blavity.com##.Cookie--blood-orange.Cookie--bottom.Cookie
