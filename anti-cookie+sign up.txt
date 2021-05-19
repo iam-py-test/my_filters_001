@@ -85,11 +85,20 @@ www.howtogeek.com###v2campaignpopup_backdrop
 ! Waiting for someone to confirm that this cookie is related to the sign up prompt
 ! www.howtogeek.com##+js(cookie-remover,_dlt)
 
+! Fix the paywall
+! This might need a $domain filter 
+! 2021-05-20 https://www.apollo-magazine.com
+||buy.tinypass.com/checkout/template/cacheableShow$subdocument
+! Can someone confirm whether this breaks any sites - I found this request on www.apollo-magazine.com
+||cdn.tinypass.com/api/tinypass.min.js$script,3p
+
+
 !Cookie banners
 ! 2021-04-12 https://blavity.com
 blavity.com##.Cookie--blood-orange.Cookie--bottom.Cookie
 ##.cookie-notice-container
 malwarefixes.com##.cookie-notice-visible.cn-effect-none.cn-position-bottom.cookie-revoke-hidden
+
 
 
 !mediafire.com cookie banner - found via python (so not tested)
