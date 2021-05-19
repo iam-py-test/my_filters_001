@@ -42,6 +42,9 @@ www.paypal.com##.ccpaHideCookieBannerMobile.ccpaCookieBanner_container-custom.cc
 ! 2021-05-19 https://www.novirusthanks.org
 www.novirusthanks.org##.text-xs-center.download-panel
 
+!https://twitter.com/gorhill/status/1033706103782170625
+! Can someone confirm if there is more to their paywall
+twitter.com##.r-1upvrn0.r-urgr8i.css-1dbjc4n
 
 ! Both cookie consent and "Download our extension" full page alerts
 www.mywot.com##.dLClwL.StyledCookiesConsent__CookiesConsentContainer-sc-1hx0re8-0.StyledUtils__FlexRow-sc-14r66vj-0
