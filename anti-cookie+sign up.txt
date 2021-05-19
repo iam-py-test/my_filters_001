@@ -46,6 +46,12 @@ www.novirusthanks.org##.text-xs-center.download-panel
 ! Can someone confirm if there is more to their paywall
 twitter.com##.r-1upvrn0.r-urgr8i.css-1dbjc4n
 
+! https://www.washingtonpost.com paywall
+www.washingtonpost.com##.bg-white.justify-center.flex.overflow-hidden.border-box.w-100.left-0.bottom-0.fixed
+www.washingtonpost.com##.bg-black.w-100.h-100.o-50.fixed.right-0.bottom-0
+www.washingtonpost.com##+js(aeld,scroll)
+||www.washingtonpost.com/subscribe/paywall/*$xhr,domain=www.washingtonpost.com
+
 ! Both cookie consent and "Download our extension" full page alerts
 www.mywot.com##.dLClwL.StyledCookiesConsent__CookiesConsentContainer-sc-1hx0re8-0.StyledUtils__FlexRow-sc-14r66vj-0
 ||www.mywot.com/images/popup/wot-laptop-tinified.png$image
