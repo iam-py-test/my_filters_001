@@ -1,12 +1,15 @@
 ! Title: Anticookie and Sign up list
-! Description: Do you find cookie consent and sign up prompts annoying, especially if you already clear you cookies regularly or do not want to sign up to every website you visit. This list attempts to remove those annoyances and a few others. 
+! Description: Do you find cookie consent and sign up prompts annoying, especially if you already clear you cookies regularly or do not want to sign up to every website you visit? This list attempts to remove those annoyances and a few others.
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
-! Last updated: 14/5/2021
+! Last updated: 19/5/2021
 
 !Cookie consent 
 ! 2021-05-08 https://www.fortiguard.com
 www.fortiguard.com###__agreementBar
+
+! 2021-05-12 https://sitecheck.sucuri.net
+sitecheck.sucuri.net##.p-0.hide.cookie-policy-banner.container-fluid
 
 ! 2021-04-12 https://stackoverflow.com
 stackoverflow.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
