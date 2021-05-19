@@ -32,6 +32,14 @@ www.universeguide.com###cookieConsent\ noprint
 ! 2021-05-18 https://community.broadcom.com
 community.broadcom.com###onetrust-consent-sdk
 
+! 2021-05-19 https://www.paypal.com
+www.paypal.com##.ccpaHideCookieBannerMobile.ccpaCookieBanner_container-custom.ccpaCookieBanner_container
+
+! An annoying download pannel which follows you down the page - this should not break the regular download buttons
+! 2021-05-19 https://www.novirusthanks.org
+www.novirusthanks.org##.text-xs-center.download-panel
+
+
 !Both cookie consent and "Download our extension" full page alerts
 ! 2021-04-30 https://www.mywot.com
 www.mywot.com##.dLClwL.StyledCookiesConsent__CookiesConsentContainer-sc-1hx0re8-0.StyledUtils__FlexRow-sc-14r66vj-0
