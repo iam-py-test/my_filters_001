@@ -1,5 +1,5 @@
 ! Title: AntiTyposquatt
-! Description: A list of typosquatt domains that did not make it into malware domains
+! Description: A list of typosquatt domains that did not make it into malware domains.
 ! Expires: 1 day
 ! If someone can confirm this, it can move to malware 
 ! https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
