@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Last updated: 19/5/2021
 
-!Cookie consent 
+! Cookie consent 
 ! 2021-05-08 https://www.fortiguard.com
 www.fortiguard.com###__agreementBar
 
@@ -43,8 +43,7 @@ www.paypal.com##.ccpaHideCookieBannerMobile.ccpaCookieBanner_container-custom.cc
 www.novirusthanks.org##.text-xs-center.download-panel
 
 
-!Both cookie consent and "Download our extension" full page alerts
-! 2021-04-30 https://www.mywot.com
+! Both cookie consent and "Download our extension" full page alerts
 www.mywot.com##.dLClwL.StyledCookiesConsent__CookiesConsentContainer-sc-1hx0re8-0.StyledUtils__FlexRow-sc-14r66vj-0
 ||www.mywot.com/images/popup/wot-laptop-tinified.png$image
 www.mywot.com##html > iframe
@@ -144,7 +143,6 @@ www.britannica.com##+js(cookie-remover,__mendel)
 www.independent.co.uk##.bjWcZt.sc-ptRml
 www.independent.co.uk##.jEfqsK.sc-pZnSc
 www.independent.co.uk##.eAffPM.sc-qPwPv
-
 www.independent.co.uk##+js(cookie-remover,fresh8_toggle)
 
 !Annoying, scroll locking, cookie consent popup
@@ -156,7 +154,6 @@ www.fsma.be##+js(cookie-remover,has_js)
 www.fsma.be##+js(aeld,scroll)
 ||consent.cookiebot.com/20b54b69-4b4d-48f1-9364-75c0686444e6/cc.js$script,domain=www.fsma.be
 ||consentcdn.cookiebot.com/consentconfig/20b54b69-4b4d-48f1-9364-75c0686444e6/fsma.be/configuration.js$script,domain=www.fsma.be
-
 
 !Reddit "get premium"
 ##.premium-banner
@@ -195,9 +192,7 @@ www.mywot.com##.fizXGU.StyledHorizontalAddWOT-z0aeqf-0.StyledUtils__FlexRow-sc-1
 www.mywot.com##.fmdjuL.StyledIntroSection__IntroContent-zlf7ux-1.StyledUtils__FlexColumn-sc-14r66vj-1 > .ohnJg.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0 > .jss297.jss295.jss122.jss113.jss112.jss110.jss109.jss98.jss124
 
 
-
 !More sign up/paywall
 
 ! 2021-04-26 https://www.geeksforgeeks.org
 www.geeksforgeeks.org##.side--container_wscard > [href^="https://premium.geeksforgeeks.org/premium-plans/"]
-
