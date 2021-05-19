@@ -76,6 +76,12 @@ addons.opera.com##+js(nostif, showOverlay)
 badbitcoin.org##[href^="https://partners_click.bitcasino.io/"]
 ||badbitcoin.org/images/freebitcoin728x90.png$image
 
+!Fix www.howtogeek.com sign up prompt
+www.howtogeek.com###v2campaignpopup
+www.howtogeek.com###v2campaignpopup_backdrop
+! Waiting for someone to confirm that this cookie is related to the sign up prompt
+! www.howtogeek.com##+js(cookie-remover,_dlt)
+
 !Cookie banners
 ! 2021-04-12 https://blavity.com
 blavity.com##.Cookie--blood-orange.Cookie--bottom.Cookie
