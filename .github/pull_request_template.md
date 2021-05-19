@@ -1,9 +1,4 @@
----
-name: Pull request
-about: Create a pull request
-title: Pull request
-labels: ''
-assignees: ''
 
----
 ### Reason for this pull request
+
+### What changes have been made to this branch?
