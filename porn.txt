@@ -249,6 +249,30 @@ sniffies.com
 ! https://www.siteadvisor.com/sitereport.html?url=101sexsecret.com
 ! https://www.fortiguard.com/webfilter?q=101sexsecret.com
 101sexsecret.com
+! Yet another domain I made up
+! https://www.siteadvisor.com/sitereport.html?url=porn.xyz
+! https://www.fortiguard.com/webfilter?q=porn.xyz
+porn.xyz
+! https://www.fortiguard.com/webfilter?q=hotgirls.xyz&version=8
+! https://www.siteadvisor.com/sitereport.html?url=hotgirls.xyz
+hotgirls.xyz
+! https://www.siteadvisor.com/sitereport.html?url=hotgirls.porn
+! https://www.fortiguard.com/webfilter?q=hotgirls.porn&version=8
+hotgirls.porn
+! https://www.fortiguard.com/webfilter?q=fuckgirls.porn&version=8
+fuckgirls.porn
+! https://www.fortiguard.com/webfilter?q=xxx.com&version=8
+xxx.com
+! Found in random reports online
+! https://github.com/AdguardTeam/AdguardFilters/issues/83579
+! https://www.siteadvisor.com/sitereport.html?url=lewdsenpai.com
+lewdsenpai.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/83540
+! https://www.siteadvisor.com/sitereport.html?url=www.shemalestube.com
+www.shemalestube.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/83400
+! https://www.fortiguard.com/webfilter?q=xxr.mobi&version=8
+xxr.mobi
 
 ! Porn from unsafe_domains.txt
 ! More porn domains
