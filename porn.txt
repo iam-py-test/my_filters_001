@@ -1,9 +1,9 @@
 ! Title: Pornography blocklist
-! Description: This list is designed to block porn, shocksites, and other adult websites. 
+! Description: This list is designed to block porn, shock-sites, and other gruesome or not child safe websites - adding this list will not only prevent accendentially visiting one of these domains, it will 
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
-! Last updated: 16/5/2021
-!Porn websites
+! Last updated: 19/5/2021
+! Porn websites
 shesfreaky.com
 eroticbeauties.net
 milffox.com
