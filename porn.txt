@@ -1,9 +1,9 @@
 ! Title: Pornography blocklist
-! Description: This list is designed to block porn, shocksites, and other adult websites. 
+! Description: This list is designed to block porn, shock-sites, and other gruesome or not child safe websites - adding this list will also make your computer more secure as these sites often have malware on them
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
-! Last updated: 16/5/2021
-!Porn websites
+! Last updated: 19/5/2021
+! Porn websites
 shesfreaky.com
 eroticbeauties.net
 milffox.com
@@ -244,6 +244,11 @@ japhole.com
 ! https://www.mywot.com/scorecard/sniffies.com
 ! https://www.siteadvisor.com/sitereport.html?url=sniffies.com
 sniffies.com
+! A malware/porn domain - blocking here because it does have porn and should be blocked more globally.
+! https://www.mywot.com/en/scorecard/101sexsecret.com
+! https://www.siteadvisor.com/sitereport.html?url=101sexsecret.com
+! https://www.fortiguard.com/webfilter?q=101sexsecret.com
+101sexsecret.com
 
 ! Porn from unsafe_domains.txt
 ! More porn domains
@@ -341,5 +346,5 @@ xxxtube.com
 ! https://www.mywot.com/scorecard/lolshock.com
 lolshock.com
 
-! URLs
-||duckduckgo.com/?t=ffab&q=porn+sites$doc
+! URLs - will fix later
+!||duckduckgo.com/?t=ffab&q=porn+sites$doc
