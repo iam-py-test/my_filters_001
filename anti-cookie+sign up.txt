@@ -5,8 +5,7 @@
 ! GitHub Issues: https://github.com/iam-py-test/my_filters_001/issues
 ! Last updated: 20/5/2021
 
-! Cookie consent 
-! https://www.fortiguard.com
+! https://www.fortiguard.com Cookie consent 
 www.fortiguard.com###__agreementBar
 
 ! https://sitecheck.sucuri.net cookie banner
@@ -187,40 +186,30 @@ www.fsma.be##+js(aeld,scroll)
 ||consent.cookiebot.com/20b54b69-4b4d-48f1-9364-75c0686444e6/cc.js$script,domain=www.fsma.be
 ||consentcdn.cookiebot.com/consentconfig/20b54b69-4b4d-48f1-9364-75c0686444e6/fsma.be/configuration.js$script,domain=www.fsma.be
 
-!Reddit "get premium"
-##.premium-banner
+! Reddit "get premium"
+
+www.reddit.com##.premium-banner
 
 !MyWot trying to get you to install the extension
-! 2021-05-05 https://www.mywot.com
 www.mywot.com##.fmdjuL.StyledIntroSection__IntroContent-zlf7ux-1.StyledUtils__FlexColumn-sc-14r66vj-1 > .ohnJg.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0 > .jss297.jss295.jss122.jss113.jss112.jss110.jss109.jss98.jss124
-! 2021-05-03 https://www.mywot.com
 www.mywot.com##.faGFby.StyledFloatingHorizontalAddWOT__FloatingHorizontalAddWOTContainer-sc-8kea3v-0.StyledUtils__FlexRow-sc-14r66vj-0
-! 2021-05-04 https://www.mywot.com
 www.mywot.com##.fmdjuL.StyledIntroSection__IntroContent-zlf7ux-1.StyledUtils__FlexColumn-sc-14r66vj-1 > .ohnJg.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0 > .jss319.jss317.jss122.jss113.jss112.jss110.jss109.jss98.jss124
-! 2021-05-03 https://www.mywot.com
 www.mywot.com##.kxzBLN.StyledRectangleDesktopConversionBanner__RectangleDesktopConversionBannerContainer-sc-1kgcajq-0.StyledUtils__FlexColumn-sc-14r66vj-1
 www.mywot.com##.dLClwL.StyledCookiesConsent__CookiesConsentContainer-sc-1hx0re8-0.StyledUtils__FlexRow-sc-14r66vj-0
 www.mywot.com##.kQDsFi.StyledPopup__PopupContainer-sc-1ql589a-0.StyledUtils__FlexColumn-sc-14r66vj-1
 www.mywot.com##.fizXGU.StyledHorizontalAddWOT-z0aeqf-0.StyledUtils__FlexRow-sc-14r66vj-0
-! 2021-03-21 https://www.mywot.com
 www.mywot.com##.jss332.jss334.jss132.jss123.jss122.jss120.jss119.jss108.jss134
 www.mywot.com##.bTrYWJ.StyledHorizontalAddWOT-z0aeqf-0.StyledUtils__FlexRow-sc-14r66vj-0
-! 2021-03-21 https://www.mywot.com
 www.mywot.com##.faGFby.StyledFloatingHorizontalAddWOT__FloatingHorizontalAddWOTContainer-sc-8kea3v-0.StyledUtils__FlexRow-sc-14r66vj-0
 www.mywot.com##.dLClwL.StyledCookiesConsent__CookiesConsentContainer-sc-1hx0re8-0.StyledUtils__FlexRow-sc-14r66vj-0
 www.mywot.com##.kQDsFi.StyledPopup__PopupContainer-sc-1ql589a-0.StyledUtils__FlexColumn-sc-14r66vj-1
 www.mywot.com##.byIuiX.StyledRectangleDesktopConversionBanner__RectangleDesktopConversionBannerContainer-sc-1kgcajq-0.StyledUtils__FlexColumn-sc-14r66vj-1
 www.mywot.com##.jss327.jss329.jss132.jss123.jss122.jss120.jss119.jss108.jss134
-! 2021-03-23 https://www.mywot.com
 www.mywot.com##.eYusTO.StyledScorecardHeader__Row-sc-1j5xgrs-3.StyledUtils__FlexRow-sc-14r66vj-0 > .gyaPxX.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0
-! 2021-03-24 https://www.mywot.com
 www.mywot.com##.fmdjuL.StyledIntroSection__IntroContent-zlf7ux-1.StyledUtils__FlexColumn-sc-14r66vj-1 > .gyaPxX.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0 > .jss298.jss296.jss124.jss115.jss114.jss112.jss111.jss100.jss126
 www.mywot.com##.bHRuhF.StyledFloatingAddWOT__FloatingAddWOTContainer-x3wli8-0.StyledUtils__FlexColumn-sc-14r66vj-1
-! 2021-04-05 https://www.mywot.com
 www.mywot.com##.fmdjuL.StyledIntroSection__IntroContent-zlf7ux-1.StyledUtils__FlexColumn-sc-14r66vj-1 > .gyaPxX.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0 > .jss297.jss295.jss122.jss113.jss112.jss110.jss109.jss98.jss124
-! 2021-04-22 https://www.mywot.com
 www.mywot.com##.fizXGU.StyledHorizontalAddWOT-z0aeqf-0.StyledUtils__FlexRow-sc-14r66vj-0
-! 2021-04-29 https://www.mywot.com
 www.mywot.com##.fmdjuL.StyledIntroSection__IntroContent-zlf7ux-1.StyledUtils__FlexColumn-sc-14r66vj-1 > .ohnJg.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0 > .jss297.jss295.jss122.jss113.jss112.jss110.jss109.jss98.jss124
 
 
