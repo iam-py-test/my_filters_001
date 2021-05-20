@@ -29,11 +29,14 @@ stackoverflow.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.p
 ! 2021-03-21 https://www.universeguide.com
 www.universeguide.com###cookieConsent\ noprint
 
-! 2021-05-18 https://community.broadcom.com
+! https://community.broadcom.com cookies
 community.broadcom.com###onetrust-consent-sdk
 
-! 2021-05-19 https://www.paypal.com
+! https://www.paypal.com cookies
 www.paypal.com##.ccpaHideCookieBannerMobile.ccpaCookieBanner_container-custom.ccpaCookieBanner_container
+
+! Various norton.com cookie banners - if there is a better catch-all, I am open to suggestions
+us.norton.com,uk.norton.com,es.norton.com##.ensNotifyBanner
 
 ! An annoying download pannel which follows you down the page - this should not break the regular download buttons
 ! https://www.novirusthanks.org
@@ -48,8 +51,6 @@ www.youtube.com##tp-yt-paper-dialog.ytd-popup-container.style-scope
 ! weather.com cookies and 'upgrade' sidebar
 weather.com##.PrivacyDataNotice--container--1kMjz
 weather.com###WxuSmartMessage-sidebar-cf7684f8-a943-4593-9471-49a48a402aaa > .Card--card--4VS_Q.Card--cardPadded--2jAM0.card
-
-!
 
 ! Example url: https://twitter.com/gorhill/status/1033706103782170625
 ! Can someone confirm if there is more to their paywall
@@ -166,7 +167,7 @@ www.nytimes.com##div.egw6tc41.css-et84d3:nth-of-type(2)
 www.nytimes.com##.e1x0szx60.css-17nqy7q.expanded-dock.shown.MAG_web_regi_us_sale_apple-pay-dock-ecd-test
 www.nytimes.com##.nytcp-opt.css-1kj7lfb > .ez4a0qj0.css-zbkuyb
 
-!www.britannica.com tracking. 
+! www.britannica.com tracking. 
 www.britannica.com##+js(cookie-remover,webstats)
 www.britannica.com##+js(cookie-remover,usprivacy)
 www.britannica.com##+js(cookie-remover,__mendel)
@@ -179,7 +180,7 @@ www.independent.co.uk##.eAffPM.sc-qPwPv
 www.independent.co.uk##+js(cookie-remover,fresh8_toggle)
 
 !Annoying, scroll locking, cookie consent popup
-! 2021-05-13 https://www.fsma.be
+! https://www.fsma.be
 www.fsma.be###CybotCookiebotDialog
 www.fsma.be###CybotCookiebotDialogBodyUnderlay
 www.fsma.be##+js(cookie-remover,CookieConsent)
