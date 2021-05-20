@@ -6,3 +6,6 @@
 ! https://www.virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
 ! https://www.virustotal.com/gui/domain/xn--gogle-jua.com/detection
 xn--gogle-jua.com
+! https://www.mywot.com/scorecard/vrustotal.com
+! https://safeweb.norton.com/report/show?url=vrustotal.com
+vrustotal.com
