@@ -4,3 +4,4 @@
 ! i.e. https://twitter.com/hashtag/Pizzagate?f=live
 twitter.com##.r-6416eg.r-o7ynqc.r-i023vh.r-1qhn6m8.r-1udh08x.r-1ny4l3l.r-18u37iz.r-1loqt21.css-1dbjc4n:has-text(/izzagate/i)
 twitter.com##.r-6416eg.r-o7ynqc.r-i023vh.r-1qhn6m8.r-1udh08x.r-1ny4l3l.r-18u37iz.r-1loqt21.css-1dbjc4n:has-text(/pedogate/i)
+twitter.com##.r-6416eg.r-o7ynqc.r-i023vh.r-1qhn6m8.r-1udh08x.r-1ny4l3l.r-18u37iz.r-1loqt21.css-1dbjc4n:has-text(/PİZZAGATE/i)
