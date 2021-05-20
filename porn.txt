@@ -1,5 +1,5 @@
 ! Title: Pornography blocklist
-! Description: This list is designed to block porn, shock-sites, and other gruesome or not child safe websites - adding this list will also make your computer more secure as these sites often have malware on them
+! Description: This list is designed to block porn, shock-sites, and other gruesome or not child safe websites - adding this list will also make your computer more secure as these sites often have malware on them. If you need a list for AdGuard or somewhere else, check the Alternet Lists area
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Last updated: 19/5/2021
