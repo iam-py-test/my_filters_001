@@ -42,6 +42,9 @@ www.paypal.com##.ccpaHideCookieBannerMobile.ccpaCookieBanner_container-custom.cc
 ! 2021-05-19 https://www.novirusthanks.org
 www.novirusthanks.org##.text-xs-center.download-panel
 
+!YouTube
+www.youtube.com##tp-yt-paper-dialog.ytd-popup-container.style-scope
+
 !https://twitter.com/gorhill/status/1033706103782170625
 ! Can someone confirm if there is more to their paywall
 twitter.com##.r-1upvrn0.r-urgr8i.css-1dbjc4n
