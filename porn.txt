@@ -269,6 +269,7 @@ xxx.com
 lewdsenpai.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83540
 ! https://www.siteadvisor.com/sitereport.html?url=www.shemalestube.com
+shemalestube.com
 www.shemalestube.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83400
 ! https://www.fortiguard.com/webfilter?q=xxr.mobi&version=8
