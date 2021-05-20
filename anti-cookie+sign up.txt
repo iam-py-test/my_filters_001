@@ -53,8 +53,22 @@ weather.com##.PrivacyDataNotice--container--1kMjz
 weather.com###WxuSmartMessage-sidebar-cf7684f8-a943-4593-9471-49a48a402aaa > .Card--card--4VS_Q.Card--cardPadded--2jAM0.card
 
 ! Example url: https://twitter.com/gorhill/status/1033706103782170625
-! Can someone confirm if there is more to their paywall
+! Can someone confirm if there is more to the Twitter paywall - This was all I could find
 twitter.com##.r-1upvrn0.r-urgr8i.css-1dbjc4n
+
+! www.publico.pt paywall - I could find no solution
+www.publico.pt##.datawall-warning.site-message--datawall.site-message--notice.site-message
+www.publico.pt##.shown.site-message--paywall.site-message--notice.site-message
+www.publico.pt##+js(cookie-remover,_hd_)
+www.publico.pt##+js(cookie-remover,_ex_C_last)
+www.publico.pt##+js(cookie-remover,last-show)
+!||mkt.publico.pt/get/US-1621527817-707-60a68d09acfb1$xhr,domain=www.publico.pt
+!||www.publico.pt/js/workers/clusters.min.js?v202001211700$script,domain=www.publico.pt
+!||www.publico.pt/api/list/caixa/413718/news/0?size=3$xhr,domain=www.publico.pt
+!||s.publico.pt/ip.php$xhr,domain=www.publico.pt
+!||www.publico.pt/api/cluster/zombie/premium$xhr,domain=www.publico.pt
+www.publico.pt##+js(set,pageHasPaywall,false)
+!||www.publico.pt/api/traffic/split/custom/_ex_C/3$xhr,domain=www.publico.pt
 
 ! https://www.washingtonpost.com paywall
 www.washingtonpost.com##.bg-white.justify-center.flex.overflow-hidden.border-box.w-100.left-0.bottom-0.fixed
