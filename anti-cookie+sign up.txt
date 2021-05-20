@@ -52,7 +52,7 @@ www.youtube.com##tp-yt-paper-dialog.ytd-popup-container.style-scope
 weather.com##.PrivacyDataNotice--container--1kMjz
 weather.com###WxuSmartMessage-sidebar-cf7684f8-a943-4593-9471-49a48a402aaa > .Card--card--4VS_Q.Card--cardPadded--2jAM0.card
 
-! Example url: https://twitter.com/gorhill/status/1033706103782170625
+! Example URL: https://twitter.com/gorhill/status/1033706103782170625
 ! Can someone confirm if there is more to the Twitter paywall - This was all I could find
 twitter.com##.r-1upvrn0.r-urgr8i.css-1dbjc4n
 
@@ -103,8 +103,7 @@ www.nationalgeographic.com###fittPortal_0 > .no-touch.bp-desktopLGPlus.bp-deskto
 !Allow scrolling
 nationalgeographic.com##+js(aeld, scroll)
 
-! Fix opera.com annoyances
-! https://www.opera.com
+! Fix opera.com annoyances - https://www.opera.com
 www.opera.com##.cookie-consent
 www.opera.com##+js(cookie-remover,operf)
 addons.opera.com###overlay
@@ -129,7 +128,6 @@ www.howtogeek.com###v2campaignpopup_backdrop
 ||buy.tinypass.com/checkout/template/cacheableShow$subdocument
 ! Can someone confirm whether this breaks any sites - I found this request on www.apollo-magazine.com
 ||cdn.tinypass.com/api/tinypass.min.js$script,3p
-
 
 !https://blavity.com Cookie banners 
 blavity.com##.Cookie--blood-orange.Cookie--bottom.Cookie
@@ -167,7 +165,7 @@ www.urlvoid.com##.cookiebanner
 time.com##+js(cookie-remover,time_meter)
 time.com##+js(cookie-remover,OptanonConsent)
 time.com##+js(cookie-remover,usprivacy)
-! 2021-05-10 https://time.com
+! https://time.com - hide the message
 time.com##.roadblock.hide-on-mobile.can-animate.meter-wall.component
 
 ! www.nytimes.com paywall
@@ -180,8 +178,6 @@ www.nytimes.com##+js(cookie-remover,nyt-purr)
 www.nytimes.com##+js(cookie-remover,nyt-us)
 ! https://www.nytimes.com
 www.nytimes.com##.e1x0szx60.css-17nqy7q.expanded-dock.expanded.shown.MAG_web_regi_us_sale_apple-pay-dock-ecd-test
-
-! https://www.nytimes.com
 www.nytimes.com##div.egw6tc41.css-et84d3:nth-of-type(2)
 www.nytimes.com##.e1x0szx60.css-17nqy7q.expanded-dock.shown.MAG_web_regi_us_sale_apple-pay-dock-ecd-test
 www.nytimes.com##.nytcp-opt.css-1kj7lfb > .ez4a0qj0.css-zbkuyb
@@ -191,8 +187,7 @@ www.britannica.com##+js(cookie-remover,webstats)
 www.britannica.com##+js(cookie-remover,usprivacy)
 www.britannica.com##+js(cookie-remover,__mendel)
 
-! More paywall
-! https://www.independent.co.uk
+! More paywall - https://www.independent.co.uk
 www.independent.co.uk##.bjWcZt.sc-ptRml
 www.independent.co.uk##.jEfqsK.sc-pZnSc
 www.independent.co.uk##.eAffPM.sc-qPwPv
@@ -209,7 +204,6 @@ www.fsma.be##+js(aeld,scroll)
 ||consentcdn.cookiebot.com/consentconfig/20b54b69-4b4d-48f1-9364-75c0686444e6/fsma.be/configuration.js$script,domain=www.fsma.be
 
 ! Reddit "get premium"
-
 www.reddit.com##.premium-banner
 
 !MyWot trying to get you to install the extension
@@ -233,7 +227,6 @@ www.mywot.com##.bHRuhF.StyledFloatingAddWOT__FloatingAddWOTContainer-x3wli8-0.St
 www.mywot.com##.fmdjuL.StyledIntroSection__IntroContent-zlf7ux-1.StyledUtils__FlexColumn-sc-14r66vj-1 > .gyaPxX.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0 > .jss297.jss295.jss122.jss113.jss112.jss110.jss109.jss98.jss124
 www.mywot.com##.fizXGU.StyledHorizontalAddWOT-z0aeqf-0.StyledUtils__FlexRow-sc-14r66vj-0
 www.mywot.com##.fmdjuL.StyledIntroSection__IntroContent-zlf7ux-1.StyledUtils__FlexColumn-sc-14r66vj-1 > .ohnJg.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0 > .jss297.jss295.jss122.jss113.jss112.jss110.jss109.jss98.jss124
-
 
 !More sign up/paywall
 ! https://www.geeksforgeeks.org
