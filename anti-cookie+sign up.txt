@@ -62,6 +62,14 @@ www.washingtonpost.com##.bg-black.w-100.h-100.o-50.fixed.right-0.bottom-0
 www.washingtonpost.com##+js(aeld,scroll)
 ||www.washingtonpost.com/subscribe/paywall/*$xhr,domain=www.washingtonpost.com
 
+! www.dallasnews.com cookie consent
+www.dallasnews.com##+js(cookie-remover,usprivacy)
+www.dallasnews.com##.osano-cm-dialog--type_bar.osano-cm-dialog--position_bottom.osano-cm-dialog.osano-cm-window__dialog
+
+! www.themarshallproject.org paywall
+www.themarshallproject.org##+js(cookie-remover,_utpv)
+www.themarshallproject.org##.toast-active.toast-email-signup-v2.toast-email-signup.toast-notification
+
 ! Both cookie consent and "Download our extension" full page alerts
 www.mywot.com##.dLClwL.StyledCookiesConsent__CookiesConsentContainer-sc-1hx0re8-0.StyledUtils__FlexRow-sc-14r66vj-0
 ||www.mywot.com/images/popup/wot-laptop-tinified.png$image
