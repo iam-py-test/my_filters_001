@@ -35,6 +35,9 @@ community.broadcom.com###onetrust-consent-sdk
 ! https://www.paypal.com cookies
 www.paypal.com##.ccpaHideCookieBannerMobile.ccpaCookieBanner_container-custom.ccpaCookieBanner_container
 
+! JoeSandbox
+www.joesandbox.com##.cc-color-override-1830989329.cc-bottom.cc-theme-classic.cc-type-info.cc-banner.cc-window
+
 ! Various norton.com cookie banners - if there is a better catch-all, I am open to suggestions
 us.norton.com,uk.norton.com,es.norton.com##.ensNotifyBanner
 
