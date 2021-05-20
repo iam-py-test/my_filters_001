@@ -273,6 +273,9 @@ www.shemalestube.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83400
 ! https://www.fortiguard.com/webfilter?q=xxr.mobi&version=8
 xxr.mobi
+! https://github.com/NanoMeow/QuickReports/issues/4832
+! https://www.mywot.com/scorecard/gayvl.net
+gayvl.net
 
 ! Porn from unsafe_domains.txt
 ! More porn domains
