@@ -1,0 +1,3 @@
+! Title: Test
+! Description: This filter is for testing other AdBlockers, nothing more. It will only work on my computer.
+malware.localhost$all
