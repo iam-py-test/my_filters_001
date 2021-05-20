@@ -1,14 +1,15 @@
-! Title: Anticookie and Sign up list
+! Title: Anticookie and Sign-up list
 ! Description: Do you find cookie consent and sign up prompts annoying, especially if you already clear you cookies regularly or do not want to sign up to every website you visit? This list attempts to remove those annoyances and a few others.
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
-! Last updated: 19/5/2021
+! GitHub Issues: https://github.com/iam-py-test/my_filters_001/issues
+! Last updated: 20/5/2021
 
 ! Cookie consent 
 ! 2021-05-08 https://www.fortiguard.com
 www.fortiguard.com###__agreementBar
 
-! 2021-05-12 https://sitecheck.sucuri.net
+! https://sitecheck.sucuri.net cookie banner
 sitecheck.sucuri.net##.p-0.hide.cookie-policy-banner.container-fluid
 
 ! https://askubuntu.com plus https://stackoverflow.com
@@ -35,8 +36,11 @@ community.broadcom.com###onetrust-consent-sdk
 www.paypal.com##.ccpaHideCookieBannerMobile.ccpaCookieBanner_container-custom.ccpaCookieBanner_container
 
 ! An annoying download pannel which follows you down the page - this should not break the regular download buttons
-! 2021-05-19 https://www.novirusthanks.org
+! https://www.novirusthanks.org
 www.novirusthanks.org##.text-xs-center.download-panel
+
+!NPR sign up to newsletter - can still sign up via sign up page
+www.npr.org##.newsletter-stickybar.global-stickybar
 
 !YouTube
 www.youtube.com##tp-yt-paper-dialog.ytd-popup-container.style-scope
@@ -47,7 +51,7 @@ weather.com###WxuSmartMessage-sidebar-cf7684f8-a943-4593-9471-49a48a402aaa > .Ca
 
 !
 
-!https://twitter.com/gorhill/status/1033706103782170625
+! Example url: https://twitter.com/gorhill/status/1033706103782170625
 ! Can someone confirm if there is more to their paywall
 twitter.com##.r-1upvrn0.r-urgr8i.css-1dbjc4n
 
