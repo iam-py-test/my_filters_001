@@ -11,12 +11,8 @@ www.fortiguard.com###__agreementBar
 ! 2021-05-12 https://sitecheck.sucuri.net
 sitecheck.sucuri.net##.p-0.hide.cookie-policy-banner.container-fluid
 
-! 2021-04-12 https://stackoverflow.com
-stackoverflow.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
-
-! 2021-04-14 https://askubuntu.com
-askubuntu.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
-
+! https://askubuntu.com plus https://stackoverflow.com
+askubuntu.com,stackoverflow.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
 ! 2021-04-14 https://security.stackexchange.com
 security.stackexchange.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
 
@@ -44,6 +40,12 @@ www.novirusthanks.org##.text-xs-center.download-panel
 
 !YouTube
 www.youtube.com##tp-yt-paper-dialog.ytd-popup-container.style-scope
+
+! weather.com cookies and 'upgrade' sidebar
+weather.com##.PrivacyDataNotice--container--1kMjz
+weather.com###WxuSmartMessage-sidebar-cf7684f8-a943-4593-9471-49a48a402aaa > .Card--card--4VS_Q.Card--cardPadded--2jAM0.card
+
+!
 
 !https://twitter.com/gorhill/status/1033706103782170625
 ! Can someone confirm if there is more to their paywall
