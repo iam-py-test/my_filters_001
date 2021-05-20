@@ -292,8 +292,53 @@ hentaihand.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83013
 ! https://www.siteadvisor.com/sitereport.html?url=xxxvideos.ink
 xxxvideos.ink
+! https://github.com/AdguardTeam/AdguardFilters/issues/82615
+! https://www.siteadvisor.com/sitereport.html?url=privatehomeclips.com
+privatehomeclips.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/82933
+! https://www.siteadvisor.com/sitereport.html?url=slutsounds.com
+slutsounds.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/82801
+! https://www.siteadvisor.com/sitereport.html?url=celebsepna.com
+celebsepna.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/82624
+! https://www.siteadvisor.com/sitereport.html?url=voyeurhit.com
+voyeurhit.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/82623
+! https://www.siteadvisor.com/sitereport.html?url=bellesa.co
+www.bellesa.co
+bellesa.co
+! https://github.com/AdguardTeam/AdguardFilters/issues/82621
+! https://www.siteadvisor.com/sitereport.html?url=www.escortdirectory.com
+www.escortdirectory.com
+escortdirectory.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/82619
+! https://www.siteadvisor.com/sitereport.html?url=trannyvideosxxx.com
+trannyvideosxxx.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/82613
+! https://www.siteadvisor.com/sitereport.html?url=escortnews.eu
+escortnews.eu
+! https://github.com/AdguardTeam/AdguardFilters/issues/82609
+! https://www.siteadvisor.com/sitereport.html?url=kitty-kats.net
+kitty-kats.net
+www.kitty-kats.net
+! https://github.com/AdguardTeam/AdguardFilters/issues/82624
+! https://www.siteadvisor.com/sitereport.html?url=voyeurhit.com
+voyeurhit.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/82545
+! https://www.siteadvisor.com/sitereport.html?url=hello.porn
+hello.porn
+! https://github.com/AdguardTeam/AdguardFilters/issues/82351
+! https://www.siteadvisor.com/sitereport.html?url=vrxdb.com
+vrxdb.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/82345
+! https://www.siteadvisor.com/sitereport.html?url=www2.javhdporn.net
+www2.javhdporn.net
+! https://www.siteadvisor.com/sitereport.html?url=javhdporn.net
+javhdporn.net
+! 
 
-! Porn from unsafe_domains.txt
+! Porn from another blocklist I created
 ! More porn domains
 ! https://github.com/blocklistproject/Lists/issues/310
 bestporncomix.com
