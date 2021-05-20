@@ -279,6 +279,18 @@ gayvl.net
 ! https://github.com/NanoMeow/QuickReports/issues/4822
 ! https://www.siteadvisor.com/sitereport.html?url=blackgaypornblogger.com
 blackgaypornblogger.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/83644
+! https://www.siteadvisor.com/sitereport.html?url=www.young-sexy.com
+young-sexy.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/83643
+! https://www.siteadvisor.com/sitereport.html?url=sexybabegirls.com
+sexybabegirls.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/83622
+! https://www.siteadvisor.com/sitereport.html?url=hentaihand.com
+hentaihand.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/83013
+! https://www.siteadvisor.com/sitereport.html?url=xxxvideos.ink
+xxxvideos.ink
 
 ! Porn from unsafe_domains.txt
 ! More porn domains
