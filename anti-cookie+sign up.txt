@@ -51,6 +51,9 @@ www.npr.org##.newsletter-stickybar.global-stickybar
 !YouTube
 www.youtube.com##tp-yt-paper-dialog.ytd-popup-container.style-scope
 
+! Cookie banner - https://www.visme.co
+www.visme.co##.cookies-popup
+
 ! weather.com cookies and 'upgrade' sidebar
 weather.com##.PrivacyDataNotice--container--1kMjz
 weather.com###WxuSmartMessage-sidebar-cf7684f8-a943-4593-9471-49a48a402aaa > .Card--card--4VS_Q.Card--cardPadded--2jAM0.card
