@@ -6,3 +6,5 @@ Please understand that I am only one person, and that I will not be able to resp
 Please follow the [GitHub Community Guidelines](https://docs.github.com/en/github/site-policy/github-community-guidelines#what-is-not-allowed) or else you will be banned from this Repo and reported to GitHub. <br/>
 
 For adding entries to porn.txt, please post a link to the screenshot instead of an screenshot. 
+
+I will currently not be accepting issues for server-side paywalls (unless you have a fix) as there is **nothing** I can do about them. 
