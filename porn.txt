@@ -613,6 +613,24 @@ pregteen.com
 pornhub.org
 ! https://www.siteadvisor.com/sitereport.html?url=ahsexfilme.com
 ahsexfilme.com
+! https://www.mywot.com/scorecard/fuck.com
+! https://www.siteadvisor.com/sitereport.html?url=fuck.com
+fuck.com
+! https://www.siteadvisor.com/sitereport.html?url=fuck.net
+fuck.net
+! https://www.siteadvisor.com/sitereport.html?url=fuck.co.uk
+fuck.co.uk
+! https://www.siteadvisor.com/sitereport.html?url=sex.co.uk
+sex.co.uk
+! https://www.siteadvisor.com/sitereport.html?url=teenporn.net
+teenporn.net
+! https://www.mywot.com/scorecard/teenporn.com
+teenporn.com
+! https://www.siteadvisor.com/sitereport.html?url=crazygirls.net
+crazygirls.net
+! https://www.siteadvisor.com/sitereport.html?url=porn4ever.com
+porn4ever.com
+
 
 ! Porn from another blocklist I created
 ! More porn domains
@@ -624,15 +642,18 @@ erocomicsxxx.com
 hentaicomicsonline.com
 fotonovelasxxx.com
 www.sexcomix.me
+! https://www.siteadvisor.com/sitereport.html?url=comix.site
 comix.site
 hornyson.com
 porncomixinfo.net
 porncomics.name
+! https://www.siteadvisor.com/sitereport.html?url=8-muses.xyz
 8-muses.xyz
+! https://www.siteadvisor.com/sitereport.html?url=hdhentaicomics.com
 hdhentaicomics.com
 comixzilla.com
 comicporns.com
-8muses.net
+! removed 8muses.net - https://www.siteadvisor.com/sitereport.html?url=8muses.net
 !More porn/shock sites 
 ! https://someonewhocares.org/hosts/
 ! https://www.siteadvisor.com/sitereport.html?url=www.theexgirlfriends.com
