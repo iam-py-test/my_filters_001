@@ -611,6 +611,8 @@ pregteen.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/82930
 ! https://www.siteadvisor.com/sitereport.html?url=pornhub.org
 pornhub.org
+! https://www.siteadvisor.com/sitereport.html?url=ahsexfilme.com
+ahsexfilme.com
 
 ! Porn from another blocklist I created
 ! More porn domains
