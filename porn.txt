@@ -608,6 +608,9 @@ teensexy.com
 teens.com
 ! https://www.siteadvisor.com/sitereport.html?url=pregteen.com
 pregteen.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/82930
+! https://www.siteadvisor.com/sitereport.html?url=pornhub.org
+pornhub.org
 
 ! Porn from another blocklist I created
 ! More porn domains
