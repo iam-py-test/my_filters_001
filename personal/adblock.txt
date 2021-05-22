@@ -1,4 +1,4 @@
-! Title: Notespad Annoyances + Ads
+! Title: Annoyances + Ads (personal)
 ! Homepage: http://blocklists.localhost/badware/adblock.txt
 ! Updated: Wed, 07 Apr 2021 12:23:05 UTC
 ! Expires: 1 day (update frequency)
