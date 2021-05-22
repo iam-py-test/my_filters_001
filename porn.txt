@@ -707,6 +707,7 @@ finalgallery.com
 ! I would like someone to confirm if this breaks sites
 ||/gallery/pregnantmary/$all
 ||/pics/pregnant.shtml$all
+||/en/444/pregnant/$all
 ! https://www.siteadvisor.com/sitereport.html?url=teenfucker.com
 teenfucker.com
 ! https://www.siteadvisor.com/sitereport.html?url=teenpregnant.com
@@ -728,9 +729,51 @@ pregogirl.com
 2girls1boy.com
 ! https://www.fortiguard.com/webfilter?q=2girls1cock.com&version=8
 2girls1cock.com
+! https://www.siteadvisor.com/sitereport.html?url=teen.net
+teen.net
+! https://www.siteadvisor.com/sitereport.html?url=teensexy.net
+teensexy.net
+! https://www.siteadvisor.com/sitereport.html?url=teensexy.com
+teensexy.com
+! More domains
+pornkai.com
+pervertslut.com
+dirtyhomeclips.com
+beegnow.com
+youx.xxx
+metaporn.com
+apornstories.com
+tubepleasure.com
+preggovidz.com
+goldpornfilms.com
+hqboobs.com
+gotporn.com
+hdteenporn.com
+whorestube.com
+grannycinema.com
+shameless.com
+hqvintagetube.com
+pussyspace.com
+pornsos.com
+nastyvideotube.com
+teenda.com
+finalteens.com
+hometubeporn.com
+ozeex.com
+teensxxxtube.com
+alohatube.com
+redhdtube.xxx
+thumbzilla.com
+www.porn.biz
+largehdtube.com
+iwank.tv
+sunporno.com
+bestandfree.com
+teenpussypics.com
+
 
 ! Porn domains from another blocklist I created
-! https://github.com/blocklistproject/Lists/issues/310
+! domains from https://github.com/blocklistproject/Lists/issues/310
 bestporncomix.com
 worldporncomix.com
 wporncomics.com
