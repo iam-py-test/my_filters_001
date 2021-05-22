@@ -779,6 +779,10 @@ ecchi.iwara.tv
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83785
 ! https://www.siteadvisor.com/sitereport.html?url=tubeon.com
 tubeon.com
+! https://github.com/AdguardTeam/AdguardFilters/commit/5f37ebdfa64e06d9171049ac47d9793a9ace5a2c
+! https://github.com/AdguardTeam/AdguardFilters/issues/83786
+! https://www.siteadvisor.com/sitereport.html?url=bigtitslust.com
+bigtitslust.com
 ! Porn domains from another blocklist I created
 ! domains from https://github.com/blocklistproject/Lists/issues/310
 bestporncomix.com
