@@ -783,6 +783,28 @@ tubeon.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83786
 ! https://www.siteadvisor.com/sitereport.html?url=bigtitslust.com
 bigtitslust.com
+! https://www.siteadvisor.com/sitereport.html?url=bigtits.com
+bigtits.com
+! https://www.siteadvisor.com/sitereport.html?url=bigtits.net
+bigtits.net
+! https://www.siteadvisor.com/sitereport.html?url=teenbigtits.net
+teenbigtits.net
+! https://www.siteadvisor.com/sitereport.html?url=teenbigtits.com
+teenbigtits.com
+! https://www.siteadvisor.com/sitereport.html?url=teentits.com
+teentits.com
+! https://www.siteadvisor.com/sitereport.html?url=teentits.net
+teentits.net
+! https://www.siteadvisor.com/sitereport.html?url=teentits.xxx
+teentits.xxx
+! https://www.siteadvisor.com/sitereport.html?url=xwetpics.com
+xwetpics.com
+xxxvideos247.com
+youx.xxx
+upicsz.com
+zbporn.com
+mylust.com
+luscious.net
 ! Porn domains from another blocklist I created
 ! domains from https://github.com/blocklistproject/Lists/issues/310
 bestporncomix.com
