@@ -36,9 +36,6 @@ thedogvisitor.com##div.amazon > [href="https://bit.ly/thedogvisitors"]
 ##.AnswersListLoginBanner__answersListLoginBanner____T1EW
 ##.JoinAnswersBanner__joinAnswersBanner___1CCEI
 
-!Uncomment to hide McAffe WebAdvisor 'This link is ok' 
-!##.mcafee_ok
-
 !Ads
 ##[href="https://writecome.com/5daypodcast/"]
 ||writecome.com/wp-content/uploads/2021/02/If-You-Can-Copy-And-Paste-You-Can-Create-An-Income-Stream._-2.png
@@ -63,7 +60,7 @@ nationalgeographic.com##+js(aeld, scroll)
 
 !"Powered by" link
 ###weebly-footer-signup-container-v3
-!
+
 !Cookie banners
 ! 2021-04-12 https://blavity.com
 blavity.com##.Cookie--blood-orange.Cookie--bottom.Cookie
