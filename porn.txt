@@ -770,7 +770,12 @@ iwank.tv
 sunporno.com
 bestandfree.com
 teenpussypics.com
-
+! https://github.com/AdguardTeam/AdguardFilters/issues/83801
+! https://www.siteadvisor.com/sitereport.html?url=iwara.tv
+! https://www.siteadvisor.com/sitereport.html?url=ecchi.iwara.tv
+! A dangerous domain according to McAfee
+iwara.tv
+ecchi.iwara.tv 
 
 ! Porn domains from another blocklist I created
 ! domains from https://github.com/blocklistproject/Lists/issues/310
@@ -864,7 +869,6 @@ porno.net
 titties.com
 porn.xyz
 xxxtube.com
-
 !Shock sites
 ! https://someonewhocares.org/hosts/
 ! https://www.mywot.com/scorecard/lolshock.com
