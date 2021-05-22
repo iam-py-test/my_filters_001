@@ -1,0 +1,132 @@
+! Title: Notespad Annoyances + Ads
+! Homepage: http://blocklists.localhost/badware/adblock.txt
+! Updated: Wed, 07 Apr 2021 12:23:05 UTC
+! Expires: 1 day (update frequency)
+
+*$queryprune=utm_source
+*$queryprune=utm_campaign
+
+! 2021-03-23 https://spreadprivacy.com
+spreadprivacy.com##.floating-header-share
+spreadprivacy.com##.social-link-tw.social-link
+
+||.xxx^$all
+
+! 2021-04-05 https://www.wmtips.com
+||www.wmtips.com/i/inc1ba.gif$image
+
+! 2021-04-07 https://www.eff.org
+www.eff.org##.desktop.pane-eff-share-blog > .share-links > .share-twitter
+www.eff.org##.desktop.pane-eff-share-blog > .share-links > .share-facebook
+
+! 2021-04-07 https://forums.malwarebytes.com
+forums.malwarebytes.com##.ipsJS_hide.ipsPad_half
+
+! 2021-04-08 https://www.wilderssecurity.com
+www.wilderssecurity.com##.notice_-1.DismissParent.Notice.panel
+
+! 2021-04-11 https://thedogvisitor.com
+||thedogvisitor.com/oil/4.jpg$image
+thedogvisitor.com##div.widget-newsletter.widget:nth-of-type(2)
+||thedogvisitor.com/oil/*.jpg$image
+thedogvisitor.com##div.widget-newsletter.widget > [href="https://bit.ly/thedogvisitors"]
+thedogvisitor.com##div.amazon:nth-of-type(5)
+thedogvisitor.com##div.amazon > [href="https://bit.ly/thedogvisitors"]
+
+##.AnswersListLoginBanner__answersListLoginBanner____T1EW
+##.JoinAnswersBanner__joinAnswersBanner___1CCEI
+
+!Uncomment to hide McAffe WebAdvisor 'This link is ok' 
+!##.mcafee_ok
+
+!Ads
+##[href="https://writecome.com/5daypodcast/"]
+||writecome.com/wp-content/uploads/2021/02/If-You-Can-Copy-And-Paste-You-Can-Create-An-Income-Stream._-2.png
+##.w-100.text-center.container.page-home__section--hero__ad > .ad-base__wrapper--show-text.ad-base__wrapper
+##.ad-base__wrapper--show-text.ad-base__wrapper
+
+!Comment out to show social media links
+##div.shuffeldiv.sfsi_wicons > .inerCnt
+##.clearfix.share-container
+
+!"Please sign up" alerts
+||optindesigner.com/members/app/show.php
+###ffpop
+###ffBlanket
+##.syndicated-modal
+www.nationalgeographic.com##.EmailStickyFooter__Container
+! 2021-04-19 https://www.nationalgeographic.com
+www.nationalgeographic.com##.ModalInner
+www.nationalgeographic.com###fittPortal_0 > .no-touch.bp-desktopLGPlus.bp-desktopPlus.bp-tabletPlus.bp-mobileLGPlus.bp-mobileMDPlus
+!Allow scrolling
+nationalgeographic.com##+js(aeld, scroll)
+
+!"Powered by" link
+###weebly-footer-signup-container-v3
+!
+!Cookie banners
+! 2021-04-12 https://blavity.com
+blavity.com##.Cookie--blood-orange.Cookie--bottom.Cookie
+##.cookie-notice-container
+malwarefixes.com##.cookie-notice-visible.cn-effect-none.cn-position-bottom.cookie-revoke-hidden
+
+!Microsoft "Please upgrade" alert
+! 2021-04-12 https://support.microsoft.com
+microsoft.com##.M365_uhf_upgrade.uhfupgradeBanner
+
+!Reddit "get premium"
+##.premium-banner
+
+!#if !ext_ublock
+!*$all
+!#endif
+
+
+!A site that only redirects to other sites hosting malware 
+www.helpmyos.com
+helpmyos.com
+
+!To buypass Google redirects
+||google.com/url$document
+
+!MyWot trying to get you to install the extention
+! 2021-05-05 https://www.mywot.com
+www.mywot.com##.fmdjuL.StyledIntroSection__IntroContent-zlf7ux-1.StyledUtils__FlexColumn-sc-14r66vj-1 > .ohnJg.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0 > .jss297.jss295.jss122.jss113.jss112.jss110.jss109.jss98.jss124
+
+! 2021-05-03 https://www.mywot.com
+www.mywot.com##.faGFby.StyledFloatingHorizontalAddWOT__FloatingHorizontalAddWOTContainer-sc-8kea3v-0.StyledUtils__FlexRow-sc-14r66vj-0
+
+! 2021-05-04 https://www.mywot.com
+www.mywot.com##.fmdjuL.StyledIntroSection__IntroContent-zlf7ux-1.StyledUtils__FlexColumn-sc-14r66vj-1 > .ohnJg.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0 > .jss319.jss317.jss122.jss113.jss112.jss110.jss109.jss98.jss124
+! 2021-05-03 https://www.mywot.com
+www.mywot.com##.kxzBLN.StyledRectangleDesktopConversionBanner__RectangleDesktopConversionBannerContainer-sc-1kgcajq-0.StyledUtils__FlexColumn-sc-14r66vj-1
+www.mywot.com##.dLClwL.StyledCookiesConsent__CookiesConsentContainer-sc-1hx0re8-0.StyledUtils__FlexRow-sc-14r66vj-0
+www.mywot.com##.kQDsFi.StyledPopup__PopupContainer-sc-1ql589a-0.StyledUtils__FlexColumn-sc-14r66vj-1
+www.mywot.com##.fizXGU.StyledHorizontalAddWOT-z0aeqf-0.StyledUtils__FlexRow-sc-14r66vj-0
+! 2021-03-21 https://www.mywot.com
+www.mywot.com##.jss332.jss334.jss132.jss123.jss122.jss120.jss119.jss108.jss134
+www.mywot.com##.bTrYWJ.StyledHorizontalAddWOT-z0aeqf-0.StyledUtils__FlexRow-sc-14r66vj-0
+! 2021-03-21 https://www.mywot.com
+www.mywot.com##.faGFby.StyledFloatingHorizontalAddWOT__FloatingHorizontalAddWOTContainer-sc-8kea3v-0.StyledUtils__FlexRow-sc-14r66vj-0
+www.mywot.com##.dLClwL.StyledCookiesConsent__CookiesConsentContainer-sc-1hx0re8-0.StyledUtils__FlexRow-sc-14r66vj-0
+www.mywot.com##.kQDsFi.StyledPopup__PopupContainer-sc-1ql589a-0.StyledUtils__FlexColumn-sc-14r66vj-1
+www.mywot.com##.byIuiX.StyledRectangleDesktopConversionBanner__RectangleDesktopConversionBannerContainer-sc-1kgcajq-0.StyledUtils__FlexColumn-sc-14r66vj-1
+www.mywot.com##.jss327.jss329.jss132.jss123.jss122.jss120.jss119.jss108.jss134
+
+! 2021-03-23 https://www.mywot.com
+www.mywot.com##.eYusTO.StyledScorecardHeader__Row-sc-1j5xgrs-3.StyledUtils__FlexRow-sc-14r66vj-0 > .gyaPxX.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0
+
+! 2021-03-24 https://www.mywot.com
+www.mywot.com##.fmdjuL.StyledIntroSection__IntroContent-zlf7ux-1.StyledUtils__FlexColumn-sc-14r66vj-1 > .gyaPxX.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0 > .jss298.jss296.jss124.jss115.jss114.jss112.jss111.jss100.jss126
+www.mywot.com##.bHRuhF.StyledFloatingAddWOT__FloatingAddWOTContainer-x3wli8-0.StyledUtils__FlexColumn-sc-14r66vj-1
+
+! 2021-04-05 https://www.mywot.com
+www.mywot.com##.fmdjuL.StyledIntroSection__IntroContent-zlf7ux-1.StyledUtils__FlexColumn-sc-14r66vj-1 > .gyaPxX.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0 > .jss297.jss295.jss122.jss113.jss112.jss110.jss109.jss98.jss124
+
+
+! 2021-04-22 https://www.mywot.com
+www.mywot.com##.fizXGU.StyledHorizontalAddWOT-z0aeqf-0.StyledUtils__FlexRow-sc-14r66vj-0
+
+! 2021-04-29 https://www.mywot.com
+www.mywot.com##.fmdjuL.StyledIntroSection__IntroContent-zlf7ux-1.StyledUtils__FlexColumn-sc-14r66vj-1 > .ohnJg.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0 > .jss297.jss295.jss122.jss113.jss112.jss110.jss109.jss98.jss124
+
