@@ -39,8 +39,6 @@ youtube.com##:has-text(rickroll)
 ||youtube.com/watch?v=dQw4w9WgXcQ$document,frame
 ||youtube.com/watch?v=OsALjIJ8C0I$document,frame
 ||youtube.com/watch?v=0lQqK-ofK3M$document,frame
-||youtube.com/watch?v=dQw4w9WgXcQ$document,frame
-||youtube.com/watch?v=dQw4w9WgXcQ$document,frame
 ||youtube.com/watch?v=DLzxrzFCyOs$document,frame
 ||youtube.com/watch?v=bxqLsrlakK8$document,frame
 ||youtube.com/watch?v=K7XHy8nppf4$document,frame
@@ -81,11 +79,11 @@ youtube.com##:has-text(rickroll)
 ||youtube.com/watch?v=dUs3Vm19QLo$document,frame
 ||youtube.com/watch?v=W68SFQ3mc5M$document,frame
 ||youtube.com/watch?v=_W5JIr-AR1o$document,frame
+!
 ||youtube.com/watch?v=q2npAgPEF7s$document,frame
 ||youtube.com/watch?v=ZXpThNX9IRc$document,frame
 ||youtube.com/watch?v=IpLUifjqlIs$document,frame
 ||youtube.com/watch?v=8EQRGf9GQPU$document,frame
-!
 ||youtube.com/watch?v=z6pBDrF7seo$document,frame
 ||youtube.com/watch?v=bxqLsrlakK8$document,frame
 ||youtube.com/watch?v=PhdSYf4uGjA$document,frame
@@ -104,14 +102,19 @@ youtube.com##:has-text(rickroll)
 ||youtube*.com/*1RY8-NddZso$all,redirect=click2load.html
 ||youtube*.com/*4vfdufpZFJs$all,redirect=click2load.html
 ||youtube*.com/*8CfCBhfaJk4$all,redirect=click2load.html
-||youtube*PhdSYf4uGjA$all
-||youtube*bxqLsrlakK8$all
-||youtube*hicswukmwow$all
-||youtube*HIcSWuKMwOw$all
-||youtube*cvh0nX08nRw$all
-||youtube*sXwaRjU7Tj0$all
-||youtube*iik25wqIuFo$all
-||youtube*BT9h5ifR1tY$all
+||youtube*.com/*PhdSYf4uGjA$all
+||youtube*.com/*bxqLsrlakK8$all
+||youtube*.com/*hicswukmwow$all
+||youtube*.com/*HIcSWuKMwOw$all
+||youtube*.com/*cvh0nX08nRw$all
+||youtube*.com/*sXwaRjU7Tj0$all
+||youtube*.com/*iik25wqIuFo$all
+||youtube*.com/*BT9h5ifR1tY$all
+||youtube*.com/*z6pBDrF7seo$all
+||youtube*.com/*8EQRGf9GQPU$all
+||youtube*.com/*IpLUifjqlIs$all
+||youtube*.com/*ZXpThNX9IRc$all
+
 
 
 !More non-youtube rickroll videos
