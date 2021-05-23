@@ -1,0 +1,3 @@
+! Title: Anti-tracking 
+! Expires: 1 day
+! Description: A list I created to block tracking
