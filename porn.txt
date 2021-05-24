@@ -823,6 +823,9 @@ nsfwyoutube.com
 ! https://www.siteadvisor.com/sitereport.html?url=avgle.com
 ! https://www.fortiguard.com/webfilter?q=avgle.com&version=8
 avgle.com
+! https://github.com/NanoMeow/QuickReports/issues/4249
+! https://www.fortiguard.com/webfilter?q=mypornsnap.top&version=8
+mypornsnap.top
 ! Porn domains from another blocklist I created
 ! domains from https://github.com/blocklistproject/Lists/issues/310
 bestporncomix.com
