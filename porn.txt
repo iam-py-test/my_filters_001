@@ -826,6 +826,9 @@ avgle.com
 ! https://github.com/NanoMeow/QuickReports/issues/4249
 ! https://www.fortiguard.com/webfilter?q=mypornsnap.top&version=8
 mypornsnap.top
+! https://github.com/easylist/easylist/issues/7918
+! https://www.siteadvisor.com/sitereport.html?url=thegay.com
+thegay.com
 ! Porn domains from another blocklist I created
 ! domains from https://github.com/blocklistproject/Lists/issues/310
 bestporncomix.com
