@@ -812,6 +812,10 @@ teenbody.com
 ! https://github.com/uBlockOrigin/uAssets/issues/9139
 ! https://www.siteadvisor.com/sitereport.html?url=povaddict.com
 povaddict.com
+! https://github.com/uBlockOrigin/uAssets/issues/9136
+! https://www.mywot.com/scorecard/nsfwyoutube.com
+! https://www.siteadvisor.com/sitereport.html?url=nsfwyoutube.com
+nsfwyoutube.com
 ! Porn domains from another blocklist I created
 ! domains from https://github.com/blocklistproject/Lists/issues/310
 bestporncomix.com
