@@ -148,6 +148,7 @@ www.howtogeek.com###v2campaignpopup_backdrop
 ||cdn.tinypass.com/api/tinypass.min.js$script,3p
 
 ! anti-adblock https://www.drawasaurus.org
+! https://github.com/uBlockOrigin/uAssets/issues/9183
 www.drawasaurus.org##.c-footer__blocked
 
 ! ads http://multirbl.valli.org
