@@ -26,6 +26,15 @@ tor.stackexchange.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-7
 ! https://stackoverflow.com
 stackoverflow.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
 
+! https://safetoopen.com
+safetoopen.com###cookiesdirective
+
+! https://scantitan.com
+scantitan.com###cookie-law-info-bar
+
+! https://www.wikihow.com
+www.wikihow.com###article_courses_banner
+
 ! https://www.universeguide.com
 www.universeguide.com###cookieConsent\ noprint
 
