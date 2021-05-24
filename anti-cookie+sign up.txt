@@ -41,6 +41,9 @@ www.universeguide.com###cookieConsent\ noprint
 ! https://community.broadcom.com cookies
 community.broadcom.com###onetrust-consent-sdk
 
+! https://cybersecurity.att.com
+cybersecurity.att.com##.active.cookie-notice
+
 ! https://www.paypal.com cookies
 www.paypal.com##.ccpaHideCookieBannerMobile.ccpaCookieBanner_container-custom.ccpaCookieBanner_container
 
