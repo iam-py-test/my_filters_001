@@ -147,6 +147,15 @@ www.howtogeek.com###v2campaignpopup_backdrop
 ! Can someone confirm whether this breaks any sites - I found this request on www.apollo-magazine.com
 ||cdn.tinypass.com/api/tinypass.min.js$script,3p
 
+! anti-adblock https://www.drawasaurus.org
+www.drawasaurus.org##.c-footer__blocked
+
+! ads http://multirbl.valli.org
+multirbl.valli.org###lo-ads
+
+! cookie banner https://www.heroku.com
+www.heroku.com###heroku-cookie-banner
+
 !https://blavity.com Cookie banners 
 blavity.com##.Cookie--blood-orange.Cookie--bottom.Cookie
 ! malwarefixes.com cookie consent
