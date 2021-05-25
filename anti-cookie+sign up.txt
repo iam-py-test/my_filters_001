@@ -38,7 +38,7 @@ www.wikihow.com###article_courses_banner
 ! https://www.universeguide.com
 www.universeguide.com###cookieConsent\ noprint
 
-! I don't want their antivirus and it requires a subscription - if you wanted it you can get it from their website
+! I don't want the antivirus they are promoting and it requires a subscription - if you wanted it you can get it from its website
 ! https://id-ransomware.malwarehunterteam.com
 id-ransomware.malwarehunterteam.com##.ad
 
