@@ -114,6 +114,7 @@ youtube.com##:has-text(rickroll)
 ||youtube*.com/*8EQRGf9GQPU$all
 ||youtube*.com/*IpLUifjqlIs$all
 ||youtube*.com/*ZXpThNX9IRc$all
+! Someone tried to rickroll be with this - it failed
 ! https://www.youtube.com/watch?v=-51AfyMqnpI
 ||youtube*.com/*-51AfyMqnpI$all
 
