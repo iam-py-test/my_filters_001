@@ -70,6 +70,11 @@ www.visme.co##.cookies-popup
 weather.com##.PrivacyDataNotice--container--1kMjz
 weather.com###WxuSmartMessage-sidebar-cf7684f8-a943-4593-9471-49a48a402aaa > .Card--card--4VS_Q.Card--cardPadded--2jAM0.card
 
+! annoying fullpage cookie consent - https://forums.lanik.us/viewtopic.php?f=91&t=46152
+www.jeuxvideo.com##.didomi-popup-notice-optin-type.didomi-popup-notice.didomi-popup__dialog.didomi-popup-container
+www.jeuxvideo.com##.didomi-popup__backdrop.didomi-notice-popup.didomi-popup-backdrop
+
+
 ! Example URL: https://twitter.com/gorhill/status/1033706103782170625
 ! Can someone confirm if there is more to the Twitter paywall - This was all I could find
 twitter.com##.r-1upvrn0.r-urgr8i.css-1dbjc4n
