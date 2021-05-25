@@ -74,12 +74,11 @@ weather.com###WxuSmartMessage-sidebar-cf7684f8-a943-4593-9471-49a48a402aaa > .Ca
 www.jeuxvideo.com##.didomi-popup-notice-optin-type.didomi-popup-notice.didomi-popup__dialog.didomi-popup-container
 www.jeuxvideo.com##.didomi-popup__backdrop.didomi-notice-popup.didomi-popup-backdrop
 
-
 ! Example URL: https://twitter.com/gorhill/status/1033706103782170625
 ! Can someone confirm if there is more to the Twitter paywall - This was all I could find
 twitter.com##.r-1upvrn0.r-urgr8i.css-1dbjc4n
 
-! www.publico.pt paywall - I could find no solution
+! www.publico.pt paywall - I could find no solution (these filters are just attempts)
 www.publico.pt##.datawall-warning.site-message--datawall.site-message--notice.site-message
 www.publico.pt##.shown.site-message--paywall.site-message--notice.site-message
 www.publico.pt##+js(cookie-remover,_hd_)
@@ -88,7 +87,7 @@ www.publico.pt##+js(cookie-remover,last-show)
 !||mkt.publico.pt/get/US-1621527817-707-60a68d09acfb1$xhr,domain=www.publico.pt
 !||www.publico.pt/js/workers/clusters.min.js?v202001211700$script,domain=www.publico.pt
 !||www.publico.pt/api/list/caixa/413718/news/0?size=3$xhr,domain=www.publico.pt
-!||s.publico.pt/ip.php$xhr,domain=www.publico.pt
+||s.publico.pt/ip.php$xhr,domain=www.publico.pt
 !||www.publico.pt/api/cluster/zombie/premium$xhr,domain=www.publico.pt
 www.publico.pt##+js(set,pageHasPaywall,false)
 !||www.publico.pt/api/traffic/split/custom/_ex_C/3$xhr,domain=www.publico.pt
@@ -107,13 +106,7 @@ www.dallasnews.com##.osano-cm-dialog--type_bar.osano-cm-dialog--position_bottom.
 www.themarshallproject.org##+js(cookie-remover,_utpv)
 www.themarshallproject.org##.toast-active.toast-email-signup-v2.toast-email-signup.toast-notification
 
-! Both cookie consent and "Download our extension" full page alerts
-www.mywot.com##.dLClwL.StyledCookiesConsent__CookiesConsentContainer-sc-1hx0re8-0.StyledUtils__FlexRow-sc-14r66vj-0
-||www.mywot.com/images/popup/wot-laptop-tinified.png$image
-www.mywot.com##html > iframe
-www.mywot.com##.kQDsFi.StyledPopup__PopupContainer-sc-1ql589a-0.StyledUtils__FlexColumn-sc-14r66vj-1
-
-!From Notespad annoyances list
+!From https://github.com/iam-py-test/my_filters_001/blob/main/personal/adblock.txt
 !"Please sign up" alerts
 ||optindesigner.com/members/app/show.php
 ###ffpop
@@ -145,9 +138,8 @@ www.howtogeek.com###v2campaignpopup_backdrop
 ! Waiting for someone to confirm that this cookie is related to the sign up prompt
 ! www.howtogeek.com##+js(cookie-remover,_dlt)
 
-! Fix the paywall
-! This might need a $domain filter 
-! https://www.apollo-magazine.com
+! Fix the paywall - https://www.apollo-magazine.com
+! This might need a $domain filter
 ||buy.tinypass.com/checkout/template/cacheableShow$subdocument
 ! Can someone confirm whether this breaks any sites - I found this request on www.apollo-magazine.com
 ||cdn.tinypass.com/api/tinypass.min.js$script,3p
@@ -157,31 +149,30 @@ www.howtogeek.com###v2campaignpopup_backdrop
 www.drawasaurus.org##.c-footer__blocked
 drawasaurus.org##+js(nostif, forceRefresh)
 
-! ads http://multirbl.valli.org
+! ads on http://multirbl.valli.org
 multirbl.valli.org###lo-ads
 
 ! cookie banner https://www.heroku.com
 www.heroku.com###heroku-cookie-banner
 
-!https://blavity.com Cookie banners 
+! https://blavity.com Cookie banners 
 blavity.com##.Cookie--blood-orange.Cookie--bottom.Cookie
 ! malwarefixes.com cookie consent
 malwarefixes.com##.cookie-notice-container
 malwarefixes.com##.cookie-notice-visible.cn-effect-none.cn-position-bottom.cookie-revoke-hidden
 
-!mediafire.com cookie banner - found via python (so not tested)
+! mediafire.com cookie banner - found via python with spoofed UA (so not tested)
 !Be careful when visiting this site - some of the files/pages are malware
 !Hide the banner and delete the consent cookie
 mediafire.com##.CookieAcceptance
 mediafire.com###cookie-accept-footer
 mediafire.com##+js(cookie-remover,accept-cookies)
 
-!Hide the banner and delete the cookie
+! Hide the banner and delete the cookie
 www.codespeedy.com###catapult-cookie-bar
 www.codespeedy.com##+js(cookie-remover,catAccCookies)
 www.codespeedy.com###catapultCookie
-! Get rid of the remaining ads
-! https://www.codespeedy.com
+! Get rid of the remaining ads - https://www.codespeedy.com
 www.codespeedy.com##div.height_250_ad
 
 ! Commonsensemedia paywall
@@ -210,7 +201,6 @@ www.nytimes.com##+js(cookie-remover,nyt-gdpr)
 www.nytimes.com##+js(cookie-remover,nyt-geo)
 www.nytimes.com##+js(cookie-remover,nyt-purr)
 www.nytimes.com##+js(cookie-remover,nyt-us)
-! https://www.nytimes.com
 www.nytimes.com##.e1x0szx60.css-17nqy7q.expanded-dock.expanded.shown.MAG_web_regi_us_sale_apple-pay-dock-ecd-test
 www.nytimes.com##div.egw6tc41.css-et84d3:nth-of-type(2)
 www.nytimes.com##.e1x0szx60.css-17nqy7q.expanded-dock.shown.MAG_web_regi_us_sale_apple-pay-dock-ecd-test
@@ -227,8 +217,7 @@ www.independent.co.uk##.jEfqsK.sc-pZnSc
 www.independent.co.uk##.eAffPM.sc-qPwPv
 www.independent.co.uk##+js(cookie-remover,fresh8_toggle)
 
-!Annoying, scroll locking, cookie consent popup
-! https://www.fsma.be
+!Annoying, scroll locking, cookie consent popup - https://www.fsma.be
 www.fsma.be###CybotCookiebotDialog
 www.fsma.be###CybotCookiebotDialogBodyUnderlay
 www.fsma.be##+js(cookie-remover,CookieConsent)
@@ -261,6 +250,12 @@ www.mywot.com##.bHRuhF.StyledFloatingAddWOT__FloatingAddWOTContainer-x3wli8-0.St
 www.mywot.com##.fmdjuL.StyledIntroSection__IntroContent-zlf7ux-1.StyledUtils__FlexColumn-sc-14r66vj-1 > .gyaPxX.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0 > .jss297.jss295.jss122.jss113.jss112.jss110.jss109.jss98.jss124
 www.mywot.com##.fizXGU.StyledHorizontalAddWOT-z0aeqf-0.StyledUtils__FlexRow-sc-14r66vj-0
 www.mywot.com##.fmdjuL.StyledIntroSection__IntroContent-zlf7ux-1.StyledUtils__FlexColumn-sc-14r66vj-1 > .ohnJg.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0 > .jss297.jss295.jss122.jss113.jss112.jss110.jss109.jss98.jss124
+! Both cookie consent and "Download our extension" full page alerts
+www.mywot.com##.dLClwL.StyledCookiesConsent__CookiesConsentContainer-sc-1hx0re8-0.StyledUtils__FlexRow-sc-14r66vj-0
+||www.mywot.com/images/popup/wot-laptop-tinified.png$image
+www.mywot.com##html > iframe
+www.mywot.com##.kQDsFi.StyledPopup__PopupContainer-sc-1ql589a-0.StyledUtils__FlexColumn-sc-14r66vj-1
+
 
 !More sign up/paywall
 ! https://www.geeksforgeeks.org
