@@ -832,6 +832,10 @@ thegay.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/55305
 ! https://www.siteadvisor.com/sitereport.html?url=http://xxxrapid.com
 xxxrapid.com
+! https://github.com/DandelionSprout/adfilt/issues/188
+! https://securitytrails.com/list/ip/5.8.47.3
+! https://www.siteadvisor.com/sitereport.html?url=tinderx-xx.com
+tinderx-xx.com
 ! Porn domains from another blocklist I created
 ! domains from https://github.com/blocklistproject/Lists/issues/310
 bestporncomix.com
