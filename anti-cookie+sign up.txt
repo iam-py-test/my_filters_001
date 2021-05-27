@@ -161,6 +161,13 @@ www.howtogeek.com###v2campaignpopup_backdrop
 ! Can someone confirm whether this breaks any sites - I found this request on www.apollo-magazine.com
 ||cdn.tinypass.com/api/tinypass.min.js$script,3p
 
+! https://www.reddit.com/r/uBlockOrigin/wiki/solutions#wiki_consent_dialog_popup
+! Google consent, "before you continue"
+www.google.*##^script:has-text(consentCookiePayload)
+www.google.*##+js(acis, document.cookie, YES+)
+google.*##+js(aeld, DOMContentLoaded, CONSENT)
+||consent.google.com^
+
 ! anti-adblock https://www.drawasaurus.org
 ! https://github.com/uBlockOrigin/uAssets/issues/9183
 www.drawasaurus.org##.c-footer__blocked
