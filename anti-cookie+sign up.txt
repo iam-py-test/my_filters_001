@@ -254,6 +254,7 @@ www.fsma.be##+js(aeld,scroll)
 www.reddit.com##.premium-banner
 
 !MyWot trying to get you to install the extension
+! https://github.com/uBlockOrigin/uAssets/issues/9235
 www.mywot.com##.fmdjuL.StyledIntroSection__IntroContent-zlf7ux-1.StyledUtils__FlexColumn-sc-14r66vj-1 > .ohnJg.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0 > .jss297.jss295.jss122.jss113.jss112.jss110.jss109.jss98.jss124
 www.mywot.com##.faGFby.StyledFloatingHorizontalAddWOT__FloatingHorizontalAddWOTContainer-sc-8kea3v-0.StyledUtils__FlexRow-sc-14r66vj-0
 www.mywot.com##.fmdjuL.StyledIntroSection__IntroContent-zlf7ux-1.StyledUtils__FlexColumn-sc-14r66vj-1 > .ohnJg.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0 > .jss319.jss317.jss122.jss113.jss112.jss110.jss109.jss98.jss124
