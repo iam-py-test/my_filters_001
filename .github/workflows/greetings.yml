@@ -1,0 +1,16 @@
+name: Greetings
+
+on: [pull_request, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: 'Hi, @${{ github.actor }}! Thank you for opening an issue! <br/> I will try to get to this as soon as possible'
+        pr-message: 'Hello, @${{ github.actor }}! Thank you for contributing! <br/> '
