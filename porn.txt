@@ -836,6 +836,12 @@ xxxrapid.com
 ! https://securitytrails.com/list/ip/5.8.47.3
 ! https://www.siteadvisor.com/sitereport.html?url=tinderx-xx.com
 tinderx-xx.com
+! https://github.com/uBlockOrigin/uAssets/issues/8469
+freehardcore.com
+! https://www.mywot.com/scorecard/crazyporn.xxx
+crazyporn.xxx
+! https://www.siteadvisor.com/sitereport.html?url=pornhat.one
+pornhat.one
 ! Porn domains from another blocklist I created
 ! domains from https://github.com/blocklistproject/Lists/issues/310
 bestporncomix.com
