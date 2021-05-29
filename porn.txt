@@ -17,38 +17,6 @@ photos.freeones.com$all
 freeones.com$all
 pornid.xxx$all
 fapality.com$all
-! https://www.pcworld.com/article/2034864/just-how-much-malware-is-on-free-porn-sites-.html
-burningangel.com$all
-brazzers.com$all
-suicidegirls.com$all
-! https://transparencyreport.google.com/safe-browsing/search?url=pornhub.com
-! Already blocked
-!pornhub.com
-! https://blog.dynamoo.com/2013/04/top-porn-sites-lead-to-malware.html
-xvideos.com$all
-livejasmin.com$all
-redtube.com$all
-! https://www.mywot.com/scorecard/xnxx.com
-xnxx.com$all
-youporn.com$all
-adultfriendfinder.com$all
-!More porn
-allcuteteens.com$all
-! https://www.siteadvisor.com/sitereport.html?url=findxxx.net
-findxxx.net$all
-! https://github.com/iam-py-test/my_filters_001/issues/4
-sexy-lips.ru$all
-! https://github.com/iam-py-test/my_filters_001/issues/5
-0dayporno.com$all
-! https://github.com/iam-py-test/my_filters_001/issues/6
-101boyvideos.com$all
-! https://github.com/iam-py-test/my_filters_001/issues/8
-1youngteenporn.com$all
-! https://github.com/iam-py-test/my_filters_001/issues/9
-xhamster.com$all
-! https://github.com/iam-py-test/my_filters_001/issues/10
-! https://blog.dynamoo.com/2013/04/top-porn-sites-lead-to-malware.html
-xvideos.com$all
 ! https://www.mywot.com/scorecard/sex.xxx
 sex.xxx$all
 !A random domain I made up
@@ -264,6 +232,38 @@ fuckgirls.porn$all
 ! https://www.fortiguard.com/webfilter?q=xxx.com&version=8
 xxx.com$all
 ! Found in random reports online
+
+! https://blog.dynamoo.com/2013/04/top-porn-sites-lead-to-malware.html
+! https://www.pcworld.com/article/2034864/just-how-much-malware-is-on-free-porn-sites-.html
+burningangel.com$all
+brazzers.com$all
+suicidegirls.com$all
+! https://transparencyreport.google.com/safe-browsing/search?url=pornhub.com
+! Already blocked
+!pornhub.com
+livejasmin.com$all
+redtube.com$all
+! https://www.mywot.com/scorecard/xnxx.com
+xnxx.com$all
+youporn.com$all
+adultfriendfinder.com$all
+allcuteteens.com$all
+! https://www.siteadvisor.com/sitereport.html?url=findxxx.net
+findxxx.net$all
+! https://github.com/iam-py-test/my_filters_001/issues/4
+condom-shop.ru$document
+sexy-lips.ru$all
+! https://github.com/iam-py-test/my_filters_001/issues/5
+0dayporno.com$all
+! https://github.com/iam-py-test/my_filters_001/issues/6
+101boyvideos.com$all
+! https://github.com/iam-py-test/my_filters_001/issues/8
+1youngteenporn.com$all
+! https://github.com/iam-py-test/my_filters_001/issues/9
+xhamster.com$all
+! https://github.com/iam-py-test/my_filters_001/issues/10
+xvideos.com$all
+
 ! https://safeweb.norton.com/reviews?url=kyliejennernude.com
 ! https://www.siteadvisor.com/sitereport.html?url=kyliejennernude.com
 kyliejennernude.com$all
@@ -273,6 +273,7 @@ kyliejennernude.com$all
 ! https://yandex.com/safety/?url=lookedon.com
 ! Also added as malware
 lookedon.com$all
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83579
 ! https://www.siteadvisor.com/sitereport.html?url=lewdsenpai.com
 lewdsenpai.com$all
