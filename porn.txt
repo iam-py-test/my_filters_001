@@ -32,13 +32,58 @@ porn.biz$all
 sexy.com$all
 ! https://www.mywot.com/scorecard/hotgirls.com
 hotgirls.com$all
-! https://github.com/uBlockOrigin/uAssets/issues/9102
-! https://www.mywot.com/scorecard/pornhubpremium.com
-! https://siteadvisor.com/sitereport.html?url=pornhubpremium.com
-pornhubpremium.com$all
 ! https://www.mywot.com/scorecard/hot.xxx
 ! https://www.siteadvisor.com/sitereport.html?url=hot.xxx
 hot.xxx$all
+
+! A few random domains I made up
+! https://www.siteadvisor.com/sitereport.html?url=pornxxx.net
+pornxxx.net$all
+! https://www.siteadvisor.com/sitereport.html?url=xxx.net
+xxx.net$all
+! https://www.siteadvisor.com/sitereport.html?url=xxxgirls.net
+xxxgirls.net$all
+! From https://duckduckgo.com/?t=ffab&q=porn+sites&ia=web
+! https://www.siteadvisor.com/sitereport.html?url=fuq.com
+www.fuq.com$all
+fuq.com$all
+
+! A malware/porn domain - blocking here because it does have porn and should be blocked more globally.
+! https://www.mywot.com/en/scorecard/101sexsecret.com
+! https://www.siteadvisor.com/sitereport.html?url=101sexsecret.com
+! https://www.fortiguard.com/webfilter?q=101sexsecret.com
+101sexsecret.com$all
+! Yet another domain I made up
+! https://www.siteadvisor.com/sitereport.html?url=porn.xyz
+! https://www.fortiguard.com/webfilter?q=porn.xyz
+porn.xyz$all
+! https://www.fortiguard.com/webfilter?q=hotgirls.xyz&version=8
+! https://www.siteadvisor.com/sitereport.html?url=hotgirls.xyz
+hotgirls.xyz$all
+! https://www.siteadvisor.com/sitereport.html?url=hotgirls.porn
+! https://www.fortiguard.com/webfilter?q=hotgirls.porn&version=8
+hotgirls.porn$all
+! https://www.fortiguard.com/webfilter?q=fuckgirls.porn&version=8
+fuckgirls.porn$all
+! https://www.fortiguard.com/webfilter?q=xxx.com&version=8
+xxx.com$all
+
+! Found in random reports online
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/83801
+! https://www.siteadvisor.com/sitereport.html?url=iwara.tv
+! https://www.siteadvisor.com/sitereport.html?url=ecchi.iwara.tv
+! A dangerous domain according to McAfee
+iwara.tv$all
+ecchi.iwara.tv$all
+! https://github.com/AdguardTeam/AdguardFilters/issues/83785
+! https://www.siteadvisor.com/sitereport.html?url=tubeon.com
+tubeon.com$all
+! https://github.com/AdguardTeam/AdguardFilters/commit/5f37ebdfa64e06d9171049ac47d9793a9ace5a2c
+! https://github.com/AdguardTeam/AdguardFilters/issues/83786
+! https://www.siteadvisor.com/sitereport.html?url=bigtitslust.com
+bigtitslust.com$all
+
 !From https://github.com/DandelionSprout/adfilt/blob/master/AntiAbusePorn.txt
 ! https://www.siteadvisor.com/sitereport.html?url=rule34.xxx
 ! https://www.mywot.com/en/scorecard/rule34.xxx
@@ -175,17 +220,22 @@ qcock.com$all
 ! https://github.com/uBlockOrigin/uAssets/issues/9116
 ! https://www.fortiguard.com/webfilter?q=justanime.net
 justanime.net$all
-! A few random domains I made up
-! https://www.siteadvisor.com/sitereport.html?url=pornxxx.net
-pornxxx.net$all
-! https://www.siteadvisor.com/sitereport.html?url=xxx.net
-xxx.net$all
-! https://www.siteadvisor.com/sitereport.html?url=xxxgirls.net
-xxxgirls.net$all
-! From https://duckduckgo.com/?t=ffab&q=porn+sites&ia=web
-! https://www.siteadvisor.com/sitereport.html?url=fuq.com
-www.fuq.com$all
-fuq.com$all
+
+! https://github.com/uBlockOrigin/uAssets/issues/9102
+! https://www.mywot.com/scorecard/pornhubpremium.com
+! https://siteadvisor.com/sitereport.html?url=pornhubpremium.com
+pornhubpremium.com$all
+
+! https://github.com/alex000kim/nsfw_data_scraper/blob/master/raw_data/sexy/urls_sexy.txt
+! https://www.siteadvisor.com/sitereport.html?url=content.japhole.com
+content.japhole.com$all
+! https://www.siteadvisor.com/sitereport.html?url=japhole.com
+japhole.com$all
+! https://raw.githubusercontent.com/VernonStow/Filterlist/master/Filterlist.txt
+! https://www.mywot.com/scorecard/sniffies.com
+! https://www.siteadvisor.com/sitereport.html?url=sniffies.com
+sniffies.com$all
+
 ! https://github.com/uBlockOrigin/uAssets/issues/8463
 ! https://siteadvisor.com/sitereport.html?url=milffox.com
 milffox.com$all
@@ -203,35 +253,6 @@ hardcoregangbang.com$all
 pornpics.com$all
 ! https://www.siteadvisor.com/sitereport.html?url=cdn.pornpics.com
 cdn.pornpics.com$all
-! https://github.com/alex000kim/nsfw_data_scraper/blob/master/raw_data/sexy/urls_sexy.txt
-! https://www.siteadvisor.com/sitereport.html?url=content.japhole.com
-content.japhole.com$all
-! https://www.siteadvisor.com/sitereport.html?url=japhole.com
-japhole.com$all
-! https://raw.githubusercontent.com/VernonStow/Filterlist/master/Filterlist.txt
-! https://www.mywot.com/scorecard/sniffies.com
-! https://www.siteadvisor.com/sitereport.html?url=sniffies.com
-sniffies.com$all
-! A malware/porn domain - blocking here because it does have porn and should be blocked more globally.
-! https://www.mywot.com/en/scorecard/101sexsecret.com
-! https://www.siteadvisor.com/sitereport.html?url=101sexsecret.com
-! https://www.fortiguard.com/webfilter?q=101sexsecret.com
-101sexsecret.com$all
-! Yet another domain I made up
-! https://www.siteadvisor.com/sitereport.html?url=porn.xyz
-! https://www.fortiguard.com/webfilter?q=porn.xyz
-porn.xyz$all
-! https://www.fortiguard.com/webfilter?q=hotgirls.xyz&version=8
-! https://www.siteadvisor.com/sitereport.html?url=hotgirls.xyz
-hotgirls.xyz$all
-! https://www.siteadvisor.com/sitereport.html?url=hotgirls.porn
-! https://www.fortiguard.com/webfilter?q=hotgirls.porn&version=8
-hotgirls.porn$all
-! https://www.fortiguard.com/webfilter?q=fuckgirls.porn&version=8
-fuckgirls.porn$all
-! https://www.fortiguard.com/webfilter?q=xxx.com&version=8
-xxx.com$all
-! Found in random reports online
 
 ! https://blog.dynamoo.com/2013/04/top-porn-sites-lead-to-malware.html
 ! https://www.pcworld.com/article/2034864/just-how-much-malware-is-on-free-porn-sites-.html
@@ -780,19 +801,7 @@ iwank.tv$all
 sunporno.com$all
 bestandfree.com$all
 teenpussypics.com$all
-! https://github.com/AdguardTeam/AdguardFilters/issues/83801
-! https://www.siteadvisor.com/sitereport.html?url=iwara.tv
-! https://www.siteadvisor.com/sitereport.html?url=ecchi.iwara.tv
-! A dangerous domain according to McAfee
-iwara.tv$all
-ecchi.iwara.tv$all
-! https://github.com/AdguardTeam/AdguardFilters/issues/83785
-! https://www.siteadvisor.com/sitereport.html?url=tubeon.com
-tubeon.com$all
-! https://github.com/AdguardTeam/AdguardFilters/commit/5f37ebdfa64e06d9171049ac47d9793a9ace5a2c
-! https://github.com/AdguardTeam/AdguardFilters/issues/83786
-! https://www.siteadvisor.com/sitereport.html?url=bigtitslust.com
-bigtitslust.com$all
+
 ! https://www.siteadvisor.com/sitereport.html?url=bigtits.com
 bigtits.com$all
 ! https://www.siteadvisor.com/sitereport.html?url=bigtits.net
