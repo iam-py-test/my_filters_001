@@ -264,11 +264,15 @@ fuckgirls.porn$all
 ! https://www.fortiguard.com/webfilter?q=xxx.com&version=8
 xxx.com$all
 ! Found in random reports online
+! https://safeweb.norton.com/reviews?url=kyliejennernude.com
+! https://www.siteadvisor.com/sitereport.html?url=kyliejennernude.com
+kyliejennernude.com$all
 ! https://github.com/uBlockOrigin/uAssets/issues/690#issuecomment-330032612
 ! https://quttera.com/detailed_report/coin-hive.com
 ! https://www.fortiguard.com/webfilter?q=lookedon.com
 ! https://yandex.com/safety/?url=lookedon.com
-lookedon.com
+! Also added as malware
+lookedon.com$all
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83579
 ! https://www.siteadvisor.com/sitereport.html?url=lewdsenpai.com
 lewdsenpai.com$all
