@@ -70,6 +70,13 @@ xxx.com$all
 
 ! Found in random reports online
 
+! https://safeweb.norton.com/reviews?url=softpussyx.us
+! https://www.siteadvisor.com/sitereport.html?url=softpussyx.us
+! https://www.fortiguard.com/webfilter?q=softpussyx.us
+! https://www.virustotal.com/gui/url/03deb8244a6c96baf9cb7f24f7f11904786bc22e704c81dbbaa9cf2b266b6593/detection
+! https://sitecheck.sucuri.net/results/softpussyx.us
+softpussyx.us
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83801
 ! https://www.siteadvisor.com/sitereport.html?url=iwara.tv
 ! https://www.siteadvisor.com/sitereport.html?url=ecchi.iwara.tv
