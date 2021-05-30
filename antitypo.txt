@@ -18,3 +18,7 @@ vrustotal.com
 ! https://safeweb.norton.com/reviews?url=googlec.om
 ! Can not resolve host but might come back some day
 googlec.om
+! https://www.virustotal.com/gui/url/f044015cf97b2475c569b46c7dc45b152ecd991ff365facd5c9a15cdfdeb8f68/detection
+! https://www.urlvoid.com/scan/accountgoogle.com/
+! https://www.mywot.com/scorecard/accountgoogle.com
+accountgoogle.com
