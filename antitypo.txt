@@ -23,3 +23,6 @@ googlec.om
 ! https://www.mywot.com/scorecard/accountgoogle.com
 accountgoogle.com
 accountsgoogle.net
+googlesignin.xyz
+signingoogle.xyz
+logingoogle.xyz
