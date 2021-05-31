@@ -19,8 +19,7 @@ pornid.xxx$all
 fapality.com$all
 ! https://www.mywot.com/scorecard/sex.xxx
 sex.xxx$all
-!A random domain I made up
-! https://www.siteadvisor.com/sitereport.html?url=sexy-girls.com
+
 sexy-girls.com$all
 ! https://www.siteadvisor.com/sitereport.html?url=porn.xxx
 ! https://www.mywot.com/en/scorecard/porn.xxx
@@ -36,7 +35,40 @@ hotgirls.com$all
 ! https://www.siteadvisor.com/sitereport.html?url=hot.xxx
 hot.xxx$all
 
-! A few random domains I made up
+! random domains I made up or found
+! https://www.siteadvisor.com/sitereport.html?url=menfuckingteens.com
+menfuckingteens.com$all
+! https://www.siteadvisor.com/sitereport.html?url=menfucking.com
+menfucking.com$all
+! https://www.siteadvisor.com/sitereport.html?url=girlsfuckingmen.com
+girlsfuckingmen.com$all
+! https://www.siteadvisor.com/sitereport.html?url=girlsfucking.com
+girlsfucking.com$all
+! https://www.siteadvisor.com/sitereport.html?url=girlsfucking.net
+girlsfucking.net$all
+! https://www.siteadvisor.com/sitereport.html?url=girlsfuck.net
+girlsfuck.net$all
+! https://www.siteadvisor.com/sitereport.html?url=pregfuck.com
+pregfuck.com$all
+! https://www.siteadvisor.com/sitereport.html?url=preggirl.com
+preggirl.com$all
+! https://www.siteadvisor.com/sitereport.html?url=fucker.com
+fucker.com$all
+! https://www.siteadvisor.com/sitereport.html?url=teenfucker.com
+teenfucker.com$all
+! https://www.siteadvisor.com/sitereport.html?url=teennude.com
+teennude.com$all
+! https://www.siteadvisor.com/sitereport.html?url=nude.com
+nude.com$all
+! https://www.siteadvisor.com/sitereport.html?url=nude.net
+nude.net$all
+! https://www.siteadvisor.com/sitereport.html?url=nudefuck.net
+nudefuck.net$all
+! https://www.siteadvisor.com/sitereport.html?url=nudefuck.com
+nudefuck.com$all
+
+!A random domain I made up
+! https://www.siteadvisor.com/sitereport.html?url=sexy-girls.com
 ! https://www.siteadvisor.com/sitereport.html?url=pornxxx.net
 pornxxx.net$all
 ! https://www.siteadvisor.com/sitereport.html?url=xxx.net
