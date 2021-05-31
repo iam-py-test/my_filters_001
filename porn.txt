@@ -102,6 +102,9 @@ xxx.com$all
 
 ! Found in random reports online
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/84444
+wwwlanmao.tv$all
+
 ! https://safeweb.norton.com/reviews?url=softpussyx.us
 ! https://www.siteadvisor.com/sitereport.html?url=softpussyx.us
 ! https://www.fortiguard.com/webfilter?q=softpussyx.us
