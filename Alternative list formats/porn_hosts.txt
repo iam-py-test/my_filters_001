@@ -100,6 +100,69 @@
 127.0.0.1 xxx.com
 
 # Found in random reports online
+# https://github.com/easylist/easylist/pull/7989
+# https://www.siteadvisor.com/sitereport.html?url=gaymovievids.com
+127.0.0.1 gaymovievids.com
+127.0.0.1 www.gaymovievids.com
+# https://github.com/easylist/easylist/pull/7989/commits/caa840484555cf1bd50cc1dd759d5244728213da
+127.0.0.1 gayporno.fm
+127.0.0.1 onlydudes.tv
+127.0.0.1 ts-tube.net
+# https://github.com/easylist/easylist/pull/7989/files
+# https://www.siteadvisor.com/sitereport.html?url=flyingjizz.com
+127.0.0.1 flyingjizz.com
+# https://www.siteadvisor.com/sitereport.html?url=gotporn.com
+127.0.0.1 gotporn.com
+# https://www.siteadvisor.com/sitereport.html?url=japan-whores.com
+127.0.0.1 japan-whores.com
+# https://www.siteadvisor.com/sitereport.html?url=pornmd.com
+127.0.0.1 pornmd.com
+# https://www.siteadvisor.com/sitereport.html?url=youporngay.com
+127.0.0.1 youporngay.com
+# https://www.siteadvisor.com/sitereport.html?url=pinflix.com
+127.0.0.1 pinflix.com
+# https://www.siteadvisor.com/sitereport.html?url=alphaporno.com
+127.0.0.1 alphaporno.com
+# https://www.siteadvisor.com/sitereport.html?url=bravotube.net
+# https://www.mywot.com/en/scorecard/bravotube.net
+# https://www.virustotal.com/gui/domain/bravotube.net/relations
+# Lot of PUPs on this domain
+127.0.0.1 bravotube.net
+# https://www.virustotal.com/gui/url/aa3b2e6a6d7fafe844a4c16c100eb9c0544a586d799358a001ba88c3225cc22b/links
+# https://www.siteadvisor.com/sitereport.html?url=https://hellporno.com/?utm_medium=network&utm_source=bravotube.net
+127.0.0.1 hellporno.com
+# https://www.siteadvisor.com/sitereport.html?url=https://hellmoms.com/?utm_medium=network&utm_source=bravotube.net
+127.0.0.1 hellmoms.com
+# https://www.siteadvisor.com/sitereport.html?url=https://anyporn.com/?utm_medium=network&utm_source=bravotube.net
+127.0.0.1 anyporn.com
+# https://www.siteadvisor.com/sitereport.html?url=https://www.porn-plus.com/?utm_medium=network&utm_source=bravotube.net
+127.0.0.1 porn-plus.com
+127.0.0.1 www.porn-plus.com
+# https://www.siteadvisor.com/sitereport.html?url=http://anycash.com/
+127.0.0.1 anycash.com
+# https://www.siteadvisor.com/sitereport.html?url=https://www.bravoporn.com/?utm_medium=network&utm_source=bravotube.net
+127.0.0.1 www.bravoporn.com
+127.0.0.1 bravoporn.com
+# https://www.siteadvisor.com/sitereport.html?url=https://xcum.com/?utm_medium=network&utm_source=bravotube.net
+127.0.0.1 xcum.com
+# https://www.siteadvisor.com/sitereport.html?url=http://bravomediagroup.com
+127.0.0.1 bravomediagroup.com
+# https://www.siteadvisor.com/sitereport.html?url=http://bravotube.tumblr.com/
+127.0.0.1 bravotube.tumblr.com
+
+# https://github.com/AdguardTeam/AdguardFilters/issues/84417
+# https://www.siteadvisor.com/sitereport.html?url=verygayboys.com
+# https://www.fortiguard.com/webfilter?q=www.verygayboys.com&version=8
+127.0.0.1 verygayboys.com
+
+# https://github.com/AdguardTeam/AdguardFilters/issues/84541
+# https://www.fortiguard.com/webfilter?q=sex-studentki.top&version=8
+127.0.0.1 sex-studentki.top
+
+# https://github.com/AdguardTeam/AdguardFilters/issues/84451
+# https://www.fortiguard.com/webfilter?q=18comic.vip&version=8
+# https://www.siteadvisor.com/sitereport.html?url=18comic.vip
+127.0.0.1 18comic.vip
 
 # https://github.com/AdguardTeam/AdguardFilters/issues/84444
 127.0.0.1 wwwlanmao.tv
