@@ -8,7 +8,6 @@
 # Porn websites
 127.0.0.1 shesfreaky.com
 127.0.0.1 eroticbeauties.net
-127.0.0.1 milffox.com
 127.0.0.1 xbabe.com
 127.0.0.1 sex.com
 127.0.0.1 scandalplanet.com
@@ -25,9 +24,6 @@
 # https://www.siteadvisor.com/sitereport.html?url=porn.xxx
 # https://www.mywot.com/en/scorecard/porn.xxx
 127.0.0.1 porn.xxx
-# https://www.mywot.com/scorecard/porn.biz
-# http://www.siteadvisor.com/sitereport.html?url=porn.biz
-127.0.0.1 porn.biz
 # https://www.mywot.com/scorecard/sexy.com
 127.0.0.1 sexy.com
 # https://www.mywot.com/scorecard/hotgirls.com
@@ -37,6 +33,8 @@
 127.0.0.1 hot.xxx
 
 # random domains I made up or found
+# https://www.siteadvisor.com/sitereport.html?url=manfucker.com
+127.0.0.1 manfucker.com
 # https://www.siteadvisor.com/sitereport.html?url=menfuckingteens.com
 127.0.0.1 menfuckingteens.com
 # https://www.siteadvisor.com/sitereport.html?url=menfucking.com
@@ -55,8 +53,6 @@
 127.0.0.1 preggirl.com
 # https://www.siteadvisor.com/sitereport.html?url=fucker.com
 127.0.0.1 fucker.com
-# https://www.siteadvisor.com/sitereport.html?url=teenfucker.com
-127.0.0.1 teenfucker.com
 # https://www.siteadvisor.com/sitereport.html?url=teennude.com
 127.0.0.1 teennude.com
 # https://www.siteadvisor.com/sitereport.html?url=nude.com
@@ -365,23 +361,15 @@
 127.0.0.1 burningangel.com
 127.0.0.1 brazzers.com
 127.0.0.1 suicidegirls.com
-# https://transparencyreport.google.com/safe-browsing/search?url=pornhub.com
-# Already blocked
-#pornhub.com
 127.0.0.1 livejasmin.com
 127.0.0.1 redtube.com
-# https://www.mywot.com/scorecard/xnxx.com
-127.0.0.1 xnxx.com
 127.0.0.1 youporn.com
-127.0.0.1 adultfriendfinder.com
 127.0.0.1 allcuteteens.com
 # https://www.siteadvisor.com/sitereport.html?url=findxxx.net
 127.0.0.1 findxxx.net
 # https://github.com/iam-py-test/my_filters_001/issues/4
 127.0.0.1 condom-shop.ru
 127.0.0.1 sexy-lips.ru
-# https://github.com/iam-py-test/my_filters_001/issues/5
-127.0.0.1 0dayporno.com
 # https://github.com/iam-py-test/my_filters_001/issues/6
 127.0.0.1 101boyvideos.com
 # https://github.com/iam-py-test/my_filters_001/issues/8
@@ -438,9 +426,6 @@
 # https://github.com/AdguardTeam/AdguardFilters/issues/82801
 # https://www.siteadvisor.com/sitereport.html?url=celebsepna.com
 127.0.0.1 celebsepna.com
-# https://github.com/AdguardTeam/AdguardFilters/issues/82624
-# https://www.siteadvisor.com/sitereport.html?url=voyeurhit.com
-127.0.0.1 voyeurhit.com
 # https://github.com/AdguardTeam/AdguardFilters/issues/82623
 # https://www.siteadvisor.com/sitereport.html?url=bellesa.co
 127.0.0.1 www.bellesa.co
@@ -561,7 +546,6 @@
 127.0.0.1 camsecret.com
 127.0.0.1 camsex.com
 127.0.0.1 camslive.com
-127.0.0.1 chatsex.com
 127.0.0.1 chubby.com
 127.0.0.1 chubbychicks.com
 127.0.0.1 climaxcast.net
@@ -626,12 +610,10 @@
 127.0.0.1 liveadultshows.com
 127.0.0.1 liveamateurcams.com
 127.0.0.1 liveblue.com
-127.0.0.1 livecam.com
 127.0.0.1 livecamcast.net
 127.0.0.1 livecamfun.com
 127.0.0.1 livecamgirl.com
 127.0.0.1 livecamgirls.com
-127.0.0.1 livecams.com
 127.0.0.1 livecamsex.com
 127.0.0.1 livechics.com
 127.0.0.1 liveerotica.com
@@ -738,8 +720,6 @@
 127.0.0.1 teenspics.com
 # https://www.siteadvisor.com/sitereport.html?url=teensexy.biz
 127.0.0.1 teensexy.biz
-# https://www.siteadvisor.com/sitereport.html?url=teensexy.com
-127.0.0.1 teensexy.com
 # https://www.siteadvisor.com/sitereport.html?url=teens.com
 # https://www.mywot.com/scorecard/teens.com
 127.0.0.1 teens.com
@@ -807,14 +787,12 @@
 127.0.0.1 www.pornpicsweb.com
 127.0.0.1 pornpicsweb.com
 127.0.0.1 largehdtube.com
-127.0.0.1 pornpics.com
 127.0.0.1 bigfuck.tv
 127.0.0.1 the-sex.me
 127.0.0.1 finalerotic.com
 127.0.0.1 nudevista.com
 127.0.0.1 dreamstime.com
 127.0.0.1 pictoa.com
-127.0.0.1 tubepleasure.com
 127.0.0.1 teenpussypics.com
 127.0.0.1 xxxpreggo.com
 127.0.0.1 videosection.com
@@ -822,7 +800,6 @@
 127.0.0.1 imagefap.com
 127.0.0.1 vipwank.com
 127.0.0.1 pregnant-hd.net
-127.0.0.1 porn.biz
 127.0.0.1 www.coedcherry.com
 127.0.0.1 asstr.org
 127.0.0.1 maturealbum.com
@@ -831,7 +808,6 @@
 127.0.0.1 tiava.com
 127.0.0.1 babygaga.com
 127.0.0.1 sexdicted.com
-127.0.0.1 pussyspace.com
 127.0.0.1 sss.xxx
 127.0.0.1 tubepornstars.com
 127.0.0.1 alisextube.com
@@ -853,8 +829,6 @@
 127.0.0.1 teenspregnant.com
 # https://www.fortiguard.com/webfilter?q=pregbelly.com&version=8
 127.0.0.1 pregbelly.com
-# https://www.fortiguard.com/webfilter?q=pregteen.com&version=8
-127.0.0.1 pregteen.com
 # https://www.fortiguard.com/webfilter?q=pregogirl.com&version=8
 127.0.0.1 pregogirl.com
 # https://www.fortiguard.com/webfilter?q=2girls.com&version=8
@@ -874,24 +848,24 @@
 127.0.0.1 pervertslut.com
 127.0.0.1 dirtyhomeclips.com
 127.0.0.1 beegnow.com
-127.0.0.1 youx.xxx
 127.0.0.1 metaporn.com
 127.0.0.1 apornstories.com
 127.0.0.1 tubepleasure.com
 127.0.0.1 preggovidz.com
 127.0.0.1 goldpornfilms.com
 127.0.0.1 hqboobs.com
-127.0.0.1 gotporn.com
 127.0.0.1 hdteenporn.com
 127.0.0.1 whorestube.com
 127.0.0.1 grannycinema.com
 127.0.0.1 shameless.com
 127.0.0.1 hqvintagetube.com
 127.0.0.1 pussyspace.com
+# https://www.mywot.com/scorecard/pornsos.com
+# https://www.urlvoid.com/scan/pornsos.com/
+# https://www.siteadvisor.com/sitereport.html?url=pornsos.com
 127.0.0.1 pornsos.com
 127.0.0.1 nastyvideotube.com
 127.0.0.1 teenda.com
-127.0.0.1 finalteens.com
 127.0.0.1 hometubeporn.com
 127.0.0.1 ozeex.com
 127.0.0.1 teensxxxtube.com
@@ -899,11 +873,9 @@
 127.0.0.1 redhdtube.xxx
 127.0.0.1 thumbzilla.com
 127.0.0.1 www.porn.biz
-127.0.0.1 largehdtube.com
 127.0.0.1 iwank.tv
 127.0.0.1 sunporno.com
 127.0.0.1 bestandfree.com
-127.0.0.1 teenpussypics.com
 
 # https://www.siteadvisor.com/sitereport.html?url=bigtits.com
 127.0.0.1 bigtits.com
@@ -922,7 +894,6 @@
 # https://www.siteadvisor.com/sitereport.html?url=xwetpics.com
 127.0.0.1 xwetpics.com
 127.0.0.1 xxxvideos247.com
-127.0.0.1 youx.xxx
 127.0.0.1 upicsz.com
 127.0.0.1 zbporn.com
 127.0.0.1 mylust.com
@@ -1003,7 +974,6 @@
 # https://www.nbcnews.com/id/wbna51498128
 # https://www.pcworld.com/article/2034864/just-how-much-malware-is-on-free-porn-sites-.html
 # https://blog.dynamoo.com/2013/04/top-porn-sites-lead-to-malware.html
-127.0.0.1 xhamster.com
 127.0.0.1 pornhub.com
 127.0.0.1 tube8.com
 127.0.0.1 youjizz.com
@@ -1023,21 +993,13 @@
 127.0.0.1 rockwork.ch
 127.0.0.1 gaypornplanet.com
 127.0.0.1 xgaytube.com
-127.0.0.1 pornmd.com
-127.0.0.1 tube8.com
 127.0.0.1 btsinvestments.com
 127.0.0.1 nymphdate.com
 127.0.0.1 dirtymechanics.org
-127.0.0.1 pornmd.com
-127.0.0.1 crakmedia.com
 127.0.0.1 justanaffiliate.com
 # Might be bad, and no one should visit these sites anyway
 #https://www.pcworld.com/article/206107/most_dangerous_places_on_the_web.html (Lists porn as one source of malware)
 127.0.0.1 adultfriendfinder.com
-127.0.0.1 youporn.com
-127.0.0.1 xvideos.com
-127.0.0.1 livejasmin.com
-127.0.0.1 redtube.com
 # https://www.mywot.com/scorecard/pornhub.net
 127.0.0.1 pornhub.net
 # https://www.mywot.com/scorecard/pornhub.net
@@ -1052,7 +1014,6 @@
 127.0.0.1 xxx.org
 127.0.0.1 porno.net
 127.0.0.1 titties.com
-127.0.0.1 porn.xyz
 127.0.0.1 xxxtube.com
 #Shock sites
 # https://someonewhocares.org/hosts/
