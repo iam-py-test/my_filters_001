@@ -1049,3 +1049,15 @@ xxxtube.com$all
 ! https://someonewhocares.org/hosts/
 ! https://www.mywot.com/scorecard/lolshock.com
 lolshock.com$all
+
+! Randomly genorated domains
+! https://www.fortiguard.com/webfilter?q=preg.xyz&version=8
+preg.xyz$all
+! https://www.siteadvisor.com/sitereport.html?url=slut.net
+slut.net$all
+! https://www.siteadvisor.com/sitereport.html?url=mensexy.com
+mensexy.com$all
+! https://www.siteadvisor.com/sitereport.html?url=sexy.net
+sexy.net$all
+! https://www.fortiguard.com/webfilter?q=pussy.xyz&version=8
+pussy.xyz
