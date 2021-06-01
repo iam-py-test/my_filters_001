@@ -5,10 +5,10 @@
 ! https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 ! https://www.virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
 ! https://www.virustotal.com/gui/domain/xn--gogle-jua.com/detection
-xn--gogle-jua.com
+xn--gogle-jua.com$all
 ! https://www.mywot.com/scorecard/vrustotal.com
 ! https://safeweb.norton.com/report/show?url=vrustotal.com
-vrustotal.com
+vrustotal.com$all
 ! https://www.virustotal.com/gui/url/eb8b44eb62e50f576631d087eec719a2e12b34272ad03e04c2356a547e6896be/community
 ! https://www.virustotal.com/gui/domain/googlec.om/detection
 ! https://www.siteadvisor.com/sitereport.html?url=http%3A%2F%2Fgooglec.om
@@ -17,12 +17,14 @@ vrustotal.com
 ! https://sitecheck.sucuri.net/results/googlec.om
 ! https://safeweb.norton.com/reviews?url=googlec.om
 ! Can not resolve host but might come back some day
-googlec.om
+googlec.om$all
 ! https://www.virustotal.com/gui/url/f044015cf97b2475c569b46c7dc45b152ecd991ff365facd5c9a15cdfdeb8f68/detection
 ! https://www.urlvoid.com/scan/accountgoogle.com/
 ! https://www.mywot.com/scorecard/accountgoogle.com
-accountgoogle.com
-accountsgoogle.net
-googlesignin.xyz
-signingoogle.xyz
-logingoogle.xyz
+accountgoogle.com$all
+accountsgoogle.net$all
+googlesignin.xyz$all
+signingoogle.xyz$all
+logingoogle.xyz$all
+! https://www.virustotal.com/gui/url/2778a0b6162e8c14ed450dda8aa6c32486a6c7a8c224e940e7fb41be39816fc4/detection
+malwarebytes.xyz$all
