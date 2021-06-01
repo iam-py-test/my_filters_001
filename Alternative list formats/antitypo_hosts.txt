@@ -28,4 +28,5 @@
 127.0.0.1 logingoogle.xyz
 # https://www.virustotal.com/gui/url/2778a0b6162e8c14ed450dda8aa6c32486a6c7a8c224e940e7fb41be39816fc4/detection
 127.0.0.1 malwarebytes.xyz
+127.0.0.1 w3school.com
 
