@@ -1047,3 +1047,15 @@
 # https://www.mywot.com/scorecard/lolshock.com
 127.0.0.1 lolshock.com
 
+# Randomly genorated domains
+# https://www.fortiguard.com/webfilter?q=preg.xyz&version=8
+127.0.0.1 preg.xyz
+# https://www.siteadvisor.com/sitereport.html?url=slut.net
+127.0.0.1 slut.net
+# https://www.siteadvisor.com/sitereport.html?url=mensexy.com
+127.0.0.1 mensexy.com
+# https://www.siteadvisor.com/sitereport.html?url=sexy.net
+127.0.0.1 sexy.net
+# https://www.fortiguard.com/webfilter?q=pussy.xyz&version=8
+127.0.0.1 pussy.xyz
+
