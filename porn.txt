@@ -24,9 +24,6 @@ sexy-girls.com$all
 ! https://www.siteadvisor.com/sitereport.html?url=porn.xxx
 ! https://www.mywot.com/en/scorecard/porn.xxx
 porn.xxx$all
-! https://www.mywot.com/scorecard/porn.biz
-! http://www.siteadvisor.com/sitereport.html?url=porn.biz
-porn.biz$all
 ! https://www.mywot.com/scorecard/sexy.com
 sexy.com$all
 ! https://www.mywot.com/scorecard/hotgirls.com
@@ -373,8 +370,6 @@ findxxx.net$all
 ! https://github.com/iam-py-test/my_filters_001/issues/4
 condom-shop.ru$document
 sexy-lips.ru$all
-! https://github.com/iam-py-test/my_filters_001/issues/5
-0dayporno.com$all
 ! https://github.com/iam-py-test/my_filters_001/issues/6
 101boyvideos.com$all
 ! https://github.com/iam-py-test/my_filters_001/issues/8
@@ -431,9 +426,6 @@ slutsounds.com$all
 ! https://github.com/AdguardTeam/AdguardFilters/issues/82801
 ! https://www.siteadvisor.com/sitereport.html?url=celebsepna.com
 celebsepna.com$all
-! https://github.com/AdguardTeam/AdguardFilters/issues/82624
-! https://www.siteadvisor.com/sitereport.html?url=voyeurhit.com
-voyeurhit.com$all
 ! https://github.com/AdguardTeam/AdguardFilters/issues/82623
 ! https://www.siteadvisor.com/sitereport.html?url=bellesa.co
 www.bellesa.co$all
@@ -618,12 +610,10 @@ liveadultshow.com$all
 liveadultshows.com$all
 liveamateurcams.com$all
 liveblue.com$all
-livecam.com$all
 livecamcast.net$all
 livecamfun.com$all
 livecamgirl.com$all
 livecamgirls.com$all
-livecams.com$all
 livecamsex.com$all
 livechics.com$all
 liveerotica.com$all
@@ -797,7 +787,6 @@ finalteens.com$all
 www.pornpicsweb.com$all
 pornpicsweb.com$all
 largehdtube.com$all
-pornpics.com$all
 bigfuck.tv$all
 the-sex.me$all
 finalerotic.com$all
@@ -811,7 +800,6 @@ bigporn.com$all
 imagefap.com$all
 vipwank.com$all
 pregnant-hd.net$all
-porn.biz$all
 www.coedcherry.com$all
 asstr.org$all
 maturealbum.com$all
@@ -869,7 +857,6 @@ tubepleasure.com$all
 preggovidz.com$all
 goldpornfilms.com$all
 hqboobs.com$all
-gotporn.com$all
 hdteenporn.com$all
 whorestube.com$all
 grannycinema.com$all
@@ -882,7 +869,6 @@ pussyspace.com$all
 pornsos.com$all
 nastyvideotube.com$all
 teenda.com$all
-finalteens.com$all
 hometubeporn.com$all
 ozeex.com$all
 teensxxxtube.com$all
@@ -991,7 +977,6 @@ porn.biz$all
 ! https://www.nbcnews.com/id/wbna51498128
 ! https://www.pcworld.com/article/2034864/just-how-much-malware-is-on-free-porn-sites-.html
 ! https://blog.dynamoo.com/2013/04/top-porn-sites-lead-to-malware.html
-xhamster.com$all
 pornhub.com$all
 tube8.com$all
 youjizz.com$all
@@ -1018,8 +1003,6 @@ justanaffiliate.com$all
 ! Might be bad, and no one should visit these sites anyway
 !https://www.pcworld.com/article/206107/most_dangerous_places_on_the_web.html (Lists porn as one source of malware)
 adultfriendfinder.com$all
-youporn.com$all
-livejasmin.com$all
 ! https://www.mywot.com/scorecard/pornhub.net
 pornhub.net$all
 ! https://www.mywot.com/scorecard/pornhub.net
