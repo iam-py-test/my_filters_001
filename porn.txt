@@ -108,6 +108,47 @@ www.gaymovievids.com$all
 gayporno.fm$all
 onlydudes.tv$all
 ts-tube.net$all
+! https://github.com/easylist/easylist/pull/7989/files
+! https://www.siteadvisor.com/sitereport.html?url=flyingjizz.com
+flyingjizz.com$all
+! https://www.siteadvisor.com/sitereport.html?url=gotporn.com
+gotporn.com$all
+! https://www.siteadvisor.com/sitereport.html?url=japan-whores.com
+japan-whores.com$all
+! https://www.siteadvisor.com/sitereport.html?url=pornmd.com
+pornmd.com$all
+! https://www.siteadvisor.com/sitereport.html?url=youporngay.com
+youporngay.com$all
+! https://www.siteadvisor.com/sitereport.html?url=pinflix.com
+pinflix.com$all
+! https://www.siteadvisor.com/sitereport.html?url=alphaporno.com
+alphaporno.com$all
+! https://www.siteadvisor.com/sitereport.html?url=bravotube.net
+! https://www.mywot.com/en/scorecard/bravotube.net
+! https://www.virustotal.com/gui/domain/bravotube.net/relations
+! Lot of PUPs on this domain
+bravotube.net$all
+! https://www.virustotal.com/gui/url/aa3b2e6a6d7fafe844a4c16c100eb9c0544a586d799358a001ba88c3225cc22b/links
+! https://www.siteadvisor.com/sitereport.html?url=https://hellporno.com/?utm_medium=network&utm_source=bravotube.net
+hellporno.com$all
+! https://www.siteadvisor.com/sitereport.html?url=https://hellmoms.com/?utm_medium=network&utm_source=bravotube.net
+hellmoms.com$all
+! https://www.siteadvisor.com/sitereport.html?url=https://anyporn.com/?utm_medium=network&utm_source=bravotube.net
+anyporn.com$all
+! https://www.siteadvisor.com/sitereport.html?url=https://www.porn-plus.com/?utm_medium=network&utm_source=bravotube.net
+porn-plus.com$all
+www.porn-plus.com$all
+! https://www.siteadvisor.com/sitereport.html?url=http://anycash.com/
+anycash.com$all
+! https://www.siteadvisor.com/sitereport.html?url=https://www.bravoporn.com/?utm_medium=network&utm_source=bravotube.net
+www.bravoporn.com$all
+bravoporn.com$all
+! https://www.siteadvisor.com/sitereport.html?url=https://xcum.com/?utm_medium=network&utm_source=bravotube.net
+xcum.com$all
+! https://www.siteadvisor.com/sitereport.html?url=http://bravomediagroup.com
+bravomediagroup.com$all
+! https://www.siteadvisor.com/sitereport.html?url=http://bravotube.tumblr.com/
+bravotube.tumblr.com$all
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/84417
 ! https://www.siteadvisor.com/sitereport.html?url=verygayboys.com
