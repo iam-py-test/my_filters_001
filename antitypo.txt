@@ -28,3 +28,4 @@ signingoogle.xyz$all
 logingoogle.xyz$all
 ! https://www.virustotal.com/gui/url/2778a0b6162e8c14ed450dda8aa6c32486a6c7a8c224e940e7fb41be39816fc4/detection
 malwarebytes.xyz$all
+w3school.com$document
