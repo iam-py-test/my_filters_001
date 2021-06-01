@@ -1,5 +1,7 @@
 ! Title: Anti-redirectors and url shorteners
 ! Description: Redirecters and url shorterners are used for phishing, malware, spam, and scams. Companies like Google and Facebook also use redirectors to track you. This list is designed to block both.
+! Expires: 1 day
+! Last updated: 1/6/2021
 ! Google redirects
 ||google.*/url?$document
 ! Facebook
@@ -11,4 +13,24 @@
 x.co$document
 ! https://www.mywot.com/scorecard/bitly.com
 ! https://www.mywot.com/scorecard/bit.ly
-bit.ly
+bit.ly$document
+! https://www.mywot.com/scorecard/bit.do
+bit.do$document
+! https://www.mywot.com/scorecard/ow.ly
+ow.ly$document
+! https://www.mywot.com/scorecard/goo.gl
+! Has been shutdown by google but old links will still work
+! see https://developers.googleblog.com/2018/03/transitioning-google-url-shortener.html
+goo.gl$document
+! https://www.mywot.com/scorecard/rebrand.ly
+rebrand.ly$document
+! https://www.mywot.com/scorecard/tinyurl.com
+tinyurl.com$document
+! https://www.mywot.com/scorecard/t.co
+t.co$document
+! https://www.mywot.com/scorecard/is.gd
+is.gd$document
+! https://www.mywot.com/scorecard/ht.ly
+! https://www.virustotal.com/gui/url/622b404a5a4800592ffcf7ed931af3fe700b03453d7c2c0549db932c2c1def56/community
+ht.ly$all
+! 
