@@ -8,7 +8,6 @@
 ! Porn websites
 shesfreaky.com$all
 eroticbeauties.net$all
-milffox.com$all
 xbabe.com$all
 sex.com$all
 scandalplanet.com$all
@@ -57,8 +56,6 @@ pregfuck.com$all
 preggirl.com$all
 ! https://www.siteadvisor.com/sitereport.html?url=fucker.com
 fucker.com$all
-! https://www.siteadvisor.com/sitereport.html?url=teenfucker.com
-teenfucker.com$all
 ! https://www.siteadvisor.com/sitereport.html?url=teennude.com
 teennude.com$all
 ! https://www.siteadvisor.com/sitereport.html?url=nude.com
@@ -367,15 +364,9 @@ cdn.pornpics.com$all
 burningangel.com$all
 brazzers.com$all
 suicidegirls.com$all
-! https://transparencyreport.google.com/safe-browsing/search?url=pornhub.com
-! Already blocked
-!pornhub.com
 livejasmin.com$all
 redtube.com$all
-! https://www.mywot.com/scorecard/xnxx.com
-xnxx.com$all
 youporn.com$all
-adultfriendfinder.com$all
 allcuteteens.com$all
 ! https://www.siteadvisor.com/sitereport.html?url=findxxx.net
 findxxx.net$all
@@ -563,7 +554,6 @@ cams4free.com$all
 camsecret.com$all
 camsex.com$all
 camslive.com$all
-chatsex.com$all
 chubby.com$all
 chubbychicks.com$all
 climaxcast.net$all
@@ -740,8 +730,6 @@ teensxxx.com$all
 teenspics.com$all
 ! https://www.siteadvisor.com/sitereport.html?url=teensexy.biz
 teensexy.biz$all
-! https://www.siteadvisor.com/sitereport.html?url=teensexy.com
-teensexy.com$all
 ! https://www.siteadvisor.com/sitereport.html?url=teens.com
 ! https://www.mywot.com/scorecard/teens.com
 teens.com$all
@@ -816,7 +804,6 @@ finalerotic.com$all
 nudevista.com$all
 dreamstime.com$all
 pictoa.com$all
-tubepleasure.com$all
 teenpussypics.com$all
 xxxpreggo.com$all
 videosection.com$all
@@ -833,7 +820,6 @@ xxxdessert.com$all
 tiava.com$all
 babygaga.com$all
 sexdicted.com$all
-pussyspace.com$all
 sss.xxx$all
 tubepornstars.com$all
 alisextube.com$all
@@ -858,8 +844,6 @@ maternitygallery.com$all
 teenspregnant.com$all
 ! https://www.fortiguard.com/webfilter?q=pregbelly.com&version=8
 pregbelly.com$all
-! https://www.fortiguard.com/webfilter?q=pregteen.com&version=8
-pregteen.com$all
 ! https://www.fortiguard.com/webfilter?q=pregogirl.com&version=8
 pregogirl.com$all
 ! https://www.fortiguard.com/webfilter?q=2girls.com&version=8
@@ -879,7 +863,6 @@ pornkai.com$all
 pervertslut.com$all
 dirtyhomeclips.com$all
 beegnow.com$all
-youx.xxx$all$all
 metaporn.com$all
 apornstories.com$all
 tubepleasure.com$all
@@ -893,6 +876,9 @@ grannycinema.com$all
 shameless.com$all
 hqvintagetube.com$all
 pussyspace.com$all
+! https://www.mywot.com/scorecard/pornsos.com
+! https://www.urlvoid.com/scan/pornsos.com/
+! https://www.siteadvisor.com/sitereport.html?url=pornsos.com
 pornsos.com$all
 nastyvideotube.com$all
 teenda.com$all
@@ -904,11 +890,9 @@ alohatube.com$all
 redhdtube.xxx$all
 thumbzilla.com$all
 www.porn.biz$all
-largehdtube.com$all
 iwank.tv$all
 sunporno.com$all
 bestandfree.com$all
-teenpussypics.com$all
 
 ! https://www.siteadvisor.com/sitereport.html?url=bigtits.com
 bigtits.com$all
@@ -927,7 +911,6 @@ teentits.xxx$all
 ! https://www.siteadvisor.com/sitereport.html?url=xwetpics.com
 xwetpics.com$all
 xxxvideos247.com$all
-youx.xxx$all
 upicsz.com$all
 zbporn.com$all
 mylust.com$all
@@ -1028,21 +1011,15 @@ gammae.com$all
 rockwork.ch$all
 gaypornplanet.com$all
 xgaytube.com$all
-pornmd.com$all
-tube8.com$all
 btsinvestments.com$all
 nymphdate.com$all
 dirtymechanics.org$all
-pornmd.com$all
-crakmedia.com$all
 justanaffiliate.com$all
 ! Might be bad, and no one should visit these sites anyway
 !https://www.pcworld.com/article/206107/most_dangerous_places_on_the_web.html (Lists porn as one source of malware)
 adultfriendfinder.com$all
 youporn.com$all
-xvideos.com$all
 livejasmin.com$all
-redtube.com$all
 ! https://www.mywot.com/scorecard/pornhub.net
 pornhub.net$all
 ! https://www.mywot.com/scorecard/pornhub.net
@@ -1057,7 +1034,6 @@ livecam.com$all
 xxx.org$all
 porno.net$all
 titties.com$all
-porn.xyz$all
 xxxtube.com$all
 !Shock sites
 ! https://someonewhocares.org/hosts/
