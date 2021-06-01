@@ -1,0 +1,15 @@
+# Title: Anti-redirectors and url shorteners
+# Description: Redirecters and url shorterners are used for phishing, malware, spam, and scams. Companies like Google and Facebook also use redirectors to track you. This list is designed to block both.
+# Google redirects
+127.0.0.1 ||google.*/url?
+# Facebook
+# https://www.eff.org/deeplinks/2018/05/privacy-badger-rolls-out-new-ways-fight-facebook-tracking
+127.0.0.1 ||l.facebook.com/l.php?
+# URL shorteners
+# http://www.surbl.org/tld
+# https://www.mywot.com/scorecard/x.co
+127.0.0.1 x.co
+# https://www.mywot.com/scorecard/bitly.com
+# https://www.mywot.com/scorecard/bit.ly
+127.0.0.1 bit.ly
+
