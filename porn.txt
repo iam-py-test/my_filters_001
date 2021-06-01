@@ -98,6 +98,9 @@ fuckgirls.porn$all
 xxx.com$all
 
 ! Found in random reports online
+! https://github.com/spirillen/ublockorigin-rules/commit/33af13a6fff15036637c8e941b24d6c8b4ef8bf9
+! https://www.siteadvisor.com/sitereport.html?url=tubepornstars.tv
+tubepornstars.tv$all
 ! https://github.com/easylist/easylist/pull/7989
 ! https://www.siteadvisor.com/sitereport.html?url=gaymovievids.com
 gaymovievids.com$all
