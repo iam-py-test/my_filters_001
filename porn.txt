@@ -102,6 +102,21 @@ xxx.com$all
 ! https://siteadvisor.com/sitereport.html?url=xxxdan.com
 ! https://www.virustotal.com/gui/url/b9a0bb0bc59085094468e9e33748c312b72d17b33ac1c3ba26b1899ea8b2d5c7/links
 xxxdan.com$all
+! https://quttera.com/detailed_report/xxxdan.com
+! https://www.siteadvisor.com/sitereport.html?url=cdn3x.com
+cdn3x.com$all
+! https://www.siteadvisor.com/sitereport.html?url=porncity.xyz
+porncity.xyz$all
+! https://www.virustotal.com/gui/url/b9a0bb0bc59085094468e9e33748c312b72d17b33ac1c3ba26b1899ea8b2d5c7/links
+! https://www.siteadvisor.com/sitereport.html?url=https://a.adtng.com/get/10011168?time=1596489429776
+! https://www.siteadvisor.com/sitereport.html?url=adtng.com
+adtng.com$all
+! https://www.fortiguard.com/webfilter?q=tube.cash&version=8
+tube.cash$all
+! https://www.virustotal.com/gui/url/ae57954916f36b24da7102d39c77207a3fc0cdf447d5b245da123afeba5d0619/links
+! https://www.siteadvisor.com/sitereport.html?url=brazzersnetwork.com
+! https://www.siteadvisor.com/sitereport.html?url=https://landing.brazzersnetwork.com/?ats=eyJhIjoxMjc5NywiYyI6NTgwNTkzNDEsIm4iOjE0LCJzIjo5MCwiZSI6ODgwMywicCI6MTF9
+brazzersnetwork.com$all
 
 ! https://github.com/easylist/easylist/pull/7947
 ! https://siteadvisor.com/sitereport.html?url=adultfreex.com
