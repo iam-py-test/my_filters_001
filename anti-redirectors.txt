@@ -33,4 +33,5 @@ is.gd$document
 ! https://www.mywot.com/scorecard/ht.ly
 ! https://www.virustotal.com/gui/url/622b404a5a4800592ffcf7ed931af3fe700b03453d7c2c0549db932c2c1def56/community
 ht.ly$all
-! 
+! https://github.com/DandelionSprout/adfilt/issues/191
+rb.gy$document
