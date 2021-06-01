@@ -100,6 +100,10 @@ fuckgirls.porn$all
 xxx.com$all
 
 ! Found in random reports online
+! https://github.com/easylist/easylist/pull/7989
+! https://www.siteadvisor.com/sitereport.html?url=gaymovievids.com
+gaymovievids.com$all
+www.gaymovievids.com$all
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/84417
 ! https://www.siteadvisor.com/sitereport.html?url=verygayboys.com
