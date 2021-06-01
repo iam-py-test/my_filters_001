@@ -842,9 +842,6 @@
 127.0.0.1 www.finalgallery.com
 127.0.0.1 finalgallery.com
 # I would like someone to confirm if this breaks sites
-127.0.0.1 ||/gallery/pregnantmary/
-127.0.0.1 ||/pics/pregnant.shtml
-127.0.0.1 ||/en/444/pregnant/
 # https://www.siteadvisor.com/sitereport.html?url=teenfucker.com
 127.0.0.1 teenfucker.com
 # https://www.siteadvisor.com/sitereport.html?url=teenpregnant.com
