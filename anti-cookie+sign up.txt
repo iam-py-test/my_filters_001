@@ -45,6 +45,50 @@ id-ransomware.malwarehunterteam.com##.ad
 ! https://community.broadcom.com cookies
 community.broadcom.com###onetrust-consent-sdk
 
+! https://www.ublock-origin.com
+www.ublock-origin.com###cookie-law-info-bar
+
+! https://www.robtex.com
+www.robtex.com###cookienotice
+
+! https://developer.chrome.com
+developer.chrome.com##.hairline-top.cookie-banner
+developer.chrome.com##.banner--info.banner
+
+! https://www.quickheal.com
+www.quickheal.com##.is-sticky.js-cookie-bar.cookie-bar
+
+! https://sucuri.net
+sucuri.net##.p-0.hide.cookie-policy-banner.container-fluid
+
+! https://www.washingtonpost.com
+www.washingtonpost.com##div#i_userMessages.rml:nth-of-type(2)
+
+! https://sucuri.net
+sucuri.net##.p-0.hide.cookie-policy-banner.container-fluid
+
+! https://www.apivoid.com
+www.apivoid.com##.cookiebanner
+
+! https://www.scamner.com
+www.scamner.com##.cookies
+
+! https://who.is
+who.is##[href="https://www.name.com/redirect/whodotis/sidebar-middle"]
+who.is##.col-md-4 > center
+
+! https://www.drweb.com
+www.drweb.com##.bg_green_3.white.space_1of1.ztop.left.bottom
+
+! https://adblockplus.org
+adblockplus.org##.cookiebar.cookie
+
+! https://who.is
+who.is##[href="https://www.name.com/redirect/whodotis/homepage"]
+
+! https://www.vmware.com
+www.vmware.com###onetrust-consent-sdk
+
 ! https://cybersecurity.att.com
 cybersecurity.att.com##.active.cookie-notice
 
