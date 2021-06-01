@@ -101,6 +101,20 @@ xxx.com$all
 
 ! Found in random reports online
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/84417
+! https://www.siteadvisor.com/sitereport.html?url=verygayboys.com
+! https://www.fortiguard.com/webfilter?q=www.verygayboys.com&version=8
+verygayboys.com$all
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/84541
+! https://www.fortiguard.com/webfilter?q=sex-studentki.top&version=8
+sex-studentki.top$all
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/84451
+! https://www.fortiguard.com/webfilter?q=18comic.vip&version=8
+! https://www.siteadvisor.com/sitereport.html?url=18comic.vip
+18comic.vip$all
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/84444
 wwwlanmao.tv$all
 
