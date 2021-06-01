@@ -104,6 +104,10 @@ xxx.com$all
 ! https://www.siteadvisor.com/sitereport.html?url=gaymovievids.com
 gaymovievids.com$all
 www.gaymovievids.com$all
+! https://github.com/easylist/easylist/pull/7989/commits/caa840484555cf1bd50cc1dd759d5244728213da
+gayporno.fm$all
+onlydudes.tv$all
+ts-tube.net$all
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/84417
 ! https://www.siteadvisor.com/sitereport.html?url=verygayboys.com
