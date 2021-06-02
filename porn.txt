@@ -98,6 +98,21 @@ fuckgirls.porn$all
 xxx.com$all
 
 ! Found in random reports online
+! https://github.com/blocklistproject/Lists/issues/311
+! https://www.siteadvisor.com/sitereport.html?url=eporner.com
+eporner.com$all
+! https://www.siteadvisor.com/sitereport.html?url=porngo.com
+porngo.com$all
+! https://www.siteadvisor.com/sitereport.html?url=incestflix.com
+incestflix.com$all
+! www versions (for non-uBo formats)
+www.eporner.com$all
+www.porngo.com$all
+www.youjizz.com$all
+www.incestflix.com$all
+www.nudevista.com$all
+www.pornpics.com$all
+
 ! https://github.com/easylist/easylist/issues/7968
 ! https://www.siteadvisor.com/sitereport.html?url=hentai-foundry.com
 hentai-foundry.com$all
