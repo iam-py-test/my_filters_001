@@ -32,11 +32,15 @@ custom:
     labels:
       - remove
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 875503d (Update labeler.yml)
   - location: body
     keywords:
       - 'phishing domain'
     labels:
       - phishing
+<<<<<<< HEAD
   - location: title
     keywords:
       - help request
@@ -64,3 +68,5 @@ custom:
       - cookie consent
 =======
 >>>>>>> 8585fdd (Create labeler.yml)
+=======
+>>>>>>> 875503d (Update labeler.yml)
