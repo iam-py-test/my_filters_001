@@ -98,6 +98,10 @@ fuckgirls.porn$all
 xxx.com$all
 
 ! Found in random reports online
+! https://github.com/easylist/easylist/issues/7968
+! https://www.siteadvisor.com/sitereport.html?url=hentai-foundry.com
+hentai-foundry.com$all
+
 ! https://github.com/easylist/easylist/pull/7932
 ! https://siteadvisor.com/sitereport.html?url=xxxdan.com
 ! https://www.virustotal.com/gui/url/b9a0bb0bc59085094468e9e33748c312b72d17b33ac1c3ba26b1899ea8b2d5c7/links
