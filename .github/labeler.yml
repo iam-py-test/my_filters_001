@@ -1,0 +1,25 @@
+# Number of labels to fetch (optional). Defaults to 100
+numLabels: 40
+# These labels will not be used even if the issue contains them (optional).
+# Pass a blank array if no labels are to be excluded.
+# excludeLabels: []
+excludeLabels:
+  - meta
+# custom configuration to override default behaviour
+# control explicitly what gets added and when
+custom:
+  - location: title
+    keywords:
+      - '[remove domain]'
+    labels:
+      - remove
+  - location: body
+    keywords:
+      - 'malware'
+    labels:
+      - malware
+  - location: body
+    keywords:
+      - 'false positive'
+    labels:
+      - remove
