@@ -8,3 +8,4 @@ Please follow the [GitHub Community Guidelines](https://docs.github.com/en/githu
 For adding entries to porn.txt, please post a link to the screenshot instead of an screenshot. 
 
 I will currently not be accepting issues for server-side paywalls (unless you have a fix) as there is **nothing** I can do about them. I will also not be accepting issues for unbreaking sites blocked as malware. If you report cookie-banners/breakage/paywalls on these sites, your issue will be closed with a recommendation that you scan your device for malware. I _will_ accept issues for removing false positives.
+testing bot blacklist
