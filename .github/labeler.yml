@@ -15,7 +15,7 @@ custom:
       - remove
   - location: body
     keywords:
-      - 'malware'
+      - 'malware domain'
     labels:
       - malware
   - location: body
