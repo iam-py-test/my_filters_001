@@ -16,10 +16,14 @@ custom:
   - location: body
     keywords:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - 'malware domain'
 =======
       - 'malware'
 >>>>>>> 8585fdd (Create labeler.yml)
+=======
+      - 'malware domain'
+>>>>>>> 1d0bba7 (Update labeler.yml)
     labels:
       - malware
   - location: body
