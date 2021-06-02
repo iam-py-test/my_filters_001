@@ -20,7 +20,7 @@ issueConfigs:
 #
 # whether the keywords are case-insensitive
 # default value is false, which means keywords are case-sensitive
-caseInsensitive: true
+caseInsensitive: false
 # the label that will be added when the bot close an issue
 # The bot will only add a label if this property is set.
 label: "closed by bot"
