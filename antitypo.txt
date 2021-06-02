@@ -34,6 +34,7 @@ w3school.com$document
 ! https://github.com/easylist/easylist/pull/7950
 ! https://www.siteadvisor.com/sitereport.html?url=xozilla.com
 xozilla.com$all
+<<<<<<< HEAD
 ! https://sitecheck.sucuri.net/results/bit.lu
 bit.lu$document
 ! https://www.mywot.com/scorecard/alwarebytes.com
@@ -56,3 +57,5 @@ paypl.com$all
 paypal.xyz$document
 ! https://www.virustotal.com/gui/url/4531df5b01e2c58f9307fabecc9a17b03c6157bafc8e9af736b278e95c182dc5/detection
 payapl.com$all
+=======
+>>>>>>> 60c38ab (Add domain)
