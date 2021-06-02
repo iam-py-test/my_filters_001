@@ -15,7 +15,11 @@ custom:
       - remove
   - location: body
     keywords:
+<<<<<<< HEAD
       - 'malware domain'
+=======
+      - 'malware'
+>>>>>>> 8585fdd (Create labeler.yml)
     labels:
       - malware
   - location: body
@@ -23,6 +27,7 @@ custom:
       - 'false positive'
     labels:
       - remove
+<<<<<<< HEAD
   - location: body
     keywords:
       - 'phishing domain'
@@ -53,3 +58,5 @@ custom:
       - cookie consent
     labels:
       - cookie consent
+=======
+>>>>>>> 8585fdd (Create labeler.yml)
