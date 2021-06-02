@@ -108,6 +108,25 @@
 127.0.0.1 xxx.com
 
 # Found in random reports online
+# https://github.com/easylist/easylist/pull/7942/files
+# https://www.fortiguard.com/webfilter?q=porndoo.com&version=8
+127.0.0.1 porndoo.com
+
+# https://github.com/easylist/easylist/pull/7939
+# https://www.fortiguard.com/webfilter?q=www.pornjam.com&version=8
+127.0.0.1 www.pornjam.com
+127.0.0.1 pornjam.com
+
+# https://github.com/easylist/easylist/pull/7931
+# https://github.com/AdguardTeam/AdguardFilters/issues/83958
+# https://www.fortiguard.com/webfilter?q=xxerotica.com&version=8
+127.0.0.1 xxerotica.com
+127.0.0.1 www.xxerotica.com
+
+# https://github.com/easylist/easylist/pull/7943
+# https://www.fortiguard.com/webfilter?q=xxxymovies.com&version=8
+127.0.0.1 xxxymovies.com
+
 # https://github.com/easylist/easylist/pull/7944
 # https://www.fortiguard.com/webfilter?q=pussy.org&version=8
 127.0.0.1 pussy.org
