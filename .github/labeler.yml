@@ -23,3 +23,8 @@ custom:
       - 'false positive'
     labels:
       - remove
+  - location: body
+    keywords:
+      - 'phishing domain'
+    labels:
+      - phishing
