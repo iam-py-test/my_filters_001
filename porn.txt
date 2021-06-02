@@ -63,6 +63,14 @@ nude.net$all
 nudefuck.net$all
 ! https://www.siteadvisor.com/sitereport.html?url=nudefuck.com
 nudefuck.com$all
+! https://www.siteadvisor.com/sitereport.html?url=sexsecret.com
+sexsecret.com$all
+! https://www.siteadvisor.com/sitereport.html?url=pornsecret.com
+pornsecret.com$all
+! https://www.siteadvisor.com/sitereport.html?url=pornsecret.net
+pornsecret.net$all
+! https://www.siteadvisor.com/sitereport.html?url=secretfuck.net
+secretfuck.net$all
 
 !A random domain I made up
 ! https://www.siteadvisor.com/sitereport.html?url=sexy-girls.com
