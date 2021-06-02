@@ -71,6 +71,8 @@ pornsecret.com$all
 pornsecret.net$all
 ! https://www.siteadvisor.com/sitereport.html?url=secretfuck.net
 secretfuck.net$all
+! https://www.siteadvisor.com/sitereport.html?url=secretpics.net
+secretpics.net$all
 
 !A random domain I made up
 ! https://www.siteadvisor.com/sitereport.html?url=sexy-girls.com
