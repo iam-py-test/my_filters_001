@@ -4,7 +4,7 @@
 # Issues: https://github.com/iam-py-test/my_filters_001/issues
 # Expires: 1 day
 # Homepage: https://github.com/iam-py-test/my_filters_001
-# Last updated: 1/6/2021
+# Last updated: 2/6/2021
 # Porn websites
 127.0.0.1 shesfreaky.com
 127.0.0.1 eroticbeauties.net
@@ -63,6 +63,16 @@
 127.0.0.1 nudefuck.net
 # https://www.siteadvisor.com/sitereport.html?url=nudefuck.com
 127.0.0.1 nudefuck.com
+# https://www.siteadvisor.com/sitereport.html?url=sexsecret.com
+127.0.0.1 sexsecret.com
+# https://www.siteadvisor.com/sitereport.html?url=pornsecret.com
+127.0.0.1 pornsecret.com
+# https://www.siteadvisor.com/sitereport.html?url=pornsecret.net
+127.0.0.1 pornsecret.net
+# https://www.siteadvisor.com/sitereport.html?url=secretfuck.net
+127.0.0.1 secretfuck.net
+# https://www.siteadvisor.com/sitereport.html?url=secretpics.net
+127.0.0.1 secretpics.net
 
 #A random domain I made up
 # https://www.siteadvisor.com/sitereport.html?url=sexy-girls.com
@@ -98,6 +108,30 @@
 127.0.0.1 xxx.com
 
 # Found in random reports online
+# https://trustscam.com/baddiehub.com
+# https://www.mywot.com/scorecard/baddiehub.com
+# https://www.siteadvisor.com/sitereport.html?url=baddiehub.com
+127.0.0.1 baddiehub.com
+
+# https://github.com/blocklistproject/Lists/issues/311
+# https://www.siteadvisor.com/sitereport.html?url=eporner.com
+127.0.0.1 eporner.com
+# https://www.siteadvisor.com/sitereport.html?url=porngo.com
+127.0.0.1 porngo.com
+# https://www.siteadvisor.com/sitereport.html?url=incestflix.com
+127.0.0.1 incestflix.com
+# www versions (for non-uBo formats)
+127.0.0.1 www.eporner.com
+127.0.0.1 www.porngo.com
+127.0.0.1 www.youjizz.com
+127.0.0.1 www.incestflix.com
+127.0.0.1 www.nudevista.com
+127.0.0.1 www.pornpics.com
+
+# https://github.com/easylist/easylist/issues/7968
+# https://www.siteadvisor.com/sitereport.html?url=hentai-foundry.com
+127.0.0.1 hentai-foundry.com
+
 # https://github.com/easylist/easylist/pull/7932
 # https://siteadvisor.com/sitereport.html?url=xxxdan.com
 # https://www.virustotal.com/gui/url/b9a0bb0bc59085094468e9e33748c312b72d17b33ac1c3ba26b1899ea8b2d5c7/links
@@ -121,6 +155,89 @@
 # https://github.com/easylist/easylist/pull/7947
 # https://siteadvisor.com/sitereport.html?url=adultfreex.com
 127.0.0.1 adultfreex.com
+
+# domains from https://github.com/blocklistproject/Lists/issues/310
+127.0.0.1 bestporncomix.com
+127.0.0.1 worldporncomix.com
+127.0.0.1 wporncomics.com
+127.0.0.1 erocomicsxxx.com
+127.0.0.1 hentaicomicsonline.com
+127.0.0.1 fotonovelasxxx.com
+127.0.0.1 sexcomix.me
+# https://www.siteadvisor.com/sitereport.html?url=comix.site
+127.0.0.1 comix.site
+127.0.0.1 hornyson.com
+127.0.0.1 porncomixinfo.net
+127.0.0.1 porncomics.name
+# https://www.siteadvisor.com/sitereport.html?url=8-muses.xyz
+127.0.0.1 8-muses.xyz
+# https://www.siteadvisor.com/sitereport.html?url=hdhentaicomics.com
+127.0.0.1 hdhentaicomics.com
+127.0.0.1 comixzilla.com
+127.0.0.1 comicporns.com
+# https://www.fortiguard.com/webfilter?q=8muses.net&version=8
+127.0.0.1 8muses.net
+
+# https://someonewhocares.org/hosts/
+# https://www.siteadvisor.com/sitereport.html?url=www.theexgirlfriends.com
+#https://www.virustotal.com/gui/domain/theexgirlfriends.com/detection
+127.0.0.1 www.theexgirlfriends.com
+127.0.0.1 theexgirlfriends.com
+#Even more porn
+# https://www.mywot.com/en/scorecard/0dayporno.com
+# https://github.com/iam-py-test/my_filters_001/issues/5
+127.0.0.1 0dayporno.com
+# https://www.siteadvisor.com/sitereport.html?url=porn.biz
+# https://safeweb.norton.com/report/show?url=porn.biz
+# https://www.mywot.com/en/scorecard/porn.biz
+127.0.0.1 porn.biz
+
+# https://www.nbcnews.com/id/wbna51498128
+# https://www.pcworld.com/article/2034864/just-how-much-malware-is-on-free-porn-sites-.html
+# https://blog.dynamoo.com/2013/04/top-porn-sites-lead-to-malware.html
+127.0.0.1 pornhub.com
+127.0.0.1 tube8.com
+127.0.0.1 youjizz.com
+127.0.0.1 xnxx.com
+#Malware
+127.0.0.1 exposedcamz-live.com
+127.0.0.1 ceskeporno.tv
+127.0.0.1 brandreachsys.com
+127.0.0.1 traffichaus.com
+127.0.0.1 crakmedia.com
+127.0.0.1 rodriguezwoca.com.ar
+127.0.0.1 crucerosinfantiles.com.ar
+127.0.0.1 ingenet.com.ar
+127.0.0.1 trafficjunky.net
+127.0.0.1 gammae.com
+127.0.0.1 rockwork.ch
+127.0.0.1 gaypornplanet.com
+127.0.0.1 xgaytube.com
+127.0.0.1 btsinvestments.com
+127.0.0.1 nymphdate.com
+127.0.0.1 dirtymechanics.org
+127.0.0.1 justanaffiliate.com
+# https://www.pcworld.com/article/206107/most_dangerous_places_on_the_web.html (Lists porn as one source of malware)
+127.0.0.1 adultfriendfinder.com
+# https://www.mywot.com/scorecard/pornhub.net
+127.0.0.1 pornhub.net
+# https://www.mywot.com/scorecard/pornhub.net
+# https://www.siteadvisor.com/sitereport.html?url=pornsite.com
+127.0.0.1 pornsite.com
+# https://www.siteadvisor.com/sitereport.html?url=porn.org
+127.0.0.1 porn.org
+# https://www.siteadvisor.com/sitereport.html?url=livecams.com
+127.0.0.1 livecams.com
+127.0.0.1 hardcore.com
+127.0.0.1 livecam.com
+127.0.0.1 xxx.org
+127.0.0.1 porno.net
+127.0.0.1 titties.com
+127.0.0.1 xxxtube.com
+
+# https://someonewhocares.org/hosts/
+# https://www.mywot.com/scorecard/lolshock.com
+127.0.0.1 lolshock.com
 
 # https://github.com/spirillen/ublockorigin-rules/commit/33af13a6fff15036637c8e941b24d6c8b4ef8bf9
 # https://www.siteadvisor.com/sitereport.html?url=tubepornstars.tv
@@ -962,90 +1079,7 @@
 127.0.0.1 crazyporn.xxx
 # https://www.siteadvisor.com/sitereport.html?url=pornhat.one
 127.0.0.1 pornhat.one
-# Porn domains from another blocklist I created
-# domains from https://github.com/blocklistproject/Lists/issues/310
-127.0.0.1 bestporncomix.com
-127.0.0.1 worldporncomix.com
-127.0.0.1 wporncomics.com
-127.0.0.1 erocomicsxxx.com
-127.0.0.1 hentaicomicsonline.com
-127.0.0.1 fotonovelasxxx.com
-127.0.0.1 sexcomix.me
-# https://www.siteadvisor.com/sitereport.html?url=comix.site
-127.0.0.1 comix.site
-127.0.0.1 hornyson.com
-127.0.0.1 porncomixinfo.net
-127.0.0.1 porncomics.name
-# https://www.siteadvisor.com/sitereport.html?url=8-muses.xyz
-127.0.0.1 8-muses.xyz
-# https://www.siteadvisor.com/sitereport.html?url=hdhentaicomics.com
-127.0.0.1 hdhentaicomics.com
-127.0.0.1 comixzilla.com
-127.0.0.1 comicporns.com
-# removed 8muses.net - https://www.siteadvisor.com/sitereport.html?url=8muses.net
-#More porn/shock sites 
-# https://someonewhocares.org/hosts/
-# https://www.siteadvisor.com/sitereport.html?url=www.theexgirlfriends.com
-#https://www.virustotal.com/gui/domain/theexgirlfriends.com/detection
-127.0.0.1 www.theexgirlfriends.com
-127.0.0.1 theexgirlfriends.com
-#Even more porn
-# https://www.mywot.com/en/scorecard/0dayporno.com
-# https://github.com/iam-py-test/my_filters_001/issues/5
-127.0.0.1 0dayporno.com
-# https://www.siteadvisor.com/sitereport.html?url=porn.biz
-# https://safeweb.norton.com/report/show?url=porn.biz
-# https://www.mywot.com/en/scorecard/porn.biz
-127.0.0.1 porn.biz
-# Porn sites are all around bad, and no one should ever visit them. 
-# https://www.nbcnews.com/id/wbna51498128
-# https://www.pcworld.com/article/2034864/just-how-much-malware-is-on-free-porn-sites-.html
-# https://blog.dynamoo.com/2013/04/top-porn-sites-lead-to-malware.html
-127.0.0.1 pornhub.com
-127.0.0.1 tube8.com
-127.0.0.1 youjizz.com
-#Strangly the same name as a malware (technically spyware) file. Wonder why???
-127.0.0.1 xnxx.com
-#Malware
-127.0.0.1 exposedcamz-live.com
-127.0.0.1 ceskeporno.tv
-127.0.0.1 brandreachsys.com
-127.0.0.1 traffichaus.com
-127.0.0.1 crakmedia.com
-127.0.0.1 rodriguezwoca.com.ar
-127.0.0.1 crucerosinfantiles.com.ar
-127.0.0.1 ingenet.com.ar
-127.0.0.1 trafficjunky.net
-127.0.0.1 gammae.com
-127.0.0.1 rockwork.ch
-127.0.0.1 gaypornplanet.com
-127.0.0.1 xgaytube.com
-127.0.0.1 btsinvestments.com
-127.0.0.1 nymphdate.com
-127.0.0.1 dirtymechanics.org
-127.0.0.1 justanaffiliate.com
-# Might be bad, and no one should visit these sites anyway
-#https://www.pcworld.com/article/206107/most_dangerous_places_on_the_web.html (Lists porn as one source of malware)
-127.0.0.1 adultfriendfinder.com
-# https://www.mywot.com/scorecard/pornhub.net
-127.0.0.1 pornhub.net
-# https://www.mywot.com/scorecard/pornhub.net
-# https://www.siteadvisor.com/sitereport.html?url=pornsite.com
-127.0.0.1 pornsite.com
-# https://www.siteadvisor.com/sitereport.html?url=porn.org
-127.0.0.1 porn.org
-# https://www.siteadvisor.com/sitereport.html?url=livecams.com
-127.0.0.1 livecams.com
-127.0.0.1 hardcore.com
-127.0.0.1 livecam.com
-127.0.0.1 xxx.org
-127.0.0.1 porno.net
-127.0.0.1 titties.com
-127.0.0.1 xxxtube.com
-#Shock sites
-# https://someonewhocares.org/hosts/
-# https://www.mywot.com/scorecard/lolshock.com
-127.0.0.1 lolshock.com
+
 
 # Randomly genorated domains
 # https://www.fortiguard.com/webfilter?q=preg.xyz&version=8
