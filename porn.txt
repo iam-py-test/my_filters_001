@@ -126,6 +126,89 @@ brazzersnetwork.com$all
 ! https://siteadvisor.com/sitereport.html?url=adultfreex.com
 adultfreex.com$all
 
+! domains from https://github.com/blocklistproject/Lists/issues/310
+bestporncomix.com$all
+worldporncomix.com$all
+wporncomics.com$all
+erocomicsxxx.com$all
+hentaicomicsonline.com$all
+fotonovelasxxx.com$all
+sexcomix.me$all
+! https://www.siteadvisor.com/sitereport.html?url=comix.site
+comix.site$all
+hornyson.com$all
+porncomixinfo.net$all
+porncomics.name$all
+! https://www.siteadvisor.com/sitereport.html?url=8-muses.xyz
+8-muses.xyz$all
+! https://www.siteadvisor.com/sitereport.html?url=hdhentaicomics.com
+hdhentaicomics.com$all
+comixzilla.com$all
+comicporns.com$all
+! https://www.fortiguard.com/webfilter?q=8muses.net&version=8
+8muses.net$document
+
+! https://someonewhocares.org/hosts/
+! https://www.siteadvisor.com/sitereport.html?url=www.theexgirlfriends.com
+!https://www.virustotal.com/gui/domain/theexgirlfriends.com/detection
+www.theexgirlfriends.com$all
+theexgirlfriends.com$all
+!Even more porn
+! https://www.mywot.com/en/scorecard/0dayporno.com
+! https://github.com/iam-py-test/my_filters_001/issues/5
+0dayporno.com$all
+! https://www.siteadvisor.com/sitereport.html?url=porn.biz
+! https://safeweb.norton.com/report/show?url=porn.biz
+! https://www.mywot.com/en/scorecard/porn.biz
+porn.biz$all
+
+! https://www.nbcnews.com/id/wbna51498128
+! https://www.pcworld.com/article/2034864/just-how-much-malware-is-on-free-porn-sites-.html
+! https://blog.dynamoo.com/2013/04/top-porn-sites-lead-to-malware.html
+pornhub.com$all
+tube8.com$all
+youjizz.com$all
+xnxx.com$all
+!Malware
+exposedcamz-live.com$all
+ceskeporno.tv$all
+brandreachsys.com$all
+traffichaus.com$all
+crakmedia.com$all
+rodriguezwoca.com.ar$all
+crucerosinfantiles.com.ar$all
+ingenet.com.ar$all
+trafficjunky.net$all
+gammae.com$all
+rockwork.ch$all
+gaypornplanet.com$all
+xgaytube.com$all
+btsinvestments.com$all
+nymphdate.com$all
+dirtymechanics.org$all
+justanaffiliate.com$all
+! https://www.pcworld.com/article/206107/most_dangerous_places_on_the_web.html (Lists porn as one source of malware)
+adultfriendfinder.com$all
+! https://www.mywot.com/scorecard/pornhub.net
+pornhub.net$all
+! https://www.mywot.com/scorecard/pornhub.net
+! https://www.siteadvisor.com/sitereport.html?url=pornsite.com
+pornsite.com$all
+! https://www.siteadvisor.com/sitereport.html?url=porn.org
+porn.org$all
+! https://www.siteadvisor.com/sitereport.html?url=livecams.com
+livecams.com$all
+hardcore.com$all
+livecam.com$all
+xxx.org$all
+porno.net$all
+titties.com$all
+xxxtube.com$all
+
+! https://someonewhocares.org/hosts/
+! https://www.mywot.com/scorecard/lolshock.com
+lolshock.com$all
+
 ! https://github.com/spirillen/ublockorigin-rules/commit/33af13a6fff15036637c8e941b24d6c8b4ef8bf9
 ! https://www.siteadvisor.com/sitereport.html?url=tubepornstars.tv
 tubepornstars.tv$all
@@ -969,90 +1052,7 @@ freehardcore.com$all
 crazyporn.xxx$all
 ! https://www.siteadvisor.com/sitereport.html?url=pornhat.one
 pornhat.one$all
-! Porn domains from another blocklist I created
-! domains from https://github.com/blocklistproject/Lists/issues/310
-bestporncomix.com$all
-worldporncomix.com$all
-wporncomics.com$all
-erocomicsxxx.com$all
-hentaicomicsonline.com$all
-fotonovelasxxx.com$all
-sexcomix.me$all
-! https://www.siteadvisor.com/sitereport.html?url=comix.site
-comix.site$all
-hornyson.com$all
-porncomixinfo.net$all
-porncomics.name$all
-! https://www.siteadvisor.com/sitereport.html?url=8-muses.xyz
-8-muses.xyz$all
-! https://www.siteadvisor.com/sitereport.html?url=hdhentaicomics.com
-hdhentaicomics.com$all
-comixzilla.com$all
-comicporns.com$all
-! removed 8muses.net - https://www.siteadvisor.com/sitereport.html?url=8muses.net
-!More porn/shock sites 
-! https://someonewhocares.org/hosts/
-! https://www.siteadvisor.com/sitereport.html?url=www.theexgirlfriends.com
-!https://www.virustotal.com/gui/domain/theexgirlfriends.com/detection
-www.theexgirlfriends.com$all
-theexgirlfriends.com$all
-!Even more porn
-! https://www.mywot.com/en/scorecard/0dayporno.com
-! https://github.com/iam-py-test/my_filters_001/issues/5
-0dayporno.com$all
-! https://www.siteadvisor.com/sitereport.html?url=porn.biz
-! https://safeweb.norton.com/report/show?url=porn.biz
-! https://www.mywot.com/en/scorecard/porn.biz
-porn.biz$all
-! Porn sites are all around bad, and no one should ever visit them. 
-! https://www.nbcnews.com/id/wbna51498128
-! https://www.pcworld.com/article/2034864/just-how-much-malware-is-on-free-porn-sites-.html
-! https://blog.dynamoo.com/2013/04/top-porn-sites-lead-to-malware.html
-pornhub.com$all
-tube8.com$all
-youjizz.com$all
-!Strangly the same name as a malware (technically spyware) file. Wonder why???
-xnxx.com$all
-!Malware
-exposedcamz-live.com$all
-ceskeporno.tv$all
-brandreachsys.com$all
-traffichaus.com$all
-crakmedia.com$all
-rodriguezwoca.com.ar$all
-crucerosinfantiles.com.ar$all
-ingenet.com.ar$all
-trafficjunky.net$all
-gammae.com$all
-rockwork.ch$all
-gaypornplanet.com$all
-xgaytube.com$all
-btsinvestments.com$all
-nymphdate.com$all
-dirtymechanics.org$all
-justanaffiliate.com$all
-! Might be bad, and no one should visit these sites anyway
-!https://www.pcworld.com/article/206107/most_dangerous_places_on_the_web.html (Lists porn as one source of malware)
-adultfriendfinder.com$all
-! https://www.mywot.com/scorecard/pornhub.net
-pornhub.net$all
-! https://www.mywot.com/scorecard/pornhub.net
-! https://www.siteadvisor.com/sitereport.html?url=pornsite.com
-pornsite.com$all
-! https://www.siteadvisor.com/sitereport.html?url=porn.org
-porn.org$all
-! https://www.siteadvisor.com/sitereport.html?url=livecams.com
-livecams.com$all
-hardcore.com$all
-livecam.com$all
-xxx.org$all
-porno.net$all
-titties.com$all
-xxxtube.com$all
-!Shock sites
-! https://someonewhocares.org/hosts/
-! https://www.mywot.com/scorecard/lolshock.com
-lolshock.com$all
+
 
 ! Randomly genorated domains
 ! https://www.fortiguard.com/webfilter?q=preg.xyz&version=8
