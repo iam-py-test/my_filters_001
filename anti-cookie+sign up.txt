@@ -11,6 +11,10 @@ www.fortiguard.com###__agreementBar
 ! https://sitecheck.sucuri.net cookie banner
 sitecheck.sucuri.net##.p-0.hide.cookie-policy-banner.container-fluid
 
+! https://github.com/easylist/easylist/issues/7873
+! https://aslimnica.lv
+aslimnica.lv##.cookies
+
 ! https://askubuntu.com plus https://stackoverflow.com
 askubuntu.com,stackoverflow.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
 ! 2021-04-14 https://security.stackexchange.com
