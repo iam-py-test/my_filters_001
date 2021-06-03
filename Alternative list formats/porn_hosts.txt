@@ -106,8 +106,63 @@
 127.0.0.1 fuckgirls.porn
 # https://www.fortiguard.com/webfilter?q=xxx.com&version=8
 127.0.0.1 xxx.com
+# found online
+127.0.0.1 petitegirlsfucked.com
+127.0.0.1 pornolab2.com
+127.0.0.1 actual-porn.org
+127.0.0.1 www.sexvid.xxx
+127.0.0.1 sexvid.xxx
+127.0.0.1 www.xxxjapanese.net
+127.0.0.1 xxxjapanese.net
+127.0.0.1 www.porngals4.com
+127.0.0.1 porngals4.com
+127.0.0.1 candidteens.top
+127.0.0.1 hotnsfw.blogspot.com
+127.0.0.1 onlyteasephoto.com
+127.0.0.1 girlsoftcore.com
+127.0.0.1 upskirtpics.pro
+127.0.0.1 mzansiteens.com
 
 # Found in random reports online
+# https://github.com/easylist/easylist/issues/7517
+# https://siteadvisor.com/sitereport.html?url=ymlporn.net
+127.0.0.1 ymlporn.net
+
+# https://github.com/easylist/easylist/issues/7504
+# https://siteadvisor.com/sitereport.html?url=3gpking.pro
+127.0.0.1 3gpking.pro
+
+# https://github.com/easylist/easylist/issues/7505
+# https://siteadvisor.com/sitereport.html?url=cliphunter.com
+127.0.0.1 cliphunter.com
+
+# https://github.com/easylist/easylist/issues/7507
+# https://siteadvisor.com/sitereport.html?url=heavy-r.com
+127.0.0.1 heavy-r.com
+127.0.0.1 www.heavy-r.com
+# https://github.com/easylist/easylist/commit/da21d0324d3def8970d87e18ae1920619261a254
+# https://siteadvisor.com/sitereport.html?url=sexyandfunny.com
+127.0.0.1 sexyandfunny.com
+
+# https://github.com/easylist/easylist/issues/7806
+# https://siteadvisor.com/sitereport.html?url=neukcontacten.info
+127.0.0.1 neukcontacten.info
+127.0.0.1 www.neukcontacten.info
+# https://siteadvisor.com/sitereport.html?url=adult-trade.nl
+127.0.0.1 adult-trade.nl
+127.0.0.1 www.adult-trade.nl
+
+
+# https://github.com/easylist/easylist/issues/7860
+# https://siteadvisor.com/sitereport.html?url=cockmeter.com
+127.0.0.1 cockmeter.com
+127.0.0.1 www.cockmeter.com
+
+
+# https://github.com/easylist/easylist/issues/7861
+# https://siteadvisor.com/sitereport.html?url=str8ongay.com
+127.0.0.1 str8ongay.com
+
 # https://github.com/easylist/easylist/pull/7903
 # https://categorify.org
 # https://categorify.org/api?website=sexybabegirls.com
