@@ -108,6 +108,17 @@
 127.0.0.1 xxx.com
 
 # Found in random reports online
+# https://github.com/easylist/easylist/pull/7903
+# https://categorify.org
+# https://categorify.org/api?website=sexybabegirls.com
+# https://www.siteadvisor.com/sitereport.html?url=sexybabegirls.com
+127.0.0.1 sexybabegirls.com
+127.0.0.1 www.sexybabegirls.com
+# https://github.com/easylist/easylist/pull/7931
+# https://categorify.org
+# https://www.siteadvisor.com/sitereport.html?url=xxerotica.com
+127.0.0.1 www.xxerotica.com
+
 # https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
 # https://www.fortiguard.com/webfilter?q=donk69.com&version=8
 127.0.0.1 donk69.com
