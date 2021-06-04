@@ -43,3 +43,8 @@ custom:
       - help me
     labels:
       - support
+  - location: body
+    keywords:
+      - I need help
+    labels:
+      - support
