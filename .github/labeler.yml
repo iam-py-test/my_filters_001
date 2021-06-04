@@ -28,3 +28,9 @@ custom:
       - 'phishing domain'
     labels:
       - phishing
+  - location: title
+    keywords:
+      - help request
+      - support request
+    labels:
+      - support
