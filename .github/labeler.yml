@@ -38,3 +38,8 @@ custom:
       - support request
     labels:
       - support
+  - location: title
+    keywords:
+      - help me
+    labels:
+      - support
