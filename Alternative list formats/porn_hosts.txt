@@ -495,7 +495,7 @@
 127.0.0.1 wwwlanmao.tv
 # https://www.fortiguard.com/webfilter?q=lanmao.tv
 127.0.0.1 lanmao.tv
-127.0.0.1 wwwlanmao.tv
+127.0.0.1 www.lanmao.tv
 
 # https://safeweb.norton.com/reviews?url=softpussyx.us
 # https://www.siteadvisor.com/sitereport.html?url=softpussyx.us
