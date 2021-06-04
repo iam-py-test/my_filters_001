@@ -32,3 +32,5 @@ w3school.com$document
 ! https://github.com/easylist/easylist/pull/7950
 ! https://www.siteadvisor.com/sitereport.html?url=xozilla.com
 xozilla.com$all
+! https://sitecheck.sucuri.net/results/bit.lu
+bit.lu$document
