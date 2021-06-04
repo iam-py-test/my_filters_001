@@ -124,6 +124,21 @@
 127.0.0.1 mzansiteens.com
 
 # Found in random reports online
+# https://www.bleepingcomputer.com/news/security/us-seizes-domains-used-by-apt29-in-recent-usaid-phishing-attacks/
+# https://www.virustotal.com/gui/ip-address/99.81.40.78/relations
+# https://www.virustotal.com/gui/url/a95742ec3899f4bc3c4c1be496b9eaf0208e5cce02dfbc2e93a6de5cf966c865/detection
+# https://www.virustotal.com/gui/domain/search-sexlady.com/detection
+# https://www.fortiguard.com/webfilter?q=search-sexlady.com
+# https://sitecheck.sucuri.net/results/search-sexlady.com
+# https://www.urlvoid.com/scan/search-sexlady.com/
+# https://safeweb.norton.com/report/show?url=search-sexlady.com
+# https://quttera.com/detailed_report/search-sexlady.com
+# Phishing/Spam
+127.0.0.1 search-sexlady.com
+# The target domain
+# https://www.siteadvisor.com/sitereport.html?url=sexlady.com
+127.0.0.1 sexlady.com
+
 # https://github.com/easylist/easylist/issues/7517
 # https://siteadvisor.com/sitereport.html?url=ymlporn.net
 127.0.0.1 ymlporn.net
@@ -477,6 +492,9 @@
 127.0.0.1 18comic.vip
 
 # https://github.com/AdguardTeam/AdguardFilters/issues/84444
+127.0.0.1 wwwlanmao.tv
+# https://www.fortiguard.com/webfilter?q=lanmao.tv
+127.0.0.1 lanmao.tv
 127.0.0.1 wwwlanmao.tv
 
 # https://safeweb.norton.com/reviews?url=softpussyx.us
