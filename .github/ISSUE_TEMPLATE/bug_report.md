@@ -1,8 +1,8 @@
 ---
 name: Issue report
 about: Report an issue in my filters
-title: ''
-labels: ''
+title: '[bug]'
+labels: 'bug'
 assignees: ''
 
 ---
