@@ -356,7 +356,6 @@
 127.0.0.1 cam.net
 127.0.0.1 cam2cam.com
 127.0.0.1 cam4cam.com
-127.0.0.1 https://www.siteadvisor.com/sitereport.html?url=cam4free.com
 127.0.0.1 cam4free.com
 127.0.0.1 cam4men.com
 127.0.0.1 cam5.com
