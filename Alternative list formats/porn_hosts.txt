@@ -4,7 +4,7 @@
 # Issues: https://github.com/iam-py-test/my_filters_001/issues
 # Expires: 1 day
 # Homepage: https://github.com/iam-py-test/my_filters_001
-# Last updated: 2/6/2021
+# Last updated: 4/6/2021
 # Porn websites
 127.0.0.1 shesfreaky.com
 127.0.0.1 eroticbeauties.net
@@ -791,7 +791,7 @@
 127.0.0.1 cam2cam.com
 # https://www.siteadvisor.com/sitereport.html?url=cam4cam.com
 127.0.0.1 cam4cam.com
-127.0.0.1 https://www.siteadvisor.com/sitereport.html?url=cam4free.com
+# https://www.siteadvisor.com/sitereport.html?url=cam4free.com
 127.0.0.1 cam4free.com
 # https://www.siteadvisor.com/sitereport.html?url=cam4men.com
 127.0.0.1 cam4men.com
