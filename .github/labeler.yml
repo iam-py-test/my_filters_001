@@ -45,6 +45,6 @@ custom:
       - support
   - location: body
     keywords:
-      - I need help
+      - help needed
     labels:
       - support
