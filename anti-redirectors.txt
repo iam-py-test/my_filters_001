@@ -19,8 +19,7 @@ bit.do$document
 ! https://www.mywot.com/scorecard/ow.ly
 ow.ly$document
 ! https://www.mywot.com/scorecard/goo.gl
-! Has been shutdown by google but old links will still work
-! see https://developers.googleblog.com/2018/03/transitioning-google-url-shortener.html
+! Has been shutdown by google but old links will still work - see https://developers.googleblog.com/2018/03/transitioning-google-url-shortener.html
 goo.gl$document
 ! https://www.mywot.com/scorecard/rebrand.ly
 rebrand.ly$document
@@ -35,3 +34,7 @@ is.gd$document
 ht.ly$all
 ! https://github.com/DandelionSprout/adfilt/issues/191
 rb.gy$document
+! https://github.com/uBlockOrigin/uAssets/issues/7636#issuecomment-831362259
+! https://www.virustotal.com/gui/url/f76ff730e3eed94c7285ffd57e9e2e97c33e83f3b94690fd765fea325aea9acc/detection
+! https://www.mywot.com/scorecard/href.li
+href.li$document
