@@ -3,7 +3,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! GitHub Issues: https://github.com/iam-py-test/my_filters_001/issues
-! Last updated: 20/5/2021
+! Last updated: 6/6/2021
 
 ! https://www.fortiguard.com Cookie consent 
 www.fortiguard.com###__agreementBar
@@ -32,6 +32,28 @@ stackoverflow.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.p
 
 ! https://safetoopen.com
 safetoopen.com###cookiesdirective
+
+! https://www.snigel.com
+www.snigel.com##.shown.gdpr-banner
+
+! https://app.any.run
+app.any.run###cookies
+
+! https://tinyurl.com
+tinyurl.com##.m-0.text-center.alert-dismissible.alert-info.alert
+
+! https://www.hootsuite.com
+www.hootsuite.com##._gdprDisclaimer.gdpr-disclaimer
+
+! https://npm.runkit.com
+npm.runkit.com###register-banner
+
+! https://aslimnica.lv
+aslimnica.lv##.cookies
+
+! https://sphero.com
+sphero.com##.cookie-bar
+sphero.com##._form_show._form-wrapper
 
 ! https://scantitan.com
 scantitan.com###cookie-law-info-bar
