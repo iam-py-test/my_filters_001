@@ -36,3 +36,5 @@ w3school.com$document
 xozilla.com$all
 ! https://sitecheck.sucuri.net/results/bit.lu
 bit.lu$document
+! https://www.mywot.com/scorecard/alwarebytes.com
+alwarebytes.com$document
