@@ -1,10 +1,11 @@
 # Title: Pornography blocklist
 # Description: This list is designed to block porn, shock-sites, and other gruesome or not child safe websites - adding this list will also make your computer more secure as these sites often have malware on them. This list only works in uBlock Origin and AdGuard. If you need a list for somewhere else, check the Alternet Lists area. Note that currently I have no way to make this list work in AdBlock Plus due to it throwing an error and lack of support for full blockage of a webpage, which AdGuard and uBlock Origin support. 
 # Licence: No copyright but please attribute the original source (when available - see comments above each entry)
-# Issues: https://github.com/iam-py-test/my_filters_001/issues
 # Expires: 1 day
 # Homepage: https://github.com/iam-py-test/my_filters_001
-# Last updated: 4/6/2021
+# Issues: https://github.com/iam-py-test/my_filters_001/issues
+# Last updated: 6/6/2021
+# A note about dates: All my dates are in EU format, which means day/month/year
 # Porn websites
 127.0.0.1 shesfreaky.com
 127.0.0.1 eroticbeauties.net
@@ -72,6 +73,14 @@
 127.0.0.1 secretfuck.net
 # https://www.siteadvisor.com/sitereport.html?url=secretpics.net
 127.0.0.1 secretpics.net
+# https://www.siteadvisor.com/sitereport.html?url=bornsexy.com
+127.0.0.1 bornsexy.com
+# https://www.fortiguard.com/webfilter?q=hotgirl.com&version=8
+127.0.0.1 hotgirl.com
+# https://www.fortiguard.com/webfilter?q=hotcum.com&version=8
+127.0.0.1 hotcum.com
+# https://www.fortiguard.com/webfilter?q=cumteen.com&version=8
+127.0.0.1 cumteen.com
 #A random domain I made up
 # https://www.siteadvisor.com/sitereport.html?url=sexy-girls.com
 # https://www.siteadvisor.com/sitereport.html?url=pornxxx.net
@@ -120,6 +129,75 @@
 127.0.0.1 upskirtpics.pro
 127.0.0.1 mzansiteens.com
 # Found in random reports online
+# https://sitecheck.sucuri.net/results/cumteen.com
+# https://www.fortiguard.com/webfilter?q=youngroulette.com&version=8
+127.0.0.1 youngroulette.com
+127.0.0.1 www.youngroulette.com
+# https://github.com/easylist/easylist/issues/6553
+# https://github.com/easylist/easylist/issues/6449
+# https://safeweb.norton.com/report/show?url=anymad.com
+# https://www.urlvoid.com/scan/anymad.com/
+# Exit popups
+127.0.0.1 anymad.com
+# sites using exit popups
+127.0.0.1 japansporno.com
+127.0.0.1 analwithteens.sexy
+127.0.0.1 analxxxvideo.com
+127.0.0.1 sexmomsex.com
+127.0.0.1 shinyjapaneseporn.com
+127.0.0.1 drivepornvideos.com
+127.0.0.1 animepornfilm.com
+127.0.0.1 sexmomsex.com
+127.0.0.1 shinyjapaneseporn.com
+127.0.0.1 japansporno.com
+127.0.0.1 freerealvideo.com
+127.0.0.1 indianpornvideo.online
+127.0.0.1 amateursolution.com
+127.0.0.1 amazingvintagesex.com
+127.0.0.1 japanxxx.asia
+127.0.0.1 asiansex.sexy
+# https://github.com/easylist/easylist/issues/6449
+127.0.0.1 realyoungsex.com
+127.0.0.1 primaryporntube.com
+127.0.0.1 voyeurpornsex.com
+# https://github.com/easylist/easylist/issues/6635
+# https://www.siteadvisor.com/sitereport.html?url=www.celebritynakeds.com
+127.0.0.1 www.celebritynakeds.com
+127.0.0.1 celebritynakeds.com
+# https://github.com/easylist/easylist/issues/7514
+# https://siteadvisor.com/sitereport.html?url=hdporns.eu
+127.0.0.1 hdporns.eu
+127.0.0.1 www.hdporns.eu
+# https://forums.lanik.us/viewtopic.php?f=64&t=45725&p=160042&hilit=NSFW#p160042
+# https://siteadvisor.com/sitereport.html?url=phncdn.com
+127.0.0.1 phncdn.com
+# https://siteadvisor.com/sitereport.html?url=youporngay.com
+127.0.0.1 youporngay.com
+# https://siteadvisor.com/sitereport.html?url=www.youpornru.com
+127.0.0.1 youpornru.com
+127.0.0.1 www.youpornru.com
+# https://siteadvisor.com/sitereport.html?url=www.you-porn.com
+127.0.0.1 www.you-porn.com
+127.0.0.1 you-porn.com
+127.0.0.1 pornhubthbh7ap3u.onion
+127.0.0.1 redtube.com.br
+127.0.0.1 tube8.es
+127.0.0.1 tube8.fr
+127.0.0.1 feedback.pornhub.com
+127.0.0.1 feedback.pornhubthbh7ap3u.onion
+127.0.0.1 cdn1d-static-shared.phncdn.com
+# https://forums.lanik.us/viewtopic.php?f=64&t=46242&p=160201&hilit=NSFW#p160201
+# https://siteadvisor.com/sitereport.html?url=onlainporno1.online
+127.0.0.1 onlainporno1.online
+# https://siteadvisor.com/sitereport.html?url=mypornoonlain.tv
+127.0.0.1 mypornoonlain.tv
+# https://siteadvisor.com/sitereport.html?url=vpornoonlain.tv
+127.0.0.1 vpornoonlain.tv
+# https://github.com/easylist/easylist/issues/7515
+# https://siteadvisor.com/sitereport.html?url=pornfaia.com
+127.0.0.1 pornfaia.com
+# https://siteadvisor.com/sitereport.html?url=amateurhub.fun
+127.0.0.1 amateurhub.fun
 # https://www.bleepingcomputer.com/news/security/us-seizes-domains-used-by-apt29-in-recent-usaid-phishing-attacks/
 # https://www.virustotal.com/gui/ip-address/99.81.40.78/relations
 # https://www.virustotal.com/gui/url/a95742ec3899f4bc3c4c1be496b9eaf0208e5cce02dfbc2e93a6de5cf966c865/detection
