@@ -177,6 +177,18 @@ tek.no###sp_message_container_499989
 ||unpkg.com/@schibsted/data-controller/dist/data-controller-sdk.umd.js$script,domain=www.tek.no
 tek.no##+js(cookie-remover,consentUUID)
 
+
+! https://www.prisjakt.no cookie banner
+www.prisjakt.no###root-cookiebanner
+
+! https://www.chilimobil.no cookie banner
+www.chilimobil.no###CybotCookiebotDialog
+
+! https://www.tek.no scroll blocking cookie consent
+www.tek.no###sp_message_container_499989
+||unpkg.com/@schibsted/data-controller/dist/data-controller-sdk.umd.js$script,domain=www.tek.no
+tek.no##+js(cookie-remover,consentUUID)
+
 ! https://npm.runkit.com
 npm.runkit.com###register-banner
 
