@@ -44,3 +44,5 @@ href.li$document
 ! https://sitecheck.sucuri.net/results/link1s.com
 ! https://yandex.com/safety/?url=https%3A%2F%2Flink1s.com%2Fw9NR0gIK
 link1s.com$document
+! https://github.com/easylist/easylist/issues/8041
+urlshortx.com$document
