@@ -14,9 +14,11 @@ requestInfoReplyComment: >
 
 # *OPTIONAL* default titles to check against for lack of descriptiveness
 # MUST BE ALL LOWERCASE
-#requestInfoDefaultTitles:
-#  - update readme.md
-#  - updates
+requestInfoDefaultTitles:
+  - [domain report]
+  - updates
+  - [bug]
+
 
 # *OPTIONAL* Label to be added to Issues and Pull Requests with insufficient information given
 requestInfoLabelToAdd: information needed
