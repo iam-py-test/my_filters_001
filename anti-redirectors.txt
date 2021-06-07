@@ -38,3 +38,9 @@ rb.gy$document
 ! https://www.virustotal.com/gui/url/f76ff730e3eed94c7285ffd57e9e2e97c33e83f3b94690fd765fea325aea9acc/detection
 ! https://www.mywot.com/scorecard/href.li
 href.li$document
+! https://www.reddit.com/r/uBlockOrigin/comments/nsi67q/shortner_detected_ublock_origin/
+! https://www.mywot.com/scorecard/link1s.com
+! https://www.virustotal.com/gui/url/0eec678febb448dd69296061732d621acc6f409418c6e5dee961ddc1f3264c81/detection
+! https://sitecheck.sucuri.net/results/link1s.com
+! https://yandex.com/safety/?url=https%3A%2F%2Flink1s.com%2Fw9NR0gIK
+link1s.com$document
