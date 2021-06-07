@@ -1,7 +1,9 @@
 ! Title: Anti-redirectors and url shorteners
-! Description: Redirecters and url shorterners are used for phishing, malware, spam, and scams. Companies like Google and Facebook also use redirectors to track you. This list is designed to block both.
+! Description: Redirecters and url shorterners are often used for phishing, malware, spam, and scams, and companies like Google and Facebook also use redirectors to track you . This list is designed to block both shortened urls & tracker redirects.
+! Please report false positives & unblocked domains to https://github.com/iam-py-test/my_filters_001/issues Thanks!
+! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 1/6/2021
+! Last updated: 7/6/2021
 ! Google redirects
 ||google.*/url?$document
 ! Facebook
