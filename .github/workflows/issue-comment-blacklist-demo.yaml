@@ -29,7 +29,8 @@ jobs:
           # An example of responding to a comment.
           script: |
             const comment = `
-            > Hi
+            > ${{ needs.comvent-simple.outputs.command-domain-switch }}
+            
             @${{ github.event.sender.login }}, thank you for reporting. @iam-py-test will get to this soon`;
 
             github.issues.createComment({
