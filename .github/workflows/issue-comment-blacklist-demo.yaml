@@ -36,6 +36,7 @@ jobs:
               repo: context.repo.repo,
               body: comment
             })
+            console.log(github.issues,github.event)
 
       #
       # You can repeat similar handling based on the Comvent config.
