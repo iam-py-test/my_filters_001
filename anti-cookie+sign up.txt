@@ -15,6 +15,19 @@ sitecheck.sucuri.net##.p-0.hide.cookie-policy-banner.container-fluid
 ! https://aslimnica.lv
 aslimnica.lv##.cookies
 
+! https://webhint.io
+webhint.io##.disclaimer
+
+! https://fc.lc
+fc.lc###cookie-pop
+
+! https://shrinkme.io
+shrinkme.io###cookie-pop
+
+! https://www.flightradar24.com cookie banner
+! There must be a better way - this also blocks some useful content
+!www.flightradar24.com##.important-banner--is-open.important-banner--cookies.important-banner
+
 ! https://askubuntu.com plus https://stackoverflow.com
 askubuntu.com,stackoverflow.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
 ! 2021-04-14 https://security.stackexchange.com
