@@ -28,7 +28,9 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           # An example of responding to a comment.
           script: |
-            const comment = `@${{ github.event.sender.login }}, thank you for reporting. @iam-py-test will get to this soon`;
+            const comment = `
+            > Hi
+            @${{ github.event.sender.login }}, thank you for reporting. @iam-py-test will get to this soon`;
 
             github.issues.createComment({
               issue_number: context.issue.number,
