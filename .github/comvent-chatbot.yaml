@@ -1,0 +1,12 @@
+---
+version: 0.2.0
+
+trigger: default
+
+keywords:
+  - name: command-random
+    value: '^\/random$' # Regex which looks for a comment with '/random'
+  - name: some-other-command
+    value: 'some arbitrary regex setup'
+
+  # You can have as many regex setup as you need.
