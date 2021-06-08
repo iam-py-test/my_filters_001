@@ -2,7 +2,7 @@
 ! Description: A list of typosquatt domains that did not make it into malware domains
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
-! Last updated: 4/6/2021
+! Last updated: 8/6/2021
 ! If someone can confirm this, it can move to malware 
 ! https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 ! https://www.virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
@@ -45,3 +45,5 @@ dukduckgo.com$document
 ! https://blog.dynamoo.com/2011/04/alisa-cartercom-lizamooncom-and-worid.html
 ! https://safeweb.norton.com/report/show?url=google-1aa.com
 google-1aa.com$all
+! https://safeweb.norton.com/report/show?url=googlesite.ws
+googlesite.ws$document
