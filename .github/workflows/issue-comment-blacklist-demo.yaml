@@ -37,13 +37,6 @@ jobs:
               repo: context.repo.repo,
               body: comment
             })
-            
-            github.issues.createComment({
-            issue_number: context.issue.number,
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            body: `The issue number is #${context.issue.number}, the owner is @${context.repo.owner}!`
-            })
 
       #
       # You can repeat similar handling based on the Comvent config.
