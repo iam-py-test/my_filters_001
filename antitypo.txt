@@ -41,4 +41,7 @@ alwarebytes.com$document
 ! inkbunny[.]net typosquatt
 inkbunny.xyz$document
 ! duckDuckGo typosquatt - https://www.fortiguard.com/webfilter?q=dukduckgo.com&version=8
-dukduckgo.com
+dukduckgo.com$document
+! https://blog.dynamoo.com/2011/04/alisa-cartercom-lizamooncom-and-worid.html
+! https://safeweb.norton.com/report/show?url=google-1aa.com
+google-1aa.com$all
