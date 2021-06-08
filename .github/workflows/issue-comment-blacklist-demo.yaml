@@ -39,7 +39,7 @@ jobs:
             })
             
             github.issues.createComment({
-            issue_number: 1,
+            issue_number: 7,
             owner: context.repo.owner,
             repo: context.repo.repo,
             body: `@${ github.event.sender.login } posted a comment on #${ context.issue.number }.`
