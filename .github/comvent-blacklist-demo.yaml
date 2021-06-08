@@ -1,0 +1,16 @@
+---
+version: 0.2.0
+
+trigger: default # denotes that comvent checks for all comments, with possible tweaks below.
+
+# users:
+#   inactive:
+#     - rytswd # This works as a blacklist, meaning this user's comment won't be a part of comvent.
+
+keywords:
+  - name: command-weather
+    value: '^\/weather$' # Regex which looks for a comment with '/weather'
+  - name: command-hello-world
+    value: '^\/hello-world$' # Regex which looks for a comment with '/hello-world'
+  - name: command-echo
+    value: "^/echo (.+)$"
