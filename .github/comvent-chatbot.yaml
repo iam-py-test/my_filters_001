@@ -4,9 +4,9 @@ version: 0.2.0
 trigger: default
 
 keywords:
-  - name: command-random
-    value: '^\/random$' # Regex which looks for a comment with '/random'
-  - name: some-other-command
-    value: 'some arbitrary regex setup'
+  - name: command-domain-switch
+    value: '^\/switched domain$' # Regex which looks for a comment with '/random'
+  - name: invalid-domain
+    value: 'invalid domain'
 
   # You can have as many regex setup as you need.
