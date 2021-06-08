@@ -1,0 +1,69 @@
+name: Comvent - Simple demo with Blacklist
+on:
+  issue_comment:
+    # This shouldn't be called for comment deletion
+    types:
+      - created
+      - edited
+
+jobs:
+  comvent-simple:
+    name: With latest code base
+    runs-on: ubuntu-latest
+    outputs:
+      command-echo: ${{ steps.comvent.outputs.command-echo }}
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Parse comment
+        uses: ./
+        id: comvent
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          config-path: .github/comvent-blacklist-demo.yaml
+
+      - if: steps.comvent.outputs.command-weather != ''
+        name: Command weather triggered
+        uses: actions/github-script@v3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const comment = `Command \`/weather\` was triggered by the comment`;
+            github.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: comment
+            })
+      - if: steps.comvent.outputs.command-hello-world != ''
+        name: Command hello-world triggered
+        uses: actions/github-script@v3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const comment = `Command \`/hello-world\` was triggered by the comment`;
+            github.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: comment
+            })
+  echo:
+    name: Echo
+    runs-on: ubuntu-latest
+    needs: comvent-simple
+    if: always() && needs.comvent-simple.outputs.command-echo
+    steps:
+      - name: Command echo triggered
+        uses: actions/github-script@v3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const comment = `Command \`/echo\` was triggered by the comment. You echoed "${{ needs.comvent-simple.outputs.command-echo }}".`;
+            github.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: comment
+            })
