@@ -5,7 +5,7 @@ trigger: default
 
 keywords:
   - name: command-domain-switch
-    value: '^switched domain' # Regex which looks for a comment with '/random'
+    value: 'switched domain' # Regex which looks for a comment with '/random'
   - name: invalid-domain
     value: 'invalid domain'
 
