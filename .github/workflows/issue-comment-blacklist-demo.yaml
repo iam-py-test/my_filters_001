@@ -42,7 +42,7 @@ jobs:
             issue_number: 7,
             owner: context.repo.owner,
             repo: context.repo.repo,
-            body: `@${ github.event.sender.login } posted a comment on #${ context.issue.number }.`
+            body: `@${{ github.event.sender.login }} posted a comment on #${{ context.issue.number }}.`
             })
 
       #
