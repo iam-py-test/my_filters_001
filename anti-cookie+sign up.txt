@@ -3,7 +3,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! GitHub Issues: https://github.com/iam-py-test/my_filters_001/issues
-! Last updated: 6/6/2021
+! Last updated: 8/6/2021
 
 ! https://www.fortiguard.com Cookie consent 
 www.fortiguard.com###__agreementBar
@@ -15,18 +15,23 @@ sitecheck.sucuri.net##.p-0.hide.cookie-policy-banner.container-fluid
 ! https://aslimnica.lv
 aslimnica.lv##.cookies
 
-! https://webhint.io
+! https://webhint.io cookie banner
 webhint.io##.disclaimer
 
-! https://fc.lc
+! https://fc.lc cookie banner
 fc.lc###cookie-pop
 
-! https://shrinkme.io
+! https://shrinkme.io cookie banner
 shrinkme.io###cookie-pop
 
 ! https://www.flightradar24.com cookie banner
 ! There must be a better way - this also blocks some useful content
 !www.flightradar24.com##.important-banner--is-open.important-banner--cookies.important-banner
+
+! https://www.dtv.de cookie banner
+! https://github.com/AdguardTeam/AdguardFilters/commit/d2c6ea33c8896a18de39b8db538715520ae49b31
+www.dtv.de##.cc-color-override-datareporter.cc-middle.cc-theme-block.cc-type-opt-out.cc-banner.cc-window
+www.dtv.de###dr_blocking_div
 
 ! https://askubuntu.com plus https://stackoverflow.com
 askubuntu.com,stackoverflow.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
