@@ -21,14 +21,14 @@ jobs:
 
       # The below only runs when Comvent finds matching comment.
       # This assumes that Comvent config holding 'command-random' as a keyword.
-      - if: steps.comvent.outputs.command-random != ''
+      - if: steps.comvent.outputs.command-domain-switch != ''
         name: Handle random event
         uses: actions/github-script@v3
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           # An example of responding to a comment.
           script: |
-            const comment = `Command \`/random\` was triggered by the comment`;
+            const comment = `@${{ github.event.sender.login }}, thank you for reporting. @iam-py-test will get to this soon`;
 
             github.issues.createComment({
               issue_number: context.issue.number,
