@@ -49,9 +49,10 @@ safetoopen.com###cookiesdirective
 ! https://www.snigel.com
 www.snigel.com##.shown.gdpr-banner
 
-! https://g1.globo.com
+! https://g1.globo.com - https://github.com/uBlockOrigin/uAssets/issues/9404
 g1.globo.com##.cookie-banner-lgpd-container
 g1.globo.com##.cookie-banner-lgpd-animated.cookie-banner-lgpd-visible
+
 
 ! https://app.any.run
 app.any.run###cookies
