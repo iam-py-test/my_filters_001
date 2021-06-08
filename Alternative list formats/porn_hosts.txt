@@ -4,7 +4,7 @@
 # Expires: 1 day
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # Issues: https://github.com/iam-py-test/my_filters_001/issues
-# Last updated: 6/6/2021
+# Last updated: 8/6/2021
 # A note about dates: All my dates are in EU format, which means day/month/year
 # Porn websites
 127.0.0.1 shesfreaky.com
@@ -128,7 +128,60 @@
 127.0.0.1 girlsoftcore.com
 127.0.0.1 upskirtpics.pro
 127.0.0.1 mzansiteens.com
+127.0.0.1 www.cumonprintedpics.com
+127.0.0.1 cumonprintedpics.com
+127.0.0.1 r18.com
+# https://www.siteadvisor.com/sitereport.html?url=sex-tracker.com
+127.0.0.1 sex-tracker.com
+# https://www.siteadvisor.com/sitereport.html?url=sextracker.de
+127.0.0.1 sextracker.de
+# https://www.siteadvisor.com/sitereport.html?url=stiffia.com
+127.0.0.1 stiffia.com
 # Found in random reports online
+# https://github.com/AdguardTeam/AdguardFilters/issues/85204
+# https://www.fortiguard.com/webfilter?q=mrdeepfakes.com&version=8
+127.0.0.1 mrdeepfakes.com
+# https://github.com/mikf/gallery-dl/issues/1527
+# https://www.fortiguard.com/webfilter?q=rule34.us&version=8
+127.0.0.1 rule34.us
+# https://www.fortiguard.com/webfilter?q=rule34.xyz&version=8
+127.0.0.1 rule34.xyz
+# https://github.com/mikf/gallery-dl/blob/master/docs/supportedsites.md
+# https://www.fortiguard.com/webfilter?q=e-hentai.org&version=8
+127.0.0.1 e-hentai.org
+# https://www.fortiguard.com/webfilter?q=hentai-cosplays.com&version=8
+127.0.0.1 hentai-cosplays.com
+# https://www.fortiguard.com/webfilter?q=hentai-img.com&version=8
+127.0.0.1 hentai-img.com
+# https://www.fortiguard.com/webfilter?q=hentai2read.com&version=8
+127.0.0.1 hentai2read.com
+# https://www.fortiguard.com/webfilter?q=hentaifox.com&version=8
+127.0.0.1 hentaifox.com
+# https://www.fortiguard.com/webfilter?q=hentaihand.com&version=8
+127.0.0.1 hentaihand.com
+# https://www.fortiguard.com/webfilter?q=hentaihere.com&version=8
+127.0.0.1 hentaihere.com
+# https://www.fortiguard.com/webfilter?q=hiperdex.com&version=8
+127.0.0.1 hiperdex.com
+# https://www.fortiguard.com/webfilter?q=hitomi.la&version=8
+127.0.0.1 hitomi.la
+# https://www.fortiguard.com/webfilter?q=sankakucomplex.com&version=8
+127.0.0.1 idol.sankakucomplex.com
+127.0.0.1 sankakucomplex.com
+# https://www.fortiguard.com/webfilter?q=inkbunny.net&version=8
+127.0.0.1 inkbunny.net
+# https://blocklistproject.github.io/Lists/abuse.txt
+# https://www.siteadvisor.com/sitereport.html?url=000.gaysexe.free.fr
+127.0.0.1 000.gaysexe.free.fr
+# https://www.siteadvisor.com/sitereport.html?url=gaysexe.free.fr
+127.0.0.1 gaysexe.free.fr
+# https://safeweb.norton.com/reviews?url=feetexposed.com
+# https://www.fortiguard.com/webfilter?q=feetexposed.com&version=8
+# https://www.siteadvisor.com/sitereport.html?url=feetexposed.com
+127.0.0.1 feetexposed.com
+# https://github.com/uBlockOrigin/uAssets/issues/9327
+# https://www.siteadvisor.com/sitereport.html?url=mofos.com
+127.0.0.1 mofos.com
 # https://sitecheck.sucuri.net/results/cumteen.com
 # https://www.fortiguard.com/webfilter?q=youngroulette.com&version=8
 127.0.0.1 youngroulette.com
@@ -1405,3 +1458,7 @@
 127.0.0.1 xxx.xxx
 # https://www.fortiguard.com/webfilter?q=boobs.net&version=8
 127.0.0.1 boobs.net
+# https://www.siteadvisor.com/sitereport.html?url=sexysex.com
+127.0.0.1 sexysex.com
+# https://www.fortiguard.com/webfilter?q=girlteens.net&version=8
+127.0.0.1 girlteens.net
