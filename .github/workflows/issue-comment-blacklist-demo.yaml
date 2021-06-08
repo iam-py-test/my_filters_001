@@ -1,4 +1,4 @@
-name: Comvent - Simple demo with Blacklist
+name: ChatBot
 on:
   issue_comment:
     # This shouldn't be called for comment deletion
@@ -7,63 +7,36 @@ on:
       - edited
 
 jobs:
-  comvent-simple:
+  chatbot:
     name: With latest code base
     runs-on: ubuntu-latest
-    outputs:
-      command-echo: ${{ steps.comvent.outputs.command-echo }}
 
     steps:
-      - uses: actions/checkout@v2
-
-      - name: Parse comment
-        uses: ./
+      - name: Handle with Comvent
+        uses: rytswd/comvent@v0.3
         id: comvent
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          config-path: .github/comvent-blacklist-demo.yaml
+          config-path: .github/comvent-chatbot.yaml
 
-      - if: steps.comvent.outputs.command-weather != ''
-        name: Command weather triggered
+      # The below only runs when Comvent finds matching comment.
+      # This assumes that Comvent config holding 'command-random' as a keyword.
+      - if: steps.comvent.outputs.command-random != ''
+        name: Handle random event
         uses: actions/github-script@v3
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          # An example of responding to a comment.
           script: |
-            const comment = `Command \`/weather\` was triggered by the comment`;
+            const comment = `Command \`/random\` was triggered by the comment`;
+
             github.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
               body: comment
             })
-      - if: steps.comvent.outputs.command-hello-world != ''
-        name: Command hello-world triggered
-        uses: actions/github-script@v3
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const comment = `Command \`/hello-world\` was triggered by the comment`;
-            github.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: comment
-            })
-  echo:
-    name: Echo
-    runs-on: ubuntu-latest
-    needs: comvent-simple
-    if: always() && needs.comvent-simple.outputs.command-echo
-    steps:
-      - name: Command echo triggered
-        uses: actions/github-script@v3
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const comment = `Command \`/echo\` was triggered by the comment. You echoed "${{ needs.comvent-simple.outputs.command-echo }}".`;
-            github.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: comment
-            })
+
+      #
+      # You can repeat similar handling based on the Comvent config.
+      #
