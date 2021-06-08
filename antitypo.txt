@@ -38,3 +38,7 @@ xozilla.com$all
 bit.lu$document
 ! https://www.mywot.com/scorecard/alwarebytes.com
 alwarebytes.com$document
+! inkbunny[.]net typosquatt
+inkbunny.xyz$document
+! duckDuckGo typosquatt - https://www.fortiguard.com/webfilter?q=dukduckgo.com&version=8
+dukduckgo.com
