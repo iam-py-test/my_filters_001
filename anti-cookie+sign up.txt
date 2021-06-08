@@ -60,7 +60,7 @@ g1.globo.com##.cookie-banner-lgpd-animated.cookie-banner-lgpd-visible
 g1.globo.com##+js(aopw, buildGeoTrackingLoadUp)
 globoesporte.globo.com##+js(aopw, buildGeoTrackingLoadUp)
 gshow.globo.com##+js(aopw, buildGeoTrackingLoadUp)
-g1.globo.com##+js(set,navigator.geolocation.getCurrentPosition,noopFunc)
+! g1.globo.com##+js(set,navigator.geolocation.getCurrentPosition,noopFunc)
 
 
 ! https://app.any.run
