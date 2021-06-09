@@ -24,6 +24,36 @@ fc.lc###cookie-pop
 ! https://shrinkme.io cookie banner
 shrinkme.io###cookie-pop
 
+! 2021-06-09 https://www.sozcu.com.tr
+sozcu.com.tr###onetrust-consent-sdk
+
+! 2021-06-09 https://uk.ixl.com
+uk.ixl.com##.cookie-privacy-banner-container
+
+! 2021-06-09 https://www.urlaubme.de
+urlaubme.de##.not-accepted.sp-dsgvo-popup-overlay.sp-dsgvo
+
+! 2021-06-09 https://www.comstern.de
+comstern.de###cookit
+
+! 2021-06-09 https://www.psd-nuernberg.de
+psd-nuernberg.de##.open.darken-layer
+psd-nuernberg.de###lightbox\ lightbox--cookie-consent
+
+! 2021-06-09 https://www.thinkstore24.de
+thinkstore24.de##.mnd-cookie-bar-template-two.mnd-cookie-bar-wrapper
+
+! 2021-06-09 https://www.deutsche-stammzellspenderdatei.de
+deutsche-stammzellspenderdatei.de##.ncoi---centerCenter.ncoi---animation-no.ncoi---on-no-script.ncoi---hidden.ncoi---no-transition.ncoi---behind
+deutsche-stammzellspenderdatei.de##.main-content > .block.first.mod_article
+deutsche-stammzellspenderdatei.de##.ncoi---centerCenter.ncoi---animation-no.ncoi---on-no-script.ncoi---no-transition.ncoi---behind
+
+! 2021-06-09 https://www.sparkasse-hagenherdecke.de
+!#if !false
+www.sparkasse-hagenherdecke.de##.initial.if6_eprivacy.if6_outer
+!#endif
+sparkasse-hagenherdecke.de##.initial.if6_eprivacy.if6_outer:remove()
+
 ! https://www.flightradar24.com cookie banner
 ! There must be a better way - this also blocks some useful content
 !www.flightradar24.com##.important-banner--is-open.important-banner--cookies.important-banner
@@ -64,10 +94,10 @@ gshow.globo.com##.cookie-banner-lgpd-animated.cookie-banner-lgpd-visible
 old.reddit.com##.premium-banner-outer
 
 ! https://www.joesecurity.org cookie consent
-www.joesecurity.org##.cc-color-override-1830989329.cc-bottom.cc-theme-classic.cc-type-info.cc-banner.cc-window
+joesecurity.org##.cc-color-override-1830989329.cc-bottom.cc-theme-classic.cc-type-info.cc-banner.cc-window
 
 ! https://www.doktorumonline.net cookie consent
-www.doktorumonline.net##.doktorumOnlineCoocies
+doktorumonline.net##.doktorumOnlineCoocies
 
 ! https://blog.aboutamazon.de cookie consent
 blog.aboutamazon.de##.PageHome-cookiePolicy
@@ -77,7 +107,6 @@ blog.aboutamazon.de#$#body { overflow: visible !important; padding-right: 0 !imp
 
 ! https://www.gittigidiyor.com cookie consent
 gittigidiyor.com##.iqtPYy.tyj39b-0
-
 
 ! https://www.akinsoft.com.tr cookie consent
 akinsoft.com.tr##.cookie-mesaj
@@ -134,17 +163,17 @@ app.any.run###cookies
 tinyurl.com##.m-0.text-center.alert-dismissible.alert-info.alert
 
 ! https://www.hootsuite.com
-www.hootsuite.com##._gdprDisclaimer.gdpr-disclaimer
+hootsuite.com##._gdprDisclaimer.gdpr-disclaimer
 
 
 ! https://www.prisjakt.no cookie banner
-www.prisjakt.no###root-cookiebanner
+prisjakt.no###root-cookiebanner
 
 ! https://www.chilimobil.no cookie banner
-www.chilimobil.no###CybotCookiebotDialog
+chilimobil.no###CybotCookiebotDialog
 
 ! https://www.tek.no scroll blocking cookie consent
-www.tek.no###sp_message_container_499989
+tek.no###sp_message_container_499989
 ||unpkg.com/@schibsted/data-controller/dist/data-controller-sdk.umd.js$script,domain=www.tek.no
 tek.no##+js(cookie-remover,consentUUID)
 
@@ -162,10 +191,10 @@ sphero.com##._form_show._form-wrapper
 scantitan.com###cookie-law-info-bar
 
 ! https://www.wikihow.com
-www.wikihow.com###article_courses_banner
+wikihow.com###article_courses_banner
 
 ! https://www.universeguide.com
-www.universeguide.com###cookieConsent\ noprint
+universeguide.com###cookieConsent\ noprint
 
 ! I don't want the antivirus they are promoting and it requires a subscription - if you wanted it you can get it from its website
 ! https://id-ransomware.malwarehunterteam.com
@@ -175,10 +204,10 @@ id-ransomware.malwarehunterteam.com##.ad
 community.broadcom.com###onetrust-consent-sdk
 
 ! https://www.ublock-origin.com
-www.ublock-origin.com###cookie-law-info-bar
+ublock-origin.com###cookie-law-info-bar
 
 ! https://www.robtex.com
-www.robtex.com###cookienotice
+robtex.com###cookienotice
 
 ! https://developer.chrome.com
 developer.chrome.com##.hairline-top.cookie-banner
