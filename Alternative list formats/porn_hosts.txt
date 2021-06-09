@@ -4,7 +4,7 @@
 # Expires: 1 day
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # Issues: https://github.com/iam-py-test/my_filters_001/issues
-# Last updated: 8/6/2021
+# Last updated: 9/6/2021
 # A note about dates: All my dates are in EU format, which means day/month/year
 # Porn websites
 127.0.0.1 shesfreaky.com
@@ -1467,3 +1467,13 @@
 127.0.0.1 sexysex.com
 # https://www.fortiguard.com/webfilter?q=girlteens.net&version=8
 127.0.0.1 girlteens.net
+# https://www.siteadvisor.com/sitereport.html?url=pussyporno.net
+127.0.0.1 pussyporno.net
+# https://www.siteadvisor.com/sitereport.html?url=slutxxx.com
+127.0.0.1 slutxxx.com
+# https://www.siteadvisor.com/sitereport.html?url=porno.sex
+127.0.0.1 porno.sex
+# https://www.siteadvisor.com/sitereport.html?url=teensfuck.xxx
+127.0.0.1 teensfuck.xxx
+# https://www.siteadvisor.com/sitereport.html?url=cock.com
+127.0.0.1 cock.com
