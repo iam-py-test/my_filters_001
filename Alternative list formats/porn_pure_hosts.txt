@@ -70,6 +70,8 @@
 127.0.0.1 sex-tracker.com
 127.0.0.1 sextracker.de
 127.0.0.1 stiffia.com
+127.0.0.1 xxxdee.com
+127.0.0.1 www.xxxdee.com
 127.0.0.1 mrdeepfakes.com
 127.0.0.1 rule34.us
 127.0.0.1 rule34.xyz
