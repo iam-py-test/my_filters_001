@@ -45,55 +45,76 @@ quttera.com##.fixed-cookie-container
 ! https://tor.stackexchange.com
 tor.stackexchange.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
 
-! https://stackoverflow.com
+! https://stackoverflow.com cookie consent
 stackoverflow.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
 
-! https://safetoopen.com
+! https://safetoopen.com cookie consent
 safetoopen.com###cookiesdirective
 
-! https://www.snigel.com
+! https://www.snigel.com cookie consent
 www.snigel.com##.shown.gdpr-banner
 
-! 2021-06-08 https://www.random.org
+! https://www.random.org cookie consent
 random.org###cookie-banner
 
-! 2021-06-08 https://gshow.globo.com
+! https://gshow.globo.com cookie consent
 gshow.globo.com##.cookie-banner-lgpd-animated.cookie-banner-lgpd-visible
 
-! 2021-06-08 https://old.reddit.com
+! https://old.reddit.com upgrade box
 old.reddit.com##.premium-banner-outer
 
-! 2021-06-09 https://www.joesecurity.org
+! https://www.joesecurity.org cookie consent
 www.joesecurity.org##.cc-color-override-1830989329.cc-bottom.cc-theme-classic.cc-type-info.cc-banner.cc-window
 
-! 2021-06-09 https://www.doktorumonline.net
+! https://www.doktorumonline.net cookie consent
 www.doktorumonline.net##.doktorumOnlineCoocies
 
-! 2021-06-09 https://blog.aboutamazon.de
+! https://blog.aboutamazon.de cookie consent
 blog.aboutamazon.de##.PageHome-cookiePolicy
 blog.aboutamazon.de##.interstitial.vex
 blog.aboutamazon.de##.vex-overlay
 blog.aboutamazon.de#$#body { overflow: visible !important; padding-right: 0 !important; }
 
-! 2021-06-09 https://www.gittigidiyor.com
+! https://www.gittigidiyor.com cookie consent
 gittigidiyor.com##.iqtPYy.tyj39b-0
 
-! 2021-06-09 https://www.yubico.com
+
+! https://www.akinsoft.com.tr cookie consent
+akinsoft.com.tr##.cookie-mesaj
+
+! https://market.fenerium.com cookie consent
+market.fenerium.com##.privacy-cookies
+
+! https://www.iphonefaq.org cookie consent
+iphonefaq.org##.sliding-popup-bottom
+
+! https://www.truecaller.com cookie consent
+truecaller.com##.slide-in-from-below-enter-to.slide-in-from-below-enter-active.mb-4.bg-panelColor.rounded-sm.p-4.max-w-md.shadow-lg
+truecaller.com##.mb-4.bg-panelColor.rounded-sm.p-4.max-w-md.shadow-lg
+
+! https://www.heise.de cookie consent
+heise.de###sp_message_iframe_491125
+heise.de#$#body { overflow: visible !important; padding-right: 0 !important; }
+||cdn-1603.privacy-mgmt.com^$xhr,domain=heise.de
+||cmp.heise.de/wrapper/tcfv2/v1/gdpr/native-message?requestUUID=*&hasCsp=true&env=prod&consentLanguage=*&body=$xhr,domain=heise.de
+
+
+! https://www.yubico.com
 yubico.com##.bottom-pop-up-container.jsx-2980909516
 
-! 2021-06-09 https://reisen.travelz.com
+! https://reisen.travelz.com cookie consent
 reisen.travelz.com##.Cookie--ibe.Cookie--bottom.Cookie
 
-! 2021-06-09 https://www.inmotionhosting.com
+! https://www.inmotionhosting.com
 inmotionhosting.com##.show.fade.modalCookie.toast
 
-! 2021-06-09 https://www.gidasanayim.com
+! https://www.gidasanayim.com
 gidasanayim.com##.g-pa-20.g-overflow-y-auto.g-bg-white.g-max-width-600.text-left
 
-! 2021-06-09 https://karatasmarket.com
+! https://karatasmarket.com
 karatasmarket.com###cerez-politikasi
 
-! 2021-06-09 https://www.hsemarket.com
+! https://www.hsemarket.com
 hsemarket.com###cerekKullanimUyari
 
 
