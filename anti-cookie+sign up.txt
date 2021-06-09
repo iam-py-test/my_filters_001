@@ -3,7 +3,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! GitHub Issues: https://github.com/iam-py-test/my_filters_001/issues
-! Last updated: 8/6/2021
+! Last updated: 9/6/2021
 
 ! https://www.fortiguard.com Cookie consent 
 www.fortiguard.com###__agreementBar
@@ -53,6 +53,49 @@ safetoopen.com###cookiesdirective
 
 ! https://www.snigel.com
 www.snigel.com##.shown.gdpr-banner
+
+! 2021-06-08 https://www.random.org
+random.org###cookie-banner
+
+! 2021-06-08 https://gshow.globo.com
+gshow.globo.com##.cookie-banner-lgpd-animated.cookie-banner-lgpd-visible
+
+! 2021-06-08 https://old.reddit.com
+old.reddit.com##.premium-banner-outer
+
+! 2021-06-09 https://www.joesecurity.org
+www.joesecurity.org##.cc-color-override-1830989329.cc-bottom.cc-theme-classic.cc-type-info.cc-banner.cc-window
+
+! 2021-06-09 https://www.doktorumonline.net
+www.doktorumonline.net##.doktorumOnlineCoocies
+
+! 2021-06-09 https://blog.aboutamazon.de
+blog.aboutamazon.de##.PageHome-cookiePolicy
+blog.aboutamazon.de##.interstitial.vex
+blog.aboutamazon.de##.vex-overlay
+blog.aboutamazon.de#$#body { overflow: visible !important; padding-right: 0 !important; }
+
+! 2021-06-09 https://www.gittigidiyor.com
+gittigidiyor.com##.iqtPYy.tyj39b-0
+
+! 2021-06-09 https://www.yubico.com
+yubico.com##.bottom-pop-up-container.jsx-2980909516
+
+! 2021-06-09 https://reisen.travelz.com
+reisen.travelz.com##.Cookie--ibe.Cookie--bottom.Cookie
+
+! 2021-06-09 https://www.inmotionhosting.com
+inmotionhosting.com##.show.fade.modalCookie.toast
+
+! 2021-06-09 https://www.gidasanayim.com
+gidasanayim.com##.g-pa-20.g-overflow-y-auto.g-bg-white.g-max-width-600.text-left
+
+! 2021-06-09 https://karatasmarket.com
+karatasmarket.com###cerez-politikasi
+
+! 2021-06-09 https://www.hsemarket.com
+hsemarket.com###cerekKullanimUyari
+
 
 ! https://g1.globo.com - https://github.com/uBlockOrigin/uAssets/issues/9404
 g1.globo.com##.cookie-banner-lgpd-container
