@@ -47,3 +47,6 @@ dukduckgo.com$document
 google-1aa.com$all
 ! https://safeweb.norton.com/report/show?url=googlesite.ws
 googlesite.ws$document
+! https://github.com/AdguardTeam/AdguardFilters/issues/85224
+www.youtubewon.com$document
+youtubewon.com$document
