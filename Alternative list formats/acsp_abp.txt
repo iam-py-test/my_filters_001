@@ -107,9 +107,9 @@ hsemarket.com###cerekKullanimUyari
 ! https://g1.globo.com - https://github.com/uBlockOrigin/uAssets/issues/9404
 g1.globo.com##.cookie-banner-lgpd-container
 g1.globo.com##.cookie-banner-lgpd-animated.cookie-banner-lgpd-visible
-g1.globo.com##+js(aopw, buildGeoTrackingLoadUp)
-globoesporte.globo.com##+js(aopw, buildGeoTrackingLoadUp)
-gshow.globo.com##+js(aopw, buildGeoTrackingLoadUp)
+! Unsupported
+! Unsupported
+! Unsupported
 ! g1.globo.com##+js(set,navigator.geolocation.getCurrentPosition,noopFunc)
 ! https://app.any.run
 app.any.run###cookies
@@ -124,7 +124,7 @@ chilimobil.no###CybotCookiebotDialog
 ! https://www.tek.no scroll blocking cookie consent
 tek.no###sp_message_container_499989
 ||unpkg.com/@schibsted/data-controller/dist/data-controller-sdk.umd.js
-tek.no##+js(cookie-remover,consentUUID)
+! Unsupported
 ! https://npm.runkit.com
 npm.runkit.com###register-banner
 ! https://aslimnica.lv
@@ -202,26 +202,26 @@ twitter.com##.r-1upvrn0.r-urgr8i.css-1dbjc4n
 ! www.publico.pt paywall - I could find no solution (these filters are just attempts)
 www.publico.pt##.datawall-warning.site-message--datawall.site-message--notice.site-message
 www.publico.pt##.shown.site-message--paywall.site-message--notice.site-message
-www.publico.pt##+js(cookie-remover,_hd_)
-www.publico.pt##+js(cookie-remover,_ex_C_last)
-www.publico.pt##+js(cookie-remover,last-show)
+! Unsupported
+! Unsupported
+! Unsupported
 !||mkt.publico.pt/get/US-1621527817-707-60a68d09acfb1$xhr,domain=www.publico.pt
 !||www.publico.pt/js/workers/clusters.min.js?v202001211700$script,domain=www.publico.pt
 !||www.publico.pt/api/list/caixa/413718/news/0?size=3$xhr,domain=www.publico.pt
 ||s.publico.pt/ip.php
 !||www.publico.pt/api/cluster/zombie/premium$xhr,domain=www.publico.pt
-www.publico.pt##+js(set,pageHasPaywall,false)
+! Unsupported
 !||www.publico.pt/api/traffic/split/custom/_ex_C/3$xhr,domain=www.publico.pt
 ! https://www.washingtonpost.com paywall
 www.washingtonpost.com##.bg-white.justify-center.flex.overflow-hidden.border-box.w-100.left-0.bottom-0.fixed
 www.washingtonpost.com##.bg-black.w-100.h-100.o-50.fixed.right-0.bottom-0
-www.washingtonpost.com##+js(aeld,scroll)
+! Unsupported
 ||www.washingtonpost.com/subscribe/paywall/*
 ! www.dallasnews.com cookie consent
-www.dallasnews.com##+js(cookie-remover,usprivacy)
+! Unsupported
 www.dallasnews.com##.osano-cm-dialog--type_bar.osano-cm-dialog--position_bottom.osano-cm-dialog.osano-cm-window__dialog
 ! www.themarshallproject.org paywall
-www.themarshallproject.org##+js(cookie-remover,_utpv)
+! Unsupported
 www.themarshallproject.org##.toast-active.toast-email-signup-v2.toast-email-signup.toast-notification
 ! https://www.ublock-origin.com cookie banner
 www.ublock-origin.com###cookie-law-info-bar
@@ -244,14 +244,14 @@ www.nationalgeographic.com##.EmailStickyFooter__Container
 www.nationalgeographic.com##.ModalInner
 www.nationalgeographic.com###fittPortal_0 > .no-touch.bp-desktopLGPlus.bp-desktopPlus.bp-tabletPlus.bp-mobileLGPlus.bp-mobileMDPlus
 !Allow scrolling
-nationalgeographic.com##+js(aeld, scroll)
+! Unsupported
 ! Fix opera.com annoyances - https://www.opera.com
 www.opera.com##.cookie-consent
-www.opera.com##+js(cookie-remover,operf)
+! Unsupported
 addons.opera.com###overlay
 ! Add fix from uBlock Origin annoyances 
 ! https://github.com/uBlockOrigin/uAssets/issues/5030
-addons.opera.com##+js(nostif, showOverlay)
+! Unsupported
 ! Fix badbitcoin.org
 ! https://badbitcoin.org
 badbitcoin.org##[href^="https://partners_click.bitcasino.io/"]
@@ -269,13 +269,13 @@ www.howtogeek.com###v2campaignpopup_backdrop
 ! https://www.reddit.com/r/uBlockOrigin/wiki/solutions#wiki_consent_dialog_popup
 ! Google consent, "before you continue"
 www.google.*##^script:has-text(consentCookiePayload)
-www.google.*##+js(acis, document.cookie, YES+)
-google.*##+js(aeld, DOMContentLoaded, CONSENT)
+! Unsupported
+! Unsupported
 ||consent.google.com^
 ! anti-adblock https://www.drawasaurus.org
 ! https://github.com/uBlockOrigin/uAssets/issues/9183
 www.drawasaurus.org##.c-footer__blocked
-drawasaurus.org##+js(nostif, forceRefresh)
+! Unsupported
 ! ads on http://multirbl.valli.org
 multirbl.valli.org###lo-ads
 ! cookie banner https://www.heroku.com
@@ -290,55 +290,55 @@ malwarefixes.com##.cookie-notice-visible.cn-effect-none.cn-position-bottom.cooki
 !Hide the banner and delete the consent cookie
 mediafire.com##.CookieAcceptance
 mediafire.com###cookie-accept-footer
-mediafire.com##+js(cookie-remover,accept-cookies)
+! Unsupported
 ! Hide the banner and delete the cookie
 www.codespeedy.com###catapult-cookie-bar
-www.codespeedy.com##+js(cookie-remover,catAccCookies)
+! Unsupported
 www.codespeedy.com###catapultCookie
 ! Get rid of the remaining ads - https://www.codespeedy.com
 www.codespeedy.com##div.height_250_ad
 ! Commonsensemedia paywall
-www.commonsensemedia.org##+js(cookie-remover,STYXKEY-content-gating-SR1)
-www.commonsensemedia.org##+js(cookie-remover,__cfduid)
-www.commonsensemedia.org##+js(aeld, scroll)
+! Unsupported
+! Unsupported
+! Unsupported
 www.commonsensemedia.org###csm-premium-gate
 ! Hide the banner and delete the cookie
-www.urlvoid.com##+js(cookie-remover,cookiebanner-accepted)
+! Unsupported
 www.urlvoid.com##.cookiebanner
 ! Time.com paywall
 ! Delete all the cookies
-time.com##+js(cookie-remover,time_meter)
-time.com##+js(cookie-remover,OptanonConsent)
-time.com##+js(cookie-remover,usprivacy)
+! Unsupported
+! Unsupported
+! Unsupported
 ! https://time.com - hide the message
 time.com##.roadblock.hide-on-mobile.can-animate.meter-wall.component
 ! www.nytimes.com paywall
-www.nytimes.com##+js(cookie-remover,datadome)
-www.nytimes.com##+js(cookie-remover,nyt-a)
-www.nytimes.com##+js(cookie-remover,nyt-auth-action)
-www.nytimes.com##+js(cookie-remover,nyt-gdpr)
-www.nytimes.com##+js(cookie-remover,nyt-geo)
-www.nytimes.com##+js(cookie-remover,nyt-purr)
-www.nytimes.com##+js(cookie-remover,nyt-us)
+! Unsupported
+! Unsupported
+! Unsupported
+! Unsupported
+! Unsupported
+! Unsupported
+! Unsupported
 www.nytimes.com##.e1x0szx60.css-17nqy7q.expanded-dock.expanded.shown.MAG_web_regi_us_sale_apple-pay-dock-ecd-test
 www.nytimes.com##div.egw6tc41.css-et84d3:nth-of-type(2)
 www.nytimes.com##.e1x0szx60.css-17nqy7q.expanded-dock.shown.MAG_web_regi_us_sale_apple-pay-dock-ecd-test
 www.nytimes.com##.nytcp-opt.css-1kj7lfb > .ez4a0qj0.css-zbkuyb
 ! www.britannica.com tracking. 
-www.britannica.com##+js(cookie-remover,webstats)
-www.britannica.com##+js(cookie-remover,usprivacy)
-www.britannica.com##+js(cookie-remover,__mendel)
+! Unsupported
+! Unsupported
+! Unsupported
 ! More paywall - https://www.independent.co.uk
 www.independent.co.uk##.bjWcZt.sc-ptRml
 www.independent.co.uk##.jEfqsK.sc-pZnSc
 www.independent.co.uk##.eAffPM.sc-qPwPv
-www.independent.co.uk##+js(cookie-remover,fresh8_toggle)
+! Unsupported
 !Annoying, scroll locking, cookie consent popup - https://www.fsma.be
 www.fsma.be###CybotCookiebotDialog
 www.fsma.be###CybotCookiebotDialogBodyUnderlay
-www.fsma.be##+js(cookie-remover,CookieConsent)
-www.fsma.be##+js(cookie-remover,has_js)
-www.fsma.be##+js(aeld,scroll)
+! Unsupported
+! Unsupported
+! Unsupported
 ||consent.cookiebot.com/20b54b69-4b4d-48f1-9364-75c0686444e6/cc.js
 ||consentcdn.cookiebot.com/consentconfig/20b54b69-4b4d-48f1-9364-75c0686444e6/fsma.be/configuration.js
 ! Reddit "get premium"
