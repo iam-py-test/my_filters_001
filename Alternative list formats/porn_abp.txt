@@ -1267,9 +1267,9 @@
 ||www.finalgallery.com^
 ||finalgallery.com^
 ! I would like someone to confirm if this breaks sites
-||['/gallery/pregnantmary/', 'all']^
-||['/pics/pregnant.shtml', 'all']^
-||['/en/444/pregnant/', 'all']^
+||/gallery/pregnantmary/
+||/pics/pregnant.shtml
+||/en/444/pregnant/
 ! https://www.siteadvisor.com/sitereport.html?url=teenfucker.com
 ||teenfucker.com^
 ! https://www.siteadvisor.com/sitereport.html?url=teenpregnant.com
