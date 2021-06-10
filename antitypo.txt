@@ -50,3 +50,9 @@ googlesite.ws$document
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85224
 www.youtubewon.com$document
 youtubewon.com$document
+! https://www.reddit.com/r/mildlyinfuriating/comments/nc9zpe/got_a_paypal_or_should_i_say_paypl_phishing_email/
+! https://www.virustotal.com/gui/url/e604fa0374dbbceefaf7190bd7aa649561dfc19ff49af443d8931df40e1e1f43/detection
+paypl.com$all
+paypal.xyz$document
+! https://www.virustotal.com/gui/url/4531df5b01e2c58f9307fabecc9a17b03c6157bafc8e9af736b278e95c182dc5/detection
+payapl.com$all
