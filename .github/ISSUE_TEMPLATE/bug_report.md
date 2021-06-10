@@ -25,6 +25,7 @@ assignees: ''
 
 - [ ] Is this a feature request?
 - [ ] Is this site breakage?
+- [ ] Did you test in Firefox <!--a lot of issues are caused by Chromium browsers  and are irrelevent to my filters & your adblocker -->
 #### If it is site breakage, how is the site broken:
 
 #### Did you try updating your lists? This could fix the problem.
