@@ -75,7 +75,7 @@ doktorumonline.net##.doktorumOnlineCoocies
 blog.aboutamazon.de##.PageHome-cookiePolicy
 blog.aboutamazon.de##.interstitial.vex
 blog.aboutamazon.de##.vex-overlay
-||blog.aboutamazon.de#^
+! Unsupported
 ! https://www.gittigidiyor.com cookie consent
 gittigidiyor.com##.iqtPYy.tyj39b-0
 ! https://www.akinsoft.com.tr cookie consent
@@ -89,7 +89,7 @@ truecaller.com##.slide-in-from-below-enter-to.slide-in-from-below-enter-active.m
 truecaller.com##.mb-4.bg-panelColor.rounded-sm.p-4.max-w-md.shadow-lg
 ! https://www.heise.de cookie consent
 heise.de###sp_message_iframe_491125
-||heise.de#^
+! Unsupported
 ||cdn-1603.privacy-mgmt.com^
 ||cmp.heise.de/wrapper/tcfv2/v1/gdpr/native-message?requestUUID=*&hasCsp=true&env=prod&consentLanguage=*&body=
 ! https://www.yubico.com
