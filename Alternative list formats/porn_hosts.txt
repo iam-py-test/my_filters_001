@@ -4,7 +4,7 @@
 # Expires: 1 day
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # Issues: https://github.com/iam-py-test/my_filters_001/issues
-# Last updated: 9/6/2021
+# Last updated: 10/6/2021
 # A note about dates: All my dates are in EU format, which means day/month/year
 # Porn websites
 127.0.0.1 shesfreaky.com
@@ -138,6 +138,33 @@
 # https://www.siteadvisor.com/sitereport.html?url=stiffia.com
 127.0.0.1 stiffia.com
 # Found in random reports online
+# https://github.com/AdguardTeam/AdguardFilters/issues/85098
+# https://www.siteadvisor.com/sitereport.html?url=streamporn.pw
+127.0.0.1 streamporn.pw
+# https://github.com/AdguardTeam/AdguardFilters/issues/85139
+# https://www.virustotal.com/gui/url/34ae64b5269d59e92d33130da378779acb9ddf43abea73accd31f2c82729658b/detection
+127.0.0.1 webatam.com
+# https://github.com/AdguardTeam/AdguardFilters/issues/85163
+# https://www.siteadvisor.com/sitereport.html?url=comicsxxxgratis.com
+127.0.0.1 comicsxxxgratis.com
+# https://github.com/AdguardTeam/AdguardFilters/issues/85031
+# https://www.fortiguard.com/webfilter?q=watchpornfree.info&version=8
+127.0.0.1 watchpornfree.info
+# https://github.com/AdguardTeam/AdguardFilters/issues/85224
+# https://www.fortiguard.com/webfilter?q=www.youtubewon.com&version=8
+127.0.0.1 www.youtubewon.com
+127.0.0.1 youtubewon.com
+# https://github.com/AdguardTeam/AdguardFilters/issues/85287
+# https://www.siteadvisor.com/sitereport.html?url=hotscope.tv
+127.0.0.1 hotscope.tv
+# https://github.com/AdguardTeam/AdguardFilters/issues/85335
+# https://www.siteadvisor.com/sitereport.html?url=kr20.sogirl.co
+127.0.0.1 kr20.sogirl.co
+# https://www.siteadvisor.com/sitereport.html?url=sogirl.co
+127.0.0.1 sogirl.co
+# https://github.com/AdguardTeam/AdguardFilters/issues/85424
+# https://www.siteadvisor.com/sitereport.html?url=22pixx.xyz
+127.0.0.1 22pixx.xyz
 # https://blog.sucuri.net/2010/06/mass-infection-of-iisasp-sites-2677-inyahoo-js.html
 # https://www.virustotal.com/gui/ip-address/199.59.242.150/relations
 # https://www.siteadvisor.com/sitereport.html?url=xxxdee.com
