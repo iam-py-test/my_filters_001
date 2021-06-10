@@ -1,11 +1,12 @@
 ---
 name: Issue report
 about: Report an issue in my filters
-title: '[bug]'
-labels: 'bug'
+title: "[bug]"
+labels: bug
 assignees: ''
 
 ---
+
 ### What extention/adblocker/firewall do you have?
 - [ ] AdBlock Plus
 - [ ] AdGuard (browser)

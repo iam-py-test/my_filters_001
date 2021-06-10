@@ -1,9 +1,10 @@
 ---
 name: Unblocked domain report
 about: Report an ublocked domain
-title: '[domain report]'
-labels: 'Add domain'
-assignees: 'iam-py-test'
+title: "[domain report]"
+labels: Add domain
+assignees: iam-py-test
+
 ---
 
 #### What is the unblocked domain?

@@ -1,8 +1,8 @@
 ---
 name: Support request
 about: Ask for help from the community
-title: '[support request]'
-labels: 'support'
+title: "[support request]"
+labels: support
 assignees: ''
 
 ---
