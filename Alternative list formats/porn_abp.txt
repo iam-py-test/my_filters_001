@@ -4,7 +4,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues: https://github.com/iam-py-test/my_filters_001/issues
-! Last updated: 10/6/2021
+! Last updated: 11/6/2021
 ! A note about dates: All my dates are in EU format, which means day/month/year
 ! Porn websites
 ||shesfreaky.com^
@@ -81,6 +81,10 @@
 ||hotcum.com^
 ! https://www.fortiguard.com/webfilter?q=cumteen.com&version=8
 ||cumteen.com^
+! https://www.siteadvisor.com/sitereport.html?url=pregoteens.com
+||pregoteens.com^
+! https://www.siteadvisor.com/sitereport.html?url=pregslut.com
+||pregslut.com^
 !A random domain I made up
 ! https://www.siteadvisor.com/sitereport.html?url=sexy-girls.com
 ! https://www.siteadvisor.com/sitereport.html?url=pornxxx.net
@@ -138,6 +142,50 @@
 ! https://www.siteadvisor.com/sitereport.html?url=stiffia.com
 ||stiffia.com^
 ! Found in random reports online
+! https://github.com/blocklistproject/Lists/issues/327
+! https://www.siteadvisor.com/sitereport.html?url=jayspov.net
+||jayspov.net^
+! https://www.siteadvisor.com/sitereport.html?url=www.redwap.me
+||www.redwap.me^
+||redwap.me^
+||filthykings.com^
+||adultempire.com^
+||imgs1cdn.adultempire.com^
+! https://www.siteadvisor.com/sitereport.html?url=www.pornfuck.net
+||www.pornfuck.net^
+||pornfuck.net^
+! https://www.siteadvisor.com/sitereport.html?url=cum-shows.net
+||cum-shows.net^
+! https://www.siteadvisor.com/sitereport.html?url=www.tube100.me
+||www.tube100.me^
+||tube100.me^
+! https://www.fortiguard.com/webfilter?q=sex-hd.org&version=8
+||sex-hd.org^
+! https://www.fortiguard.com/webfilter?q=hdxxxtube.online&version=8
+||hdxxxtube.online^
+! https://www.fortiguard.com/webfilter?q=mypervyfamily.com&version=8
+||mypervyfamily.com^
+! https://www.siteadvisor.com/sitereport.html?url=www.cosmid.net
+! https://www.fortiguard.com/webfilter?q=cosmid.net&version=8
+||www.cosmid.net^
+||cosmid.net^
+! https://www.siteadvisor.com/sitereport.html?url=alettaoceanlive.com
+||alettaoceanlive.com^
+! https://www.siteadvisor.com/sitereport.html?url=www.clubsweethearts.com
+||www.clubsweethearts.com^
+||clubsweethearts.com^
+! https://www.siteadvisor.com/sitereport.html?url=www.mylf.com
+! https://www.fortiguard.com/webfilter?q=mylf.com&version=8
+||www.mylf.com^
+||mylf.com^
+! https://www.siteadvisor.com/sitereport.html?url=sexmex.xxx
+||sexmex.xxx^
+! https://www.siteadvisor.com/sitereport.html?url=www.tushyraw.com
+||www.tushyraw.com^
+||tushyraw.com^
+! https://www.siteadvisor.com/sitereport.html?url=www.analvids.com
+||www.analvids.com^
+||analvids.com^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85098
 ! https://www.siteadvisor.com/sitereport.html?url=streamporn.pw
 ||streamporn.pw^
