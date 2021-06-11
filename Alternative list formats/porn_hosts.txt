@@ -4,7 +4,7 @@
 # Expires: 1 day
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # Issues: https://github.com/iam-py-test/my_filters_001/issues
-# Last updated: 10/6/2021
+# Last updated: 11/6/2021
 # A note about dates: All my dates are in EU format, which means day/month/year
 # Porn websites
 127.0.0.1 shesfreaky.com
@@ -85,7 +85,19 @@
 127.0.0.1 pregoteens.com
 # https://www.siteadvisor.com/sitereport.html?url=pregslut.com
 127.0.0.1 pregslut.com
-#A random domain I made up
+# https://www.siteadvisor.com/sitereport.html?url=babes.com
+127.0.0.1 babes.com
+# https://www.siteadvisor.com/sitereport.html?url=babesfucked.com
+127.0.0.1 babesfucked.com
+# https://www.siteadvisor.com/sitereport.html?url=teenbabes.com
+127.0.0.1 teenbabes.com
+# https://www.siteadvisor.com/sitereport.html?url=teenbabe.com
+127.0.0.1 teenbabe.com
+# https://www.siteadvisor.com/sitereport.html?url=pregobabes.com
+127.0.0.1 pregobabes.com
+# https://www.siteadvisor.com/sitereport.html?url=nudefucker.com
+127.0.0.1 nudefucker.com
+# 
 # https://www.siteadvisor.com/sitereport.html?url=sexy-girls.com
 # https://www.siteadvisor.com/sitereport.html?url=pornxxx.net
 127.0.0.1 pornxxx.net
@@ -97,12 +109,6 @@
 # https://www.siteadvisor.com/sitereport.html?url=fuq.com
 127.0.0.1 www.fuq.com
 127.0.0.1 fuq.com
-# A malware/porn domain - blocking here because it does have porn and should be blocked more globally.
-# https://www.mywot.com/en/scorecard/101sexsecret.com
-# https://www.siteadvisor.com/sitereport.html?url=101sexsecret.com
-# https://www.fortiguard.com/webfilter?q=101sexsecret.com
-127.0.0.1 101sexsecret.com
-# Yet another domain I made up
 # https://www.siteadvisor.com/sitereport.html?url=porn.xyz
 # https://www.fortiguard.com/webfilter?q=porn.xyz
 127.0.0.1 porn.xyz
@@ -141,6 +147,11 @@
 127.0.0.1 sextracker.de
 # https://www.siteadvisor.com/sitereport.html?url=stiffia.com
 127.0.0.1 stiffia.com
+# A malware/porn domain - blocking here because it does have porn and should be blocked more globally.
+# https://www.mywot.com/en/scorecard/101sexsecret.com
+# https://www.siteadvisor.com/sitereport.html?url=101sexsecret.com
+# https://www.fortiguard.com/webfilter?q=101sexsecret.com
+127.0.0.1 101sexsecret.com
 # Found in random reports online
 # https://github.com/blocklistproject/Lists/issues/327
 # https://www.siteadvisor.com/sitereport.html?url=jayspov.net
@@ -186,6 +197,17 @@
 # https://www.siteadvisor.com/sitereport.html?url=www.analvids.com
 127.0.0.1 www.analvids.com
 127.0.0.1 analvids.com
+# https://www.virustotal.com/gui/url/4b13580dcda1dcdc76a4d6e44d492a05faf14f09b20afba33ee2d8b6e2fa52da/links
+# https://www.siteadvisor.com/sitereport.html?url=sexmexporn.com
+127.0.0.1 sexmexporn.com
+# https://www.siteadvisor.com/sitereport.html?url=https://join.sexmexamateurs.com
+127.0.0.1 join.sexmexamateurs.com
+127.0.0.1 sexmexamateurs.com
+# https://www.siteadvisor.com/sitereport.html?url=http://join.sexmexlive.com
+127.0.0.1 join.sexmexlive.com
+127.0.0.1 sexmexlive.com
+# https://www.virustotal.com/gui/url/1ebc122d59db1606c5d93d980617029ac092aab86915e12517089223c21f5ea2/links
+127.0.0.1 my-sweet-sexfinder.com
 # https://github.com/AdguardTeam/AdguardFilters/issues/85098
 # https://www.siteadvisor.com/sitereport.html?url=streamporn.pw
 127.0.0.1 streamporn.pw
