@@ -27,6 +27,12 @@ shrinkme.io###cookie-pop
 ! 2021-06-09 https://www.sozcu.com.tr
 sozcu.com.tr###onetrust-consent-sdk
 
+! https://www.google.org cookie consent
+www.google.org###cookieBar
+
+! https://blog.google cookie consent
+blog.google##.cookie-show
+
 ! 2021-06-09 https://uk.ixl.com
 uk.ixl.com##.cookie-privacy-banner-container
 
