@@ -159,6 +159,21 @@ stiffia.com$all
 
 
 ! Found in random reports online
+! https://github.com/AdguardTeam/AdguardFilters/issues/85485
+! https://www.fortiguard.com/webfilter?q=www.simply-hentai.com&version=8
+! https://www.siteadvisor.com/sitereport.html?url=www.simply-hentai.com
+www.simply-hentai.com$all
+simply-hentai.com$all
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/85564
+! https://www.siteadvisor.com/sitereport.html?url=nudeselfiespics.com
+nudeselfiespics.com$all
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/85568
+! https://www.siteadvisor.com/sitereport.html?url=www.sexpuss.org
+www.sexpuss.org$all
+sexpuss.org$all
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85760
 ! https://www.fortiguard.com/webfilter?q=www.pussyspace.net+&version=8
 www.pussyspace.net$all
