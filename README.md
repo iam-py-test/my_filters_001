@@ -1,5 +1,6 @@
 # Warning! 
-my_filters_001 is in maintenance mode due to an conflict. Until  it is resolved, you may experence issues with my lists. Thank you for your understanding. I am working on getting this up and running as soon as possible.<br><br><br>
+my_filters_001 is in maintenance mode due to an conflict. Until  it is resolved, you may experence issues with my lists and with this repo. <br>
+Thank you for your understanding. I am working on getting this up and running as soon as possible. For more information, see [#67](https://github.com/iam-py-test/my_filters_001/issues/67).<br><br><br>
 
 
 # My filters
