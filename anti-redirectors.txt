@@ -68,3 +68,7 @@ linkbucks.com$document
 ||adguardteam.github.io/AnonymousRedirect/redirect.html$document
 ! https://github.com/iam-py-test/my_filters_001/commit/a715b1c437506b43e73c64a328acc715ab1d0f30
 git.io$document
+! https://twitter.com/infowebica/status/1402895823244083200
+! https://www.virustotal.com/gui/domain/buff.ly/community
+! https://www.mywot.com/scorecard/buff.ly
+buff.ly$document
