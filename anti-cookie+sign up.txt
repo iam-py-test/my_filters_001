@@ -13,6 +13,15 @@ bitly.com###banner-cookie:remove()
 bitly.com###banner-spacer:remove()
 bitly.com##.sitebanner--container
 
+! https://www.ksta.de cookie consent
+!||consent2.ksta.de/wrapperMessagingWithoutDetection.js$script,domain=www.ksta.de
+mobil.ksta.de##+js(cookie-remover,consentRedirectUrl)
+mobil.ksta.de##+js(aopr,dmn.centralData.consentCookieName)
+ksta.de##+js(aopr,doConsentRedirect)
+! Sign up
+mobil.ksta.de##.dimissed.sticky-footer.screen.ssoTemplate.revealed
+
+
 ! https://sitecheck.sucuri.net cookie banner
 sitecheck.sucuri.net##.p-0.hide.cookie-policy-banner.container-fluid
 
