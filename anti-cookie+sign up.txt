@@ -3,10 +3,15 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! GitHub Issues: https://github.com/iam-py-test/my_filters_001/issues
-! Last updated: 9/6/2021
+! Last updated: 13/6/2021
 
 ! https://www.fortiguard.com Cookie consent 
-www.fortiguard.com###__agreementBar
+fortiguard.com###__agreementBar
+
+! https://bitly.com cookie consent
+bitly.com###banner-cookie:remove()
+bitly.com###banner-spacer:remove()
+bitly.com##.sitebanner--container
 
 ! https://sitecheck.sucuri.net cookie banner
 sitecheck.sucuri.net##.p-0.hide.cookie-policy-banner.container-fluid
