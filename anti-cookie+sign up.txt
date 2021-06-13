@@ -63,6 +63,30 @@ sparkasse-hagenherdecke.de##.initial.if6_eprivacy.if6_outer:remove()
 www.dtv.de##.cc-color-override-datareporter.cc-middle.cc-theme-block.cc-type-opt-out.cc-banner.cc-window
 www.dtv.de###dr_blocking_div
 
+! https://www.tranzystor.pl cookie banner
+www.tranzystor.pl###tranzystorcookies
+
+! https://www.visitberlin.de cookie banner
+www.visitberlin.de###klaro
+
+! https://insani24.de cookie banner
+insani24.de###ws_eu-cookie-container
+
+! https://www.kliemannsland.de cookie banner
+www.kliemannsland.de##.overlay_bc_banner
+kliemannsland.de#$#body { overflow: visible !important; padding-right: 0 !important; }
+www.kliemannsland.de###banner-wrapper
+kliemannsland.de##+js(cookie-remover,_tracking_consent)
+
+! https://www.giga.de cookie-consent
+giga.de###sp_message_container_469314
+giga.de#$#body { overflow: visible !important; padding-right: 0 !important; }
+giga.de##+js(cookie-remover,acsam_cookie_check)
+giga.de##+js(cookie-remover,consentUUID)
+giga.de##+js(cookie-remover,_sp_v1_consent)
+||cdn.privacy-mgmt.com/consent/tcfv2/vendor-list/categories?siteId=1955&consentLanguage=de$xhr,domain=consent.giga.de
+||consent.giga.de/Notice.93e4c.css$stylesheet,domain=consent.giga.de
+
 ! https://askubuntu.com plus https://stackoverflow.com
 askubuntu.com,stackoverflow.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
 ! 2021-04-14 https://security.stackexchange.com
