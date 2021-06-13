@@ -159,6 +159,11 @@ stiffia.com$all
 
 
 ! Found in random reports online
+! https://github.com/AdguardTeam/AdguardFilters/issues/85760
+! https://www.fortiguard.com/webfilter?q=www.pussyspace.net+&version=8
+www.pussyspace.net$all
+pussyspace.net$all
+
 ! https://github.com/blocklistproject/Lists/issues/327
 ! https://www.siteadvisor.com/sitereport.html?url=jayspov.net
 jayspov.net$all
