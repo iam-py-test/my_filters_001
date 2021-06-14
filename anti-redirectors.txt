@@ -72,3 +72,5 @@ git.io$document
 ! https://www.virustotal.com/gui/domain/buff.ly/community
 ! https://www.mywot.com/scorecard/buff.ly
 buff.ly$document
+! https://www.mywot.com/scorecard/go.microsoft.com
+go.microsoft.com$document
