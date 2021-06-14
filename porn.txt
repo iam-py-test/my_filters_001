@@ -168,6 +168,14 @@ stiffia.com$all
 
 
 ! Found in random reports online
+! https://github.com/webcompat/web-bugs/issues/74820
+! https://www.fortiguard.com/webfilter?q=e56rzanvfxljd5on.com&version=8
+e56rzanvfxljd5on.com$all
+
+! https://github.com/webcompat/web-bugs/issues/77182
+! https://www.fortiguard.com/webfilter?q=vrporn.com&version=8
+vrporn.com$all
+
 ! https://github.com/MajkiIT/polish-ads-filter/issues/11722
 ! https://www.siteadvisor.com/sitereport.html?url=lacha.pl
 lacha.pl$all
