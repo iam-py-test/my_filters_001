@@ -168,6 +168,12 @@ stiffia.com$all
 
 
 ! Found in random reports online
+! https://labs.sucuri.net/signatures/malwares/html-defaced-bghh-001/
+! https://sitecheck.sucuri.net/results/swfcabin.com
+! https://www.siteadvisor.com/sitereport.html?url=cafesex.net
+cafesex.net$all
+www.cafesex.net$all
+
 ! https://github.com/webcompat/web-bugs/issues/74820
 ! https://www.fortiguard.com/webfilter?q=e56rzanvfxljd5on.com&version=8
 e56rzanvfxljd5on.com$all
