@@ -19,6 +19,13 @@ express.de##+js(cookie-remover,dm_consent)
 express.de##+js(cookie-remover,consentUUID)
 express.de##+js(cookie-remover,consentRedirectUrl)
 
+! https://www.vrhs.de cookie consent
+vrhs.de##.open.darken-layer
+vrhs.de###lightbox\ lightbox--cookie-consent
+vrhs.de#$#body { overflow: visible !important; padding-right: 0 !important; }
+||vrhs.de/apps/settings/wcm/designs/webcenter/internet_z/layout/kpc_v2/css-source/kpc-cookieConsentLayer.min.css$stylesheet
+vrhs.de##+js(set,ogr.cookieConsentState,null)
+
 ! https://www.binance.com cookie consent
 binance.com##.css-pq341s
 
