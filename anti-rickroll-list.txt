@@ -1,5 +1,6 @@
 ! Title: Antirickroll list - a list to block rickrolls
 ! Description: Rickrolls are an annoying prank which is spreading on the internet. This list is designed to block known rickroll sites and rickroll images. It will be decommissioned once this dumb prank stops being popular.
+! Last updated: 14/6/2021
 ! Expires: 1 day
 ! License: No copyright
 ! Homepage: https://github.com/iam-py-test/my_filters_001
@@ -13,7 +14,8 @@ secretrickroll.com$all
 ##[srcset*=rickroll]
 ##img[alt*=rickroll]
 !Block anything related to rickrolling except frames and xhrs, which are blocked separately. 
-/*rickroll$all,~frame,~xhr,domain=~wikipedia.org|~github.com|~githubusercontent.com
+! This was removed due to breakage
+!/*rickroll$all,~frame,~xhr,domain=~wikipedia.org|~github.com|~githubusercontent.com
 !Block rickroll related xhrs
 /*rickroll$xhr,redirect=noop.txt
 !Make rickroll frames click2load
@@ -75,11 +77,11 @@ youtube.com##:has-text(rickroll)
 ||youtube.com/watch?v=gEbkeQwEJh4$document,frame
 ||youtube.com/watch?v=QUzCq9Cz_v8$document,frame
 ||youtube.com/watch?v=4GAvbdOMANc$document,frame
+!
 ||youtube.com/watch?v=90vkulvZCCg$document,frame
 ||youtube.com/watch?v=dUs3Vm19QLo$document,frame
 ||youtube.com/watch?v=W68SFQ3mc5M$document,frame
 ||youtube.com/watch?v=_W5JIr-AR1o$document,frame
-!
 ||youtube.com/watch?v=q2npAgPEF7s$document,frame
 ||youtube.com/watch?v=ZXpThNX9IRc$document,frame
 ||youtube.com/watch?v=IpLUifjqlIs$document,frame
@@ -114,6 +116,10 @@ youtube.com##:has-text(rickroll)
 ||youtube*.com/*8EQRGf9GQPU$all
 ||youtube*.com/*IpLUifjqlIs$all
 ||youtube*.com/*ZXpThNX9IRc$all
+||youtube*.com/*_W5JIr-AR1o$all
+||youtube*.com/*W68SFQ3mc5M$all
+||youtube*.com/*dUs3Vm19QLo$all
+||youtube*.com/*90vkulvZCCg$all
 ! Someone tried to rickroll me with this - it failed
 ! https://www.youtube.com/watch?v=-51AfyMqnpI
 ||youtube*.com/*-51AfyMqnpI$all
