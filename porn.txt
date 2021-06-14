@@ -119,6 +119,8 @@ xxxgirls.net$all
 ! https://www.siteadvisor.com/sitereport.html?url=fuq.com
 www.fuq.com$all
 fuq.com$all
+! https://www.fortiguard.com/webfilter?q=beeglivesex.com&version=8
+beeglivesex.com$all
 ! https://www.siteadvisor.com/sitereport.html?url=porn.xyz
 ! https://www.fortiguard.com/webfilter?q=porn.xyz
 porn.xyz$all
