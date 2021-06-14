@@ -166,6 +166,10 @@ stiffia.com$all
 
 
 ! Found in random reports online
+! https://github.com/MajkiIT/polish-ads-filter/issues/16867
+! https://www.siteadvisor.com/sitereport.html?url=tube-bunny.com
+tube-bunny.com$all
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85485
 ! https://www.fortiguard.com/webfilter?q=www.simply-hentai.com&version=8
 ! https://www.siteadvisor.com/sitereport.html?url=www.simply-hentai.com
