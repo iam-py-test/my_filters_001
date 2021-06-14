@@ -166,6 +166,10 @@ stiffia.com$all
 
 
 ! Found in random reports online
+! https://github.com/MajkiIT/polish-ads-filter/issues/14347
+! https://www.siteadvisor.com/sitereport.html?url=otube.pl
+otube.pl$all
+
 ! https://github.com/MajkiIT/polish-ads-filter/issues/16867
 ! https://www.siteadvisor.com/sitereport.html?url=tube-bunny.com
 tube-bunny.com$all
