@@ -4,7 +4,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues: https://github.com/iam-py-test/my_filters_001/issues
-! Last updated: 13/6/2021
+! Last updated: 14/6/2021
 ! A note about dates: All my dates are in EU format, which means day/month/year
 ! Porn websites
 shesfreaky.com$all
@@ -166,8 +166,13 @@ stiffia.com$all
 
 
 ! Found in random reports online
+! https://github.com/MajkiIT/polish-ads-filter/issues/11722
+! https://www.siteadvisor.com/sitereport.html?url=lacha.pl
+lacha.pl$all
+
 ! https://github.com/MajkiIT/polish-ads-filter/issues/14347
 ! https://www.siteadvisor.com/sitereport.html?url=otube.pl
+! https://www.fortiguard.com/webfilter?q=otube.pl&version=8
 otube.pl$all
 
 ! https://github.com/MajkiIT/polish-ads-filter/issues/16867
