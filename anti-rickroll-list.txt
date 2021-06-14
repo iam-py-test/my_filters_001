@@ -16,8 +16,8 @@ secretrickroll.com$all
 !Block anything related to rickrolling except frames and xhrs, which are blocked separately. 
 ! This was removed due to breakage
 !/*rickroll$all,~frame,~xhr,domain=~wikipedia.org|~github.com|~githubusercontent.com
-!Block rickroll related xhrs
-/*rickroll$xhr,redirect=noop.txt
+!Block rickroll related xhrs - removed due to breakage
+!/*rickroll$xhr,redirect=noop.txt
 !Make rickroll frames click2load
 /*rickroll$frame,redirect=click2load.html
 rickroll$frame,redirect=click2load.html
@@ -120,6 +120,87 @@ youtube.com##:has-text(rickroll)
 ||youtube*.com/*W68SFQ3mc5M$all
 ||youtube*.com/*dUs3Vm19QLo$all
 ||youtube*.com/*90vkulvZCCg$all
+! https://www.youtube.com/playlist?list=PLVbxVQf7e2KRz1J34jFf7jDJFDT9lvnQ9
+||youtube*.com/*rW7hXs-81hM$all
+||youtube*.com/*SO4c1NlGCpY$all
+||youtube*.com/*Mdq6sQPKYqQ$all
+||youtube*.com/*WpzFvJwceO4$all
+||youtube*.com/*Mdq6sQPKYqQ$all
+||youtube*.com/*TCUPeAlpDVE$all
+||youtube*.com/*soq9cLVa5Xo$all
+||youtube*.com/*g_KYQltEAuc$all
+||youtube*.com/*HV8IxKtAlrA$all
+||youtube*.com/*HUU3kOhjFfg$all
+||youtube*.com/*C5GGeuFPVVE$all
+||youtube*.com/*Tt7bzxurJ1I$all
+||youtube*.com/*OYPG7j8rKZY$all
+||youtube*.com/*INbRpclIFsE$all
+||youtube*.com/*bCh5IlXTckA$all
+||youtube*.com/*GjyUk_Ebb4o$all
+||youtube*.com/*oJl25bABYac$all
+||youtube*.com/*nW0P2hYBm9A$all
+||youtube*.com/*eBsIpefmXvE$all
+||youtube*.com/*6vBnqJhP7f8$all
+||youtube*.com/*Kiz3PM387FI$all
+||youtube*.com/*s0akG-V_Y30$all
+||youtube*.com/*JkcHqN6YswU$all
+||youtube*.com/*SsiHLiXBlcM$all
+||youtube*.com/*9oxRDJjAQKI$all
+||youtube*.com/*LjQZaD9EEJ0$all
+||youtube*.com/*E458nb_pPmk$all
+||youtube*.com/*qxeokP0n6V0$all
+||youtube*.com/*42OleX0HR4E$all
+||youtube*.com/*ikFZLI4HLpQ$all
+||youtube*.com/*kczWpSN6emg$all
+||youtube*.com/*N3MKlU5_Gs0$all
+||youtube*.com/*SWejvNI7WlM$all
+||youtube*.com/*j5a0jTc9S10$all
+||youtube*.com/*8O_ifyIIrN4$all
+||youtube*.com/*_sWG4uhLiWo$all
+||youtube*.com/*cAN30xJp2Cs$all
+||youtube*.com/*Q53-mWHvxJo$all
+||youtube*.com/*DIs7dtlMCP0$all
+||youtube*.com/*d4N5LnsNpF0$all
+||youtube*.com/*PibwQR9nRus$all
+||youtube*.com/*QdNEtVH9bZE$all
+||youtube*.com/*vkbQmH5MPME$all
+||youtube*.com/*fMnIpIMuBJI$all
+||youtube*.com/*lHyeAtiiL18$all
+||youtube*.com/*s99hC5WUwjo$all
+||youtube*.com/*0SoNH07Slj0$all
+||youtube*.com/*y6120QOlsfU$all
+||youtube*.com/*Eg7XtrH0duI$all
+||youtube*.com/*klqi_h9FElc$all
+||youtube*.com/*6RyOsIseJbk$all
+||youtube*.com/*BXuxOeg6PiQ$all
+||youtube*.com/*fZi4JxbTwPo$all
+||youtube*.com/*OYpwAtnywTk$all
+||youtube*.com/*https://www.youtube.com/watch?v=0Z0i-nimHkU
+||youtube.com/*?*list=PLVbxVQf7e2KRz1J34jFf7jDJFDT9lvnQ9$all
+||youtube*.com/*gidHrKbTpog$all
+||youtube*.com/*cH1NLToRz_o$all
+||youtube*.com/*06pBzAlItwI$all
+||youtube*.com/*3KANI2dpXLw$all
+||youtube*.com/*-lmhJOhQHWc$all
+||youtube*.com/*0EY98EsPXs8$all
+||youtube*.com/*kJmKBhYsJho$all
+||youtube*.com/*Dh-CW22axyY$all
+||youtube*.com/*VSa2IqDwnQ8$all
+||youtube*.com/*nQGsT44rVjk$all
+||youtube*.com/*nHRbZW097Uk$all
+||youtube*.com/*REWyCy_m39Q$all
+||youtube*.com/*Uj1ykZWtPYI$all
+||youtube*.com/*xfr64zoBTAQ$all
+||youtube*.com/*xfr64zoBTAQ$all
+||youtube*.com/*V-_O7nl0Ii0$all
+||youtube*.com/*EE-xtCF3T94$all
+||youtube*.com/*dPmZqsQNzGA$all
+||youtube*.com/*j5a0jTc9S10$all
+||youtube*.com/*fcZXfoB2f70$all
+||youtube*.com/*Dzv7NfPz1Yc$all
+||youtube*.com/*fabiBsQWDTY$all
+||youtube*.com/*4FL4GORUTSM$all
+||youtube*.com/*epyRUp0BhrA$all
 ! Someone tried to rickroll me with this - it failed
 ! https://www.youtube.com/watch?v=-51AfyMqnpI
 ||youtube*.com/*-51AfyMqnpI$all
