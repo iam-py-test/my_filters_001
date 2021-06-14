@@ -175,6 +175,8 @@ youtube.com##:has-text(rickroll)
 ||youtube*.com/*BXuxOeg6PiQ$all
 ||youtube*.com/*fZi4JxbTwPo$all
 ||youtube*.com/*OYpwAtnywTk$all
+||youtube*.com/*gL1uxYyAJiA$all
+||youtube*.com/*ZEvBBQ_ILkI$all
 ||youtube*.com/*https://www.youtube.com/watch?v=0Z0i-nimHkU
 ||youtube.com/*?*list=PLVbxVQf7e2KRz1J34jFf7jDJFDT9lvnQ9$all
 ||youtube*.com/*gidHrKbTpog$all
