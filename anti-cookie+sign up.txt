@@ -13,7 +13,11 @@ bitly.com###banner-cookie:remove()
 bitly.com###banner-spacer:remove()
 bitly.com##.sitebanner--container
 
-
+express.de##+js(aopr,doConsentRedirect)
+express.de##+js(aopr,dmn.centralData.consentCookieName)
+express.de##+js(cookie-remover,dm_consent)
+express.de##+js(cookie-remover,consentUUID)
+express.de##+js(cookie-remover,consentRedirectUrl)
 
 ! https://www.binance.com cookie consent
 binance.com##.css-pq341s
