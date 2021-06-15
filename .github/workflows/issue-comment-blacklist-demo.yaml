@@ -31,19 +31,15 @@ jobs:
             const comment = `
             > ${{ github.event.comment.body }}
             
-            @${{ github.event.sender.login }}, thank you for reporting. @iam-py-test will get to this soon`;
+            @${{ github.event.sender.login }}, thank you for reporting. @iam-py-test will get to this soon.
+            If this is a more major problem, you should [open another issue](https://github.com/iam-py-test/my_filters_001/issues/new/choose)
+            `;
 
             github.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
               body: comment
-            })
-            github.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: `@${{ github.event.sender.login }}, if this is a more major problem, you should [open another issue](https://github.com/iam-py-test/my_filters_001/issues/new/choose)`
             })
 
       #
