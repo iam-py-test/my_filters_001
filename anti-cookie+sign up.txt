@@ -3,7 +3,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! GitHub Issues: https://github.com/iam-py-test/my_filters_001/issues
-! Last updated: 13/6/2021
+! Last updated: 15/6/2021
 
 ! https://www.fortiguard.com Cookie consent 
 fortiguard.com###__agreementBar
@@ -18,6 +18,20 @@ express.de##+js(aopr,dmn.centralData.consentCookieName)
 express.de##+js(cookie-remover,dm_consent)
 express.de##+js(cookie-remover,consentUUID)
 express.de##+js(cookie-remover,consentRedirectUrl)
+
+! https://www.crowrivermedia.com cookie consent
+www.crowrivermedia.com###cookie-notice
+! Possible GEOLOCK script
+||evvnt-plugin-proxy.global.ssl.fastly.net/?publisher_id=3659&api_key=*&facet_filters=%5B%22country.iso_code$xhr,domain=www.crowrivermedia.com
+! Paywall
+crowrivermedia.com##+js(set,oPaywall.allowAccess,true)
+crowrivermedia.com##+js(aopr,oPaywall.isRestricted)
+crowrivermedia.com##+js(set,bBloxAccess,false)
+crowrivermedia.com##+js(aopw,oPaywall.accessByIp)
+||api.secondstreetapp.com/audience_signup_widgets/294594?callback=secondStreetOptinWidget_294594$script,domain=www.crowrivermedia.com
+crowrivermedia.com##+js(aopr,window.TNCMS.Subscription.onReady)
+
+
 
 ! https://www.vrhs.de cookie consent
 vrhs.de##.open.darken-layer
