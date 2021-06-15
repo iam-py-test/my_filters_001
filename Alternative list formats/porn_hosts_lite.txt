@@ -4,7 +4,7 @@
 # Expires: 1 day
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # Issues: https://github.com/iam-py-test/my_filters_001/issues
-# Last updated: 10/6/2021
+# Last updated: 15/6/2021
 # A note about dates: All my dates are in EU format, which means day/month/year
 # Porn websites
 127.0.0.1 shesfreaky.com
@@ -58,6 +58,7 @@
 # https://www.siteadvisor.com/sitereport.html?url=nudefuck.net
 127.0.0.1 nudefuck.net
 # https://www.siteadvisor.com/sitereport.html?url=nudefuck.com
+127.0.0.1 nudefuck.com
 # https://www.siteadvisor.com/sitereport.html?url=sexsecret.com
 127.0.0.1 sexsecret.com
 # https://www.siteadvisor.com/sitereport.html?url=pornsecret.com
@@ -73,7 +74,28 @@
 127.0.0.1 hotcum.com
 # https://www.fortiguard.com/webfilter?q=cumteen.com&version=8
 127.0.0.1 cumteen.com
-#A random domain I made up
+# https://www.siteadvisor.com/sitereport.html?url=pregoteens.com
+127.0.0.1 pregoteens.com
+# https://www.siteadvisor.com/sitereport.html?url=pregslut.com
+127.0.0.1 pregslut.com
+# https://www.siteadvisor.com/sitereport.html?url=babes.com
+127.0.0.1 babes.com
+# https://www.siteadvisor.com/sitereport.html?url=babesfucked.com
+# https://www.siteadvisor.com/sitereport.html?url=teenbabes.com
+127.0.0.1 teenbabes.com
+# https://www.siteadvisor.com/sitereport.html?url=teenbabe.com
+# https://www.siteadvisor.com/sitereport.html?url=pregobabes.com
+# https://www.siteadvisor.com/sitereport.html?url=nudefucker.com
+127.0.0.1 nudefucker.com
+# https://www.siteadvisor.com/sitereport.html?url=virginfucked.com
+127.0.0.1 virginfucked.com
+# https://www.siteadvisor.com/sitereport.html?url=virginfuck.com
+127.0.0.1 virginfuck.com
+# https://www.siteadvisor.com/sitereport.html?url=virginteen.com
+127.0.0.1 virginteen.com
+# https://www.siteadvisor.com/sitereport.html?url=virginnude.com
+127.0.0.1 virginnude.com
+# https://www.siteadvisor.com/sitereport.html?url=nudepreg.com
 # https://www.siteadvisor.com/sitereport.html?url=sexy-girls.com
 # https://www.siteadvisor.com/sitereport.html?url=pornxxx.net
 127.0.0.1 pornxxx.net
@@ -85,12 +107,8 @@
 # https://www.siteadvisor.com/sitereport.html?url=fuq.com
 127.0.0.1 www.fuq.com
 127.0.0.1 fuq.com
-# A malware/porn domain - blocking here because it does have porn and should be blocked more globally.
-# https://www.mywot.com/en/scorecard/101sexsecret.com
-# https://www.siteadvisor.com/sitereport.html?url=101sexsecret.com
-# https://www.fortiguard.com/webfilter?q=101sexsecret.com
-127.0.0.1 101sexsecret.com
-# Yet another domain I made up
+# https://www.fortiguard.com/webfilter?q=beeglivesex.com&version=8
+127.0.0.1 beeglivesex.com
 # https://www.siteadvisor.com/sitereport.html?url=porn.xyz
 # https://www.fortiguard.com/webfilter?q=porn.xyz
 # https://www.fortiguard.com/webfilter?q=hotgirls.xyz&version=8
@@ -126,7 +144,148 @@
 127.0.0.1 sextracker.de
 # https://www.siteadvisor.com/sitereport.html?url=stiffia.com
 127.0.0.1 stiffia.com
+# A malware/porn domain - blocking here because it does have porn and should be blocked more globally.
+# https://www.mywot.com/en/scorecard/101sexsecret.com
+# https://www.siteadvisor.com/sitereport.html?url=101sexsecret.com
+# https://www.fortiguard.com/webfilter?q=101sexsecret.com
+127.0.0.1 101sexsecret.com
+# https://sitecheck.sucuri.net/results/101sexsecret.com
+127.0.0.1 ww9.101sexsecret.com
 # Found in random reports online
+# https://www.virustotal.com/gui/ip-address/103.224.212.247/relations
+# https://www.siteadvisor.com/sitereport.html?url=mailserver.sinfulbitch.com
+127.0.0.1 mailserver.sinfulbitch.com
+# https://www.siteadvisor.com/sitereport.html?url=sinfulbitch.com
+127.0.0.1 sinfulbitch.com
+# https://github.com/DandelionSprout/adfilt/issues/3
+# https://www.siteadvisor.com/sitereport.html?url=nakenprat.com
+127.0.0.1 nakenprat.com
+# https://github.com/easylist/easylist/pull/6601
+# https://www.siteadvisor.com/sitereport.html?url=playvids.com
+127.0.0.1 playvids.com
+# https://www.virustotal.com/gui/ip-address/46.229.170.3/relations
+# https://www.fortiguard.com/webfilter?q=+nudepussypics.space&version=8
+127.0.0.1 nudepussypics.space
+# https://www.fortiguard.com/webfilter?q=+sexgames.pro&version=8
+127.0.0.1 sexgames.pro
+127.0.0.1 www.sexgames.pro
+# https://www.fortiguard.com/webfilter?q=nakedgirlwallpaper.pro&version=8
+127.0.0.1 nakedgirlwallpaper.pro
+# https://www.fortiguard.com/webfilter?q=ivirtualgirls.com&version=8
+127.0.0.1 ivirtualgirls.com
+# https://www.fortiguard.com/webfilter?q=virtualstripper.pro&version=8
+127.0.0.1 virtualstripper.pro
+# https://www.fortiguard.com/webfilter?q=cdn1.nudepussypics.space&version=8
+# https://www.fortiguard.com/webfilter?q=+orgazm.mobi&version=8
+127.0.0.1 orgazm.mobi
+# https://www.fortiguard.com/webfilter?q=nicepussy.org&version=8
+127.0.0.1 nicepussy.org
+127.0.0.1 www.nakedgirlwallpaper.pro
+# https://github.com/ABPindo/indonesianadblockrules/issues/181
+# https://www.siteadvisor.com/sitereport.html?url=semprot.com
+127.0.0.1 semprot.com
+# https://www.siteadvisor.com/sitereport.html?url=www.semprot.com
+127.0.0.1 www.semprot.com
+# https://redirectdetective.com
+# https://www.mywot.com/en/scorecard/46.166.167.16
+# https://github.com/jerryn70/GoodbyeAds/issues/122
+# https://www.siteadvisor.com/sitereport.html?url=si6ling.incestflix.com
+127.0.0.1 si6ling.incestflix.com
+# https://www.siteadvisor.com/sitereport.html?url=incestflix.com
+127.0.0.1 incestflix.com
+# https://www.siteadvisor.com/sitereport.html?url=www.incestflix.com
+127.0.0.1 www.incestflix.com
+# https://labs.sucuri.net/signatures/malwares/html-defaced-bghh-001/
+# https://sitecheck.sucuri.net/results/swfcabin.com
+# https://www.siteadvisor.com/sitereport.html?url=cafesex.net
+127.0.0.1 cafesex.net
+127.0.0.1 www.cafesex.net
+# https://github.com/webcompat/web-bugs/issues/74820
+# https://www.fortiguard.com/webfilter?q=e56rzanvfxljd5on.com&version=8
+127.0.0.1 e56rzanvfxljd5on.com
+# https://github.com/webcompat/web-bugs/issues/77182
+# https://www.fortiguard.com/webfilter?q=vrporn.com&version=8
+127.0.0.1 vrporn.com
+# https://github.com/MajkiIT/polish-ads-filter/issues/11722
+# https://www.siteadvisor.com/sitereport.html?url=lacha.pl
+127.0.0.1 lacha.pl
+# https://github.com/MajkiIT/polish-ads-filter/issues/14347
+# https://www.siteadvisor.com/sitereport.html?url=otube.pl
+# https://www.fortiguard.com/webfilter?q=otube.pl&version=8
+# https://github.com/MajkiIT/polish-ads-filter/issues/16867
+# https://www.siteadvisor.com/sitereport.html?url=tube-bunny.com
+127.0.0.1 tube-bunny.com
+# https://github.com/AdguardTeam/AdguardFilters/issues/85485
+# https://www.fortiguard.com/webfilter?q=www.simply-hentai.com&version=8
+# https://www.siteadvisor.com/sitereport.html?url=www.simply-hentai.com
+127.0.0.1 www.simply-hentai.com
+127.0.0.1 simply-hentai.com
+# https://github.com/AdguardTeam/AdguardFilters/issues/85564
+# https://www.siteadvisor.com/sitereport.html?url=nudeselfiespics.com
+127.0.0.1 nudeselfiespics.com
+# https://github.com/AdguardTeam/AdguardFilters/issues/85568
+# https://www.siteadvisor.com/sitereport.html?url=www.sexpuss.org
+127.0.0.1 www.sexpuss.org
+127.0.0.1 sexpuss.org
+# https://github.com/AdguardTeam/AdguardFilters/issues/85760
+# https://www.fortiguard.com/webfilter?q=www.pussyspace.net+&version=8
+127.0.0.1 www.pussyspace.net
+127.0.0.1 pussyspace.net
+# https://github.com/blocklistproject/Lists/issues/327
+# https://www.siteadvisor.com/sitereport.html?url=jayspov.net
+127.0.0.1 jayspov.net
+# https://www.siteadvisor.com/sitereport.html?url=www.redwap.me
+127.0.0.1 www.redwap.me
+127.0.0.1 redwap.me
+127.0.0.1 filthykings.com
+127.0.0.1 adultempire.com
+127.0.0.1 imgs1cdn.adultempire.com
+# https://www.siteadvisor.com/sitereport.html?url=www.pornfuck.net
+127.0.0.1 www.pornfuck.net
+127.0.0.1 pornfuck.net
+# https://www.siteadvisor.com/sitereport.html?url=cum-shows.net
+127.0.0.1 cum-shows.net
+# https://www.siteadvisor.com/sitereport.html?url=www.tube100.me
+127.0.0.1 www.tube100.me
+127.0.0.1 tube100.me
+# https://www.fortiguard.com/webfilter?q=sex-hd.org&version=8
+127.0.0.1 sex-hd.org
+# https://www.fortiguard.com/webfilter?q=hdxxxtube.online&version=8
+127.0.0.1 hdxxxtube.online
+# https://www.fortiguard.com/webfilter?q=mypervyfamily.com&version=8
+127.0.0.1 mypervyfamily.com
+# https://www.siteadvisor.com/sitereport.html?url=www.cosmid.net
+# https://www.fortiguard.com/webfilter?q=cosmid.net&version=8
+127.0.0.1 www.cosmid.net
+127.0.0.1 cosmid.net
+# https://www.siteadvisor.com/sitereport.html?url=alettaoceanlive.com
+127.0.0.1 alettaoceanlive.com
+# https://www.siteadvisor.com/sitereport.html?url=www.clubsweethearts.com
+127.0.0.1 www.clubsweethearts.com
+127.0.0.1 clubsweethearts.com
+# https://www.siteadvisor.com/sitereport.html?url=www.mylf.com
+# https://www.fortiguard.com/webfilter?q=mylf.com&version=8
+127.0.0.1 www.mylf.com
+127.0.0.1 mylf.com
+# https://www.siteadvisor.com/sitereport.html?url=sexmex.xxx
+127.0.0.1 sexmex.xxx
+# https://www.siteadvisor.com/sitereport.html?url=www.tushyraw.com
+127.0.0.1 www.tushyraw.com
+127.0.0.1 tushyraw.com
+# https://www.siteadvisor.com/sitereport.html?url=www.analvids.com
+127.0.0.1 www.analvids.com
+127.0.0.1 analvids.com
+# https://www.virustotal.com/gui/url/4b13580dcda1dcdc76a4d6e44d492a05faf14f09b20afba33ee2d8b6e2fa52da/links
+# https://www.siteadvisor.com/sitereport.html?url=sexmexporn.com
+127.0.0.1 sexmexporn.com
+# https://www.siteadvisor.com/sitereport.html?url=https://join.sexmexamateurs.com
+127.0.0.1 join.sexmexamateurs.com
+127.0.0.1 sexmexamateurs.com
+# https://www.siteadvisor.com/sitereport.html?url=http://join.sexmexlive.com
+127.0.0.1 join.sexmexlive.com
+127.0.0.1 sexmexlive.com
+# https://www.virustotal.com/gui/url/1ebc122d59db1606c5d93d980617029ac092aab86915e12517089223c21f5ea2/links
+127.0.0.1 my-sweet-sexfinder.com
 # https://github.com/AdguardTeam/AdguardFilters/issues/85098
 # https://www.siteadvisor.com/sitereport.html?url=streamporn.pw
 127.0.0.1 streamporn.pw
@@ -156,8 +315,6 @@
 # https://blog.sucuri.net/2010/06/mass-infection-of-iisasp-sites-2677-inyahoo-js.html
 # https://www.virustotal.com/gui/ip-address/199.59.242.150/relations
 # https://www.siteadvisor.com/sitereport.html?url=xxxdee.com
-127.0.0.1 xxxdee.com
-127.0.0.1 www.xxxdee.com
 # https://github.com/AdguardTeam/AdguardFilters/issues/85204
 # https://www.fortiguard.com/webfilter?q=mrdeepfakes.com&version=8
 127.0.0.1 mrdeepfakes.com
@@ -219,9 +376,6 @@
 127.0.0.1 shinyjapaneseporn.com
 127.0.0.1 drivepornvideos.com
 127.0.0.1 animepornfilm.com
-127.0.0.1 sexmomsex.com
-127.0.0.1 shinyjapaneseporn.com
-127.0.0.1 japansporno.com
 127.0.0.1 freerealvideo.com
 127.0.0.1 indianpornvideo.online
 127.0.0.1 amateursolution.com
@@ -278,7 +432,6 @@
 # https://safeweb.norton.com/report/show?url=search-sexlady.com
 # https://quttera.com/detailed_report/search-sexlady.com
 # Phishing/Spam
-127.0.0.1 search-sexlady.com
 # The target domain
 # https://www.siteadvisor.com/sitereport.html?url=sexlady.com
 127.0.0.1 sexlady.com
@@ -347,7 +500,6 @@
 # https://github.com/AdguardTeam/AdguardFilters/issues/83958
 # https://www.fortiguard.com/webfilter?q=xxerotica.com&version=8
 127.0.0.1 xxerotica.com
-127.0.0.1 www.xxerotica.com
 # https://github.com/easylist/easylist/pull/7943
 # https://www.fortiguard.com/webfilter?q=xxxymovies.com&version=8
 127.0.0.1 xxxymovies.com
@@ -371,7 +523,6 @@
 # https://www.fortiguard.com/webfilter?q=hclips.com&version=8
 127.0.0.1 hclips.com
 # https://www.fortiguard.com/webfilter?q=heavy-r.com&version=8
-127.0.0.1 heavy-r.com
 # https://www.fortiguard.com/webfilter?q=megapornx.com&version=8
 127.0.0.1 megapornx.com
 # https://www.fortiguard.com/webfilter?q=milfzr.com&version=8
@@ -428,12 +579,10 @@
 # https://www.siteadvisor.com/sitereport.html?url=porngo.com
 127.0.0.1 porngo.com
 # https://www.siteadvisor.com/sitereport.html?url=incestflix.com
-127.0.0.1 incestflix.com
 # www versions (for non-uBo formats)
 127.0.0.1 www.eporner.com
 127.0.0.1 www.porngo.com
 127.0.0.1 www.youjizz.com
-127.0.0.1 www.incestflix.com
 127.0.0.1 www.nudevista.com
 127.0.0.1 www.pornpics.com
 # https://github.com/easylist/easylist/issues/7968
@@ -447,6 +596,7 @@
 # https://www.siteadvisor.com/sitereport.html?url=cdn3x.com
 127.0.0.1 cdn3x.com
 # https://www.siteadvisor.com/sitereport.html?url=porncity.xyz
+127.0.0.1 porncity.xyz
 # https://www.virustotal.com/gui/url/b9a0bb0bc59085094468e9e33748c312b72d17b33ac1c3ba26b1899ea8b2d5c7/links
 # https://www.siteadvisor.com/sitereport.html?url=https://a.adtng.com/get/10011168?time=1596489429776
 # https://www.siteadvisor.com/sitereport.html?url=adtng.com
@@ -553,7 +703,6 @@
 # https://www.siteadvisor.com/sitereport.html?url=pornmd.com
 127.0.0.1 pornmd.com
 # https://www.siteadvisor.com/sitereport.html?url=youporngay.com
-127.0.0.1 youporngay.com
 # https://www.siteadvisor.com/sitereport.html?url=pinflix.com
 127.0.0.1 pinflix.com
 # https://www.siteadvisor.com/sitereport.html?url=alphaporno.com
@@ -627,7 +776,6 @@
 127.0.0.1 gelbooru.com
 # https://www.mywot.com/scorecard/sankakucomplex.com
 # https://www.siteadvisor.com/sitereport.html?url=sankakucomplex.com
-127.0.0.1 sankakucomplex.com
 # https://www.mywot.com/scorecard/tbib.org
 # https://www.siteadvisor.com/sitereport.html?url=tbib.org
 127.0.0.1 tbib.org
@@ -829,10 +977,8 @@
 127.0.0.1 young-sexy.com
 # https://github.com/AdguardTeam/AdguardFilters/issues/83643
 # https://www.siteadvisor.com/sitereport.html?url=sexybabegirls.com
-127.0.0.1 sexybabegirls.com
 # https://github.com/AdguardTeam/AdguardFilters/issues/83622
 # https://www.siteadvisor.com/sitereport.html?url=hentaihand.com
-127.0.0.1 hentaihand.com
 # https://github.com/AdguardTeam/AdguardFilters/issues/83013
 # https://www.siteadvisor.com/sitereport.html?url=xxxvideos.ink
 127.0.0.1 xxxvideos.ink
@@ -1151,6 +1297,7 @@
 # https://www.siteadvisor.com/sitereport.html?url=crazygirls.net
 127.0.0.1 crazygirls.net
 # https://www.siteadvisor.com/sitereport.html?url=porn4ever.com
+127.0.0.1 porn4ever.com
 # https://www.siteadvisor.com/sitereport.html?url=hotpics.com
 127.0.0.1 hotpics.com
 # https://www.siteadvisor.com/sitereport.html?url=pornpics.net
@@ -1172,6 +1319,7 @@
 # https://www.siteadvisor.com/sitereport.html?url=bporn.com
 127.0.0.1 bporn.com
 # https://www.siteadvisor.com/sitereport.html?url=teenfucked.com
+127.0.0.1 teenfucked.com
 # https://www.siteadvisor.com/sitereport.html?url=aftersex.com
 127.0.0.1 aftersex.com
 # A porn site & related
@@ -1221,6 +1369,7 @@
 127.0.0.1 teenfucker.com
 # https://www.siteadvisor.com/sitereport.html?url=teenpregnant.com
 # https://www.fortiguard.com/webfilter?q=teenpregnant.com
+127.0.0.1 teenpregnant.com
 # More domains
 127.0.0.1 maternitygallery.com
 # https://www.siteadvisor.com/sitereport.html?url=teenspregnant.com
@@ -1372,6 +1521,7 @@
 # https://www.fortiguard.com/webfilter?q=porno.com&version=8
 127.0.0.1 porno.com
 # https://www.fortiguard.com/webfilter?q=pornoteen.com&version=8
+127.0.0.1 pornoteen.com
 # https://www.fortiguard.com/webfilter?q=slutteen.xyz&version=8
 127.0.0.1 slutteen.xyz
 # https://www.fortiguard.com/webfilter?q=cock.net&version=8
