@@ -1,8 +1,8 @@
-! Title: AntiTyposquatt
-! Description: A list of typosquatt domains that did not make it into malware domains
+! Title: Antitypo
+! Description: Ever hit the wrong key when typing an address and ended up in the wrong place? This list aims to prevent that, and provide protection against Typosquatting.
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
-! Last updated: 13/6/2021
+! Last updated: 15/6/2021
 ! If someone can confirm this, it can move to malware 
 ! https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 ! https://www.virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
@@ -56,3 +56,6 @@ paypl.com$all
 paypal.xyz$document
 ! https://www.virustotal.com/gui/url/4531df5b01e2c58f9307fabecc9a17b03c6157bafc8e9af736b278e95c182dc5/detection
 payapl.com$all
+! https://www.virustotal.com/gui/url/2b0a3525bf412601e1acea8f7ee1eb0627df843d58e2d10553ea5a81d4ba26be/detection
+! https://www.siteadvisor.com/sitereport.html?url=cchase.com
+cchase.com$document
