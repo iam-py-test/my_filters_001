@@ -1,8 +1,8 @@
-# Title: AntiTyposquatt
-# Description: A list of typosquatt domains that did not make it into malware domains
+# Title: Antitypo
+# Description: Ever hit the wrong key when typing an address and ended up in the wrong place? This list aims to prevent that, and provide protection against Typosquatting.
 # Expires: 1 day
 # Homepage: https://github.com/iam-py-test/my_filters_001
-# Last updated: 4/6/2021
+# Last updated: 15/6/2021
 # If someone can confirm this, it can move to malware 
 # https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 # https://www.virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
@@ -34,9 +34,34 @@
 # https://github.com/easylist/easylist/pull/7950
 # https://www.siteadvisor.com/sitereport.html?url=xozilla.com
 127.0.0.1 xozilla.com
-<<<<<<< HEAD
 # https://sitecheck.sucuri.net/results/bit.lu
 127.0.0.1 bit.lu
-=======
-
->>>>>>> 342ae39 ([bot] add alt list)
+# https://www.mywot.com/scorecard/alwarebytes.com
+127.0.0.1 alwarebytes.com
+# inkbunny[.]net typosquatt
+127.0.0.1 inkbunny.xyz
+# duckDuckGo typosquatt - https://www.fortiguard.com/webfilter?q=dukduckgo.com&version=8
+127.0.0.1 dukduckgo.com
+# https://blog.dynamoo.com/2011/04/alisa-cartercom-lizamooncom-and-worid.html
+# https://safeweb.norton.com/report/show?url=google-1aa.com
+127.0.0.1 google-1aa.com
+# https://safeweb.norton.com/report/show?url=googlesite.ws
+127.0.0.1 googlesite.ws
+# https://github.com/AdguardTeam/AdguardFilters/issues/85224
+127.0.0.1 www.youtubewon.com
+127.0.0.1 youtubewon.com
+# https://www.reddit.com/r/mildlyinfuriating/comments/nc9zpe/got_a_paypal_or_should_i_say_paypl_phishing_email/
+# https://www.virustotal.com/gui/url/e604fa0374dbbceefaf7190bd7aa649561dfc19ff49af443d8931df40e1e1f43/detection
+127.0.0.1 paypl.com
+127.0.0.1 paypal.xyz
+# https://www.virustotal.com/gui/url/4531df5b01e2c58f9307fabecc9a17b03c6157bafc8e9af736b278e95c182dc5/detection
+127.0.0.1 payapl.com
+# https://www.virustotal.com/gui/url/2b0a3525bf412601e1acea8f7ee1eb0627df843d58e2d10553ea5a81d4ba26be/detection
+# https://www.siteadvisor.com/sitereport.html?url=cchase.com
+127.0.0.1 cchase.com
+# https://www.virustotal.com/gui/url/6d9e9d347f3578fe8fea973820a40a0ab760165e613af323b4a025dee339c73e/detection
+# https://www.mywot.com/scorecard/blogsopt.com
+127.0.0.1 blogsopt.com
+# https://www.virustotal.com/gui/url/76074c7a040ba1edcea412c3d1ea9098ee43ee85cffb75be5882ea553bc43d81/community
+# https://www.mywot.com/scorecard/g0ogle.com
+127.0.0.1 g0ogle.com
