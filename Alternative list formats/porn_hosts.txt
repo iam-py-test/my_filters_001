@@ -394,9 +394,6 @@
 127.0.0.1 shinyjapaneseporn.com
 127.0.0.1 drivepornvideos.com
 127.0.0.1 animepornfilm.com
-127.0.0.1 sexmomsex.com
-127.0.0.1 shinyjapaneseporn.com
-127.0.0.1 japansporno.com
 127.0.0.1 freerealvideo.com
 127.0.0.1 indianpornvideo.online
 127.0.0.1 amateursolution.com
@@ -524,7 +521,6 @@
 # https://github.com/AdguardTeam/AdguardFilters/issues/83958
 # https://www.fortiguard.com/webfilter?q=xxerotica.com&version=8
 127.0.0.1 xxerotica.com
-127.0.0.1 www.xxerotica.com
 # https://github.com/easylist/easylist/pull/7943
 # https://www.fortiguard.com/webfilter?q=xxxymovies.com&version=8
 127.0.0.1 xxxymovies.com
@@ -548,7 +544,6 @@
 # https://www.fortiguard.com/webfilter?q=hclips.com&version=8
 127.0.0.1 hclips.com
 # https://www.fortiguard.com/webfilter?q=heavy-r.com&version=8
-127.0.0.1 heavy-r.com
 # https://www.fortiguard.com/webfilter?q=megapornx.com&version=8
 127.0.0.1 megapornx.com
 # https://www.fortiguard.com/webfilter?q=milfzr.com&version=8
@@ -605,12 +600,10 @@
 # https://www.siteadvisor.com/sitereport.html?url=porngo.com
 127.0.0.1 porngo.com
 # https://www.siteadvisor.com/sitereport.html?url=incestflix.com
-127.0.0.1 incestflix.com
 # www versions (for non-uBo formats)
 127.0.0.1 www.eporner.com
 127.0.0.1 www.porngo.com
 127.0.0.1 www.youjizz.com
-127.0.0.1 www.incestflix.com
 127.0.0.1 www.nudevista.com
 127.0.0.1 www.pornpics.com
 # https://github.com/easylist/easylist/issues/7968
@@ -738,7 +731,6 @@
 # https://www.siteadvisor.com/sitereport.html?url=pornmd.com
 127.0.0.1 pornmd.com
 # https://www.siteadvisor.com/sitereport.html?url=youporngay.com
-127.0.0.1 youporngay.com
 # https://www.siteadvisor.com/sitereport.html?url=pinflix.com
 127.0.0.1 pinflix.com
 # https://www.siteadvisor.com/sitereport.html?url=alphaporno.com
@@ -813,7 +805,6 @@
 127.0.0.1 gelbooru.com
 # https://www.mywot.com/scorecard/sankakucomplex.com
 # https://www.siteadvisor.com/sitereport.html?url=sankakucomplex.com
-127.0.0.1 sankakucomplex.com
 # https://www.mywot.com/scorecard/tbib.org
 # https://www.siteadvisor.com/sitereport.html?url=tbib.org
 127.0.0.1 tbib.org
@@ -839,7 +830,6 @@
 # https://www.siteadvisor.com/sitereport.html?url=lolibooru.moe
 # https://www.mywot.com/scorecard/lolibooru.moe
 127.0.0.1 lolibooru.moe
-127.0.0.1 pornhubthbh7ap3u.onion
 # https://www.siteadvisor.com/sitereport.html?url=9hentai.com
 127.0.0.1 9hentai.com
 # https://www.siteadvisor.com/sitereport.html?url=scatpornxxx.com
@@ -1022,10 +1012,8 @@
 127.0.0.1 young-sexy.com
 # https://github.com/AdguardTeam/AdguardFilters/issues/83643
 # https://www.siteadvisor.com/sitereport.html?url=sexybabegirls.com
-127.0.0.1 sexybabegirls.com
 # https://github.com/AdguardTeam/AdguardFilters/issues/83622
 # https://www.siteadvisor.com/sitereport.html?url=hentaihand.com
-127.0.0.1 hentaihand.com
 # https://github.com/AdguardTeam/AdguardFilters/issues/83013
 # https://www.siteadvisor.com/sitereport.html?url=xxxvideos.ink
 127.0.0.1 xxxvideos.ink
