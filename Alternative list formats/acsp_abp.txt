@@ -3,9 +3,105 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! GitHub Issues: https://github.com/iam-py-test/my_filters_001/issues
-! Last updated: 9/6/2021
+! Last updated: 15/6/2021
 ! https://www.fortiguard.com Cookie consent 
-www.fortiguard.com###__agreementBar
+fortiguard.com###__agreementBar
+! https://bitly.com cookie consent
+bitly.com###banner-cookie:remove()
+bitly.com###banner-spacer:remove()
+bitly.com##.sitebanner--container
+! Unsupported
+! Unsupported
+! Unsupported
+! Unsupported
+! Unsupported
+! https://www.crowrivermedia.com cookie consent
+www.crowrivermedia.com###cookie-notice
+! Possible GEOLOCK script
+||evvnt-plugin-proxy.global.ssl.fastly.net/?publisher_id=3659&api_key=*&facet_filters=%5B%22country.iso_code
+! Paywall
+! Unsupported
+! Unsupported
+! Unsupported
+! Unsupported
+||api.secondstreetapp.com/audience_signup_widgets/294594?callback=secondStreetOptinWidget_294594
+! Unsupported
+! https://www.vrhs.de cookie consent
+vrhs.de##.open.darken-layer
+vrhs.de###lightbox\ lightbox--cookie-consent
+! Unsupported
+||vrhs.de/apps/settings/wcm/designs/webcenter/internet_z/layout/kpc_v2/css-source/kpc-cookieConsentLayer.min.css
+! Unsupported
+! https://www.binance.com cookie consent
+binance.com##.css-pq341s
+! http://www.hagebaucentrum-salzwedel.de cookie consent
+hagebaucentrum-salzwedel.de##.cc-bottom.cc-banner.cc-window.cc_window-bottom.cc_window-light.cc_window
+! https://www.paydirekt.de cookie consent
+paydirekt.de##cookies-overlay
+! https://www.bunte.de cookie consent
+bunte.de###sp_message_container_482588
+||cdn-217.privacy-mgmt.com^
+||cmp.bunte.de/wrapper/tcfv2/v1/gdpr/native-message?requestUUID=*&hasCsp=*&env=prod&consentLanguage=*&body=
+! https://www.sondakika.com cookie consent
+www.sondakika.com###cookiePolicyw
+! https://www.nordlb.de cookie consent
+www.nordlb.de##.b-typography--text-small.b-typography.b-cookie-banner
+! https://www.oetker.de cookie consent
+www.oetker.de##.js-pd-main.pd-main
+! https://www.f-secure.com cookie consent
+f-secure.com##.en_global.type-b.view-1.fs-consent
+! 2021-06-09 https://www.roastmarket.de
+www.roastmarket.de###onetrust-consent-sdk
+! https://www.bundesregierung.de cookie consent
+www.bundesregierung.de##.bpa-white.bpa-module-supplement.bpa-module.bpa-cookie-banner
+! https://www.foerde-sparkasse.de cookie consent
+!#if !false
+foerde-sparkasse.de##.initial.if6_eprivacy.if6_outer
+!#endif
+foerde-sparkasse.de##.initial.if6_eprivacy.if6_outer:remove()
+! https://www.flashscore.de cookie consent
+!||cdn.cookielaw.org/consent/0df30b7a-bae8-41c1-af14-50012d2ab386/7e960b58-8678-42ea-98ee-a9881feae860/de.json$xhr,domain=www.flashscore.de
+! https://www.flashscore.de cookie consent
+!||cdn.cookielaw.org/scripttemplates/6.18.0/otBannerSdk.js$script,domain=www.flashscore.de
+! https://www.flashscore.de cookie consent
+||cdn.cookielaw.org/consent/0df30b7a-bae8-41c1-af14-50012d2ab386/0df30b7a-bae8-41c1-af14-50012d2ab386.json
+||cdn.cookielaw.org/scripttemplates/otSDKStub.js
+www.flashscore.de##.otPlaceholder
+! https://www.elefacts.de cookie consent
+www.elefacts.de##.cc_overlay_lock
+! https://www.spiegel.de cookie consent
+www.spiegel.de##.sm\:py-24.sm\:px-16.md\:p-24.lg\:py-24.lg\:px-12.sm\:mx-16.md\:mx-auto.lg\:mx-auto.md\:w-10\/12.lg\:w-8\/12.bg-white
+||sni.cdn.prod.www.spiegel.de.c.footprint.net^
+! https://taxfix.de cookie consent
+taxfix.de###cookie-consent-banner-container
+! Unsupported
+! https://de.trustpilot.com cookie consent
+trustpilot.com###onetrust-consent-sdk
+! https://clashofclans.com cookie consent
+clashofclans.com##.cc-bottom.cc-theme-classic.cc-type-info.cc-banner.cc-window
+! https://multiplayer.it cookie consent
+multiplayer.it##.iubenda-cs-visible.iubenda-cs-slidein.iubenda-cs-overlay.iubenda-cs-center.iubenda-cs-default-floating
+!||multiplayer.it/misc/approvazione-gdpr/?view=article_detail&_=1623262619766$xhr,1p
+!||multiplayer.it/misc/approvazione-gdpr/?view=article_detail&_$xhr,1p
+!||tippler.merlinforce.com/integration/build/105982485$script,domain=multiplayer.it
+! Unsupported
+! https://www.nokiantyres.com.tr cookie consent
+nokiantyres.com.tr###cookie-information-template-wrapper
+! https://www.kinnarps.de cookie consent
+kinnarps.de##.js__cookie.cookie
+! https://www.storage-mart.com cookie consent
+storage-mart.com##.smPolicyBanner
+! https://cars.mclaren.com cookie consent
+cars.mclaren.com###onetrust-consent-sdk
+! https://wiiubrew.org
+wiiubrew.org##.banner-container.mw-cookiewarning-container
+! https://www.ksta.de cookie consent
+!||consent2.ksta.de/wrapperMessagingWithoutDetection.js$script,domain=www.ksta.de
+! Unsupported
+! Unsupported
+! Unsupported
+! Sign up
+mobil.ksta.de##.dimissed.sticky-footer.screen.ssoTemplate.revealed
 ! https://sitecheck.sucuri.net cookie banner
 sitecheck.sucuri.net##.p-0.hide.cookie-policy-banner.container-fluid
 ! https://github.com/easylist/easylist/issues/7873
@@ -19,6 +115,10 @@ fc.lc###cookie-pop
 shrinkme.io###cookie-pop
 ! 2021-06-09 https://www.sozcu.com.tr
 sozcu.com.tr###onetrust-consent-sdk
+! https://www.google.org cookie consent
+www.google.org###cookieBar
+! https://blog.google cookie consent
+blog.google##.cookie-show
 ! 2021-06-09 https://uk.ixl.com
 uk.ixl.com##.cookie-privacy-banner-container
 ! 2021-06-09 https://www.urlaubme.de
@@ -46,6 +146,25 @@ sparkasse-hagenherdecke.de##.initial.if6_eprivacy.if6_outer:remove()
 ! https://github.com/AdguardTeam/AdguardFilters/commit/d2c6ea33c8896a18de39b8db538715520ae49b31
 www.dtv.de##.cc-color-override-datareporter.cc-middle.cc-theme-block.cc-type-opt-out.cc-banner.cc-window
 www.dtv.de###dr_blocking_div
+! https://www.tranzystor.pl cookie banner
+www.tranzystor.pl###tranzystorcookies
+! https://www.visitberlin.de cookie banner
+www.visitberlin.de###klaro
+! https://insani24.de cookie banner
+insani24.de###ws_eu-cookie-container
+! https://www.kliemannsland.de cookie banner
+www.kliemannsland.de##.overlay_bc_banner
+! Unsupported
+www.kliemannsland.de###banner-wrapper
+! Unsupported
+! https://www.giga.de cookie-consent
+giga.de###sp_message_container_469314
+! Unsupported
+! Unsupported
+! Unsupported
+! Unsupported
+||cdn.privacy-mgmt.com/consent/tcfv2/vendor-list/categories?siteId=1955&consentLanguage=de
+||consent.giga.de/Notice.93e4c.css
 ! https://askubuntu.com plus https://stackoverflow.com
 askubuntu.com,stackoverflow.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
 ! 2021-04-14 https://security.stackexchange.com
