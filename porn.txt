@@ -171,6 +171,25 @@ stiffia.com$all
 ! https://github.com/easylist/easylist/pull/6601
 ! https://www.siteadvisor.com/sitereport.html?url=playvids.com
 playvids.com$all
+! https://www.virustotal.com/gui/ip-address/46.229.170.3/relations
+! https://www.fortiguard.com/webfilter?q=+nudepussypics.space&version=8
+nudepussypics.space$all
+! https://www.fortiguard.com/webfilter?q=+sexgames.pro&version=8
+sexgames.pro$all
+www.sexgames.pro$all
+! https://www.fortiguard.com/webfilter?q=nakedgirlwallpaper.pro&version=8
+nakedgirlwallpaper.pro$all
+! https://www.fortiguard.com/webfilter?q=ivirtualgirls.com&version=8
+ivirtualgirls.com$all
+! https://www.fortiguard.com/webfilter?q=virtualstripper.pro&version=8
+virtualstripper.pro$all
+! https://www.fortiguard.com/webfilter?q=cdn1.nudepussypics.space&version=8
+cdn1.nudepussypics.space$all
+! https://www.fortiguard.com/webfilter?q=+orgazm.mobi&version=8
+orgazm.mobi$all
+! https://www.fortiguard.com/webfilter?q=nicepussy.org&version=8
+nicepussy.org$all
+www.nakedgirlwallpaper.pro$all
 
 ! https://github.com/ABPindo/indonesianadblockrules/issues/181
 ! https://www.siteadvisor.com/sitereport.html?url=semprot.com
