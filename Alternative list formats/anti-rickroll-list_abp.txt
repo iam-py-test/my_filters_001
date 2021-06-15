@@ -1,0 +1,225 @@
+! Title: Antirickroll list - a list to block rickrolls
+! Description: Rickrolls are an annoying prank which is spreading on the internet. This list is designed to block known rickroll sites and rickroll images. It will be decommissioned once this dumb prank stops being popular.
+! Last updated: 14/6/2021
+! Expires: 1 day
+! License: No copyright
+! Homepage: https://github.com/iam-py-test/my_filters_001
+!A rickroll website
+||secretrickroll.com^
+!Hide text containing the word rickroll
+##*:has-text(Get rickroll)
+##*:has-text(rickroll)
+!Hide images/videos containing the word rickroll
+##[src*=rickroll]:not(iframe)
+##[srcset*=rickroll]
+##img[alt*=rickroll]
+!Block anything related to rickrolling except frames and xhrs, which are blocked separately. 
+! This was removed due to breakage
+!/*rickroll$all,~frame,~xhr,domain=~wikipedia.org|~github.com|~githubusercontent.com
+!Block rickroll related xhrs - removed due to breakage
+!/*rickroll$xhr,redirect=noop.txt
+!Make rickroll frames click2load
+||/*rickroll^
+||rickroll^
+!Block rickroll links
+!Removed due to breakage which forced me to make this change on another device 
+!##[href*=rickroll]
+!YouTube rickrolling
+youtube.com##:has-text(rickroll)
+||youtube.com/results?search_query=rick+roll
+!Rickroll YouTube videos - most likely only a few of the many
+||youtube.com/watch?v=oHg5SJYRHA0
+||youtube.com/watch?v=x31tDT-4fQw
+||youtube.com/watch?v=sXwaRjU7Tj0
+||youtube.com/watch?v=eErVS4nxol8
+||youtube.com/watch?v=2xx_2XNxxfA
+||youtube.com/watch?v=d0tGBCCE0lc
+||youtube.com/watch?v=f8GCgROPpzo
+||youtube.com/watch?v=jN1k02V-wwk
+||youtube.com/watch?v=u6NOTogsw8M
+||youtube.com/watch?v=dQw4w9WgXcQ
+||youtube.com/watch?v=OsALjIJ8C0I
+||youtube.com/watch?v=0lQqK-ofK3M
+||youtube.com/watch?v=DLzxrzFCyOs
+||youtube.com/watch?v=bxqLsrlakK8
+||youtube.com/watch?v=K7XHy8nppf4
+||youtube.com/watch?v=bxqLsrlakK8
+||youtube.com/watch?v=xaazUgEKuVA
+||youtube.com/watch?v=NfSGm9DDQ3o
+||youtube.com/watch?v=VkunGYeF22A
+||youtube.com/watch?v=g5-OSw12tWo
+||youtube.com/watch?v=8JuzexPZckA
+||youtube.com/watch?v=DrqtmRVnXdY
+||youtube.com/watch?v=pvJ5umdWWoI
+||youtube.com/watch?v=3HtCQCFk1W0
+||youtube.com/watch?v=ZXpThNX9IRc
+||youtube.com/watch?v=i5VeMbagIaU
+||youtube.com/watch?v=47ibFGy-w18
+||youtube.com/watch?v=M4l7wvcrgoE
+||youtube.com/watch?v=6vJwwRUtwMw
+||youtube.com/watch?v=uyE80ebItlA
+||youtube.com/watch?v=S5o9g22BdXw
+||youtube.com/watch?v=S5o9g22BdXw
+||youtube.com/watch?v=Wwf9G68OCO0
+||youtube.com/watch?v=rTga41r3a4s
+||youtube.com/watch?v=YuBmzYoEz8U
+||youtube.com/watch?v=q3yUYEkNUQU
+||youtube.com/watch?v=q3yUYEkNUQU
+||youtube.com/watch?v=ghGoI7xVtSI
+||youtube.com/watch?v=MRW7d7PIZ6U
+||youtube.com/watch?v=VbUuB1aN2DA
+||youtube.com/watch?v=kzymKOg0Zj8
+||youtube.com/watch?v=0zBAP0KN0TQ
+||youtube.com/watch?v=2MZMAxmmQwA
+||youtube.com/watch?v=B-P5NvF9JOg
+||youtube.com/watch?v=JJdXzeXQ1J8
+||youtube.com/watch?v=gEbkeQwEJh4
+||youtube.com/watch?v=QUzCq9Cz_v8
+||youtube.com/watch?v=4GAvbdOMANc
+!
+||youtube.com/watch?v=90vkulvZCCg
+||youtube.com/watch?v=dUs3Vm19QLo
+||youtube.com/watch?v=W68SFQ3mc5M
+||youtube.com/watch?v=_W5JIr-AR1o
+||youtube.com/watch?v=q2npAgPEF7s
+||youtube.com/watch?v=ZXpThNX9IRc
+||youtube.com/watch?v=IpLUifjqlIs
+||youtube.com/watch?v=8EQRGf9GQPU
+||youtube.com/watch?v=z6pBDrF7seo
+||youtube.com/watch?v=bxqLsrlakK8
+||youtube.com/watch?v=PhdSYf4uGjA
+||youtube.com/watch?v=8CfCBhfaJk4
+||youtube.com/watch?v=4vfdufpZFJs
+||youtube.com/watch?v=1RY8-NddZso
+||youtube.com/watch?v=6_b7RDuLwcI
+!||youtube.com/watch?v=gC7Plr1DgiI$document,frame
+!||youtube.com/watch?v=HIcSWuKMwOw$document,frame
+!Embeds - fixed by catch-all
+!||youtube-nocookie.com/embed/dQw4w9WgXcQ$all
+!Embed catch-all?
+||youtube*.com/*gC7Plr1DgiI
+||youtube*.com/*dQw4w9WgXcQ
+||youtube*.com/*6_b7RDuLwcI
+||youtube*.com/*1RY8-NddZso
+||youtube*.com/*4vfdufpZFJs
+||youtube*.com/*8CfCBhfaJk4
+||youtube*.com/*PhdSYf4uGjA
+||youtube*.com/*bxqLsrlakK8
+||youtube*.com/*hicswukmwow
+||youtube*.com/*HIcSWuKMwOw
+||youtube*.com/*cvh0nX08nRw
+||youtube*.com/*sXwaRjU7Tj0
+||youtube*.com/*iik25wqIuFo
+||youtube*.com/*BT9h5ifR1tY
+||youtube*.com/*z6pBDrF7seo
+||youtube*.com/*8EQRGf9GQPU
+||youtube*.com/*IpLUifjqlIs
+||youtube*.com/*ZXpThNX9IRc
+||youtube*.com/*_W5JIr-AR1o
+||youtube*.com/*W68SFQ3mc5M
+||youtube*.com/*dUs3Vm19QLo
+||youtube*.com/*90vkulvZCCg
+! https://www.youtube.com/playlist?list=PLVbxVQf7e2KRz1J34jFf7jDJFDT9lvnQ9
+||youtube*.com/*rW7hXs-81hM
+||youtube*.com/*SO4c1NlGCpY
+||youtube*.com/*Mdq6sQPKYqQ
+||youtube*.com/*WpzFvJwceO4
+||youtube*.com/*Mdq6sQPKYqQ
+||youtube*.com/*TCUPeAlpDVE
+||youtube*.com/*soq9cLVa5Xo
+||youtube*.com/*g_KYQltEAuc
+||youtube*.com/*HV8IxKtAlrA
+||youtube*.com/*HUU3kOhjFfg
+||youtube*.com/*C5GGeuFPVVE
+||youtube*.com/*Tt7bzxurJ1I
+||youtube*.com/*OYPG7j8rKZY
+||youtube*.com/*INbRpclIFsE
+||youtube*.com/*bCh5IlXTckA
+||youtube*.com/*GjyUk_Ebb4o
+||youtube*.com/*oJl25bABYac
+||youtube*.com/*nW0P2hYBm9A
+||youtube*.com/*eBsIpefmXvE
+||youtube*.com/*6vBnqJhP7f8
+||youtube*.com/*Kiz3PM387FI
+||youtube*.com/*s0akG-V_Y30
+||youtube*.com/*JkcHqN6YswU
+||youtube*.com/*SsiHLiXBlcM
+||youtube*.com/*9oxRDJjAQKI
+||youtube*.com/*LjQZaD9EEJ0
+||youtube*.com/*E458nb_pPmk
+||youtube*.com/*qxeokP0n6V0
+||youtube*.com/*42OleX0HR4E
+||youtube*.com/*ikFZLI4HLpQ
+||youtube*.com/*kczWpSN6emg
+||youtube*.com/*N3MKlU5_Gs0
+||youtube*.com/*SWejvNI7WlM
+||youtube*.com/*j5a0jTc9S10
+||youtube*.com/*8O_ifyIIrN4
+||youtube*.com/*_sWG4uhLiWo
+||youtube*.com/*cAN30xJp2Cs
+||youtube*.com/*Q53-mWHvxJo
+||youtube*.com/*DIs7dtlMCP0
+||youtube*.com/*d4N5LnsNpF0
+||youtube*.com/*PibwQR9nRus
+||youtube*.com/*QdNEtVH9bZE
+||youtube*.com/*vkbQmH5MPME
+||youtube*.com/*fMnIpIMuBJI
+||youtube*.com/*lHyeAtiiL18
+||youtube*.com/*s99hC5WUwjo
+||youtube*.com/*0SoNH07Slj0
+||youtube*.com/*y6120QOlsfU
+||youtube*.com/*Eg7XtrH0duI
+||youtube*.com/*klqi_h9FElc
+||youtube*.com/*6RyOsIseJbk
+||youtube*.com/*BXuxOeg6PiQ
+||youtube*.com/*fZi4JxbTwPo
+||youtube*.com/*OYpwAtnywTk
+||youtube*.com/*gL1uxYyAJiA
+||youtube*.com/*ZEvBBQ_ILkI
+||youtube*.com/*0Z0i-nimHkU
+||youtube.com/*?*list=PLVbxVQf7e2KRz1J34jFf7jDJFDT9lvnQ9
+||youtube*.com/*gidHrKbTpog
+||youtube*.com/*cH1NLToRz_o
+||youtube*.com/*06pBzAlItwI
+||youtube*.com/*3KANI2dpXLw
+||youtube*.com/*-lmhJOhQHWc
+||youtube*.com/*0EY98EsPXs8
+||youtube*.com/*kJmKBhYsJho
+||youtube*.com/*Dh-CW22axyY
+||youtube*.com/*VSa2IqDwnQ8
+||youtube*.com/*nQGsT44rVjk
+||youtube*.com/*nHRbZW097Uk
+||youtube*.com/*REWyCy_m39Q
+||youtube*.com/*Uj1ykZWtPYI
+||youtube*.com/*xfr64zoBTAQ
+||youtube*.com/*xfr64zoBTAQ
+||youtube*.com/*V-_O7nl0Ii0
+||youtube*.com/*EE-xtCF3T94
+||youtube*.com/*dPmZqsQNzGA
+||youtube*.com/*j5a0jTc9S10
+||youtube*.com/*fcZXfoB2f70
+||youtube*.com/*Dzv7NfPz1Yc
+||youtube*.com/*fabiBsQWDTY
+||youtube*.com/*4FL4GORUTSM
+||youtube*.com/*epyRUp0BhrA
+! Someone tried to rickroll me with this - it failed
+! https://www.youtube.com/watch?v=-51AfyMqnpI
+||youtube*.com/*-51AfyMqnpI
+!More non-youtube rickroll videos
+||vimeo.com/516035924
+||www.reddit.com/r/Limenade/comments/ltmszs/rick_astley_never_gonna_give_you_up_video
+||vimeo.com/429388049
+||bing.com/videos/search?q=rick+astley+never+gonna+give+you+up&docid=608043081444441392&mid=4E7B1C0F8E67E9F7B1364E7B1C0F8E67E9F7B136&view=detail&FORM=VRAASM&ru=%2Fvideos%2Fsearch%3Fq%3Dnever%2Bgonna%2Bgive%2Byou%2Bup%26FORM%3DHDRSC3
+||vimeo.com/307987646
+!Maybe rickroll? 
+||www.youtube-nocookie.com/embed/dQw4w9WgXcQ%22
+!URL shortners are used for all forms of things to hid the real url - rickrolls are just one use
+||bit.ly^
+||tinyurl.com^
+!Rickroll images
+||edge.alluremedia.com.au/m/g/2020/01/rickroll.jpg
+||i.ytimg.com/vi/eErVS4nxol8/hqdefault.jpg
+||lh3.googleusercontent.com/b59aHI7z3SqRta9NKk-U3Blmf-sR0p8U2WULFwPdI9BqdMgWg3vuDuUcy9R1EE1z6Ime
+!Preview/rickroll gif
+||i.ytimg.com/vi/HIcSWuKMwOw/*.jpg
+||i.ytimg.com/vi/cvh0nX08nRw/*.jpg
