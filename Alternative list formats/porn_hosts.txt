@@ -163,6 +163,8 @@
 # https://www.siteadvisor.com/sitereport.html?url=101sexsecret.com
 # https://www.fortiguard.com/webfilter?q=101sexsecret.com
 127.0.0.1 101sexsecret.com
+# https://sitecheck.sucuri.net/results/101sexsecret.com
+127.0.0.1 ww9.101sexsecret.com
 # Found in random reports online
 # https://www.virustotal.com/gui/ip-address/103.224.212.247/relations
 # https://www.siteadvisor.com/sitereport.html?url=mailserver.sinfulbitch.com
