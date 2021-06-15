@@ -22,6 +22,13 @@ These lists are designed for uBlock Origin and may work in AdGuard. They are unt
 If you need these lists in alternet formats, you can use the following. Note that the _Anti cookie-conset and paywalls list_ will not and can not be transfered into another format.
 #### Pornograhy Blocklist
 - HOSTs format - https://github.com/iam-py-test/my_filters_001/blob/main/Alternative%20list%20formats/porn_hosts.txt
-- AdBlock Plus format (will create soon)
+- AdBlock Plus format - https://github.com/iam-py-test/my_filters_001/blob/main/Alternative%20list%20formats/porn_abp.txt
+- Domains only (i.e. PiHole) - https://github.com/iam-py-test/my_filters_001/blob/main/Alternative%20list%20formats/porn_domains.txt
+- Online domains only domains format - https://github.com/iam-py-test/my_filters_001/blob/main/Alternative%20list%20formats/porn_domains_lite.txt
+- Online domains only HOSTS format (recommened above normal for HOSTS use due to being smaller) - https://github.com/iam-py-test/my_filters_001/blob/main/Alternative%20list%20formats/porn_hosts_lite.txt
+- Pure (no comments) HOSTS format (more protection than Online domains only, recommended for manual use) - https://github.com/iam-py-test/my_filters_001/blob/main/Alternative%20list%20formats/porn_pure_hosts.txt
 #### Antimalware
 - HOSTs format - https://github.com/iam-py-test/my_filters_001/blob/main/Alternative%20list%20formats/antimalware_hosts.txt
+- Domains only - https://github.com/iam-py-test/my_filters_001/blob/main/Alternative%20list%20formats/antimalware_domains.txt
+- AdBlock Plus format (_highly_ not recommended due to lack of needed features - including the ability to prevent the loading of a domain) - https://github.com/iam-py-test/my_filters_001/blob/main/Alternative%20list%20formats/antimalware_abp.txt
+
