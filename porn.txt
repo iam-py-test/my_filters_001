@@ -168,6 +168,14 @@ stiffia.com$all
 
 
 ! Found in random reports online
+! https://github.com/jerryn70/GoodbyeAds/issues/122
+! https://www.siteadvisor.com/sitereport.html?url=si6ling.incestflix.com
+si6ling.incestflix.com$all
+! https://www.siteadvisor.com/sitereport.html?url=incestflix.com
+incestflix.com$all
+! https://www.siteadvisor.com/sitereport.html?url=www.incestflix.com
+www.incestflix.com$all
+
 ! https://labs.sucuri.net/signatures/malwares/html-defaced-bghh-001/
 ! https://sitecheck.sucuri.net/results/swfcabin.com
 ! https://www.siteadvisor.com/sitereport.html?url=cafesex.net
