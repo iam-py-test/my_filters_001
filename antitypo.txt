@@ -62,3 +62,6 @@ cchase.com$document
 ! https://www.virustotal.com/gui/url/6d9e9d347f3578fe8fea973820a40a0ab760165e613af323b4a025dee339c73e/detection
 ! https://www.mywot.com/scorecard/blogsopt.com
 blogsopt.com$all
+! https://www.virustotal.com/gui/url/76074c7a040ba1edcea412c3d1ea9098ee43ee85cffb75be5882ea553bc43d81/community
+! https://www.mywot.com/scorecard/g0ogle.com
+g0ogle.com$document
