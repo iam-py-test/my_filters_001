@@ -3,13 +3,9 @@
 # Licence: No copyright but please attribute the original source (when available - see comments above each entry)
 # Expires: 1 day
 # Homepage: https://github.com/iam-py-test/my_filters_001
-<<<<<<< HEAD
 # Issues: https://github.com/iam-py-test/my_filters_001/issues
-# Last updated: 11/6/2021
+# Last updated: 15/6/2021
 # A note about dates: All my dates are in EU format, which means day/month/year
-=======
-# Last updated: 2/6/2021
->>>>>>> e752be8 ([bot] add alt list)
 # Porn websites
 127.0.0.1 shesfreaky.com
 127.0.0.1 eroticbeauties.net
@@ -77,7 +73,6 @@
 127.0.0.1 secretfuck.net
 # https://www.siteadvisor.com/sitereport.html?url=secretpics.net
 127.0.0.1 secretpics.net
-<<<<<<< HEAD
 # https://www.siteadvisor.com/sitereport.html?url=bornsexy.com
 127.0.0.1 bornsexy.com
 # https://www.fortiguard.com/webfilter?q=hotgirl.com&version=8
@@ -102,11 +97,16 @@
 127.0.0.1 pregobabes.com
 # https://www.siteadvisor.com/sitereport.html?url=nudefucker.com
 127.0.0.1 nudefucker.com
-# 
-=======
-
-#A random domain I made up
->>>>>>> e752be8 ([bot] add alt list)
+# https://www.siteadvisor.com/sitereport.html?url=virginfucked.com
+127.0.0.1 virginfucked.com
+# https://www.siteadvisor.com/sitereport.html?url=virginfuck.com
+127.0.0.1 virginfuck.com
+# https://www.siteadvisor.com/sitereport.html?url=virginteen.com
+127.0.0.1 virginteen.com
+# https://www.siteadvisor.com/sitereport.html?url=virginnude.com
+127.0.0.1 virginnude.com
+# https://www.siteadvisor.com/sitereport.html?url=nudepreg.com
+127.0.0.1 nudepreg.com
 # https://www.siteadvisor.com/sitereport.html?url=sexy-girls.com
 # https://www.siteadvisor.com/sitereport.html?url=pornxxx.net
 127.0.0.1 pornxxx.net
@@ -118,6 +118,8 @@
 # https://www.siteadvisor.com/sitereport.html?url=fuq.com
 127.0.0.1 www.fuq.com
 127.0.0.1 fuq.com
+# https://www.fortiguard.com/webfilter?q=beeglivesex.com&version=8
+127.0.0.1 beeglivesex.com
 # https://www.siteadvisor.com/sitereport.html?url=porn.xyz
 # https://www.fortiguard.com/webfilter?q=porn.xyz
 127.0.0.1 porn.xyz
@@ -162,8 +164,87 @@
 # https://www.fortiguard.com/webfilter?q=101sexsecret.com
 127.0.0.1 101sexsecret.com
 # Found in random reports online
-<<<<<<< HEAD
-<<<<<<< HEAD
+# https://www.virustotal.com/gui/ip-address/103.224.212.247/relations
+# https://www.siteadvisor.com/sitereport.html?url=mailserver.sinfulbitch.com
+127.0.0.1 mailserver.sinfulbitch.com
+# https://www.siteadvisor.com/sitereport.html?url=sinfulbitch.com
+127.0.0.1 sinfulbitch.com
+# https://github.com/DandelionSprout/adfilt/issues/3
+# https://www.siteadvisor.com/sitereport.html?url=nakenprat.com
+127.0.0.1 nakenprat.com
+# https://github.com/easylist/easylist/pull/6601
+# https://www.siteadvisor.com/sitereport.html?url=playvids.com
+127.0.0.1 playvids.com
+# https://www.virustotal.com/gui/ip-address/46.229.170.3/relations
+# https://www.fortiguard.com/webfilter?q=+nudepussypics.space&version=8
+127.0.0.1 nudepussypics.space
+# https://www.fortiguard.com/webfilter?q=+sexgames.pro&version=8
+127.0.0.1 sexgames.pro
+127.0.0.1 www.sexgames.pro
+# https://www.fortiguard.com/webfilter?q=nakedgirlwallpaper.pro&version=8
+127.0.0.1 nakedgirlwallpaper.pro
+# https://www.fortiguard.com/webfilter?q=ivirtualgirls.com&version=8
+127.0.0.1 ivirtualgirls.com
+# https://www.fortiguard.com/webfilter?q=virtualstripper.pro&version=8
+127.0.0.1 virtualstripper.pro
+# https://www.fortiguard.com/webfilter?q=cdn1.nudepussypics.space&version=8
+127.0.0.1 cdn1.nudepussypics.space
+# https://www.fortiguard.com/webfilter?q=+orgazm.mobi&version=8
+127.0.0.1 orgazm.mobi
+# https://www.fortiguard.com/webfilter?q=nicepussy.org&version=8
+127.0.0.1 nicepussy.org
+127.0.0.1 www.nakedgirlwallpaper.pro
+# https://github.com/ABPindo/indonesianadblockrules/issues/181
+# https://www.siteadvisor.com/sitereport.html?url=semprot.com
+127.0.0.1 semprot.com
+# https://www.siteadvisor.com/sitereport.html?url=www.semprot.com
+127.0.0.1 www.semprot.com
+# https://redirectdetective.com
+# https://www.mywot.com/en/scorecard/46.166.167.16
+# https://github.com/jerryn70/GoodbyeAds/issues/122
+# https://www.siteadvisor.com/sitereport.html?url=si6ling.incestflix.com
+127.0.0.1 si6ling.incestflix.com
+# https://www.siteadvisor.com/sitereport.html?url=incestflix.com
+127.0.0.1 incestflix.com
+# https://www.siteadvisor.com/sitereport.html?url=www.incestflix.com
+127.0.0.1 www.incestflix.com
+# https://labs.sucuri.net/signatures/malwares/html-defaced-bghh-001/
+# https://sitecheck.sucuri.net/results/swfcabin.com
+# https://www.siteadvisor.com/sitereport.html?url=cafesex.net
+127.0.0.1 cafesex.net
+127.0.0.1 www.cafesex.net
+# https://github.com/webcompat/web-bugs/issues/74820
+# https://www.fortiguard.com/webfilter?q=e56rzanvfxljd5on.com&version=8
+127.0.0.1 e56rzanvfxljd5on.com
+# https://github.com/webcompat/web-bugs/issues/77182
+# https://www.fortiguard.com/webfilter?q=vrporn.com&version=8
+127.0.0.1 vrporn.com
+# https://github.com/MajkiIT/polish-ads-filter/issues/11722
+# https://www.siteadvisor.com/sitereport.html?url=lacha.pl
+127.0.0.1 lacha.pl
+# https://github.com/MajkiIT/polish-ads-filter/issues/14347
+# https://www.siteadvisor.com/sitereport.html?url=otube.pl
+# https://www.fortiguard.com/webfilter?q=otube.pl&version=8
+127.0.0.1 otube.pl
+# https://github.com/MajkiIT/polish-ads-filter/issues/16867
+# https://www.siteadvisor.com/sitereport.html?url=tube-bunny.com
+127.0.0.1 tube-bunny.com
+# https://github.com/AdguardTeam/AdguardFilters/issues/85485
+# https://www.fortiguard.com/webfilter?q=www.simply-hentai.com&version=8
+# https://www.siteadvisor.com/sitereport.html?url=www.simply-hentai.com
+127.0.0.1 www.simply-hentai.com
+127.0.0.1 simply-hentai.com
+# https://github.com/AdguardTeam/AdguardFilters/issues/85564
+# https://www.siteadvisor.com/sitereport.html?url=nudeselfiespics.com
+127.0.0.1 nudeselfiespics.com
+# https://github.com/AdguardTeam/AdguardFilters/issues/85568
+# https://www.siteadvisor.com/sitereport.html?url=www.sexpuss.org
+127.0.0.1 www.sexpuss.org
+127.0.0.1 sexpuss.org
+# https://github.com/AdguardTeam/AdguardFilters/issues/85760
+# https://www.fortiguard.com/webfilter?q=www.pussyspace.net+&version=8
+127.0.0.1 www.pussyspace.net
+127.0.0.1 pussyspace.net
 # https://github.com/blocklistproject/Lists/issues/327
 # https://www.siteadvisor.com/sitereport.html?url=jayspov.net
 127.0.0.1 jayspov.net
@@ -447,16 +528,10 @@
 # https://github.com/easylist/easylist/pull/7943
 # https://www.fortiguard.com/webfilter?q=xxxymovies.com&version=8
 127.0.0.1 xxxymovies.com
-=======
->>>>>>> 3de945b ([bot] add alt list)
 # https://github.com/easylist/easylist/pull/7944
 # https://www.fortiguard.com/webfilter?q=pussy.org&version=8
 127.0.0.1 pussy.org
 127.0.0.1 www.pussy.org
-<<<<<<< HEAD
-=======
-
->>>>>>> 3de945b ([bot] add alt list)
 # https://github.com/easylist/easylist/pull/7950
 # https://www.fortiguard.com/webfilter?q=pornchimp.com&version=8
 127.0.0.1 pornchimp.com
@@ -520,24 +595,10 @@
 127.0.0.1 youpornhub.it
 # https://www.fortiguard.com/webfilter?q=yourdailypornstars.com&version=8
 127.0.0.1 yourdailypornstars.com
-<<<<<<< HEAD
-=======
->>>>>>> e752be8 ([bot] add alt list)
-=======
-
->>>>>>> 3de945b ([bot] add alt list)
 # https://trustscam.com/baddiehub.com
 # https://www.mywot.com/scorecard/baddiehub.com
 # https://www.siteadvisor.com/sitereport.html?url=baddiehub.com
 127.0.0.1 baddiehub.com
-<<<<<<< HEAD
-=======
-
-<<<<<<< HEAD
->>>>>>> e752be8 ([bot] add alt list)
-=======
-
->>>>>>> 3de945b ([bot] add alt list)
 # https://github.com/blocklistproject/Lists/issues/311
 # https://www.siteadvisor.com/sitereport.html?url=eporner.com
 127.0.0.1 eporner.com
@@ -552,17 +613,9 @@
 127.0.0.1 www.incestflix.com
 127.0.0.1 www.nudevista.com
 127.0.0.1 www.pornpics.com
-<<<<<<< HEAD
 # https://github.com/easylist/easylist/issues/7968
 # https://www.siteadvisor.com/sitereport.html?url=hentai-foundry.com
 127.0.0.1 hentai-foundry.com
-=======
-
-# https://github.com/easylist/easylist/issues/7968
-# https://www.siteadvisor.com/sitereport.html?url=hentai-foundry.com
-127.0.0.1 hentai-foundry.com
-
->>>>>>> e752be8 ([bot] add alt list)
 # https://github.com/easylist/easylist/pull/7932
 # https://siteadvisor.com/sitereport.html?url=xxxdan.com
 # https://www.virustotal.com/gui/url/b9a0bb0bc59085094468e9e33748c312b72d17b33ac1c3ba26b1899ea8b2d5c7/links
@@ -585,10 +638,6 @@
 # https://github.com/easylist/easylist/pull/7947
 # https://siteadvisor.com/sitereport.html?url=adultfreex.com
 127.0.0.1 adultfreex.com
-<<<<<<< HEAD
-=======
-
->>>>>>> e752be8 ([bot] add alt list)
 # domains from https://github.com/blocklistproject/Lists/issues/310
 127.0.0.1 bestporncomix.com
 127.0.0.1 worldporncomix.com
@@ -610,10 +659,6 @@
 127.0.0.1 comicporns.com
 # https://www.fortiguard.com/webfilter?q=8muses.net&version=8
 127.0.0.1 8muses.net
-<<<<<<< HEAD
-=======
-
->>>>>>> e752be8 ([bot] add alt list)
 # https://someonewhocares.org/hosts/
 # https://www.siteadvisor.com/sitereport.html?url=www.theexgirlfriends.com
 #https://www.virustotal.com/gui/domain/theexgirlfriends.com/detection
@@ -627,10 +672,6 @@
 # https://safeweb.norton.com/report/show?url=porn.biz
 # https://www.mywot.com/en/scorecard/porn.biz
 127.0.0.1 porn.biz
-<<<<<<< HEAD
-=======
-
->>>>>>> e752be8 ([bot] add alt list)
 # https://www.nbcnews.com/id/wbna51498128
 # https://www.pcworld.com/article/2034864/just-how-much-malware-is-on-free-porn-sites-.html
 # https://blog.dynamoo.com/2013/04/top-porn-sites-lead-to-malware.html
@@ -673,17 +714,9 @@
 127.0.0.1 porno.net
 127.0.0.1 titties.com
 127.0.0.1 xxxtube.com
-<<<<<<< HEAD
 # https://someonewhocares.org/hosts/
 # https://www.mywot.com/scorecard/lolshock.com
 127.0.0.1 lolshock.com
-=======
-
-# https://someonewhocares.org/hosts/
-# https://www.mywot.com/scorecard/lolshock.com
-127.0.0.1 lolshock.com
-
->>>>>>> e752be8 ([bot] add alt list)
 # https://github.com/spirillen/ublockorigin-rules/commit/33af13a6fff15036637c8e941b24d6c8b4ef8bf9
 # https://www.siteadvisor.com/sitereport.html?url=tubepornstars.tv
 127.0.0.1 tubepornstars.tv
@@ -1512,11 +1545,6 @@
 127.0.0.1 crazyporn.xxx
 # https://www.siteadvisor.com/sitereport.html?url=pornhat.one
 127.0.0.1 pornhat.one
-<<<<<<< HEAD
-=======
-
-
->>>>>>> e752be8 ([bot] add alt list)
 # Randomly genorated domains
 # https://www.fortiguard.com/webfilter?q=preg.xyz&version=8
 127.0.0.1 preg.xyz
