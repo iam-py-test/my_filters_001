@@ -168,6 +168,12 @@ stiffia.com$all
 
 
 ! Found in random reports online
+! https://www.virustotal.com/gui/ip-address/103.224.212.247/relations
+! https://www.siteadvisor.com/sitereport.html?url=mailserver.sinfulbitch.com
+mailserver.sinfulbitch.com$all
+! https://www.siteadvisor.com/sitereport.html?url=sinfulbitch.com
+sinfulbitch.com$all
+
 ! https://github.com/DandelionSprout/adfilt/issues/3
 ! https://www.siteadvisor.com/sitereport.html?url=nakenprat.com
 nakenprat.com$all
