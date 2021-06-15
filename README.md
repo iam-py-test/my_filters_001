@@ -1,13 +1,13 @@
 # My filters
 This is a repo where I upload my filters. <br/>
-Feel free to use any and all of them (they are under no copyright) in [uBlock Origin](https://github.com/gorhill/uBlock) (recommended) or AdBGuard. <br/>
+Feel free to use any and all of them (they are under no copyright) in [uBlock Origin](https://github.com/gorhill/uBlock) (recommended) or AdGuard. <br/>
 Please report any issues you have and I will try to fix them; please note I may not reply within the day the issue is posted as I am often busy.
 
 
 ### Filters
 This repo contains the following lists:
 - Pornography Blocklist (porn.txt) ([Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/porn.txt&title=Pornography%20Blocklist))
-- Malware domains and URLs list (antimalware.txt)
+- Malware domains and URLs list (antimalware.txt) ([Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt&title=Malware%20domains%20and%20URLs%20list))
 - Anti Cookie-consent and paywalls list (anti-cookie+sign up.txt)
 - Anti redirectors list (anti-redirectors.txt)
 - Anti typosquatting list (antitypo.txt)
