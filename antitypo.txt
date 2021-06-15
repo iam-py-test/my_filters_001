@@ -59,3 +59,6 @@ payapl.com$all
 ! https://www.virustotal.com/gui/url/2b0a3525bf412601e1acea8f7ee1eb0627df843d58e2d10553ea5a81d4ba26be/detection
 ! https://www.siteadvisor.com/sitereport.html?url=cchase.com
 cchase.com$document
+! https://www.virustotal.com/gui/url/6d9e9d347f3578fe8fea973820a40a0ab760165e613af323b4a025dee339c73e/detection
+! https://www.mywot.com/scorecard/blogsopt.com
+blogsopt.com$all
