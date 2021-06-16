@@ -14,7 +14,7 @@ This repo contains the following lists:
 - Anti url tracking list (privacy.txt)
 
 These lists are designed for uBlock Origin and may work in AdGuard. They are untested in AdBlock Plus.<br/>
-If you need these lists in alternet formats, you can use the following. Note that the _Anti cookie-conset and paywalls list_ will not and can not be transfered into another format.
+If you need these lists in alternet formats, you can use the following. Note that the _Anti cookie-conset and paywalls list_ does not work as well in other formats, and only exists in uBlock Origin/AdGuard format, and in AdBlock Plus format (untested).
 #### Pornograhy Blocklist
 - HOSTs format - https://github.com/iam-py-test/my_filters_001/blob/main/Alternative%20list%20formats/porn_hosts.txt
 - AdBlock Plus format - https://github.com/iam-py-test/my_filters_001/blob/main/Alternative%20list%20formats/porn_abp.txt
