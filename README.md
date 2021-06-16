@@ -6,8 +6,8 @@ Please report any issues you have and I will try to fix them; please note I may 
 
 ### Filters
 This repo contains the following lists:
-- Pornography Blocklist (porn.txt) ([Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/porn.txt&title=Pornography%20Blocklist))
-- Malware domains and URLs list (antimalware.txt) ([Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt&title=Malware%20domains%20and%20URLs%20list))
+- Pornography Blocklist (porn.txt) ([Subscribe](https://iam-py-test.github.io/add_list.html?id=1))
+- Malware domains and URLs list (antimalware.txt) ([Subscribe](https://iam-py-test.github.io/add_list.html?id=2))
 - Anti Cookie-consent and paywalls list (anti-cookie+sign up.txt)
 - Anti redirectors list (anti-redirectors.txt)
 - Anti typosquatting list (antitypo.txt)
