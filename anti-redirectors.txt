@@ -74,3 +74,13 @@ git.io$document
 buff.ly$document
 ! https://www.mywot.com/scorecard/go.microsoft.com
 go.microsoft.com$document
+! https://github.com/404-not-find/urlshorten
+! https://www.mywot.com/scorecard/t.cn
+! https://www.virustotal.com/gui/url/13837bdd9a599156270ae6ce6cd6c0234404a0a50a52f32d0eb5ef04be95c9bf/community
+t.cn$document
+! https://www.virustotal.com/gui/ip-address/47.95.48.149/relations
+! https://www.mywot.com/scorecard/sinaurl.cn
+sinaurl.cn$document
+
+! internal Amazon URL shortener - https://www.virustotal.com/gui/url/7e815c5445c740bc53f6046d3c5b99be664aaedd8536e5c4ed57ec14e64b2ef4/details
+a.co$document
