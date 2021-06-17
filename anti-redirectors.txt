@@ -3,7 +3,7 @@
 ! Please report false positives & unblocked domains to https://github.com/iam-py-test/my_filters_001/issues Thanks!
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 7/6/2021
+! Last updated: 17/6/2021
 ! Google redirects
 ||google.*/url?$document
 ! Facebook
