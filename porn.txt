@@ -159,6 +159,8 @@ sex-tracker.com$all
 sextracker.de$all
 ! https://www.siteadvisor.com/sitereport.html?url=stiffia.com
 stiffia.com$all
+! https://www.siteadvisor.com/sitereport.html?url=stealthxxx.com
+stealthxxx.com$all
 
 ! A malware/porn domain - blocking here because it does have porn and should be blocked more globally.
 ! https://www.mywot.com/en/scorecard/101sexsecret.com
