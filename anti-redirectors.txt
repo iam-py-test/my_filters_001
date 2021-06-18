@@ -57,6 +57,7 @@ ouo.io$document
 clk.sh$document
 Shrink.Pe$document
 Al.ly$document
+! https://safeweb.norton.com/reviews?url=adfoc.us
 adfoc.us$document
 ! https://www.mywot.com/en/scorecard/shorte.st
 shorte.st$document
@@ -84,3 +85,11 @@ sinaurl.cn$document
 
 ! internal Amazon URL shortener - https://www.virustotal.com/gui/url/7e815c5445c740bc53f6046d3c5b99be664aaedd8536e5c4ed57ec14e64b2ef4/details
 a.co$document
+
+! Malware infections - you can use https://redirectdetective.com to find out where the links go if you must use them
+! https://safeweb.norton.com/reviews?url=adf.ly
+! https://www.virustotal.com/gui/url/f3c346224a877b6085292a47c0fc0fc894cdfad6ab5da9cba25051c8a8013247/community
+! https://www.mywot.com/scorecard/adf.ly
+! https://yandex.com/safety/?url=adf.ly
+! https://transparencyreport.google.com/safe-browsing/search?url=adf.ly
+adf.ly$all
