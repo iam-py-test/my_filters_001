@@ -8,6 +8,11 @@
 ! https://www.fortiguard.com Cookie consent 
 fortiguard.com###__agreementBar
 
+! https://www.dagsavisen.no cookie consent
+dagsavisen.no##.cookie-acceptance
+dagsavisen.no##+js(cookie-remover,__adblocker)
+dagsavisen.no##+js(set,MMGlobal.MMConsent.checkUserConsent,noopFunc)
+
 ! https://bitly.com cookie consent
 bitly.com###banner-cookie:remove()
 bitly.com###banner-spacer:remove()
