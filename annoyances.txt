@@ -1,0 +1,5 @@
+! Title: Annoyances
+! Expires: 1 day
+! Last updated: 18/6/2021
+! Possible Antiadblock (it detects adblocker but does nothing - yet)
+@@||npttech.com/advertising.js$script,domain=dagsavisen.no
