@@ -2,4 +2,7 @@
 ! Expires: 1 day
 ! Description: Do you find the promotion of Windows antivirus programs annoying, when your not even on Windows. This list should help get rid of those. Note that the intent of this list is not to block access to the websites related to these antivirus programs, but to make them a bit less annoying
 
+! https://id-ransomware.malwarehunterteam.com
+id-ransomware.malwarehunterteam.com##.ad
+
 ! More will be added soon...
