@@ -67,3 +67,5 @@ blogsopt.com$all
 g0ogle.com$document
 ! https://github.com/SOBotics/Belisarius/issues/5
 stackoverflows.com$document
+! https://safeweb.norton.com/reviews?url=googe.com
+googe.com$all
