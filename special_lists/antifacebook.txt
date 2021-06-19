@@ -1,5 +1,10 @@
-! Title: Anti-fackbook
+! Title: Anti-facebook
 ! Expires: 1 day
 ! Description: Do you want to get rid of Facebook for good? This list should help, but you may need to delete your account first.
 facebook.com$all
 facebook.net$all
+fbsbx.com$all
+fbcdn.net$all
+static.xx.fbcdn.net$all
+connect.facebook.net$all
+www.facebook.com$all
