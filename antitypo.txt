@@ -65,3 +65,5 @@ blogsopt.com$all
 ! https://www.virustotal.com/gui/url/76074c7a040ba1edcea412c3d1ea9098ee43ee85cffb75be5882ea553bc43d81/community
 ! https://www.mywot.com/scorecard/g0ogle.com
 g0ogle.com$document
+! https://github.com/SOBotics/Belisarius/issues/5
+stackoverflows.com$document
