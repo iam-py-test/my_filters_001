@@ -8,6 +8,16 @@
 ! https://www.fortiguard.com Cookie consent 
 fortiguard.com###__agreementBar
 
+! https://www.aftenposten.no cookie consent
+||cmp.aftenposten.no/index.html$subdocument
+aftenposten.no###sp_message_iframe_492662
+aftenposten.no###sp_message_container_492662
+aftenposten.no###data-controller-sticky
+aftenposten.no##+js(aeld,scroll)
+aftenposten.no##+js(cookie-remover,consentUUID)
+||cmp.aftenposten.no/mms/set_consent_cookies$xhr,domain=aftenposten.no
+
+
 ! https://www.dagsavisen.no cookie consent
 dagsavisen.no##.cookie-acceptance
 dagsavisen.no##+js(cookie-remover,__adblocker)
