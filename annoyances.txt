@@ -1,5 +1,18 @@
 ! Title: Annoyances
 ! Expires: 1 day
-! Last updated: 18/6/2021
+! Last updated: 19/6/2021
 ! Possible Antiadblock (it detects adblocker but does nothing - yet)
 @@||npttech.com/advertising.js$script,domain=dagsavisen.no
+
+
+! merriam-webster.com
+merriam-webster.com##+js(cookie-remover,OptanonConsent)
+merriam-webster.com##+js(cookie-remover,eupubconsent)
+www.merriam-webster.com##+js(cookie-remover,usprivacy)
+merriam-webster.com##+js(cookie-remover,user-data)
+
+! 2021-06-19 https://www.merriam-webster.com
+www.merriam-webster.com##.register-promo.section--spacer.row
+
+! 2021-06-19 https://www.dictionary.com
+www.dictionary.com###marketingBanner-right-button
