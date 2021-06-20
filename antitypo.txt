@@ -69,3 +69,7 @@ g0ogle.com$document
 stackoverflows.com$document
 ! https://safeweb.norton.com/reviews?url=googe.com
 googe.com$all
+! https://forum.mywot.com/24626-whatsmyipaddress-com
+whatsmyipaddress.com$document
+! https://www.fortiguard.com/webfilter?q=appple.com&version=8
+appple.com$all
