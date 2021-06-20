@@ -96,3 +96,11 @@ adf.ly$all
 
 ! DuckDuckGo redirects - https://help.duckduckgo.com/duckduckgo-help-pages/results/rduckduckgocom/
 r.duckduckgo.com$document
+
+! https://search.norton.com
+! https://www.mywot.com/scorecard/redirect.viglink.com
+redirect.viglink.com$document
+! https://redirectdetective.com
+! https://www.mywot.com/scorecard/jdoqocy.com
+www.jdoqocy.com$document
+jdoqocy.com$document
