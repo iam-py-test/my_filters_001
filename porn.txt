@@ -4,7 +4,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues: https://github.com/iam-py-test/my_filters_001/issues
-! Last updated: 18/6/2021
+! Last updated: 20/6/2021
 ! A note about dates: All my dates are in EU format, which means day/month/year
 ! Porn websites
 shesfreaky.com$all
@@ -194,7 +194,7 @@ virtualrealitypornsites.com$all
 dc-fd52826ded0a.virtualrealitypornsites.com$all
 ! https://www.virustotal.com/gui/ip-address/141.0.173.133/relations
 ! All the subdomains
- xxxgays.porno.com
+xxxgays.porno.com
 is.porno.com
 sexe.is.porno.com
 forza.porno.com
