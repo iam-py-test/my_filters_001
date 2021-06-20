@@ -73,3 +73,4 @@ googe.com$all
 whatsmyipaddress.com$document
 ! https://www.fortiguard.com/webfilter?q=appple.com&version=8
 appple.com$all
+bankofamericaa.com$document
