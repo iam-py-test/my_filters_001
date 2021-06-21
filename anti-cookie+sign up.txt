@@ -11,6 +11,9 @@ fortiguard.com###__agreementBar
 ! netcraft cookie consent
 searchdns.netcraft.com##.not-print
 searchdns.netcraft.com,sitereport.netcraft.com,www.netcraft.com,trends.netcraft.com,netcraft.com###consent-form
+report.netcraft.com##cookie-law
+! 'Download our app' alert
+report.netcraft.com##.ng-trigger-slideXAnimation.ng-trigger.ng-tns-c198-0.notification
 
 ! https://transformersheavymetal.com cookie consent
 transformersheavymetal.com##ark-cookiebar.hydrated
