@@ -2,7 +2,7 @@
 ! Description: Ever hit the wrong key when typing an address and ended up in the wrong place? This list aims to prevent that, and provide protection against Typosquatting.
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
-! Last updated: 15/6/2021
+! Last updated: 21/6/2021
 ! If someone can confirm this, it can move to malware 
 ! https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 ! https://www.virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
