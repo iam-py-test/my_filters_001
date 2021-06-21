@@ -176,6 +176,11 @@ ww9.101sexsecret.com$all
 
 
 ! Found in random reports online
+! Warning: This domain serves malware
+! https://blog.sucuri.net/2021/06/malicious-redirects-through-bogus-plugin.html
+! https://www.siteadvisor.com/sitereport.html?url=xn--o1aofd.xn--p1ai
+xn--o1aofd.xn--p1ai$all
+
 ! https://forums.lanik.us/viewtopic.php?f=62&t=46220&p=160099&hilit=NSFW#p160099
 ! https://www.fortiguard.com/webfilter?q=tt1069.com&version=8
 tt1069.com$all
