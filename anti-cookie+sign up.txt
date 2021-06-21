@@ -3,10 +3,45 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! GitHub Issues: https://github.com/iam-py-test/my_filters_001/issues
-! Last updated: 15/6/2021
+! Last updated: 21/6/2021
 
 ! https://www.fortiguard.com Cookie consent 
 fortiguard.com###__agreementBar
+
+! netcraft cookie consent
+searchdns.netcraft.com##.not-print
+searchdns.netcraft.com,sitereport.netcraft.com,www.netcraft.com,trends.netcraft.com,netcraft.com###consent-form
+
+! https://transformersheavymetal.com cookie consent
+transformersheavymetal.com##ark-cookiebar.hydrated
+
+! https://crowdin.com cookie consent
+crowdin.com##.cc-color-override-1528406573.cc-right.cc-bottom.cc-theme-classic.cc-type-info.cc-floating.cc-window
+
+! https://warthunder.com cookie consent
+warthunder.com##.cookieBox
+
+! https://ubuntu.com cookie consent
+ubuntu.com##.cookie-policy
+
+! https://rejzor.wordpress.com cookie consent
+rejzor.wordpress.com##.widget_eu_cookie_law_widget.widget
+
+! prisjakt.no possible cookie banner
+prisjakt.no###root-cookiebanner
+prisjakt.no###root-cookie-banner-mobile
+prisjakt.no###root-cookie-banner-desktop
+prisjakt.no###cookie-banner
+prisjakt.no##+js(set,toggleCookieBanner,noopFunc)
+
+! merriam-webster.com cookie consent? For some reason, I could not trigger anything more...
+merriam-webster.com##+js(cookie-remover,OptanonConsent)
+merriam-webster.com##+js(cookie-remover,eupubconsent)
+www.merriam-webster.com##+js(cookie-remover,usprivacy)
+merriam-webster.com##+js(cookie-remover,user-data)
+
+! https://www.merriam-webster.com promo
+www.merriam-webster.com##.register-promo.section--spacer.row
 
 ! https://www.aftenposten.no cookie consent
 ||cmp.aftenposten.no/index.html$subdocument
@@ -239,20 +274,12 @@ giga.de##+js(cookie-remover,_sp_v1_consent)
 ||cdn.privacy-mgmt.com/consent/tcfv2/vendor-list/categories?siteId=1955&consentLanguage=de$xhr,domain=consent.giga.de
 ||consent.giga.de/Notice.93e4c.css$stylesheet,domain=consent.giga.de
 
-! https://askubuntu.com plus https://stackoverflow.com
-askubuntu.com,stackoverflow.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
-! 2021-04-14 https://security.stackexchange.com
-security.stackexchange.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
+! https://askubuntu.com plus https://stackoverflow.com, plus all stackexchange websites
+askubuntu.com,stackoverflow.com,security.stackexchange.com,chemistry.stackexchange.com,tor.stackexchange.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
 
 ! https://quttera.com
 quttera.com###cookies-policy
 quttera.com##.fixed-cookie-container
-
-! https://tor.stackexchange.com
-tor.stackexchange.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
-
-! https://stackoverflow.com cookie consent
-stackoverflow.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
 
 ! https://safetoopen.com cookie consent
 safetoopen.com###cookiesdirective
