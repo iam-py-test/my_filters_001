@@ -1,0 +1,19 @@
+name: Update the docs
+on: [push, workflow_dispatch]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - name: Build
+      run: |
+        echo test > "test.txt"
+    - uses: EndBug/add-and-commit@v7.2.1
+      with:
+        author_name: donno2048
+        author_email: just4now666666@gmail.com
+        message: 'Commit the new docs [GitHub action]'
