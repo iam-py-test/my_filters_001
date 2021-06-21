@@ -11,9 +11,9 @@ jobs:
         python-version: '3.x'
     - name: Build
       run: |
-        echo test > "test.txt"
+        echo test2 > "test.txt"
     - uses: EndBug/add-and-commit@v7.2.1
       with:
-        author_name: donno2048
-        author_email: just4now666666@gmail.com
-        message: 'Commit the new docs [GitHub action]'
+        author_name: iam-py-test
+        author_email: 84232764+iam-py-test@users.noreply.github.com
+        message: '[bot] test'
