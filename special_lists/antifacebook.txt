@@ -12,3 +12,6 @@ www.facebook.com$all
 
 ! DuckDuckGo link to the company's Facebook page
 duckduckgo.com##li.about-profiles__item:has(a[href*="facebook.com"])
+
+! Facebook links on websites
+www.ghacks.net##a.mr--6[href*="facebook.com"]
