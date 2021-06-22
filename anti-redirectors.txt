@@ -109,3 +109,4 @@ jdoqocy.com$document
 ! https://www.virustotal.com/gui/url/e0c1c1858c2679487ba451286088389d8a52d7266789adccc32e85e61780fa8e/community
 ! https://www.mywot.com/scorecard/j.mp
 j.mp$document
+www.j.mp$document
