@@ -11,6 +11,10 @@ fortiguard.com###__agreementBar
 ! https://discord.me cookie banners
 discord.me##.show.px-3.cookiealert.text-center.alert-dismissible.alert.position-fixed
 
+! https://www.chip.de cookie consent
+||cdn-217.privacy-mgmt.com^$subdocument,domain=www.chip.de
+||cdn.privacy-mgmt.com/consent/tcfv2/vendor-list/categories?siteId=147&consentLanguage=de$xhr,domain=cmp.chip.de
+
 ! netcraft cookie consent
 searchdns.netcraft.com##.not-print
 searchdns.netcraft.com,sitereport.netcraft.com,www.netcraft.com,trends.netcraft.com,netcraft.com###consent-form
