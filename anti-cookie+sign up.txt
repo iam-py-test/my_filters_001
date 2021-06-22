@@ -3,7 +3,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! GitHub Issues: https://github.com/iam-py-test/my_filters_001/issues
-! Last updated: 21/6/2021
+! Last updated: 22/6/2021
 
 ! https://www.fortiguard.com Cookie consent 
 fortiguard.com###__agreementBar
@@ -122,8 +122,8 @@ www.oetker.de##.js-pd-main.pd-main
 ! https://www.f-secure.com cookie consent
 f-secure.com##.en_global.type-b.view-1.fs-consent
 
-! 2021-06-09 https://www.roastmarket.de
-www.roastmarket.de###onetrust-consent-sdk
+! https://www.roastmarket.de and https://de.trustpilot.com cookie consent
+www.roastmarket.de,trustpilot.com###onetrust-consent-sdk
 
 ! https://www.bundesregierung.de cookie consent
 www.bundesregierung.de##.bpa-white.bpa-module-supplement.bpa-module.bpa-cookie-banner
@@ -158,8 +158,6 @@ www.spiegel.de##.sm\:py-24.sm\:px-16.md\:p-24.lg\:py-24.lg\:px-12.sm\:mx-16.md\:
 taxfix.de###cookie-consent-banner-container
 taxfix.de#$#body { overflow: visible !important; padding-right: 0 !important; }
 
-! https://de.trustpilot.com cookie consent
-trustpilot.com###onetrust-consent-sdk
 
 ! https://clashofclans.com cookie consent
 clashofclans.com##.cc-bottom.cc-theme-classic.cc-type-info.cc-banner.cc-window
