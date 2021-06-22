@@ -8,6 +8,9 @@
 ! https://www.fortiguard.com Cookie consent 
 fortiguard.com###__agreementBar
 
+! https://discord.me cookie banners
+discord.me##.show.px-3.cookiealert.text-center.alert-dismissible.alert.position-fixed
+
 ! netcraft cookie consent
 searchdns.netcraft.com##.not-print
 searchdns.netcraft.com,sitereport.netcraft.com,www.netcraft.com,trends.netcraft.com,netcraft.com###consent-form
