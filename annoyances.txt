@@ -1,6 +1,6 @@
 ! Title: Annoyances
 ! Expires: 1 day
-! Last updated: 19/6/2021
+! Last updated: 22/6/2021
 ! Possible Antiadblock (it detects adblocker but does nothing - yet)
 @@||npttech.com/advertising.js$script,domain=dagsavisen.no
 
@@ -19,3 +19,7 @@ www.dictionary.com###marketingBanner-right-button
 
 ! discord Ads
 ||cdn.discord.me/units/FJPebL7krYKtQHBOHAm1Pd6Vdy1nouMQn6zxkFZL.jpg$image
+
+! Some kind of ad or promo - please open an issue if I misunderstood what this was & its legit
+www.ksta.de##section.dm_content_block.module_for_tracking:nth-of-type(3)
+
