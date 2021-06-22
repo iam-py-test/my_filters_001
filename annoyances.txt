@@ -23,3 +23,5 @@ www.dictionary.com###marketingBanner-right-button
 ! Some kind of ad or promo - please open an issue if I misunderstood what this was & its legit
 www.ksta.de##section.dm_content_block.module_for_tracking:nth-of-type(3)
 
+
+www.autodoc.de##.home-block-slider:has(.link.ga-click)
