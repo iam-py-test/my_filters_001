@@ -8,6 +8,40 @@
 ! https://www.fortiguard.com Cookie consent 
 fortiguard.com###__agreementBar
 
+
+! https://www.chip.de cookie consent
+||cdn-217.privacy-mgmt.com^$subdocument,domain=www.chip.de
+||cdn.privacy-mgmt.com/consent/tcfv2/vendor-list/categories?siteId=147&consentLanguage=de$xhr,domain=cmp.chip.de
+
+! https://www.kozminski.edu.pl cookie consent
+www.kozminski.edu.pl##.eu-cookie-compliance-banner--opt-in.eu-cookie-compliance-banner-info.eu-cookie-compliance-banner
+
+www.antiviruscontactsupport.com###cookie-law-info-bar
+
+
+! https://www.ksta.de cookie consent
+www.ksta.de##.dimissed.sticky-footer.screen.ssoTemplate.revealed
+www.ksta.de##section.dm_content_block.module_for_tracking:nth-of-type(3)
+
+! https://www.merkur.de
+www.merkur.de##.cmp_overlay
+www.merkur.de##.cmp_overwriteLevel1.cmp_app
+
+! https://www.lvz.de cookie consent
+||cmp-sp.lvz.de/index.html$subdocument
+||cdn-1281.privacy-mgmt.com^$xhr,domain=www.lvz.de
+
+! https://www.osma-aufzuege.de
+www.osma-aufzuege.de###cookie-consent-dialog
+
+! https://www.pkwteile.de
+www.pkwteile.de##.popup-choose-cookies
+
+! https://www.autodoc.de
+www.autodoc.de##.popup-choose-cookies
+||www.autodoc.de/ajax/features/checkcookiesession$xhr,domain=www.autodoc.de
+||www.autodoc.de/ajax/popupcookies.html$xhr,domain=www.autodoc.de
+
 ! https://discord.me cookie banners
 discord.me##.show.px-3.cookiealert.text-center.alert-dismissible.alert.position-fixed
 
@@ -216,7 +250,7 @@ fc.lc###cookie-pop
 ! https://shrinkme.io cookie banner
 shrinkme.io###cookie-pop
 
-! 2021-06-09 https://www.sozcu.com.tr
+! https://www.sozcu.com.tr cookie consent
 sozcu.com.tr###onetrust-consent-sdk
 
 ! https://www.google.org cookie consent
