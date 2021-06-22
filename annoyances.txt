@@ -16,3 +16,6 @@ www.merriam-webster.com##.register-promo.section--spacer.row
 
 ! 2021-06-19 https://www.dictionary.com
 www.dictionary.com###marketingBanner-right-button
+
+! discord Ads
+||cdn.discord.me/units/FJPebL7krYKtQHBOHAm1Pd6Vdy1nouMQn6zxkFZL.jpg$image
