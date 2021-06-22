@@ -104,3 +104,8 @@ redirect.viglink.com$document
 ! https://www.mywot.com/scorecard/jdoqocy.com
 www.jdoqocy.com$document
 jdoqocy.com$document
+
+! https://www.fortinet.com/blog/threat-research/phishing-malware-hijacks-bitcoin-addresses-delivers-new-agent-tesla-variant
+! https://www.virustotal.com/gui/url/e0c1c1858c2679487ba451286088389d8a52d7266789adccc32e85e61780fa8e/community
+! https://www.mywot.com/scorecard/j.mp
+j.mp$document
