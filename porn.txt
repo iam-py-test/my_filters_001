@@ -176,6 +176,11 @@ ww9.101sexsecret.com$all
 
 
 ! Found in random reports online
+! https://github.com/AdguardTeam/AdguardFilters/issues/86491
+! https://www.fortiguard.com/webfilter?q=pervclips.com&version=8
+pervclips.com$all
+www.pervclips.com$all
+
 ! https://github.com/gorhill/uBlock/issues/3287
 ! https://www.fortiguard.com/webfilter?q=imgadult.com&version=8
 imgadult.com$all
