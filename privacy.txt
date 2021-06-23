@@ -1,4 +1,4 @@
-! Title: Anti url-tracking 
+! Title: Anti tracking 
 ! Expires: 1 day
 ! Description: A list I created to block tracking via urls
 ! Url tracking 
@@ -11,3 +11,7 @@
 *$queryprune=utm_id
 ! Google url tracking
 google.*$document,queryprune=client
+! https://blog.sucuri.net/2018/04/malicious-activities-google-tag-manager.html
+! https://www.siteadvisor.com/sitereport.html?url=adform.net
+! https://safeweb.norton.com/reviews?url=adform.net
+adform.net$all
