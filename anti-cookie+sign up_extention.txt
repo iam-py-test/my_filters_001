@@ -1,0 +1,11 @@
+! Title: Anti-cookie and sign up list extention
+! Description: This is an extention to the anti-cookie and sign up list. This requires uBlock Origin, and https://raw.githubusercontent.com/iam-py-test/Assets-001/main/script.js to be installed as a user scriptlet.
+
+! https://github.com/iam-py-test/my_filters_001/issues/65
+derstandard.de##+js(cs,_sp_v1_consent,1!1:1:1:0:0:0)
+derstandard.de##+js(cs,_sp_v1_opt,1:login|true:last_id|11:)
+derstandard.de##+js(cs,tcfs,1)
+derstandard.de##+js(cs,privacyWallReferrer,undefined)
+derstandard.de##+js(cs,DSGVO_ZUSAGE_V1,true)
+derstandard.de##+js(cs,MGUID,GUID=e7088615-ead8-4994-93b8-e48c739510d3&Timestamp=2021-06-23T22:49:48&DetectedVersion=&Version=&BIV=1&Hash=E94A0938580243F6FDDDAF26A4EC1806)
+derstandard.de##+js(cs,consentUUID,1b0223a2-49bb-434f-9d32-0aa01bd89ae2)
