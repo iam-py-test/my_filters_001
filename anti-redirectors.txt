@@ -110,3 +110,6 @@ jdoqocy.com$document
 ! https://www.mywot.com/scorecard/j.mp
 j.mp$document
 www.j.mp$document
+
+! https://github.com/iam-py-test/my_filters_001/issues/75
+dommania.pl$document
