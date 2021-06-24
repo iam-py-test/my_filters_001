@@ -5,6 +5,7 @@
 /// alias cs.js
 // example.com##+js(cs, name, value, age)
 (() => {
+	console.log("Running...")
 		'use strict';
 		const cs = ev => {
 					if (ev) { window.removeEventListener(ev.type, cs, true); }
