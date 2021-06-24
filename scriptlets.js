@@ -64,13 +64,12 @@ location.href = "http://localhost"
 (() => {
         'use strict';
 console.log("{{1}}")
-	var func = window["{{1}}"]
  window["{{1}}"] = function(arg){
 	if(arg === "{{2}}"){
 		throw new Error(Math.round(Math.random()*9000000))
 	}
 	else{
-		window.setTimeout(func,0)
+		return;
 	}
 }
 })();
