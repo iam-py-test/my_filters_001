@@ -1,5 +1,5 @@
 ! Title: Anti-cookie and sign up list extention
-! Description: This is an extention to the anti-cookie and sign up list. This requires uBlock Origin, and https://raw.githubusercontent.com/iam-py-test/Assets-001/main/script.js to be installed as a user scriptlet.
+! Description: This is an extention to the anti-cookie and sign up list. This requires uBlock Origin, and https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/scriptlets.js to be installed as a user scriptlet.
 
 ! https://github.com/iam-py-test/my_filters_001/issues/65
 derstandard.de##+js(cs,_sp_v1_consent,1!1:1:1:0:0:0)
