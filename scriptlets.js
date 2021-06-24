@@ -75,4 +75,6 @@ console.log(funcName)
 		window.setTimeout(func,0,fArg)
 	}
 }
+	
+	window[funcName].toString = function(){return func.toString.call()}
 })();
