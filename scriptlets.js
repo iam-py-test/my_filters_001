@@ -50,5 +50,10 @@ window.onbeforeunload = null
 /// example.com##+js(redirectlocal)
 (() => {
         'use strict';
+	try{
+		window.stop()
+	}
+	catch(err){
+	}
 location.href = "http://localhost"
 })();
