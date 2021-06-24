@@ -43,3 +43,12 @@ window.onbeforeunload = null
 		console.log(err)
 	}
 })();
+
+
+/// redirect-to-localhost.js
+/// alias redirectlocal.js
+/// example.com##+js(redirectlocal)
+(() => {
+        'use strict';
+location.href = "http://localhost"
+})();
