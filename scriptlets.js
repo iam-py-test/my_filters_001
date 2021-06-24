@@ -75,5 +75,4 @@ console.log(funcName)
 		window.setTimeout(func,0,fArg)
 	}
 }
-	
 })();
