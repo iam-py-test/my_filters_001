@@ -3,7 +3,7 @@
 /// this is from https://github.com/uBlock-user/uBO-Scriptlets/commit/3d1f48573749ac85b20031f78e0d5f7c7bb0f3af#
 /// cookie-set.js
 /// alias cs.js
-// example.com##+js(clog, data)
+// example.com##+js(cs, name, value, age)
 (() => {
 		'use strict';
 		const cs = ev => {
@@ -22,7 +22,7 @@
 
 /// console-log.js
 /// alias clog.js
-// example.com##+js(cs, name, value, age)
+// example.com##+js(clog, data)
 (() => {
         'use strict';
 console.log("{{1}}")
