@@ -67,7 +67,7 @@ location.href = "http://localhost"
 	var arg = "{{2}}"
 console.log(func)
  window[func] = function(fArg){
-	if(arg === arg){
+	if(fArg === arg){
 		throw new Error(Math.round(Math.random()*9000000))
 	}
 	else{
