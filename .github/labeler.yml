@@ -53,3 +53,8 @@ custom:
       - cookie consent
     labels:
       - cookie consent
+  - location: body
+    keywords:
+      - redirector
+    labels: 
+      - redirectors
