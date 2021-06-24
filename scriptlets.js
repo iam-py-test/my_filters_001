@@ -63,9 +63,11 @@ location.href = "http://localhost"
 /// example.com##+js(throw-if,badfunc,badvalue)
 (() => {
         'use strict';
-console.log("{{1}}")
- window["{{1}}"] = function(arg){
-	if(arg === "{{2}}"){
+	var func = "{{1}}"
+	var arg = "{{2}}"
+console.log(func)
+ window[func] = function(fArg){
+	if(arg === arg){
 		throw new Error(Math.round(Math.random()*9000000))
 	}
 	else{
