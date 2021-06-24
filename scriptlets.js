@@ -67,16 +67,13 @@ location.href = "http://localhost"
 	var arg = "{{2}}"
 console.log(funcName)
 	var func = window[funcName]
- window[funcName] = function(fArg){
+ window[funcName] = (function(fArg){
 	if(fArg === arg){
 		throw new Error(Math.round(Math.random()*9000000))
 	}
 	else{
 		window.setTimeout(func,0,fArg)
 	}
-}
+}).bind()
 	
-	window[funcName].toString = function(){
-		return func.toString.call(func)
-	}
 })();
