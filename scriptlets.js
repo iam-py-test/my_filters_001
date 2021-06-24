@@ -27,3 +27,18 @@
         'use strict';
 console.log("{{1}}")
 })();
+
+
+/// unload-diffuser.js
+/// alias noul.js
+/// example.com##+js(unload-diffuser)
+(() => {
+        'use strict';
+window.onbeforeunload = null
+	try{
+		Object.defineProperity(window,"onbeforeunload",{value:null,writable:false})
+	}
+	catch(err){
+		console.log(err)
+	}
+})();
