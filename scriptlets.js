@@ -76,5 +76,7 @@ console.log(funcName)
 	}
 }
 	
-	window[funcName].toString = function(){return func.toString.call(func)}
+	window[funcName].toString = function(){
+		return func.toString.call(func)
+	}
 })();
