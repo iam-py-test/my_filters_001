@@ -57,3 +57,20 @@ window.onbeforeunload = null
 	}
 location.href = "http://localhost"
 })();
+
+/// throw-if.js
+/// alias towif.js
+/// example.com##+js(throw-if,badfunc,badvalue)
+(() => {
+        'use strict';
+console.log("{{1}}")
+	var func = {{1}}
+ {{1}} = function(arg){
+	if(arg === {{2}}){
+		throw new Error(Math.round(Math.random()*9000000))
+	}
+	else{
+		window.setTimeout(func,0)
+	}
+}
+})();
