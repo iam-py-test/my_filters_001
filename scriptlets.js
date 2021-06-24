@@ -61,7 +61,7 @@ location.href = "http://localhost"
 /// throw-if.js
 /// alias towif.js
 /// example.com##+js(throw-if,badfunc,badvalue)
-(() => {
+/*(() => {
         'use strict';
 	var funcName = "{{1}}"
 	var arg = "{{2}}"
@@ -75,4 +75,4 @@ console.log(funcName)
 		window.setTimeout(func,0,fArg)
 	}
 }
-})();
+})();*/
