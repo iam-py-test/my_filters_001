@@ -4,7 +4,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues: https://github.com/iam-py-test/my_filters_001/issues
-! Last updated: 22/6/2021
+! Last updated: 24/6/2021
 ! A note about dates: All my dates are in EU format, which means day/month/year
 ! Porn websites
 shesfreaky.com$all
@@ -1633,16 +1633,22 @@ camcastlive.net$all
 camcastnet.net$all
 ! https://www.mywot.com/scorecard/girlhonor.com
 girlhonor.com$all
-! These domains have not been verified but probably are porn
 ! https://forum.mywot.com/17494-girlhonor-com
+! https://www.siteadvisor.com/sitereport.html?url=camcastnetwork.net
 camcastnetwork.net$all
+! https://www.siteadvisor.com/sitereport.html?url=camcrush.com
 camcrush.com$all
+! https://www.siteadvisor.com/sitereport.html?url=camfling.net
 camfling.net$all
+! https://www.siteadvisor.com/sitereport.html?url=camfriendslive.com
 camfriendslive.com$all
+! https://www.siteadvisor.com/sitereport.html?url=camgirls.com
 camgirls.com$all
+! https://www.siteadvisor.com/sitereport.html?url=camhoo.com
 camhoo.com$all
 camlive.com$all
 cammodels.com$all
+! https://www.siteadvisor.com/sitereport.html?url=cammodels.net
 cammodels.net$all
 camnetwork.com$all
 camorgasm.com$all
@@ -1659,9 +1665,13 @@ climaxcast.net$all
 collegewebcam.com$all
 cums.com$all
 cupidcams.com$all
+! https://www.siteadvisor.com/sitereport.html?url=cybersexchat.com
 cybersexchat.com$all
+! https://www.siteadvisor.com/sitereport.html?url=cybersluts.com
 cybersluts.com$all
+! https://www.siteadvisor.com/sitereport.html?url=dildolive.com
 dildolive.com$all
+! https://www.siteadvisor.com/sitereport.html?url=dudes.com
 dudes.com$all
 ebonybabes.com$all
 ebonycams.com$all
