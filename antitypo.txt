@@ -75,3 +75,5 @@ whatsmyipaddress.com$document
 appple.com$all
 bankofamericaa.com$document
 rasberrypi.org$document
+! https://www.scamner.com/check/irs.guv
+irs.guv$document
