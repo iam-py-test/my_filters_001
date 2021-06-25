@@ -87,5 +87,7 @@ console.log(funcName)
 	}
 	catch(err){
 	}
+	if(location.protocol == 'http:'){
 location.protocol = 'https:'
+	}
 })();
