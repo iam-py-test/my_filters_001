@@ -82,12 +82,17 @@ console.log(funcName)
 /// example.com##+js(httpsu)
 (() => {
         'use strict';
+	alert(location.protocol)
+	if(location.protocol === 'https:'){
+		return false;
+	}
 	try{
 		window.stop()
 	}
 	catch(err){
 	}
-	if(location.protocol == 'http:'){
+	
+	if(location.protocol === 'http:'){
 location.protocol = 'https:'
 	}
 })();
