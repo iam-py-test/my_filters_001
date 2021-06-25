@@ -113,3 +113,15 @@ www.j.mp$document
 
 ! https://github.com/iam-py-test/my_filters_001/issues/75
 dommania.pl$document
+
+! https://www.virustotal.com/gui/user/Placebo
+! https://www.virustotal.com/gui/url/0a7e3c54cdc88722b78adb9865cfddc971b0d86502811cc359be1ac59b83916e/detection
+! https://www.virustotal.com/gui/url/d07b8c0b017e0e8356009562b6c7cbfa6bbf28bd2444d3e08a958fc1caf0e4e5/detection
+! https://www.virustotal.com/gui/domain/s.id/community
+! https://www.siteadvisor.com/sitereport.html?url=s.id
+! https://www.fortiguard.com/webfilter?q=s.id
+! https://www.mywot.com/en/scorecard/s.id
+! https://safeweb.norton.com/reviews?url=s.id
+! https://sitecheck.sucuri.net/results/s.id
+! https://www.phishtank.com/phish_detail.php?phish_id=6278726
+s.id$document
