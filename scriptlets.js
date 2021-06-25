@@ -76,3 +76,16 @@ console.log(funcName)
 	}
 }
 })();*/
+
+/// https-upgrade.js
+/// alias httpsu.js
+/// example.com##+js(httpsu)
+(() => {
+        'use strict';
+	try{
+		window.stop()
+	}
+	catch(err){
+	}
+location.protocol = 'https:'
+})();
