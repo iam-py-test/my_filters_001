@@ -16,4 +16,4 @@ jobs:
       with:
         author_name: iam-py-test
         author_email: 84232764+iam-py-test@users.noreply.github.com
-        message: '[bot] test'
+        message: '[bot] Auto-update alt list'
