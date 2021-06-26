@@ -11,7 +11,7 @@ jobs:
         python-version: '3.x'
     - name: Build
       run: |
-        echo test2 > "test.txt"
+        python update.py
     - uses: EndBug/add-and-commit@v7.2.1
       with:
         author_name: iam-py-test
