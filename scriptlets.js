@@ -99,3 +99,21 @@ var selector = '{{1}}';
     }
 })();
 
+
+
+////
+(() => {
+var selector = '{{1}}';
+    var click = function() {
+        var frame = document.getElementById("sp_message_iframe_485649").src
+	var u = new URL(frame)
+	u.searchParams.forEach(function(value,name){
+		document.cookie = name + "=" + value
+	})
+    };
+    if ( document.readyState === 'complete' ) {
+        click();
+    } else {
+        addEventListener('load', click);
+    }
+})();
