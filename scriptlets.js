@@ -86,6 +86,7 @@ console.log(funcName)
 	window.onload = function(){
 var selecter = "{{1}}"
 var elem = document.querySelector(selecter)
+console.log(selecter,elem)
 if(elem !== null){
 	elem.click()
 }
