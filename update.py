@@ -17,4 +17,4 @@ def mkalt(file,alt):
       donedomains.append(line.split("$")[0])
 mkalt("antimalware.txt","antimalware_domains.txt")
 mkalt("porn.txt","porn_domains.txt")
-mkaltt("antitypo.txt","antitypo_domains.txt")
+mkalt("antitypo.txt","antitypo_domains.txt")
