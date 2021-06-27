@@ -81,15 +81,20 @@ console.log(funcName)
 /// alias clickelm.js
 /// example.com##+js(clickelem,#badbutton)
 (() => {
-	
-        'use strict';
-	window.onload = function(){
-var selecter = "{{1}}"
-var elem = document.querySelector(selecter)
-console.log(selecter,elem)
-if(elem !== null){
-	elem.click()
-}
-	}
+var selector = '{{1}}';
+    if ( selector === '' || selector === '{{1}}' ) {
+        return;
+    }
+    var click = function() {
+        var elements = document.querySelectorAll(selector);
+        for ( var element of elements ) {
+            element.click();
+        }
+    };
+    if ( document.readyState === 'complete' ) {
+        click();
+    } else {
+        addEventListener('load', click);
+    }
 })();
 
