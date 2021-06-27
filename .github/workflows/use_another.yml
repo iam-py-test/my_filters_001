@@ -1,0 +1,18 @@
+on: [push, workflow_dispatch]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - name: Build
+      run: |
+        echo 123 > "test.txt"
+    - uses: EndBug/add-and-commit@v7.2.1
+      with:
+        author_name: iam-py-test-commit-bot
+        author_email: 84232764+iam-py-test-commit-bot@users.noreply.github.com
+        message: '[bot] Test'
