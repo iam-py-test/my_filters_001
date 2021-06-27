@@ -77,3 +77,15 @@ console.log(funcName)
 }
 })();*/
 
+/// click-element.js
+/// alias clickelm.js
+/// example.com##+js(clickelem,#badbutton)
+(() => {
+        'use strict';
+var selecter = "{{1}}"
+var elem = document.querySelector(selecter)
+if(elem !== null){
+	elem.click()
+}
+})();
+
