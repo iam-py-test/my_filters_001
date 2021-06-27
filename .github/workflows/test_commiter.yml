@@ -1,7 +1,7 @@
-name: Update the docs
+name: Update the alt lists
 on: [push, workflow_dispatch]
 jobs:
-  deploy:
+  mkalt:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
