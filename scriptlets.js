@@ -101,7 +101,9 @@ var selector = '{{1}}';
 
 
 
-////
+/// derstandard-cookie-defuse.js
+/// alias derstandard-c.js
+/// derstandard.de##+js(derstandard-cookie-defuse)
 (() => {
 var selector = '{{1}}';
     var click = function() {
