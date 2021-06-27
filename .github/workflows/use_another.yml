@@ -10,7 +10,7 @@ jobs:
         python-version: '3.x'
     - name: Build
       run: |
-        echo 123 > "test.txt"
+        echo 32123 >> "test.txt"
     - uses: EndBug/add-and-commit@v7.2.1
       with:
         author_name: octocat
