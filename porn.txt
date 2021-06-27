@@ -4,7 +4,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues: https://github.com/iam-py-test/my_filters_001/issues
-! Last updated: 26/6/2021
+! Last updated: 27/6/2021
 ! A note about dates: All my dates are in EU format, which means day/month/year
 ! Porn websites
 shesfreaky.com$all
@@ -176,6 +176,10 @@ ww9.101sexsecret.com$all
 
 
 ! Found in random reports online
+! https://github.com/webcompat/web-bugs/issues/78078
+! https://www.siteadvisor.com/sitereport.html?url=spankbang.com
+spankbang.com$all
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/86741
 ! https://www.siteadvisor.com/sitereport.html?url=hentaienesp.com
 hentaienesp.com$all
