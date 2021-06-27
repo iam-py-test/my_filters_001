@@ -77,6 +77,7 @@ console.log(funcName)
 }
 })();*/
 
+///https://github.com/NanoAdblocker/NanoFilters/blob/master/NanoFilters/NanoResources.txt#L307
 /// click-element.js
 /// alias clickelm.js
 /// example.com##+js(clickelem,#badbutton)
