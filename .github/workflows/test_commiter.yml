@@ -18,3 +18,4 @@ jobs:
           email: noreply@example.com
           name: Update bot
           branch: main
+          commit-message: Update alt lists
