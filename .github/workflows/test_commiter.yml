@@ -12,8 +12,9 @@ jobs:
     - name: Build
       run: |
         python update.py
-    - uses: EndBug/add-and-commit@v7.2.1
+    - name: Commit & Push
+      uses: actions-x/commit@v2
       with:
-        author_name: iam-py-test
-        author_email: 84232764+iam-py-test@users.noreply.github.com
-        message: '[bot] Auto-update alt list'
+          email: noreply@example.com
+          name: Update bot
+          branch: master
