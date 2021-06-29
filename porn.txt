@@ -135,7 +135,6 @@ hotgirls.porn$all
 fuckgirls.porn$all
 ! https://www.fortiguard.com/webfilter?q=xxx.com&version=8
 xxx.com$all
-! found online
 petitegirlsfucked.com$all
 pornolab2.com$all
 actual-porn.org$all
@@ -166,6 +165,8 @@ stealthxxx.com$all
 pussyalert.com$all
 ! https://www.siteadvisor.com/sitereport.html?url=pay4porn.com
 pay4porn.com$all
+! https://www.siteadvisor.com/sitereport.html?url=porn.de
+porn.de$all
 
 ! A malware/porn domain - blocking here because it does have porn and should be blocked more globally.
 ! https://www.mywot.com/en/scorecard/101sexsecret.com
