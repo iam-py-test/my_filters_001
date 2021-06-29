@@ -10,7 +10,7 @@ def mkalt(file,alt):
         alt.write("{}\n".format(domain))
         donedomains.append(domain)
       continue
-    if line == '' or line.startswith("!") or line.startswith("||"):
+    if line == '' or line.startswith("!") or line.startswith("||") or line == '[Adblock Plus 2.0]':
       continue
     if line.split("$")[0] not in donedomains:
       alt.write("{}\n".format(line.split("$")[0]))
