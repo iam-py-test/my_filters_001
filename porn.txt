@@ -1,3 +1,4 @@
+[Adblock Plus 2.0]
 ! Title: Pornography blocklist
 ! Description: This list is designed to block porn, shock-sites, and other gruesome or not child safe websites - adding this list will also make your computer more secure as these sites often have malware on them. This list only works in uBlock Origin and AdGuard. If you need a list for somewhere else, check the Alternet Lists area. Note that currently I have no way to make this list work in AdBlock Plus due to it throwing an error and lack of support for full blockage of a webpage, which AdGuard and uBlock Origin support. 
 ! Licence: No copyright but please attribute the original source (when available - see comments above each entry)
