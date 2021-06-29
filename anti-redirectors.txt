@@ -125,3 +125,9 @@ dommania.pl$document
 ! https://sitecheck.sucuri.net/results/s.id
 ! https://www.phishtank.com/phish_detail.php?phish_id=6278726
 s.id$document
+
+! https://github.com/piperun/iploggerfilter/issues/47
+! https://www.virustotal.com/gui/url/49b118a93053088dbd17c5fba17ec669fdd5a8006763ebd06e3f9279bf4afa8b/community
+! https://www.mywot.com/scorecard/tiny.cc
+! https://www.siteadvisor.com/sitereport.html?url=tiny.cc
+tiny.cc$document
