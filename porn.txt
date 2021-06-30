@@ -178,6 +178,19 @@ ww9.101sexsecret.com$all
 
 
 ! Found in random reports online
+! https://github.com/uBlockOrigin/uAssets/issues/9436
+! https://www.siteadvisor.com/sitereport.html?url=javsex.guru
+javsex.guru$all
+! https://www.virustotal.com/gui/domain/javsex.guru/relations
+mail.javsex.guru$all
+cpcalendars.javsex.guru$all
+webdisk.javsex.guru$all
+cpcontacts.javsex.guru$all
+cpanel.javsex.guru$all
+www.javsex.guru$all
+webmail.javsex.guru$all
+
+
 ! https://github.com/blocklistproject/Lists/issues/353
 fr.porn.com$all
 dogporn.net$all
