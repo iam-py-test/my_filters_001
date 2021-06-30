@@ -3,3 +3,6 @@
 ! Expires: 1 day
 ! Last updated: 16/6/2021
 malware.localhost$all
+scam.localhost$document
+||ok.localhost^
+@@||ok.localhost^
