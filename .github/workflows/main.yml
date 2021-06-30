@@ -30,5 +30,5 @@ jobs:
           curl \
           -X POST \
           -H "Accept: application/vnd.github.v3+json" \
-          https://api.github.com/repos/iam-py-test/my_filters_001/issues \
-          -d '{"title":"title"}'
+          https://api.github.com/repos/octocat/hello-world/issues/42/comments \
+          -d '{"body":"Hi"}'
