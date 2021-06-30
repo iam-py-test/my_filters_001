@@ -1,4 +1,3 @@
-127.0.0.1 [Adblock Plus 2.0]
 # Title: Pornography blocklist
 # Description: This list is designed to block porn, shock-sites, and other gruesome or not child safe websites - adding this list will also make your computer more secure as these sites often have malware on them. This list only works in uBlock Origin and AdGuard. If you need a list for somewhere else, check the Alternet Lists area. Note that currently I have no way to make this list work in AdBlock Plus due to it throwing an error and lack of support for full blockage of a webpage, which AdGuard and uBlock Origin support. 
 # Licence: No copyright but please attribute the original source (when available - see comments above each entry)
@@ -174,6 +173,17 @@
 # https://sitecheck.sucuri.net/results/101sexsecret.com
 127.0.0.1 ww9.101sexsecret.com
 # Found in random reports online
+# https://github.com/uBlockOrigin/uAssets/issues/9436
+# https://www.siteadvisor.com/sitereport.html?url=javsex.guru
+127.0.0.1 javsex.guru
+# https://www.virustotal.com/gui/domain/javsex.guru/relations
+127.0.0.1 mail.javsex.guru
+127.0.0.1 cpcalendars.javsex.guru
+127.0.0.1 webdisk.javsex.guru
+127.0.0.1 cpcontacts.javsex.guru
+127.0.0.1 cpanel.javsex.guru
+127.0.0.1 www.javsex.guru
+127.0.0.1 webmail.javsex.guru
 # https://github.com/blocklistproject/Lists/issues/353
 127.0.0.1 fr.porn.com
 127.0.0.1 dogporn.net
