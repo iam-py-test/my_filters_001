@@ -17,6 +17,7 @@ jobs:
     - name: Build
       run: |
         python update.py
+        python update_total.py
     - name: Commit & Push
       uses: actions-x/commit@v2
       with:
