@@ -3,7 +3,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! GitHub Issues: https://github.com/iam-py-test/my_filters_001/issues
-! Last updated: 22/6/2021
+! Last updated: 1/7/2021
 
 ! https://www.fortiguard.com Cookie consent 
 fortiguard.com###__agreementBar
@@ -26,6 +26,10 @@ www.ksta.de##section.dm_content_block.module_for_tracking:nth-of-type(3)
 ! https://www.merkur.de
 www.merkur.de##.cmp_overlay
 www.merkur.de##.cmp_overwriteLevel1.cmp_app
+||idcdn.de/static/common/js/build/modules/a34cba325fe0c0b819de78676bf63705/id.cookie.js$script,domain=www.merkur.de
+
+! https://tiny.cc cookie consent
+tiny.cc##.cc_banner-wrapper
 
 ! https://www.lvz.de cookie consent
 ||cmp-sp.lvz.de/index.html$subdocument
