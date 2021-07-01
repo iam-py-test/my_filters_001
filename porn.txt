@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues: https://github.com/iam-py-test/my_filters_001/issues
-! Last updated: 30/6/2021
+! Last updated: 1/7/2021
 ! A note about dates: All my dates are in EU format, which means day/month/year
 ! Porn websites
 shesfreaky.com$all
@@ -179,6 +179,13 @@ ww9.101sexsecret.com$all
 
 
 ! Found in random reports online
+! https://forum.adguard.com/index.php?threads/please-block-this-adult-website.41416/
+! https://www.siteadvisor.com/sitereport.html?url=www.erozzz.com
+www.erozzz.com$all
+erozzz.com$all
+! https://www.siteadvisor.com/sitereport.html?url=recurbate.com
+recurbate.com$all
+
 ! https://github.com/uBlockOrigin/uAssets/issues/9436
 ! https://www.siteadvisor.com/sitereport.html?url=javsex.guru
 javsex.guru$all
