@@ -182,6 +182,8 @@ ww9.101sexsecret.com$all
 ! https://forums.lanik.us/viewtopic.php?f=64&t=39545&p=130309&hilit=malware+website#p130309
 ! https://www.siteadvisor.com/sitereport.html?url=porntrex.com
 porntrex.com$all
+! https://www.siteadvisor.com/sitereport.html?url=xxxstreams.eu
+xxxstreams.eu$all
 
 ! https://forum.adguard.com/index.php?threads/please-block-this-adult-website.41416/
 ! https://www.siteadvisor.com/sitereport.html?url=www.erozzz.com
