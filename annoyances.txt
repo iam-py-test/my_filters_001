@@ -39,3 +39,6 @@ who.is##center:has-text(/use promo [a-z]/i)
 ! https://weather.com annoyances
 weather.com##.SmartMessage--container--283Sk:has-text(/Premium for web/i)
 weather.com##.LinkList--inline--6G_xP.Footer--legalLinks--2scMz.Footer--linklist--1nSN2.LinkList--LinkList--N5p7e > li > .Footer--link--3N2c7.LinkList--Link--zzd7M:has-text(Ad)
+
+! https://id-ransomware.malwarehunterteam.com ads
+id-ransomware.malwarehunterteam.com##.ad
