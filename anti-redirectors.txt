@@ -1,5 +1,6 @@
 ! Title: Anti-redirectors and url shorteners
 ! Description: Redirecters and url shorterners are often used for phishing, malware, spam, and scams, and companies like Google and Facebook also use redirectors to track you . This list is designed to block both shortened urls & tracker redirects.
+! If you want shorter urls, check out @DandelionSprout's Actually Legitimate URL Shortener Tool at https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
 ! Please report false positives & unblocked domains to https://github.com/iam-py-test/my_filters_001/issues Thanks!
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
@@ -131,3 +132,26 @@ s.id$document
 ! https://www.mywot.com/scorecard/tiny.cc
 ! https://www.siteadvisor.com/sitereport.html?url=tiny.cc
 tiny.cc$document
+
+! https://www.mywot.com/scorecard/cutt.ly
+cutt.ly$document
+
+! https://duckduckgo.com/?q=url+shortener+free&ia=web
+www.urlday.com$document
+
+! https://www.mywot.com/scorecard/rebrandly.com
+rebrandly.com$document
+
+! https://mywplife.com/software/url-shorteners/
+prettylinks.com$document
+www.bl.ink$document
+! https://www.mywot.com/scorecard/snip.ly
+! https://www.virustotal.com/gui/url/36bb85670e9c603bd41f688db1a3caa1ba5555c790abc621198a0e2b2b2ac590/detection
+snip.ly$document
+! mywplife.com redirects
+||mywplife.com/out/$document
+! https://www.virustotal.com/gui/url/d4bd72283480a00bdabbcc5f35234506988584de62ec047f4ce14059811b160f/detection
+! https://www.mywot.com/scorecard/itsssl.com
+! https://safeweb.norton.com/report/show?url=itsssl.com
+! https://sitereport.netcraft.com/?url=https://itsssl.com/
+itsssl.com$all
