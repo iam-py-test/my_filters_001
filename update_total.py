@@ -3,7 +3,7 @@ lists = ["porn.txt","antimalware.txt","antitypo.txt","anti-redirectors.txt","ant
 for list in lists:
   lines = open(list).read().split('\n')
   for line in lines:
-    if line.startswith("!") != True and line != "":
+    if line.startswith("!") != True and line != "" and line != "[Adblock Plus 2.0]":
       num += 1
       
 allentries = """<svg height="20" width="130" xmlns="http://www.w3.org/2000/svg" version="1.1">
