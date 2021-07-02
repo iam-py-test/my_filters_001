@@ -6,15 +6,19 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues: https://github.com/iam-py-test/my_filters_001/issues
-! Last updated: 1/7/2021
+! Last updated: 2/7/2021
 ! A note about dates: All my dates are in EU format, which means day/month/year
 ! Porn websites
 shesfreaky.com$all
+www.shesfreaky.com$all
 eroticbeauties.net$all
+www.eroticbeauties.net
 xbabe.com$all
 sex.com$all
 scandalplanet.com$all
 galleries.nubiles.net$all
+! https://www.siteadvisor.com/sitereport.html?url=nubiles.net
+nubiles.net$all
 ! https://duckduckgo.com/?q=porn&t=ffab&iar=images&iax=images&ia=images&iai=https%3A%2F%2Fphotos.freeones.com%2Fv_various%2FBlacked%2FSkye_West_001%2Fimages%2FSkye-West-interracial-porn(4).jpg
 ! Be sure to block images and visit in private mode
 photos.freeones.com$all
@@ -852,17 +856,12 @@ hentai-img.com$all
 hentai2read.com$all
 ! https://www.fortiguard.com/webfilter?q=hentaifox.com&version=8
 hentaifox.com$all
-! https://www.fortiguard.com/webfilter?q=hentaihand.com&version=8
-hentaihand.com$all
 ! https://www.fortiguard.com/webfilter?q=hentaihere.com&version=8
 hentaihere.com$all
 ! https://www.fortiguard.com/webfilter?q=hiperdex.com&version=8
 hiperdex.com$all
 ! https://www.fortiguard.com/webfilter?q=hitomi.la&version=8
 hitomi.la$all
-! https://www.fortiguard.com/webfilter?q=sankakucomplex.com&version=8
-idol.sankakucomplex.com$all
-sankakucomplex.com$all
 ! https://www.fortiguard.com/webfilter?q=inkbunny.net&version=8
 inkbunny.net$all
 
@@ -893,11 +892,8 @@ www.youngroulette.com$all
 ! Exit popups
 anymad.com$all
 ! sites using exit popups
-japansporno.com$all
 analwithteens.sexy$all
 analxxxvideo.com$all
-sexmomsex.com$all
-shinyjapaneseporn.com$all
 drivepornvideos.com$all
 animepornfilm.com$all
 sexmomsex.com$all
@@ -1017,12 +1013,17 @@ str8ongay.com$all
 ! https://categorify.org
 ! https://categorify.org/api?website=sexybabegirls.com
 ! https://www.siteadvisor.com/sitereport.html?url=sexybabegirls.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/83643
+! https://www.siteadvisor.com/sitereport.html?url=sexybabegirls.com
 sexybabegirls.com$all
 www.sexybabegirls.com$all
+
 ! https://github.com/easylist/easylist/pull/7931
 ! https://categorify.org
+! https://github.com/AdguardTeam/AdguardFilters/issues/83958
 ! https://www.siteadvisor.com/sitereport.html?url=xxerotica.com
 www.xxerotica.com$all
+xxerotica.com$all
 
 ! https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
 ! https://www.fortiguard.com/webfilter?q=donk69.com&version=8
@@ -1048,12 +1049,6 @@ porndoo.com$all
 www.pornjam.com$all
 pornjam.com$all
 
-! https://github.com/easylist/easylist/pull/7931
-! https://github.com/AdguardTeam/AdguardFilters/issues/83958
-! https://www.fortiguard.com/webfilter?q=xxerotica.com&version=8
-xxerotica.com$all
-www.xxerotica.com$all
-
 ! https://github.com/easylist/easylist/pull/7943
 ! https://www.fortiguard.com/webfilter?q=xxxymovies.com&version=8
 xxxymovies.com$all
@@ -1072,14 +1067,10 @@ analdin.com$all
 daftsex.com$all
 ! https://www.fortiguard.com/webfilter?q=fantasti.cc&version=8
 fantasti.cc$all
-! https://www.fortiguard.com/webfilter?q=fuqer.com&version=8
-fuqer.com$all
 ! https://www.fortiguard.com/webfilter?q=fux.com&version=8
 fux.com$all
 ! https://www.fortiguard.com/webfilter?q=hclips.com&version=8
 hclips.com$all
-! https://www.fortiguard.com/webfilter?q=heavy-r.com&version=8
-heavy-r.com$all
 ! https://www.fortiguard.com/webfilter?q=megapornx.com&version=8
 megapornx.com$all
 ! https://www.fortiguard.com/webfilter?q=milfzr.com&version=8
@@ -1138,13 +1129,10 @@ baddiehub.com$all
 eporner.com$all
 ! https://www.siteadvisor.com/sitereport.html?url=porngo.com
 porngo.com$all
-! https://www.siteadvisor.com/sitereport.html?url=incestflix.com
-incestflix.com$all
 ! www versions (for non-uBo formats)
 www.eporner.com$all
 www.porngo.com$all
 www.youjizz.com$all
-www.incestflix.com$all
 www.nudevista.com$all
 www.pornpics.com$all
 
@@ -1279,8 +1267,6 @@ gotporn.com$all
 japan-whores.com$all
 ! https://www.siteadvisor.com/sitereport.html?url=pornmd.com
 pornmd.com$all
-! https://www.siteadvisor.com/sitereport.html?url=youporngay.com
-youporngay.com$all
 ! https://www.siteadvisor.com/sitereport.html?url=pinflix.com
 pinflix.com$all
 ! https://www.siteadvisor.com/sitereport.html?url=alphaporno.com
@@ -1342,7 +1328,6 @@ softpussyx.us
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83801
 ! https://www.siteadvisor.com/sitereport.html?url=iwara.tv
 ! https://www.siteadvisor.com/sitereport.html?url=ecchi.iwara.tv
-! A dangerous domain according to McAfee
 iwara.tv$all
 ecchi.iwara.tv$all
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83785
@@ -1353,7 +1338,7 @@ tubeon.com$all
 ! https://www.siteadvisor.com/sitereport.html?url=bigtitslust.com
 bigtitslust.com$all
 
-!From https://github.com/DandelionSprout/adfilt/blob/master/AntiAbusePorn.txt
+! From https://github.com/DandelionSprout/adfilt/blob/master/AntiAbusePorn.txt
 ! https://www.siteadvisor.com/sitereport.html?url=rule34.xxx
 ! https://www.mywot.com/en/scorecard/rule34.xxx
 rule34.xxx$all
@@ -1363,6 +1348,8 @@ gelbooru.com$all
 ! https://www.mywot.com/scorecard/sankakucomplex.com
 ! https://www.siteadvisor.com/sitereport.html?url=sankakucomplex.com
 sankakucomplex.com$all
+! https://www.fortiguard.com/webfilter?q=sankakucomplex.com&version=8
+idol.sankakucomplex.com$all
 ! https://www.mywot.com/scorecard/tbib.org
 ! https://www.siteadvisor.com/sitereport.html?url=tbib.org
 tbib.org$all
@@ -1388,7 +1375,6 @@ hypnohub.net$all
 ! https://www.siteadvisor.com/sitereport.html?url=lolibooru.moe
 ! https://www.mywot.com/scorecard/lolibooru.moe
 lolibooru.moe$all
-pornhubthbh7ap3u.onion$all
 ! https://www.siteadvisor.com/sitereport.html?url=9hentai.com
 9hentai.com$all
 ! https://www.siteadvisor.com/sitereport.html?url=scatpornxxx.com
@@ -1575,9 +1561,6 @@ blackgaypornblogger.com$all
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83644
 ! https://www.siteadvisor.com/sitereport.html?url=www.young-sexy.com
 young-sexy.com$all
-! https://github.com/AdguardTeam/AdguardFilters/issues/83643
-! https://www.siteadvisor.com/sitereport.html?url=sexybabegirls.com
-sexybabegirls.com$all
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83622
 ! https://www.siteadvisor.com/sitereport.html?url=hentaihand.com
 hentaihand.com$all
@@ -1930,8 +1913,6 @@ hotpics.com$all
 pornpics.net$all
 ! https://www.siteadvisor.com/sitereport.html?url=pay4porn.net
 pay4porn.net$all
-! https://www.siteadvisor.com/sitereport.html?url=pay4porn.com
-pay4porn.com$all
 ! https://www.siteadvisor.com/sitereport.html?url=pay4teens.com
 pay4teens.com$all
 ! https://www.siteadvisor.com/sitereport.html?url=teenbra.com
