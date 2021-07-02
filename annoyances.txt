@@ -1,6 +1,6 @@
 ! Title: Annoyances
 ! Expires: 1 day
-! Last updated: 22/6/2021
+! Last updated: 2/7/2021
 ! Possible Antiadblock (it detects adblocker but does nothing - yet)
 @@||npttech.com/advertising.js$script,domain=dagsavisen.no
 
@@ -10,8 +10,6 @@ merriam-webster.com##+js(cookie-remover,OptanonConsent)
 merriam-webster.com##+js(cookie-remover,eupubconsent)
 www.merriam-webster.com##+js(cookie-remover,usprivacy)
 merriam-webster.com##+js(cookie-remover,user-data)
-
-! 2021-06-19 https://www.merriam-webster.com
 www.merriam-webster.com##.register-promo.section--spacer.row
 
 ! 2021-06-19 https://www.dictionary.com
@@ -23,5 +21,21 @@ www.dictionary.com###marketingBanner-right-button
 ! Some kind of ad or promo - please open an issue if I misunderstood what this was & its legit
 www.ksta.de##section.dm_content_block.module_for_tracking:nth-of-type(3)
 
-
 www.autodoc.de##.home-block-slider:has(.link.ga-click)
+
+! forbes
+www.forbes.com##.ad-rail
+www.forbes.com##.right-rail
+
+! common tracking params 
+*$queryprune=utm_source
+*$queryprune=utm_campaign
+
+! who.is annoyances
+who.is##[href="https://www.name.com/redirect/whodotis/sidebar-middle"]
+||whodotis-cdn.name.tools/media/whodotis/homepage_banner.jpg$image
+who.is##center:has-text(/use promo [a-z]/i)
+
+! https://weather.com annoyances
+weather.com##.SmartMessage--container--283Sk:has-text(/Premium for web/i)
+weather.com##.LinkList--inline--6G_xP.Footer--legalLinks--2scMz.Footer--linklist--1nSN2.LinkList--LinkList--N5p7e > li > .Footer--link--3N2c7.LinkList--Link--zzd7M:has-text(Ad)
