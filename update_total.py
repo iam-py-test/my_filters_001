@@ -6,7 +6,7 @@ for list in lists:
     if line.startswith("!") != True and line != "":
       num += 1
       
-allentries = """<svg height="20" width="180" xmlns="http://www.w3.org/2000/svg" version="1.1">
+allentries = """<svg height="20" width="155" xmlns="http://www.w3.org/2000/svg" version="1.1">
   <text x="0" y="15" fill="red">{} total entries</text>
 </svg>"""
 totalentries = open("totalentries.svg","w")
