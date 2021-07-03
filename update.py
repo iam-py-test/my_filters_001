@@ -9,7 +9,7 @@ def mkalt(file,alt):
       import socket
       if socket.gethostbyname(domain) == domain:
         return True
-     except:
+    except:
       pass
     return False
   for line in lines:
