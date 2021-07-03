@@ -9,8 +9,8 @@ def mkalt(file,alt):
       import socket
       if socket.gethostbyname(domain) == domain:
         return True
-    except:
-      pass
+    except Exception as err:
+      print(err)
     return False
   for line in lines:
     if line.startswith("||") and "^" in line:
