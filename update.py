@@ -9,9 +9,10 @@ def mkalt(file,alt):
       import socket
       if socket.gethostbyname(domain) == domain:
         return True
-    except Exception as err:
-      print(err)
+    except:
+      pass
     return False
+  
   for line in lines:
     if isipdomain(line.split("$")[0]) == True:
       iponly.write(line.split("$")[0] + "\n")
