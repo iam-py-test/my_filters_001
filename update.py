@@ -15,11 +15,11 @@ def mkalt(file,alt):
   for line in lines:
     if line.startswith("||") and "^" in line:
       domain = line.split("$")[0][2:-1]
-      if domain not in donedomains:
+      if domain not in donedomains and isipdomain(domain) != True:
         alt.write("{}\n".format(domain))
         donedomains.append(domain)
       continue
-    if isipdomain(line.split("$")[0] == True):
+    if isipdomain(line.split("$")[0]) == True:
       iponly.write(line.split("$")[0] + "\n")
       continue
     if line == '' or line.startswith("!") or line.startswith("||") or line == '[Adblock Plus 2.0]':
