@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues: https://github.com/iam-py-test/my_filters_001/issues
-! Last updated: 2/7/2021
+! Last updated: 4/7/2021
 ! A note about dates: All my dates are in EU format, which means day/month/year
 ! Porn websites
 shesfreaky.com$all
@@ -183,6 +183,14 @@ ww9.101sexsecret.com$all
 
 
 ! Found in random reports online
+! https://sitecheck.sucuri.net/results/2hot2sexy.com
+! https://www.siteadvisor.com/sitereport.html?url=bestfreecams.club
+! https://www.fortiguard.com/webfilter?q=bestfreecams.club&version=8
+! https://safeweb.norton.com/report/show?url=bestfreecams.club
+bestfreecams.club$all
+www.bestfreecams.club$all
+
+
 ! https://forums.lanik.us/viewtopic.php?f=64&t=39545&p=130309&hilit=malware+website#p130309
 ! https://www.siteadvisor.com/sitereport.html?url=porntrex.com
 porntrex.com$all
