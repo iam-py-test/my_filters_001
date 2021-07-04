@@ -973,7 +973,7 @@ amateurhub.fun$all
 ! https://safeweb.norton.com/report/show?url=search-sexlady.com
 ! https://quttera.com/detailed_report/search-sexlady.com
 ! Phishing/Spam
-search-sexlady.com$all
+!search-sexlady.com$all
 ! The target domain
 ! https://www.siteadvisor.com/sitereport.html?url=sexlady.com
 sexlady.com$all
