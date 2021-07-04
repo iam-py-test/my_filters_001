@@ -21,7 +21,7 @@ def mkalt(file,alt):
       continue
     if line.split("$")[0] not in donedomains:
       alt.write("{}\n".format(line.split("$")[0]))
-      donedomains.append(line.split("$")[0])
+      donedomains.append(line.split("$")[0].lower())
 mkalt("antimalware.txt","antimalware_domains.txt")
 mkalt("porn.txt","porn_domains.txt")
 mkalt("antitypo.txt","antitypo_domains.txt")
