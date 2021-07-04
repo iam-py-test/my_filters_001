@@ -285,7 +285,7 @@ topescortbabes.com$all
 ! https://www.fortiguard.com/webfilter?q=2hot2sexy.com&version=8
 2hot2sexy.com$all
 ! https://www.fortiguard.com/webfilter?q=4in1sites.com&version=8
-4in1sites.com$all
+! 4in1sites.com$all
 ! https://www.fortiguard.com/webfilter?q=africanamericanteens.com&version=8
 africanamericanteens.com$all
 ! https://www.siteadvisor.com/sitereport.html?url=adultdb.com
@@ -1221,9 +1221,9 @@ ceskeporno.tv$all
 brandreachsys.com$all
 traffichaus.com$all
 crakmedia.com$all
-rodriguezwoca.com.ar$all
-crucerosinfantiles.com.ar$all
-ingenet.com.ar$all
+!rodriguezwoca.com.ar$all
+!crucerosinfantiles.com.ar$all
+!ingenet.com.ar$all
 trafficjunky.net$all
 gammae.com$all
 rockwork.ch$all
@@ -1321,7 +1321,6 @@ sex-studentki.top$all
 18comic.vip$all
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/84444
-wwwlanmao.tv$all
 ! https://www.fortiguard.com/webfilter?q=lanmao.tv
 lanmao.tv$all
 www.lanmao.tv$all
@@ -1856,7 +1855,7 @@ streamen.net$all
 streammate.com$all
 streammates.com$all
 streammen.net$all
-strlt.net$all
+!strlt.net$all
 tcgcams.net$all
 teencamgirls.com$all
 teencams.com$all
