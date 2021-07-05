@@ -14,9 +14,10 @@ def mkalt(file,alt):
     return False
   
   for line in lines:
-    if isipdomain(line.split("$")[0]) == True:
-      iponly.write(line.split("$")[0] + "\n")
-      continue
+    if len(line.split("$")[0].split(".")) > 2
+      if isipdomain(line.split("$")[0]) == True:
+        iponly.write(line.split("$")[0] + "\n")
+        continue
     if line == '' or line.startswith("!") or line.startswith("||") or line == '[Adblock Plus 2.0]':
       continue
     if line.split("$")[0] not in donedomains:
@@ -24,4 +25,31 @@ def mkalt(file,alt):
       donedomains.append(line.split("$")[0].lower())
 mkalt("antimalware.txt","antimalware_domains.txt")
 mkalt("porn.txt","porn_domains.txt")
-mkalt("antitypo.txt","antitypo_domains.txt")
+#mkalt("antitypo.txt","antitypo_domains.txt")
+
+
+def mkhosts(file,altname):
+  donedomains = []
+  List = open(file).read().split("\n")
+  altfile = open(altname,"w")
+  def isipdomain(domain):
+    try:
+      import socket
+      if socket.gethostbyname(domain) == domain:
+        return True
+    except:
+      pass
+    return False
+  for line in List:
+    if line.startswith("!"):
+      altfile.write(line.replace("!","#"))
+    elif line == "" or line.startswith("||"):
+      continue
+    elif "$" in line:
+      domain = line.split("$")[0].lower()
+      if isipdomain(domain) == False and domain =! "" and domain not in donedomains:
+        altfile.write("127.0.0.1 {}".format(domain))
+        donedomains.append(domain)
+    altfile.write("\n")
+
+    mkhosts("antimalware.txt","antimalware_hosts.txt")
