@@ -52,4 +52,4 @@ def mkhosts(file,altname):
         donedomains.append(domain)
     altfile.write("\n")
 
-    mkhosts("antimalware.txt","antimalware_hosts.txt")
+mkhosts("antimalware.txt","antimalware_hosts.txt")
