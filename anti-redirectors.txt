@@ -158,3 +158,9 @@ itsssl.com$document
 
 ! https://app.any.run/tasks/76c0a010-75ff-4feb-a863-69bc7e4c588a/
 ||youtube.com/redirect$document
+
+! https://www.virustotal.com/gui/user/Zonoiscool/comments
+! https://www.virustotal.com/gui/url/3b7c6053f8697f7d9279ce2d12347cde3e91f13e271dca0c811ddce473af3717/community
+! https://www.mywot.com/scorecard/v.ht
+! https://safeweb.norton.com/reviews?url=v.ht
+v.ht$document
