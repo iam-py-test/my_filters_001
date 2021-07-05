@@ -43,7 +43,7 @@ def mkhosts(file,altname):
   for line in List:
     if line.startswith("!"):
       altfile.write(line.replace("!","#"))
-    elif line == "" or line.startswith("||"):
+    elif line == "" or line.startswith("||") or line.startswith(""):
       continue
     elif "$" in line:
       domain = line.split("$")[0].lower()
@@ -52,4 +52,4 @@ def mkhosts(file,altname):
         donedomains.append(domain)
     altfile.write("\n")
 
-mkhosts("antimalware.txt","antimalware_hosts.txt")
+mkhosts("antimalware.txt","Alternative list formats/antimalware_hosts.txt")
