@@ -4,7 +4,7 @@
 ! Please report false positives & unblocked domains to https://github.com/iam-py-test/my_filters_001/issues Thanks!
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 2/7/2021
+! Last updated: 5/7/2021
 ! Google redirects
 ||google.*/url?$document
 ! Facebook
@@ -155,3 +155,6 @@ snip.ly$document
 ! https://safeweb.norton.com/report/show?url=itsssl.com
 ! https://sitereport.netcraft.com/?url=https://itsssl.com/
 itsssl.com$document
+
+! https://app.any.run/tasks/76c0a010-75ff-4feb-a863-69bc7e4c588a/
+||youtube.com/redirect$document
