@@ -1,26 +1,24 @@
 ! Title: Antirickroll list - a list to block rickrolls
 ! Description: Rickrolls are an annoying prank which is spreading on the internet. This list is designed to block known rickroll sites and rickroll images. It will be decommissioned once this dumb prank stops being popular.
-! Last updated: 14/6/2021
+! Last updated: 5/7/2021
 ! Expires: 1 day
 ! License: No copyright
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 !A rickroll website
 secretrickroll.com$all
-!Hide text containing the word rickroll
-##*:has-text(Get rickroll)
-##*:has-text(rickroll)
+!Hide text containing the word rickroll - does not even work
+!##*:has-text(Get rickroll)
+!##*:has-text(rickroll)
 !Hide images/videos containing the word rickroll
-##[src*=rickroll]:not(iframe)
-##[srcset*=rickroll]
-##img[alt*=rickroll]
+!##[src*=rickroll]:not(iframe)
+!##[srcset*=rickroll]
+!##img[alt*=rickroll]
 !Block anything related to rickrolling except frames and xhrs, which are blocked separately. 
 ! This was removed due to breakage
 !/*rickroll$all,~frame,~xhr,domain=~wikipedia.org|~github.com|~githubusercontent.com
-!Block rickroll related xhrs - removed due to breakage
-!/*rickroll$xhr,redirect=noop.txt
-!Make rickroll frames click2load
-/*rickroll$frame,redirect=click2load.html
-rickroll$frame,redirect=click2load.html
+!Make rickroll frames click2load - noone adds 'rickroll' to the url for rickrolls
+!/*rickroll$frame,redirect=click2load.html
+!rickroll$frame,redirect=click2load.html
 !Block rickroll links
 !Removed due to breakage which forced me to make this change on another device 
 !##[href*=rickroll]
