@@ -43,7 +43,7 @@ def mkhosts(file,altname):
   for line in List:
     if line.startswith("!"):
       altfile.write(line.replace("!","#"))
-    elif line == "" or line.startswith("||") or line.startswith(""):
+    elif line == "" or line.startswith("||") or line.startswith("[Adblock Plus 2.0]"):
       continue
     elif "$" in line:
       domain = line.split("$")[0].lower()
