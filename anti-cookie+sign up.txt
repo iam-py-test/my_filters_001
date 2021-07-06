@@ -3,7 +3,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! GitHub Issues: https://github.com/iam-py-test/my_filters_001/issues
-! Last updated: 1/7/2021
+! Last updated: 6/7/2021
 
 ! https://www.fortiguard.com Cookie consent 
 fortiguard.com###__agreementBar
@@ -17,7 +17,6 @@ fortiguard.com###__agreementBar
 www.kozminski.edu.pl##.eu-cookie-compliance-banner--opt-in.eu-cookie-compliance-banner-info.eu-cookie-compliance-banner
 
 www.antiviruscontactsupport.com###cookie-law-info-bar
-
 
 ! https://www.ksta.de cookie consent
 www.ksta.de##.dimissed.sticky-footer.screen.ssoTemplate.revealed
@@ -34,6 +33,31 @@ tiny.cc##.cc_banner-wrapper
 ! https://www.lvz.de cookie consent
 ||cmp-sp.lvz.de/index.html$subdocument
 ||cdn-1281.privacy-mgmt.com^$xhr,domain=www.lvz.de
+
+! https://fraudscore.ai cookie consent
+fraudscore.ai##.cookiesBlock
+
+! https://www.spamhaus.org cookie consent
+www.spamhaus.org##.cookieinfo
+
+! https://www.gdata-software.com cookie consent
+www.gdata-software.com###gd-cookie-consent
+
+! https://labs.bitdefender.com cookie consent
+labs.bitdefender.com##.cookie-notice-container
+
+! https://www.forcepoint.com cookie consent
+www.forcepoint.com##.jquery-once-1-processed.cookie-consent
+
+! https://www.emsisoft.com cookie consent
+www.emsisoft.com##.cc-color-override--432516077.cc-bottom.cc-theme-block.cc-type-info.cc-banner.cc-window
+
+! https://cyanforensics.com cookie consent
+cyanforensics.com###catapult-cookie-bar
+
+! https://sitechecker.pro cookie consent
+sitechecker.pro##.footer__cookie
+
 
 ! https://www.osma-aufzuege.de
 www.osma-aufzuege.de###cookie-consent-dialog
@@ -120,6 +144,8 @@ express.de##+js(cookie-remover,dm_consent)
 express.de##+js(cookie-remover,consentUUID)
 express.de##+js(cookie-remover,consentRedirectUrl)
 
+
+
 ! https://www.crowrivermedia.com cookie consent
 www.crowrivermedia.com###cookie-notice
 ! Possible GEOLOCK script
@@ -167,8 +193,8 @@ www.oetker.de##.js-pd-main.pd-main
 ! https://www.f-secure.com cookie consent
 f-secure.com##.en_global.type-b.view-1.fs-consent
 
-! https://www.roastmarket.de and https://de.trustpilot.com cookie consent
-www.roastmarket.de,trustpilot.com###onetrust-consent-sdk
+! cookie consent
+www.roastmarket.de,trustpilot.com,cars.mclaren.com,sozcu.com.tr,community.broadcom.com,www.vmware.com,vmware.com,###onetrust-consent-sdk
 
 ! https://www.bundesregierung.de cookie consent
 www.bundesregierung.de##.bpa-white.bpa-module-supplement.bpa-module.bpa-cookie-banner
@@ -223,9 +249,6 @@ kinnarps.de##.js__cookie.cookie
 ! https://www.storage-mart.com cookie consent
 storage-mart.com##.smPolicyBanner
 
-! https://cars.mclaren.com cookie consent
-cars.mclaren.com###onetrust-consent-sdk
-
 ! https://wiiubrew.org
 wiiubrew.org##.banner-container.mw-cookiewarning-container
 
@@ -253,9 +276,6 @@ fc.lc###cookie-pop
 
 ! https://shrinkme.io cookie banner
 shrinkme.io###cookie-pop
-
-! https://www.sozcu.com.tr cookie consent
-sozcu.com.tr###onetrust-consent-sdk
 
 ! https://www.google.org cookie consent
 www.google.org###cookieBar
@@ -452,9 +472,6 @@ universeguide.com###cookieConsent\ noprint
 ! https://id-ransomware.malwarehunterteam.com
 id-ransomware.malwarehunterteam.com##.ad
 
-! https://community.broadcom.com cookies
-community.broadcom.com###onetrust-consent-sdk
-
 ! https://www.ublock-origin.com
 ublock-origin.com###cookie-law-info-bar
 
@@ -495,9 +512,6 @@ adblockplus.org##.cookiebar.cookie
 
 ! https://who.is
 who.is##[href="https://www.name.com/redirect/whodotis/homepage"]
-
-! https://www.vmware.com
-www.vmware.com###onetrust-consent-sdk
 
 ! https://cybersecurity.att.com
 cybersecurity.att.com##.active.cookie-notice
