@@ -1,0 +1,14 @@
+! Title: DuckDuckGo clean up
+! Description: Remove spammy, distracting, or malware sites and ads from DuckDuckGo search results
+! Expires: 1 day
+! Last updated: 18/6/2021
+
+! Get rid of ublock.org
+duckduckgo.com##.result:has-text(https://ublock.org)
+duckduckgo.com##.sitelink:has(a[href*="ublock.org"])
+duckduckgo.com##.result:has(a[href*="ublock.org"])
+! Ads - also blocked by default in uBo
+duckduckgo.com##.links_deep.links_main.result__body:has(.js-badge--ad.badge--ad)
+duckduckgo.com##.js-results-ads.results--ads--main.results--ads
+
+! Remove malware domains - auto-genorated 
