@@ -12,3 +12,4 @@ duckduckgo.com##.links_deep.links_main.result__body:has(.js-badge--ad.badge--ad)
 duckduckgo.com##.js-results-ads.results--ads--main.results--ads
 
 ! Remove malware domains - auto-genorated 
+{mal}
