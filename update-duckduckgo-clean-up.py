@@ -1,0 +1,9 @@
+template = open("duckduckgo-clean-up.template")
+endfile = open("duckduckgo-clean-up.txt","w")
+maldomains = open("Alternative list formats/antimalware_domains.txt").read().split("\n")
+total = ''
+for line in maldomains:
+  total += """duckduckgo.com##.result:has(a[href*="{domain}"])\n
+duckduckgo.com##.sitelink:has(a[href*="{domain}"])\n""".replace("{domain}",line)
+endfile.write(template.read().replace("{mal}",total))
+endfile.close()
