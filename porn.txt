@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues: https://github.com/iam-py-test/my_filters_001/issues
-! Last updated: 4/7/2021
+! Last updated: 6/7/2021
 ! A note about dates: All my dates are in EU format, which means day/month/year
 ! Porn websites
 shesfreaky.com$all
@@ -183,6 +183,153 @@ ww9.101sexsecret.com$all
 
 
 ! Found in random reports online
+! https://github.com/blocklistproject/Lists/issues/382
+! https://www.siteadvisor.com/sitereport.html?url=www.slutroulette.com
+www.slutroulette.com$all
+slutroulette.com$all
+! https://www.siteadvisor.com/sitereport.html?url=www.camarads.com
+www.camarads.com$all
+camarads.com$all
+! https://quttera.com/detailed_report/camarads.com
+media.camarads.com$all
+! https://www.fortiguard.com/webfilter?q=bazoocam.org&version=8
+bazoocam.org$all
+! https://www.fortiguard.com/webfilter?q=www.rampant.tv&version=8
+www.rampant.tv$all
+rampant.tv$all
+! https://www.fortiguard.com/webfilter?q=allcamsex.com&version=8
+allcamsex.com$all
+! https://www.virustotal.com/gui/domain/allcamsex.com/relations
+www.allcamsex.com$all
+live.allcamsex.com$all
+andreanobili.allcamsex.com$all
+! https://www.virustotal.com/gui/ip-address/23.23.122.206/relations
+! https://www.siteadvisor.com/sitereport.html?url=23.23.122.206
+23.23.122.206$all
+! https://www.fortiguard.com/webfilter?q=sex2go.info&version=8
+sex2go.info$all
+mail4.sex2go.info$all
+mx2.sex2go.info$all
+post.sex2go.info$all
+cs.sex2go.info$all
+www.sex2go.info$all
+! https://www.fortiguard.com/webfilter?q=sex2go.tv&version=8
+sex2go.tv$all
+www.sex2go.tv$all
+! https://www.siteadvisor.com/sitereport.html?url=webcamgirlreports.com
+webcamgirlreports.com$all
+www.webcamgirlreports.com$all
+blog.webcamreports.com$all
+! https://www.fortiguard.com/webfilter?q=freecamshow.com&version=8
+freecamshow.com$all
+ns1.freecamshow.com$all
+! https://sitecheck.sucuri.net/results/freecamshow.com
+www.freecamshow.com$all
+! https://www.siteadvisor.com/sitereport.html?url=videochatline.com
+videochatline.com$all
+www.videochatline.com$all
+! https://www.siteadvisor.com/sitereport.html?url=bestcamdirectory.com
+bestcamdirectory.com$all
+www.bestcamdirectory.com$all
+m.bestcamdirectory.com$all
+! https://www.fortiguard.com/webfilter?q=www.sex2go.biz&version=8
+www.sex2go.biz$all
+sex2go.biz$all
+! https://sitecheck.sucuri.net/results/webcamreports.xxx
+www.webcamreports.xxx$all
+! https://www.fortiguard.com/webfilter?q=myshemalewebcams.com&version=8
+myshemalewebcams.com$all
+www.myshemalewebcams.com$all
+! https://www.fortiguard.com/webfilter?q=chaturbatefreetokens.com&version=8
+www.chaturbatefreetokens.com$all
+chaturbatefreetokens.com$all
+! https://www.siteadvisor.com/sitereport.html?url=videochatline.com
+videochatline.com$all
+! https://www.siteadvisor.com/sitereport.html?url=webcamchatlive.net
+webcamchatlive.net$all
+! https://www.siteadvisor.com/sitereport.html?url=mobilesexcams.co
+mobilesexcams.co$all
+! https://www.siteadvisor.com/sitereport.html?url=www.chaturbatecredits.com
+www.chaturbatecredits.com$all
+chaturbatecredits.com$all
+! https://www.fortiguard.com/webfilter?q=freelove22.com
+freelove22.com$all
+! https://www.siteadvisor.com/sitereport.html?url=latinsexreports.com
+latinsexreports.com$all
+! https://www.fortiguard.com/webfilter?q=dennycam.com&version=8
+dennycam.com$all
+www.dennycam.com$all
+! https://www.siteadvisor.com/sitereport.html?url=mytgirlfriend.com
+www.mytgirlfriend.com$all
+mytgirlfriend.com$all
+! https://www.fortiguard.com/webfilter?q=fuckedapps.com&version=8
+www.fuckedapps.com$all
+fuckedapps.com$all
+! https://www.fortiguard.com/webfilter?q=www.cheapmobileporn.mobi&version=8
+www.cheapmobileporn.mobi$all
+cheapmobileporn.mobi$all
+! https://www.fortiguard.com/webfilter?q=bestcamsonmobile.com&version=8
+bestcamsonmobile.com$all
+www.bestcamsonmobile.com$all
+! https://www.siteadvisor.com/sitereport.html?url=lesbianreports.com
+lesbianreports.com$all
+www.lesbianreports.com$all
+! https://www.siteadvisor.com/sitereport.html?url=kittyscam.com
+! https://www.fortiguard.com/webfilter?q=kittyscam.com&version=8
+kittyscam.com$all
+! https://www.virustotal.com/gui/url/4b58a1ce77a8efe869e136decab93c9c0fd396f19dc4360a2940f967fdcca39e/links
+! https://www.fortiguard.com/webfilter?q=adultcamreview.com&version=8
+adultcamreview.com$all
+! Social media for kittyscam
+||facebook.com/Webcamreports-959396000844530$document
+||twitter.com/WebCamReports$document
+||plus.google.com/+Webcamreports$document
+||youtube.com/channel/UC4WMoYqZEC38WVDxB9MZPyA$document
+! https://www.siteadvisor.com/sitereport.html?url=sexcamtokens.com
+sexcamtokens.com$all
+! https://www.fortiguard.com/webfilter?q=www.amateurcool.com&version=8
+www.amateurcool.com$all
+amateurcool.com$all
+! https://www.fortiguard.com/webfilter?q=vrlatina.com&version=8
+vrlatina.com$all
+! https://www.fortiguard.com/webfilter?q=vrcosplayx.com&version=8
+vrcosplayx.com$all
+! https://www.virustotal.com/gui/url/5e73850f19da4fa78c3a1843fddbe3473b6fb25e6658ac7b9ce4d81def0a10df/links
+! https://www.siteadvisor.com/sitereport.html?url=kinkvr.com
+kinkvr.com$all
+! https://www.siteadvisor.com/sitereport.html?url=babevr.com
+babevr.com$all
+! https://www.siteadvisor.com/sitereport.html?url=https://vrsumo.com/
+vrsumo.com$all
+! https://www.siteadvisor.com/sitereport.html?url=badoinkvr.com
+badoinkvr.com$all
+! https://www.fortiguard.com/webfilter?q=18vr.com&version=8
+18vr.com$all
+! https://www.siteadvisor.com/sitereport.html?url=www.wankzvr.com
+www.wankzvr.com$all
+wankzvr.com$all
+! https://www.siteadvisor.com/sitereport.html?url=www.vrsmash.com
+www.vrsmash.com$all
+vrsmash.com$all
+! https://www.siteadvisor.com/sitereport.html?url=www.matureporn.me
+www.matureporn.me$all
+matureporn.me$all
+! https://sitecheck.sucuri.net/results/www.matureporn.me
+cdn1.matureporn.me$all
+cdn2.matureporn.me$all
+cdn3.matureporn.me$all
+! https://www.fortiguard.com/webfilter?q=www.sexyhub.com&version=8
+www.sexyhub.com$all
+sexyhub.com$all
+! https://www.virustotal.com/gui/url/0316e702533bf7cdf8766548b396410cd62e06ecb36b8238faa3bfd76d96822b/links
+! https://www.siteadvisor.com/sitereport.html?url=www.adultforce.com
+www.adultforce.com$all
+! https://www.fortiguard.com/webfilter?q=adultforce.com&version=8
+adultforce.com$all
+! https://www.siteadvisor.com/sitereport.html?url=www.trendzz.com
+www.trendzz.com$all
+trendzz.com$all
+
 ! https://sitecheck.sucuri.net/results/2hot2sexy.com
 ! https://www.siteadvisor.com/sitereport.html?url=bestfreecams.club
 ! https://www.fortiguard.com/webfilter?q=bestfreecams.club&version=8
