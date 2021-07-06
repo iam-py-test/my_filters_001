@@ -16,6 +16,7 @@ jobs:
         python-version: '3.x'
     - name: Build
       run: |
+        python update-duckduckgo-clean-up.py
         python update.py
         python update_total.py
     - name: Commit & Push
