@@ -33,6 +33,8 @@ www.forbes.com##.right-rail
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-969819
 ! Google analytics tracking
 $removeparam=cid
+! https://support.google.com/analytics/answer/4522476?hl=en
+*$queryprune=utm_id
 $removeparam=aid
 
 ! who.is annoyances
