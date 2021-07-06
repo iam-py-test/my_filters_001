@@ -30,6 +30,10 @@ www.forbes.com##.right-rail
 ! common tracking params 
 *$queryprune=utm_source
 *$queryprune=utm_campaign
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-969819
+! Google analytics tracking
+$removeparam=cid
+$removeparam=aid
 
 ! who.is annoyances
 who.is##[href="https://www.name.com/redirect/whodotis/sidebar-middle"]
