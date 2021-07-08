@@ -1564,6 +1564,4 @@ duckduckgo.com##.result:has(a[href*="static.theyardservice.com"])
 duckduckgo.com##.sitelink:has(a[href*="static.theyardservice.com"])
 duckduckgo.com##.result:has(a[href*="spora.biz"])
 duckduckgo.com##.sitelink:has(a[href*="spora.biz"])
-duckduckgo.com##.result:has(a[href*=""])
-duckduckgo.com##.sitelink:has(a[href*=""])
 
