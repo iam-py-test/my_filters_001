@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues: https://github.com/iam-py-test/my_filters_001/issues
-! Last updated: 6/7/2021
+! Last updated: 7/7/2021
 ! A note about dates: All my dates are in EU format, which means day/month/year
 ! Porn websites
 shesfreaky.com$all
@@ -2532,3 +2532,5 @@ porno.sex$all
 teensfuck.xxx$all
 ! https://www.siteadvisor.com/sitereport.html?url=cock.com
 cock.com$all
+! https://sitecheck.sucuri.net/results/cock.com
+www.cock.com$all
