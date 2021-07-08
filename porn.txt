@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues: https://github.com/iam-py-test/my_filters_001/issues
-! Last updated: 7/7/2021
+! Last updated: 8/7/2021
 ! A note about dates: All my dates are in EU format, which means day/month/year
 ! Porn websites
 shesfreaky.com$all
@@ -1636,7 +1636,9 @@ www.lanmao.tv$all
 ! https://www.fortiguard.com/webfilter?q=softpussyx.us
 ! https://www.virustotal.com/gui/url/03deb8244a6c96baf9cb7f24f7f11904786bc22e704c81dbbaa9cf2b266b6593/detection
 ! https://sitecheck.sucuri.net/results/softpussyx.us
-softpussyx.us
+softpussyx.us$all
+! https://www.virustotal.com/gui/domain/softpussyx.us/relations
+www.softpussyx.us$all
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83801
 ! https://www.siteadvisor.com/sitereport.html?url=iwara.tv
