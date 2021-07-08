@@ -1590,4 +1590,6 @@ duckduckgo.com##.result:has(a[href*="confirm-device-onlinesupport.co.uk"])
 duckduckgo.com##.sitelink:has(a[href*="confirm-device-onlinesupport.co.uk"])
 duckduckgo.com##.result:has(a[href*="alert-info.me"])
 duckduckgo.com##.sitelink:has(a[href*="alert-info.me"])
+duckduckgo.com##.result:has(a[href*="ifyouseethisdomaininablocklistthenittakeshostsfrom.iam-py-test.localhost"])
+duckduckgo.com##.sitelink:has(a[href*="ifyouseethisdomaininablocklistthenittakeshostsfrom.iam-py-test.localhost"])
 
