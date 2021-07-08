@@ -311,6 +311,11 @@ ww9.101sexsecret.com$all
 
 
 ! Found in random reports online
+! https://www.virustotal.com/gui/ip-address/162.0.209.79/relations
+! Confirmed via VM
+badboy.network$all
+www.badboy.network$all
+
 ! hxxps://sguru[.]org/safe-porn-sites-list/
 ! https://www.siteadvisor.com/sitereport.html?url=https://screwbox.com/
 screwbox.com$all
