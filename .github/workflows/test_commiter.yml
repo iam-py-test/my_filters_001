@@ -16,9 +16,11 @@ jobs:
         python-version: '3.x'
     - name: Build
       run: |
-        python update-duckduckgo-clean-up.py
+        echo 0 > "status.txt" 
         python update.py
         python update_total.py
+        python update-duckduckgo-clean-up.py
+        echo 1 > "status.txt"
     - name: Commit & Push
       uses: actions-x/commit@v2
       with:
