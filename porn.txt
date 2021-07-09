@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues: https://github.com/iam-py-test/my_filters_001/issues
-! Last updated: 8/7/2021
+! Last updated: 9/7/2021
 ! A note about dates: All my dates are in EU format, which means day/month/year
 ! Porn websites
 shesfreaky.com$all
@@ -330,6 +330,13 @@ ww9.101sexsecret.com$all
 
 
 ! Found in random reports online
+! https://github.com/4skinSkywalker/Anti-Porn-HOSTS-File/issues/15
+! https://www.siteadvisor.com/sitereport.html?url=zoozootube.com
+zoozootube.com$all
+www.zoozootube.com$all
+! https://www.siteadvisor.com/sitereport.html?url=freevideo.eu
+freevideo.eu$all
+
 ! https://www.virustotal.com/gui/ip-address/162.0.209.79/relations
 ! Confirmed via VM
 badboy.network$all
@@ -569,6 +576,38 @@ fuqer.com$all
 ! https://github.com/AdguardTeam/AdguardFilters/issues/42014
 ! https://www.siteadvisor.com/sitereport.html?url=pasend.com
 pasend.com$all
+! https://www.virustotal.com/gui/domain/pasend.com/relations
+dc-37367bc24339.pasend.com$all
+www.pasend.com$all
+mail.pasend.com$all
+forum.pasend.com$all
+! https://www.virustotal.com/gui/url/949075b7fedf69b8d140b24ba52a3a6b86c35f1de57474649cee2946203d7a57/links
+! https://www.siteadvisor.com/sitereport.html?url=barurotero.net
+barurotero.net$all
+! https://www.virustotal.com/gui/domain/barurotero.net/relations
+www.barurotero.net$all
+mail.barurotero.net$all
+cpanel.barurotero.net$all
+webdisk.barurotero.net$all
+webmail.barurotero.net$all
+! https://www.virustotal.com/gui/ip-address/104.21.40.126/relations
+! https://www.fortiguard.com/webfilter?q=+titten-basar.com&version=8
+titten-basar.com$all
+! https://www.virustotal.com/gui/domain/titten-basar.com/relations
+cdn.titten-basar.com$all
+0900-sexlivecam.titten-basar.com$all
+www.titten-basar.com$all
+camsex-amateure.titten-basar.com$all
+free-pornos.titten-basar.com$all
+webcam-fotzen.titten-basar.com$all
+! https://www.fortiguard.com/webfilter?q=pinayvids.com&version=8
+pinayvids.com$all
+www.pinayvids.com$all
+! https://www.fortiguard.com/webfilter?q=barurotero.blogspot.com&version=8
+barurotero.blogspot.com$all
+! https://www.siteadvisor.com/sitereport.html?url=manyakan.com
+manyakan.com$all
+sexpapa.co$all
 
 ! https://github.com/webcompat/web-bugs/issues/78078
 ! https://www.siteadvisor.com/sitereport.html?url=spankbang.com
@@ -586,6 +625,55 @@ www.pervclips.com$all
 ! https://github.com/gorhill/uBlock/issues/3287
 ! https://www.fortiguard.com/webfilter?q=imgadult.com&version=8
 imgadult.com$all
+! https://www.virustotal.com/gui/domain/imgadult.com/relations
+ww2.imgadult.com$all
+www.imgadult.com$all
+api.imgadult.com$all
+mail.imgadult.com$all
+! https://www.virustotal.com/gui/ip-address/104.21.235.76/relations
+! https://www.fortiguard.com/webfilter?q=+pornwebcams.us+&version=8
+pornwebcams.us$all
+www.pornwebcams.us$all
+! https://www.virustotal.com/gui/url/8c85923cbec20dd710cd588c42ecc816d7ecb12acc88e1a831ab66a07a4a49df/links
+! https://www.siteadvisor.com/sitereport.html?url=gayshows.info
+gayshows.info$all
+! https://www.fortiguard.com/webfilter?q=webcamtubeclips.com&version=8
+webcamtubeclips.com$all
+! https://www.fortiguard.com/webfilter?q=redcamtube.com&version=8
+redcamtube.com$all
+www.redcamtube.com$all
+! https://www.fortiguard.com/webfilter?q=livejasmincams.us&version=8
+livejasmincams.us$all
+! https://www.fortiguard.com/webfilter?q=girlmovies.net&version=8
+girlmovies.net$all
+! https://www.fortiguard.com/webfilter?q=xcamshub.com&version=8
+xcamshub.com$all
+www.xcamshub.com$all
+! https://www.virustotal.com/gui/ip-address/104.21.235.76/relations
+! https://www.fortiguard.com/webfilter?q=porno-star-dvd.com&version=8
+porno-star-dvd.com$all
+! https://www.virustotal.com/gui/domain/porno-star-dvd.com/relations
+www.porno-star-dvd.com$all
+mp4.porno-star-dvd.com$all
+img.porno-star-dvd.com$all
+! https://www.fortiguard.com/webfilter?q=preggers-x.com&version=8
+www.preggers-x.com$all
+preggers-x.com$all
+! https://www.fortiguard.com/webfilter?q=+www.thegay.com+&version=8
+! https://www.siteadvisor.com/sitereport.html?url=www.thegay.com
+www.thegay.com$all
+static.thegay.com$all
+es.thegay.com$all
+de.thegay.com$all
+! https://www.fortiguard.com/webfilter?q=porno-galleras.com&version=8
+porno-galleras.com$all
+mp4.porno-galleras.com$all
+mail.porno-galleras.com$all
+dc-8e78bc691f5a.porno-galleras.com$all
+dc-21356fbcb3f7.porno-galleras.com$all
+pics.porno-galleras.com$all
+! https://www.fortiguard.com/webfilter?q=+freeindianporn.mobi+&version=8
+freeindianporn.mobi$all
 
 ! Warning: This domain serves malware
 ! https://blog.sucuri.net/2021/06/malicious-redirects-through-bogus-plugin.html
