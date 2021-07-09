@@ -1,6 +1,6 @@
 ! Title: Annoyances
 ! Expires: 1 day
-! Last updated: 2/7/2021
+! Last updated: 8/7/2021
 ! Possible Antiadblock (it detects adblocker but does nothing - yet)
 @@||npttech.com/advertising.js$script,domain=dagsavisen.no
 
@@ -30,12 +30,16 @@ www.forbes.com##.right-rail
 ! common tracking params 
 *$queryprune=utm_source
 *$queryprune=utm_campaign
+*$removeparam=utm_reader
+*$removeparam=utm_social
+*$removeparam=utm_social-type
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-969819
 ! Google analytics tracking
 $removeparam=cid
 ! https://support.google.com/analytics/answer/4522476?hl=en
 *$queryprune=utm_id
 $removeparam=aid
+
 
 ! who.is annoyances
 who.is##[href="https://www.name.com/redirect/whodotis/sidebar-middle"]
