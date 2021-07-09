@@ -1,6 +1,6 @@
 ! Title: Annoyances
 ! Expires: 1 day
-! Last updated: 8/7/2021
+! Last updated: 9/7/2021
 ! Possible Antiadblock (it detects adblocker but does nothing - yet)
 @@||npttech.com/advertising.js$script,domain=dagsavisen.no
 
@@ -52,3 +52,6 @@ weather.com##.LinkList--inline--6G_xP.Footer--legalLinks--2scMz.Footer--linklist
 
 ! https://id-ransomware.malwarehunterteam.com ads
 id-ransomware.malwarehunterteam.com##.ad
+
+! Tracking - see https://github.com/uBlockOrigin/uBlock-issues/issues/1070
+online-metrix.net$all
