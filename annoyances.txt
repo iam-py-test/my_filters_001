@@ -17,6 +17,10 @@ www.dictionary.com###marketingBanner-right-button
 
 ! discord Ads
 ||cdn.discord.me/units/FJPebL7krYKtQHBOHAm1Pd6Vdy1nouMQn6zxkFZL.jpg$image
+discord.me##.promo-page-lower
+
+! https://www.microsoft.com promotion of Edge
+www.microsoft.com##.b-white.theme-light.epb-container.f-information.c-uhfh-alert:has-text(/microsoft edge/i)
 
 ! Some kind of ad or promo - please open an issue if I misunderstood what this was & its legit
 www.ksta.de##section.dm_content_block.module_for_tracking:nth-of-type(3)
@@ -38,7 +42,8 @@ www.forbes.com##.right-rail
 $removeparam=cid
 ! https://support.google.com/analytics/answer/4522476?hl=en
 *$queryprune=utm_id
-$removeparam=aid
+*$removeparam=aid
+
 
 
 ! who.is annoyances
