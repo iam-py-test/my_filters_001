@@ -1586,4 +1586,6 @@ duckduckgo.com##.result:has(a[href*="alert-info.me"])
 duckduckgo.com##.sitelink:has(a[href*="alert-info.me"])
 duckduckgo.com##.result:has(a[href*="ht5v7hz3wrvvktrkwfcv7djmhi.1.0.q4pgqq4iaegujt6mpszvhgvh4i.ivwssta.dns0.org"])
 duckduckgo.com##.sitelink:has(a[href*="ht5v7hz3wrvvktrkwfcv7djmhi.1.0.q4pgqq4iaegujt6mpszvhgvh4i.ivwssta.dns0.org"])
+duckduckgo.com##.result:has(a[href*="paubit.com"])
+duckduckgo.com##.sitelink:has(a[href*="paubit.com"])
 
