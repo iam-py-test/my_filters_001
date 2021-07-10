@@ -4,7 +4,7 @@
 ! Please report false positives & unblocked domains to https://github.com/iam-py-test/my_filters_001/issues Thanks!
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 8/7/2021
+! Last updated: 10/7/2021
 ! Google redirects
 ||google.*/url?$document
 ! Facebook
@@ -167,3 +167,6 @@ v.ht$document
 
 ! Amazon redirections
 ||amazon.com/gp/redirect.html/$document
+
+! Tracker redirects on a Zoom invite
+||clicks.eventbrite.com/f/a/$document
