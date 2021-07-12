@@ -196,7 +196,7 @@ www.oetker.de##.js-pd-main.pd-main
 f-secure.com##.en_global.type-b.view-1.fs-consent
 
 ! cookie consent
-www.roastmarket.de,trustpilot.com,cars.mclaren.com,sozcu.com.tr,community.broadcom.com,www.vmware.com,vmware.com,###onetrust-consent-sdk
+www.roastmarket.de,trustpilot.com,cars.mclaren.com,sozcu.com.tr,community.broadcom.com,www.vmware.com,vmware.com,www.alternatives-economiques.fr###onetrust-consent-sdk
 
 ! https://www.bundesregierung.de cookie consent
 www.bundesregierung.de##.bpa-white.bpa-module-supplement.bpa-module.bpa-cookie-banner
