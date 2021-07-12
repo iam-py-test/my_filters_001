@@ -1614,4 +1614,6 @@ duckduckgo.com##.result:has(a[href*="qa-m.mycleanpc.com"])
 duckduckgo.com##.sitelink:has(a[href*="qa-m.mycleanpc.com"])
 duckduckgo.com##.result:has(a[href*="dev-www.mycleanpc.com"])
 duckduckgo.com##.sitelink:has(a[href*="dev-www.mycleanpc.com"])
+duckduckgo.com##.result:has(a[href*="jingermy.com"])
+duckduckgo.com##.sitelink:has(a[href*="jingermy.com"])
 
