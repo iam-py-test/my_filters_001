@@ -1672,4 +1672,6 @@ duckduckgo.com##.result:has(a[href*="giveaway.iobit.com"])
 duckduckgo.com##.sitelink:has(a[href*="giveaway.iobit.com"])
 duckduckgo.com##.result:has(a[href*="de.iobit.com"])
 duckduckgo.com##.sitelink:has(a[href*="de.iobit.com"])
+duckduckgo.com##.result:has(a[href*="01apple.com"])
+duckduckgo.com##.sitelink:has(a[href*="01apple.com"])
 
