@@ -92,3 +92,6 @@ whynotwin11.com$document
 ! https://www.virustotal.com/gui/url/7f0b595a6004b1b6b6563e39b8d147dfde6a70d714e43b8a5a3da81b857e6b8b/detection
 ! https://www.siteadvisor.com/sitereport.html?url=01apple.com
 01apple.com$all
+! Potencial typosquatt
+google.com.gt$document
+
