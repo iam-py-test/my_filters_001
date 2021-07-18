@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues: https://github.com/iam-py-test/my_filters_001/issues
-! Last updated: 9/7/2021
+! Last updated: 18/7/2021
 ! A note about dates: All my dates are in EU format, which means day/month/year
 ! Porn websites
 shesfreaky.com$all
@@ -330,6 +330,55 @@ ww9.101sexsecret.com$all
 
 
 ! Found in random reports online
+! https://github.com/blocklistproject/Lists/issues/406
+toppornguide.com$all
+ilikecomix.com$all
+xlecx.org$all
+milftoon.site$all
+myhentaicomics.com$all
+hdporncomics.com$all
+gilftoon.com$all
+porncomixone.net$all
+porncomicsfree.net$all
+wporncomics.com$all
+www.porncomichub.com$all
+cartoonxxx.in$all
+hornyson.com$all
+bestporncomix.com$all
+www.kenyaadultblog.com$all
+erocomicsxxx.com$all
+comicspornoxxx.com$all
+savitahd.net$all
+indianpornlist.com$all
+www.velammacomics.vip$all
+www.comicsporn.xxx$all
+comicporns.com$all
+worldporncomix.com$all
+wsexcomics.com$all
+fotonovelasxxx.com$all
+newpornsites.org$all
+allpornsite.net$all
+hotporn.today$all
+www.familycuckolds.com$all
+www.epicafri.com$all
+www.localcamgirls.net$all
+www.mylked.com$all
+www.bffs.com$all
+www.bracefaced.com$all
+www.cospuri.com$all
+www.lollipopgirls.jp$all
+www.scoreland.com$all
+www.tittyattack.com$all
+www.gingerpatch.com$all
+www.shoplyfter.com$all
+downtofuckdating.com$all
+abbiemaley.com$all
+www.pervmom.com$all
+hotmilfsfuck.com$all
+fist4k.com$all
+genuinesin.com$all
+theflourishfetish.com$all
+
 ! https://github.com/4skinSkywalker/Anti-Porn-HOSTS-File/issues/15
 ! https://www.siteadvisor.com/sitereport.html?url=zoozootube.com
 zoozootube.com$all
