@@ -8,10 +8,10 @@ Please report any issues you have and I will try to fix them; please note I may 
 This repo contains the following lists:
 - Pornography Blocklist (porn.txt) ([Subscribe](https://iam-py-test.github.io/add_list.html?id=1))
 - Malware domains and URLs list (antimalware.txt) ([Subscribe](https://iam-py-test.github.io/add_list.html?id=2))
-- Anti Cookie-consent and paywalls list (anti-cookie+sign up.txt)
+- Anti Cookie-consent and paywalls list (anti-cookie+sign up.txt) ([Subscribe](https://iam-py-test.github.io/add_list.html?id=3))
 - Anti redirectors list (anti-redirectors.txt)
 - Anti typosquatting list (antitypo.txt)
-- Anti url tracking list (privacy.txt)
+- Annoyances (annoyances.txt)
 
 These lists are designed for uBlock Origin and may work in AdGuard. They are untested in AdBlock Plus.<br/>
 If you need these lists in other formats, you can use the following. Note that the _Anti cookie-conset and paywalls list_ does not work as well in other formats, and only exists in uBlock Origin/AdGuard format, and in AdBlock Plus format (untested).
