@@ -4,7 +4,7 @@
 ! Please report false positives & unblocked domains to https://github.com/iam-py-test/my_filters_001/issues Thanks!
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 14/7/2021
+! Last updated: 19/7/2021
 ! Google redirects
 ||google.*/url?$document
 ! Facebook
@@ -173,3 +173,7 @@ v.ht$document
 
 ! Bing redirects (use uBo's query-param parsing to bypass)
 ||bing/newtabredirect$document
+
+! Possible tracker redirects
+! https://www.virustotal.com/gui/url/324d9f78151bf5a2a8130b07849f9427c2ce45abf5dd1276100cf5dd71bf9ec1/details
+||url5104.sistemavendadireta.com.br/ls/click$document
