@@ -1682,4 +1682,6 @@ duckduckgo.com##.result:has(a[href*="www.speedupmypcfree.com"])
 duckduckgo.com##.sitelink:has(a[href*="www.speedupmypcfree.com"])
 duckduckgo.com##.result:has(a[href*="ftp.speedupmypcfree.com"])
 duckduckgo.com##.sitelink:has(a[href*="ftp.speedupmypcfree.com"])
+duckduckgo.com##.result:has(a[href*="telete.in"])
+duckduckgo.com##.sitelink:has(a[href*="telete.in"])
 
