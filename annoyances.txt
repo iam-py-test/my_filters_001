@@ -1,6 +1,6 @@
 ! Title: Annoyances
 ! Expires: 1 day
-! Last updated: 18/7/2021
+! Last updated: 19/7/2021
 ! Possible Antiadblock (it detects adblocker but does nothing - yet)
 @@||npttech.com/advertising.js$script,domain=dagsavisen.no
 
@@ -63,3 +63,8 @@ online-metrix.net$all
 
 ! https://github.com/DandelionSprout/adfilt/issues/4
 ||sannsyn.com^$3p
+
+! Breakage & legit domain blocking
+! https://github.com/TheAntiSocialEngineer/AntiSocial-BlockList-UK-Community/issues/2
+||cdn-apple.com^$badfilter
+
