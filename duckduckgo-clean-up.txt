@@ -1688,4 +1688,6 @@ duckduckgo.com##.result:has(a[href*="pcclcc.knorish.com"])
 duckduckgo.com##.sitelink:has(a[href*="pcclcc.knorish.com"])
 duckduckgo.com##.result:has(a[href*="onedrive.interestmy.tech"])
 duckduckgo.com##.sitelink:has(a[href*="onedrive.interestmy.tech"])
+duckduckgo.com##.result:has(a[href*="packageredirect-myhermes.com"])
+duckduckgo.com##.sitelink:has(a[href*="packageredirect-myhermes.com"])
 
