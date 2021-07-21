@@ -1,6 +1,6 @@
 ! Title: Annoyances
 ! Expires: 1 day
-! Last updated: 19/7/2021
+! Last updated: 21/7/2021
 ! Possible Antiadblock (it detects adblocker but does nothing - yet)
 @@||npttech.com/advertising.js$script,domain=dagsavisen.no
 
@@ -43,8 +43,8 @@ $removeparam=cid
 ! https://support.google.com/analytics/answer/4522476?hl=en
 *$queryprune=utm_id
 *$removeparam=aid
-
-
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1031533
+||trezor.io^$removeparam=aff_id
 
 ! who.is annoyances
 who.is##[href="https://www.name.com/redirect/whodotis/sidebar-middle"]
