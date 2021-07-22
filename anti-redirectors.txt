@@ -4,7 +4,7 @@
 ! Please report false positives & unblocked domains to https://github.com/iam-py-test/my_filters_001/issues Thanks!
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 19/7/2021
+! Last updated: 22/7/2021
 ! Google redirects
 ||google.*/url?$document
 ! Facebook
@@ -177,3 +177,13 @@ v.ht$document
 ! Possible tracker redirects
 ! https://www.virustotal.com/gui/url/324d9f78151bf5a2a8130b07849f9427c2ce45abf5dd1276100cf5dd71bf9ec1/details
 ||url5104.sistemavendadireta.com.br/ls/click$document
+
+! Tracker, ip-logging, url shortener used by cybercriminals
+! https://www.virustotal.com/gui/url/94bd1436eccc87b7cef754f5ed42569f9d0694c6f67e0ff6c27acf5fe3f3771b/community
+! https://www.mywot.com/scorecard/iplogger.org
+! https://safeweb.norton.com/reviews?url=iplogger.org
+! Found in a lot of malware
+iplogger.org$document
+! Another varation
+! https://www.virustotal.com/gui/url/666cbd470e33070bbad62d9e92af4d80dad15e4136fcbdea6a364c38245b2d75/community
+iplogger.com$all
