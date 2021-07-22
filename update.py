@@ -47,7 +47,10 @@ def mkhosts(file,altname):
       continue
     elif "$" in line:
       domain = line.split("$")[0].lower()
-      if isipdomain(domain) == False and domain != "" and domain not in donedomains:
+      isip = isipdomain(domain)
+      if isip == True:
+        altfile.write("#IP address {}".format(domain))
+      if isip == False and domain != "" and domain not in donedomains:
         altfile.write("127.0.0.1 {}".format(domain))
         donedomains.append(domain)
     altfile.write("\n")
