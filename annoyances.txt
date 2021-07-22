@@ -1,6 +1,6 @@
 ! Title: Annoyances
 ! Expires: 1 day
-! Last updated: 21/7/2021
+! Last updated: 22/7/2021
 ! Possible Antiadblock (it detects adblocker but does nothing - yet)
 @@||npttech.com/advertising.js$script,domain=dagsavisen.no
 
@@ -67,4 +67,16 @@ online-metrix.net$all
 ! Breakage & legit domain blocking
 ! https://github.com/TheAntiSocialEngineer/AntiSocial-BlockList-UK-Community/issues/2
 ||cdn-apple.com^$badfilter
+
+! Ads promoting a PUP on https://www.windowsdispatch.com
+www.windowsdispatch.com##strong:has(a[href*="restoro.com"])
+
+! Ad remainders on https://www.aftenposten.no
+www.aftenposten.no###top-ads-container
+www.aftenposten.no###right:has(.skyscraper.ad):remove()
+www.aftenposten.no##.bsWidgetFallback.contentboard.ad
+www.aftenposten.no##.align-left.standard-ad-container.col-2.column
+www.aftenposten.no##.brandboard.ad
+www.aftenposten.no##.jobb.ad
+www.aftenposten.no##.align-right.standard-ad-container.col-2.column
 
