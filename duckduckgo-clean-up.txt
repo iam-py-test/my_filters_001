@@ -2922,4 +2922,8 @@ duckduckgo.com##.result:has(a[href*="systemini-com.tk"])
 duckduckgo.com##.sitelink:has(a[href*="systemini-com.tk"])
 duckduckgo.com##.result:has(a[href*="micropcsupport.com"])
 duckduckgo.com##.sitelink:has(a[href*="micropcsupport.com"])
+duckduckgo.com##.result:has(a[href*="pccleaner.com"])
+duckduckgo.com##.sitelink:has(a[href*="pccleaner.com"])
+duckduckgo.com##.result:has(a[href*="advancedsystemrepair.com"])
+duckduckgo.com##.sitelink:has(a[href*="advancedsystemrepair.com"])
 
