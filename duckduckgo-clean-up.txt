@@ -2918,4 +2918,8 @@ duckduckgo.com##.result:has(a[href*="ashampoo.com"])
 duckduckgo.com##.sitelink:has(a[href*="ashampoo.com"])
 duckduckgo.com##.result:has(a[href*="driverfix.com"])
 duckduckgo.com##.sitelink:has(a[href*="driverfix.com"])
+duckduckgo.com##.result:has(a[href*="systemini-com.tk"])
+duckduckgo.com##.sitelink:has(a[href*="systemini-com.tk"])
+duckduckgo.com##.result:has(a[href*="micropcsupport.com"])
+duckduckgo.com##.sitelink:has(a[href*="micropcsupport.com"])
 
