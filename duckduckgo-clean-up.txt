@@ -2914,4 +2914,8 @@ duckduckgo.com##.result:has(a[href*="survey-smiles.com"])
 duckduckgo.com##.sitelink:has(a[href*="survey-smiles.com"])
 duckduckgo.com##.result:has(a[href*="www.joeboiden.com"])
 duckduckgo.com##.sitelink:has(a[href*="www.joeboiden.com"])
+duckduckgo.com##.result:has(a[href*="ashampoo.com"])
+duckduckgo.com##.sitelink:has(a[href*="ashampoo.com"])
+duckduckgo.com##.result:has(a[href*="https://github.com/iam-py-test/assets-001/tree/main/pups/ashampoo"])
+duckduckgo.com##.sitelink:has(a[href*="https://github.com/iam-py-test/assets-001/tree/main/pups/ashampoo"])
 
