@@ -2916,4 +2916,6 @@ duckduckgo.com##.result:has(a[href*="www.joeboiden.com"])
 duckduckgo.com##.sitelink:has(a[href*="www.joeboiden.com"])
 duckduckgo.com##.result:has(a[href*="ashampoo.com"])
 duckduckgo.com##.sitelink:has(a[href*="ashampoo.com"])
+duckduckgo.com##.result:has(a[href*="driverfix.com"])
+duckduckgo.com##.sitelink:has(a[href*="driverfix.com"])
 
