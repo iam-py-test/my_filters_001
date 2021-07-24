@@ -2926,4 +2926,6 @@ duckduckgo.com##.result:has(a[href*="pccleaner.com"])
 duckduckgo.com##.sitelink:has(a[href*="pccleaner.com"])
 duckduckgo.com##.result:has(a[href*="advancedsystemrepair.com"])
 duckduckgo.com##.sitelink:has(a[href*="advancedsystemrepair.com"])
+duckduckgo.com##.result:has(a[href*="www.telete.in"])
+duckduckgo.com##.sitelink:has(a[href*="www.telete.in"])
 
