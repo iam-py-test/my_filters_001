@@ -1,0 +1,5 @@
+! Title: Enhanced website protection
+! Description: This list aims to - when combined with an antimalware blocklist (like mine) - provide the highest protection I can offer by blocking commonly abused TLDs, along with a few other protections too extreme to put in my main list.
+! Expires: 1 day
+
+! Used in phishing and typosquatting - 
