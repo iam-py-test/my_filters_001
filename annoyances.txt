@@ -1,6 +1,6 @@
 ! Title: Annoyances
 ! Expires: 1 day
-! Last updated: 22/7/2021
+! Last updated: 30/7/2021
 ! Possible Antiadblock (it detects adblocker but does nothing - yet)
 @@||npttech.com/advertising.js$script,domain=dagsavisen.no
 
@@ -79,4 +79,9 @@ www.aftenposten.no##.align-left.standard-ad-container.col-2.column
 www.aftenposten.no##.brandboard.ad
 www.aftenposten.no##.jobb.ad
 www.aftenposten.no##.align-right.standard-ad-container.col-2.column
+
+! Ads
+! https://github.com/uBlock-LLC/uBlock/issues/1839
+ieeod0.com$all
+v4dwkcv.com$all
 
