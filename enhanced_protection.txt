@@ -3,3 +3,6 @@
 ! Expires: 1 day
 
 ! Used in phishing and typosquatting - 
+
+! Abused TLDs
+||.top^$document
