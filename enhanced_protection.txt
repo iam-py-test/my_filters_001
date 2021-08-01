@@ -5,4 +5,4 @@
 ! Used in phishing and typosquatting - 
 
 ! Abused TLDs
-||.top^$document
+||top^$document
