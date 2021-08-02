@@ -3094,4 +3094,8 @@ duckduckgo.com##.result:has(a[href*="winzipdriverupdater.com"])
 duckduckgo.com##.sitelink:has(a[href*="winzipdriverupdater.com"])
 duckduckgo.com##.result:has(a[href*="boisehosting.net"])
 duckduckgo.com##.sitelink:has(a[href*="boisehosting.net"])
+duckduckgo.com##.result:has(a[href*="www.111bjs.com"])
+duckduckgo.com##.sitelink:has(a[href*="www.111bjs.com"])
+duckduckgo.com##.result:has(a[href*="111bjs.com"])
+duckduckgo.com##.sitelink:has(a[href*="111bjs.com"])
 
