@@ -1,4 +1,4 @@
-||[Adblock Plus 2.0]^
+
 ! Title: Pornography blocklist
 ! Description: This list is designed to block porn, shock-sites, and other gruesome or not child safe websites - adding this list will also make your computer more secure as these sites often have malware on them. This list only works in uBlock Origin and AdGuard. If you need a list for somewhere else, check the Alternet Lists area. Note that currently I have no way to make this list work in AdBlock Plus due to it throwing an error and lack of support for full blockage of a webpage, which AdGuard and uBlock Origin support. 
 ! Format description: This is uBlock Origin format, and should work in uBlock Origin and AdGuard
@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues: https://github.com/iam-py-test/my_filters_001/issues
-! Last updated: 9/7/2021
+! Last updated: 21/7/2021
 ! A note about dates: All my dates are in EU format, which means day/month/year
 ! Porn websites
 ||shesfreaky.com^
@@ -185,6 +185,7 @@
 ! https://www.mywot.com/scorecard/hot.xxx
 ! https://www.siteadvisor.com/sitereport.html?url=hot.xxx
 ||hot.xxx^
+
 ! random domains I made up or found
 ! https://www.siteadvisor.com/sitereport.html?url=manfucker.com
 ||manfucker.com^
@@ -318,6 +319,7 @@
 ||pay4porn.com^
 ! https://www.siteadvisor.com/sitereport.html?url=porn.de
 ||porn.de^
+
 ! A malware/porn domain - blocking here because it does have porn and should be blocked more globally.
 ! https://www.mywot.com/en/scorecard/101sexsecret.com
 ! https://www.siteadvisor.com/sitereport.html?url=101sexsecret.com
@@ -325,17 +327,75 @@
 ||101sexsecret.com^
 ! https://sitecheck.sucuri.net/results/101sexsecret.com
 ||ww9.101sexsecret.com^
+
+
 ! Found in random reports online
+! https://staging-blog.malwarebytes.com/cybercrime/2020/10/xss-to-tss-tech-support-scam-campaign/
+! https://www.virustotal.com/gui/url/20ef52e48105469f42991b3400d4b8f55e8391ba1d9ac070a5b996ed81e84ac9/detection
+! https://www.virustotal.com/gui/ip-address/104.21.7.228/relations
+||sexdatingxpress.online^
+
+! https://github.com/blocklistproject/Lists/issues/406
+||toppornguide.com^
+||ilikecomix.com^
+||xlecx.org^
+||milftoon.site^
+||myhentaicomics.com^
+||hdporncomics.com^
+||gilftoon.com^
+||porncomixone.net^
+||porncomicsfree.net^
+||wporncomics.com^
+||www.porncomichub.com^
+||cartoonxxx.in^
+||hornyson.com^
+||bestporncomix.com^
+||www.kenyaadultblog.com^
+||erocomicsxxx.com^
+||comicspornoxxx.com^
+||savitahd.net^
+||indianpornlist.com^
+||www.velammacomics.vip^
+||www.comicsporn.xxx^
+||comicporns.com^
+||worldporncomix.com^
+||wsexcomics.com^
+||fotonovelasxxx.com^
+||newpornsites.org^
+||allpornsite.net^
+||hotporn.today^
+||www.familycuckolds.com^
+||www.epicafri.com^
+||www.localcamgirls.net^
+||www.mylked.com^
+||www.bffs.com^
+||www.bracefaced.com^
+||www.cospuri.com^
+||www.lollipopgirls.jp^
+||www.scoreland.com^
+||www.tittyattack.com^
+||www.gingerpatch.com^
+||www.shoplyfter.com^
+||downtofuckdating.com^
+||abbiemaley.com^
+||www.pervmom.com^
+||hotmilfsfuck.com^
+||fist4k.com^
+||genuinesin.com^
+||theflourishfetish.com^
+
 ! https://github.com/4skinSkywalker/Anti-Porn-HOSTS-File/issues/15
 ! https://www.siteadvisor.com/sitereport.html?url=zoozootube.com
 ||zoozootube.com^
 ||www.zoozootube.com^
 ! https://www.siteadvisor.com/sitereport.html?url=freevideo.eu
 ||freevideo.eu^
+
 ! https://www.virustotal.com/gui/ip-address/162.0.209.79/relations
 ! Confirmed via VM
 ||badboy.network^
 ||www.badboy.network^
+
 ! hxxps://sguru[.]org/safe-porn-sites-list/
 ! https://www.siteadvisor.com/sitereport.html?url=https://screwbox.com/
 ||screwbox.com^
@@ -366,6 +426,7 @@
 ! https://www.siteadvisor.com/sitereport.html?url=www.tubev.sex
 ||www.tubev.sex^
 ||tubev.sex^
+
 ! https://github.com/blocklistproject/Lists/issues/382
 ! https://www.siteadvisor.com/sitereport.html?url=www.slutroulette.com
 ||www.slutroulette.com^
@@ -427,6 +488,7 @@
 ||www.chaturbatefreetokens.com^
 ||chaturbatefreetokens.com^
 ! https://www.siteadvisor.com/sitereport.html?url=videochatline.com
+
 ! https://www.siteadvisor.com/sitereport.html?url=webcamchatlive.net
 ||webcamchatlive.net^
 ! https://www.siteadvisor.com/sitereport.html?url=mobilesexcams.co
@@ -511,23 +573,28 @@
 ! https://www.siteadvisor.com/sitereport.html?url=www.trendzz.com
 ||www.trendzz.com^
 ||trendzz.com^
+
 ! https://sitecheck.sucuri.net/results/2hot2sexy.com
 ! https://www.siteadvisor.com/sitereport.html?url=bestfreecams.club
 ! https://www.fortiguard.com/webfilter?q=bestfreecams.club&version=8
 ! https://safeweb.norton.com/report/show?url=bestfreecams.club
 ||bestfreecams.club^
 ||www.bestfreecams.club^
+
+
 ! https://forums.lanik.us/viewtopic.php?f=64&t=39545&p=130309&hilit=malware+website#p130309
 ! https://www.siteadvisor.com/sitereport.html?url=porntrex.com
 ||porntrex.com^
 ! https://www.siteadvisor.com/sitereport.html?url=xxxstreams.eu
 ||xxxstreams.eu^
+
 ! https://forum.adguard.com/index.php?threads/please-block-this-adult-website.41416/
 ! https://www.siteadvisor.com/sitereport.html?url=www.erozzz.com
 ||www.erozzz.com^
 ||erozzz.com^
 ! https://www.siteadvisor.com/sitereport.html?url=recurbate.com
 ||recurbate.com^
+
 ! https://github.com/uBlockOrigin/uAssets/issues/9436
 ! https://www.siteadvisor.com/sitereport.html?url=javsex.guru
 ||javsex.guru^
@@ -539,6 +606,8 @@
 ||cpanel.javsex.guru^
 ||www.javsex.guru^
 ||webmail.javsex.guru^
+
+
 ! https://github.com/blocklistproject/Lists/issues/353
 ||fr.porn.com^
 ||dogporn.net^
@@ -553,9 +622,11 @@
 ||pottsmerc.com^
 ||combo.porn^
 ||pornoid.tv^
+
 ! https://github.com/AdguardTeam/CoreLibs/issues/1182
 ! https://www.fortiguard.com/webfilter?q=fuqer.com&version=8
 ||fuqer.com^
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/42014
 ! https://www.siteadvisor.com/sitereport.html?url=pasend.com
 ||pasend.com^
@@ -591,16 +662,20 @@
 ! https://www.siteadvisor.com/sitereport.html?url=manyakan.com
 ||manyakan.com^
 ||sexpapa.co^
+
 ! https://github.com/webcompat/web-bugs/issues/78078
 ! https://www.siteadvisor.com/sitereport.html?url=spankbang.com
 ||spankbang.com^
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/86741
 ! https://www.siteadvisor.com/sitereport.html?url=hentaienesp.com
 ||hentaienesp.com^
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/86491
 ! https://www.fortiguard.com/webfilter?q=pervclips.com&version=8
 ||pervclips.com^
 ||www.pervclips.com^
+
 ! https://github.com/gorhill/uBlock/issues/3287
 ! https://www.fortiguard.com/webfilter?q=imgadult.com&version=8
 ||imgadult.com^
@@ -653,6 +728,7 @@
 ||pics.porno-galleras.com^
 ! https://www.fortiguard.com/webfilter?q=+freeindianporn.mobi+&version=8
 ||freeindianporn.mobi^
+
 ! Warning: This domain serves malware
 ! https://blog.sucuri.net/2021/06/malicious-redirects-through-bogus-plugin.html
 ! https://www.siteadvisor.com/sitereport.html?url=xn--o1aofd.xn--p1ai
@@ -661,15 +737,19 @@
 ! https://www.fortiguard.com/webfilter?q=xn--80adzf.xn--p1ai
 ! https://www.siteadvisor.com/sitereport.html?url=xn--80adzf.xn--p1ai
 ||xn--80adzf.xn--p1ai^
+
 ! https://forums.lanik.us/viewtopic.php?f=62&t=46220&p=160099&hilit=NSFW#p160099
 ! https://www.fortiguard.com/webfilter?q=tt1069.com&version=8
 ||tt1069.com^
+
 ! https://forums.lanik.us/viewtopic.php?f=62&t=46328
 ! https://www.siteadvisor.com/sitereport.html?url=6annonce.com
 ||6annonce.com^
+
 ! https://forums.lanik.us/viewtopic.php?f=62&t=46329
 ! https://www.siteadvisor.com/sitereport.html?url=topescortbabes.com
 ||topescortbabes.com^
+
 ! https://www.mywot.com/scorecard/jdoqocy.com
 ! https://forum.mywot.com/24626-whatsmyipaddress-com
 ! https://www.siteadvisor.com/sitereport.html?url=1-hairy-women-teen-pussy-cunts-bush-girls.com
@@ -702,6 +782,7 @@
 ||kissmycrack.com^
 ! https://www.fortiguard.com/webfilter?q=rapemywife.com&version=8
 ||rapemywife.com^
+
 ! https://quttera.com/detailed_report/porno.com
 ! https://www.fortiguard.com/webfilter?q=bangbros.com&version=8
 ||bangbros.com^
@@ -720,153 +801,154 @@
 ||dc-fd52826ded0a.virtualrealitypornsites.com^
 ! https://www.virustotal.com/gui/ip-address/141.0.173.133/relations
 ! All the subdomains
-||xxxgays.porno.com^
-||is.porno.com^
-||sexe.is.porno.com^
-||forza.porno.com^
-||subir.porno.com^
-||melhordo.porno.com^
-||tex.porno.com^
-||maskeli.porno.com^
-||dai.porno.com^
-||tanto.porno.com^
-||novinhasdo.porno.com^
-||baldiz.porno.com^
-||porno.com^
-||wwwmvideo.porno.com^
-||www.m.moe.porno.com^
-||www.xvideos.free.porno.com^
-||multi.xnxx.porno.com^
-||vidio.porno.com^
-||www.xhamster.retro.porno.com^
-||sex.xnxx.porno.com^
-||www.multi.xnxx.porno.com^
-||mujeres.porno.com^
-||freefire.porno.com^
-||mac.porno.com^
-||xxxvideos.porno.com^
-||vpn-sd.porno.com^
-||www.sexxy.porno.com^
-||asiatki.porno.com^
-||skacat.porno.com^
-||xxx.videoswww.porno.com^
-||blecked.porno.com^
-||www.japanes.porno.com^
-||www.mega.porno.com^
-||xxx.babes.zenci.porno.com^
-||wwwfree.porno.com^
-||www.russian.tube.porno.com^
-||www.9.porno.com^
-||wwchoval.porno.com^
-||wekomix.porno.com^
-||wwwfilm.porno.com^
-||lord.porno.com^
-||len.porno.com^
-||holland.porno.com^
-||alicia.my.web.girls.porno.com^
-||wwxn.porno.com^
-||apidev.porno.com^
-||hd.asian.porno.com^
-||xn--kol-joa.porno.com^
-||videos.de.porno.com^
-||vermangas.porno.com^
-||duck.porno.com^
-||eski.porno.com^
-||m.mx.porno.com^
-||www.xx.videos.porno.com^
-||turbanli.porno.com^
-||presents.videorama.porno.com^
-||brasil.porno.com^
-||interracial.porno.com^
-||six.xxnxi.porno.com^
-||zooskool.porno.com^
-||www.posexs.porno.com^
-||karin.porno.com^
-||www.baxar.porno.com^
-||www.xn--gzlx-lzac.porno.com^
-||www.adolocente.porno.com^
-||x365.porno.com^
-||ixxx.porno.com^
-||www.aceh.porno.com^
-||www.1granny.porno.com^
-||movies.porno.com^
-||rex.porno.com^
-||ww.w.porno.com^
-||kugo.porno.com^
-||illuko.porno.com^
-||castingxxx.com.porno.com^
-||hanrub.porno.com^
-||morrachas.porno.com^
-||www.sexe.porno.com^
-||seki.porno.com^
-||it.porno.com^
-||www.video.sex.porno.com^
-||www.it.porno.com^
-||www.xxxl.porno.com^
-||schwule.monbile.porno.com^
-||conagrande.big.sexo.porno.com^
-||xn--vdeo-vpa.porno.com^
-||milfs.porno.com^
-||www.xvidios.porno.com^
-||magento.publicdisgrace.porno.com^
-||shop.reservation.porno.com^
-||naty.porno.com^
-||www.japan.porno.com^
-||www.horse.porno.com^
-||drtube.porno.com^
-||as.porno.com^
-||xxx.peliculas.porno.com^
-||xs.nki.algiria.porno.com^
-||pising.porno.com^
-||ivory.porno.com^
-||india.porno.com^
-||staging.porno.com^
-||xn--y9aaa.porno.com^
-||hut.porno.com^
-||tekis.porno.com^
-||xvediod.porno.com^
-||iran.porno.com^
-||waptrik.porno.com^
-||www.xxll.porno.com^
-||xvidio.porno.com^
-||www-toro.porno.com^
-||nuviles.porno.com^
-||toropornowww.porno.com^
-||vedoi.porno.com^
-||staging.lab.porno.com^
-||teens.14.porno.com^
-||mobile.twitter.comwww.porno.com^
-||cs.porno.com^
-||mx5.porno.com^
-||ww.xn--zoophlie-p2a.porno.com^
-||brunette.porno.com^
-||www.shale.porno.com^
-||www.oriental.porno.com^
-||hays.porno.com^
-||test.porno.com^
-||sensational.porno.com^
-||jakarta.porno.com^
-||erotik.porno.com^
-||qey.porno.com^
-||zenci.porno.com^
-||seguridad.porno.com^
-||femme.porno.com^
-||ares.porno.com^
-||www.photo.porno.com^
-||pure.porno.com^
-||rocky.porno.com^
-||vedio.porno.com^
-||www.hay.porno.com^
-||shop.to.porno.com^
-||hairy.porno.com^
-||wwwxx.porno.com^
-||moi.porno.com^
-||malay.porno.com^
-||roussia.porno.com^
-||whitekad.porno.com^
-||videosparavajarwww.porno.com^
-||720.porno.com^
-||sex.suits.porno.com^
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ||www.googie.porno.com^
 ||n032.porno.com^
 ||large.porno.com^
@@ -1029,20 +1111,26 @@
 ||hdx.vip.porno.com^
 ||www.baixar.video.porno.com^
 ||www.xhamster.chien.porno.com^
+
+
+
 ! https://www.virustotal.com/gui/ip-address/146.112.61.108/relations
 ! https://www.virustotal.com/gui/url/a8ba52a7b7aedf4a7ae4ae18a181dc35faefc09313ef0385e169bb194dbb05f0/detection
 ! https://www.fortiguard.com/webfilter?q=cam.exposed
 ||cam.exposed^
 ! https://www.fortiguard.com/webfilter?q=ru.cam.exposed&version=8
 ||ru.cam.exposed^
+
 ! https://www.virustotal.com/gui/ip-address/103.224.212.247/relations
 ! https://www.siteadvisor.com/sitereport.html?url=mailserver.sinfulbitch.com
 ||mailserver.sinfulbitch.com^
 ! https://www.siteadvisor.com/sitereport.html?url=sinfulbitch.com
 ||sinfulbitch.com^
+
 ! https://github.com/DandelionSprout/adfilt/issues/3
 ! https://www.siteadvisor.com/sitereport.html?url=nakenprat.com
 ||nakenprat.com^
+
 ! https://github.com/easylist/easylist/pull/6601
 ! https://www.siteadvisor.com/sitereport.html?url=playvids.com
 ||playvids.com^
@@ -1065,6 +1153,7 @@
 ! https://www.fortiguard.com/webfilter?q=nicepussy.org&version=8
 ||nicepussy.org^
 ||www.nakedgirlwallpaper.pro^
+
 ! https://github.com/ABPindo/indonesianadblockrules/issues/181
 ! https://www.siteadvisor.com/sitereport.html?url=semprot.com
 ||semprot.com^
@@ -1073,6 +1162,7 @@
 ! https://redirectdetective.com
 ! https://www.mywot.com/en/scorecard/46.166.167.16
 ||46.166.167.16
+
 ! https://github.com/jerryn70/GoodbyeAds/issues/122
 ! https://www.siteadvisor.com/sitereport.html?url=si6ling.incestflix.com
 ||si6ling.incestflix.com^
@@ -1080,43 +1170,54 @@
 ||incestflix.com^
 ! https://www.siteadvisor.com/sitereport.html?url=www.incestflix.com
 ||www.incestflix.com^
+
 ! https://labs.sucuri.net/signatures/malwares/html-defaced-bghh-001/
 ! https://sitecheck.sucuri.net/results/swfcabin.com
 ! https://www.siteadvisor.com/sitereport.html?url=cafesex.net
 ||cafesex.net^
 ||www.cafesex.net^
+
 ! https://github.com/webcompat/web-bugs/issues/74820
 ! https://www.fortiguard.com/webfilter?q=e56rzanvfxljd5on.com&version=8
 ||e56rzanvfxljd5on.com^
+
 ! https://github.com/webcompat/web-bugs/issues/77182
 ! https://www.fortiguard.com/webfilter?q=vrporn.com&version=8
 ||vrporn.com^
+
 ! https://github.com/MajkiIT/polish-ads-filter/issues/11722
 ! https://www.siteadvisor.com/sitereport.html?url=lacha.pl
 ||lacha.pl^
+
 ! https://github.com/MajkiIT/polish-ads-filter/issues/14347
 ! https://www.siteadvisor.com/sitereport.html?url=otube.pl
 ! https://www.fortiguard.com/webfilter?q=otube.pl&version=8
 ||otube.pl^
+
 ! https://github.com/MajkiIT/polish-ads-filter/issues/16867
 ! https://www.siteadvisor.com/sitereport.html?url=tube-bunny.com
 ||tube-bunny.com^
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85485
 ! https://www.fortiguard.com/webfilter?q=www.simply-hentai.com&version=8
 ! https://www.siteadvisor.com/sitereport.html?url=www.simply-hentai.com
 ||www.simply-hentai.com^
 ||simply-hentai.com^
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85564
 ! https://www.siteadvisor.com/sitereport.html?url=nudeselfiespics.com
 ||nudeselfiespics.com^
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85568
 ! https://www.siteadvisor.com/sitereport.html?url=www.sexpuss.org
 ||www.sexpuss.org^
 ||sexpuss.org^
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85760
 ! https://www.fortiguard.com/webfilter?q=www.pussyspace.net+&version=8
 ||www.pussyspace.net^
 ||pussyspace.net^
+
 ! https://github.com/blocklistproject/Lists/issues/327
 ! https://www.siteadvisor.com/sitereport.html?url=jayspov.net
 ||jayspov.net^
@@ -1172,41 +1273,53 @@
 ||sexmexlive.com^
 ! https://www.virustotal.com/gui/url/1ebc122d59db1606c5d93d980617029ac092aab86915e12517089223c21f5ea2/links
 ||my-sweet-sexfinder.com^
+
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85098
 ! https://www.siteadvisor.com/sitereport.html?url=streamporn.pw
 ||streamporn.pw^
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85139
 ! https://www.virustotal.com/gui/url/34ae64b5269d59e92d33130da378779acb9ddf43abea73accd31f2c82729658b/detection
 ||webatam.com^
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85163
 ! https://www.siteadvisor.com/sitereport.html?url=comicsxxxgratis.com
 ||comicsxxxgratis.com^
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85031
 ! https://www.fortiguard.com/webfilter?q=watchpornfree.info&version=8
 ||watchpornfree.info^
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85224
 ! https://www.fortiguard.com/webfilter?q=www.youtubewon.com&version=8
 ||www.youtubewon.com^
 ||youtubewon.com^
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85287
 ! https://www.siteadvisor.com/sitereport.html?url=hotscope.tv
 ||hotscope.tv^
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85335
 ! https://www.siteadvisor.com/sitereport.html?url=kr20.sogirl.co
 ||kr20.sogirl.co^
 ! https://www.siteadvisor.com/sitereport.html?url=sogirl.co
 ||sogirl.co^
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85424
 ! https://www.siteadvisor.com/sitereport.html?url=22pixx.xyz
 ||22pixx.xyz^
+
 ! https://blog.sucuri.net/2010/06/mass-infection-of-iisasp-sites-2677-inyahoo-js.html
 ! https://www.virustotal.com/gui/ip-address/199.59.242.150/relations
 ! https://www.siteadvisor.com/sitereport.html?url=xxxdee.com
 ||xxxdee.com^
 ||www.xxxdee.com^
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85204
 ! https://www.fortiguard.com/webfilter?q=mrdeepfakes.com&version=8
 ||mrdeepfakes.com^
+
 ! https://github.com/mikf/gallery-dl/issues/1527
 ! https://www.fortiguard.com/webfilter?q=rule34.us&version=8
 ||rule34.us^
@@ -1231,22 +1344,27 @@
 ||hitomi.la^
 ! https://www.fortiguard.com/webfilter?q=inkbunny.net&version=8
 ||inkbunny.net^
+
 ! https://blocklistproject.github.io/Lists/abuse.txt
 ! https://www.siteadvisor.com/sitereport.html?url=000.gaysexe.free.fr
 ||000.gaysexe.free.fr^
 ! https://www.siteadvisor.com/sitereport.html?url=gaysexe.free.fr
 ||gaysexe.free.fr^
+
 ! https://safeweb.norton.com/reviews?url=feetexposed.com
 ! https://www.fortiguard.com/webfilter?q=feetexposed.com&version=8
 ! https://www.siteadvisor.com/sitereport.html?url=feetexposed.com
 ||feetexposed.com^
+
 ! https://github.com/uBlockOrigin/uAssets/issues/9327
 ! https://www.siteadvisor.com/sitereport.html?url=mofos.com
 ||mofos.com^
+
 ! https://sitecheck.sucuri.net/results/cumteen.com
 ! https://www.fortiguard.com/webfilter?q=youngroulette.com&version=8
 ||youngroulette.com^
 ||www.youngroulette.com^
+
 ! https://github.com/easylist/easylist/issues/6553
 ! https://github.com/easylist/easylist/issues/6449
 ! https://safeweb.norton.com/report/show?url=anymad.com
@@ -1271,14 +1389,19 @@
 ||realyoungsex.com^
 ||primaryporntube.com^
 ||voyeurpornsex.com^
+
+
 ! https://github.com/easylist/easylist/issues/6635
 ! https://www.siteadvisor.com/sitereport.html?url=www.celebritynakeds.com
 ||www.celebritynakeds.com^
 ||celebritynakeds.com^
+
+
 ! https://github.com/easylist/easylist/issues/7514
 ! https://siteadvisor.com/sitereport.html?url=hdporns.eu
 ||hdporns.eu^
 ||www.hdporns.eu^
+
 ! https://forums.lanik.us/viewtopic.php?f=64&t=45725&p=160042&hilit=NSFW#p160042
 ! https://siteadvisor.com/sitereport.html?url=phncdn.com
 ||phncdn.com^
@@ -1297,6 +1420,7 @@
 ||feedback.pornhub.com^
 ||feedback.pornhubthbh7ap3u.onion^
 ||cdn1d-static-shared.phncdn.com^
+
 ! https://forums.lanik.us/viewtopic.php?f=64&t=46242&p=160201&hilit=NSFW#p160201
 ! https://siteadvisor.com/sitereport.html?url=onlainporno1.online
 ||onlainporno1.online^
@@ -1304,11 +1428,13 @@
 ||mypornoonlain.tv^
 ! https://siteadvisor.com/sitereport.html?url=vpornoonlain.tv
 ||vpornoonlain.tv^
+
 ! https://github.com/easylist/easylist/issues/7515
 ! https://siteadvisor.com/sitereport.html?url=pornfaia.com
 ||pornfaia.com^
 ! https://siteadvisor.com/sitereport.html?url=amateurhub.fun
 ||amateurhub.fun^
+
 ! https://www.bleepingcomputer.com/news/security/us-seizes-domains-used-by-apt29-in-recent-usaid-phishing-attacks/
 ! https://www.virustotal.com/gui/ip-address/99.81.40.78/relations
 ! https://www.virustotal.com/gui/url/a95742ec3899f4bc3c4c1be496b9eaf0208e5cce02dfbc2e93a6de5cf966c865/detection
@@ -1323,15 +1449,19 @@
 ! The target domain
 ! https://www.siteadvisor.com/sitereport.html?url=sexlady.com
 ||sexlady.com^
+
 ! https://github.com/easylist/easylist/issues/7517
 ! https://siteadvisor.com/sitereport.html?url=ymlporn.net
 ||ymlporn.net^
+
 ! https://github.com/easylist/easylist/issues/7504
 ! https://siteadvisor.com/sitereport.html?url=3gpking.pro
 ||3gpking.pro^
+
 ! https://github.com/easylist/easylist/issues/7505
 ! https://siteadvisor.com/sitereport.html?url=cliphunter.com
 ||cliphunter.com^
+
 ! https://github.com/easylist/easylist/issues/7507
 ! https://siteadvisor.com/sitereport.html?url=heavy-r.com
 ||heavy-r.com^
@@ -1339,6 +1469,7 @@
 ! https://github.com/easylist/easylist/commit/da21d0324d3def8970d87e18ae1920619261a254
 ! https://siteadvisor.com/sitereport.html?url=sexyandfunny.com
 ||sexyandfunny.com^
+
 ! https://github.com/easylist/easylist/issues/7806
 ! https://siteadvisor.com/sitereport.html?url=neukcontacten.info
 ||neukcontacten.info^
@@ -1346,13 +1477,18 @@
 ! https://siteadvisor.com/sitereport.html?url=adult-trade.nl
 ||adult-trade.nl^
 ||www.adult-trade.nl^
+
+
 ! https://github.com/easylist/easylist/issues/7860
 ! https://siteadvisor.com/sitereport.html?url=cockmeter.com
 ||cockmeter.com^
 ||www.cockmeter.com^
+
+
 ! https://github.com/easylist/easylist/issues/7861
 ! https://siteadvisor.com/sitereport.html?url=str8ongay.com
 ||str8ongay.com^
+
 ! https://github.com/easylist/easylist/pull/7903
 ! https://categorify.org
 ! https://categorify.org/api?website=sexybabegirls.com
@@ -1361,18 +1497,21 @@
 ! https://www.siteadvisor.com/sitereport.html?url=sexybabegirls.com
 ||sexybabegirls.com^
 ||www.sexybabegirls.com^
+
 ! https://github.com/easylist/easylist/pull/7931
 ! https://categorify.org
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83958
 ! https://www.siteadvisor.com/sitereport.html?url=xxerotica.com
 ||www.xxerotica.com^
 ||xxerotica.com^
+
 ! https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
 ! https://www.fortiguard.com/webfilter?q=donk69.com&version=8
 ||donk69.com^
 ! https://www.fortiguard.com/webfilter?q=wankflix.com&version=8
 ||wankflix.com^
 ! https://www.fortiguard.com/webfilter?q=mofosex.com&version=8
+
 ! https://www.fortiguard.com/webfilter?q=keezmovies.com&version=8
 ! https://www.siteadvisor.com/sitereport.html?url=keezmovies.com
 ! https://safeweb.norton.com/reviews?url=keezmovies.com
@@ -1380,20 +1519,25 @@
 ! https://www.mywot.com/scorecard/keezmovies.com
 ! https://sitecheck.sucuri.net/results/keezmovies.com
 ||keezmovies.com^
+
 ! https://github.com/easylist/easylist/pull/7942/files
 ! https://www.fortiguard.com/webfilter?q=porndoo.com&version=8
 ||porndoo.com^
+
 ! https://github.com/easylist/easylist/pull/7939
 ! https://www.fortiguard.com/webfilter?q=www.pornjam.com&version=8
 ||www.pornjam.com^
 ||pornjam.com^
+
 ! https://github.com/easylist/easylist/pull/7943
 ! https://www.fortiguard.com/webfilter?q=xxxymovies.com&version=8
 ||xxxymovies.com^
+
 ! https://github.com/easylist/easylist/pull/7944
 ! https://www.fortiguard.com/webfilter?q=pussy.org&version=8
 ||pussy.org^
 ||www.pussy.org^
+
 ! https://github.com/easylist/easylist/pull/7950
 ! https://www.fortiguard.com/webfilter?q=pornchimp.com&version=8
 ||pornchimp.com^
@@ -1438,6 +1582,7 @@
 ! https://www.fortiguard.com/webfilter?q=tuberel.com&version=8
 ||tuberel.com^
 ! https://www.fortiguard.com/webfilter?q=tubev.sex&version=8
+
 ! https://www.fortiguard.com/webfilter?q=txxx.com&version=8
 ||txxx.com^
 ! https://www.fortiguard.com/webfilter?q=vidmo.org&version=8
@@ -1452,10 +1597,13 @@
 ||youpornhub.it^
 ! https://www.fortiguard.com/webfilter?q=yourdailypornstars.com&version=8
 ||yourdailypornstars.com^
+
 ! https://trustscam.com/baddiehub.com
 ! https://www.mywot.com/scorecard/baddiehub.com
 ! https://www.siteadvisor.com/sitereport.html?url=baddiehub.com
 ||baddiehub.com^
+
+
 ! https://github.com/blocklistproject/Lists/issues/311
 ! https://www.siteadvisor.com/sitereport.html?url=eporner.com
 ||eporner.com^
@@ -1467,9 +1615,11 @@
 ||www.youjizz.com^
 ||www.nudevista.com^
 ||www.pornpics.com^
+
 ! https://github.com/easylist/easylist/issues/7968
 ! https://www.siteadvisor.com/sitereport.html?url=hentai-foundry.com
 ||hentai-foundry.com^
+
 ! https://github.com/easylist/easylist/pull/7932
 ! https://siteadvisor.com/sitereport.html?url=xxxdan.com
 ! https://www.virustotal.com/gui/url/b9a0bb0bc59085094468e9e33748c312b72d17b33ac1c3ba26b1899ea8b2d5c7/links
@@ -1489,20 +1639,22 @@
 ! https://www.siteadvisor.com/sitereport.html?url=brazzersnetwork.com
 ! https://www.siteadvisor.com/sitereport.html?url=https://landing.brazzersnetwork.com/?ats=eyJhIjoxMjc5NywiYyI6NTgwNTkzNDEsIm4iOjE0LCJzIjo5MCwiZSI6ODgwMywicCI6MTF9
 ||brazzersnetwork.com^
+
 ! https://github.com/easylist/easylist/pull/7947
 ! https://siteadvisor.com/sitereport.html?url=adultfreex.com
 ||adultfreex.com^
+
 ! domains from https://github.com/blocklistproject/Lists/issues/310
-||bestporncomix.com^
-||worldporncomix.com^
-||wporncomics.com^
-||erocomicsxxx.com^
+
+
+
+
 ||hentaicomicsonline.com^
-||fotonovelasxxx.com^
+
 ||sexcomix.me^
 ! https://www.siteadvisor.com/sitereport.html?url=comix.site
 ||comix.site^
-||hornyson.com^
+
 ||porncomixinfo.net^
 ||porncomics.name^
 ! https://www.siteadvisor.com/sitereport.html?url=8-muses.xyz
@@ -1510,9 +1662,10 @@
 ! https://www.siteadvisor.com/sitereport.html?url=hdhentaicomics.com
 ||hdhentaicomics.com^
 ||comixzilla.com^
-||comicporns.com^
+
 ! https://www.fortiguard.com/webfilter?q=8muses.net&version=8
 ||8muses.net^
+
 ! https://someonewhocares.org/hosts/
 ! https://www.siteadvisor.com/sitereport.html?url=www.theexgirlfriends.com
 !https://www.virustotal.com/gui/domain/theexgirlfriends.com/detection
@@ -1526,6 +1679,7 @@
 ! https://safeweb.norton.com/report/show?url=porn.biz
 ! https://www.mywot.com/en/scorecard/porn.biz
 ||porn.biz^
+
 ! https://www.nbcnews.com/id/wbna51498128
 ! https://www.pcworld.com/article/2034864/just-how-much-malware-is-on-free-porn-sites-.html
 ! https://blog.dynamoo.com/2013/04/top-porn-sites-lead-to-malware.html
@@ -1568,9 +1722,11 @@
 ||porno.net^
 ||titties.com^
 ||xxxtube.com^
+
 ! https://someonewhocares.org/hosts/
 ! https://www.mywot.com/scorecard/lolshock.com
 ||lolshock.com^
+
 ! https://github.com/spirillen/ublockorigin-rules/commit/33af13a6fff15036637c8e941b24d6c8b4ef8bf9
 ! https://www.siteadvisor.com/sitereport.html?url=tubepornstars.tv
 ||tubepornstars.tv^
@@ -1621,21 +1777,26 @@
 ||bravomediagroup.com^
 ! https://www.siteadvisor.com/sitereport.html?url=http://bravotube.tumblr.com/
 ||bravotube.tumblr.com^
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/84417
 ! https://www.siteadvisor.com/sitereport.html?url=verygayboys.com
 ! https://www.fortiguard.com/webfilter?q=www.verygayboys.com&version=8
 ||verygayboys.com^
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/84541
 ! https://www.fortiguard.com/webfilter?q=sex-studentki.top&version=8
 ||sex-studentki.top^
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/84451
 ! https://www.fortiguard.com/webfilter?q=18comic.vip&version=8
 ! https://www.siteadvisor.com/sitereport.html?url=18comic.vip
 ||18comic.vip^
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/84444
 ! https://www.fortiguard.com/webfilter?q=lanmao.tv
 ||lanmao.tv^
 ||www.lanmao.tv^
+
 ! https://safeweb.norton.com/reviews?url=softpussyx.us
 ! https://www.siteadvisor.com/sitereport.html?url=softpussyx.us
 ! https://www.fortiguard.com/webfilter?q=softpussyx.us
@@ -1644,6 +1805,7 @@
 ||softpussyx.us^
 ! https://www.virustotal.com/gui/domain/softpussyx.us/relations
 ||www.softpussyx.us^
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83801
 ! https://www.siteadvisor.com/sitereport.html?url=iwara.tv
 ! https://www.siteadvisor.com/sitereport.html?url=ecchi.iwara.tv
@@ -1656,6 +1818,7 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83786
 ! https://www.siteadvisor.com/sitereport.html?url=bigtitslust.com
 ||bigtitslust.com^
+
 ! From https://github.com/DandelionSprout/adfilt/blob/master/AntiAbusePorn.txt
 ! https://www.siteadvisor.com/sitereport.html?url=rule34.xxx
 ! https://www.mywot.com/en/scorecard/rule34.xxx
@@ -1793,10 +1956,12 @@
 ! https://github.com/uBlockOrigin/uAssets/issues/9116
 ! https://www.fortiguard.com/webfilter?q=justanime.net
 ||justanime.net^
+
 ! https://github.com/uBlockOrigin/uAssets/issues/9102
 ! https://www.mywot.com/scorecard/pornhubpremium.com
 ! https://siteadvisor.com/sitereport.html?url=pornhubpremium.com
 ||pornhubpremium.com^
+
 ! https://github.com/alex000kim/nsfw_data_scraper/blob/master/raw_data/sexy/urls_sexy.txt
 ! https://www.siteadvisor.com/sitereport.html?url=content.japhole.com
 ||content.japhole.com^
@@ -1806,6 +1971,7 @@
 ! https://www.mywot.com/scorecard/sniffies.com
 ! https://www.siteadvisor.com/sitereport.html?url=sniffies.com
 ||sniffies.com^
+
 ! https://github.com/uBlockOrigin/uAssets/issues/8463
 ! https://siteadvisor.com/sitereport.html?url=milffox.com
 ||milffox.com^
@@ -1823,6 +1989,7 @@
 ||pornpics.com^
 ! https://www.siteadvisor.com/sitereport.html?url=cdn.pornpics.com
 ||cdn.pornpics.com^
+
 ! https://blog.dynamoo.com/2013/04/top-porn-sites-lead-to-malware.html
 ! https://www.pcworld.com/article/2034864/just-how-much-malware-is-on-free-porn-sites-.html
 ||burningangel.com^
@@ -1845,6 +2012,7 @@
 ||xhamster.com^
 ! https://github.com/iam-py-test/my_filters_001/issues/10
 ||xvideos.com^
+
 ! https://safeweb.norton.com/reviews?url=kyliejennernude.com
 ! https://www.siteadvisor.com/sitereport.html?url=kyliejennernude.com
 ||kyliejennernude.com^
@@ -1854,6 +2022,7 @@
 ! https://yandex.com/safety/?url=lookedon.com
 ! Also added as malware
 ||lookedon.com^
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83579
 ! https://www.siteadvisor.com/sitereport.html?url=lewdsenpai.com
 ||lewdsenpai.com^
@@ -2180,6 +2349,7 @@
 ||xxxcam.com^
 ||xxxchat.com^
 ||youngbabes.com^
+
 ! More porn domains
 ! https://www.siteadvisor.com/sitereport.html?url=teenfuck.com
 ||teenfuck.com^
@@ -2348,6 +2518,7 @@
 ||iwank.tv^
 ||sunporno.com^
 ||bestandfree.com^
+
 ! https://www.siteadvisor.com/sitereport.html?url=bigtits.com
 ||bigtits.com^
 ! https://www.siteadvisor.com/sitereport.html?url=bigtits.net
@@ -2406,6 +2577,8 @@
 ||crazyporn.xxx^
 ! https://www.siteadvisor.com/sitereport.html?url=pornhat.one
 ||pornhat.one^
+
+
 ! Randomly genorated domains
 ! https://www.fortiguard.com/webfilter?q=preg.xyz&version=8
 ||preg.xyz^
@@ -2416,7 +2589,7 @@
 ! https://www.siteadvisor.com/sitereport.html?url=sexy.net
 ||sexy.net^
 ! https://www.fortiguard.com/webfilter?q=pussy.xyz&version=8
-||pussy.xyz^
+
 ! https://www.fortiguard.com/webfilter?q=boobsmen.com&version=8
 ||boobsmen.com^
 ! https://www.fortiguard.com/webfilter?q=cock.xxx&version=8
@@ -2448,6 +2621,7 @@
 ! https://www.fortiguard.com/webfilter?q=fucksex.net&version=8
 ||fucksex.net^
 ! https://www.fortiguard.com/webfilter?q=porno.com&version=8
+||porno.com^
 ! https://www.fortiguard.com/webfilter?q=pornoteen.com&version=8
 ||pornoteen.com^
 ! https://www.fortiguard.com/webfilter?q=slutteen.xyz&version=8
@@ -2528,3 +2702,4 @@
 ||cock.com^
 ! https://sitecheck.sucuri.net/results/cock.com
 ||www.cock.com^
+
