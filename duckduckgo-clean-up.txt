@@ -3098,4 +3098,6 @@ duckduckgo.com##.result:has(a[href*="www.111bjs.com"])
 duckduckgo.com##.sitelink:has(a[href*="www.111bjs.com"])
 duckduckgo.com##.result:has(a[href*="111bjs.com"])
 duckduckgo.com##.sitelink:has(a[href*="111bjs.com"])
+duckduckgo.com##.result:has(a[href*="ntc-pk.sytes.net"])
+duckduckgo.com##.sitelink:has(a[href*="ntc-pk.sytes.net"])
 
