@@ -37,6 +37,8 @@ mkalt("porn.txt","porn_domains.txt")
 #mkalt("antitypo.txt","antitypo_domains.txt")
 
 print(allips)
+print(alldomains)
+
 def mkhosts(file,altname):
   donedomains = []
   List = open(file).read().split("\n")
@@ -56,7 +58,7 @@ def mkhosts(file,altname):
       domain = line.split("$")[0].lower()
       isip = isipdomain(domain)
       if isip == True:
-        altfile.write("#IP address {}".format(domain))
+        altfile.write("#IP address: {}".format(domain))
       if isip == False and domain != "" and domain not in donedomains:
         altfile.write("127.0.0.1 {}".format(domain))
         donedomains.append(domain)
