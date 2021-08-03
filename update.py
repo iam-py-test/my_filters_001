@@ -112,7 +112,7 @@ def mkabp(file,altname):
       altfile.write("\n")
       continue
     if line.startswith("||"):
-      altfile.write(line.split("$")[0][2:])
+      altfile.write(line.split("$")[0])
       altfile.write("\n")
       continue
     if "$" in line:
