@@ -65,3 +65,34 @@ def mkhosts(file,altname):
     altfile.write("\n")
 
 mkhosts("antimalware.txt","Alternative list formats/antimalware_hosts.txt")
+
+
+def mkagh(file,altname):
+  donedomains = []
+  List = open(file).read().split("\n")
+  altfile = open(altname,"w")
+  def isipdomain(domain):
+    try:
+      return domain in allips[file]
+    except:
+      pass
+    return False
+  for line in List:
+    if line.startswith("!"):
+      altfile.write(line)
+    elif line == "" or line.startswith("||") or line.startswith("[Adblock Plus 2.0]"):
+      continue
+    elif "$" in line:
+      domain = line.split("$")[0].lower()
+      isip = isipdomain(domain)
+      if isip == True:
+        altfile.write("{}".format(domain))
+      if isip == False and domain != "" and domain not in donedomains:
+        altfile.write("||{}^".format(domain))
+        donedomains.append(domain)
+    altfile.write("\n")
+
+try:
+  mkagh("antimalware.txt","Alternative list formats/antimalware_adguard_home.txt")
+except:
+  print("Error")
