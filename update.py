@@ -16,6 +16,7 @@ def mkalt(file,alt):
       pass
     return False
   alldomains[file] = []
+  allips[file] = []
   for line in lines:
     if len(line.split("$")[0].split(".")) > 2:
       if isipdomain(line.split("$")[0]) == True:
