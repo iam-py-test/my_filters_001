@@ -34,7 +34,7 @@ def mkalt(file,alt):
       alldomains[file].append(line.split("$")[0].lower())
 mkalt("antimalware.txt","antimalware_domains.txt")
 mkalt("porn.txt","porn_domains.txt")
-#mkalt("antitypo.txt","antitypo_domains.txt")
+mkalt("antitypo.txt","antitypo_domains.txt")
 
 print(allips)
 print(alldomains)
@@ -128,5 +128,6 @@ def mkabp(file,altname):
                     
 try:
                     mkabp("antimalware.txt","Alternative list formats/antimalware_abp.txt")
+                    mkabp("porn.txt","Alternative list formats/porn_abp.txt")
 except:
                     print("ABP error")
