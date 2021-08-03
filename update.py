@@ -1,4 +1,7 @@
 """Auto-create the domains versions of porn.txt and antimalware.txt"""
+alldomains = {}
+allips = {}
+
 def mkalt(file,alt):
   lines = open(file).read().split("\n")
   alt = open("Alternative list formats/{}".format(alt),"w")
@@ -12,7 +15,7 @@ def mkalt(file,alt):
     except:
       pass
     return False
-  
+  alldomains[file] = []
   for line in lines:
     if len(line.split("$")[0].split(".")) > 2:
       if isipdomain(line.split("$")[0]) == True:
@@ -23,6 +26,7 @@ def mkalt(file,alt):
     if line.split("$")[0] not in donedomains:
       alt.write("{}\n".format(line.split("$")[0].lower()))
       donedomains.append(line.split("$")[0].lower())
+      alldomains[file].append(line.split("$")[0].lower())
 mkalt("antimalware.txt","antimalware_domains.txt")
 mkalt("porn.txt","porn_domains.txt")
 #mkalt("antitypo.txt","antitypo_domains.txt")
@@ -34,9 +38,7 @@ def mkhosts(file,altname):
   altfile = open(altname,"w")
   def isipdomain(domain):
     try:
-      import socket
-      if socket.gethostbyname(domain) == domain:
-        return True
+      return domain in allips[file]
     except:
       pass
     return False
