@@ -115,6 +115,9 @@ def mkabp(file,altname):
       altfile.write(line.split("$")[0])
       altfile.write("\n")
       continue
+    if "[Adblock Plus 2.0]" in line:
+      altfile.write(line)
+      
     if "$" in line:
       domain = line.split("$")[0].lower()
       isip = isipdomain(domain)
