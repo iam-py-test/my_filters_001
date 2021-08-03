@@ -109,7 +109,7 @@ def mkabp(file,altname):
   for line in List:
     if line.startswith("!"):
       altfile.write(line)
-    elif line.startswith("||"):
+    if line.startswith("||"):
       altfile.write(line.split("$")[0][2:]
     elif line == "" or line.startswith("||") or line.startswith("[Adblock Plus 2.0]"):
       continue
