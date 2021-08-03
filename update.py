@@ -109,8 +109,12 @@ def mkabp(file,altname):
   for line in List:
     if line.startswith("!"):
       altfile.write(line)
+      altfile.write("\n")
+      continue
     if line.startswith("||"):
       altfile.write(line.split("$")[0][2:])
+      altfile.write("\n")
+      continue
     if "$" in line:
       domain = line.split("$")[0].lower()
       isip = isipdomain(domain)
