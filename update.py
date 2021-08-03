@@ -20,7 +20,10 @@ def mkalt(file,alt):
     if len(line.split("$")[0].split(".")) > 2:
       if isipdomain(line.split("$")[0]) == True:
         iponly.write(line.split("$")[0] + "\n")
-        allips[file].append(line.split("$")[0])
+        try:
+          allips[file].append(line.split("$")[0])
+        except Exception as err:
+          print("Error:{}".format(err))
         continue
     if line == '' or line.startswith("!") or line.startswith("||") or line == '[Adblock Plus 2.0]':
       continue
