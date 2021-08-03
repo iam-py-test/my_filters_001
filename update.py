@@ -31,7 +31,7 @@ mkalt("antimalware.txt","antimalware_domains.txt")
 mkalt("porn.txt","porn_domains.txt")
 #mkalt("antitypo.txt","antitypo_domains.txt")
 
-
+print(allips)
 def mkhosts(file,altname):
   donedomains = []
   List = open(file).read().split("\n")
