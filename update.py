@@ -111,9 +111,10 @@ def mkabp(file,altname):
       altfile.write(line)
     if line.startswith("||"):
       altfile.write(line.split("$")[0][2:]
-    elif line == "" or line.startswith("||") or line.startswith("[Adblock Plus 2.0]"):
+    
+    if line == "" or line.startswith("||") or line.startswith("[Adblock Plus 2.0]"):
       continue
-    elif "$" in line:
+    if "$" in line:
       domain = line.split("$")[0].lower()
       isip = isipdomain(domain)
       if isip == True:
