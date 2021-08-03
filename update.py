@@ -96,8 +96,7 @@ try:
   mkagh("antimalware.txt","Alternative list formats/antimalware_adguard_home.txt")
 except:
   print("Error")
-
-  def mkabp(file,altname):
+def mkabp(file,altname):
   donedomains = []
   List = open(file).read().split("\n")
   altfile = open(altname,"w")
