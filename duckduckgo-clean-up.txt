@@ -2872,4 +2872,8 @@ duckduckgo.com##.result:has(a[href*="lopxep10.top"])
 duckduckgo.com##.sitelink:has(a[href*="lopxep10.top"])
 duckduckgo.com##.result:has(a[href*="xeihqe72.top"])
 duckduckgo.com##.sitelink:has(a[href*="xeihqe72.top"])
+duckduckgo.com##.result:has(a[href*="files6.uludagbilisim.com"])
+duckduckgo.com##.sitelink:has(a[href*="files6.uludagbilisim.com"])
+duckduckgo.com##.result:has(a[href*="office-un-peacekeeping.com"])
+duckduckgo.com##.sitelink:has(a[href*="office-un-peacekeeping.com"])
 
