@@ -1,5 +1,5 @@
 num = 0
-lists = ["porn.txt","antimalware.txt","antitypo.txt","anti-redirectors.txt","anti-cookie+sign up.txt","anti-rickroll-list.txt","annoyances.txt","duckduckgo-clean-up.template"]
+lists = ["porn.txt","antimalware.txt","antitypo.txt","anti-redirectors.txt","anti-cookie+sign up.txt","anti-rickroll-list.txt","annoyances.txt","duckduckgo-clean-up.template","enhanced_protection.txt"]
 for list in lists:
   lines = open(list).read().split('\n')
   for line in lines:
