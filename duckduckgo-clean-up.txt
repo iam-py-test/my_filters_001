@@ -2956,4 +2956,8 @@ duckduckgo.com##.result:has(a[href*="spolaect.info"])
 duckduckgo.com##.sitelink:has(a[href*="spolaect.info"])
 duckduckgo.com##.result:has(a[href*="humisnee.com"])
 duckduckgo.com##.sitelink:has(a[href*="humisnee.com"])
+duckduckgo.com##.result:has(a[href*="mayarmozza.ddns.net"])
+duckduckgo.com##.sitelink:has(a[href*="mayarmozza.ddns.net"])
+duckduckgo.com##.result:has(a[href*="2215.site"])
+duckduckgo.com##.sitelink:has(a[href*="2215.site"])
 
