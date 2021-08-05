@@ -67,6 +67,8 @@ online-metrix.net$all
 ! Breakage & legit domain blocking
 ! https://github.com/TheAntiSocialEngineer/AntiSocial-BlockList-UK-Community/issues/2
 ||cdn-apple.com^$badfilter
+! https://github.com/arapurayil/aBL/issues/16 (use $document or $all to override)
+||personalfirewall.comodo.com^$badfilter
 
 ! Ads promoting a PUP on https://www.windowsdispatch.com
 www.windowsdispatch.com##strong:has(a[href*="restoro.com"])
