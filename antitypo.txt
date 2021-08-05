@@ -94,4 +94,7 @@ whynotwin11.com$document
 01apple.com$all
 ! Potencial typosquatt
 google.com.gt$document
+! Does not resolve to anything - yet...
+duckduckgo.net$document
+
 
