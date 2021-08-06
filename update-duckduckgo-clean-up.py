@@ -1,6 +1,8 @@
 template = open("duckduckgo-clean-up.template")
 endfile = open("duckduckgo-clean-up.txt","w")
 maldomains = open("Alternative list formats/antimalware_domains.txt").read().split("\n")
+malips = open("Alternative list formats/antimalware_ips.txt").read().split("\n")
+maldomains.extend(malips)
 total = ''
 for line in maldomains:
   if line == '':
