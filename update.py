@@ -84,10 +84,7 @@ def mkagh(file,altname):
       continue
     elif "$" in line:
       domain = line.split("$")[0].lower()
-      isip = isipdomain(domain)
-      if isip == True:
-        altfile.write("{}".format(domain))
-      if isip == False and domain != "" and domain not in donedomains:
+      if domain != "" and domain not in donedomains:
         altfile.write("||{}^".format(domain))
         donedomains.append(domain)
     altfile.write("\n")
