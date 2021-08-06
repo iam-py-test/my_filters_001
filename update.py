@@ -137,7 +137,7 @@ except:
 def mkpurehosts(file,altname):
   altfile = open(altname,"w")
   for domain in alldomains[file]:
-      altfile.write("\n127.0.0.1 {}".format(domain))
+      altfile.write("127.0.0.1 {}\n".format(domain))
 
 try:
   mkpurehosts("porn.txt","Alternative list formats/porn_pure_hosts.txt")
