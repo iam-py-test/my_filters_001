@@ -6,3 +6,6 @@
 
 ! Abused TLDs
 ||top^$document
+
+! A lot of malware and phishing domains use this (examplelegitdomain.com-somemalware.online)
+||.com-^$document
