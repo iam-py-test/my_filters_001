@@ -50,6 +50,9 @@ def mkhosts(file,altname):
       pass
     return False
   for line in List:
+    if line.startswith("! Format notes: "):
+      altfile.write('# Format notes: This format is designed for a system wide HOSTS file, and can also be used with tools that support this format. Not recommended for uBlock Origin or AdGuard\n')
+      continue
     if line.startswith("!"):
       altfile.write(line.replace("!","#"))
     elif line == "" or line.startswith("||") or line.startswith("[Adblock Plus 2.0]"):
@@ -78,6 +81,7 @@ def mkagh(file,altname):
       pass
     return False
   for line in List:
+    
     if line.startswith("!"):
       altfile.write(line)
     elif line == "" or line.startswith("||") or line.startswith("[Adblock Plus 2.0]"):
@@ -104,6 +108,8 @@ def mkabp(file,altname):
       pass
     return False
   for line in List:
+    if line.startswith("! Format notes: "):
+      altfile.write("! Format notes: This format is designed for use in AdGuard Home")
     if line.startswith("!"):
       altfile.write(line)
       altfile.write("\n")
