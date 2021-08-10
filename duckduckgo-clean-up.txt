@@ -3202,4 +3202,6 @@ duckduckgo.com##.result:has(a[href*="185.220.101.139"])
 duckduckgo.com##.sitelink:has(a[href*="185.220.101.139"])
 duckduckgo.com##.result:has(a[href*="185.215.113.17"])
 duckduckgo.com##.sitelink:has(a[href*="185.215.113.17"])
+duckduckgo.com##.result:has(a[href*="45.61.184.168"])
+duckduckgo.com##.sitelink:has(a[href*="45.61.184.168"])
 
