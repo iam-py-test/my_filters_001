@@ -99,3 +99,10 @@ duckduckgo.net$document
 ! Might be typosquatts of yahoo
 yahooc.com$document
 yahooc.om$document
+! https://www.virustotal.com/gui/url/263cf0103560c531755ed20823111c0cef36108893f369e8b58885777883940e/community
+virustotl.com$document
+! https://www.virustotal.com/gui/url/83cbc65ef32d4eef31acf9c5cfbf6acf1a41d8689c106836770caf31f5153e06/community
+yutube.com$document
+! https://www.virustotal.com/gui/url/8e073d1ab7f3234109c1b9382a784886631a8b8c486b55845fe9c07628dfa593/detection
+! https://safeweb.norton.com/report/show?url=virusttal.com
+virusttal.com$all
