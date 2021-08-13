@@ -1,3 +1,11 @@
+try:
+  from datetime import date
+  currentdate = date.today()
+except:
+  import subprocess
+  subprocess.run("pip3 install datetime",shell=True)
+  from datetime import date
+  currentdate = date.today()
 template = open("duckduckgo-clean-up.template")
 endfile = open("duckduckgo-clean-up.txt","w")
 maldomains = open("Alternative list formats/antimalware_domains.txt").read().split("\n")
@@ -9,5 +17,5 @@ for line in maldomains:
     continue
   total += """duckduckgo.com##.result:has(a[href*="{domain}"])
 duckduckgo.com##.sitelink:has(a[href*="{domain}"])\n""".replace("{domain}",line)
-endfile.write(template.read().replace("{mal}",total))
+endfile.write(template.read().replace("{{auto-gen-time}}").replace("{mal}",total))
 endfile.close()
