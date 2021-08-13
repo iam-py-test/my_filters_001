@@ -105,4 +105,8 @@ virustotl.com$document
 yutube.com$document
 ! https://www.virustotal.com/gui/url/8e073d1ab7f3234109c1b9382a784886631a8b8c486b55845fe9c07628dfa593/detection
 ! https://safeweb.norton.com/report/show?url=virusttal.com
-virusttal.com$all
+virusttal.com$document,popup
+! https://www.virustotal.com/gui/url/db1da5818091e5270454bf765af7f24f8e1aec7ae7b6d0aeb384c3db95e67416/detection
+! https://www.siteadvisor.com/sitereport.html?url=virustota.com
+! https://safeweb.norton.com/report/show?url=virustota.com
+virustota.com$all
