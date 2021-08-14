@@ -15,7 +15,7 @@ total = ''
 for line in maldomains:
   if line == '':
     continue
-  total += """duckduckgo.com##.result:has(a[href*="{domain}"])
+  total += """duckduckgo.com##.result[data-domain$="{domain}"]
 duckduckgo.com##.sitelink:has(a[href*="{domain}"])\n""".replace("{domain}",line)
 endfile.write(template.read().replace("{{auto-gen-time}}",currentdate.strftime('%d/%m/%Y')).replace("{mal}",total))
 endfile.close()
