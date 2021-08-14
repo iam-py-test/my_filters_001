@@ -1,14 +1,13 @@
 ! Title: DuckDuckGo clean up
 ! Description: Remove spammy, distracting, deceptive, or malicious websites and ads from DuckDuckGo search results
 ! Expires: 1 day
-! Last updated: 13/8/2021
+! Last updated: 14/8/2021
 ! Last auto-generated: {{auto-gen-time}}
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 
 ! Get rid of ublock.org
-duckduckgo.com##.result:has-text(https://ublock.org)
 duckduckgo.com##.sitelink:has(a[href*="ublock.org"])
-duckduckgo.com##.result:has(a[href*="ublock.org"])
+duckduckgo.com##.result[data-domain$="ublock.org"]
 ! Ads - also blocked by default in uBo
 duckduckgo.com##.links_deep.links_main.result__body:has(.js-badge--ad.badge--ad)
 duckduckgo.com##.js-results-ads.results--ads--main.results--ads
