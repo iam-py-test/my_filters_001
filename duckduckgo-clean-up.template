@@ -6,15 +6,13 @@
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 
 ! Get rid of ublock.org
-duckduckgo.com##.sitelink:has(a[href*="ublock.org"])
-duckduckgo.com##.result[data-domain$="ublock.org"]
+duckduckgo.com##[data-domain$="ublock.org"]
 ! Ads - also blocked by default in uBo
 duckduckgo.com##.links_deep.links_main.result__body:has(.js-badge--ad.badge--ad)
 duckduckgo.com##.js-results-ads.results--ads--main.results--ads
 
 ! A pattern used by scammers (taken from https://github.com/uBlockOrigin/uAssets/blob/master/filters/badware.txt)
-duckduckgo.com##.result:has-text(/^https?:\/\/\d{6}\.xyz\/lucky\/[-a-z]+\/\?t=/)
-
+duckduckgo.com##.result:has([href=/^https?:\/\/\d{6}\.xyz\/lucky\/[-a-z]+\/\?t=/])
 
 ! Remove malware domains - auto-genorated 
 {mal}
