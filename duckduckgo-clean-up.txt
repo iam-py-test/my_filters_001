@@ -2,7 +2,7 @@
 ! Description: Remove spammy, distracting, deceptive, or malicious websites and ads from DuckDuckGo search results
 ! Expires: 1 day
 ! Last updated: 15/8/2021
-! Last auto-generated: 18/08/2021
+! Last auto-generated: 19/08/2021
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 
 ! Get rid of ublock.org
@@ -1696,6 +1696,20 @@ duckduckgo.com##[data-domain$="atvcampingtrips.com"]
 duckduckgo.com##[data-domain$="thegymmum.com"]
 duckduckgo.com##[data-domain$="updolikflgqtabg.ru"]
 duckduckgo.com##[data-domain$="abctbenmsmlcmfm.ru"]
+duckduckgo.com##[data-domain$="lontorz.xyz"]
+duckduckgo.com##[data-domain$="exoduseu.net"]
+duckduckgo.com##[data-domain$="3freeprivacytoolsforyou.xyz"]
+duckduckgo.com##[data-domain$="kaleidographic.com"]
+duckduckgo.com##[data-domain$="2no.co"]
+duckduckgo.com##[data-domain$="softusa.info"]
+duckduckgo.com##[data-domain$="fsstoragecloudservice.com"]
+duckduckgo.com##[data-domain$="live.goatgame.live"]
+duckduckgo.com##[data-domain$="goatgame.live"]
+duckduckgo.com##[data-domain$="8freeprivacytoolsforyou.xyz"]
+duckduckgo.com##[data-domain$="eduarroma.tumblr.com"]
+duckduckgo.com##[data-domain$="a.goatagame.com"]
+duckduckgo.com##[data-domain$="a0570895.xsph.ru"]
+duckduckgo.com##[data-domain$="telstrasiebel.com.au"]
 duckduckgo.com##[data-domain$="103.224.212.247"]
 duckduckgo.com##[data-domain$="5.8.47.3"]
 duckduckgo.com##[data-domain$="5.8.34.26"]
@@ -1787,4 +1801,7 @@ duckduckgo.com##[data-domain$="103.109.247.9"]
 duckduckgo.com##[data-domain$="188.40.100.254"]
 duckduckgo.com##[data-domain$="134.209.182.12"]
 duckduckgo.com##[data-domain$="37.34.176.37"]
+duckduckgo.com##[data-domain$="185.239.243.112"]
+duckduckgo.com##[data-domain$="185.215.113.15"]
+duckduckgo.com##[data-domain$="185.250.206.82"]
 
