@@ -2,7 +2,7 @@
 ! Description: Remove spammy, distracting, deceptive, or malicious websites and ads from DuckDuckGo search results
 ! Expires: 1 day
 ! Last updated: 15/8/2021
-! Last auto-generated: 19/08/2021
+! Last auto-generated: 20/08/2021
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 
 ! Get rid of ublock.org
@@ -1710,6 +1710,8 @@ duckduckgo.com##[data-domain$="eduarroma.tumblr.com"]
 duckduckgo.com##[data-domain$="a.goatagame.com"]
 duckduckgo.com##[data-domain$="a0570895.xsph.ru"]
 duckduckgo.com##[data-domain$="telstrasiebel.com.au"]
+duckduckgo.com##[data-domain$="mail.tccinfaes.com"]
+duckduckgo.com##[data-domain$="tccinfaes.com"]
 duckduckgo.com##[data-domain$="103.224.212.247"]
 duckduckgo.com##[data-domain$="5.8.47.3"]
 duckduckgo.com##[data-domain$="5.8.34.26"]
