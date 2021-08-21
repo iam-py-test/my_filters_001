@@ -2,7 +2,7 @@
 ! Description: Remove spammy, distracting, deceptive, or malicious websites and ads from DuckDuckGo search results
 ! Expires: 1 day
 ! Last updated: 15/8/2021
-! Last auto-generated: 20/08/2021
+! Last auto-generated: 21/08/2021
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 
 ! Get rid of ublock.org
@@ -1745,6 +1745,7 @@ duckduckgo.com##[data-domain$="www.peggeorge.com"]
 duckduckgo.com##[data-domain$="peggeorge.com"]
 duckduckgo.com##[data-domain$="www.suxfi.com"]
 duckduckgo.com##[data-domain$="suxfi.com"]
+duckduckgo.com##[data-domain$="hdvideofullizleservisi6076.xyz"]
 duckduckgo.com##[data-domain$="103.224.212.247"]
 duckduckgo.com##[data-domain$="5.8.47.3"]
 duckduckgo.com##[data-domain$="5.8.34.26"]
@@ -1842,4 +1843,6 @@ duckduckgo.com##[data-domain$="185.250.206.82"]
 duckduckgo.com##[data-domain$="95.213.224.6"]
 duckduckgo.com##[data-domain$="135.125.172.201"]
 duckduckgo.com##[data-domain$="212.192.241.72"]
+duckduckgo.com##[data-domain$="194.26.29.184"]
+duckduckgo.com##[data-domain$="37.0.10.83"]
 
