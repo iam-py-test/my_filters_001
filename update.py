@@ -144,5 +144,46 @@ def mkpurehosts(file,altname):
 
 try:
   mkpurehosts("porn.txt","Alternative list formats/porn_pure_hosts.txt")
+  mkpurehosts("antimalware.txt","Alternative list formats/antimalware_pure_hosts.txt")
 except:
   print("Pure hosts error")
+
+def mkadguard(file,altname):
+  donedomains = []
+  List = open(file).read().split("\n")
+  altfile = open(altname,"w")
+  def isipdomain(domain):
+    try:
+      return domain in allips[file]
+    except:
+      pass
+    return False
+  for line in List:
+    if line.startswith("! Format notes: "):
+      altfile.write("! Format notes: This format is designed for use in AdGuard Home")
+    if line.startswith("!"):
+      altfile.write(line)
+      altfile.write("\n")
+      continue
+    if line.startswith("||"):
+      altfile.write(line.split("$")[0])
+      altfile.write("\n")
+      continue
+    if "[Adblock Plus 2.0]" in line:
+      altfile.write(line)
+      
+    if "$" in line:
+      domain = line.split("$")[0].lower()
+      isip = isipdomain(domain)
+      if isip == True:
+        altfile.write("{}$network".format(domain))
+      if isip == False and domain != "" and domain not in donedomains:
+        altfile.write("||{}^".format(domain))
+        donedomains.append(domain)
+    altfile.write("\n")
+
+  
+try:
+  mkadguard("antimalware.txt","Alternative list formats/antimalware_adguard_app.txt")
+except:
+  print("AdGuard error")
