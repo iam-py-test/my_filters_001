@@ -110,3 +110,9 @@ virusttal.com$document,popup
 ! https://www.siteadvisor.com/sitereport.html?url=virustota.com
 ! https://safeweb.norton.com/report/show?url=virustota.com
 virustota.com$all
+
+! https://www.virustotal.com/gui/url/7192e189a778151b8b2ac216542c1dd4c842cc5dded479941cfecfc940e44cc8/detection
+! https://safeweb.norton.com/report/show?url=discordapp.cam
+! https://www.siteadvisor.com/sitereport.html?url=discordapp.cam
+discordapp.cam$all
+
