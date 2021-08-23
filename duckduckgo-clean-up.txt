@@ -2,7 +2,7 @@
 ! Description: Remove spammy, distracting, deceptive, or malicious websites and ads from DuckDuckGo search results
 ! Expires: 1 day
 ! Last updated: 15/8/2021
-! Last auto-generated: 22/08/2021
+! Last auto-generated: 23/08/2021
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 
 ! Get rid of ublock.org
@@ -251,6 +251,11 @@ duckduckgo.com##[data-domain$="sdupdate.iobit.com"]
 duckduckgo.com##[data-domain$="mail.iobit.com"]
 duckduckgo.com##[data-domain$="giveaway.iobit.com"]
 duckduckgo.com##[data-domain$="de.iobit.com"]
+duckduckgo.com##[data-domain$="www.reimage.org"]
+duckduckgo.com##[data-domain$="reimage.org"]
+duckduckgo.com##[data-domain$="reimage.com"]
+duckduckgo.com##[data-domain$="reimageplus.com"]
+duckduckgo.com##[data-domain$="mediaget.com"]
 duckduckgo.com##[data-domain$="3overpar.com"]
 duckduckgo.com##[data-domain$="qovery.io"]
 duckduckgo.com##[data-domain$="overpassionately.xyz"]
@@ -1611,10 +1616,6 @@ duckduckgo.com##[data-domain$="wsfsd33sdfer.com"]
 duckduckgo.com##[data-domain$="www.wsfsd33sdfer.com"]
 duckduckgo.com##[data-domain$="nz-prosthodontists.org.nz"]
 duckduckgo.com##[data-domain$="closestep.top"]
-duckduckgo.com##[data-domain$="www.reimage.org"]
-duckduckgo.com##[data-domain$="reimage.org"]
-duckduckgo.com##[data-domain$="reimage.com"]
-duckduckgo.com##[data-domain$="reimageplus.com"]
 duckduckgo.com##[data-domain$="pzlkxadvert475.xyz"]
 duckduckgo.com##[data-domain$="ddserver.warzonedns.com"]
 duckduckgo.com##[data-domain$="a0568605.xsph.ru"]
