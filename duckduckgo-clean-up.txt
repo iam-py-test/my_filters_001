@@ -2,7 +2,7 @@
 ! Description: Remove spammy, distracting, deceptive, or malicious websites and ads from DuckDuckGo search results
 ! Expires: 1 day
 ! Last updated: 15/8/2021
-! Last auto-generated: 23/08/2021
+! Last auto-generated: 24/08/2021
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 
 ! Get rid of ublock.org
@@ -256,6 +256,9 @@ duckduckgo.com##[data-domain$="reimage.org"]
 duckduckgo.com##[data-domain$="reimage.com"]
 duckduckgo.com##[data-domain$="reimageplus.com"]
 duckduckgo.com##[data-domain$="mediaget.com"]
+duckduckgo.com##[data-domain$="driveragent.com"]
+duckduckgo.com##[data-domain$="secure.driveragent.com"]
+duckduckgo.com##[data-domain$="driveragent-web-126513135.us-east-1.elb.amazonaws.com"]
 duckduckgo.com##[data-domain$="3overpar.com"]
 duckduckgo.com##[data-domain$="qovery.io"]
 duckduckgo.com##[data-domain$="overpassionately.xyz"]
@@ -1870,4 +1873,8 @@ duckduckgo.com##[data-domain$="212.192.241.72"]
 duckduckgo.com##[data-domain$="194.26.29.184"]
 duckduckgo.com##[data-domain$="37.0.10.83"]
 duckduckgo.com##[data-domain$="45.138.172.28"]
+duckduckgo.com##[data-domain$="70.36.99.109"]
+duckduckgo.com##[data-domain$="70.36.99.108"]
+duckduckgo.com##[data-domain$="70.36.99.107"]
+duckduckgo.com##[data-domain$="70.36.99.106"]
 
