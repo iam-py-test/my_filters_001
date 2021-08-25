@@ -2,7 +2,7 @@
 ! Description: Remove spammy, distracting, deceptive, or malicious websites and ads from DuckDuckGo search results
 ! Expires: 1 day
 ! Last updated: 15/8/2021
-! Last auto-generated: 24/08/2021
+! Last auto-generated: 25/08/2021
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 
 ! Get rid of ublock.org
@@ -256,6 +256,17 @@ duckduckgo.com##[data-domain$="reimage.org"]
 duckduckgo.com##[data-domain$="reimage.com"]
 duckduckgo.com##[data-domain$="reimageplus.com"]
 duckduckgo.com##[data-domain$="mediaget.com"]
+duckduckgo.com##[data-domain$="mediaget.ru"]
+duckduckgo.com##[data-domain$="media-get.com"]
+duckduckgo.com##[data-domain$="media-get.ru"]
+duckduckgo.com##[data-domain$="asset48.com"]
+duckduckgo.com##[data-domain$="carpet72.com"]
+duckduckgo.com##[data-domain$="clicktowebs.com"]
+duckduckgo.com##[data-domain$="content-proxy.xyz"]
+duckduckgo.com##[data-domain$="mediagetplus.com"]
+duckduckgo.com##[data-domain$="mgmgmg.com"]
+duckduckgo.com##[data-domain$="temp74.com"]
+duckduckgo.com##[data-domain$="trackwebclick.com"]
 duckduckgo.com##[data-domain$="driveragent.com"]
 duckduckgo.com##[data-domain$="secure.driveragent.com"]
 duckduckgo.com##[data-domain$="driveragent-web-126513135.us-east-1.elb.amazonaws.com"]
@@ -1780,6 +1791,8 @@ duckduckgo.com##[data-domain$="103.224.182.251"]
 duckduckgo.com##[data-domain$="204.11.56.48"]
 duckduckgo.com##[data-domain$="91.241.60.117"]
 duckduckgo.com##[data-domain$="3.222.136.53"]
+duckduckgo.com##[data-domain$="23.111.31.137"]
+duckduckgo.com##[data-domain$="23.111.88.207"]
 duckduckgo.com##[data-domain$="139.99.167.177"]
 duckduckgo.com##[data-domain$="185.158.250.239"]
 duckduckgo.com##[data-domain$="23.108.57.108"]
