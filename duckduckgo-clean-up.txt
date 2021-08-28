@@ -2,7 +2,7 @@
 ! Description: Remove spammy, distracting, deceptive, or malicious websites and ads from DuckDuckGo search results
 ! Expires: 1 day
 ! Last updated: 15/8/2021
-! Last auto-generated: 27/08/2021
+! Last auto-generated: 28/08/2021
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 
 ! Get rid of ublock.org
@@ -62,7 +62,6 @@ duckduckgo.com##[data-domain$="malwarebytes.online"]
 duckduckgo.com##[data-domain$="malwarebytes.pw"]
 duckduckgo.com##[data-domain$="malwarebytes.xyz"]
 duckduckgo.com##[data-domain$="mcafee.xyz"]
-duckduckgo.com##[data-domain$="101sexsecret.com"]
 duckduckgo.com##[data-domain$="secureportal.online"]
 duckduckgo.com##[data-domain$="kimjoy.ddns.net"]
 duckduckgo.com##[data-domain$="sandbox.in"]
@@ -79,7 +78,6 @@ duckduckgo.com##[data-domain$="51-227.produtosnotaveis.net"]
 duckduckgo.com##[data-domain$="lnks.gd"]
 duckduckgo.com##[data-domain$="coin-hive.com"]
 duckduckgo.com##[data-domain$="coinhive.com"]
-duckduckgo.com##[data-domain$="lookedon.com"]
 duckduckgo.com##[data-domain$="cnhv.co"]
 duckduckgo.com##[data-domain$="zzux.com"]
 duckduckgo.com##[data-domain$="cht-whatsappz.zzux.com"]
@@ -1989,6 +1987,7 @@ duckduckgo.com##[data-domain$="admntrk.com"]
 duckduckgo.com##[data-domain$="bnmu.xyz"]
 duckduckgo.com##[data-domain$="cngcpy.com"]
 duckduckgo.com##[data-domain$="adtr1.com"]
+duckduckgo.com##[data-domain$="a1l.no-ip.biz"]
 duckduckgo.com##[data-domain$="103.224.212.247"]
 duckduckgo.com##[data-domain$="5.8.47.3"]
 duckduckgo.com##[data-domain$="5.8.34.26"]
