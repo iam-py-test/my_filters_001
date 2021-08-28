@@ -116,3 +116,6 @@ virustota.com$all
 ! https://www.siteadvisor.com/sitereport.html?url=discordapp.cam
 discordapp.cam$all
 
+old.ereddit.com$document
+ereddit.com$document
+craisglist.org$document
