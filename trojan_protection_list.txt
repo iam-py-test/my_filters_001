@@ -1,0 +1,11 @@
+! Title: Trojan protection list
+! Expires: 1 day
+! Description: Often malware will pretend to be a legitimate like Firefox or Chrome. This list aims to provide protection from those threats
+! Note: This list will probably have a ton of false positives
+
+! threats pretending to be Google Chrome
+||/ChromeSetup.exe$document,domain=~google.com|~chrome.com|~chromium.org|~www.google.com|~dl.google.com
+
+! Threats pretending to be Mozilla Firefox
+||/Firefox%20Installer.exe$document,domain=~download-installer.cdn.mozilla.net|~mozilla.org
+
