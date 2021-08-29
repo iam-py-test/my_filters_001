@@ -2,7 +2,7 @@
 ! Description: Remove spammy, distracting, deceptive, or malicious websites and ads from DuckDuckGo search results
 ! Expires: 1 day
 ! Last updated: 15/8/2021
-! Last auto-generated: 28/08/2021
+! Last auto-generated: 29/08/2021
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 
 ! Get rid of ublock.org
@@ -2010,6 +2010,9 @@ duckduckgo.com##[data-domain$="www.qualityhealth.com"]
 duckduckgo.com##[data-domain$="qualityhealth.com"]
 duckduckgo.com##[data-domain$="consumerproductsusa.com"]
 duckduckgo.com##[data-domain$="www.consumerproductsusa.com"]
+duckduckgo.com##[data-domain$="obliteratebedblue.com"]
+duckduckgo.com##[data-domain$="dustymural.com"]
+duckduckgo.com##[data-domain$="disappearanceinspiredscan.com"]
 duckduckgo.com##[data-domain$="103.224.212.247"]
 duckduckgo.com##[data-domain$="5.8.47.3"]
 duckduckgo.com##[data-domain$="5.8.34.26"]
@@ -2121,4 +2124,5 @@ duckduckgo.com##[data-domain$="31.7.62.62"]
 duckduckgo.com##[data-domain$="192.169.69.25"]
 duckduckgo.com##[data-domain$="37.1.209.213"]
 duckduckgo.com##[data-domain$="91.235.129.150"]
+duckduckgo.com##[data-domain$="192.243.59.13"]
 
