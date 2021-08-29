@@ -1,11 +1,26 @@
 ! Title: Enhanced website protection
 ! Description: This list aims to - when combined with an antimalware blocklist (like mine) - provide the highest protection I can offer by blocking commonly abused TLDs, along with a few other protections too extreme to put in my main list.
 ! Expires: 1 day
-
-! Used in phishing and typosquatting - 
+! Last updated: 29/8/2021
 
 ! Abused TLDs
+||gdn^$document
+||win^$document
+||bid^$document
 ||top^$document
+||monster^$document
+||ooo^$document
+||loan^$document
+||agency^$document
+||fun^$document
+||download^$document
+||cricket^$document
+
+
 
 ! A lot of malware and phishing domains use this (examplelegitdomain.com-somemalware.online)
 ||.com-^$document
+
+! fake copycats of legit websites which use the original website name as a subdomain
+google.com.$document
+amazon.com.$document
