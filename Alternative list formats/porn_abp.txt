@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues: https://github.com/iam-py-test/my_filters_001/issues
-! Last updated: 21/7/2021
+! Last updated: 31/8/2021
 ! A note about dates: All my dates are in EU format, which means day/month/year
 ! Porn websites
 ||shesfreaky.com^
@@ -2577,6 +2577,10 @@
 ||crazyporn.xxx^
 ! https://www.siteadvisor.com/sitereport.html?url=pornhat.one
 ||pornhat.one^
+
+! https://forums.malwarebytes.com/topic/278210-infected-with-false-updateexe-firefox-in-the-folder-parallax/
+! https://www.siteadvisor.com/sitereport.html?url=agedporntube.com
+||agedporntube.com^
 
 
 ! Randomly genorated domains
