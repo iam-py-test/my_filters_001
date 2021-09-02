@@ -81,7 +81,9 @@ def mkagh(file,altname):
       pass
     return False
   for line in List:
-    
+    if line.startswith("! Format notes: "):
+      altfile.write('! Format notes: This format is designed for AdGuard Home, and should not be used in AdGuard\n')
+      continue
     if line.startswith("!"):
       altfile.write(line)
     elif line == "" or line.startswith("||") or line.startswith("[Adblock Plus 2.0]"):
@@ -109,7 +111,7 @@ def mkabp(file,altname):
     return False
   for line in List:
     if line.startswith("! Format notes: "):
-      altfile.write("! Format notes: This format is designed for use in AdGuard Home")
+      altfile.write("! Format notes: This format is designed for use in AdBlock Plus. However, I recommend you do not use AdBlock Plus with this list, due to lack of support for full website blocking and some other more advanced features\n")
     if line.startswith("!"):
       altfile.write(line)
       altfile.write("\n")
@@ -125,7 +127,7 @@ def mkabp(file,altname):
       domain = line.split("$")[0].lower()
       isip = isipdomain(domain)
       if isip == True:
-        altfile.write("||{}^".format(domain))
+        altfile.write("{}".format(domain))
       if isip == False and domain != "" and domain not in donedomains:
         altfile.write("||{}^".format(domain))
         donedomains.append(domain)
@@ -160,7 +162,7 @@ def mkadguard(file,altname):
     return False
   for line in List:
     if line.startswith("! Format notes: "):
-      altfile.write("! Format notes: This format is designed for use in AdGuard Home")
+      altfile.write("! Format notes: This format is designed for use in AdGuard's desktop app")
     if line.startswith("!"):
       altfile.write(line)
       altfile.write("\n")
