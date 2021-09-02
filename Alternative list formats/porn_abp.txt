@@ -113,14 +113,14 @@
 ||camsoda.com^
 ! https://www.virustotal.com/gui/ip-address/199.59.95.82/relations
 ! https://www.siteadvisor.com/sitereport.html?url=199.59.95.82
-199.59.95.82
+||199.59.95.82^
 ! https://www.siteadvisor.com/sitereport.html?url=eroticbeauties.com
 ||eroticbeauties.com^
 ||www.eroticbeauties.com^
 ||mail.eroticbeauties.com^
 ! https://www.virustotal.com/gui/ip-address/54.164.206.233/relations
 ! https://www.siteadvisor.com/sitereport.html?url=54.164.206.233
-54.164.206.233
+||54.164.206.233^
 ! https://www.siteadvisor.com/sitereport.html?url=4fuq.com
 ||4fuq.com^
 ! https://www.siteadvisor.com/sitereport.html?url=youfap.tv
@@ -449,7 +449,7 @@
 ||andreanobili.allcamsex.com^
 ! https://www.virustotal.com/gui/ip-address/23.23.122.206/relations
 ! https://www.siteadvisor.com/sitereport.html?url=23.23.122.206
-23.23.122.206
+||23.23.122.206^
 ! https://www.fortiguard.com/webfilter?q=sex2go.info&version=8
 ||sex2go.info^
 ||mail4.sex2go.info^
