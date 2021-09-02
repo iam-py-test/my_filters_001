@@ -91,7 +91,10 @@ def mkagh(file,altname):
     elif "$" in line:
       domain = line.split("$")[0].lower()
       if domain != "" and domain not in donedomains:
-        altfile.write("||{}^".format(domain))
+        if isipdomain(domain):
+          altfile.write("{}".format(domain))
+        else:
+          altfile.write("||{}^".format(domain))
         donedomains.append(domain)
     altfile.write("\n")
 
@@ -127,7 +130,7 @@ def mkabp(file,altname):
       domain = line.split("$")[0].lower()
       isip = isipdomain(domain)
       if isip == True:
-        altfile.write("{}".format(domain))
+        altfile.write("||{}^".format(domain))
       if isip == False and domain != "" and domain not in donedomains:
         altfile.write("||{}^".format(domain))
         donedomains.append(domain)
