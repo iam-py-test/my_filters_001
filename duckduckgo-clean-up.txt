@@ -2,7 +2,7 @@
 ! Description: Remove spammy, distracting, deceptive, or malicious websites and ads from DuckDuckGo search results
 ! Expires: 1 day
 ! Last updated: 15/8/2021
-! Last auto-generated: 02/09/2021
+! Last auto-generated: 03/09/2021
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 
 ! Get rid of ublock.org
