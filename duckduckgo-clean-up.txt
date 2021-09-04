@@ -2,7 +2,7 @@
 ! Description: Remove ads and spammy, deceptive, or malicious websites from DuckDuckGo search results
 ! Expires: 1 day
 ! Last updated: 3/9/2021
-! Last auto-generated: 03/09/2021
+! Last auto-generated: 04/09/2021
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 
 ! Ads - also blocked by default in uBo
@@ -2115,6 +2115,22 @@ duckduckgo.com##[data-domain$="easywebverification2.info"]
 duckduckgo.com##[data-domain$="mywalletsconnectonline.com"]
 duckduckgo.com##[data-domain$="dashwoodestates.com"]
 duckduckgo.com##[data-domain$="tdcanadasecurityweb54761.info"]
+duckduckgo.com##[data-domain$="ghshb.com"]
+duckduckgo.com##[data-domain$="conncorrd.com"]
+duckduckgo.com##[data-domain$="708215930.ujsd.conncorrd.com"]
+duckduckgo.com##[data-domain$="youtubepremiumuk.com"]
+duckduckgo.com##[data-domain$="proces-verloop.xyz"]
+duckduckgo.com##[data-domain$="www.cancel-newpayee-login-gb.com"]
+duckduckgo.com##[data-domain$="cancel-newpayee-login-gb.com"]
+duckduckgo.com##[data-domain$="mobileapp-members.com"]
+duckduckgo.com##[data-domain$="jumperctin.com"]
+duckduckgo.com##[data-domain$="www.jumperctin.com"]
+duckduckgo.com##[data-domain$="ujsd.jumperctin.com"]
+duckduckgo.com##[data-domain$="vm-business.online"]
+duckduckgo.com##[data-domain$="voice.vm-business.online"]
+duckduckgo.com##[data-domain$="apple-map.help"]
+duckduckgo.com##[data-domain$="recover-delivery.com"]
+duckduckgo.com##[data-domain$="dpd.recover-delivery.com"]
 duckduckgo.com##[data-domain$="103.224.212.247"]
 duckduckgo.com##[data-domain$="5.8.47.3"]
 duckduckgo.com##[data-domain$="5.8.34.26"]
