@@ -3,7 +3,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! GitHub Issues: https://github.com/iam-py-test/my_filters_001/issues
-! Last updated: 17/7/2021
+! Last updated: 5/9/2021
 
 ! https://www.fortiguard.com Cookie consent 
 fortiguard.com###__agreementBar
@@ -476,6 +476,14 @@ id-ransomware.malwarehunterteam.com##.ad
 
 ! https://www.ublock-origin.com
 ublock-origin.com###cookie-law-info-bar
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/93794
+! Fix bkk-vdn.de cookie consent
+www.bkk-vdn.de##.cc-color-override-1808778711.cc-left.cc-bottom.cc-theme-classic.cc-type-opt-in.cc-floating.cc-window
+www.bkk-vdn.de##+js(rc,body,dp--cookie-consent)
+||www.bkk-vdn.de/typo3conf/ext/dp_cookieconsent/Resources/Public/css/dp_cookieconsent.css?1603355725$stylesheet,domain=www.bkk-vdn.de
+www.bkk-vdn.de#$#body.dp--cookie-consent:before {background:unset !important}
+www.bkk-vdn.de#$#body.dp--cookie-consent {background:unset !important}
 
 ! https://www.robtex.com
 robtex.com###cookienotice
