@@ -1,6 +1,9 @@
-! Title: Annoyances
+! Title: iam-py-test Annoyances
 ! Expires: 1 day
-! Last updated: 4/8/2021
+! Last updated: 5/9/2021
+! Description: A list to remove some things I find annoying, along with a few ads and trackers
+! Homepage: https://github.com/iam-py-test/my_filters_001
+
 ! Possible Antiadblock (it detects adblocker but does nothing - yet)
 @@||npttech.com/advertising.js$script,domain=dagsavisen.no
 
@@ -12,8 +15,12 @@ www.merriam-webster.com##+js(cookie-remover,usprivacy)
 merriam-webster.com##+js(cookie-remover,user-data)
 www.merriam-webster.com##.register-promo.section--spacer.row
 
-! 2021-06-19 https://www.dictionary.com
+! https://www.dictionary.com
 www.dictionary.com###marketingBanner-right-button
+! Trackers and ads (already blocked in uBo)
+||track.dictionary.com^
+||dictionary.com/adscripts/9.8.1/adscripts.js$all
+
 
 ! discord Ads
 ||cdn.discord.me/units/FJPebL7krYKtQHBOHAm1Pd6Vdy1nouMQn6zxkFZL.jpg$image
@@ -39,10 +46,13 @@ www.forbes.com##.right-rail
 *$removeparam=utm_social-type
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-969819
 ! Google analytics tracking
-$removeparam=cid
+||adguard.com^$removeparam=cid
+||adguard.com^$removeparam=aid
 ! https://support.google.com/analytics/answer/4522476?hl=en
 *$queryprune=utm_id
-*$removeparam=aid
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1247861
+$removeparam=ref,domain=imdb.com
+
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1031533
 ||trezor.io^$removeparam=aff_id
 
