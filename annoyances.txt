@@ -75,8 +75,6 @@ online-metrix.net$all
 ||sannsyn.com^$3p
 
 ! Breakage & legit domain blocking
-! https://github.com/TheAntiSocialEngineer/AntiSocial-BlockList-UK-Community/issues/2
-||cdn-apple.com^$badfilter
 ! https://github.com/arapurayil/aBL/issues/16 (use $document or $all to override)
 ||personalfirewall.comodo.com^$badfilter
 
@@ -92,13 +90,9 @@ www.aftenposten.no##.brandboard.ad
 www.aftenposten.no##.jobb.ad
 www.aftenposten.no##.align-right.standard-ad-container.col-2.column
 
-! Ads
-! https://github.com/uBlock-LLC/uBlock/issues/1839
+! Ads - https://github.com/uBlock-LLC/uBlock/issues/1839
 ieeod0.com$all
 v4dwkcv.com$all
-
-! Geolocation
-||geoip-js.com/js/apis/geoip2/v2.1/geoip2.js$script
 
 ! Ads
 ||thedogvisitor.com/oil/4.jpg$image
@@ -107,3 +101,6 @@ thedogvisitor.com##div.widget-newsletter.widget:nth-of-type(2)
 thedogvisitor.com##div.widget-newsletter.widget > [href="https://bit.ly/thedogvisitors"]
 thedogvisitor.com##div.amazon:nth-of-type(5)
 thedogvisitor.com##div.amazon > [href="https://bit.ly/thedogvisitors"]
+
+! Tracking
+cognito-identity.us-east-1.amazonaws.com$all
