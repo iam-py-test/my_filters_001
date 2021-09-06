@@ -1,6 +1,6 @@
 ! Title: iam-py-test Annoyances
 ! Expires: 1 day
-! Last updated: 5/9/2021
+! Last updated: 6/9/2021
 ! Description: A list to remove some things I find annoying, along with a few ads and trackers
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 
@@ -100,3 +100,10 @@ v4dwkcv.com$all
 ! Geolocation
 ||geoip-js.com/js/apis/geoip2/v2.1/geoip2.js$script
 
+! Ads
+||thedogvisitor.com/oil/4.jpg$image
+thedogvisitor.com##div.widget-newsletter.widget:nth-of-type(2)
+||thedogvisitor.com/oil/*.jpg$image
+thedogvisitor.com##div.widget-newsletter.widget > [href="https://bit.ly/thedogvisitors"]
+thedogvisitor.com##div.amazon:nth-of-type(5)
+thedogvisitor.com##div.amazon > [href="https://bit.ly/thedogvisitors"]
