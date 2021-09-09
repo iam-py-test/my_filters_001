@@ -2,7 +2,7 @@
 ! Description: Remove ads and spammy, deceptive, or malicious websites from DuckDuckGo search results
 ! Expires: 1 day
 ! Last updated: 3/9/2021
-! Last auto-generated: 08/09/2021
+! Last auto-generated: 09/09/2021
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 
 ! Ads - also blocked by default in uBo
@@ -40,7 +40,6 @@ duckduckgo.com##[data-domain$="iuqerfsodp9ifjaposdfjhgosurijfaewrwergwff.com"]
 duckduckgo.com##[data-domain$="goldprize.xyz"]
 duckduckgo.com##[data-domain$="qppdqcid.com"]
 duckduckgo.com##[data-domain$="windefender.xyz"]
-duckduckgo.com##[data-domain$="winsecurity.xyz"]
 duckduckgo.com##[data-domain$="windowssecurity.xyz"]
 duckduckgo.com##[data-domain$="malwaredetected.xyz"]
 duckduckgo.com##[data-domain$="windowssecure.xyz"]
@@ -60,11 +59,9 @@ duckduckgo.com##[data-domain$="mcafee.xyz"]
 duckduckgo.com##[data-domain$="secureportal.online"]
 duckduckgo.com##[data-domain$="kimjoy.ddns.net"]
 duckduckgo.com##[data-domain$="sandbox.in"]
-duckduckgo.com##[data-domain$="39.org"]
 duckduckgo.com##[data-domain$="woningontruimennijmegen.nl"]
 duckduckgo.com##[data-domain$="amazon-signin-871miing11-159.duckdns.org"]
 duckduckgo.com##[data-domain$="0-app.com"]
-duckduckgo.com##[data-domain$="putlockers.gs"]
 duckduckgo.com##[data-domain$="strawberry6532210.brizy.site"]
 duckduckgo.com##[data-domain$="starlangbank.com"]
 duckduckgo.com##[data-domain$="thegay.com"]
@@ -2314,4 +2311,8 @@ duckduckgo.com##[data-domain$="119.119.180.149"]
 duckduckgo.com##[data-domain$="42.237.253.8"]
 duckduckgo.com##[data-domain$="219.154.110.173"]
 duckduckgo.com##[data-domain$="175.174.111.246"]
+duckduckgo.com##[data-domain$="125.47.37.241"]
+duckduckgo.com##[data-domain$="113.173.55.113"]
+duckduckgo.com##[data-domain$="27.5.37.220"]
+duckduckgo.com##[data-domain$="115.51.107.100"]
 
