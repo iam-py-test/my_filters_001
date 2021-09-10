@@ -2,7 +2,7 @@
 ! Description: Remove ads and spammy, deceptive, or malicious websites from DuckDuckGo search results
 ! Expires: 1 day
 ! Last updated: 3/9/2021
-! Last auto-generated: 09/09/2021
+! Last auto-generated: 10/09/2021
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 
 ! Ads - also blocked by default in uBo
@@ -821,7 +821,6 @@ duckduckgo.com##[data-domain$="stromoliks.com"]
 duckduckgo.com##[data-domain$="dataplane.theyardservice.com"]
 duckduckgo.com##[data-domain$="cdn.theyardservice.com"]
 duckduckgo.com##[data-domain$="static.theyardservice.com"]
-duckduckgo.com##[data-domain$="spora.biz"]
 duckduckgo.com##[data-domain$="contirecovery.info"]
 duckduckgo.com##[data-domain$="epoolsoft.com"]
 duckduckgo.com##[data-domain$="www.epoolsoft.com"]
@@ -2185,6 +2184,21 @@ duckduckgo.com##[data-domain$="discrodnitro.org"]
 duckduckgo.com##[data-domain$="stearncornmunity.ru.com"]
 duckduckgo.com##[data-domain$="atvhost.live"]
 duckduckgo.com##[data-domain$="tbpws.top"]
+duckduckgo.com##[data-domain$="bytefence.com"]
+duckduckgo.com##[data-domain$="cdn.bytefence.com"]
+duckduckgo.com##[data-domain$="logs.bytefence.com"]
+duckduckgo.com##[data-domain$="update.bytefence.com"]
+duckduckgo.com##[data-domain$="ulogs.bytefence.com"]
+duckduckgo.com##[data-domain$="www.bytefence.com"]
+duckduckgo.com##[data-domain$="fr.bytefence.com"]
+duckduckgo.com##[data-domain$="it.bytefence.com"]
+duckduckgo.com##[data-domain$="en.bytefence.com"]
+duckduckgo.com##[data-domain$="es.bytefence.com"]
+duckduckgo.com##[data-domain$="shield.bytefence.com"]
+duckduckgo.com##[data-domain$="new.bytefence.com"]
+duckduckgo.com##[data-domain$="hidusi.com"]
+duckduckgo.com##[data-domain$="www.hidusi.com"]
+duckduckgo.com##[data-domain$="make-hex-32332e3130362e3136302e3235-rr.1u.ms"]
 duckduckgo.com##[data-domain$="103.224.212.247"]
 duckduckgo.com##[data-domain$="5.8.47.3"]
 duckduckgo.com##[data-domain$="5.8.34.26"]
@@ -2315,4 +2329,5 @@ duckduckgo.com##[data-domain$="125.47.37.241"]
 duckduckgo.com##[data-domain$="113.173.55.113"]
 duckduckgo.com##[data-domain$="27.5.37.220"]
 duckduckgo.com##[data-domain$="115.51.107.100"]
+duckduckgo.com##[data-domain$="23.106.160.25"]
 
