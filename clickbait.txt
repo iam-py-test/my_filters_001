@@ -1,0 +1,16 @@
+! Title: Clickbait blocklist
+! Description: Isn't it annoying when news websites and search results are filled with random stuff you never wanted? This list hopefully makes some of that go away
+! This list was inspired by https://github.com/DandelionSprout/adfilt/issues/272
+
+! Ads
+taboola.com$all
+outbrain.com$all
+sokrati.com$all
+
+! Sites who exist only for clickbait
+itsthevibe.com$document
+eliteherald.com$document
+magellantimes.com$document
+
+! Copied over from https://raw.githubusercontent.com/cpeterso/clickbait-blocklist/master/clickbait-blocklist.txt
+adblade.com$all
