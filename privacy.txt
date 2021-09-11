@@ -1,6 +1,6 @@
-! Title: Anti tracking 
-! Expires: 1 day
-! Description: A list I created to block tracking via urls
+! Title: Anti tracking (not maintained)
+! Expires: 9 day
+! Description: A list I created to block tracking via urls. I have decided to move everything in this list into my annoyances list
 ! Url tracking 
 ! utm - if someone has a better way to block those I will add it
 *$queryprune=utm_source
@@ -9,8 +9,8 @@
 *$queryprune=utm_medium
 ! https://support.google.com/analytics/answer/4522476?hl=en
 *$queryprune=utm_id
-! Google url tracking
-google.*$document,queryprune=client
+! Google url tracking - breaks Google 
+! google.*$document,queryprune=client
 ! https://blog.sucuri.net/2018/04/malicious-activities-google-tag-manager.html
 ! https://www.siteadvisor.com/sitereport.html?url=adform.net
 ! https://safeweb.norton.com/reviews?url=adform.net
