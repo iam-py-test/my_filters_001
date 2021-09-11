@@ -11,6 +11,13 @@ sokrati.com$all
 itsthevibe.com$document
 eliteherald.com$document
 magellantimes.com$document
+! https://github.com/DandelionSprout/adfilt/issues/272#issuecomment-917392781
+pawszilla.com$document
+zenherald.com$document
+historicalpost.com$document
+affluenttimes.com$document
+atlanticmirror.com$document
+
 
 ! Copied over from https://raw.githubusercontent.com/cpeterso/clickbait-blocklist/master/clickbait-blocklist.txt
 adblade.com$all
