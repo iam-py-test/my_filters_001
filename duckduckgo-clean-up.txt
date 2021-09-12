@@ -2,7 +2,7 @@
 ! Description: Remove ads and spammy, deceptive, or malicious websites from DuckDuckGo search results
 ! Expires: 1 day
 ! Last updated: 3/9/2021
-! Last auto-generated: 11/09/2021
+! Last auto-generated: 12/09/2021
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 
 ! Ads - also blocked by default in uBo
@@ -2328,4 +2328,7 @@ duckduckgo.com##[data-domain$="27.5.37.220"]
 duckduckgo.com##[data-domain$="115.51.107.100"]
 duckduckgo.com##[data-domain$="23.106.160.25"]
 duckduckgo.com##[data-domain$="103.169.90.205"]
+duckduckgo.com##[data-domain$="27.1.1.34"]
+duckduckgo.com##[data-domain$="175.175.60.215"]
+duckduckgo.com##[data-domain$="183.190.233.129"]
 
