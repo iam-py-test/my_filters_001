@@ -8,78 +8,15 @@
 ! Perion Networks, through its subsidiaries, appears to operate at least 41 domains
 ! Pesto Harel Shemesh (also known as Crunchmind) appears to operate 88 websites 
 
-! Ads
-! Taboola
-! https://github.com/easylist/easylist/blob/master/easyprivacy/easyprivacy_thirdparty.txt#L2141
-! taboola
-||am-vid-events.taboola.com^
-||convsgmp.taboola.com^
-||la-sync.taboola.com^
-||nr-events.taboola.com^
-||opps.taboola.com^
-||sync.taboola.com^
-||taboola.com/?uid=
-||taboola.com/libtrc/
-||taboola.com/tb?
-||taboola.com^*/json?tim=
-||taboola.com^*/log/
-||taboola.com^*/notify-impression?$third-party
-||taboolasyndication.com/log/
-||taboolasyndication.com^*/log/
-||urc.taboolasyndication.com^
-||vidstat.taboola.com^
-||wf.taboola.com^
-! https://github.com/easylist/easylist/blob/master/easyprivacy/easyprivacy_allowlist.txt#L321
-@@||taboola.com/libtrc/impl.$script,domain=businessinsider.com|insider.com
-! https://github.com/easylist/easylist/blob/master/easyprivacy/easyprivacy_allowlist_international.txt#L45
-@@||taboola.com/libtrc/$script,domain=bild.de|bz-berlin.de|computerbild.de|fitbook.de|jetzt.de|metal-hammer.de|musikexpress.de|noizz.de|rollingstone.de|stylebook.de|techbook.de|travelbook.de|welt.de|wieistmeineip.at|wieistmeineip.ch|wieistmeineip.de
-! https://github.com/easylist/easylist/blob/master/easyprivacy/easyprivacy_allowlist_international.txt#L170
-@@||trc.taboola.com/inncoil/log/3/available$subdocument,domain=inn.co.il
+! Ad Networks
+! Taboola, Outbrain, Sokrati
+!#include EasyPrivacy
 
 ! New Addition(s) - need to verify
 ! ||cdn.taboola.com^$third-party
 
-! Outbrain
-! https://github.com/easylist/easylist/blob/master/easyprivacy/easyprivacy_specific.txt#L1089
-||bluekai.com^$domain=disqus.com|widgets.outbrain.com
-! https://github.com/easylist/easylist/blob/master/easyprivacy/easyprivacy_specific.txt#L1111
-||hpr.outbrain.com^$domain=focus.de
-! https://github.com/easylist/easylist/blob/master/easyprivacy/easyprivacy_specific.txt#L1116
-||log.outbrain.com^$domain=autobild.de|focus.de|metal-hammer.de|musikexpress.de|rollingstone.de|widgets.outbrain.com
-! https://github.com/easylist/easylist/blob/master/easyprivacy/easyprivacy_specific.txt#L1125
-||rlcdn.com^$domain=autobild.de|widgets.outbrain.com
-! https://github.com/easylist/easylist/blob/master/easyprivacy/easyprivacy_specific_international.txt#L823
-||log.outbrain.com^$domain=focus.de
-||scorecardresearch.com^$domain=outbrain.com
-! https://github.com/easylist/easylist/blob/master/easyprivacy/easyprivacy_general.txt#L3084
-/outbrainClientPixels.
-! https://github.com/easylist/easylist/blob/master/easyprivacy/easyprivacy_thirdparty.txt#L60
-||amplify.outbrain.com^$third-party
-||amplifypixel.outbrain.com^
-! https://github.com/easylist/easylist/blob/master/easyprivacy/easyprivacy_thirdparty.txt#L974
-||hpr.outbrain.com^
-! https://github.com/easylist/easylist/blob/master/easyprivacy/easyprivacy_thirdparty.txt#L1157
-||log.outbrain.com^
-||log.outbrainimg.com^
-! https://github.com/easylist/easylist/blob/master/easyprivacy/easyprivacy_thirdparty.txt#L1218
-||mcdp-*.outbrain.com^
-! https://github.com/easylist/easylist/blob/master/easyprivacy/easyprivacy_thirdparty.txt#L1355
-||outbrain.com/nanoWidget/externals/cookie/
-||outbrain.com/widgetOBUserSync/
-||outbrain.com^*/widgetStatistics.js
-! https://github.com/easylist/easylist/blob/master/easyprivacy/easyprivacy_thirdparty.txt#L1636
-||stas.outbrain.com^
-! https://github.com/easylist/easylist/blob/master/easyprivacy/easyprivacy_thirdparty.txt#L1720
-||sync.outbrain.com^$third-party
-! https://github.com/easylist/easylist/blob/master/easyprivacy/easyprivacy_thirdparty.txt#L1771
-||tcheck.outbrainimg.com^
-! https://github.com/easylist/easylist/blob/master/easyprivacy/easyprivacy_thirdparty.txt#L2004
-||videoevents.outbrain.com^
-
-! TODO: Sokrati
-
-! Sites who exist only for clickbait
-! Checked for cdn.taboola.com or amplify.outbrain.com or widgets.outbrain.com or linked from known clickbait sites
+! Sites which exist only for clickbait
+! Check for cdn.taboola.com or amplify.outbrain.com or widgets.outbrain.com or linked from known clickbait sites
 
 ! Perion Networks
 ! same Google Analytics ID UA-43750835-36/ UA-178993256-6 (new) or Taboola tracking pixel ID 1240533 or Yahoo tracking pixel ID 10122972 as magellantimes.com
