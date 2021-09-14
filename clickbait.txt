@@ -1,6 +1,10 @@
 ! Title: Clickbait blocklist
 ! Description: Isn't it annoying when news websites and search results are filled with random stuff you never wanted? This list hopefully makes some of that go away
+! Last updated: 14/9/2021
+! Expires: 1 day
+! Special thanks to https://github.com/sanjayen for inspiring this list and contributing over half it
 ! This list was inspired by https://github.com/DandelionSprout/adfilt/issues/272
+! Homepage: https://github.com/iam-py-test/my_filters_001
 
 ! References
 ! https://www.morningbrew.com/marketing/stories/2021/09/08/brands-still-playing-ball-clickbait-ad-sites-advertisings-roach-will-survive-bomb
