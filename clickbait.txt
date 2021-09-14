@@ -14,7 +14,7 @@
 
 ! Ad Networks
 ! Taboola, Outbrain, Sokrati
-!#include EasyPrivacy
+!#include /uBlockOrigin/uAssets/master/thirdparties/easylist-downloads.adblockplus.org/easylist.txt
 
 ! New Addition(s) - need to verify
 ! ||cdn.taboola.com^$third-party
