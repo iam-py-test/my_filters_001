@@ -35,6 +35,7 @@ def mkalt(file,alt):
 mkalt("antimalware.txt","antimalware_domains.txt")
 mkalt("porn.txt","porn_domains.txt")
 mkalt("antitypo.txt","antitypo_domains.txt")
+mkalt("clickbait.txt","clickbait_domains.txt")
 
 print(allips)
 print(alldomains)
@@ -140,6 +141,7 @@ def mkabp(file,altname):
 try:
                     mkabp("antimalware.txt","Alternative list formats/antimalware_abp.txt")
                     mkabp("porn.txt","Alternative list formats/porn_abp.txt")
+                    mkabp("clickbait.txt","Alternative list formats/clickbait_abp.txt")
 except:
                     print("ABP error")
 def mkpurehosts(file,altname):
