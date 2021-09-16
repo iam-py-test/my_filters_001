@@ -5,14 +5,16 @@ Please report any issues you have and I will try to fix them; please note I may 
 <img src="https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/totalentries.svg" width='130' height="20"> <img src="https://img.shields.io/github/last-commit/iam-py-test/my_filters_001">
 
 ### Filters
-This repo contains the following lists:
+This repo contains the following lists (this does not include the unstable or personal lists, as those are not for use):
 - Pornography Blocklist (porn.txt) ([Subscribe](https://iam-py-test.github.io/add_list.html?id=1))
 - Malware domains and URLs list (antimalware.txt) ([Subscribe](https://iam-py-test.github.io/add_list.html?id=2))
 - Anti-cookie-consent and paywalls list (anti-cookie+sign up.txt) ([Subscribe](https://iam-py-test.github.io/add_list.html?id=3))
+- The clickbait blocklist (clickbait.txt) ([Subscribe](https://iam-py-test.github.io/add_list.html?id=4))
 - Anti redirectors list (anti-redirectors.txt)
 - Anti-typosquatting list (antitypo.txt)
 - Annoyances (annoyances.txt)
 - The useless filter list (useless-list.txt)
+
 
 These lists are designed for uBlock Origin and may work in AdGuard. They are untested in AdBlock Plus.<br/>
 If you need these lists in other formats, you can use the following. 
@@ -27,4 +29,6 @@ Note that the _Anti cookie-conset and paywalls list_ does not work as well in ot
 - HOSTs format - https://github.com/iam-py-test/my_filters_001/blob/main/Alternative%20list%20formats/antimalware_hosts.txt
 - Domains only - https://github.com/iam-py-test/my_filters_001/blob/main/Alternative%20list%20formats/antimalware_domains.txt
 - AdBlock Plus format (_highly_ not recommended due to lack of needed features - including the ability to prevent the loading of a domain) - https://github.com/iam-py-test/my_filters_001/blob/main/Alternative%20list%20formats/antimalware_abp.txt
-
+#### Clickbait blocklist
+- AdBlock Plus format - https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/clickbait_abp.txt
+- Domains only - https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/clickbait_domains.txt
