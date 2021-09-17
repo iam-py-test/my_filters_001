@@ -1,0 +1,6 @@
+! This is a list of domains blocked by Microsoft Smartscreen (when tested using MS Edge in a Windows 10 VM) in an attempt to understand how it works
+! as of 17/9/2021
+||securebiz.org^$all
+||83.97.20.139^$all
+||ubsco.uk^$all
+||marccnovaafitness.com^$all
