@@ -1,0 +1,25 @@
+# Title: Anti-Norton tracking protection
+# Description: This list aims to block some of the tracking done by Norton and Avast (now owned by Norton). This list may unintentionally provide protection from trackers in your browser as well
+# It is recommended you cease use of said products (Avast and Norton), as they probably do a lot of other shady stuff that this list can't block. This list also can just be used as enhanced tracking protection even if you don't use said products regularly
+# Expires: 1 day
+# You need to place this in your HOSTS file for it to work
+
+# Universal Tracker domains which (according to VT) Avast's installer contacts
+0.0.0.0 google-analytics.com
+0.0.0.0 ssl.google-analytics.com
+0.0.0.0 www.google-analytics.com
+0.0.0.0 www-google-analytics.l.google.com
+
+# Tracker domains specific to Avast
+0.0.0.0 analytics.ns1.ff.avast.com
+0.0.0.0 analytics.ff.avast.com
+# Not sure
+# 0.0.0.0 v7event.stats.avast.com
+
+# Tracker domains contacted by Norton Power Eraser - none yet
+
+# Trackers from other AVs which could be used instead of Norton
+# Malwarebytes - not sure (will test)
+# 0.0.0.0 telemetry.malwarebytes.com
+
+
