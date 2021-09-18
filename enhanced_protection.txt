@@ -1,7 +1,10 @@
 ! Title: Enhanced website protection
+! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Description: This list aims to - when combined with an antimalware blocklist (like mine) - provide the highest protection I can offer by blocking commonly abused TLDs, along with a few other protections too extreme to put in my main list.
+! Note: This list may have false positives, and may be unusable for people who often visit domains using one of the blocked TLDs
+! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! Expires: 1 day
-! Last updated: 29/8/2021
+! Last updated: 18/9/2021
 
 ! Abused TLDs
 ||gdn^$document
@@ -19,8 +22,12 @@
 
 
 ! A lot of malware and phishing domains use this (examplelegitdomain.com-somemalware.online)
+! I have been yet to find a way to get this to work
 ||.com-^$document
 
 ! fake copycats of legit websites which use the original website name as a subdomain
 google.com.$document
 amazon.com.$document
+
+! Fake flash players targeting Android devices (i.e. https://www.virustotal.com/gui/file/368afeda7af69f329e896dc86e9e4187a59d2007e0e4b47af30a1c117da0d792/community)
+||.link/Flash_Player.apk$document
