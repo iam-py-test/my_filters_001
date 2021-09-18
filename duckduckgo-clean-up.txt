@@ -2,7 +2,7 @@
 ! Description: Remove ads and spammy, deceptive, or malicious websites from DuckDuckGo search results
 ! Expires: 1 day
 ! Last updated: 3/9/2021
-! Last auto-generated: 17/09/2021
+! Last auto-generated: 18/09/2021
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 
 ! Ads - also blocked by default in uBo
@@ -2446,6 +2446,9 @@ duckduckgo.com##[data-domain$="hiibs.com"]
 duckduckgo.com##[data-domain$="frankohacker.strangled.net"]
 duckduckgo.com##[data-domain$="www.abrosnm3.com"]
 duckduckgo.com##[data-domain$="abrosnm3.com"]
+duckduckgo.com##[data-domain$="bin.rippr.cc"]
+duckduckgo.com##[data-domain$="rippr.cc"]
+duckduckgo.com##[data-domain$="str-master.pw"]
 duckduckgo.com##[data-domain$="103.224.212.247"]
 duckduckgo.com##[data-domain$="5.8.47.3"]
 duckduckgo.com##[data-domain$="5.8.34.26"]
@@ -2598,4 +2601,7 @@ duckduckgo.com##[data-domain$="198.12.107.117"]
 duckduckgo.com##[data-domain$="45.33.23.183"]
 duckduckgo.com##[data-domain$="45.33.2.79"]
 duckduckgo.com##[data-domain$="192.227.158.110"]
+duckduckgo.com##[data-domain$="45.15.170.102"]
+duckduckgo.com##[data-domain$="139.28.37.49"]
+duckduckgo.com##[data-domain$="117.196.29.105"]
 
