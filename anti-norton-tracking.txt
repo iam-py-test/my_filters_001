@@ -1,4 +1,4 @@
-# Title: Anti-Norton tracking protection
+# Title: Anti-Norton tracking list
 # Description: This list aims to block some of the tracking done by Norton and Avast (now owned by Norton). This list may unintentionally provide protection from trackers in your browser as well
 # It is recommended you cease use of said products (Avast and Norton), as they probably do a lot of other shady stuff that this list can't block. This list also can just be used as enhanced tracking protection even if you don't use said products regularly
 # Expires: 1 day

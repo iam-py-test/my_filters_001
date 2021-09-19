@@ -38,18 +38,15 @@ www.autodoc.de##.home-block-slider:has(.link.ga-click)
 www.forbes.com##.ad-rail
 www.forbes.com##.right-rail
 
-! common tracking params 
-*$queryprune=utm_source
-*$queryprune=utm_campaign
-*$removeparam=utm_reader
-*$removeparam=utm_social
-*$removeparam=utm_social-type
+! common tracking params
+! this works better than what I was doing - https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-488307
+$queryprune=/^utm_/
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-969819
 ! Google analytics tracking
 ||adguard.com^$removeparam=cid
 ||adguard.com^$removeparam=aid
 ! https://support.google.com/analytics/answer/4522476?hl=en
-*$queryprune=utm_id
+$queryprune=utm_id
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1247861
 $removeparam=ref,domain=imdb.com
 
@@ -78,7 +75,7 @@ online-metrix.net$all
 ! https://github.com/arapurayil/aBL/issues/16 (use $document or $all to override)
 ||personalfirewall.comodo.com^$badfilter
 
-! Ads promoting a PUP on https://www.windowsdispatch.com
+! Ads promoting a PUP on https://www[.]windowsdispatch[.]com
 www.windowsdispatch.com##strong:has(a[href*="restoro.com"])
 
 ! Ad remainders on https://www.aftenposten.no
@@ -105,7 +102,6 @@ thedogvisitor.com##div.amazon > [href="https://bit.ly/thedogvisitors"]
 ! Tracking
 cognito-identity.us-east-1.amazonaws.com$all
 
-! Copied from uAssets
-! https://github.com/uBlockOrigin/uAssets/issues/9951
+! Copied from uAssets - https://github.com/uBlockOrigin/uAssets/issues/9951
 invado.pl##+js(aeld, /contextmenu|copy/)
 invado.pl##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)

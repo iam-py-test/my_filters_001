@@ -13,6 +13,7 @@ This repo contains the following lists (this does not include the unstable or pe
 - Anti redirectors list (anti-redirectors.txt)
 - Anti-typosquatting list (antitypo.txt)
 - Annoyances (annoyances.txt)
+- Anti-Norton tracking list (anti-norton-tracking.txt)
 - The useless filter list (useless-list.txt)
 
 

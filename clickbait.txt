@@ -51,7 +51,7 @@ scribol.com$document
 totalpast.com$document
 unleashedfinance.com$document
 wealtheditor.com$document
-zenherald.com$document$document
+zenherald.com$document
 
 ! NOT SURE ABOUT THIS
 ! trivia.com
@@ -73,7 +73,7 @@ factinate.com$document
 gazillions.com$document
 heraldweekly.com$document
 inventgoddess.com$document
-itsthevibe.com$document$document
+itsthevibe.com$document
 postfun.com$document
 theclever.com$document
 therichest.com$document
