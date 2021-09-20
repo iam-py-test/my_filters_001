@@ -2,7 +2,7 @@
 ! Description: Remove ads and spammy, deceptive, or malicious websites from DuckDuckGo search results
 ! Expires: 1 day
 ! Last updated: 3/9/2021
-! Last auto-generated: 19/09/2021
+! Last auto-generated: 20/09/2021
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 
 ! Ads - also blocked by default in uBo
@@ -2454,6 +2454,21 @@ duckduckgo.com##[data-domain$="sock.godforgiveuss.live"]
 duckduckgo.com##[data-domain$="godforgiveuss.live"]
 duckduckgo.com##[data-domain$="fernandomayol.com"]
 duckduckgo.com##[data-domain$="varmisende.com"]
+duckduckgo.com##[data-domain$="esetnode32-antiviru.ydns.eu"]
+duckduckgo.com##[data-domain$="www.aieov.com"]
+duckduckgo.com##[data-domain$="aieov.com"]
+duckduckgo.com##[data-domain$="fakasafs23asd-adj.ydns.eu"]
+duckduckgo.com##[data-domain$="w0hsyejhnbcvzaxi8euyr6tgeya5vml09jysgav27.ydns.eu"]
+duckduckgo.com##[data-domain$="hncbeyghfsbvcuabgsbncvzgaioiuyegdbhabbbw.ydns.eu"]
+duckduckgo.com##[data-domain$="avira-antivirus.ydns.eu"]
+duckduckgo.com##[data-domain$="k2ygoods.ydns.eu"]
+duckduckgo.com##[data-domain$="lefteriskkokkiskikinew.ydns.eu"]
+duckduckgo.com##[data-domain$="kelasdbadlkafg-uhuy28.ydns.eu"]
+duckduckgo.com##[data-domain$="nan.ydns.eu"]
+duckduckgo.com##[data-domain$="hurricane.ydns.eu"]
+duckduckgo.com##[data-domain$="hjjhjkk.ydns.eu"]
+duckduckgo.com##[data-domain$="fantecheo.tk"]
+duckduckgo.com##[data-domain$="lg-tv.tk"]
 duckduckgo.com##[data-domain$="103.224.212.247"]
 duckduckgo.com##[data-domain$="5.8.47.3"]
 duckduckgo.com##[data-domain$="5.8.34.26"]
@@ -2618,4 +2633,16 @@ duckduckgo.com##[data-domain$="91.243.121.19"]
 duckduckgo.com##[data-domain$="103.169.90.205"]
 duckduckgo.com##[data-domain$="37.0.10.214"]
 duckduckgo.com##[data-domain$="5.199.130.247"]
+duckduckgo.com##[data-domain$="192.3.194.242"]
+duckduckgo.com##[data-domain$="136.243.159.53"]
+duckduckgo.com##[data-domain$="125.44.43.45"]
+duckduckgo.com##[data-domain$="182.121.8.240"]
+duckduckgo.com##[data-domain$="42.235.183.74"]
+duckduckgo.com##[data-domain$="78.36.32.242"]
+duckduckgo.com##[data-domain$="115.50.2.119"]
+duckduckgo.com##[data-domain$="115.50.110.163"]
+duckduckgo.com##[data-domain$="119.179.84.145"]
+duckduckgo.com##[data-domain$="188.120.50.98"]
+duckduckgo.com##[data-domain$="190.238.183.5"]
+duckduckgo.com##[data-domain$="27.220.253.78"]
 
