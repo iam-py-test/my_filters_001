@@ -13,8 +13,8 @@ malips = open("Alternative list formats/antimalware_ips.txt").read().split("\n")
 maldomains.extend(malips)
 total = ''
 for line in maldomains:
-  if line == '':
+  if line == '' or line.startswith("!"):
     continue
-  total += """duckduckgo.com##[data-domain$="{domain}"]\n""".replace("{domain}",line)
+  total += """duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="{domain}"]\n""".replace("{domain}",line)
 endfile.write(template.read().replace("{{auto-gen-time}}",currentdate.strftime('%d/%m/%Y')).replace("{mal}",total))
 endfile.close()
