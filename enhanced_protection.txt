@@ -1,16 +1,16 @@
 ! Title: Enhanced website protection
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Description: This list aims to - when combined with an antimalware blocklist (like mine) - provide the highest protection I can offer by blocking commonly abused TLDs, along with a few other protections too extreme to put in my main list.
-! Note: This list may have false positives, and may be unusable for people who often visit domains using one of the blocked TLDs
+! Note: This list may have false positives, and may be unusable for people who often visit domains using one of the blocked TLDs. I may make exclusions if I decide the site affected is not malicious. However, I will not fix issues with sites containing illegal content or pornography, or that lack any real content
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! Expires: 1 day
-! Last updated: 18/9/2021
+! Last updated: 22/9/2021
 
 ! Abused TLDs
 ||gdn^$document
 ||win^$document
 ||bid^$document
-||top^$document
+||top^$document,domain=~corriente.top
 ||monster^$document
 ||ooo^$document
 ||loan^$document
@@ -28,6 +28,7 @@
 ! fake copycats of legit websites which use the original website name as a subdomain
 google.com.$document
 amazon.com.$document
+yahoo.com.$document
 
 ! Fake flash players targeting Android devices (i.e. https://www.virustotal.com/gui/file/368afeda7af69f329e896dc86e9e4187a59d2007e0e4b47af30a1c117da0d792/community)
 ||.link/Flash_Player.apk$document
