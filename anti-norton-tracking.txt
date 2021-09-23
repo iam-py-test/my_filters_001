@@ -2,7 +2,8 @@
 # Description: This list aims to block some of the tracking done by Norton and Avast (now owned by Norton). This list may unintentionally provide protection from trackers in your browser as well
 # It is recommended you cease use of said products (Avast and Norton), as they probably do a lot of other shady stuff that this list can't block. This list also can just be used as enhanced tracking protection even if you don't use said products regularly
 # Expires: 1 day
-# Last updated: 19/9/2021
+# Homepage: https://github.com/iam-py-test/my_filters_001
+# Last updated: 23/9/2021
 # You need to place this in your HOSTS file for it to work
 
 # Universal Tracker domains which (according to VT) Avast's installer contacts
@@ -13,10 +14,18 @@
 # Contacted by Avast's website
 0.0.0.0 googletagmanager.com
 0.0.0.0 www.googletagmanager.com
+# Not contacted or even related to Norton or Avast to my knowlage, but are trackers none the less
+0.0.0.0 static-doubleclick-net.l.google.com
+0.0.0.0 www-googletagmanager.l.google.com
+0.0.0.0 ssl-google-analytics.l.google.com
+
 
 # Tracker domains specific to Avast
 0.0.0.0 analytics.ns1.ff.avast.com
 0.0.0.0 analytics.ff.avast.com
+0.0.0.0 analytics-us.ff.avast.com
+0.0.0.0 analytics-ex01.ff.avast.com
+0.0.0.0 kibana-analytics.ff.avast.com
 # Not sure
 # 0.0.0.0 v7event.stats.avast.com
 
