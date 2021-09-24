@@ -1,7 +1,7 @@
 ! Title: iam-py-test Annoyances
 ! Expires: 1 day
-! Last updated: 10/9/2021
-! Description: A list to remove some things I find annoying, along with a few ads and trackers
+! Last updated: 23/9/2021
+! Description: A list to remove some things I find annoying, along with a few ads and trackers. Very small right now, but slowly getting bigger and more powerful
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 
 ! Possible Antiadblock (it detects adblocker but does nothing - yet)
@@ -105,3 +105,9 @@ cognito-identity.us-east-1.amazonaws.com$all
 ! Copied from uAssets - https://github.com/uBlockOrigin/uAssets/issues/9951
 invado.pl##+js(aeld, /contextmenu|copy/)
 invado.pl##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+
+! Ad domain
+adperfect.com$all
+
+! Some tracker blocking
+!#include anti-norton-tracking.txt
