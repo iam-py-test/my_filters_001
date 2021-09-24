@@ -111,3 +111,6 @@ adperfect.com$all
 
 ! Some tracker blocking
 !#include anti-norton-tracking.txt
+
+! I find scams cluttering up my search results to be annoying
+!#include duckduckgo-clean-up.txt
