@@ -4,3 +4,14 @@
 ||83.97.20.139^$all
 ||ubsco.uk^$all
 ||marccnovaafitness.com^$all
+! https://github.com/AdguardTeam/AdguardFilters/issues/95582#issuecomment-927107343
+||discord-give.com^$all
+! as of 25/9/2021
+||faridabadrepair.in^$all
+||ylgceliks.com^$all
+||omaxcrm.com^$all
+||193.164.149.25^$all
+||195.2.73.48^$all
+||185.215.113.66^$all
+||aupay.connectauone.top^$all
+||discord.givaewey.com^$all
