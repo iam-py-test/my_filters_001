@@ -37,3 +37,7 @@ yahoo.com.$document
 
 ! Fake Discord websites
 /(discord|discrod|dlscord)[a-z](nitro|gift)/$document,domain=ru|xyz|online
+
+! Scam websites - https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-927183223
+! Credit to https://github.com/spirillen and https://github.com/Yuki2718 for the RegExp and https://github.com/krystian3w for the report
+/^https:\/\/[-0-9a-z]{12,19}\.(?:com|life)\/\?u=[0-9a-z]{7,}&o=[0-9a-z]{7,}&t=S1/$doc,domain=com|life
