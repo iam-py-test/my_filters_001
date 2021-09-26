@@ -1,0 +1,4 @@
+! Title: Sandbox - self include
+! WARNING: This may cause your adblocker to crash
+!#include includes_self.txt
+example.com###reallybadad
