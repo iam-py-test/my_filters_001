@@ -69,7 +69,8 @@ def mkhosts(file,altname):
     altfile.write("\n")
 
 mkhosts("antimalware.txt","Alternative list formats/antimalware_hosts.txt")
-
+mkhosts("antitypo.txt","Alternative list formats/antitypo_hosts.txt")
+mkhosts("porn.txt","Alternative list formats/porn_hosts.txt")
 
 def mkagh(file,altname):
   donedomains = []
