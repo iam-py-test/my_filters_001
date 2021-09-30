@@ -330,10 +330,6 @@ ww9.101sexsecret.com$all
 
 
 ! Found in random reports online
-! https://github.com/DandelionSprout/adfilt/issues/284
-! https://www.fortiguard.com/webfilter?q=avgle.com
-avgle.com$all
-
 ! https://staging-blog.malwarebytes.com/cybercrime/2020/10/xss-to-tss-tech-support-scam-campaign/
 ! https://www.virustotal.com/gui/url/20ef52e48105469f42991b3400d4b8f55e8391ba1d9ac070a5b996ed81e84ac9/detection
 ! https://www.virustotal.com/gui/ip-address/104.21.7.228/relations
