@@ -325,9 +325,6 @@
 # https://sitecheck.sucuri.net/results/101sexsecret.com
 127.0.0.1 ww9.101sexsecret.com
 # Found in random reports online
-# https://github.com/DandelionSprout/adfilt/issues/284
-# https://www.fortiguard.com/webfilter?q=avgle.com
-127.0.0.1 avgle.com
 # https://staging-blog.malwarebytes.com/cybercrime/2020/10/xss-to-tss-tech-support-scam-campaign/
 # https://www.virustotal.com/gui/url/20ef52e48105469f42991b3400d4b8f55e8391ba1d9ac070a5b996ed81e84ac9/detection
 # https://www.virustotal.com/gui/ip-address/104.21.7.228/relations
@@ -2436,7 +2433,7 @@
 # https://github.com/NanoAdblocker/NanoFilters/issues/562
 # https://www.siteadvisor.com/sitereport.html?url=avgle.com
 # https://www.fortiguard.com/webfilter?q=avgle.com&version=8
-
+127.0.0.1 avgle.com
 # https://github.com/NanoMeow/QuickReports/issues/4249
 # https://www.fortiguard.com/webfilter?q=mypornsnap.top&version=8
 127.0.0.1 mypornsnap.top

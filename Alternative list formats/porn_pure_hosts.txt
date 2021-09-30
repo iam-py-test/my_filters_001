@@ -185,7 +185,6 @@
 127.0.0.1 porn.de
 127.0.0.1 101sexsecret.com
 127.0.0.1 ww9.101sexsecret.com
-127.0.0.1 avgle.com
 127.0.0.1 sexdatingxpress.online
 127.0.0.1 toppornguide.com
 127.0.0.1 ilikecomix.com
@@ -1495,6 +1494,7 @@
 127.0.0.1 povaddict.com
 127.0.0.1 nsfwyoutube.com
 127.0.0.1 21roles.com
+127.0.0.1 avgle.com
 127.0.0.1 mypornsnap.top
 127.0.0.1 thegay.com
 127.0.0.1 xxxrapid.com
