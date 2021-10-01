@@ -37,6 +37,8 @@ for line in lines:
         continue
       else:
         list1 += line + "\n"
+    except:
+      pass
 endlist = open("Alternative list formats/antimalware_lite.txt","w")
 endlist.write(list1)
 endlist.close()
