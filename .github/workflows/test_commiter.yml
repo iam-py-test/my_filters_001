@@ -15,9 +15,11 @@ jobs:
     - name: Build
       run: |
         echo 0 > "status.txt" 
+        pip3 install publicsuffixlist
         python update.py
         python update_total.py
         python update-duckduckgo-clean-up.py
+        python create-lite.py
         echo 1 > "status.txt"
     - name: Commit & Push
       uses: actions-x/commit@v2
