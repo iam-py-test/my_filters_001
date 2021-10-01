@@ -51,7 +51,7 @@ def mkhosts(file,altname):
       pass
     return False
   for line in List:
-    if line.startswith("! Format notes: "):
+    if line.startswith("! Format notes:"):
       altfile.write('# Format notes: This format is designed for a system wide HOSTS file, and can also be used with tools that support this format. Not recommended for uBlock Origin or AdGuard\n')
       continue
     if line.startswith("!"):
@@ -64,7 +64,7 @@ def mkhosts(file,altname):
       if isip == True:
         altfile.write("#IP address: {}".format(domain))
       if isip == False and domain != "" and domain not in donedomains:
-        altfile.write("127.0.0.1 {}".format(domain))
+        altfile.write("0.0.0.0 {}".format(domain))
         donedomains.append(domain)
     altfile.write("\n")
 
@@ -148,7 +148,7 @@ except:
 def mkpurehosts(file,altname):
   altfile = open(altname,"w")
   for domain in alldomains[file]:
-      altfile.write("127.0.0.1 {}\n".format(domain))
+      altfile.write("0.0.0.0 {}\n".format(domain))
 
 try:
   mkpurehosts("porn.txt","Alternative list formats/porn_pure_hosts.txt")
