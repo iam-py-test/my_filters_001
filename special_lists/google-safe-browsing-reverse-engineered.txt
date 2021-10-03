@@ -1,3 +1,5 @@
 ! this is a list of domains blocked by Google Safe Browsing in an attempt to understand it
 ! as of 27/9/2021
 ||facebok.xyz^$all
+! as of 3/10/2021
+||cx97551.tmweb.ru^$all
