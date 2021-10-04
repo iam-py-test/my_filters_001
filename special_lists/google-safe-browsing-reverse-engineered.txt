@@ -17,3 +17,12 @@
 ||cn07057.tmweb.ru^$all
 ||cx94670.tmweb.ru^$all
 ||ct36568.tmweb.ru^$all
+! as of 4/10/2021
+||sheba-digital.com^$all
+||02-billing-support.org^$all
+||036.trendsbygwen.com^$all
+||trendsbygwen.com^$all
+||05crc8i.cn^$all
+||0y7c.cn^$all
+||154.30.211.130.bc.googleusercontent.com^$all
+||1d4x.cn^$all
