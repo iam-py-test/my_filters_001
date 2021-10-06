@@ -1,6 +1,6 @@
 ! Title: iam-py-test Annoyances
 ! Expires: 1 day
-! Last updated: 27/9/2021
+! Last updated: 6/10/2021
 ! Description: A list to remove some things I find annoying, along with a few ads and trackers. Very small right now, but slowly getting bigger and more powerful
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 
@@ -112,8 +112,11 @@ invado.pl##*:style(-webkit-touch-callout: default !important; -webkit-user-selec
 ! Ad domain
 adperfect.com$all
 
+! https://github.com/uBlockOrigin/uAssets/pull/10149
+criteo.com$all
+
 ! Some tracker blocking
 !#include anti-norton-tracking.txt
 
-! I find scams cluttering up my search results to be annoying
+! An attempt at making search results a bit easier to read
 !#include duckduckgo-clean-up.txt
