@@ -114,6 +114,7 @@ adperfect.com$all
 
 ! https://github.com/uBlockOrigin/uAssets/pull/10149
 criteo.com$all
+criteo.net$all
 
 ! Some tracker blocking
 !#include anti-norton-tracking.txt
