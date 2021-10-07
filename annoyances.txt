@@ -1,6 +1,6 @@
 ! Title: iam-py-test Annoyances
 ! Expires: 1 day
-! Last updated: 6/10/2021
+! Last updated: 7/10/2021
 ! Description: A list to remove some things I find annoying, along with a few ads and trackers. Very small right now, but slowly getting bigger and more powerful
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 
@@ -115,6 +115,9 @@ adperfect.com$all
 ! https://github.com/uBlockOrigin/uAssets/pull/10149
 criteo.com$all
 criteo.net$all
+
+! https://github.com/uBlockOrigin/uAssets/issues/10160
+||dlswbr.baidu.com/heicha/mw/abclite-2020-s.js^$all
 
 ! Some tracker blocking
 !#include anti-norton-tracking.txt
