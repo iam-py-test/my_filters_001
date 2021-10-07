@@ -26,3 +26,7 @@
 ||0y7c.cn^$all
 ||154.30.211.130.bc.googleusercontent.com^$all
 ||1d4x.cn^$all
+! as of 7/10/2021
+||bilalimtyaz.co^$all
+||extentwulfsaqqehqdwicczanin.com^$all
+||832855s8548-hp.000webhostapp.com^$all
