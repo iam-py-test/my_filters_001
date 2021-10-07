@@ -14,6 +14,9 @@
 # Contacted by Avast's website
 0.0.0.0 googletagmanager.com
 0.0.0.0 www.googletagmanager.com
+# Contacted by Norton's website
+0.0.0.0 cdn.quantummetric.com
+0.0.0.0 nexus.ensighten.com
 # Not contacted or even related to Norton or Avast to my knowlage, but are trackers none the less
 0.0.0.0 static-doubleclick-net.l.google.com
 0.0.0.0 www-googletagmanager.l.google.com
@@ -32,7 +35,9 @@
 # 0.0.0.0 stats7.avast.com
 # 0.0.0.0 geoip.avast.com
 
-# Tracker domains contacted by Norton Power Eraser - none yet
+# Tracker domains specific to Norton
+0.0.0.0 analytics-login.norton.com
+
 
 # Trackers from other AVs which could be used instead of Norton
 # Malwarebytes - not sure (will test)
