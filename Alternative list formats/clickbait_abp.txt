@@ -1,6 +1,6 @@
 ! Title: Clickbait blocklist
-! Description: Isn't it annoying when news websites and search results are filled with random stuff you never wanted? This list hopefully makes some of that go away
-! Last updated: 14/9/2021
+! Description: Isn't it annoying when news websites and search results are filled with random clickbait content? This list hopefully makes some of that go away
+! Last updated: 7/10/2021
 ! Expires: 1 day
 ! Special thanks to https://github.com/sanjayen for inspiring this list and contributing over half of the entries in it
 ! This list was inspired by https://github.com/DandelionSprout/adfilt/issues/272
@@ -12,12 +12,9 @@
 ! Perion Networks, through its subsidiaries, appears to operate at least 41 domains
 ! Pesto Harel Shemesh (also known as Crunchmind) appears to operate 88 websites 
 
-! Ad Networks
-! Taboola, Outbrain, Sokrati
-! OFF !#include /uBlockOrigin/uAssets/master/thirdparties/easylist-downloads.adblockplus.org/easylist.txt
-
-! New Addition(s) - need to verify
-! ||cdn.taboola.com^$third-party
+! Clickbait ads
+||cdn.taboola.com^
+||taboola.com^
 
 ! Sites which exist only for clickbait
 ! Check for cdn.taboola.com or amplify.outbrain.com or widgets.outbrain.com or linked from known clickbait sites
