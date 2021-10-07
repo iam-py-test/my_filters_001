@@ -4,7 +4,7 @@
 ! Expires: 1 day
 ! Special thanks to https://github.com/sanjayen for inspiring this list and contributing over half of the entries in it
 ! This list was inspired by https://github.com/DandelionSprout/adfilt/issues/272
-! Homepage: https://github.com/iam-py-test/my_filters_001
+! Homepage: https://github.com/iam-py-test/my_filters_001/discussions/86
 
 ! References
 ! https://www.morningbrew.com/marketing/stories/2021/09/08/brands-still-playing-ball-clickbait-ad-sites-advertisings-roach-will-survive-bomb
