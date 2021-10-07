@@ -34,6 +34,8 @@
 # 0.0.0.0 v7event.stats.avast.com
 # 0.0.0.0 stats7.avast.com
 # 0.0.0.0 geoip.avast.com
+# copied over from https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext&_=4
+0.0.0.0 uib.ff.avast.com
 
 # Tracker domains specific to Norton
 0.0.0.0 analytics-login.norton.com
