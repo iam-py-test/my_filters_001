@@ -36,3 +36,7 @@
 ||eliteexteriorsystems.com^$all
 ||40.124.128.28^$all
 ||44wjssh.cn^$all
+||voag.cn^$all
+||tlkdfkfkf3jlsd.org.cn^$all
+||xjeasthope.cn^$all
+||designqueen.cn^$all
