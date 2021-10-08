@@ -1,2 +1,2 @@
 ! Title: Sandbox - Cross-repo includes
-!#include /iam-py-test/vxvault_filter/main/ubolist.txt
+!#include iam-py-test/vxvault_filter/main/ubolist.txt
