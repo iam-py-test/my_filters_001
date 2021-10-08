@@ -15,3 +15,8 @@
 ||185.215.113.66^$all
 ||aupay.connectauone.top^$all
 ||discord.givaewey.com^$all
+! as of 8/10/2021
+||machinesalaver.net^$all
+||eliteexteriorsystems.com^$all
+||209.127.78.26^$all
+||176.31.32.199/Stub.exe^$all
