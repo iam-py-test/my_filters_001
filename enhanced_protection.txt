@@ -4,7 +4,7 @@
 ! Note: This list may have false positives, and may be unusable for people who often visit domains using one of the blocked TLDs. I may make exclusions if I decide the site affected is not malicious. However, I will not fix issues with sites containing illegal content or pornography, or that lack any real content
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! Expires: 1 day
-! Last updated: 2/10/2021
+! Last updated: 8/10/2021
 
 ! Abused TLDs
 ||gdn^$document
@@ -19,14 +19,13 @@
 ||download^$document
 ||cricket^$document
 
-! A lot of malware and phishing domains use this (examplelegitdomain.com-somemalware.online)
-! I have been yet to find a way to get this to work - please open an issue if you know a RegExp/uBo syntax
-||.com-^$document
+! A lot of malware and phishing domains use this (to test, visit "examplelegitdomain.com-somemalware.online" on a browser with this list active in uBo)
+||com-^$document
 
 ! fake copycats of legit websites which use the original website name as a subdomain
-||google.com.^$document
-||amazon.com.^$document
-||yahoo.com.^$document
+||google.com.^$document,domain=~google.com.au
+||amazon.com.^$document,domain=~amazon.com.au
+||yahoo.com.^$document,domain=~yahoo.com.au
 
 ! Fake flash players targeting Android devices (i.e. https://www.virustotal.com/gui/file/368afeda7af69f329e896dc86e9e4187a59d2007e0e4b47af30a1c117da0d792/community)
 ||.link/Flash_Player.apk$document
