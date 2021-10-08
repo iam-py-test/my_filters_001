@@ -1,27 +1,43 @@
 # Title: Anti-Norton tracking list
 # Description: This list aims to block some of the tracking done by Norton and Avast (now owned by Norton). This list may unintentionally provide protection from trackers in your browser as well
-# It is recommended you cease use of said products (Avast and Norton), as they probably do a lot of other shady stuff that this list can't block. This list also can just be used as enhanced tracking protection even if you don't use said products regularly
+# It is recommended you cease use of said products (Norton, Avast, AVG, Avira, CCleaner), as they probably do a lot of other shady stuff that this list can't block. This list also can just be used as enhanced tracking protection even if you don't use said products regularly
 # Expires: 1 day
 # Homepage: https://github.com/iam-py-test/my_filters_001
-# Last updated: 7/10/2021
+# Last updated: 8/10/2021
 # You need to place this in your HOSTS file for it to work
+# How to place in your hosts file:
+# Windows 10: copy the contents of this file, open Notepad as admin, click Open and navigate to C:\Windows\System32\drivers\etc. Open the file named hosts (no file extension), paste the contents of this file and save
+# Linux and MacOS: copy the contents of this file, open /etc/hosts in a text editer (i.e. nano) as root (for nano, type sudo nano /etc/hosts). Paste the contents of this file and save
+# 
+
 
 # Universal Tracker domains which (according to VT) Avast's installer contacts
 0.0.0.0 google-analytics.com
 0.0.0.0 ssl.google-analytics.com
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www-google-analytics.l.google.com
+# Contacted by CCleaner's installer
+0.0.0.0 static.ads-twitter.com
+0.0.0.0 stats.g.doubleclick.net
+0.0.0.0 doubleclick.net
+0.0.0.0 z.moatads.com
+0.0.0.0 stats.l.doubleclick.net
 # Contacted by Avast's website
 0.0.0.0 googletagmanager.com
 0.0.0.0 www.googletagmanager.com
 # Contacted by Norton's website
 0.0.0.0 cdn.quantummetric.com
 0.0.0.0 nexus.ensighten.com
-# Not contacted or even related to Norton or Avast to my knowlage, but are trackers none the less
+# Not contacted or even related to Norton or Avast to my knowledge, but are trackers none the less
 0.0.0.0 static-doubleclick-net.l.google.com
 0.0.0.0 www-googletagmanager.l.google.com
 0.0.0.0 ssl-google-analytics.l.google.com
 0.0.0.0 googlesyndication.com
+# copied over from https://github.com/nickspaargaren/no-google with permission - credit to https://github.com/nickspaargaren for maintaining that list
+0.0.0.0 wwwctp.googletagmanager.com
+0.0.0.0 wp.googletagmanager.com
+0.0.0.0 googletagservices.com
+0.0.0.0 www.googletagservices.com
 
 
 # Tracker domains specific to Avast
@@ -30,12 +46,19 @@
 0.0.0.0 analytics-us.ff.avast.com
 0.0.0.0 analytics-ex01.ff.avast.com
 0.0.0.0 kibana-analytics.ff.avast.com
+0.0.0.0 analytics-test.ns1.ff.avast.com
+0.0.0.0 doubleclick-proxy.ns1.ff.avast.com
+# copied over from https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext&_=4
+0.0.0.0 uib.ff.avast.com
+# copied over from https://easylist.to/easylist/easyprivacy.txt, which is maintained by EasyList. License: https://easylist.to/pages/licence.html
+0.0.0.0 an.avast.com
+0.0.0.0 ans.avast.com
+# copied from https://someonewhocares.org/hosts/
+0.0.0.0 ipm-provider.ff.avast.com
 # Not sure
 # 0.0.0.0 v7event.stats.avast.com
 # 0.0.0.0 stats7.avast.com
 # 0.0.0.0 geoip.avast.com
-# copied over from https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext&_=4
-0.0.0.0 uib.ff.avast.com
 
 # Tracker domains specific to Norton
 0.0.0.0 analytics-login.norton.com
