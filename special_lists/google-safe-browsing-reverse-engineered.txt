@@ -32,3 +32,7 @@
 ||832855s8548-hp.000webhostapp.com^$all
 ||censor.be^$all
 ||machinesalaver.net^$all
+! as of 8/10/2021
+||eliteexteriorsystems.com^$all
+||40.124.128.28^$all
+||44wjssh.cn^$all
