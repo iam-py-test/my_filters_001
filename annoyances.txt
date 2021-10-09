@@ -1,6 +1,6 @@
 ! Title: iam-py-test Annoyances
 ! Expires: 1 day
-! Last updated: 7/10/2021
+! Last updated: 9/10/2021
 ! Description: A list to remove some things I find annoying, along with a few ads and trackers. Very small right now, but slowly getting bigger and more powerful
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 
@@ -101,6 +101,11 @@ thedogvisitor.com##div.amazon > [href="https://bit.ly/thedogvisitors"]
 
 ! Tracking
 cognito-identity.us-east-1.amazonaws.com$all
+! tracking on https://www.ibtimes.co.uk/
+||tags.bkrtx.com^
+||fqtag.com^
+! ads on the same site as above
+||amazon-adsystem.com^
 
 ! https://github.com/disconnectme/disconnect-tracking-protection/issues/275
 trackla.stackla.com$all
