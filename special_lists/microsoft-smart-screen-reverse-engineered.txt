@@ -20,3 +20,5 @@
 ||eliteexteriorsystems.com^$all
 ||209.127.78.26^$all
 ||176.31.32.199/Stub.exe^$all
+! as of 9/10/2021
+||185.215.113.66/r33.exe^$all
