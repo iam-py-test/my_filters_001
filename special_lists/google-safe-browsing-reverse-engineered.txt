@@ -45,3 +45,5 @@
 ||grupwa-nett8.duckdns.org^$all
 ||ceacrob.com^$all
 ||61603e7066bb9.site123.me^$all
+! as of 10/10/2021
+||sms-usps.com^$all
