@@ -1,6 +1,7 @@
 """Auto-create the domains versions of porn.txt and antimalware.txt"""
 alldomains = {}
 allips = {}
+reddomains = []
 
 def mkalt(file,alt):
   lines = open(file).read().split("\n")
@@ -28,6 +29,8 @@ def mkalt(file,alt):
         continue
     if line == '' or line.startswith("!") or line.startswith("||") or line == '[Adblock Plus 2.0]':
       continue
+    if line.split("$")[0] in donedomains:
+      reddomains.append(line.split("$")[0])
     if line.split("$")[0] not in donedomains:
       alt.write("{}\n".format(line.split("$")[0].lower()))
       donedomains.append(line.split("$")[0].lower())
@@ -195,3 +198,8 @@ try:
   mkadguard("antimalware.txt","Alternative list formats/antimalware_adguard_app.txt")
 except:
   print("AdGuard error")
+
+redd = open("reddomains.txt","w")
+for domain in reddomains:
+  redd.write("{}\n".format(domain))
+redd.close()
