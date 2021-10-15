@@ -3,9 +3,11 @@ from publicsuffixlist import PublicSuffixList
 
 psl = PublicSuffixList()
 
-list1 = """
-! Title: The malicious website blocklist (lite)
+list1 = """! Title: The malicious website blocklist (lite)
 ! Description: I released that a lot of the domains in my antimalware list used the same TLDs, and those TLDs had almost no legit content. 
+! Homepage: https://github.com/iam-py-test/my_filters_001
+! Issues url: https://github.com/iam-py-test/my_filters_001/issues
+! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 ! Expires: 1 day
 
 ! Main blocking rules
@@ -20,7 +22,7 @@ list1 = """
 ||download^$document
 ||cricket^$document
 
-! Domain/url blocking rules
+! Domain/url blocking rules (auto-generated)
 """
 blockedtlds = ["gdn","win","bid","top","monster","ooo","loan","agency","download","cricket"]
 
