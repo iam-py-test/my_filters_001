@@ -3,12 +3,13 @@
 # It is recommended you cease use of said products (Norton, Avast, AVG, Avira, CCleaner), as they probably do a lot of other shady stuff that this list can't block. This list also can just be used as enhanced tracking protection even if you don't use said products regularly
 # Expires: 1 day
 # Homepage: https://github.com/iam-py-test/my_filters_001
-# Last updated: 8/10/2021
+# Last updated: 15/10/2021
+# Issues url: https://github.com/iam-py-test/my_filters_001/issues
+# GitLab issues url (not checked as much): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 # You need to place this in your HOSTS file for it to work
 # How to place in your hosts file:
 # Windows 10: copy the contents of this file, open Notepad as admin, click Open and navigate to C:\Windows\System32\drivers\etc. Open the file named hosts (no file extension), paste the contents of this file and save
 # Linux and MacOS: copy the contents of this file, open /etc/hosts in a text editer (i.e. nano) as root (for nano, type sudo nano /etc/hosts). Paste the contents of this file and save
-# 
 
 
 # Universal Tracker domains which (according to VT) Avast's installer contacts

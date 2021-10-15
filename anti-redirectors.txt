@@ -1,10 +1,15 @@
 ! Title: Anti-redirectors and url shorteners
 ! Description: Redirecters and url shorterners are often used for phishing, malware, spam, and scams, and companies like Google and Facebook also use redirectors to track you . This list is designed to block both shortened urls & tracker redirects.
-! If you want shorter urls, check out @DandelionSprout's Actually Legitimate URL Shortener Tool at https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
-! Please report false positives & unblocked domains to https://github.com/iam-py-test/my_filters_001/issues Thanks!
 ! Homepage: https://github.com/iam-py-test/my_filters_001
+! Please report false positives & unblocked domains to me using the GitHub or GitLab (urls below). Thanks!
 ! Expires: 1 day
-! Last updated: 22/7/2021
+! Last updated: 15/10/2021
+! Issues url: https://github.com/iam-py-test/my_filters_001/issues
+! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
+! If you want shorter urls, check out @DandelionSprout's Actually Legitimate URL Shortener Tool at https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
+
+
+
 ! Google redirects
 ||google.*/url?$document
 ! Facebook
