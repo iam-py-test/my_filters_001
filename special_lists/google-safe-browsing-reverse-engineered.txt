@@ -54,3 +54,4 @@
 ||secure05h-verify.serveftp.com^$all
 ||0s8f.cn^$all
 ||123ko.cn^$all
+||130.211.30.154^$all
