@@ -45,7 +45,7 @@ Please report any issues you have and I will try to fix them; please note I may 
 - anti-cookie+sign up_extention.txt (had one purpose - to work with my custom scriptlets - but the website it was intended to work for changed cookie values to quickly for it to work)
 
 The filters in the _Alternative list formats_ folder are versions of some of the lists above for different software. These are auto-generated, and thus updates to them must be made to the original list or [the Python script](https://github.com/iam-py-test/my_filters_001/blob/main/update.py) which generates them.<br>
-Everything not listed above, like the filters in the _Personal_ folder, is either completaly forgotten by me, or is likely to break websites due to its purpose or lack of regulation
+Everything not listed above, like the filters in the _Personal_ folder, is either completely forgotten by me, or is likely to break websites due to its purpose or lack of regulation
 
 ## Other formats
 
@@ -68,4 +68,4 @@ Everything not listed above, like the filters in the _Personal_ folder, is eithe
 - Google Safe Browsing reverse engineered and Microsoft Smartscreen reverse engineered _are not_ intended as lists of known malware domains, instead they are lists of domains/urls which are blocked by those services in an attempt to understand them and provide some of their protection to users of other browsers
 - All the up-to-date HOSTs versions use 0.0.0.0 instead of 127.0.0.1, as per [#87](https://github.com/iam-py-test/my_filters_001/issues/87)
 - The _domains_lite_ and _hosts_lite_ versions are unmaintained, however, the antimalware_lite is not
-- If you are trying to use Tor to investigate an issue, try looking at [tor-relays-with-issues.md](https://github.com/iam-py-test/my_filters_001/blob/main/wiki/tor-relays-with-issues.md)
+- If you are trying to use Tor to investigate an issue, try looking at [tor-relays-with-issues.md](https://github.com/iam-py-test/my_filters_001/blob/main/wiki/tor-relays-with-issues.md) for a list of Tor exits which are known to cause issues or which malware/scam domains block
