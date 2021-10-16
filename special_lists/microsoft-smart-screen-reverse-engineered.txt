@@ -22,3 +22,6 @@
 ||176.31.32.199/Stub.exe^$all
 ! as of 9/10/2021
 ||185.215.113.66/r33.exe^$all
+! as of 16/10/2021
+||11dbs.com^$all
+||vormax.link/kv3.dll^$all
