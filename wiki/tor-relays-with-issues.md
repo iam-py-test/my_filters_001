@@ -1,4 +1,4 @@
-## Tor relays which have issues with websites (i.e. Google reCAPTCHA)
+## Tor relays which have issues with websites (i.e. websites using Google reCAPTCHA)
 The purpose of this is not to shame relays which cause issues with websites (as it is not their fault), but to help people having issues
 
 #### 'We have detected suspicious activity on your IP' issues on Google/YouTube/reCAPTCHA
@@ -8,8 +8,12 @@ The purpose of this is not to shame relays which cause issues with websites (as 
 - `192.34.80.176`
 - `139.99.98.191`
 - `5.2.70.223`
+- `176.10.99.200`
+- `51.15.59.15`
 
 #### Detected by antiviruses/web protection as malicious without reason (i.e. McAfee, Malwarebytes, Norton, Spamhaus)
 - `192.42.116.16`
 - `139.99.98.191`
 - `5.2.70.223`
+- `176.10.99.200`
+- `51.15.59.15`
