@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-! Last updated: 15/10/2021
+! Last updated: 16/10/2021
 
 ! https://www.fortiguard.com Cookie consent 
 fortiguard.com###__agreementBar
@@ -24,6 +24,10 @@ www.antiviruscontactsupport.com###cookie-law-info-bar
 ! https://www.ksta.de cookie consent
 www.ksta.de##.dimissed.sticky-footer.screen.ssoTemplate.revealed
 www.ksta.de##section.dm_content_block.module_for_tracking:nth-of-type(3)
+
+! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-944921911
+the-dots.com##[class*="ContentPaywall"]
+||mxpnl.com^$third-party
 
 ! https://www.merkur.de
 www.merkur.de##.cmp_overlay
