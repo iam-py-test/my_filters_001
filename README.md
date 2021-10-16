@@ -15,7 +15,6 @@ Please report any issues you have and I will try to fix them; please note I may 
 - DuckDuckGo Clean up (duckduckgo-clean-up.txt)
 
 #### Not actively maintained but don't require frequent updates
-- The useless filter list (useless-list.txt)
 - [My anti-facebook list](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/antifacebook.txt)
 - [My Enhanced Protection list](https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt)
 
@@ -23,7 +22,6 @@ Please report any issues you have and I will try to fix them; please note I may 
 - The clickbait blocklist (clickbait.txt) ([Subscribe](https://iam-py-test.github.io/add_list.html?id=4))
 - Anti-typosquatting list (antitypo.txt)
 - Anti redirectors list (anti-redirectors.txt)
-- The anti-Facebook list ([antifacebook.txt](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/antifacebook.txt))
 
 #### Extension lists which add onto my existing lists
 - [Google Safe Browsing reverse-engineered](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/google-safe-browsing-reverse-engineered.txt)
@@ -36,6 +34,7 @@ Please report any issues you have and I will try to fix them; please note I may 
 
 #### Lists for testing syntax
 - Everything in the _Sandbox_ folder
+- The useless filter list (useless-list.txt)
 - test_filter.txt
 
 #### Dead lists which are not even complete
