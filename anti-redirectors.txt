@@ -192,3 +192,6 @@ iplogger.org$document
 ! Another varation
 ! https://www.virustotal.com/gui/url/666cbd470e33070bbad62d9e92af4d80dad15e4136fcbdea6a364c38245b2d75/community
 iplogger.com$all
+
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1490207
+go.skimresources.com$document
