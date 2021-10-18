@@ -10,6 +10,8 @@ The purpose of this is not to shame relays which cause issues with websites (as 
 - `5.2.70.223`
 - `176.10.99.200`
 - `51.15.59.15`
+- `185.100.87.192`
+- `107.189.14.165`
 
 #### Detected by antiviruses/web protection as malicious without reason (i.e. McAfee, Malwarebytes, Norton, Spamhaus)
 - `192.42.116.16`
@@ -17,3 +19,4 @@ The purpose of this is not to shame relays which cause issues with websites (as 
 - `5.2.70.223`
 - `176.10.99.200`
 - `51.15.59.15`
+- `185.100.87.192`
