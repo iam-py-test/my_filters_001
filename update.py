@@ -59,7 +59,7 @@ def mkhosts(file,altname):
       altfile.write('# Format notes: This format is designed for a system wide HOSTS file, and can also be used with tools that support this format. Not recommended for uBlock Origin or AdGuard\n')
       continue
     if line.startswith("!"):
-      altfile.write(line.replace("!","#"))
+      altfile.write("#" + line[1:])
     elif line == "" or line.startswith("||") or line.startswith("[Adblock Plus 2.0]"):
       continue
     elif "$" in line:
