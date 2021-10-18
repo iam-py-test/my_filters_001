@@ -1,7 +1,7 @@
 # Title: Anti-redirectors and url shorteners
 # Description: Redirecters and url shorterners are often used for phishing, malware, spam, and scams, and companies like Google and Facebook also use redirectors to track you . This list is designed to block both shortened urls & tracker redirects.
 # Homepage: https://github.com/iam-py-test/my_filters_001
-# Please report false positives & unblocked domains to me using the GitHub or GitLab (urls below). Thanks#
+# Please report false positives & unblocked domains to me using the GitHub or GitLab (urls below). Thanks!
 # Expires: 1 day
 # Last updated: 18/10/2021
 # Issues url: https://github.com/iam-py-test/my_filters_001/issues
