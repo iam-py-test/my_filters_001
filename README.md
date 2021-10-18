@@ -61,6 +61,9 @@ Everything not listed above, like the filters in the _Personal_ folder, is eithe
 - Domains only (i.e. PiHole) - https://github.com/iam-py-test/my_filters_001/blob/main/Alternative%20list%20formats/porn_domains.txt
 - Pure (no comments) HOSTs format - https://github.com/iam-py-test/my_filters_001/blob/main/Alternative%20list%20formats/porn_pure_hosts.txt
 
+## Projects which use my lists (to my knowlage) 
+- [Zelo72's Threat intelligence feeds](https://github.com/Zelo72/rpi) use the domains versions of my antimalware and anti-clickbait lists
+
 
 #### Notes
 - The DuckDuckGo Clean Up list is auto-generated from duckduckgo-clean-up.template and the domains/ips versions of my antimalware list. Changes in PRs should be made to either of those
