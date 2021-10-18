@@ -39,6 +39,7 @@ mkalt("antimalware.txt","antimalware_domains.txt")
 mkalt("porn.txt","porn_domains.txt")
 mkalt("antitypo.txt","antitypo_domains.txt")
 mkalt("clickbait.txt","clickbait_domains.txt")
+mkalt("anti-redirectors.txt","anti-redirectors_domains.txt")
 
 print(allips)
 print(alldomains)
@@ -74,6 +75,7 @@ def mkhosts(file,altname):
 mkhosts("antimalware.txt","Alternative list formats/antimalware_hosts.txt")
 mkhosts("antitypo.txt","Alternative list formats/antitypo_hosts.txt")
 mkhosts("porn.txt","Alternative list formats/porn_hosts.txt")
+mkhosts("anti-redirectors.txt","Alternative list formats/anti-redirectors_hosts.txt")
 
 def mkagh(file,altname):
   donedomains = []
