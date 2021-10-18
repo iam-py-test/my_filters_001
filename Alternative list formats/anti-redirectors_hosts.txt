@@ -1,72 +1,167 @@
 # Title: Anti-redirectors and url shorteners
 # Description: Redirecters and url shorterners are often used for phishing, malware, spam, and scams, and companies like Google and Facebook also use redirectors to track you . This list is designed to block both shortened urls & tracker redirects.
-# Please report false positives & unblocked domains to https://github.com/iam-py-test/my_filters_001/issues Thanks#
 # Homepage: https://github.com/iam-py-test/my_filters_001
+# Please report false positives & unblocked domains to me using the GitHub or GitLab (urls below). Thanks#
 # Expires: 1 day
-# Last updated: 7/6/2021
+# Last updated: 18/10/2021
+# Issues url: https://github.com/iam-py-test/my_filters_001/issues
+# GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
+# If you want shorter urls, check out @DandelionSprout's Actually Legitimate URL Shortener Tool at https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
 # Google redirects
 # Facebook
 # https://www.eff.org/deeplinks/2018/05/privacy-badger-rolls-out-new-ways-fight-facebook-tracking
 # URL shorteners
 # http://www.surbl.org/tld
 # https://www.mywot.com/scorecard/x.co
-127.0.0.1 x.co
+0.0.0.0 x.co
 # https://www.mywot.com/scorecard/bitly.com
 # https://www.mywot.com/scorecard/bit.ly
-127.0.0.1 bit.ly
+0.0.0.0 bit.ly
 # https://www.mywot.com/scorecard/bit.do
-127.0.0.1 bit.do
+0.0.0.0 bit.do
 # https://www.mywot.com/scorecard/ow.ly
-127.0.0.1 ow.ly
+0.0.0.0 ow.ly
 # https://www.mywot.com/scorecard/goo.gl
 # Has been shutdown by google but old links will still work - see https://developers.googleblog.com/2018/03/transitioning-google-url-shortener.html
-127.0.0.1 goo.gl
+0.0.0.0 goo.gl
 # https://www.mywot.com/scorecard/rebrand.ly
-127.0.0.1 rebrand.ly
+0.0.0.0 rebrand.ly
 # https://www.mywot.com/scorecard/tinyurl.com
-127.0.0.1 tinyurl.com
+0.0.0.0 tinyurl.com
 # https://www.mywot.com/scorecard/t.co
-127.0.0.1 t.co
+0.0.0.0 t.co
 # https://www.mywot.com/scorecard/is.gd
-127.0.0.1 is.gd
+0.0.0.0 is.gd
 # https://www.mywot.com/scorecard/ht.ly
 # https://www.virustotal.com/gui/url/622b404a5a4800592ffcf7ed931af3fe700b03453d7c2c0549db932c2c1def56/community
-127.0.0.1 ht.ly
+0.0.0.0 ht.ly
 # https://github.com/DandelionSprout/adfilt/issues/191
-127.0.0.1 rb.gy
+0.0.0.0 rb.gy
 # https://github.com/uBlockOrigin/uAssets/issues/7636#issuecomment-831362259
 # https://www.virustotal.com/gui/url/f76ff730e3eed94c7285ffd57e9e2e97c33e83f3b94690fd765fea325aea9acc/detection
 # https://www.mywot.com/scorecard/href.li
-127.0.0.1 href.li
+0.0.0.0 href.li
 # https://www.reddit.com/r/uBlockOrigin/comments/nsi67q/shortner_detected_ublock_origin/
 # https://www.mywot.com/scorecard/link1s.com
 # https://www.virustotal.com/gui/url/0eec678febb448dd69296061732d621acc6f409418c6e5dee961ddc1f3264c81/detection
 # https://sitecheck.sucuri.net/results/link1s.com
 # https://yandex.com/safety/?url=https%3A%2F%2Flink1s.com%2Fw9NR0gIK
-127.0.0.1 link1s.com
+0.0.0.0 link1s.com
 # https://github.com/easylist/easylist/issues/8041
-127.0.0.1 urlshortx.com
+0.0.0.0 urlshortx.com
 # https://www.businessonhome.com/best-url-shortener-to-earn-money/#8019
-127.0.0.1 Exe.io
-127.0.0.1 fc.lc
-127.0.0.1 shrinkme.io
-127.0.0.1 ouo.io
-127.0.0.1 clk.sh
-127.0.0.1 Shrink.Pe
-127.0.0.1 Al.ly
-127.0.0.1 adfoc.us
+0.0.0.0 exe.io
+
+0.0.0.0 fc.lc
+0.0.0.0 shrinkme.io
+0.0.0.0 ouo.io
+0.0.0.0 clk.sh
+0.0.0.0 shrink.pe
+0.0.0.0 al.ly
+# https://safeweb.norton.com/reviews?url=adfoc.us
+0.0.0.0 adfoc.us
 # https://www.mywot.com/en/scorecard/shorte.st
-127.0.0.1 shorte.st
+0.0.0.0 shorte.st
 # https://www.mywot.com/en/scorecard/www.linkbucks.com
 # https://safeweb.norton.com/reviews?url=linkbucks.com
-127.0.0.1 www.linkbucks.com
-127.0.0.1 linkbucks.com
+0.0.0.0 www.linkbucks.com
+0.0.0.0 linkbucks.com
 # AdGuard redirects
 # https://github.com/iam-py-test/my_filters_001/commit/a715b1c437506b43e73c64a328acc715ab1d0f30
-127.0.0.1 git.io
+0.0.0.0 git.io
 # https://twitter.com/infowebica/status/1402895823244083200
 # https://www.virustotal.com/gui/domain/buff.ly/community
 # https://www.mywot.com/scorecard/buff.ly
-127.0.0.1 buff.ly
+0.0.0.0 buff.ly
 # https://www.mywot.com/scorecard/go.microsoft.com
-127.0.0.1 go.microsoft.com
+0.0.0.0 go.microsoft.com
+# https://github.com/404-not-find/urlshorten
+# https://www.mywot.com/scorecard/t.cn
+# https://www.virustotal.com/gui/url/13837bdd9a599156270ae6ce6cd6c0234404a0a50a52f32d0eb5ef04be95c9bf/community
+0.0.0.0 t.cn
+# https://www.virustotal.com/gui/ip-address/47.95.48.149/relations
+# https://www.mywot.com/scorecard/sinaurl.cn
+0.0.0.0 sinaurl.cn
+# internal Amazon URL shortener - https://www.virustotal.com/gui/url/7e815c5445c740bc53f6046d3c5b99be664aaedd8536e5c4ed57ec14e64b2ef4/details
+0.0.0.0 a.co
+# Malware infections - you can use https://redirectdetective.com to find out where the links go if you must use them
+# https://safeweb.norton.com/reviews?url=adf.ly
+# https://www.virustotal.com/gui/url/f3c346224a877b6085292a47c0fc0fc894cdfad6ab5da9cba25051c8a8013247/community
+# https://www.mywot.com/scorecard/adf.ly
+# https://yandex.com/safety/?url=adf.ly
+# https://transparencyreport.google.com/safe-browsing/search?url=adf.ly
+0.0.0.0 adf.ly
+# DuckDuckGo redirects - https://help.duckduckgo.com/duckduckgo-help-pages/results/rduckduckgocom/
+0.0.0.0 r.duckduckgo.com
+# https://search.norton.com
+# https://www.mywot.com/scorecard/redirect.viglink.com
+0.0.0.0 redirect.viglink.com
+# https://redirectdetective.com
+# https://www.mywot.com/scorecard/jdoqocy.com
+0.0.0.0 www.jdoqocy.com
+0.0.0.0 jdoqocy.com
+# https://www.fortinet.com/blog/threat-research/phishing-malware-hijacks-bitcoin-addresses-delivers-new-agent-tesla-variant
+# https://www.virustotal.com/gui/url/e0c1c1858c2679487ba451286088389d8a52d7266789adccc32e85e61780fa8e/community
+# https://www.mywot.com/scorecard/j.mp
+0.0.0.0 j.mp
+0.0.0.0 www.j.mp
+# https://github.com/iam-py-test/my_filters_001/issues/75
+0.0.0.0 dommania.pl
+# https://www.virustotal.com/gui/user/Placebo
+# https://www.virustotal.com/gui/url/0a7e3c54cdc88722b78adb9865cfddc971b0d86502811cc359be1ac59b83916e/detection
+# https://www.virustotal.com/gui/url/d07b8c0b017e0e8356009562b6c7cbfa6bbf28bd2444d3e08a958fc1caf0e4e5/detection
+# https://www.virustotal.com/gui/domain/s.id/community
+# https://www.siteadvisor.com/sitereport.html?url=s.id
+# https://www.fortiguard.com/webfilter?q=s.id
+# https://www.mywot.com/en/scorecard/s.id
+# https://safeweb.norton.com/reviews?url=s.id
+# https://sitecheck.sucuri.net/results/s.id
+# https://www.phishtank.com/phish_detail.php?phish_id=6278726
+0.0.0.0 s.id
+# https://github.com/piperun/iploggerfilter/issues/47
+# https://www.virustotal.com/gui/url/49b118a93053088dbd17c5fba17ec669fdd5a8006763ebd06e3f9279bf4afa8b/community
+# https://www.mywot.com/scorecard/tiny.cc
+# https://www.siteadvisor.com/sitereport.html?url=tiny.cc
+0.0.0.0 tiny.cc
+# https://www.mywot.com/scorecard/cutt.ly
+0.0.0.0 cutt.ly
+# https://duckduckgo.com/?q=url+shortener+free&ia=web
+0.0.0.0 www.urlday.com
+# https://www.mywot.com/scorecard/rebrandly.com
+0.0.0.0 rebrandly.com
+# https://mywplife.com/software/url-shorteners/
+0.0.0.0 prettylinks.com
+0.0.0.0 www.bl.ink
+# https://www.mywot.com/scorecard/snip.ly
+# https://www.virustotal.com/gui/url/36bb85670e9c603bd41f688db1a3caa1ba5555c790abc621198a0e2b2b2ac590/detection
+0.0.0.0 snip.ly
+# mywplife.com redirects
+# https://www.virustotal.com/gui/url/d4bd72283480a00bdabbcc5f35234506988584de62ec047f4ce14059811b160f/detection
+# https://www.mywot.com/scorecard/itsssl.com
+# https://safeweb.norton.com/report/show?url=itsssl.com
+# https://sitereport.netcraft.com/?url=https://itsssl.com/
+0.0.0.0 itsssl.com
+# https://app.any.run/tasks/76c0a010-75ff-4feb-a863-69bc7e4c588a/
+# https://www.virustotal.com/gui/user/Zonoiscool/comments
+# https://www.virustotal.com/gui/url/3b7c6053f8697f7d9279ce2d12347cde3e91f13e271dca0c811ddce473af3717/community
+# https://www.mywot.com/scorecard/v.ht
+# https://safeweb.norton.com/reviews?url=v.ht
+0.0.0.0 v.ht
+# Amazon redirections
+# Tracker redirects on a Zoom invite
+# Bing redirects (use uBo's query-param parsing find the original url and bypass the redirect)
+# Possible tracker redirects
+# https://www.virustotal.com/gui/url/324d9f78151bf5a2a8130b07849f9427c2ce45abf5dd1276100cf5dd71bf9ec1/details
+# Tracker, ip-logging, url shortener used by cybercriminals
+# https://www.virustotal.com/gui/url/94bd1436eccc87b7cef754f5ed42569f9d0694c6f67e0ff6c27acf5fe3f3771b/community
+# https://www.mywot.com/scorecard/iplogger.org
+# https://safeweb.norton.com/reviews?url=iplogger.org
+# Found in a lot of malware
+0.0.0.0 iplogger.org
+# Another varation
+# https://www.virustotal.com/gui/url/666cbd470e33070bbad62d9e92af4d80dad15e4136fcbdea6a364c38245b2d75/community
+0.0.0.0 iplogger.com
+# https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1490207
+0.0.0.0 go.skimresources.com
+# https://github.com/mitchellkrogza/phishing/pull/81
+0.0.0.0 sniffip.com
