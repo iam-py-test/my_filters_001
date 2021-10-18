@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Please report false positives & unblocked domains to me using the GitHub or GitLab (urls below). Thanks!
 ! Expires: 1 day
-! Last updated: 15/10/2021
+! Last updated: 18/10/2021
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 ! If you want shorter urls, check out @DandelionSprout's Actually Legitimate URL Shortener Tool at https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
@@ -176,7 +176,7 @@ v.ht$document
 ! Tracker redirects on a Zoom invite
 ||clicks.eventbrite.com/f/a/$document
 
-! Bing redirects (use uBo's query-param parsing to bypass)
+! Bing redirects (use uBo's query-param parsing find the original url and bypass the redirect)
 ||bing/newtabredirect$document
 
 ! Possible tracker redirects
@@ -195,3 +195,6 @@ iplogger.com$all
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1490207
 go.skimresources.com$document
+
+! https://github.com/mitchellkrogza/phishing/pull/81
+sniffip.com$document
