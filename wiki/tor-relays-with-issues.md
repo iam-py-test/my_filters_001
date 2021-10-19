@@ -13,6 +13,14 @@ The purpose of this is not to shame relays which cause issues with websites (as 
 - `185.100.87.192`
 - `107.189.14.165`
 
+
+#### Blocked by Wikipedia
+As per https://en.wikipedia.org/wiki/Category:Blocked_Tor_exit_nodes:
+- `18.246.2.33`
+- `85.17.254.135`
+
+
+
 #### Detected by antiviruses/web protection as malicious without reason (i.e. McAfee, Malwarebytes, Norton, Spamhaus)
 - `192.42.116.16`
 - `139.99.98.191`
@@ -20,3 +28,7 @@ The purpose of this is not to shame relays which cause issues with websites (as 
 - `176.10.99.200`
 - `51.15.59.15`
 - `185.100.87.192`
+- `51.15.82.176`
+
+### Generic issues
+- `51.15.82.176`
