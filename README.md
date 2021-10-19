@@ -26,6 +26,7 @@ Please report any issues you have and I will try to fix them; please note I may 
 #### Extension lists which add onto my existing lists
 - [Google Safe Browsing reverse-engineered](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/google-safe-browsing-reverse-engineered.txt)
 - [Microsoft Smart Screen reverse-engineered](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/microsoft-smart-screen-reverse-engineered.txt)
+- [The malicious website blocklist - uBlock Origin extension](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/anti-malware-ubo-extension.txt)
 
 #### Updated rairly but still technically supported
 - Pornography Blocklist (porn.txt) ([Subscribe](https://iam-py-test.github.io/add_list.html?id=1))
@@ -42,7 +43,6 @@ Please report any issues you have and I will try to fix them; please note I may 
 - Anti-overprompted Windows antivirus list (could not find enough instances of this that would not break legitimate websites)
 - scams.txt (redundant, moved to antimalware.txt)
 - anti-cookie+sign up_extention.txt (had one purpose - to work with my custom scriptlets - but the website it was intended to work for changed cookie values to quickly for it to work)
-
 The filters in the _Alternative list formats_ folder are versions of some of the lists above for different software. These are auto-generated, and thus updates to them must be made to the original list or [the Python script](https://github.com/iam-py-test/my_filters_001/blob/main/update.py) which generates them.<br>
 Everything not listed above, like the filters in the _Personal_ folder, is either completely forgotten by me, or is likely to break websites due to its purpose or lack of regulation
 
@@ -51,7 +51,7 @@ Everything not listed above, like the filters in the _Personal_ folder, is eithe
 #### The malicious website blocklist
 - HOSTs format - https://github.com/iam-py-test/my_filters_001/blob/main/Alternative%20list%20formats/antimalware_hosts.txt
 - Domains only - https://github.com/iam-py-test/my_filters_001/blob/main/Alternative%20list%20formats/antimalware_domains.txt
-- AdBlock Plus format (_highly_ not recommended due to lack of needed features - including the ability to prevent the loading of a domain) - https://github.com/iam-py-test/my_filters_001/blob/main/Alternative%20list%20formats/antimalware_abp.txt
+- AdBlock Plus format (not recommended) - https://github.com/iam-py-test/my_filters_001/blob/main/Alternative%20list%20formats/antimalware_abp.txt
 #### Clickbait blocklist
 - AdBlock Plus format - https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/clickbait_abp.txt
 - Domains only - https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/clickbait_domains.txt
@@ -71,3 +71,4 @@ Everything not listed above, like the filters in the _Personal_ folder, is eithe
 - All the up-to-date HOSTs versions use 0.0.0.0 instead of 127.0.0.1, as per [#87](https://github.com/iam-py-test/my_filters_001/issues/87)
 - The _domains_lite_ and _hosts_lite_ versions are unmaintained, however, the antimalware_lite is not
 - If you are trying to use Tor to investigate an issue, try looking at [tor-relays-with-issues.md](https://github.com/iam-py-test/my_filters_001/blob/main/wiki/tor-relays-with-issues.md) for a list of Tor exits which are known to cause issues or which malware/scam domains block
+- While the _Google Safe Browsing reverse engineered_ and _Microsoft Smartscreen reverse engineered_ can be installed on their own in uBlock Origin, _The malicious website blocklist - uBlock Origin extension_ can not as it is designed only to be included in _The malicious website blocklist_
