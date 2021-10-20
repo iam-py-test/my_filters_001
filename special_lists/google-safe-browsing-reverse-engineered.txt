@@ -78,3 +78,6 @@
 ||coprytighthelpservicee.ml^$all
 ||copyrghthelpmedia.ml^$all
 ||confirmforcopytghir.ml^$all
+! as of 20/10/2021
+||grup-waviral2021.duckdns.org^$all
+||netconnected.duckdns.org^$all
