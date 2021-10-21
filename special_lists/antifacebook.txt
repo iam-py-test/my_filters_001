@@ -1,6 +1,6 @@
 ! Title: Anti-facebook
 ! Expires: 1 day
-! Last updated: 5/9/2021
+! Last updated: 20/10/2021
 ! Description: Do you want to get rid of Facebook for good? This list should help, but you may need to delete your account first.
 facebook.com$all
 facebook.net$all
@@ -10,6 +10,8 @@ static.xx.fbcdn.net$all
 connect.facebook.net$all
 www.facebook.com$all
 fb.com$all
+facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion$doc
+facebookcorewwwi.onion$all
 
 ! DuckDuckGo link to the company's Facebook page
 duckduckgo.com##li.about-profiles__item:has(a[href*="facebook.com"])
