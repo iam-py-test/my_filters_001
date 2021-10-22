@@ -81,3 +81,6 @@
 ! as of 20/10/2021
 ||grup-waviral2021.duckdns.org^$all
 ||netconnected.duckdns.org^$all
+! as of 22/10/2021
+||wowsugarbabe.top^$all
+||avito-kasso.ru^$all
