@@ -4,7 +4,7 @@ Feel free to use any and all of them (they are under no copyright) in [uBlock Or
 Please report any issues you have and I will try to fix them; please note I may not reply within the day the issue is posted as I am often busy.<br>
 
 ### Some stats: 
-<img src="https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/totalentries.svg" width='130' height="20"><img src="https://img.shields.io/github/last-commit/iam-py-test/my_filters_001">
+<a href="https://github.com/iam-py-test/my_filters_001/blob/main/stats.md"><img src="https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/totalentries.svg" width='130' height="20"></a><img src="https://img.shields.io/github/last-commit/iam-py-test/my_filters_001"> [![Update the alt lists](https://github.com/iam-py-test/my_filters_001/actions/workflows/test_commiter.yml/badge.svg)](https://github.com/iam-py-test/my_filters_001/actions/workflows/test_commiter.yml)
 
 ## Filters in this repo
 
