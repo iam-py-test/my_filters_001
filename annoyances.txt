@@ -1,6 +1,6 @@
 ! Title: iam-py-test Annoyances
 ! Expires: 1 day
-! Last updated: 16/10/2021
+! Last updated: 22/10/2021
 ! Description: A list to remove some things I find annoying, along with a few ads and trackers. Very small right now, but slowly getting bigger and more powerful
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -111,9 +111,18 @@ thedogvisitor.com##div.amazon > [href="https://bit.ly/thedogvisitors"]
 ! tracking on https://the-dots.com/projects/retouching-139864/
 ||mxpnl.com^
 ||livesession.io^
-
 ! https://github.com/disconnectme/disconnect-tracking-protection/issues/275
 trackla.stackla.com$all
+
+! copied from https://github.com/uBlockOrigin/uAssets/issues/10273
+gardenia.net##+js(ra, oncopy|oncut|onselectstart|style|unselectable, body, stay)
+gardenia.net##+js(set, document.body.oncut, null)
+gardenia.net##+js(set, document.body.oncopy, null)
+gardenia.net##+js(aeld, /copy|cut|selectstart/)
+
+
+! https://github.com/uBlockOrigin/uAssets/issues/10241 / https://github.com/easylist/easylist/pull/9429/files
+news.mydrivers.com###a_showhotnews_list_dia
 
 ! Copied from uAssets - https://github.com/uBlockOrigin/uAssets/issues/9951
 invado.pl##+js(aeld, /contextmenu|copy/)
@@ -121,6 +130,9 @@ invado.pl##*:style(-webkit-touch-callout: default !important; -webkit-user-selec
 
 ! Ad domain
 adperfect.com$all
+
+! https://github.com/easylist/easylist/issues/9449
+||adsessionserv.com^
 
 ! https://github.com/uBlockOrigin/uAssets/pull/10149
 criteo.com$all
