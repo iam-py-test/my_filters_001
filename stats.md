@@ -18,6 +18,6 @@ Entries: 3 <br>
 #### enhanced_protection.txt
 Entries: 20 <br> 
 #### anti-norton-tracking.txt
-Entries: 63 <br> 
+Entries: 65 <br> 
 #### clickbait.txt
 Entries: 47 <br> 
