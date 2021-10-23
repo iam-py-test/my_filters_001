@@ -63,6 +63,9 @@
 
 # Tracker domains specific to Norton
 0.0.0.0 analytics-login.norton.com
+# https://github.com/DandelionSprout/adfilt/commit/e61d38884f96024d0eb740d7b322592307d99dab
+0.0.0.0 stats.norton.com
+
 
 
 # Trackers from other AVs which could be used instead of Norton
