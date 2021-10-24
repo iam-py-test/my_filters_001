@@ -2,7 +2,7 @@
 ! Description: Remove ads and spammy, deceptive, or malicious websites from DuckDuckGo search results
 ! Expires: 1 day
 ! Last updated: 15/10/2021
-! Last auto-generated: 23/10/2021
+! Last auto-generated: 24/10/2021
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -3263,6 +3263,34 @@ duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaf
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="triathlethe.ug"]
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="courtneyjones.ac.ug"]
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="jamshed.pk"]
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="telechargerdes.com"]
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="localchick-here.com"]
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="fckme8.com"]
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="rarshare.com"]
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="www0019876.com"]
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="megapolis-hack.com"]
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="hack2k.com"]
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="4291g.com"]
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="bitdefenderlicense.com"]
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="cheatsbasis.com"]
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="www.cheatsbasis.com"]
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="2014tools.com"]
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="ulckpassword.info"]
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="surveyvoicesresearch.com"]
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="b.surveyvoicesresearch.com"]
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="surveyvoicespaidsurveys.com"]
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="usarewardspot.com"]
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="o.usarewardspot.com"]
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="peoplesearchusa.org"]
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="www.peoplesearchusa.org"]
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="free-hack-tool.com"]
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="online-secure.free-hack-tool.com"]
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="seizefile.net"]
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="ny-t.r-tb.com"]
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="clean-protection.xyz"]
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="festinus.xyz"]
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="free-softs.net"]
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="www.free-softs.net"]
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="5.8.47.3"]
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="5.8.34.26"]
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="103.224.182.251"]
