@@ -4,7 +4,7 @@
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # Issues url: https://github.com/iam-py-test/my_filters_001/issues
 # GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-# Last updated: 15/10/2021
+# Last updated: 26/10/2021
 # If someone can confirm this, it can move to malware 
 # https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 # https://www.virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
@@ -94,8 +94,6 @@
 # https://www.virustotal.com/gui/url/7f0b595a6004b1b6b6563e39b8d147dfde6a70d714e43b8a5a3da81b857e6b8b/detection
 # https://www.siteadvisor.com/sitereport.html?url=01apple.com
 0.0.0.0 01apple.com
-# Potencial typosquatt
-0.0.0.0 google.com.gt
 # Does not resolve to anything - yet...
 0.0.0.0 duckduckgo.net
 # Might be typosquatts of yahoo
