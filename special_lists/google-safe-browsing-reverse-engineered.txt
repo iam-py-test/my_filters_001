@@ -84,3 +84,5 @@
 ! as of 22/10/2021
 ||wowsugarbabe.top^$all
 ||avito-kasso.ru^$all
+! as of 26/10/2021
+||xetizunxyo.duckdns.org^$all
