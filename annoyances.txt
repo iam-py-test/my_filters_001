@@ -131,6 +131,9 @@ invado.pl##*:style(-webkit-touch-callout: default !important; -webkit-user-selec
 ! Ad domain
 adperfect.com$all
 
+! https://github.com/easylist/easylist/issues/9445
+kqzyfj.com$all
+
 ! https://github.com/easylist/easylist/issues/9449
 ||adsessionserv.com^
 
