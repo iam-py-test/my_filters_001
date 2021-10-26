@@ -1,0 +1,24 @@
+name: Lint the antimalware list
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+jobs:
+  mkalt:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - name: Lint
+      run: |
+        python3 lint.py
+    - name: Commit & Push
+      uses: actions-x/commit@v2
+      with:
+          email: noreply@example.com
+          name: Lint bot
+          branch: main
+          message: Lint report
