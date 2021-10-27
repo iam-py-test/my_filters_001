@@ -26,7 +26,7 @@ for line in lines:
     except:
       continue
 
-with open("invalidlines.md") as f:
+with open("invalidlines.md","w") as f:
   f.write("## Lines detected by Lint")
   for line in invalidlines:
     f.write("\n{}<br>".format(line))
