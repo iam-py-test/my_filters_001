@@ -1,8 +1,9 @@
 ! Title: Test
 ! Description: This filter is for testing other AdBlockers, nothing more. It will only work on my computer.
 ! Expires: 1 day
-! Last updated: 16/6/2021
+! Last updated: 26/10/2021
 malware.localhost$all
 scam.localhost$document
 ||ok.localhost^
 @@||ok.localhost^
+onlybadononedomain.localhost$domain=containsads.localhost
