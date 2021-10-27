@@ -20,6 +20,7 @@ jobs:
         python update_total.py
         python update-duckduckgo-clean-up.py
         python create-lite.py
+        python lint.py
         echo 1 > "status.txt"
     - name: Commit & Push
       uses: actions-x/commit@v2
