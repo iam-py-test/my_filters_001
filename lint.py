@@ -16,6 +16,8 @@ invalidlines = []
 log = ""
 
 for line in lines:
+    if line.startswith("!"):
+        continue
     try:
       domain = line.split("$")[0]
       if domain in gooddomains or domain in hosting:
