@@ -27,3 +27,4 @@
 ||vormax.link/kv3.dll^$all
 ! as of 31/10/2021
 ||gemini-horoscope-astrologer.business.site^$all
+||fpsbooster.net^$all
