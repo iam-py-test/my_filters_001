@@ -113,6 +113,9 @@ thedogvisitor.com##div.amazon > [href="https://bit.ly/thedogvisitors"]
 ||livesession.io^
 ! https://github.com/disconnectme/disconnect-tracking-protection/issues/275
 trackla.stackla.com$all
+! https://github.com/uBlockOrigin/uAssets/issues/10361
+||159.203.84.58^
+viralitytoday.com##+js(acis, JSON.parse, break;case $.)
 
 ! copied from https://github.com/uBlockOrigin/uAssets/issues/10273
 gardenia.net##+js(ra, oncopy|oncut|onselectstart|style|unselectable, body, stay)
