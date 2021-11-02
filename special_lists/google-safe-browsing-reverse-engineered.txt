@@ -86,6 +86,8 @@
 ||avito-kasso.ru^$all
 ! as of 26/10/2021
 ||xetizunxyo.duckdns.org^$all
-! as of 11/1/2021
+! as of 1/11/2021
 ||103.171.0.220^$all
 ||2.56.59.42^$all
+! as of 2/11/2021
+||198.23.207.126^$all
