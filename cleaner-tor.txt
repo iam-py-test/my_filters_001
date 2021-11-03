@@ -1,0 +1,18 @@
+! Title: The cleaner Tor list
+! Description: Do you want to use Tor for enhanced privacy/security, or because it is the only way to escape censorship, but want to stay clear of the darker parts of it? This list tries to do that, but I bet there are a lot of places I never have discovered
+! Expires: 2 days
+! Homepage: https://github.com/iam-py-test/my_filters_001
+! Legal T&C:
+!   This list is under CC0, so feel free to do whatever you want with it as long as you aren't using it as a directory of bad sites (which it is pretty poor at anyway)
+
+! --- sites which are disgusting but not technically illegal (in the US/UK/EU anyway) ---
+
+! 'pornhub'
+||pornhub.*^$doc
+||pornhubthbh7ap3u.onion^$doc
+||pornhubvybmsymdol4iibwgwtkpwmeyd6luq2gxajgjzfjvotyt5zhyd.onion^$doc
+
+! --- sites which are illegal ---
+! none yet - but I'm sure their out there
+
+! --- sites which are either scams, malware, or phishing ---
