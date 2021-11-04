@@ -28,3 +28,8 @@
 ! as of 31/10/2021
 ||gemini-horoscope-astrologer.business.site^$all
 ||fpsbooster.net^$all
+! as of 4/11/2021
+||bokepxnxx.duckdns.org^$all
+||inerinse.ru^$all
+||8276365.com^$all
+||mywallletvalidation.com^$all
