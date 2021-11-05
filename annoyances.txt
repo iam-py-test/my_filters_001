@@ -52,6 +52,9 @@ $queryprune=utm_id
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1247861
 $removeparam=ref,domain=imdb.com
 
+! https://github.com/uBlockOrigin/uAssets/commit/1a6c982177fea80b13360439edcb15296bcfd7c9
+||mixpanel.com^
+
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1031533
 ||trezor.io^$removeparam=aff_id
 
