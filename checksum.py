@@ -6,6 +6,6 @@ for listi in lists:
   checksums[listi] = sha512(open(listi,"rb").read()).hexdigest()
 
 checksumf = open("checksums.txt","w")
-for item in checksums:special_lists/anti-malware-ubo-extension.txt
+for item in checksums:
   checksumf.write("{}: {}\n".format(item,checksums[item]))
 checksumf.close()
