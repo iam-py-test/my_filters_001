@@ -4,7 +4,7 @@ Entries: 1578 <br>
 #### antimalware.txt
 Entries: 4155 <br> 
 #### antitypo.txt
-Entries: 181 <br> 
+Entries: 183 <br> 
 #### anti-redirectors.txt
 Entries: 63 <br> 
 #### anti-cookie+sign up.txt
