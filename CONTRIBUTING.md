@@ -1,4 +1,4 @@
-## Contrubuting
+## Contributing
 Please be respectful to other people even if their beliefs or opinions differ from yours. <br/>
 Before opening an issue, please be sure there is not another issue open about the exact same thing. If there is, you can add your opinion or fix to that issue's comments. <br/>
 If your issue was closed as `invalid`, please avoid immediately opening another issue without correcting the problem. Doing so will result in that issue being closed as well. <br/>
@@ -10,3 +10,12 @@ For adding entries to porn.txt, please post a link to the screenshot instead of 
 I will currently not be accepting issues for server-side paywalls (unless you have a fix) as there is **nothing** I can do about them. I will also not be accepting issues for unbreaking sites blocked as malware. If you report cookie-banners/breakage/paywalls on these sites, your issue will be closed with a recommendation that you scan your device for malware. I _will_ accept issues for removing false positives.<br>
 
 Please open a pull request or issue instead of commenting on commits, as I am unlikely to see commit comments, but regulary check for issues.
+
+### IMPORTANT Note about Google Chrome & other Chromium browsers
+Due to browser extensions being unable to block malicious domains on launch, my antimalware blocklist is ineffective against some threats, including some adware, and also websites restored via the _start where I was last time_ feature. This is a browser issue - DO NOT report it either to me or the team behind the adblocker you are using, as there is _nothing_ we can do. This also applies to my other blocklists and any other filterlist for a browser-based content blocker. <br>
+
+### Second note
+I can - and never will - support Google's Manifest V3 as it will destory all content blocking. If you don't like that, talk to Google. Any issues caused by Manifest V3 will be closed as _can't fix_. I strongly recommend you switch to a non-Chromium browser like Tor Browser or Firefox. 
+
+### Note about Internet Explorer
+I do not - and never will - support Microsoft's Internet Explorer, as it is a complete mess, and isn't even maintained. I recommend you switch to any maintained browser, as Microsoft won't fix any issues with IE, and it is therefore broken and insecure. If your admin forces you to use it, tell them to switch to _any other browser_, and if they refuse, just don't browser the internet on that computer. 
