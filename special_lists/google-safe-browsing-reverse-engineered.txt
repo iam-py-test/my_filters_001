@@ -95,3 +95,5 @@
 ||tynkou06.top^$all
 ! as of 5/11/2021
 ||anyuta28genesh.com^$all
+! as of 7/11/2021
+||thundehinery.net^$all
