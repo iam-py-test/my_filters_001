@@ -64,6 +64,7 @@ Everything not listed above, like the filters in the _Personal_ folder, is eithe
 
 ## Projects which use my lists (to my knowlage) 
 - [Zelo72's Threat intelligence feeds](https://github.com/Zelo72/rpi) use the domains, HOSTS, and AdGuard versions of my antimalware and anti-clickbait lists
+- [pallebone's PersonalPiholeListsPAllebone](https://github.com/pallebone/PersonalPiholeListsPAllebone) uses the domains version of my antimalware list
 
 
 #### Notes
@@ -72,4 +73,4 @@ Everything not listed above, like the filters in the _Personal_ folder, is eithe
 - All the up-to-date HOSTs versions use 0.0.0.0 instead of 127.0.0.1, as per [#87](https://github.com/iam-py-test/my_filters_001/issues/87)
 - The _domains_lite_ and _hosts_lite_ versions are unmaintained, however, the antimalware_lite is not
 - If you are trying to use Tor to investigate an issue, try looking at [tor-relays-with-issues.md](https://github.com/iam-py-test/my_filters_001/blob/main/wiki/tor-relays-with-issues.md) for a list of Tor exits which are known to cause issues or which malware/scam domains block
-- While the _Google Safe Browsing reverse engineered_ and _Microsoft Smartscreen reverse engineered_ can be installed on their own in uBlock Origin, _The malicious website blocklist - uBlock Origin extension_ can not as it is designed only to be included in _The malicious website blocklist_
+- While the _Google Safe Browsing reverse engineered_ and _Microsoft Smartscreen reverse engineered_ lists can be installed on their own in uBlock Origin, _The malicious website blocklist - uBlock Origin extension_ can not as it is designed only to be included in _The malicious website blocklist_
