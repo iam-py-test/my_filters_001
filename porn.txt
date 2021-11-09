@@ -7,7 +7,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-! Last updated: 15/10/2021
+! Last updated: 9/11/2021
 ! A note about dates: All my dates are in EU format, which means day/month/year
 ! Porn websites
 shesfreaky.com$all
@@ -331,6 +331,10 @@ ww9.101sexsecret.com$all
 
 
 ! Found in random reports online
+! https://github.com/AdguardTeam/AdguardFilters/issues/99370
+sexmutant.com$all
+www.sexmutant.com$all
+
 ! https://staging-blog.malwarebytes.com/cybercrime/2020/10/xss-to-tss-tech-support-scam-campaign/
 ! https://www.virustotal.com/gui/url/20ef52e48105469f42991b3400d4b8f55e8391ba1d9ac070a5b996ed81e84ac9/detection
 ! https://www.virustotal.com/gui/ip-address/104.21.7.228/relations
