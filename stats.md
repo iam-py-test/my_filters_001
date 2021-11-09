@@ -1,6 +1,6 @@
 ## List stats
 #### porn.txt
-Entries: 1578 <br> 
+Entries: 1580 <br> 
 #### antimalware.txt
 Entries: 4260 <br> 
 #### antitypo.txt
