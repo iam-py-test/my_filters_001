@@ -1,0 +1,65 @@
+# Title: iam-py-test's device privacy list
+# Description: This list is designed to provide enhanced protection against trackers as a HOSTs file, at the DNS level, or even in uBlock Origin
+# Homepage: https://github.com/iam-py-test/my_filters_001
+# License: Public domain, because I believe privacy is a human right
+
+# copied over from Anti-Norton Tracking Protection
+# Universal Tracker domains which (according to VT) Avast's installer contacts
+0.0.0.0 google-analytics.com
+0.0.0.0 ssl.google-analytics.com
+0.0.0.0 www.google-analytics.com
+0.0.0.0 www-google-analytics.l.google.com
+# Contacted by CCleaner's installer
+0.0.0.0 static.ads-twitter.com
+0.0.0.0 stats.g.doubleclick.net
+0.0.0.0 doubleclick.net
+0.0.0.0 z.moatads.com
+0.0.0.0 stats.l.doubleclick.net
+# Contacted by Avast's website
+0.0.0.0 googletagmanager.com
+0.0.0.0 www.googletagmanager.com
+# Contacted by Norton's website
+0.0.0.0 cdn.quantummetric.com
+0.0.0.0 nexus.ensighten.com
+# Not contacted or even related to Norton or Avast to my knowledge, but are trackers none the less
+0.0.0.0 static-doubleclick-net.l.google.com
+0.0.0.0 www-googletagmanager.l.google.com
+0.0.0.0 ssl-google-analytics.l.google.com
+0.0.0.0 googlesyndication.com
+# copied over from https://github.com/nickspaargaren/no-google with permission - credit to https://github.com/nickspaargaren for maintaining that list
+0.0.0.0 wwwctp.googletagmanager.com
+0.0.0.0 wp.googletagmanager.com
+0.0.0.0 googletagservices.com
+0.0.0.0 www.googletagservices.com
+# Tracker domains specific to Avast
+0.0.0.0 analytics.ns1.ff.avast.com
+0.0.0.0 analytics.ff.avast.com
+0.0.0.0 analytics-us.ff.avast.com
+0.0.0.0 analytics-ex01.ff.avast.com
+0.0.0.0 kibana-analytics.ff.avast.com
+0.0.0.0 analytics-test.ns1.ff.avast.com
+0.0.0.0 doubleclick-proxy.ns1.ff.avast.com
+# copied over from https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext&_=4
+0.0.0.0 uib.ff.avast.com
+# copied over from https://easylist.to/easylist/easyprivacy.txt, which is maintained by EasyList. License: https://easylist.to/pages/licence.html
+0.0.0.0 an.avast.com
+0.0.0.0 ans.avast.com
+# copied from https://someonewhocares.org/hosts/
+0.0.0.0 ipm-provider.ff.avast.com
+# Not sure
+# 0.0.0.0 v7event.stats.avast.com
+# 0.0.0.0 stats7.avast.com
+# 0.0.0.0 geoip.avast.com
+# Tracker domains specific to Norton
+0.0.0.0 analytics-login.norton.com
+# https://github.com/DandelionSprout/adfilt/commit/e61d38884f96024d0eb740d7b322592307d99dab
+0.0.0.0 stats.norton.com
+
+# copied from my Annoyances filter
+0.0.0.0 mixpanel.com
+0.0.0.0 c.go-mpulse.net
+0.0.0.0 amplitude.com
+0.0.0.0 analytics.amplitude.com
+0.0.0.0 data.amplitude.com
+0.0.0.0 discourse.amplitude.com
+
