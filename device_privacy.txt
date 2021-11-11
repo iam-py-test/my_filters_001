@@ -2,6 +2,7 @@
 # Description: This list is designed to provide enhanced protection against trackers as a HOSTs file, at the DNS level, or even in uBlock Origin
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # License: Public domain, because I believe privacy is a human right
+# Last updated: 11/11/2021
 
 # copied over from Anti-Norton Tracking Protection
 # Universal Tracker domains which (according to VT) Avast's installer contacts
@@ -62,4 +63,13 @@
 0.0.0.0 analytics.amplitude.com
 0.0.0.0 data.amplitude.com
 0.0.0.0 discourse.amplitude.com
+
+# https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/830
+0.0.0.0 ad.nettvservices.com
+0.0.0.0 ad.lgappstv.com
+0.0.0.0 lgad.cjpowercast.com.edgesuite.net
+0.0.0.0 lgsmartad.com
+0.0.0.0 ads.samsung.com
+0.0.0.0 gpm.samsungqbe.com
+0.0.0.0 samsungacr.com
 
