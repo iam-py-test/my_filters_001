@@ -84,6 +84,9 @@ id-ransomware.malwarehunterteam.com##.ad
 ! Tracking - see https://github.com/uBlockOrigin/uBlock-issues/issues/1070
 online-metrix.net$all
 
+! https://github.com/easylist/easylist/issues/9625
+||weibo.com/ajax/log^
+
 ! https://github.com/DandelionSprout/adfilt/issues/4
 ||sannsyn.com^$3p
 
