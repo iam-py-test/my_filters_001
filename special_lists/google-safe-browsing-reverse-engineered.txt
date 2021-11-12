@@ -97,3 +97,6 @@
 ||anyuta28genesh.com^$all
 ! as of 7/11/2021
 ||thundehinery.net^$all
+! as of 12/11/2021
+||fkty224wazne.pl^$all
+||isupport-system.com^$all
