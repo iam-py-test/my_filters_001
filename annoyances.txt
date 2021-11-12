@@ -118,6 +118,9 @@ thedogvisitor.com##div.widget-newsletter.widget > [href="https://bit.ly/thedogvi
 thedogvisitor.com##div.amazon:nth-of-type(5)
 thedogvisitor.com##div.amazon > [href="https://bit.ly/thedogvisitors"]
 
+! https://github.com/easylist/easylist/commit/4c7e6152b02d15dc67871097ff54e90ef572d228
+||buikolered.com^
+
 ! Tracking
 ||cognito-identity.us-east-1.amazonaws.com^
 ! tracking on https://www.ibtimes.co.uk/
