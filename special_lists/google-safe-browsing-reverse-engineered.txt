@@ -1,3 +1,4 @@
+! Title: Google Safe Browsing reverse engineered
 ! this is a list of domains blocked by Google Safe Browsing in an attempt to understand it
 ! as of 27/9/2021
 ||facebok.xyz^$all
@@ -100,3 +101,5 @@
 ! as of 12/11/2021
 ||fkty224wazne.pl^$all
 ||isupport-system.com^$all
+! as of 13/11/2021
+||chase3.my03.com^$all
