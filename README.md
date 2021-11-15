@@ -11,17 +11,20 @@ Please report any issues you have and I will try to fix them; please note I may 
 #### Actively maintained
 - The malicious website blocklist (antimalware.txt) ([Subscribe](https://iam-py-test.github.io/add_list.html?id=2))
 - Annoyances (annoyances.txt)
-- Anti-Norton tracking list (anti-norton-tracking.txt)
 - DuckDuckGo Clean up (duckduckgo-clean-up.txt)
+- The device privacy list (device_privacy.txt)
 
 #### Not actively maintained but don't require frequent updates
 - [My anti-facebook list](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/antifacebook.txt)
 - [My Enhanced Protection list](https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt)
+- Anti-Norton tracking list (anti-norton-tracking.txt)
+
 
 #### Not frequently updated but still receive occasional updates
 - The clickbait blocklist (clickbait.txt) ([Subscribe](https://iam-py-test.github.io/add_list.html?id=4))
 - Anti-typosquatting list (antitypo.txt)
 - Anti redirectors list (anti-redirectors.txt)
+- The cleaner Tor list (cleaner-tor.txt)
 
 #### Extension lists which add onto my existing lists
 - [Google Safe Browsing reverse-engineered](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/google-safe-browsing-reverse-engineered.txt)
@@ -40,12 +43,14 @@ Please report any issues you have and I will try to fix them; please note I may 
 
 #### Dead lists which are not even complete
 - trojan_protection_list.txt
-- Anti-overprompted Windows antivirus list (could not find enough instances of this that would not break legitimate websites)
+- Anti-overpromoted Windows antivirus list (could not find enough instances of this that would not break legitimate websites)
 - scams.txt (redundant, moved to antimalware.txt)
 - anti-cookie+sign up_extention.txt (had one purpose - to work with my custom scriptlets - but the website it was intended to work for changed cookie values to quickly for it to work)
 
 <br>The filters in the _Alternative list formats_ folder are versions of some of the lists above for different software. These are auto-generated, and thus updates to them must be made to the original list or [the Python script](https://github.com/iam-py-test/my_filters_001/blob/main/update.py) which generates them.<br>
-Everything not listed above, like the filters in the _Personal_ folder, is either completely forgotten by me, or is likely to break websites due to its purpose or lack of regulation
+Everything not listed above, like the filters in the _Personal_ folder, is either completely forgotten by me, or is likely to break websites due to its purpose or lack of regulation. <br>
+
+**Need checksums for my lists? See checksums.txt for auto-generated SHA512 checksums**
 
 ## Other formats
 
@@ -65,6 +70,7 @@ Everything not listed above, like the filters in the _Personal_ folder, is eithe
 ## Projects which use my lists (to my knowlage) 
 - [Zelo72's Threat intelligence feeds](https://github.com/Zelo72/rpi) use the domains, HOSTS, and AdGuard versions of my antimalware and anti-clickbait lists
 - [pallebone's PersonalPiholeListsPAllebone](https://github.com/pallebone/PersonalPiholeListsPAllebone) uses the domains version of my antimalware list
+- [eded333's TheF\*ckingList](https://github.com/eded333/TheFuckingList) uses the uBlock Origin version of my antimalware list and the Anti-Norton Tracking list
 
 
 #### Notes
