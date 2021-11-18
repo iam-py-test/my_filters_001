@@ -7,7 +7,7 @@ hosting = ["duckdns.org","appspot.com","blogspot.com","raw.githubusercontent.com
 # url shorteners which should only have specific urls blocked
 urlshorteners = ["bit.ly","x.co","tinyurl.com","t.co"]
 # invalid syntax in uBlock Origin
-invalidsyntax = ["$$","docment","alll","^all","$docs","$scripted","|||","alls","documentall","allall","all$all"]
+invalidsyntax = ["$$","docment","alll","^all","$docs","$scripted","|||","alls","documentall","allall","all$all","all."]
 
 # the main text
 maintext = open("antimalware.txt").read()
