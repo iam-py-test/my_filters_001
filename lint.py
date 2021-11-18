@@ -5,9 +5,9 @@ gooddomains = ["google.com","www.google.com","duckduckgo.com","www.duckduckgo.co
 # domains which are used for hosting or contain User Generated Content, and should only have subdomains/specific urls listed
 hosting = ["duckdns.org","appspot.com","blogspot.com","raw.githubusercontent.com","github.com","gitlab.com","github.io"]
 # url shorteners which should only have specific urls blocked
-urlshorteners = ["bit.ly","x.co","tinyurl.com","t.co"]
+urlshorteners = ["bit.ly","x.co","tinyurl.com","t.co","t.ly"]
 # invalid syntax in uBlock Origin
-invalidsyntax = ["$$","docment","alll","^all","$docs","$scripted","|||","alls","documentall","allall","all$all","all."]
+invalidsyntax = ["$$","$docment","$alll","^all","$docs","$scripted","|||","$alls","$documentall","$allall","$all$all","$all."]
 
 # the main text
 maintext = open("antimalware.txt").read()
