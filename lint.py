@@ -1,7 +1,7 @@
 """Verify the syntax of my antimalware list and verify there are no legit domains in it"""
 
 #domains which are good & should never be blocked in this list
-gooddomains = ["google.com","www.google.com","duckduckgo.com","www.duckduckgo.com","virustotal.com","safeweb.norton.com","mywot.com","www-amazon-com.customer.fastly.net","fastly.net","adguardteam.github.io","iam-py-test.github.io","example.com"]
+gooddomains = ["google.com","www.google.com","duckduckgo.com","www.duckduckgo.com","virustotal.com","safeweb.norton.com","mywot.com","www-amazon-com.customer.fastly.net","fastly.net","adguardteam.github.io","iam-py-test.github.io","example.com","r3.o.lencr.org"]
 # domains which are used for hosting or contain User Generated Content, and should only have subdomains/specific urls listed
 hosting = ["duckdns.org","appspot.com","blogspot.com","raw.githubusercontent.com","github.com","gitlab.com","github.io"]
 # url shorteners which should only have specific urls blocked
