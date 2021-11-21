@@ -1,6 +1,6 @@
 ! Title: iam-py-test Annoyances
 ! Expires: 1 day
-! Last updated: 18/11/2021
+! Last updated: 21/11/2021
 ! Description: A list to remove some things I find annoying, along with a few ads and trackers. Very small right now, but slowly getting bigger and more powerful
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -86,6 +86,11 @@ online-metrix.net$all
 
 ! https://github.com/easylist/easylist/issues/9625
 ||weibo.com/ajax/log^
+
+! https://github.com/easylist/easylist/issues/9792
+||fe-static.xhscdn.com/formula-static/@xhs/error-tracker
+||t2.xiaohongshu.com/api/v2/collect
+||lng.xiaohongshu.com/api/collect
 
 ! https://github.com/DandelionSprout/adfilt/issues/4
 ||sannsyn.com^$3p
