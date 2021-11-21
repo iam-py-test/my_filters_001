@@ -482,7 +482,6 @@
 0.0.0.0 www.chaturbatefreetokens.com
 0.0.0.0 chaturbatefreetokens.com
 # https://www.siteadvisor.com/sitereport.html?url=videochatline.com
-
 # https://www.siteadvisor.com/sitereport.html?url=webcamchatlive.net
 0.0.0.0 webcamchatlive.net
 # https://www.siteadvisor.com/sitereport.html?url=mobilesexcams.co
@@ -1425,7 +1424,6 @@
 # https://www.fortiguard.com/webfilter?q=wankflix.com&version=8
 0.0.0.0 wankflix.com
 # https://www.fortiguard.com/webfilter?q=mofosex.com&version=8
-
 # https://www.fortiguard.com/webfilter?q=keezmovies.com&version=8
 # https://www.siteadvisor.com/sitereport.html?url=keezmovies.com
 # https://safeweb.norton.com/reviews?url=keezmovies.com
@@ -1491,7 +1489,6 @@
 # https://www.fortiguard.com/webfilter?q=tuberel.com&version=8
 0.0.0.0 tuberel.com
 # https://www.fortiguard.com/webfilter?q=tubev.sex&version=8
-
 # https://www.fortiguard.com/webfilter?q=txxx.com&version=8
 0.0.0.0 txxx.com
 # https://www.fortiguard.com/webfilter?q=vidmo.org&version=8
@@ -1547,16 +1544,10 @@
 # https://siteadvisor.com/sitereport.html?url=adultfreex.com
 0.0.0.0 adultfreex.com
 # domains from https://github.com/blocklistproject/Lists/issues/310
-
-
-
-
 0.0.0.0 hentaicomicsonline.com
-
 0.0.0.0 sexcomix.me
 # https://www.siteadvisor.com/sitereport.html?url=comix.site
 0.0.0.0 comix.site
-
 0.0.0.0 porncomixinfo.net
 0.0.0.0 porncomics.name
 # https://www.siteadvisor.com/sitereport.html?url=8-muses.xyz
@@ -1564,7 +1555,6 @@
 # https://www.siteadvisor.com/sitereport.html?url=hdhentaicomics.com
 0.0.0.0 hdhentaicomics.com
 0.0.0.0 comixzilla.com
-
 # https://www.fortiguard.com/webfilter?q=8muses.net&version=8
 0.0.0.0 8muses.net
 # https://someonewhocares.org/hosts/

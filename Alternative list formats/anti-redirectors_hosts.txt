@@ -51,7 +51,6 @@
 0.0.0.0 urlshortx.com
 # https://www.businessonhome.com/best-url-shortener-to-earn-money/#8019
 0.0.0.0 exe.io
-
 0.0.0.0 fc.lc
 0.0.0.0 shrinkme.io
 0.0.0.0 ouo.io
