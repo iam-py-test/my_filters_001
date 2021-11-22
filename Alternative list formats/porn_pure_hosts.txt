@@ -64,9 +64,11 @@
 0.0.0.0 pornnetworkdeals.com
 0.0.0.0 www.camsoda.com
 0.0.0.0 camsoda.com
+0.0.0.0 199.59.95.82
 0.0.0.0 eroticbeauties.com
 0.0.0.0 www.eroticbeauties.com
 0.0.0.0 mail.eroticbeauties.com
+0.0.0.0 54.164.206.233
 0.0.0.0 4fuq.com
 0.0.0.0 youfap.tv
 0.0.0.0 pornado.co
@@ -270,6 +272,7 @@
 0.0.0.0 www.allcamsex.com
 0.0.0.0 live.allcamsex.com
 0.0.0.0 andreanobili.allcamsex.com
+0.0.0.0 23.23.122.206
 0.0.0.0 sex2go.info
 0.0.0.0 mail4.sex2go.info
 0.0.0.0 mx2.sex2go.info
@@ -316,6 +319,10 @@
 0.0.0.0 www.lesbianreports.com
 0.0.0.0 kittyscam.com
 0.0.0.0 adultcamreview.com
+0.0.0.0 ||facebook.com/webcamreports-959396000844530
+0.0.0.0 ||twitter.com/webcamreports
+0.0.0.0 ||plus.google.com/+webcamreports
+0.0.0.0 ||youtube.com/channel/uc4wmoyqzec38wvdxb9mzpya
 0.0.0.0 sexcamtokens.com
 0.0.0.0 www.amateurcool.com
 0.0.0.0 amateurcool.com
@@ -783,6 +790,7 @@
 0.0.0.0 www.nakedgirlwallpaper.pro
 0.0.0.0 semprot.com
 0.0.0.0 www.semprot.com
+0.0.0.0 ||46.166.167.16
 0.0.0.0 si6ling.incestflix.com
 0.0.0.0 incestflix.com
 0.0.0.0 www.incestflix.com
@@ -1437,6 +1445,9 @@
 0.0.0.0 nudemomporn.net
 0.0.0.0 www.finalgallery.com
 0.0.0.0 finalgallery.com
+0.0.0.0 ||/gallery/pregnantmary/
+0.0.0.0 ||/pics/pregnant.shtml
+0.0.0.0 ||/en/444/pregnant/
 0.0.0.0 teenfucker.com
 0.0.0.0 teenpregnant.com
 0.0.0.0 maternitygallery.com

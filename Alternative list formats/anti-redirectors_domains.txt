@@ -1,3 +1,5 @@
+||google.*/url?
+||l.facebook.com/l.php?
 x.co
 bit.ly
 bit.do
@@ -23,6 +25,7 @@ adfoc.us
 shorte.st
 www.linkbucks.com
 linkbucks.com
+||adguardteam.github.io/anonymousredirect/redirect.html
 git.io
 buff.ly
 go.microsoft.com
@@ -45,8 +48,14 @@ rebrandly.com
 prettylinks.com
 www.bl.ink
 snip.ly
+||mywplife.com/out/
 itsssl.com
+||youtube.com/redirect
 v.ht
+||amazon.com/gp/redirect.html/
+||clicks.eventbrite.com/f/a/
+||bing/newtabredirect
+||url5104.sistemavendadireta.com.br/ls/click
 iplogger.org
 iplogger.com
 go.skimresources.com
