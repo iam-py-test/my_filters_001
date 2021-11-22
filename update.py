@@ -19,15 +19,22 @@ def mkalt(file,alt):
   alldomains[file] = []
   allips[file] = []
   for line in lines:
-    if len(line.split("$")[0].split(".")) > 2:
-      if isipdomain(line.split("$")[0]) == True:
-        iponly.write(line.split("$")[0] + "\n")
+    if len(line.split("^$")[0].split(".")) > 2:
+      if isipdomain(line.split("^$")[0][2:]) == True:
+        iponly.write(line.split("^$")[0][2:] + "\n")
         try:
-          allips[file].append(line.split("$")[0])
+          allips[file].append(line.split("^$")[0][2:])
         except Exception as err:
           print("Error:{}".format(err))
         continue
-    if line == '' or line.startswith("!") or line.startswith("||") or line == '[Adblock Plus 2.0]':
+    if line.startswith("||") and "/" not in line and "^" in line:
+      try:
+        domain = line.split("^$")[0][2:].lower()
+        alt.write("{}\n".format(domain))
+        donedomains.append(domain)
+      except:
+        pass
+    if line == '' or line.startswith("!") or line == '[Adblock Plus 2.0]':
       continue
     if line.split("$")[0] in donedomains:
       reddomains.append(line.split("$")[0])
