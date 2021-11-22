@@ -32,6 +32,7 @@ def mkalt(file,alt):
         domain = line.split("^$")[0][2:].lower()
         alt.write("{}\n".format(domain))
         donedomains.append(domain)
+        alldomains[file].append(domain)
         continue
       except:
         pass
@@ -68,6 +69,15 @@ def mkhosts(file,altname):
       continue
     if line.startswith("!"):
       altfile.write("#" + line[1:])
+    elif line.startswith("||") and "/" not in line and "^" in line:
+      try:
+        domain = line.split("^$")[0][2:].lower()
+        if isipdomain(domain) != True:
+          alt.write("{}\n".format(domain))
+          donedomains.append(domain)
+        continue
+      except:
+        pass
     elif line == "" or line.startswith("||") or line.startswith("[Adblock Plus 2.0]"):
       continue
     elif "$" in line:
@@ -106,6 +116,17 @@ def mkagh(file,altname):
     elif line == "" or line.startswith("||") or line.startswith("[Adblock Plus 2.0]"):
       continue
     elif "$" in line:
+      if line.startswith("||") and "/" not in line and "^" in line:
+        try:
+          domain = line.split("^$")[0][2:].lower()
+          if isipdomain(domain):
+            alt.write("{}\n".format(domain))
+          else:
+            alt.write("||{}^\n".format(domain))
+          donedomains.append(domain)
+          continue
+        except:
+          pass
       domain = line.split("$")[0].lower()
       if domain in donedomains:
         continue
@@ -169,7 +190,6 @@ def mkpurehosts(file,altname):
   altfile = open(altname,"w")
   for domain in alldomains[file]:
       altfile.write("0.0.0.0 {}\n".format(domain))
-
 try:
   mkpurehosts("porn.txt","Alternative list formats/porn_pure_hosts.txt")
   mkpurehosts("antimalware.txt","Alternative list formats/antimalware_pure_hosts.txt")
@@ -188,7 +208,8 @@ def mkadguard(file,altname):
     return False
   for line in List:
     if line.startswith("! Format notes: "):
-      altfile.write("! Format notes: This format is designed for use in AdGuard's desktop app")
+      altfile.write("! Format notes: This format is designed for use in AdGuard's desktop app\n")
+      continue
     if line.startswith("!"):
       altfile.write(line)
       altfile.write("\n")
