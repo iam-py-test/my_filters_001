@@ -115,7 +115,7 @@ def mkagh(file,altname):
       continue
     if line.startswith("!"):
       altfile.write(line)
-    elif line == "" or line.startswith("||") or line.startswith("[Adblock Plus 2.0]") or line == " ":
+    elif line == "" or line.startswith("[Adblock Plus 2.0]") or line == " ":
       continue
     elif "$" in line:
       if line.startswith("||") and "/" not in line and "^" in line:
@@ -127,8 +127,8 @@ def mkagh(file,altname):
             altfile.write("||{}^\n".format(domain))
           donedomains.append(domain)
           continue
-        except:
-          pass
+        except Exception as err:
+          print(err)
       domain = line.split("$")[0].lower()
       if domain in donedomains:
         continue
