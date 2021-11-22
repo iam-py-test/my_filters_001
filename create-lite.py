@@ -31,6 +31,7 @@ lines = open("antimalware.txt").read().split("\n")
 for line in lines:
   if line.startswith("||"):
     list1 += line + "\n"
+    continue
   if line.startswith("!") or line == "" or line.startswith("#") or "[Adblock Plus 2.0]" in line:
     continue
   else:
@@ -41,7 +42,7 @@ for line in lines:
       else:
         list1 += line + "\n"
     except:
-      pass
+      list1 += line + "\n"
 endlist = open("Alternative list formats/antimalware_lite.txt","w")
 endlist.write(list1)
 endlist.close()
