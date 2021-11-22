@@ -38,6 +38,8 @@ def mkalt(file,alt):
         pass
     if line == '' or line.startswith("!") or line == '[Adblock Plus 2.0]':
       continue
+    if "/" in line and "|" in line:
+      continue
     if line.split("$")[0] in donedomains:
       reddomains.append(line.split("$")[0])
     if line.split("$")[0] not in donedomains:
@@ -73,7 +75,7 @@ def mkhosts(file,altname):
       try:
         domain = line.split("^$")[0][2:].lower()
         if isipdomain(domain) != True:
-          alt.write("{}\n".format(domain))
+          altfile.write("{}\n".format(domain))
           donedomains.append(domain)
         continue
       except:
@@ -113,16 +115,16 @@ def mkagh(file,altname):
       continue
     if line.startswith("!"):
       altfile.write(line)
-    elif line == "" or line.startswith("||") or line.startswith("[Adblock Plus 2.0]"):
+    elif line == "" or line.startswith("||") or line.startswith("[Adblock Plus 2.0]") or line == " ":
       continue
     elif "$" in line:
       if line.startswith("||") and "/" not in line and "^" in line:
         try:
           domain = line.split("^$")[0][2:].lower()
           if isipdomain(domain):
-            alt.write("{}\n".format(domain))
+            altfile.write("{}\n".format(domain))
           else:
-            alt.write("||{}^\n".format(domain))
+            altfile.write("||{}^\n".format(domain))
           donedomains.append(domain)
           continue
         except:
@@ -165,7 +167,6 @@ def mkabp(file,altname):
       continue
     if "[Adblock Plus 2.0]" in line:
       altfile.write(line)
-      
     if "$" in line:
       domain = line.split("$")[0].lower()
       isip = isipdomain(domain)
@@ -220,7 +221,6 @@ def mkadguard(file,altname):
       continue
     if "[Adblock Plus 2.0]" in line:
       altfile.write(line)
-      
     if "$" in line:
       domain = line.split("$")[0].lower()
       isip = isipdomain(domain)
