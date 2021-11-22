@@ -32,6 +32,7 @@ def mkalt(file,alt):
         domain = line.split("^$")[0][2:].lower()
         alt.write("{}\n".format(domain))
         donedomains.append(domain)
+        continue
       except:
         pass
     if line == '' or line.startswith("!") or line == '[Adblock Plus 2.0]':
