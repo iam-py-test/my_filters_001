@@ -14,7 +14,7 @@ jobs:
         python-version: '3.x'
     - name: Build
       run: |
-        curl https://raw.githubusercontent.com/iam-py-test/vxvault_filter/main/ubolist.txt | mirrored/vxvault_filter.txt
+        curl https://raw.githubusercontent.com/iam-py-test/vxvault_filter/main/ubolist.txt > mirrored/vxvault_filter.txt
         pip3 install publicsuffixlist
         python update.py
         python update_total.py
