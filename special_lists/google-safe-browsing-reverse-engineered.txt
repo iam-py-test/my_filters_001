@@ -103,3 +103,5 @@
 ||isupport-system.com^$all
 ! as of 13/11/2021
 ||chase3.my03.com^$all
+! as of 24/11/2021
+||flg34w.cn^$all
