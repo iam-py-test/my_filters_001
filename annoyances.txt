@@ -27,6 +27,9 @@ www.dictionary.com###marketingBanner-right-button
 ||cm.bilibili.com^
 ||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js^$script
 
+! as per internal discussion
+||ploz.mangadex.org^
+
 ! discord Ads
 ||cdn.discord.me/units/FJPebL7krYKtQHBOHAm1Pd6Vdy1nouMQn6zxkFZL.jpg$image
 discord.me##.promo-page-lower
