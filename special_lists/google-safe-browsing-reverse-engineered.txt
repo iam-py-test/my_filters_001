@@ -105,3 +105,5 @@
 ||chase3.my03.com^$all
 ! as of 24/11/2021
 ||flg34w.cn^$all
+! as of 28/11/2021
+||drysugardiffer.top^$all
