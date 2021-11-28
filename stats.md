@@ -8,7 +8,7 @@ Entries: 183 <br>
 #### anti-redirectors.txt
 Entries: 65 <br> 
 #### anti-cookie+sign up.txt
-Entries: 345 <br> 
+Entries: 347 <br> 
 #### anti-rickroll-list.txt
 Entries: 182 <br> 
 #### annoyances.txt
