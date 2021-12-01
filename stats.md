@@ -12,7 +12,7 @@ Entries: 347 <br>
 #### anti-rickroll-list.txt
 Entries: 182 <br> 
 #### annoyances.txt
-Entries: 103 <br> 
+Entries: 104 <br> 
 #### duckduckgo-clean-up.template
 Entries: 3 <br> 
 #### enhanced_protection.txt
