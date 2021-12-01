@@ -132,7 +132,7 @@ def mkagh(file,altname):
       domain = line.split("$")[0].lower()
       if domain in donedomains:
         continue
-      if domain != "" and domain not in donedomains:
+      if domain != "" and domain not in donedomains and "/" not in domain:
         if isipdomain(domain):
           altfile.write("{}".format(domain))
         else:
