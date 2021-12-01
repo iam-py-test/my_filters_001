@@ -4,7 +4,11 @@
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Tue, 30 Nov 2021 02:29:20 +0000
+! Tue, 30 Nov 2021 20:30:32 +0000
+||online-cinema.pw/builds/file.exe^$all
+||humnkd.xyz/pseq.exe^$all
+||cdn.discordapp.com/attachments/909030679243816975/914891090136539216/ASD.exe^$all
+||cdn.discordapp.com/attachments/913754541248380958/913765939093307472/mkner.exe^$all
 ||sp.mongoso.com/wp-content/f4xANGqXkZe2wP8JYbZLr/^$all
 ||185.224.129.251/arc^$all
 ||185.224.129.251/sh4^$all
@@ -102,7 +106,3 @@
 ||37.0.10.83/os/eli.exe^$all
 ||75.127.7.165/hdfc/vbc.exe^$all
 ||marccnovaafitness.com/map/htown.exe^$all
-||marccnovaafitness.com/map/NOTEPAD.exe^$all
-||marccnovaafitness.com/map/QuickAssist.exe^$all
-||telstrasiebel.com.au/SiebelClientWin8andBelow.exe^$all
-||telstrasiebel.com.au/SiebelClientWin10.exe^$all
