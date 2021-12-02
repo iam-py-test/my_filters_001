@@ -33,3 +33,7 @@
 ||inerinse.ru^$all
 ||8276365.com^$all
 ||mywallletvalidation.com^$all
+! as of 12/2/2021
+||all-important-washt.000webhostapp.com^$all
+||golemgreat122.000webhostapp.com^$all
+||aceelectricalny.com^$all
