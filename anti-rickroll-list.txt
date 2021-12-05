@@ -10,7 +10,6 @@
 !A rickroll website
 secretrickroll.com$all
 !Hide text containing the word rickroll - does not even work
-!##*:has-text(Get rickroll)
 !##*:has-text(rickroll)
 !Hide images/videos containing the word rickroll
 !##[src*=rickroll]:not(iframe)
