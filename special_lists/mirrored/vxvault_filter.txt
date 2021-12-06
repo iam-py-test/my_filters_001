@@ -4,7 +4,10 @@
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Mon, 06 Dec 2021 02:43:26 +0000
+! Mon, 06 Dec 2021 20:32:19 +0000
+||file-coin-data-5.com/files/1916_1638783841_4788.exe^$all
+||phantomwallet.store/Phantom.exe^$all
+||just12020.77.asyx.ru/ApolonSpaceXLoader.exe^$all
 ||phantomwallet.site/Phantom.exe^$all
 ||cdn.discordapp.com/attachments/915617039786324022/916004539864338442/gminer.exe^$all
 ||tractorandinas.com/ajukfjhosgh/ConsoleApp1.jpeg^$all
@@ -103,6 +106,3 @@
 ||physic-craft.us/MinecraftUpdate.exe^$all
 ||cdn.discordapp.com/attachments/880572882047078462/880789785973776414/Setup2.exe^$all
 ||cdn.discordapp.com/attachments/879982249968304149/879992032691638272/inst1.exe^$all
-||securebiz.org/dl/build2.exe^$all
-||83.97.20.139/1.exe^$all
-||192.210.214.250/hsbc/vbc.exe^$all
