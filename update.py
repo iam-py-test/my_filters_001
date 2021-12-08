@@ -4,9 +4,9 @@ allips = {}
 reddomains = []
 
 def mkalt(file,alt):
-  lines = open(file).read().split("\n")
-  alt = open("Alternative list formats/{}".format(alt),"w")
-  iponly = open("Alternative list formats/{}_ips.txt".format(file.split(".")[0]),"w")
+  lines = open(file,encoding="UTF-8").read().split("\n")
+  alt = open("Alternative list formats/{}".format(alt),"w",encoding="UTF-8")
+  iponly = open("Alternative list formats/{}_ips.txt".format(file.split(".")[0]),"w",encoding="UTF-8")
   donedomains = []
   def isipdomain(domain):
     try:
@@ -57,8 +57,8 @@ print(alldomains)
 
 def mkhosts(file,altname):
   donedomains = []
-  List = open(file).read().split("\n")
-  altfile = open(altname,"w")
+  List = open(file,encoding="UTF-8").read().split("\n")
+  altfile = open(altname,"w",encoding='UTF-8')
   def isipdomain(domain):
     try:
       return domain in allips[file]
@@ -101,8 +101,8 @@ mkhosts("anti-redirectors.txt","Alternative list formats/anti-redirectors_hosts.
 
 def mkagh(file,altname):
   donedomains = []
-  List = open(file).read().split("\n")
-  altfile = open(altname,"w")
+  List = open(file,encoding="UTF-8").read().split("\n")
+  altfile = open(altname,"w",encoding="UTF-8")
   def isipdomain(domain):
     try:
       return domain in allips[file]
