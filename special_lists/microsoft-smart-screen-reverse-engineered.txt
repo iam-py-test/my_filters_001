@@ -37,3 +37,5 @@
 ||all-important-washt.000webhostapp.com^$all
 ||golemgreat122.000webhostapp.com^$all
 ||aceelectricalny.com^$all
+! as of 11/12/2021
+||peufga06.top^$all
