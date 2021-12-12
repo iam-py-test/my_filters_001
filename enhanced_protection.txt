@@ -5,14 +5,12 @@
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 ! Expires: 1 day
-! Last updated: 26/11/2021
+! Last updated: 12/12/2021
 
 ! Abused TLDs
-||gdn^$document
 ||win^$document
 ||bid^$document
-||top^$document,domain=~corriente.top|~gdtot.top
-||monster^$document
+||top^$doc,domain=~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top||monster^$document
 ||ooo^$document
 ||loan^$document
 ||agency^$document
@@ -20,7 +18,7 @@
 ||download^$document
 ||cricket^$document
 
-! A lot of malware and phishing domains use this (to test, visit "examplelegitdomain.com-somemalware.online" on a browser with this list active in uBo)
+! A lot of malware and phishing domains use this (to test, visit "examplelegitdomain.com-somemalware.online" on a browser with this list active in uBo) - does not work
 ||com-^$document
 
 ! fake copycats of legit websites which use the original website name as a subdomain
