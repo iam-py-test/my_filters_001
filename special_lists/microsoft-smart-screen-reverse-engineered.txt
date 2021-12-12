@@ -39,3 +39,5 @@
 ||aceelectricalny.com^$all
 ! as of 11/12/2021
 ||peufga06.top^$all
+! https://github.com/uBlockOrigin/uAssets/pull/10879
+||3650365voicemailplay.blob.core.windows.net^$all
