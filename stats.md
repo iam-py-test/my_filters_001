@@ -16,7 +16,7 @@ Entries: 105 <br>
 #### duckduckgo-clean-up.template
 Entries: 3 <br> 
 #### enhanced_protection.txt
-Entries: 20 <br> 
+Entries: 18 <br> 
 #### anti-norton-tracking.txt
 Entries: 65 <br> 
 #### clickbait.txt
