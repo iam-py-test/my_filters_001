@@ -7115,6 +7115,8 @@ duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaf
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="70.49.85.35"]
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="52.53.243.52"]
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="34.201.22.10"]
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="87.251.85.100"]
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="5.182.206.13"]
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="5.8.47.3"]
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="5.8.34.26"]
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$="103.224.182.251"]
