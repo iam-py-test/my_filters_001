@@ -8,24 +8,8 @@
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 
 ! Rickroll websites
-secretrickroll.com$all
+||secretrickroll.com^$all
 ||yx.zone^$all
-!Hide text containing the word rickroll - does not even work
-!##*:has-text(Get rickroll)
-!##*:has-text(rickroll)
-!Hide images/videos containing the word rickroll
-!##[src*=rickroll]:not(iframe)
-!##[srcset*=rickroll]
-!##img[alt*=rickroll]
-!Block anything related to rickrolling except frames and xhrs, which are blocked separately. 
-! This was removed due to breakage
-!/*rickroll$all,~frame,~xhr,domain=~wikipedia.org|~github.com|~githubusercontent.com
-!Make rickroll frames click2load - noone adds 'rickroll' to the url for rickrolls
-!/*rickroll$frame,redirect=click2load.html
-!rickroll$frame,redirect=click2load.html
-!Block rickroll links
-!Removed due to breakage which forced me to make this change on another device 
-!##[href*=rickroll]
 !YouTube rickrolling
 youtube.com##:has-text(rickroll)
 ||youtube.com/results?search_query=rick+roll$document
@@ -219,21 +203,21 @@ youtube.com##:has-text(rickroll)
 !More non-youtube rickroll videos
 ||vimeo.com/516035924$document,frame
 ||www.reddit.com/r/Limenade/comments/ltmszs/rick_astley_never_gonna_give_you_up_video$document,frame
-||vimeo.com/429388049$document,frame
+||vimeo.com/429388049^$document,frame
 ||bing.com/videos/search?q=rick+astley+never+gonna+give+you+up&docid=608043081444441392&mid=4E7B1C0F8E67E9F7B1364E7B1C0F8E67E9F7B136&view=detail&FORM=VRAASM&ru=%2Fvideos%2Fsearch%3Fq%3Dnever%2Bgonna%2Bgive%2Byou%2Bup%26FORM%3DHDRSC3$document,frame
-||vimeo.com/307987646$all
+||vimeo.com/307987646^$all
 ||reddit.com/r/LikedYTVideos/comments/n3jian/rick_astley_never_gonna_give_you_up_remastered_4k$doc
 !Maybe rickroll? 
 ||www.youtube-nocookie.com/embed/dQw4w9WgXcQ%22$all
 
 !URL shortners are used for all forms of things to hid the real url - rickrolls are just one use
-bit.ly$document
-tinyurl.com$document
-!Rickroll images
+||bit.ly^$document
+||tinyurl.com^$document
+! Rickroll images
 ||edge.alluremedia.com.au/m/g/2020/01/rickroll.jpg$all
 ||i.ytimg.com/vi/eErVS4nxol8/hqdefault.jpg$all
 
+! rickroll-related images
 ||lh3.googleusercontent.com/b59aHI7z3SqRta9NKk-U3Blmf-sR0p8U2WULFwPdI9BqdMgWg3vuDuUcy9R1EE1z6Ime$all
-!Preview/rickroll gif
 ||i.ytimg.com/vi/HIcSWuKMwOw/*.jpg$all
 ||i.ytimg.com/vi/cvh0nX08nRw/*.jpg$all
