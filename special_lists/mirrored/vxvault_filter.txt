@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Tue, 14 Dec 2021 02:44:28 +0000
+! Tue, 14 Dec 2021 20:30:38 +0000
 ||file-coin-data-5.com/files/1916_1638783841_4788.exe^$all
 ||phantomwallet.store/Phantom.exe^$all
 ||just12020.77.asyx.ru/ApolonSpaceXLoader.exe^$all
