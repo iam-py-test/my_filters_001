@@ -4,7 +4,10 @@
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Wed, 15 Dec 2021 20:30:31 +0000
+! Thu, 16 Dec 2021 20:29:51 +0000
+||neofunkyjunky.com/work/mix.exe^$all
+||ekuhsn03.top/downfiles/file.exe^$all
+||neofunkyjunky.com/holler/rolle2.exe^$all
 ||neofunkyjunky.com/holler/rolle.exe^$all
 ||neofunkyjunky.com/holler/rolle2.exe^$all
 ||ekuboh14.top/downfiles/newish.exe^$all
@@ -103,6 +106,3 @@
 ||cdn.discordapp.com/attachments/883704579580100689/883709177728491612/QDfJdRFd.exe^$all
 ||cdn.discordapp.com/attachments/880446024357904428/883012211570782218/svchost.exe^$all
 ||185.222.57.177/wt/vbc.exe^$all
-||tbpws.top/files/1/build3.exe^$all
-||securebiz.org/dl/build2.exe^$all
-||5.252.179.35/0n1y_53r10u5.exe^$all
