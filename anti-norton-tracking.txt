@@ -3,7 +3,7 @@
 # It is recommended you cease use of said products (Norton, Avast, AVG, Avira, CCleaner), as they probably do a lot of other shady stuff that this list can't block. This list also can just be used as enhanced tracking protection even if you don't use said products regularly
 # Expires: 1 day
 # Homepage: https://github.com/iam-py-test/my_filters_001
-# Last updated: 15/10/2021
+# Last updated: 22/12/2021
 # Issues url: https://github.com/iam-py-test/my_filters_001/issues
 # GitLab issues url (not checked as much): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 # You need to place this in your HOSTS file for it to work
@@ -65,11 +65,3 @@
 0.0.0.0 analytics-login.norton.com
 # https://github.com/DandelionSprout/adfilt/commit/e61d38884f96024d0eb740d7b322592307d99dab
 0.0.0.0 stats.norton.com
-
-
-
-# Trackers from other AVs which could be used instead of Norton
-# Malwarebytes - not sure (will test)
-# 0.0.0.0 telemetry.malwarebytes.com
-
-
