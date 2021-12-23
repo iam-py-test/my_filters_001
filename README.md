@@ -13,7 +13,6 @@ Thanks to all the people in https://github.com/iam-py-test/my_filters_001/blob/m
 - The malicious website blocklist (antimalware.txt) ([Subscribe](https://iam-py-test.github.io/add_list.html?id=2))
 - Annoyances (annoyances.txt)
 - DuckDuckGo Clean up (duckduckgo-clean-up.txt)
-- The device privacy list (device_privacy.txt)
 
 #### Not actively maintained but don't require frequent updates
 - [My anti-facebook list](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/antifacebook.txt)
@@ -26,6 +25,8 @@ Thanks to all the people in https://github.com/iam-py-test/my_filters_001/blob/m
 - Anti-typosquatting list (antitypo.txt)
 - Anti redirectors list (anti-redirectors.txt)
 - The cleaner Tor list (cleaner-tor.txt)
+- The device privacy list (device_privacy.txt)
+
 
 #### Extension lists which add onto my existing lists
 - [Google Safe Browsing reverse-engineered](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/google-safe-browsing-reverse-engineered.txt)
