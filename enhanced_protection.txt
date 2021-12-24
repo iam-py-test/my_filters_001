@@ -5,7 +5,7 @@
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 ! Expires: 1 day
-! Last updated: 12/12/2021
+! Last updated: 24/12/2021
 
 ! Abused TLDs
 ||win^$document
@@ -15,7 +15,6 @@
 ||loan^$document
 ||agency^$document
 ||fun^$document
-||download^$document
 ||cricket^$document
 
 ! A lot of malware and phishing domains use this (to test, visit "examplelegitdomain.com-somemalware.online" on a browser with this list active in uBo) - does not work
