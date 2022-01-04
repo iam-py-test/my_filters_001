@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Please report false positives & unblocked domains to me using the GitHub or GitLab (urls below). Thanks!
 ! Expires: 1 day
-! Last updated: 17/12/2021
+! Last updated: 4/1/2022
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 ! If you want shorter urls, check out DandelionSprout's Actually Legitimate URL Shortener Tool at https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
@@ -217,3 +217,9 @@ vinaurl.in$doc
 
 ! https://forums.malwarebytes.com/topic/281662-facebook-messenger-bad-link/
 ||6to.me^$doc
+
+! https://github.com/easylist/easylist/issues/10318
+||grabify.link^$doc
+||grabify.link/api/js
+||iplogger.info^$doc
+||02ip.ru^$doc
