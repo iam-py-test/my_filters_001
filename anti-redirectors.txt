@@ -223,3 +223,6 @@ vinaurl.in$doc
 ||grabify.link/api/js
 ||iplogger.info^$doc
 ||02ip.ru^$doc
+
+! another Grabify site
+||joinmy.site^$doc
