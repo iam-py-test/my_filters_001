@@ -61,3 +61,5 @@ grabify.link
 iplogger.info
 02ip.ru
 joinmy.site
+cdrvrs.com^
+ahscdn.com^
