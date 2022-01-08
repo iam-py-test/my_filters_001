@@ -1,0 +1,31 @@
+! Title: iam-py-test's simple adblock filter (BETA)
+! Expires: 1 day
+! Description: This this is a simple list which trys to block ads and trackers on the top non-NSFW websites (partly based on https://tranco-list.eu/list/87KV/1000000) with no breakage. Please, don't use this list on it's own
+! Homepage: https://github.com/iam-py-test/my_filters_001
+
+! generic Google ad servers
+||googletagmanager.com^$all
+||google-analytics.com^$all
+||pagead2.googlesyndication.com^
+||googletagservices.com^
+||doubleclick.net^
+||ade.googlesyndication.com^
+
+
+! download.com ads
+||ads.creative-serving.com^
+||moatads.com^
+||adsafeprotected.com^
+||ping.chartbeat.net^
+||simage2.pubmatic.com/AdServer/*
+||ads.pubmatic.com^
+||amazon-adsystem.com^
+||clipcentric-a.akamaihd.net/ad/*$script,domain=cnet.com
+||sb.scorecardresearch.com^
+download.cnet.com##.c-adSkyBox
+
+! forbes ads
+||pixel.rubiconproject.com^
+||ads.avct.cloud^
+||ad.turn.com^$domain=rubiconproject.com
+||aaxads.com^
