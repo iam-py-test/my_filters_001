@@ -34,7 +34,6 @@ Thanks to all the people in https://github.com/iam-py-test/my_filters_001/blob/m
 - [The malicious website blocklist - uBlock Origin extension](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/anti-malware-ubo-extension.txt)
 
 #### Updated rairly but still technically supported
-- Pornography Blocklist (porn.txt) ([Subscribe](https://iam-py-test.github.io/add_list.html?id=1))
 - Anti-cookie-consent and paywalls list (anti-cookie+sign up.txt) ([Subscribe](https://iam-py-test.github.io/add_list.html?id=3))
 - My anti-rickroll list (anti-rickroll-list.txt)
 
@@ -42,6 +41,9 @@ Thanks to all the people in https://github.com/iam-py-test/my_filters_001/blob/m
 - Everything in the _Sandbox_ folder
 - The useless filter list (useless-list.txt)
 - test_filter.txt
+
+#### Lists which I gave up on
+- Pornography Blocklist (porn.txt) ([Subscribe to this dead list](https://iam-py-test.github.io/add_list.html?id=1))
 
 #### Dead lists which are not even complete
 - trojan_protection_list.txt
