@@ -1,7 +1,8 @@
 """Verify the syntax of my antimalware list and verify there are no legit domains in it"""
+# note: this does include allowlisting trackers, as this is just for my antimalware list. This will NOT prevent other lists from blocking these domains
 
-# domains which are good & should never be blocked in this list
-gooddomains = ["google.com","www.google.com","duckduckgo.com","www.duckduckgo.com","virustotal.com","safeweb.norton.com","mywot.com","www-amazon-com.customer.fastly.net","adguardteam.github.io","iam-py-test.github.io","example.com","r3.o.lencr.org","mozilla.org","www.mozilla.org","www.mozorg.moz.works","github.community","somepythonthings.tk","letsencrypt.org","easylist.to","ublockorigin.com","microsoft.com","amazon.com","mcafee.com","norton.com"]
+# domains which are good & should never be blocked in this list (includes trackers)
+gooddomains = ["google.com","www.google.com","duckduckgo.com","www.duckduckgo.com","virustotal.com","safeweb.norton.com","mywot.com","www-amazon-com.customer.fastly.net","adguardteam.github.io","iam-py-test.github.io","example.com","r3.o.lencr.org","mozilla.org","www.mozilla.org","www.mozorg.moz.works","github.community","somepythonthings.tk","letsencrypt.org","easylist.to","ublockorigin.com","microsoft.com","amazon.com","mcafee.com","norton.com","msedge.api.cdp.microsoft.com","config.edge.skype.com","msedge.f.tlu.dl.delivery.mp.microsoft.com","msedge.f.dl.delivery.mp.microsoft.com","msedge.b.tlu.dl.delivery.mp.microsoft.com","msedge.b.dl.delivery.mp.microsoft.com","msedge.sf.tlu.dl.delivery.mp.microsoft.com","msedge.sf.dl.delivery.mp.microsoft.com","msedge.sb.tlu.dl.delivery.mp.microsoft.com","msedge.sb.dl.delivery.mp.microsoft.com","msedgeextensions.f.tlu.dl.delivery.mp.microsoft.com","msedgeextensions.f.dl.delivery.mp.microsoft.com","msedgeextensions.b.tlu.dl.delivery.mp.microsoft.com","msedgeextensions.b.dl.delivery.mp.microsoft.com","msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com","msedgeextensions.sf.dl.delivery.mp.microsoft.com","msedgeextensions.sb.tlu.dl.delivery.mp.microsoft.com","msedgeextensions.sb.dl.delivery.mp.microsoft.com","do.dsp.mp.microsoft.com","edge-enterprise.activity.windows.com","edge.activity.windows.com","api.aadrm.com","api.aadrm.de","api.aadrm.cn","notify.windows.com","wns.windows.com","notify.live.net","login.microsoftonline.com","login.live.com","edge.microsoft.com","goto.target.com","goto-target-com.customtraffic.impactradius.com","admin.microsoft.com"]
 # domains which are used for hosting or contain User Generated Content, and should only have subdomains/specific urls listed
 hosting = ["duckdns.org","appspot.com","blogspot.com","raw.githubusercontent.com","github.com","gitlab.com","github.io","storage.cloud.google.com","mediafire.com","archive.org","fastly.net","addons.mozilla.org","sites.google.com","ips-cic-filestore.s3.amazonaws.com","s3.amazonaws.com","amazonaws.com","pp.ua"]
 # social media and email
@@ -9,7 +10,7 @@ social = ["reddit.com","twitter.com","slack.com","meet.google.com","mail.google.
 # url shorteners which should only have specific urls blocked
 urlshorteners = ["bit.ly","x.co","tinyurl.com","t.co","t.ly","urldefense.proofpoint.com"]
 # invalid syntax
-invalidsyntax = ["$$","$docment","$alll","^all","$docs","$scripted","|||","$alls","$documentall","$allall","$all$all","$all.","$docments","$doc$doc","|*$"]
+invalidsyntax = ["$$","$docment","$alll","^all","$docs","$scripted","|||","$alls","$documentall","$allall","$all$all","$all.","$docments","$doc$doc","|*$","$documentP"]
 
 # the main text
 maintext = open("antimalware.txt").read()
