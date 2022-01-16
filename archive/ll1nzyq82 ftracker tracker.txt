@@ -1,0 +1,43 @@
+# Chinese Alibaba (issue #1)
+||amdc.
+||amdc-v4.
+||amdc-v6.
+$removeparam=surge_ssr
+
+# Chinese Tencent (issue #2)
+||stat.tpns.tencent.com^
+||stat.tpns.*.tencent.com^
+||log.tpns.tencent.com^
+||log.tpns.*.tencent.com^
+||guid.tpns.tencent.com^
+||guid.tpns.*.tencent.com^
+/log/statistics/push
+/v3/mobile/log/upload
+/wx6/php/check.php
+/qx6/php/check.php
+||log.weixin.qq.com^
+||forwardcomm.weixin.qq.com^
+||forwardcommtmp.weixin.qq.com^
+/mmpayfereport^
+/mmsupport-bin/reportforweb
+||badjs.weixinbridge.com^
+/badjs?id=
+
+# Singaporean Shopee (issue #3)
+/shpsec^$domain=shopee.*
+/dataapi/dataweb/event$domain=shopee.*
+
+# Chinese Tianyancha (issue #4)
+/reportV2^$domain=tianyancha.com
+/isShow$domain=tianyancha.com
+||tianyancha.com/data_collect^
+||tianyancha.com/clickDataCollect^
+/appLogSave^$domain=tianyancha.com
+
+# Chinese Huawei (issue #5)
+||petalsearch.com^$removeparam=from
+||petalsearch.com^$removeparam=source
+||petalsearch.com^$removeparam=sid
+||petalsearch.com^$removeparam=uuid
+# ||petalsearch.com/usercenter/api/user/v1/guide/query
+/guide/query$domain=petalsearch.com
