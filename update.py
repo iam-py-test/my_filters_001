@@ -1,4 +1,4 @@
-"""Auto-create the domains versions of porn.txt and antimalware.txt"""
+"""Auto-create other versions of my lists"""
 alldomains = {}
 allips = {}
 reddomains = []
@@ -191,6 +191,7 @@ def mkpurehosts(file,altname):
   altfile = open(altname,"w")
   for domain in alldomains[file]:
       altfile.write("0.0.0.0 {}\n".format(domain))
+  altfile.close()
 try:
   mkpurehosts("porn.txt","Alternative list formats/porn_pure_hosts.txt")
   mkpurehosts("antimalware.txt","Alternative list formats/antimalware_pure_hosts.txt")
@@ -236,6 +237,16 @@ try:
   mkadguard("antimalware.txt","Alternative list formats/antimalware_adguard_app.txt")
 except:
   print("AdGuard error")
+
+def mkdnsmasq(file,altname):
+  altfile = open(altname,"w",encoding="UTF-8")
+  for domain in alldomains[file]:
+    altfile.write("address=/{}/".format(domain))
+  altfile.close()
+try:
+  mkdnsmasq("antimalware.txt","Alternative list formats/antimalware_dnsmasq.txt")
+except Exception as err:
+  print(err)
 
 redd = open("reddomains.txt","w")
 for domain in reddomains:
