@@ -93,6 +93,7 @@ def mkhosts(file,altname):
         altfile.write("0.0.0.0 {}".format(domain))
         donedomains.append(domain)
     altfile.write("\n")
+  altfile.close()
 
 mkhosts("antimalware.txt","Alternative list formats/antimalware_hosts.txt")
 mkhosts("antitypo.txt","Alternative list formats/antitypo_hosts.txt")
@@ -241,7 +242,7 @@ except:
 def mkdnsmasq(file,altname):
   altfile = open(altname,"w",encoding="UTF-8")
   for domain in alldomains[file]:
-    altfile.write("address=/{}/".format(domain))
+    altfile.write("address=/{}/\n".format(domain))
   altfile.close()
 try:
   mkdnsmasq("antimalware.txt","Alternative list formats/antimalware_dnsmasq.txt")
