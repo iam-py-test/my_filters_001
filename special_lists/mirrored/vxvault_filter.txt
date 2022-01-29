@@ -4,7 +4,12 @@
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Fri, 28 Jan 2022 02:42:10 +0000
+! Sat, 29 Jan 2022 02:36:46 +0000
+||lencu.top/dl/build2.exe^$all
+||transfer.sh/get/9noEWB/Reforilla.dll^$all
+||cdn.discordapp.com/attachments/930918769654636546/936497281455247370/3132.exe^$all
+||transfer.sh/get/Q2jh6A/nnttuuss.txt^$all
+||transfer.sh/get/KkxDr1/bbbbbbbbbbb.txt^$all
 ||transfer.sh/get/Ccmywa/Qlkcmxquc.log^$all
 ||stundentonemillion.sytes.net/omcigfgj/Zbiiz.jpg^$all
 ||jcvmarketingassociates.com/ploujtnm/mguywfrvgqg.exe^$all
@@ -100,9 +105,4 @@
 ||sherence.ru/Obfuscation_Build.exe^$all
 ||sherence.ru/Proguct_Edge.exe^$all
 ||209.127.78.26/Sunbathers.exe^$all
-||176.31.32.199/Stub.exe^$all
-||github.com/daanujs/daanujs/blob/main/Rasomware2.0.exe?raw=true^$all
-||54.90.181.45/revshell/office.exe^$all
-||elodomum.pt/js/101.exe^$all
-||znpst.top/dl/build2.exe^$all
 ||176.31.32.199/Stub.exe^$all
