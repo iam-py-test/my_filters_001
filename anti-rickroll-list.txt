@@ -1,6 +1,6 @@
 ! Title: Antirickroll list - a list to block rickrolls
 ! Description: Rickrolls are an annoying prank which is spreading on the internet. This list is designed to block known rickroll sites and rickroll images. It will be decommissioned once this dumb prank stops being popular.
-! Last updated: 15/12/2021
+! Last updated: 31/1/2022
 ! Expires: 1 day
 ! License: No copyright (CC0)
 ! Homepage: https://github.com/iam-py-test/my_filters_001
@@ -198,6 +198,8 @@ youtube.com##:has-text(rickroll)
 ||youtube*.com/*-51AfyMqnpI$all
 ! https://www.youtube.com/watch?v=o-YBDTqX_ZU
 ||youtube*.com/*o-YBDTqX_ZU$all
+! another failed attempt to Rickroll me on Google Meet (hxxpx[:]//www[.]youtube[.]com/watch?v=34Ig3X59_qA)
+||youtube.com/watch?v=34Ig3X59_qA^$all
 
 
 !More non-youtube rickroll videos
