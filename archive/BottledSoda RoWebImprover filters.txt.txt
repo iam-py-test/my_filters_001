@@ -1,0 +1,192 @@
+[Adblock Plus 2.0]
+! Version: idk
+! Title: RoWebImprover filter list
+! Homepage: https://github.com/BottledSoda/RoWebImprover
+! Expires: 3 days
+! License: https://github.com/BottledSoda/RoWebImprover/blob/main/LICENSE
+!
+! GitHub Issues: https://github.com/BottledSoda/RoWebImprover/issues
+! GitHub Pull Requests: https://github.com/BottledSoda/RoWebImprover/pulls
+
+! romaniatv.net
+romaniatv.net##.height-sm-250
+romaniatv.net##.SC_TBlock
+
+! reno.ro & daciaclub.ro
+reno.ro,daciaclub.ro##.adsense
+reno.ro,daciaclub.ro##.profitshare
+
+! https://github.com/BottledSoda/RoWebImprover/issues/1
+cancan.ro##.height-sm-360.height-xs-200.mg-bottom-20
+cancan.ro##.strawberry-ads-manager-container
+cancan.ro##.height-250
+cancan.ro##p:nth-of-type(10)
+cancan.ro##p:nth-of-type(12)
+cancan.ro##p:nth-of-type(13)
+cancan.ro##p:nth-of-type(14)
+
+! https://github.com/BottledSoda/RoWebImprover/issues/2
+||cdn.g4media.ro/wp-content/uploads/2022/01/spit-sf-sava.jpg$image
+
+! stiripesurse.ro
+stiripesurse.ro##.banner
+||media.stiripesurse.ro/assets/img/ads_img/
+.gif$~third-party,domain=stiripesurse.ro
+
+! dcnews.ro
+||media.dcnews.ro/nxt/ccir_2021.jpg$image
+dcnews.ro##.demand-supply
+
+! jurnalul.ro
+jurnalul.ro##div.section:nth-of-type(8)
+jurnalul.ro##.DAGInScrollInner
+jurnalul.ro##p:nth-of-type(6)
+
+! protv.ro / incont.stirileprotv.ro / yoda.ro / protv.md
+yoda.ro##.branding
+www.protv.ro##.brandingDfp
+incont.stirileprotv.ro##.advertising
+incont.stirileprotv.ro,yoda.ro##.top-branding
+protv.md##.gAdWrap.g-footer-fixed.text-center
+
+! stirilekanald.ro
+stirilekanald.ro##section.pad.section:nth-of-type(10)
+stirilekanald.ro##.page-wrap > div
+
+! https://github.com/BottledSoda/RoWebImprover/issues/3
+lauralaurentiu.ro##.code-block
+
+! https://github.com/BottledSoda/RoWebImprover/issues/4
+retete.unica.ro##.strawberry_ads_container
+retete.unica.ro##.sam_branding
+
+! https://github.com/BottledSoda/RoWebImprover/issues/5
+retetepractice.ro##.textwidget
+
+! https://github.com/BottledSoda/RoWebImprover/issues/6
+cutiutacuretete.ro##.mb30.mt30 > div
+cutiutacuretete.ro##div[style="margin:10px 0 10px 0; text-align:center; height:400px"]
+
+! https://github.com/BottledSoda/RoWebImprover/issues/7
+curs-valutar-bnr.ro##+js(no-xhr-if, adsbygoogle)
+
+! ziare.com
+ziare.com##.branding-container
+
+! petitchef.ro
+petitchef.ro##.akcelo-wrapper
+
+||2performant.com^$third-party
+||profitshare.ro^$third-party
+||2parale.ro^$third-party
+||ro.adocean.pl^$third-party
+||7w.ro^$third-party
+
+! capital.ro
+capital.ro###ado300p1
+capital.ro###ado970p2
+capital.ro###adobranding
+
+! spynews.ro
+spynews.ro##.ads
+
+! substantial.ro
+substantial.ro###subst-773409088
+substantial.ro###subst-928706318
+substantial.ro###subst-1472533291
+
+! playtech.ro
+playtech.ro##.sam_branding
+playtech.ro##.height-md-250.mg-bottom-20.text-center
+playtech.ro##div.mg-bottom-20.height-300
+playtech.ro##div.height-300
+
+! shitu.ro
+shtiu.ro##.strawberry-ads-manager-container
+
+! antena3.ro
+antena3.ro##.DAGInScrollWrapper
+antena3.ro##.bannerGrey
+
+! vbiz.ro
+vbiz.ro##.height-250
+
+! fanatik.ro
+fanatik.ro##.strawberry-ads-manager-container
+
+! impact.ro
+impact.ro##.height-sm-250
+impact.ro##.height-250.text-center
+
+! bugetul.ro
+bugetul.ro##.banner-970x250
+bugetul.ro##.reclama-sidebar-dreapta
+
+! exquis.ro
+exquis.ro##.banner
+
+! e-retete.ro
+e-retete.ro###b160p600-container
+
+! lalena.ro
+||lalena.ro/assets/js/all.1638382957.js
+lalena.ro##+js(aopr, InstagramPromoInit)
+
+! teoskitchen.ro
+||teoskitchen.ro/wp-content/uploads/*/Banner_TeosKitchen_New3.jpg$image
+teoskitchen.ro###text-21
+
+! https://forums.lanik.us/viewtopic.php?t=47184
+||static.sunmedia.tv/AdBlockDetection/*$third-party
+
+! b1tv.ro
+b1tv.ro##.branding__center
+b1tv.ro##.md\:height-250.bg--dark
+b1tv.ro##.strawberry_ads_container
+
+! moduri.ro
+moduri.ro###text-3
+moduri.ro###text-4
+
+! sa-mp.ro
+||ro-ph.com/img/banners/roph.jpg$image
+||sa-mp.ro/uploads/*/banner-pixeld.png*$image
+sa-mp.ro##.ipsWidget_title.ipsType_reset:has-text(Sponsor)
+
+! rangfort.ro
+||rangfort.ro/resurse/rfhz.png$image
+##[href^="http://my.hzone.ro/aff.php"]
+
+! https://github.com/uBlockOrigin/uAssets/issues/11518
+||libertatea.net^$document
+
+! savoriurbane.com
+savoriurbane.com##.td-header-header.td-header-row.td-container-header
+savoriurbane.com##.td-container-wrap.td-header-menu-wrap-full
+
+! 9am . ro
+9am.ro###branding-holder
+9am.ro##[class="text-center minh-250"]
+9am.ro##[class^="ad-in-artilce"]
+
+! https://github.com/BottledSoda/RoWebImprover/issues/8
+||i.imgur.com/wP7xnhz.png$image
+
+! https://github.com/BottledSoda/RoWebImprover/issues/9
+dual-gaming.ro###tacw-stickyhhlzwscgb > .tacw-container
+dual-gaming.ro###tacw-sticky44nljq994 > .tacw-container
+
+! gamelife.ro
+gamelife.ro##[href="https://bit.ly/3Bwz1Tk"]
+
+! substantial.ro
+||noizz.ro^$third-party
+
+! https://github.com/BottledSoda/RoWebImprover/commit/cfa4b6c2bd7ffc69b018cfdead138fa723822013
+libnet.ro#@##adblock
+libnet.ro##div.bnd
+libnet.ro##.row-header-baner
+
+! serveresamp.ro
+||serveresamp.com/banner.jpg$image
+||jocurismechere.com/downloadcs2.jpg$image
