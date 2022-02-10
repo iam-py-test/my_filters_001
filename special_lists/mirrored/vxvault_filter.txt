@@ -4,7 +4,8 @@
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Wed, 09 Feb 2022 20:28:48 +0000
+! Thu, 10 Feb 2022 20:28:02 +0000
+||jowy-hax.net/dc.txt^$all
 ||cdn.discordapp.com/attachments/937783814208491553/938770547704229928/File.exe^$all
 ||91.243.44.99/rev-Hehtcbz.png^$all
 ||20.51.217.113/hub/Ngsvpxd.log^$all
@@ -105,4 +106,3 @@
 ||a0586975.xsph.ru/Conglomerated.exe^$all
 ||sinopars.ir/wp-includes/js/host.exe^$all
 ||sinopars.ir/wp-includes/js/125.exe^$all
-||sinopars.ir/wp-includes/js/102.exe^$all
