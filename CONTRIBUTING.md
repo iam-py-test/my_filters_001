@@ -1,4 +1,7 @@
 ## Contributing
+Please contribute. _Please_. Maintaing a filterlist is not an easy thing and I can only spend a finite amount of time on maintaining a filterlist. I welcome contributions, even if they are just to fix a typo or remove a redundant entry.
+
+#### Rules
 Please be respectful to other people even if their beliefs or opinions differ from yours. <br/>
 Before opening an issue, please be sure there is not another issue open about the exact same thing. If there is, you can add your opinion or fix to that issue's comments. <br/>
 If your issue was closed as `invalid`, please avoid immediately opening another issue without correcting the problem. Doing so will result in that issue being closed as well. Before opening an issue, please check https://github.com/iam-py-test/my_filters_001/blob/main/wiki/incompatible.md to ensure the issue is not to a conflict. <br/>
