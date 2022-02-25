@@ -4,7 +4,11 @@
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Tue, 22 Feb 2022 20:28:43 +0000
+! Fri, 25 Feb 2022 20:28:46 +0000
+||2.56.57.7/.s4y/mips^$all
+||2.56.57.7/.s4y/x86^$all
+||2.56.57.7/.s4y/arm^$all
+||onedrive.live.com/download?cid=FB79299119CA2CFA&resid=FB79299119CA2CFA%21151&authkey=ALuNhzW7Y4vjJrM^$all
 ||kotadiainc.com/Amhas.jpg^$all
 ||kotadiainc.com/Iqibyi.png^$all
 ||217.114.43.29/Hxmptxn.log^$all
@@ -102,7 +106,3 @@
 ||wowsugarbabe.top/holler/rollerkind2.exe^$all
 ||simuladordeempresa.com/wp-content/new.exe^$all
 ||209.141.41.233/Porcal4.exe^$all
-||a0591583.xsph.ru/123.exe^$all
-||a.pomf.cat/zydyqu.exe^$all
-||cdn.discordapp.com/attachments/843403537576361997/899665119347351623/iKrjYFB.exe^$all
-||js-hurling.com/updatesosnfkgjfgaffkafgdfagfjrsgbbfsjbbfgsgk/wnaeopmguywjffmigfbefrvgqg.exe^$all
