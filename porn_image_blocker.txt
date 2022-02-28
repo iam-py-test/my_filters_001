@@ -1,3 +1,0 @@
-! Title: Porn image blocker
-! Description: This blocklist blocks porn images in search results. An advanced adblocker is required
-duckduckgo.com##img[src*="eporner.com"]
