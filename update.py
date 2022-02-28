@@ -2,6 +2,7 @@
 alldomains = {}
 allips = {}
 reddomains = []
+allentries = {}
 
 def mkalt(file,alt):
   lines = open(file,encoding="UTF-8").read().split("\n")
@@ -18,12 +19,16 @@ def mkalt(file,alt):
     return False
   alldomains[file] = []
   allips[file] = []
+  allentries[file] = []
   for line in lines:
+    if line == '' or line.startswith("!") or line == '[Adblock Plus 2.0]':
+      continue
     if len(line.split("^$")[0].split(".")) > 2:
       if isipdomain(line.split("^$")[0][2:]) == True:
         iponly.write(line.split("^$")[0][2:] + "\n")
         try:
           allips[file].append(line.split("^$")[0][2:])
+          allentries[file].push(line.split("^$")[0][2:])
         except Exception as err:
           print("Error:{}".format(err))
         continue
@@ -33,11 +38,10 @@ def mkalt(file,alt):
         alt.write("{}\n".format(domain))
         donedomains.append(domain)
         alldomains[file].append(domain)
+        allentries[file].push(domain)
         continue
       except:
         pass
-    if line == '' or line.startswith("!") or line == '[Adblock Plus 2.0]':
-      continue
     if "/" in line and "|" in line:
       continue
     if line.split("$")[0] in donedomains:
@@ -246,6 +250,17 @@ def mkdnsmasq(file,altname):
   altfile.close()
 try:
   mkdnsmasq("antimalware.txt","Alternative list formats/antimalware_dnsmasq.txt")
+except Exception as err:
+  print(err)
+
+def mkJSON(file,altname):
+  import json
+  all = json.dumps(allentries[file])
+  with open(altname,"w") as f:
+    f.write(all)
+    f.close()
+ try:
+  mkJSON("antimalware.txt","Alternative list formats/antimalware_json.json")
 except Exception as err:
   print(err)
 
