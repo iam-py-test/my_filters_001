@@ -178,5 +178,6 @@ pay-pal.club
 tw1tch.info
 cioubfiare.com
 exampe.com
+||exampe.com^
 cdn.cookieslaw.org
 cookieslaw.org
