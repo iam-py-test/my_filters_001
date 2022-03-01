@@ -1,8 +1,8 @@
 # My filters
-This is a repo where I upload my filters. <br/>
-Feel free to use any and all of them (they are under no copyright) in [uBlock Origin](https://github.com/gorhill/uBlock) (recommended) or AdGuard. <br/>
+This is a repo where I upload various filters I have made. <br/>
+Feel free to use any and all of them (they are under no copyright) in [uBlock Origin](https://github.com/gorhill/uBlock) (recommended), AdGuard, or in any other way (i.e. PiHole) <br/>
 Please report any issues you have and I will try to fix them; please note I may not reply within the day the issue is posted as I am often busy.<br>
-Thanks to all the people in https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md <br>
+Thank you to all the people in https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for helping improve these filters<br>
 
 ### Some stats: 
 <a href="https://github.com/iam-py-test/my_filters_001/blob/main/stats.md"><img src="https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/totalentries.svg" width='130' height="20"></a><img src="https://img.shields.io/github/last-commit/iam-py-test/my_filters_001"> [![Update the alt lists](https://github.com/iam-py-test/my_filters_001/actions/workflows/test_commiter.yml/badge.svg)](https://github.com/iam-py-test/my_filters_001/actions/workflows/test_commiter.yml)
