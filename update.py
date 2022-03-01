@@ -259,7 +259,8 @@ def mkJSON(file,altname):
   with open(altname,"w") as f:
     f.write(all)
     f.close()
- try:
+
+try:
   mkJSON("antimalware.txt","Alternative list formats/antimalware_json.json")
 except Exception as err:
   print(err)
