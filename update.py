@@ -21,8 +21,6 @@ def mkalt(file,alt):
   allips[file] = []
   allentries[file] = []
   for line in lines:
-    if line == '' or line.startswith("!") or line == '[Adblock Plus 2.0]':
-      continue
     if len(line.split("^$")[0].split(".")) > 2:
       if isipdomain(line.split("^$")[0][2:]) == True:
         iponly.write(line.split("^$")[0][2:] + "\n")
@@ -30,7 +28,7 @@ def mkalt(file,alt):
           allips[file].append(line.split("^$")[0][2:])
           allentries[file].push(line.split("^$")[0][2:])
         except Exception as err:
-          print("Error:{}".format(err))
+          print("Error: {}".format(err))
         continue
     if line.startswith("||") and "/" not in line and "^" in line:
       try:
@@ -42,7 +40,9 @@ def mkalt(file,alt):
         continue
       except:
         pass
-    if "/" in line and "|" in line:
+    if line == '' or line.startswith("!") or line == '[Adblock Plus 2.0]':
+      continue
+    elif "/" in line and "|" in line:
       continue
     if line.split("$")[0] in donedomains:
       reddomains.append(line.split("$")[0])
@@ -246,6 +246,8 @@ except:
 def mkdnsmasq(file,altname):
   altfile = open(altname,"w",encoding="UTF-8")
   for domain in alldomains[file]:
+    if domain == "" or "|" in domain:
+      continue
     altfile.write("address=/{}/\n".format(domain))
   altfile.close()
 try:
