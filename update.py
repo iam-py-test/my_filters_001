@@ -1,3 +1,4 @@
+import json
 """Auto-create other versions of my lists"""
 alldomains = {}
 allips = {}
@@ -26,7 +27,7 @@ def mkalt(file,alt):
         iponly.write(line.split("^$")[0][2:] + "\n")
         try:
           allips[file].append(line.split("^$")[0][2:])
-          allentries[file].push(line.split("^$")[0][2:])
+          allentries[file].append(line.split("^$")[0][2:])
         except Exception as err:
           print("Error: {}".format(err))
         continue
@@ -36,7 +37,7 @@ def mkalt(file,alt):
         alt.write("{}\n".format(domain))
         donedomains.append(domain)
         alldomains[file].append(domain)
-        allentries[file].push(domain)
+        allentries[file].append(domain)
         continue
       except:
         pass
