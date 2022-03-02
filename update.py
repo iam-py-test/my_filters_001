@@ -273,6 +273,6 @@ for domain in reddomains:
 redd.close()
 
 # save debugging info
-debug_info = open("debug_info.md")
+debug_info = open("debug_info.md","w")
 debug_info.write("{}".format(json.dumps(alldomains)))
 debug_info.close()
