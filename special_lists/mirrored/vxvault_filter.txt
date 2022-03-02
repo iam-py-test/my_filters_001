@@ -4,7 +4,10 @@
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Tue, 01 Mar 2022 20:29:27 +0000
+! Wed, 02 Mar 2022 02:47:46 +0000
+||46.148.224.27/596a96cc7bf9108cd896f33c44aedc8a/db0fa4b8db0333367e9bda3ab68b8042.mips^$all
+||46.148.224.27/596a96cc7bf9108cd896f33c44aedc8a/db0fa4b8db0333367e9bda3ab68b8042.x86^$all
+||46.148.224.27/596a96cc7bf9108cd896f33c44aedc8a/db0fa4b8db0333367e9bda3ab68b8042.arm^$all
 ||2.56.57.7/.s4y/mips^$all
 ||2.56.57.7/.s4y/x86^$all
 ||2.56.57.7/.s4y/arm^$all
@@ -103,6 +106,3 @@
 ||185.222.57.190/008/vbc.exe^$all
 ||wowsugarbabe.top/holler/rollerkind.exe^$all
 ||tynkou06.top/downfiles/file.exe^$all
-||wowsugarbabe.top/holler/rollerkind2.exe^$all
-||simuladordeempresa.com/wp-content/new.exe^$all
-||209.141.41.233/Porcal4.exe^$all
