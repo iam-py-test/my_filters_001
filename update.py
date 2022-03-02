@@ -271,3 +271,8 @@ redd = open("reddomains.txt","w")
 for domain in reddomains:
   redd.write("{}\n".format(domain))
 redd.close()
+
+# save debugging info
+debug_info = open("debug_info.md")
+debug_info.write("{}".format(json.dumps(alldomains)))
+debug_info.close()
