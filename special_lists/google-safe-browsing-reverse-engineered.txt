@@ -107,3 +107,8 @@
 ||flg34w.cn^$all
 ! as of 28/11/2021
 ||drysugardiffer.top^$all
+! as of 5/3/2022
+||jccusknyuk.duckdns.org^$all
+||grubwhatsapp40.duckdns.org^$all
+||mikeysphising3.duckdns.org^$all
+||heinthu1.github.io^$all
