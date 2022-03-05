@@ -4,7 +4,12 @@
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Thu, 03 Mar 2022 02:51:25 +0000
+! Sat, 05 Mar 2022 02:44:53 +0000
+||192.227.196.211/777/vbc.exe^$all
+||193.233.48.64/bot/cache/99778108.exe^$all
+||193.233.48.64/bot/cache/87772855.exe^$all
+||transfer.sh/get/GhCqCL/para.txt^$all
+||zkai.xyz/nbtstat.png^$all
 ||46.148.224.27/596a96cc7bf9108cd896f33c44aedc8a/db0fa4b8db0333367e9bda3ab68b8042.mips^$all
 ||46.148.224.27/596a96cc7bf9108cd896f33c44aedc8a/db0fa4b8db0333367e9bda3ab68b8042.x86^$all
 ||46.148.224.27/596a96cc7bf9108cd896f33c44aedc8a/db0fa4b8db0333367e9bda3ab68b8042.arm^$all
@@ -101,8 +106,3 @@
 ||180.214.237.39/1114/vbc.exe^$all
 ||202.55.134.54/3331/vbc.exe^$all
 ||cdn.discordapp.com/attachments/872098362076332074/893213167835054110/ChromeRecovery.exe^$all
-||cdn.discordapp.com/attachments/902593911397175306/905446024166928464/wetsetup.exe^$all
-||45.79.121.37/antiviruses/rat_client_x32_windows.exe^$all
-||185.222.57.190/008/vbc.exe^$all
-||wowsugarbabe.top/holler/rollerkind.exe^$all
-||tynkou06.top/downfiles/file.exe^$all
