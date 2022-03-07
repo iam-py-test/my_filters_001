@@ -8,7 +8,7 @@ hosting = ["duckdns.org","appspot.com","blogspot.com","raw.githubusercontent.com
 # social media and email
 social = ["reddit.com","twitter.com","slack.com","meet.google.com","mail.google.com","gmail.com","chat.google.com","discord.gift","discord.com","protonmail.com","outlook.com","facebook.com","old.reddit.com","slack.com","youtube.com","www.youtube.com","youtubekids.com","discordapp.com"]
 # url shorteners which should only have specific urls blocked
-urlshorteners = ["bit.ly","x.co","tinyurl.com","t.co","t.ly","urldefense.proofpoint.com"]
+urlshorteners = ["bit.ly","x.co","tinyurl.com","t.co","t.ly","urldefense.proofpoint.com","clickagy.com","www.clickagy.com"]
 # websites for sharing malware, phishing, and scams with the security community
 malshare = ["virustotal.com","www.virustotal.com","support.virustotal.com","api.virustotal.com","vxvault.net","abuse.ch","urlhaus.abuse.ch","threatfox.abuse.ch","bazaar.abuse.ch","phishtank.com","openphish.com","www.hybrid-analysis.com","hybrid-analysis.com","malshare.com","mb-api.abuse.ch","threatfox-api.abuse.ch","otx.alienvault.com","alienvault.com","malpedia.caad.fkie.fraunhofer.de","www.threatcrowd.org","threatcrowd.org","api.tria.ge","tria.ge"]
 # invalid syntax
