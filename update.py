@@ -80,7 +80,7 @@ def mkhosts(file,altname):
       try:
         domain = line.split("^$")[0][2:].lower()
         if isipdomain(domain) != True:
-          altfile.write("{}\n".format(domain))
+          altfile.write("0.0.0.0 {}\n".format(domain))
           donedomains.append(domain)
         continue
       except:
