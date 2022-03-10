@@ -171,17 +171,17 @@
 # https://github.com/uBlockOrigin/uAssets/issues/3309
 0.0.0.0 vinaurl.in
 # https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1741570
-trk.klclick1.com
+0.0.0.0 trk.klclick1.com
 # https://github.com/iam-py-test/my_filters_001/commit/04374fa54e504fa7b85cbe7b6c09084aea228f88#commitcomment-61334434
-idz.do
+0.0.0.0 idz.do
 # https://forums.malwarebytes.com/topic/281662-facebook-messenger-bad-link/
-6to.me
+0.0.0.0 6to.me
 # https://github.com/easylist/easylist/issues/10318
-grabify.link
-iplogger.info
-02ip.ru
+0.0.0.0 grabify.link
+0.0.0.0 iplogger.info
+0.0.0.0 02ip.ru
 # another Grabify site
-joinmy.site
+0.0.0.0 joinmy.site
 # https://www.reddit.com/r/uBlockOrigin/comments/rwzdvk/ublock_is_blocking_the_livestream_as_well_as/
-cdrvrs.com^
-ahscdn.com^
+0.0.0.0 cdrvrs.com^
+0.0.0.0 ahscdn.com^

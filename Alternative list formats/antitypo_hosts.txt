@@ -250,7 +250,7 @@
 0.0.0.0 pay-pal.club
 0.0.0.0 tw1tch.info
 0.0.0.0 cioubfiare.com
-exampe.com
+0.0.0.0 exampe.com
 # https://blog.malwarebytes.com/threat-intelligence/2021/11/credit-card-skimmer-evades-virtual-machines/
 0.0.0.0 cdn.cookieslaw.org
 0.0.0.0 cookieslaw.org
