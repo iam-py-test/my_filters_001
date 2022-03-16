@@ -4,7 +4,12 @@
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Tue, 15 Mar 2022 20:29:37 +0000
+! Wed, 16 Mar 2022 20:29:47 +0000
+||transfer.sh/get/72Knxx/krbinn.txt^$all
+||x.rune-spectrals.com/loader/uploads/GxvGhjKm_Gxvwanla.jpg^$all
+||45.137.22.122/Phankgbq_Aboeayzx.png^$all
+||cdn.discordapp.com/attachments/946081145043419189/953375686133964810/FileAlyzerPortable_2_0_5_58_English_Lcyhzdub.png^$all
+||91.243.44.142/arx777-Ofdds.exe^$all
 ||cdn.filesend.jp/private/yYEb2zlHwFoIfHuUxvdzSi3KEjTiO4y885Yv_W47gFXNrPwAeUyBerhMX-yzAx83/Killer.png^$all
 ||18.156.82.84/xiang/0/loader/uploads/ueju_Wkdziani.bmp^$all
 ||80.78.22.91/a/Taskmgr.exe^$all
@@ -101,8 +106,3 @@
 ||github.com/andreymoshkin/refeihunfsknenfnnsfskeoefi/raw/main/splwow64.exe^$all
 ||cdn.discordapp.com/attachments/910445430184247317/911558599518593034/lolya.exe^$all
 ||cdn.discordapp.com/attachments/897970496841347094/912063531841630279/1.exe^$all
-||167.99.39.23/hoetnaca/exps/St.mp4^$all
-||167.99.39.23/hoetnaca/exps/Bt.mp4^$all
-||84.252.122.205/act/audio.exe^$all
-||ftp.epinay-accueil.com/Files/Media/Installer.exe^$all
-||cdn.discordapp.com/attachments/909861975964659745/909870124763320330/SMartStorageManager.dll^$all
