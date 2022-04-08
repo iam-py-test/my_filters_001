@@ -2,11 +2,20 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter
 ! Script last updated: 5/4/2022
 ! Expires: 1 day
-! Last updated: 07/04/2022
+! Last updated: 08/04/2022
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Thu, 07 Apr 2022 20:30:51 +0000
+! Fri, 08 Apr 2022 20:30:12 +0000
+||cdn.discordapp.com/attachments/960459071046189069/961894729744797706/2345544676545654_Cmmhvhvz.jpg^$all
+||190.123.44.138/loader/uploads/crypt0304_Czqpxfva.jpg^$all
+||crypto-hunt.net/uploads/racco.exe^$all
+||cdn.discordapp.com/attachments/958954899528376323/961876155357626368/Txvhbjltu_Vuqaahhz.png^$all
+||cdn.discordapp.com/attachments/960457514254737471/961870820072886292/23454355435435434543_pdf_Wjoskimm.png^$all
+||185.193.89.21/Xyuyztmm_Kpfinzwr.png^$all
+||plus-arabia.com/SKP098765430000000000000000987654_Iedqqaen.bmp^$all
+||91.243.44.142/Nipdk_Qixhboqu.bmp^$all
+||amtechprinting.com/qwerty_Mkpriezb.jpg^$all
 ||transfer.sh/qJCKRe/Bawiz5555555555555_Pjlcdnag.bmp^$all
 ||180.214.237.206/720space/vbc.exe^$all
 ||idc-confiabilidad.com/hrt/Ruxasotq_Yrofbjqt.jpg^$all
@@ -99,12 +108,3 @@
 ||jowy-hax.net/dc.txt^$all
 ||cdn.discordapp.com/attachments/937783814208491553/938770547704229928/File.exe^$all
 ||91.243.44.99/rev-Hehtcbz.png^$all
-||20.51.217.113/hub/Ngsvpxd.log^$all
-||20.51.217.113/fc/Xxzjxsyby.exe^$all
-||20.51.217.113/ome/Xxzjxsyby.jpg^$all
-||integralbd.com/inquiry-cim.jpg^$all
-||94.250.249.239/Software/02015/FreeMatPortable_4_3_English.jpg^$all
-||scottbyscott.com/obino/obs.png^$all
-||store1.gofile.io/download/9c3dfe5f-3155-44f2-98f2-24ce360b1f7a/winit.exe^$all
-||integralbd.com/Ematlm.jpg^$all
-||cdn.discordapp.com/attachments/937808952614354964/937816116615606342/injectionHelper.exe^$all
