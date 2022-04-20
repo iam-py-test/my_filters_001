@@ -23,7 +23,7 @@ jobs:
         python lint.py
         python checksum.py
     - name: Commit & Push
-      uses: actions-x/commit@v2
+      uses: actions-x/commit@v5
       with:
           email: noreply@example.com
           name: Update bot
