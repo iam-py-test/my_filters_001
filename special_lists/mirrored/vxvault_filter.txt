@@ -2,11 +2,36 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter
 ! Script last updated: 5/4/2022
 ! Expires: 1 day
-! Last updated: 11/04/2022
+! Last updated: 20/04/2022
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Mon, 11 Apr 2022 03:18:15 +0000
+! Wed, 20 Apr 2022 12:04:16 +0000
+||cdn.discordapp.com/attachments/963500032827486220/965135993839706162/RSSGuardPortable_Agmubinj.bmp^$all
+||cdn.discordapp.com/attachments/965364320789753901/965504154925666324/Lfsuxv_Huykkwds.bmp^$all
+||cdn.discordapp.com/attachments/932607293869146142/964827333372567572/Sjrjkqd_Pdyzziyn.bmp^$all
+||bbg.az/wp-admin/css/colors/modern/norta/OtterBrowserPortable_1_0_03_Mkzwauby.jpg^$all
+||calina-crack.store/loader/uploads/services_Juuwxamf.bmp^$all
+||calina-crack.store/loader/uploads/services.exe?fileName=services.exe^$all
+||103.125.190.201/datasaver/csrss.exe^$all
+||fadhelec.com.ec/htmlwe/loader/uploads/Skystar_Co_K.S.A_Purchase_Order_Mdngvwls.jpg^$all
+||fadhelec.com.ec/htmlwe/loader/uploads/Skystar_Co_K.S.A_Purchase_Order_Sqqbbiah.jpg^$all
+||cdn.discordapp.com/attachments/963871320699973686/963873050615496745/HexChatPortable_Eiyavyob.png^$all
+||beautyarenawithrojina.com/wp-includes/blocks/loader/uploads/Xsghde_Jotputiu.jpg^$all
+||20.40.97.94/t7b/loader/uploads/ETL020611_Uouwcrzs.png^$all
+||3.123.129.109/TohttpPacketGameGenerator/ec6f9069daa80029e880d76fc3bf6a0698a7d554.bin^$all
+||cdn.discordapp.com/attachments/960690722787459072/963662861454962698/Lbaizwd_Diwrdzkv.png^$all
+||107.189.6.214/2yEsio7K/hytrfwedqw.exe^$all
+||graphictrunk.com/smoke/loader/uploads/Lhevqda_Azlnvmpn.jpg^$all
+||idea-time.com/wp-content/plugins/notification/loader/uploads/Scan_00210_Nyhxnvpc.png^$all
+||xf-1304509675.file.myqcloud.com/fwxd/1b.jpg^$all
+||transfer.sh/GTs72h/Qdoxmqj_Fnmlwjdh.png^$all
+||cdn.discordapp.com/attachments/960604845595848806/961889623217414184/XyePortable_Kyxwgdrk.bmp^$all
+||admcendojramajudicial.com/loader/uploads/Nzwcdikiv_Scjuzdjd.bmp^$all
+||beachwood.ug/ghjkl.exe^$all
+||malayska.ug/ghjk.exe^$all
+||cdn.discordapp.com/attachments/859834850096971800/960638686070968401/ZKoImGhFFX.txt^$all
+||20.40.97.94/s5g/zv/loader/uploads/605107332_Tahpcuoc.png^$all
 ||cdn.discordapp.com/attachments/960459071046189069/961894729744797706/2345544676545654_Cmmhvhvz.jpg^$all
 ||190.123.44.138/loader/uploads/crypt0304_Czqpxfva.jpg^$all
 ||crypto-hunt.net/uploads/racco.exe^$all
@@ -83,28 +108,3 @@
 ||cdn.discordapp.com/attachments/946081145043419189/953375686133964810/FileAlyzerPortable_2_0_5_58_English_Lcyhzdub.png^$all
 ||91.243.44.142/arx777-Ofdds.exe^$all
 ||cdn.filesend.jp/private/yYEb2zlHwFoIfHuUxvdzSi3KEjTiO4y885Yv_W47gFXNrPwAeUyBerhMX-yzAx83/Killer.png^$all
-||18.156.82.84/xiang/0/loader/uploads/ueju_Wkdziani.bmp^$all
-||80.78.22.91/a/Taskmgr.exe^$all
-||taskmgrdev.com/m/Bttxs.png^$all
-||raphaellasia.com/Iehynx.jpg^$all
-||52.78.165.165/loader/uploads/6520200137.jpg^$all
-||ads-ggle.net/b/RuntimeBroker.exe^$all
-||cdn.discordapp.com/attachments/943494688323813420/950526707562082394/Ypgrn.png^$all
-||192.227.196.211/777/vbc.exe^$all
-||193.233.48.64/bot/cache/99778108.exe^$all
-||193.233.48.64/bot/cache/87772855.exe^$all
-||transfer.sh/get/GhCqCL/para.txt^$all
-||zkai.xyz/nbtstat.png^$all
-||46.148.224.27/596a96cc7bf9108cd896f33c44aedc8a/db0fa4b8db0333367e9bda3ab68b8042.mips^$all
-||46.148.224.27/596a96cc7bf9108cd896f33c44aedc8a/db0fa4b8db0333367e9bda3ab68b8042.x86^$all
-||46.148.224.27/596a96cc7bf9108cd896f33c44aedc8a/db0fa4b8db0333367e9bda3ab68b8042.arm^$all
-||2.56.57.7/.s4y/mips^$all
-||2.56.57.7/.s4y/x86^$all
-||2.56.57.7/.s4y/arm^$all
-||onedrive.live.com/download?cid=FB79299119CA2CFA&resid=FB79299119CA2CFA%21151&authkey=ALuNhzW7Y4vjJrM^$all
-||kotadiainc.com/Amhas.jpg^$all
-||kotadiainc.com/Iqibyi.png^$all
-||217.114.43.29/Hxmptxn.log^$all
-||jowy-hax.net/dc.txt^$all
-||cdn.discordapp.com/attachments/937783814208491553/938770547704229928/File.exe^$all
-||91.243.44.99/rev-Hehtcbz.png^$all
