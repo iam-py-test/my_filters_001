@@ -2,11 +2,26 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter
 ! Script last updated: 5/4/2022
 ! Expires: 1 day
-! Last updated: 25/04/2022
+! Last updated: 28/04/2022
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Mon, 25 Apr 2022 03:23:38 +0000
+! Thu, 28 Apr 2022 04:14:55 +0000
+||bluecovertrading.com/s/uchiorigin.txt^$all
+||tiny.one/mrcckewp^$all
+||cdn.discordapp.com/attachments/968190106592768062/968191911775047711/JuicePortable_2_24_Nwpjjyyc.bmp^$all
+||47.93.60.63/exploror.exe^$all
+||ceabis.cf/gn/bin.exe^$all
+||cdn.discordapp.com/attachments/967997797402042408/968049631516827648/Fxcduurj_Nlhgzqwp.bmp^$all
+||eugenemask.com/wp-admin/images/j2_Hscwqykd.bmp^$all
+||eugenemask.com/wp-admin/images/Jel1_Zsclqrrd.png^$all
+||103.167.92.57/airdrop/vbc.exe^$all
+||185.193.89.21/Dltxzmufo_Zsiegeue.jpg^$all
+||cdn.discordapp.com/attachments/963695035822510122/967463199777619988/FreeFileSyncPortable_6_3_Dkdtzgvg.bmp^$all
+||cdn.discordapp.com/attachments/968047127248912394/968052685746081802/Xjstd_Rjprkhss.jpg^$all
+||cdn.discordapp.com/attachments/966585187980939298/968053382831034378/Oaffvjt_Pepmdddm.jpg^$all
+||190.123.44.138/loader/uploads/pmlatest_Ukcxrltm.png^$all
+||cdn.discordapp.com/attachments/928327148589183038/967143443065360434/Lineee_Vuuuuxea.jpg^$all
 ||elegantlivings.com/lover.php^$all
 ||cdn.discordapp.com/attachments/963500032827486220/965135993839706162/RSSGuardPortable_Agmubinj.bmp^$all
 ||cdn.discordapp.com/attachments/965364320789753901/965504154925666324/Lfsuxv_Huykkwds.bmp^$all
@@ -93,18 +108,3 @@
 ||18.193.102.232/12A/loader/uploads/0567471093200_Zmnerlfz.jpg^$all
 ||cdn.discordapp.com/attachments/957427178998464566/957946753070559282/bjseGNfyHAAmUFC.dll^$all
 ||olypath.com/xABYF.exe^$all
-||cdn.discordapp.com/attachments/943530644833718332/958664321775333376/Lafpsni_Dgzirswc.png^$all
-||www90.zippyshare.com/d/oQdhnbi0/12357/synapse-cracked_Pzljkocu.png^$all
-||rbmimport.com/emmk/Sexnamz_Qesgbdlk.png^$all
-||136.144.41.109/file/Vuhgk_Gqmjqhsn.jpg^$all
-||dl.uploadgram.me/624193d1712afg?raw^$all
-||raw.githubusercontent.com/lalakara31/sdjnn/main/build.exe^$all
-||sectigotls.xyz/1l69d/Ozgyygt_Lvqlsbgx.bmp^$all
-||91.243.44.142/aaa1-Fokyrre_Dvavilvj.png^$all
-||103.156.91.63/air_m_disk/vbc.exe^$all
-||biesenbeek.nl/familie/b6KKlrfH75GD3dHojB/^$all
-||transfer.sh/get/72Knxx/krbinn.txt^$all
-||x.rune-spectrals.com/loader/uploads/GxvGhjKm_Gxvwanla.jpg^$all
-||45.137.22.122/Phankgbq_Aboeayzx.png^$all
-||cdn.discordapp.com/attachments/946081145043419189/953375686133964810/FileAlyzerPortable_2_0_5_58_English_Lcyhzdub.png^$all
-||91.243.44.142/arx777-Ofdds.exe^$all
