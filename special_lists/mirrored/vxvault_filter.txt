@@ -2,11 +2,17 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter
 ! Script last updated: 5/4/2022
 ! Expires: 1 day
-! Last updated: 28/04/2022
+! Last updated: 30/04/2022
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Thu, 28 Apr 2022 04:14:55 +0000
+! Sat, 30 Apr 2022 03:25:31 +0000
+||merit-link.cl/tye/Lmvom_Crkbfcxy.png^$all
+||18.183.167.3/offline/loader/uploads/BTL007860063_Doytynyr.png^$all
+||18.183.167.3/offline/loader/uploads/RE-165010773_Njurhnvb.png^$all
+||cdn.discordapp.com/attachments/786342819895050261/968962467281653860/Broila_Uvpkytqq.bmp^$all
+||cdn.discordapp.com/attachments/939050182455205941/965915432773103626/Cujbg_Ibikunhm.jpg^$all
+||hopeforhealth.com.ph/wp-admin/js/widgets/Noeia_Baevihyx.bmp^$all
 ||bluecovertrading.com/s/uchiorigin.txt^$all
 ||tiny.one/mrcckewp^$all
 ||cdn.discordapp.com/attachments/968190106592768062/968191911775047711/JuicePortable_2_24_Nwpjjyyc.bmp^$all
@@ -102,9 +108,3 @@
 ||transfer.sh/6Pwcuz/Smviybgq666666666666_Eryemmmu.jpg^$all
 ||45.137.22.163/Htrcekszm_Kcdcxrzw.jpg^$all
 ||olypath.com/QzHYo.exe^$all
-||cdn.discordapp.com/attachments/958186143927648316/958678815259901972/BreadPlayer.Common.dll^$all
-||bbg.az/wp-admin/css/colors/modern/sexon/BitcoinPortable_0_22_1_English_Nguxovkv.png^$all
-||cdn.discordapp.com/attachments/954418006711214092/958754165415362570/DiffpdfPortable_2_1_4_Qjsjljha.bmp^$all
-||18.193.102.232/12A/loader/uploads/0567471093200_Zmnerlfz.jpg^$all
-||cdn.discordapp.com/attachments/957427178998464566/957946753070559282/bjseGNfyHAAmUFC.dll^$all
-||olypath.com/xABYF.exe^$all
