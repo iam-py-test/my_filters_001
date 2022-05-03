@@ -2,11 +2,18 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter
 ! Script last updated: 5/4/2022
 ! Expires: 1 day
-! Last updated: 01/05/2022
+! Last updated: 03/05/2022
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Sun, 01 May 2022 03:46:48 +0000
+! Tue, 03 May 2022 20:31:32 +0000
+||www.agies.org/wp-content/uploads/2018/11/cp/ccPortable_Lvniruuy.bmp^$all
+||transfer.sh/get/xgTTm4/Strjavxz_Xpbptvbt.png^$all
+||cdn.discordapp.com/attachments/965707834748698657/965719185370005504/PuzzleCollectionPortable_Klmdmpkd.png^$all
+||185.193.89.11/ChromeFileManagerInstallerToUpdate_Iljgkupd.bmp^$all
+||terrazzaitaliana.mx/hrt/Dowcb_Wlkyroth.png^$all
+||91.243.44.124/Dpwrc_Wwgzgbjo.png^$all
+||cdn-124.anonfiles.com/pbCfK4b5y8/70e05c27-1651408088/AsyncClient.exe^$all
 ||merit-link.cl/tye/Lmvom_Crkbfcxy.png^$all
 ||18.183.167.3/offline/loader/uploads/BTL007860063_Doytynyr.png^$all
 ||18.183.167.3/offline/loader/uploads/RE-165010773_Njurhnvb.png^$all
@@ -101,10 +108,3 @@
 ||cdn.discordapp.com/attachments/959128574730858560/960288037206638612/CookTime_Qkhdvneb.png^$all
 ||tiny.one/2p982tsy^$all
 ||euronovelty.com.mx/hrt/Ddouflqj_Yipxvwmy.bmp^$all
-||www.ocpi.com.my/smoke/loader/uploads/BID_Ddoeurho.png^$all
-||amtechprinting.com/470921_Fswzvhlf.jpg^$all
-||teamazmog.xyz/assets/loader/uploads/beta815_Icakwhew.jpg^$all
-||transfer.sh/get/23WMBj/BASE64.txt^$all
-||transfer.sh/6Pwcuz/Smviybgq666666666666_Eryemmmu.jpg^$all
-||45.137.22.163/Htrcekszm_Kcdcxrzw.jpg^$all
-||olypath.com/QzHYo.exe^$all
