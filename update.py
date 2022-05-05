@@ -277,7 +277,7 @@ def mkps_firewall_block(file,outfile):
   for ip in ips:
     # safety check to make sure this doesn't turn into a prefect RCE
     if "\"" not in ip and ";" not in ip and "-" not in ip and "\\" not in ip and ":/" not in ip:
-      outf.write("New-NetFirewallRule -DisplayName \"iam-py-test - Block outbound connections to this ip\" -Direction outbound -LocalPort Any -Protocol tcp -Action Block -RemoteAddress {}\nNew-NetFirewallRule -DisplayName \"iam-py-test - Block inbound connections from this ip\" -Direction Inbound -LocalPort Any -Protocol tcp -Action Block -RemoteAddress {}\n")
+      outf.write("New-NetFirewallRule -DisplayName \"iam-py-test - Block outbound connections to this ip\" -Direction outbound -LocalPort Any -Protocol tcp -Action Block -RemoteAddress {}\nNew-NetFirewallRule -DisplayName \"iam-py-test - Block inbound connections from this ip\" -Direction Inbound -LocalPort Any -Protocol tcp -Action Block -RemoteAddress {}\n".format(ip,ip))
     outf.write("\n\necho All rules should have been added to the Windows Firewall\npause\n")
     outf.close()
 try:
