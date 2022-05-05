@@ -2,11 +2,19 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter
 ! Script last updated: 5/4/2022
 ! Expires: 1 day
-! Last updated: 03/05/2022
+! Last updated: 05/05/2022
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Tue, 03 May 2022 20:31:32 +0000
+! Thu, 05 May 2022 20:31:40 +0000
+||185.222.57.252/bankreport05052022_Rercxjxm.bmp^$all
+||toppnet.tk/b/Aqvkvm_Zjttufuj.png^$all
+||maquimport.cf/u/Rqncllue_Qmvzrnra.bmp^$all
+||trieutin.com/loader/uploads/rocket_Cldzsvma.bmp^$all
+||cdn.discordapp.com/attachments/898037501279735840/971593354892693565/Qmvgrkbs_Vukkizss.jpg^$all
+||185.222.57.252/bankreportt_Vqhsyahp.bmp^$all
+||cdn.discordapp.com/attachments/963075008928817175/963098157187747930/Wqwgh_Jemieogu.bmp^$all
+||156.234.211.155/ma/meihao.x86^$all
 ||www.agies.org/wp-content/uploads/2018/11/cp/ccPortable_Lvniruuy.bmp^$all
 ||transfer.sh/get/xgTTm4/Strjavxz_Xpbptvbt.png^$all
 ||cdn.discordapp.com/attachments/965707834748698657/965719185370005504/PuzzleCollectionPortable_Klmdmpkd.png^$all
@@ -100,11 +108,3 @@
 ||43.204.24.26/plex/wd/loader/uploads/BLR0162206_Dvstwbeh.png^$all
 ||91.243.44.85/Proov_Np_Vvpslmrtp_Jwdmtbxs.jpg^$all
 ||81.4.105.174/Vrzvn_Zztleffh.bmp^$all
-||zhengxinpeixun.oss-cn-qingdao.aliyuncs.com/0011b9cd240249c3aeb520ea1205eaf1.jpg^$all
-||transfer.sh/get/o2hfHL/BASE64.txt^$all
-||transfer.sh/get/NRlh5T/NEWJOKER.txt^$all
-||amtechprinting.com/Knflaev_Spegujsa.bmp^$all
-||107.189.6.214/fsk4j2Te/MinerFull.exe^$all
-||cdn.discordapp.com/attachments/959128574730858560/960288037206638612/CookTime_Qkhdvneb.png^$all
-||tiny.one/2p982tsy^$all
-||euronovelty.com.mx/hrt/Ddouflqj_Yipxvwmy.bmp^$all
