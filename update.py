@@ -270,13 +270,16 @@ except Exception as err:
 
 def mkps_firewall_block(file,outfile):
   ips = allips[file]
+  print(ips[0])
+  print(len(ips))
+  print(ips[1])
   outf = open(outfile,'w')
   outf.write("echo PowerShell script for blocking malicious IPs in Windows Firewall\n")
   outf.write("echo Created by iam-py-test\n")
   outf.write("echo This must be run as admin and on Microsoft Windows 10/11 or else it will not work!\n\n")
   for ip in ips:
     # safety check to make sure this doesn't turn into a prefect RCE
-    if "\"" not in ip and ";" not in ip and "-" not in ip and "\\" not in ip and ":/" not in ip:
+    if "\"" not in ip and ";" not in ip and "-" not in ip and ":/" not in ip:
       outf.write("New-NetFirewallRule -DisplayName \"iam-py-test - Block outbound connections to this ip\" -Direction outbound -LocalPort Any -Protocol tcp -Action Block -RemoteAddress {}\nNew-NetFirewallRule -DisplayName \"iam-py-test - Block inbound connections from this ip\" -Direction Inbound -LocalPort Any -Protocol tcp -Action Block -RemoteAddress {}\n".format(ip,ip))
     outf.write("\n\necho All rules should have been added to the Windows Firewall\npause\n")
     outf.close()
