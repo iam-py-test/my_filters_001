@@ -2,11 +2,15 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter
 ! Script last updated: 5/4/2022
 ! Expires: 1 day
-! Last updated: 11/05/2022
+! Last updated: 14/05/2022
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Wed, 11 May 2022 20:31:10 +0000
+! Sat, 14 May 2022 04:13:11 +0000
+||sharodn.net/fl.exe^$all
+||cdn.discordapp.com/attachments/963726736288251918/968765178067976232/hjuhubhbhknjhnbjkhbkjnjknjhknbhlijkjhbjhbhjb_jhbvbkgbgbvu_Jmxnylcb.jpg^$all
+||80.94.92.38/folder/enemybotx64^$all
+||185.222.57.67/Wbkom_Ccfzqtbo.bmp^$all
 ||resellerhosting.anandchowdhary.com/www/11.exe^$all
 ||cdn.discordapp.com/attachments/958245781104656437/973852166253064222/Gwjmew_Ffohvojp.png^$all
 ||rocksolidfab.ga/u/Vdaxzfi_Vfniidds.jpg^$all
@@ -104,7 +108,3 @@
 ||62.204.41.69/040722/net_Frmzgqtd.jpg^$all
 ||45.147.200.97/Rock.exe^$all
 ||olypath.com/nyYjb.exe^$all
-||omarrobinson.xyz/new.exe^$all
-||143.244.180.227/server.exe^$all
-||ammouriarts.com/wp-content/loader/uploads/Voice_message0002110_Rtwpobgv.bmp^$all
-||www.tractorandinas.com/wrcontent/loader/uploads/Kgzen.png^$all
