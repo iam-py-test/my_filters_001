@@ -79,8 +79,10 @@ Everything not listed above, like the filters in the _Personal_ folder, is eithe
 - Pure (no comments) HOSTs format - https://github.com/iam-py-test/my_filters_001/blob/main/Alternative%20list%20formats/porn_pure_hosts.txt
 
 ## Projects which use my lists (to my knowledge) 
-- [pallebone's PersonalPiholeListsPAllebone](https://github.com/pallebone/PersonalPiholeListsPAllebone) uses the domains version of my antimalware list
-- [eded333's TheF\*ckingList](https://github.com/eded333/TheFuckingList) uses the uBlock Origin version of my antimalware list and the Anti-Norton Tracking list
+- [pallebone's PersonalPiholeListsPAllebone](https://github.com/pallebone/PersonalPiholeListsPAllebone) uses the domains version of the malicious website blocklist
+- [eded333's TheF\*ckingList](https://github.com/eded333/TheFuckingList) uses the uBlock Origin version of the malicious website blocklist and the Anti-Norton Tracking list
+- [hagezi's DNS Blocklists](https://github.com/hagezi/dns-blocklists) use the domains version of the malicious website blocklist
+- [The oisd blocklist](https://oisd.nl) includes my antitypo list
 
 
 #### Notes
