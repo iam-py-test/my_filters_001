@@ -2,11 +2,20 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter
 ! Script last updated: 5/4/2022
 ! Expires: 1 day
-! Last updated: 19/05/2022
+! Last updated: 23/05/2022
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Thu, 19 May 2022 03:37:54 +0000
+! Mon, 23 May 2022 20:32:36 +0000
+||karimexpress.ma/cronHelper/Pwbq/^$all
+||cdn.discordapp.com/attachments/968925227247616083/976477183906299984/CelestiaPortable_1_6_2_6_Osldkjbb.png^$all
+||62.197.136.3/KGD6_Project_R0186232_Egrkihhk.jpg^$all
+||thddghdd1.com/csrsrv.exe^$all
+||thddghdd1.com/Iebjg_Vscqefpm.png^$all
+||194.87.31.4/loader/loader/uploads/RevoveryUpdate_Kzpiufar.jpg^$all
+||194.87.31.4/RevoveryUpdate.exe^$all
+||103.20.235.166/zecli.exe^$all
+||62.197.136.3/Rfq_clarifications_Tjfkmwin.jpg^$all
 ||cdn.discordapp.com/attachments/880508349861466123/975670781570863134/kynaxyi.exe^$all
 ||new.delicon.co/DR/BASE64.txt^$all
 ||advanced-ms.ml/n/Cxysybob_Ktxnnbau.jpg^$all
@@ -99,12 +108,3 @@
 ||cdn.discordapp.com/attachments/958954899528376323/961876155357626368/Txvhbjltu_Vuqaahhz.png^$all
 ||cdn.discordapp.com/attachments/960457514254737471/961870820072886292/23454355435435434543_pdf_Wjoskimm.png^$all
 ||185.193.89.21/Xyuyztmm_Kpfinzwr.png^$all
-||plus-arabia.com/SKP098765430000000000000000987654_Iedqqaen.bmp^$all
-||91.243.44.142/Nipdk_Qixhboqu.bmp^$all
-||amtechprinting.com/qwerty_Mkpriezb.jpg^$all
-||transfer.sh/qJCKRe/Bawiz5555555555555_Pjlcdnag.bmp^$all
-||180.214.237.206/720space/vbc.exe^$all
-||idc-confiabilidad.com/hrt/Ruxasotq_Yrofbjqt.jpg^$all
-||cdn.discordapp.com/attachments/472051232014598144/961510692668706866/PccNTMon9_Ncqvtyyq.jpg^$all
-||cdn.discordapp.com/attachments/954192422005526541/961577628635131945/Tool.JPEG^$all
-||ammouriarts.com/wp-content/loader/uploads/Scan00021_Hdnswega.bmp^$all
