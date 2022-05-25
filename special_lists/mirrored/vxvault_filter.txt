@@ -2,11 +2,15 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter
 ! Script last updated: 5/4/2022
 ! Expires: 1 day
-! Last updated: 23/05/2022
+! Last updated: 25/05/2022
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Mon, 23 May 2022 20:32:36 +0000
+! Wed, 25 May 2022 03:31:41 +0000
+||soapbeginshops.com/kingz.exe^$all
+||soapbeginshops.com/tel.exe^$all
+||wirelesscommsat.com/web/wp-content/uploads/2022/05/ImageFront_Ztvpqtdw.jpg^$all
+||cleaning.homesecuritypc.com/packages/Zltare_Cpchktvl.bmp^$all
 ||karimexpress.ma/cronHelper/Pwbq/^$all
 ||cdn.discordapp.com/attachments/968925227247616083/976477183906299984/CelestiaPortable_1_6_2_6_Osldkjbb.png^$all
 ||62.197.136.3/KGD6_Project_R0186232_Egrkihhk.jpg^$all
@@ -104,7 +108,3 @@
 ||20.40.97.94/s5g/zv/loader/uploads/605107332_Tahpcuoc.png^$all
 ||cdn.discordapp.com/attachments/960459071046189069/961894729744797706/2345544676545654_Cmmhvhvz.jpg^$all
 ||190.123.44.138/loader/uploads/crypt0304_Czqpxfva.jpg^$all
-||crypto-hunt.net/uploads/racco.exe^$all
-||cdn.discordapp.com/attachments/958954899528376323/961876155357626368/Txvhbjltu_Vuqaahhz.png^$all
-||cdn.discordapp.com/attachments/960457514254737471/961870820072886292/23454355435435434543_pdf_Wjoskimm.png^$all
-||185.193.89.21/Xyuyztmm_Kpfinzwr.png^$all
