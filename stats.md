@@ -10,7 +10,7 @@ Entries: 77 <br>
 #### anti-cookie+sign up.txt
 Entries: 346 <br> 
 #### anti-rickroll-list.txt
-Entries: 230 <br> 
+Entries: 228 <br> 
 #### annoyances.txt
 Entries: 108 <br> 
 #### duckduckgo-clean-up.template
