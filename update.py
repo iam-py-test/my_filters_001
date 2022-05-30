@@ -1,4 +1,4 @@
-"""Auto-create other versions of my lists"""
+"""Auto-create versions of my lists for other programs"""
 import json,sys
 alldomains = {}
 allips = {}
@@ -120,7 +120,7 @@ def mkagh(file,altname):
       altfile.write('! Format notes: This format is designed for AdGuard Home, and should not be used in AdGuard\n')
       continue
     if line.startswith("!"):
-      altfile.write(line)
+      altfile.write("{}\n".format(line))
     elif line == "" or line.startswith("[Adblock Plus 2.0]") or line == " ":
       continue
     elif "$" in line:
@@ -140,11 +140,10 @@ def mkagh(file,altname):
         continue
       if domain != "" and domain not in donedomains and "/" not in domain:
         if isipdomain(domain):
-          altfile.write("{}".format(domain))
+          altfile.write("{}\n".format(domain))
         else:
-          altfile.write("||{}^".format(domain))
+          altfile.write("||{}^\n".format(domain))
         donedomains.append(domain)
-    altfile.write("\n")
 
 try:
   mkagh("antimalware.txt","Alternative list formats/antimalware_adguard_home.txt")
