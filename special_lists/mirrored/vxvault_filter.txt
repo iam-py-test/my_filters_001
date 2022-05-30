@@ -2,11 +2,13 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter
 ! Script last updated: 5/4/2022
 ! Expires: 1 day
-! Last updated: 29/05/2022
+! Last updated: 30/05/2022
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Sun, 29 May 2022 03:37:20 +0000
+! Mon, 30 May 2022 20:32:27 +0000
+||185.222.58.109/Clmmyu_Csveojkt.bmp^$all
+||cdn.discordapp.com/attachments/718039617798144050/979066429670326322/Adobe_Creative_Cloud_Nfbqtglr.png^$all
 ||2.56.57.85/PO_En_1279_2022_Pdpqrcta.bmp^$all
 ||198.12.66.100/Riatjfs_Kfovpmhh.png^$all
 ||apps.redcrossglobal.ga/use20/documents/QQQQZZZZ_Tvgahrgm.jpg^$all
@@ -106,5 +108,3 @@
 ||107.189.6.214/2yEsio7K/hytrfwedqw.exe^$all
 ||graphictrunk.com/smoke/loader/uploads/Lhevqda_Azlnvmpn.jpg^$all
 ||idea-time.com/wp-content/plugins/notification/loader/uploads/Scan_00210_Nyhxnvpc.png^$all
-||xf-1304509675.file.myqcloud.com/fwxd/1b.jpg^$all
-||transfer.sh/GTs72h/Qdoxmqj_Fnmlwjdh.png^$all
