@@ -4,7 +4,7 @@
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # Issues url: https://github.com/iam-py-test/my_filters_001/issues
 # GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-# Last updated: 11/1/2021
+# Last updated: 7/6/2022
 # If someone can confirm this, it can move to malware 
 # https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 # https://www.virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
@@ -254,3 +254,38 @@
 # https://blog.malwarebytes.com/threat-intelligence/2021/11/credit-card-skimmer-evades-virtual-machines/
 0.0.0.0 cdn.cookieslaw.org
 0.0.0.0 cookieslaw.org
+# https://twitter.com/Artilllerie/status/1534076124829036544
+0.0.0.0 bbleepingcomputer.com
+0.0.0.0 bleepingc0mputer.com
+0.0.0.0 bleepingccomputer.com
+0.0.0.0 bleepingcimputer.com
+0.0.0.0 bleepingcmoputer.com
+0.0.0.0 bleepingcmputer.com
+0.0.0.0 bleepingcommputer.com
+0.0.0.0 bleepingcomouter.com
+0.0.0.0 bleepingcompiter.com
+0.0.0.0 bleepingcompouter.com
+0.0.0.0 bleepingcompputer.com
+0.0.0.0 bleepingcomptuer.com
+0.0.0.0 bleepingcompurer.com
+0.0.0.0 bleepingcomputee.com
+0.0.0.0 bleepingcomputeer.com
+0.0.0.0 bleepingcomputerr.com
+0.0.0.0 bleepingcomputet.com
+0.0.0.0 bleepingcomputor.com
+0.0.0.0 bleepingcomputre.com
+0.0.0.0 bleepingcomputrr.com
+0.0.0.0 bleepingcomputter.com
+0.0.0.0 bleepingcomputwr.com
+0.0.0.0 bleepingcompuuter.com
+0.0.0.0 bleepingcompuyer.com
+0.0.0.0 bleepingcompyter.com
+0.0.0.0 bleepingcomupter.com
+0.0.0.0 bleepingconputer.com
+0.0.0.0 bleepingcoomputer.com
+0.0.0.0 bleepingcopmuter.com
+0.0.0.0 bleepingcoputer.com
+0.0.0.0 bleepingcpmputer.com
+0.0.0.0 bleepingocmputer.com
+0.0.0.0 bleepingvomputer.com
+0.0.0.0 bleepingxomputer.com
