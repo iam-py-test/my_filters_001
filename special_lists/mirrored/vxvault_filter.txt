@@ -2,11 +2,23 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter
 ! Script last updated: 5/4/2022
 ! Expires: 1 day
-! Last updated: 08/06/2022
+! Last updated: 09/06/2022
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Wed, 08 Jun 2022 03:38:27 +0000
+! Thu, 09 Jun 2022 20:30:48 +0000
+||colgefine.at/vento/6523.exe^$all
+||193.124.22.8/forto.exe^$all
+||212.193.30.45/WW/file4.exe^$all
+||212.193.30.45/WW/file1.exe^$all
+||www.uplooder.net/img/image/55/3aaf30c5197afc426d8a54c0eab89f89/vbc-Cmwddmkj.png^$all
+||192.210.240.37/n/ktu.exe^$all
+||pharmakoehnen.ga/m/Qfaffvv_Vivmrkzl.png^$all
+||37.0.8.145/File_Mpqmkmye.png^$all
+||dalyshops.com/loader/uploads/services_Ixuaofip.bmp^$all
+||unisatrastreamento.com/vendor/fw3.exe^$all
+||pharmakoehnen.ga/m/Suprefpeq_Boopkjkn.jpg^$all
+||cdn.discordapp.com/attachments/982500998406893619/982501016471756820/nu.exe^$all
 ||blueprogress.org/Pkpzqze_Mhljeacm.png^$all
 ||kinq4i2.xyz/ohxfnLIy/Protected22fb.exe^$all
 ||cdn.discordapp.com/attachments/551448372431814658/980111989365952562/Cloud9_Gjtufvti.jpg^$all
@@ -96,15 +108,3 @@
 ||elegantlivings.com/lover.php^$all
 ||cdn.discordapp.com/attachments/963500032827486220/965135993839706162/RSSGuardPortable_Agmubinj.bmp^$all
 ||cdn.discordapp.com/attachments/965364320789753901/965504154925666324/Lfsuxv_Huykkwds.bmp^$all
-||cdn.discordapp.com/attachments/932607293869146142/964827333372567572/Sjrjkqd_Pdyzziyn.bmp^$all
-||bbg.az/wp-admin/css/colors/modern/norta/OtterBrowserPortable_1_0_03_Mkzwauby.jpg^$all
-||calina-crack.store/loader/uploads/services_Juuwxamf.bmp^$all
-||calina-crack.store/loader/uploads/services.exe?fileName=services.exe^$all
-||103.125.190.201/datasaver/csrss.exe^$all
-||fadhelec.com.ec/htmlwe/loader/uploads/Skystar_Co_K.S.A_Purchase_Order_Mdngvwls.jpg^$all
-||fadhelec.com.ec/htmlwe/loader/uploads/Skystar_Co_K.S.A_Purchase_Order_Sqqbbiah.jpg^$all
-||cdn.discordapp.com/attachments/963871320699973686/963873050615496745/HexChatPortable_Eiyavyob.png^$all
-||beautyarenawithrojina.com/wp-includes/blocks/loader/uploads/Xsghde_Jotputiu.jpg^$all
-||20.40.97.94/t7b/loader/uploads/ETL020611_Uouwcrzs.png^$all
-||3.123.129.109/TohttpPacketGameGenerator/ec6f9069daa80029e880d76fc3bf6a0698a7d554.bin^$all
-||cdn.discordapp.com/attachments/960690722787459072/963662861454962698/Lbaizwd_Diwrdzkv.png^$all
