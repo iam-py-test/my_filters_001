@@ -2,11 +2,25 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter
 ! Script last updated: 5/4/2022
 ! Expires: 1 day
-! Last updated: 10/06/2022
+! Last updated: 11/06/2022
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Fri, 10 Jun 2022 03:31:26 +0000
+! Sat, 11 Jun 2022 20:29:13 +0000
+||dalyshops.com/loader/uploads/services.exe^$all
+||dalyshops.com/loader/uploads/services_Fiwakjwd.jpg^$all
+||taspinarli-logistik.com/wps/loader/uploads/Gkvnei_Jnzxqtqq.png^$all
+||taspinarli-logistik.com/wps/loader/uploads/Hrrawg_Bksakskl.bmp^$all
+||2.56.57.22/Szzkx_Jlhaxwdp.png^$all
+||soprocerto.pt/new/bestseller_Ixckhsdg.jpg^$all
+||2.56.57.85//SCANDOCUMENTS-PDF_Oraroetz.png^$all
+||nkai.xyz/loader/uploads/rie_Xzxwcovi.bmp^$all
+||nkai.xyz/CDsupport.exe^$all
+||nkai.xyz/loader/uploads/wg_Sjerqhmk.png^$all
+||cdn.discordapp.com/attachments/981242453522788436/983861045892358224/Gxoxg_Miumankt.png^$all
+||cdn.discordapp.com/attachments/926083606487642152/984494508643323924/rundll.exe^$all
+||greensea.duckdns.org/server/document/PrintXII_Zbpneklq.bmp^$all
+||thddghdd3.com/Zavfai_Hqvizaup.jpg^$all
 ||colgefine.at/vento/6523.exe^$all
 ||193.124.22.8/forto.exe^$all
 ||212.193.30.45/WW/file4.exe^$all
@@ -94,17 +108,3 @@
 ||tiny.one/mrcckewp^$all
 ||cdn.discordapp.com/attachments/968190106592768062/968191911775047711/JuicePortable_2_24_Nwpjjyyc.bmp^$all
 ||47.93.60.63/exploror.exe^$all
-||ceabis.cf/gn/bin.exe^$all
-||cdn.discordapp.com/attachments/967997797402042408/968049631516827648/Fxcduurj_Nlhgzqwp.bmp^$all
-||eugenemask.com/wp-admin/images/j2_Hscwqykd.bmp^$all
-||eugenemask.com/wp-admin/images/Jel1_Zsclqrrd.png^$all
-||103.167.92.57/airdrop/vbc.exe^$all
-||185.193.89.21/Dltxzmufo_Zsiegeue.jpg^$all
-||cdn.discordapp.com/attachments/963695035822510122/967463199777619988/FreeFileSyncPortable_6_3_Dkdtzgvg.bmp^$all
-||cdn.discordapp.com/attachments/968047127248912394/968052685746081802/Xjstd_Rjprkhss.jpg^$all
-||cdn.discordapp.com/attachments/966585187980939298/968053382831034378/Oaffvjt_Pepmdddm.jpg^$all
-||190.123.44.138/loader/uploads/pmlatest_Ukcxrltm.png^$all
-||cdn.discordapp.com/attachments/928327148589183038/967143443065360434/Lineee_Vuuuuxea.jpg^$all
-||elegantlivings.com/lover.php^$all
-||cdn.discordapp.com/attachments/963500032827486220/965135993839706162/RSSGuardPortable_Agmubinj.bmp^$all
-||cdn.discordapp.com/attachments/965364320789753901/965504154925666324/Lfsuxv_Huykkwds.bmp^$all
