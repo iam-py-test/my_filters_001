@@ -2,11 +2,49 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter
 ! Script last updated: 5/4/2022
 ! Expires: 1 day
-! Last updated: 11/06/2022
+! Last updated: 16/06/2022
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Sat, 11 Jun 2022 20:29:13 +0000
+! Thu, 16 Jun 2022 03:36:31 +0000
+||185.29.10.116/780/vbc.exe^$all
+||ftuappz.com/loader/uploads/ucsvc_Ebauttfp.png^$all
+||37.0.11.164/loader/uploads/Renevct_Vjytakov.bmp^$all
+||37.0.11.164/loader/uploads/Renevct_Ozaneawj.bmp^$all
+||37.0.11.164/loader/uploads/Renevct_Ebtkglda.jpg^$all
+||185.53.46.95/8.exe^$all
+||195.2.70.25/checkit2_Pirwtlgr.jpg^$all
+||one.liteshare.co/download.php?id=Y0J70DH^$all
+||37.0.11.164/loader/uploads/Renevct_Ydpmzktx.bmp^$all
+||104.168.32.14/u/lux.exe^$all
+||cdn.discordapp.com/attachments/971484536036818975/985732852194902056/Git-2.25.0-64-bit_Casvomya.png^$all
+||file.runespectrals.com/1/ucsvc.exe^$all
+||lambweston.ga/g/Lueyuu_Vccerwpy.png^$all
+||lambweston.ga/g/Efcoi_Bagphryd.png^$all
+||37.0.11.164/loader/uploads/Renevct_Orlpeiaq.bmp^$all
+||lambweston.ga/g/Qlygf_Zowasryt.png^$all
+||grabpflege-ettlingen.de/wps/loader/uploads/Iomdiqrmy_Vjjpbxqb.bmp^$all
+||194.87.31.4/services.exe^$all
+||fidelityptrust.com/loader/uploads/Dmqpaeolc_Bfyuzsew.jpg^$all
+||37.0.11.164/loader/uploads/Renevct_Wbymcttp.jpg^$all
+||ftuappz.com/loader/uploads/ucsvc_Rxvrxasd.bmp^$all
+||dalyshops.com/loader/uploads/services_Lygatolu.jpg^$all
+||golden-cheats.com/loader/uploads/MultiCheatInstaller_Uhhvzedr.bmp^$all
+||golden-cheats.com/loader/uploads/CheatInstaller_Ndtzqvil.jpg^$all
+||gunaymedya.com/loader/uploads/fi90_Hzfuhusz.jpg^$all
+||ngcgas.com/loader/uploads/202206071635_Vtdjsidc.bmp^$all
+||ngcgas.com/loader/uploads/202206071636_Hpklvzpq.bmp^$all
+||check-info-session1036.gq/loader/uploads/Lnfobkk_Avlchkpj.bmp^$all
+||dalyshops.com/loader/uploads/services_Wkcsonuf.bmp^$all
+||grabpflege-ettlingen.de/wps/loader/uploads/Uokhs_Vzpsosiz.jpg^$all
+||golden-cheats.com/loader/uploads/MultiCheatInstaller_Hjxqhlkx.png^$all
+||golden-cheats.com/loader/uploads/LoadRevMine_Dszhsxep.png^$all
+||37.0.11.164/loader/uploads/Renevct_Culaqtax.png^$all
+||37.0.11.164/loader/uploads/Renevct_Enjjwvuu.png^$all
+||37.0.11.164/loader/uploads/Renevct_Vsqzxplx.png^$all
+||cdn.discordapp.com/attachments/911606378152472639/911743998174060574/ChromeRecovery.exe^$all
+||151.106.2.139/epio.gif^$all
+||163.123.142.134/Mvppopw_Bbvrtmcq.png^$all
 ||dalyshops.com/loader/uploads/services.exe^$all
 ||dalyshops.com/loader/uploads/services_Fiwakjwd.jpg^$all
 ||taspinarli-logistik.com/wps/loader/uploads/Gkvnei_Jnzxqtqq.png^$all
@@ -70,41 +108,3 @@
 ||54.90.233.229/mshta.exe^$all
 ||sharodn.net/fl.exe^$all
 ||cdn.discordapp.com/attachments/963726736288251918/968765178067976232/hjuhubhbhknjhnbjkhbkjnjknjhknbhlijkjhbjhbhjb_jhbvbkgbgbvu_Jmxnylcb.jpg^$all
-||80.94.92.38/folder/enemybotx64^$all
-||185.222.57.67/Wbkom_Ccfzqtbo.bmp^$all
-||resellerhosting.anandchowdhary.com/www/11.exe^$all
-||cdn.discordapp.com/attachments/958245781104656437/973852166253064222/Gwjmew_Ffohvojp.png^$all
-||rocksolidfab.ga/u/Vdaxzfi_Vfniidds.jpg^$all
-||transfer.sh/get/PwWKYh/Mzvscwj_Tvgphrbb.bmp^$all
-||safeinthehandsofthegoodbois.com/loader/uploads/WindowsUpdate-4.55.5_Qswjxkwb.jpg^$all
-||180.214.238.224/365space/vbc.exe^$all
-||mypure.000webhostapp.com/pure/Cawxg_Oohkgbxb.jpg^$all
-||msspaper.cf/g/Ptbydpu_Geinoluj.png^$all
-||transfer.sh/get/9hJfMw/build.exe^$all
-||tiny.one/bdh3suhc^$all
-||www.agies.org/wp-content/uploads/2018/11/cp/HotSpotStudioPortable_Ynvjewjz.bmp^$all
-||185.222.57.252/bankreport05052022_Rercxjxm.bmp^$all
-||toppnet.tk/b/Aqvkvm_Zjttufuj.png^$all
-||maquimport.cf/u/Rqncllue_Qmvzrnra.bmp^$all
-||trieutin.com/loader/uploads/rocket_Cldzsvma.bmp^$all
-||cdn.discordapp.com/attachments/898037501279735840/971593354892693565/Qmvgrkbs_Vukkizss.jpg^$all
-||185.222.57.252/bankreportt_Vqhsyahp.bmp^$all
-||cdn.discordapp.com/attachments/963075008928817175/963098157187747930/Wqwgh_Jemieogu.bmp^$all
-||156.234.211.155/ma/meihao.x86^$all
-||www.agies.org/wp-content/uploads/2018/11/cp/ccPortable_Lvniruuy.bmp^$all
-||transfer.sh/get/xgTTm4/Strjavxz_Xpbptvbt.png^$all
-||cdn.discordapp.com/attachments/965707834748698657/965719185370005504/PuzzleCollectionPortable_Klmdmpkd.png^$all
-||185.193.89.11/ChromeFileManagerInstallerToUpdate_Iljgkupd.bmp^$all
-||terrazzaitaliana.mx/hrt/Dowcb_Wlkyroth.png^$all
-||91.243.44.124/Dpwrc_Wwgzgbjo.png^$all
-||cdn-124.anonfiles.com/pbCfK4b5y8/70e05c27-1651408088/AsyncClient.exe^$all
-||merit-link.cl/tye/Lmvom_Crkbfcxy.png^$all
-||18.183.167.3/offline/loader/uploads/BTL007860063_Doytynyr.png^$all
-||18.183.167.3/offline/loader/uploads/RE-165010773_Njurhnvb.png^$all
-||cdn.discordapp.com/attachments/786342819895050261/968962467281653860/Broila_Uvpkytqq.bmp^$all
-||cdn.discordapp.com/attachments/939050182455205941/965915432773103626/Cujbg_Ibikunhm.jpg^$all
-||hopeforhealth.com.ph/wp-admin/js/widgets/Noeia_Baevihyx.bmp^$all
-||bluecovertrading.com/s/uchiorigin.txt^$all
-||tiny.one/mrcckewp^$all
-||cdn.discordapp.com/attachments/968190106592768062/968191911775047711/JuicePortable_2_24_Nwpjjyyc.bmp^$all
-||47.93.60.63/exploror.exe^$all
