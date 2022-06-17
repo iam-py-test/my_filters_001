@@ -2,11 +2,19 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter
 ! Script last updated: 5/4/2022
 ! Expires: 1 day
-! Last updated: 16/06/2022
+! Last updated: 17/06/2022
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Thu, 16 Jun 2022 03:36:31 +0000
+! Fri, 17 Jun 2022 03:36:20 +0000
+||37.0.11.164/loader/uploads/Renevct_Mmygcxyz.jpg^$all
+||37.0.11.164/loader/uploads/Renevct_Stmprdrq.png^$all
+||x.rune-spectrals.com/loader/uploads/mobsync_Pezfniwq.jpg^$all
+||carlinconstruct.com/fil/loader/uploads/Blmgps_Hzhieggj.png^$all
+||x.rune-spectrals.com/loader/uploads/ucsvc_Izecukop.jpg^$all
+||x.rune-spectrals.com/loader/uploads/iexpress_Mgjaftdn.png^$all
+||37.0.11.164/loader/uploads/Renevct_Arfqpwpw.jpg^$all
+||37.0.11.164/loader/uploads/Renevct_Rfhlzdhb.bmp^$all
 ||185.29.10.116/780/vbc.exe^$all
 ||ftuappz.com/loader/uploads/ucsvc_Ebauttfp.png^$all
 ||37.0.11.164/loader/uploads/Renevct_Vjytakov.bmp^$all
@@ -100,11 +108,3 @@
 ||cdn.discordapp.com/attachments/880508349861466123/975670781570863134/kynaxyi.exe^$all
 ||new.delicon.co/DR/BASE64.txt^$all
 ||advanced-ms.ml/n/Cxysybob_Ktxnnbau.jpg^$all
-||advanced-ms.ml/n/Ygtapn_Ieatexwn.bmp^$all
-||sgmotexestablishments.com/Pepsico_LLC_RFQ_Information_Qzootahi.png^$all
-||2.58.149.2/detail12345_Kgxrxcks.jpg^$all
-||jetij87d.beget.tech/build.exe^$all
-||freedownload.vip/Unpleasant.exe^$all
-||54.90.233.229/mshta.exe^$all
-||sharodn.net/fl.exe^$all
-||cdn.discordapp.com/attachments/963726736288251918/968765178067976232/hjuhubhbhknjhnbjkhbkjnjknjhknbhlijkjhbjhbhjb_jhbvbkgbgbvu_Jmxnylcb.jpg^$all
