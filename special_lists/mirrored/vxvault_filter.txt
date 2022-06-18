@@ -6,7 +6,10 @@
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Fri, 17 Jun 2022 03:36:20 +0000
+! Fri, 17 Jun 2022 20:29:26 +0000
+||37.0.11.164/loader/uploads/Renevct.exe^$all
+||193.233.191.16/QUOTE_REQUEST_Glgbfpoz.bmp^$all
+||46.23.109.174/boomclnr.exe^$all
 ||37.0.11.164/loader/uploads/Renevct_Mmygcxyz.jpg^$all
 ||37.0.11.164/loader/uploads/Renevct_Stmprdrq.png^$all
 ||x.rune-spectrals.com/loader/uploads/mobsync_Pezfniwq.jpg^$all
@@ -105,6 +108,3 @@
 ||194.87.31.4/RevoveryUpdate.exe^$all
 ||103.20.235.166/zecli.exe^$all
 ||62.197.136.3/Rfq_clarifications_Tjfkmwin.jpg^$all
-||cdn.discordapp.com/attachments/880508349861466123/975670781570863134/kynaxyi.exe^$all
-||new.delicon.co/DR/BASE64.txt^$all
-||advanced-ms.ml/n/Cxysybob_Ktxnnbau.jpg^$all
