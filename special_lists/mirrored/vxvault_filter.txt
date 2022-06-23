@@ -2,11 +2,17 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter
 ! Script last updated: 5/4/2022
 ! Expires: 1 day
-! Last updated: 21/06/2022
+! Last updated: 23/06/2022
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Tue, 21 Jun 2022 03:41:40 +0000
+! Thu, 23 Jun 2022 03:43:42 +0000
+||omongroup.co/load/loader/uploads/Aytsya_Xpxecdpp.png^$all
+||www.non-se.co/excel/Aytsya.exe^$all
+||www.sanipass-solutions.fr/wp-admin/pr/loader/uploads/MT_0132362_Akvemnoj.bmp^$all
+||www.sanipass-solutions.fr/wp-admin/pr/loader/uploads/Requests1250_Gbfotilx.png^$all
+||zdigs.cfd/loader/uploads/fi_Sflxarfl.bmp^$all
+||zdigs.cfd/Netcfg.exe^$all
 ||file.runespectrals.com/1/ucsvc.exe^$all
 ||www.sanipass-solutions.fr/wp-admin/zr/loader/uploads/BPL_1057230.exe^$all
 ||37.0.11.164/loader/uploads/Renevct.exe^$all
@@ -102,9 +108,3 @@
 ||wirelesscommsat.com/web/wp-content/uploads/2022/05/ImageFront_Ztvpqtdw.jpg^$all
 ||cleaning.homesecuritypc.com/packages/Zltare_Cpchktvl.bmp^$all
 ||karimexpress.ma/cronHelper/Pwbq/^$all
-||cdn.discordapp.com/attachments/968925227247616083/976477183906299984/CelestiaPortable_1_6_2_6_Osldkjbb.png^$all
-||62.197.136.3/KGD6_Project_R0186232_Egrkihhk.jpg^$all
-||thddghdd1.com/csrsrv.exe^$all
-||thddghdd1.com/Iebjg_Vscqefpm.png^$all
-||194.87.31.4/loader/loader/uploads/RevoveryUpdate_Kzpiufar.jpg^$all
-||194.87.31.4/RevoveryUpdate.exe^$all
