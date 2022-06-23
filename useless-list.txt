@@ -3,7 +3,7 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/iam-py-test/my_filters_001/wiki/The-most-useless-filter-ever
 
-ifthisdomainiseverregisteredthentherewillbesomethingwrongsoitisoktoblock.gov$all,domain=google.com
+||ifthisdomainiseverregisteredthentherewillbesomethingwrongsoitisoktoblock.gov^$all,domain=google.com
 anotherdomainwhichshouldneverberegisteredsoitcanbeblockedwithoutbreakinganything.org$all,domain=thisdomainisadomainwithatonofproblemsliketrackingadsandcryptominerssoitisbad.evil
 evenworsedomainwithatonofscamsandpupssoitshouldbeblockedbyeveryantimalwarelistoutthere.online$all
 thisdomainisusedforadsandotherbadstuffliketrackingsoitwillbeblocked.com$third-party,domain=~thisdomainisbrokenbyblockingtheotherbaddomainsoweneedtounblockit.net
