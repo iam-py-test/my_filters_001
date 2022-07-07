@@ -1,5 +1,5 @@
 # My filters
-This is a collection of filterlists made by me (iam-py-test)<br>
+This is a collection of filterlists made by me (iam-py-test).<br>
 Feel free to use any and all of them (they are under CC0) in [uBlock Origin](https://github.com/gorhill/uBlock), AdGuard, AdBlock Plus (special version required), or in any other way (i.e. PiHole, Linux /etc/hosts) <br/>
 Please report any issues you have and I will try to fix them; please note I may not reply within the day the issue is posted as I am often busy.<br>
 Thank you to all the people in https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for helping improve these filters<br>
