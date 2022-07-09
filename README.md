@@ -82,7 +82,7 @@ Everything not listed above, like the filters in the _Personal_ folder, is eithe
 - [pallebone's PersonalPiholeListsPAllebone](https://github.com/pallebone/PersonalPiholeListsPAllebone) uses the domains version of the malicious website blocklist
 - [eded333's TheF\*ckingList](https://github.com/eded333/TheFuckingList) uses the uBlock Origin version of the malicious website blocklist and the Anti-Norton Tracking list
 - [hagezi's DNS Blocklists](https://github.com/hagezi/dns-blocklists) use the domains version of the malicious website blocklist
-- [The oisd blocklist](https://oisd.nl) includes my antitypo list and The malicious website blocklist in their full list, and my Porn blocklist in their NSFW list
+- [The oisd blocklist](https://oisd.nl) includes my antitypo list in their full list, and my Porn blocklist in their NSFW list
 
 
 #### Notes
