@@ -2,11 +2,16 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter
 ! Script last updated: 5/4/2022
 ! Expires: 1 day
-! Last updated: 10/07/2022
+! Last updated: 11/07/2022
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Sun, 10 Jul 2022 20:30:09 +0000
+! Mon, 11 Jul 2022 20:31:00 +0000
+||srv43923540.ultasrv.com/CjNaT.exe^$all
+||20.205.9.191/596a96cc7bf9108cd896f33c44aedc8a/db0fa4b8db0333367e9bda3ab68b8042.x86^$all
+||srv43923540.ultasrv.com/cFRPD.exe^$all
+||srv43923540.ultasrv.com/gSGYs.exe^$all
+||flacnet.com/V2^$all
 ||185.17.0.52/bin^$all
 ||srv99775454.ultasrv.com/DoFPS.exe^$all
 ||185.17.0.52/yuri.exe^$all
@@ -103,8 +108,3 @@
 ||2.56.57.85//SCANDOCUMENTS-PDF_Oraroetz.png^$all
 ||nkai.xyz/loader/uploads/rie_Xzxwcovi.bmp^$all
 ||nkai.xyz/CDsupport.exe^$all
-||nkai.xyz/loader/uploads/wg_Sjerqhmk.png^$all
-||cdn.discordapp.com/attachments/981242453522788436/983861045892358224/Gxoxg_Miumankt.png^$all
-||cdn.discordapp.com/attachments/926083606487642152/984494508643323924/rundll.exe^$all
-||greensea.duckdns.org/server/document/PrintXII_Zbpneklq.bmp^$all
-||thddghdd3.com/Zavfai_Hqvizaup.jpg^$all
