@@ -2,11 +2,33 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter
 ! Script last updated: 5/4/2022
 ! Expires: 1 day
-! Last updated: 13/07/2022
+! Last updated: 25/07/2022
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Wed, 13 Jul 2022 20:31:38 +0000
+! Mon, 25 Jul 2022 20:30:36 +0000
+||froniycj.beget.tech/0xjjjj.exe^$all
+||102.37.220.234/htdocs/mBHKP.exe^$all
+||102.37.220.234/htdocs/mnjks.exe^$all
+||102.37.220.234/htdocs/DzXbP.exe^$all
+||102.37.220.234/htdocs/sBLQX.exe^$all
+||102.37.220.234/htdocs/bCXQP.exe^$all
+||185.174.101.246/1807.exe^$all
+||141.98.6.236/1337Traget/Rxvgxnss-1337x-4.exe^$all
+||141.98.6.236/1337Traget/Rxvgxnss-1337x-1.exe^$all
+||141.98.6.236/1337Traget/Rxvgxnss-1337x-2.exe^$all
+||141.98.6.236/1337Traget/Rxvgxnss-1337x-3.exe^$all
+||193.233.179.125/wSEFa.exe^$all
+||f0655589.xsph.ru/crypt/build.exe^$all
+||f0655589.xsph.ru/crypt/build%20(1).exe^$all
+||f0655589.xsph.ru/crypt/build%20(3).exe^$all
+||194.31.98.205/bins/aqua.mpsl^$all
+||lutanedukasi.co.id/wp-includes/hAiNVxLRl3ayBcV.exe^$all
+||real-software.org/software.exe^$all
+||104.193.255.90/win/infos.exe^$all
+||incotel.com.pk/10/data64_1.exe^$all
+||45.85.190.156/153/vbc.exe^$all
+||194.87.84.136/xampp/ILMerge.exe^$all
 ||194.87.84.136/wPQPj.exe^$all
 ||cdn.discordapp.com/attachments/976481542438264835/992626478745407488/lMAsOfd.exe^$all
 ||getmut-cleaner.online/GetmutCleaner.exe^$all
@@ -86,25 +108,3 @@
 ||fidelityptrust.com/loader/uploads/Dmqpaeolc_Bfyuzsew.jpg^$all
 ||37.0.11.164/loader/uploads/Renevct_Wbymcttp.jpg^$all
 ||ftuappz.com/loader/uploads/ucsvc_Rxvrxasd.bmp^$all
-||dalyshops.com/loader/uploads/services_Lygatolu.jpg^$all
-||golden-cheats.com/loader/uploads/MultiCheatInstaller_Uhhvzedr.bmp^$all
-||golden-cheats.com/loader/uploads/CheatInstaller_Ndtzqvil.jpg^$all
-||gunaymedya.com/loader/uploads/fi90_Hzfuhusz.jpg^$all
-||ngcgas.com/loader/uploads/202206071635_Vtdjsidc.bmp^$all
-||ngcgas.com/loader/uploads/202206071636_Hpklvzpq.bmp^$all
-||check-info-session1036.gq/loader/uploads/Lnfobkk_Avlchkpj.bmp^$all
-||dalyshops.com/loader/uploads/services_Wkcsonuf.bmp^$all
-||grabpflege-ettlingen.de/wps/loader/uploads/Uokhs_Vzpsosiz.jpg^$all
-||golden-cheats.com/loader/uploads/MultiCheatInstaller_Hjxqhlkx.png^$all
-||golden-cheats.com/loader/uploads/LoadRevMine_Dszhsxep.png^$all
-||37.0.11.164/loader/uploads/Renevct_Culaqtax.png^$all
-||37.0.11.164/loader/uploads/Renevct_Enjjwvuu.png^$all
-||37.0.11.164/loader/uploads/Renevct_Vsqzxplx.png^$all
-||cdn.discordapp.com/attachments/911606378152472639/911743998174060574/ChromeRecovery.exe^$all
-||151.106.2.139/epio.gif^$all
-||163.123.142.134/Mvppopw_Bbvrtmcq.png^$all
-||dalyshops.com/loader/uploads/services.exe^$all
-||dalyshops.com/loader/uploads/services_Fiwakjwd.jpg^$all
-||taspinarli-logistik.com/wps/loader/uploads/Gkvnei_Jnzxqtqq.png^$all
-||taspinarli-logistik.com/wps/loader/uploads/Hrrawg_Bksakskl.bmp^$all
-||2.56.57.22/Szzkx_Jlhaxwdp.png^$all
