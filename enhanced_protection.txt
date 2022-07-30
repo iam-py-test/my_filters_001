@@ -1,24 +1,22 @@
 ! Title: Enhanced website protection
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Description: This list aims to - when combined with an antimalware blocklist (like mine) - provide the highest protection I can offer by blocking commonly abused TLDs, along with a few other protections too extreme to put in my main list.
-! Note: This list may have false positives, and may be unusable for people who often visit domains using one of the blocked TLDs. I may make exclusions if I decide the site affected is not malicious. However, I will not fix issues with sites containing illegal content or pornography, or that lack any real content
+! Note: This list will have many false positives, and may be unusable for people who often visit domains using one of the blocked TLDs. I may make exclusions if I decide the site affected is not malicious.
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 ! Expires: 1 day
-! Last updated: 24/12/2021
+! Last updated: 30/7/2022
 
 ! Abused TLDs
 ||win^$document
 ||bid^$document
-||top^$doc,domain=~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top||monster^$document
+||top^$doc,domain=~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top
+||monster^$document,domain=~cloudcdn.monster
 ||ooo^$document
 ||loan^$document
 ||agency^$document
 ||fun^$document
 ||cricket^$document
-
-! A lot of malware and phishing domains use this (to test, visit "examplelegitdomain.com-somemalware.online" on a browser with this list active in uBo) - does not work
-||com-^$document
 
 ! fake copycats of legit websites which use the original website name as a subdomain
 ||google.com.^$document,domain=~google.com.au
