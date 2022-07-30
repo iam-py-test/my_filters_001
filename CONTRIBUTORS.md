@@ -1,4 +1,4 @@
-## CONTRIBUTORS
+## Contributors
 This project is currently maintained by [@iam-py-test](https://github.com/iam-py-test)
 ## I would like to thank
 - [@krystian3w](https://github.com/krystian3w) for contributing entries to at least two of my lists and helping fix issues
