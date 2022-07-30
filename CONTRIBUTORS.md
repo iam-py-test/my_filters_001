@@ -7,3 +7,4 @@ This project is currently maintained by [@iam-py-test](https://github.com/iam-py
 - [@austinhuang0131](https://github.com/austinhuang0131) and [@bbhtt](https://github.com/bbhtt) for reporting false positives
 - [Andrey Meshkov](https://github.com/ameshkov) and [@Yuki2718](https://github.com/Yuki2718) for helping me expand support to AdGuard
 - [@SilkArt](https://github.com/SilkArt) for reporting a domain to my Anti-Rickroll list
+- [@yokoffing](https://github.com/yokoffing) for reporting a false positive and a missing newline in [Issue 98](https://github.com/iam-py-test/my_filters_001/issues/98)
