@@ -2,11 +2,49 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter
 ! Script last updated: 5/4/2022
 ! Expires: 1 day
-! Last updated: 31/07/2022
+! Last updated: 03/08/2022
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Sun, 31 Jul 2022 20:30:31 +0000
+! Wed, 03 Aug 2022 20:31:40 +0000
+||jg.studio/vast.exe^$all
+||jg.studio/client-build.exe^$all
+||jg.studio/c.exe^$all
+||jg.studio/8.exe^$all
+||jg.studio/1.exe^$all
+||jg.studio/00000003.exe^$all
+||cleaning.homesecuritypc.com/packages/Gtonboc_Yvfnvcea.bmp^$all
+||vitalwbw.beget.tech/forecaster.exe^$all
+||208.67.105.125/vik/HENLOAD.txt^$all
+||208.67.105.125/vik/henwar.txt^$all
+||208.67.105.125/vik/ezzeee.txt^$all
+||208.67.105.125/vik/2.txt^$all
+||208.67.105.125/vik/ball.txt^$all
+||malanche.com/10/data64_5.exe^$all
+||malanche.com/15/data64_4.exe^$all
+||208.67.105.125/vik/blaq.txt^$all
+||208.67.105.125/vik/orf.txt^$all
+||208.67.105.125/vik/TMT.txt^$all
+||208.67.105.125/vik/chris.txt^$all
+||208.67.105.125/vik/BTC.txt^$all
+||208.67.105.125/vik/orde.txt^$all
+||208.67.105.125/vik/chef.txt^$all
+||208.67.105.125/vik/james.txt^$all
+||208.67.105.125/vik/abadd.txt^$all
+||208.67.105.125/vik/aristo.txt^$all
+||208.67.105.125/vik/felix.txt^$all
+||208.67.105.125/vik/roth.txt^$all
+||208.67.105.125/vik/zamanii.txt^$all
+||208.67.105.125/vik/eurro.txt^$all
+||208.67.105.125/vik/POPO.txt^$all
+||208.67.105.125/vik/AAXEL.txt^$all
+||208.67.105.125/vik/stubino.txt^$all
+||208.67.105.125/vik/saintserver.txt^$all
+||208.67.105.125/vik/DLLL.txt^$all
+||208.67.105.125/vik/barry.txt^$all
+||107.173.143.5/u/go6.exe^$all
+||107.173.143.5/o/f8t.exe^$all
+||cdn.discordapp.com/attachments/996431641453019227/1001193635217412207/crack.exe^$all
 ||212.192.246.234/Spread/8h6iubvHjq7R.exe^$all
 ||212.192.246.234/Spread/Cheats.exe^$all
 ||193.233.193.67/ItsJustACigarette.exe^$all
@@ -70,41 +108,3 @@
 ||37.0.11.164/loader/uploads/Renevct.exe^$all
 ||37.0.11.164/loader/uploads/Renevct.exe^$all
 ||37.0.11.164/loader/uploads/Renevct.exe^$all
-||193.169.255.115/coe/Pbwcinzft.exe^$all
-||190.123.44.138/loader/uploads/stealernew0330_Uevwjzic.jpg^$all
-||infinite-stars.net/files/clip.exe^$all
-||infinite-stars.net/files/drop.exe^$all
-||infinite-stars.net/files/vida.exe^$all
-||omongroup.co/load/loader/uploads/Aytsya_Xpxecdpp.png^$all
-||www.non-se.co/excel/Aytsya.exe^$all
-||www.sanipass-solutions.fr/wp-admin/pr/loader/uploads/MT_0132362_Akvemnoj.bmp^$all
-||www.sanipass-solutions.fr/wp-admin/pr/loader/uploads/Requests1250_Gbfotilx.png^$all
-||zdigs.cfd/loader/uploads/fi_Sflxarfl.bmp^$all
-||zdigs.cfd/Netcfg.exe^$all
-||file.runespectrals.com/1/ucsvc.exe^$all
-||www.sanipass-solutions.fr/wp-admin/zr/loader/uploads/BPL_1057230.exe^$all
-||37.0.11.164/loader/uploads/Renevct.exe^$all
-||193.233.191.16/QUOTE_REQUEST_Glgbfpoz.bmp^$all
-||46.23.109.174/boomclnr.exe^$all
-||37.0.11.164/loader/uploads/Renevct_Mmygcxyz.jpg^$all
-||37.0.11.164/loader/uploads/Renevct_Stmprdrq.png^$all
-||x.rune-spectrals.com/loader/uploads/mobsync_Pezfniwq.jpg^$all
-||carlinconstruct.com/fil/loader/uploads/Blmgps_Hzhieggj.png^$all
-||x.rune-spectrals.com/loader/uploads/ucsvc_Izecukop.jpg^$all
-||x.rune-spectrals.com/loader/uploads/iexpress_Mgjaftdn.png^$all
-||37.0.11.164/loader/uploads/Renevct_Arfqpwpw.jpg^$all
-||37.0.11.164/loader/uploads/Renevct_Rfhlzdhb.bmp^$all
-||185.29.10.116/780/vbc.exe^$all
-||ftuappz.com/loader/uploads/ucsvc_Ebauttfp.png^$all
-||37.0.11.164/loader/uploads/Renevct_Vjytakov.bmp^$all
-||37.0.11.164/loader/uploads/Renevct_Ozaneawj.bmp^$all
-||37.0.11.164/loader/uploads/Renevct_Ebtkglda.jpg^$all
-||185.53.46.95/8.exe^$all
-||195.2.70.25/checkit2_Pirwtlgr.jpg^$all
-||one.liteshare.co/download.php?id=Y0J70DH^$all
-||37.0.11.164/loader/uploads/Renevct_Ydpmzktx.bmp^$all
-||104.168.32.14/u/lux.exe^$all
-||cdn.discordapp.com/attachments/971484536036818975/985732852194902056/Git-2.25.0-64-bit_Casvomya.png^$all
-||file.runespectrals.com/1/ucsvc.exe^$all
-||lambweston.ga/g/Lueyuu_Vccerwpy.png^$all
-||lambweston.ga/g/Efcoi_Bagphryd.png^$all
