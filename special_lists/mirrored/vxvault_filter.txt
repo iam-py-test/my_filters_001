@@ -2,11 +2,21 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter
 ! Script last updated: 5/4/2022
 ! Expires: 1 day
-! Last updated: 03/08/2022
+! Last updated: 07/08/2022
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Wed, 03 Aug 2022 20:31:40 +0000
+! Sun, 07 Aug 2022 20:30:47 +0000
+||my-med.ga/o/Qsgywcm_Gflznlkz.jpg^$all
+||109.206.241.81/htdocs/gWRDK.exe^$all
+||wiwirdo.ac.ug/rc.exe^$all
+||wiwirdo.ac.ug/cc.exe^$all
+||wiwirdo.ac.ug/pm.exe^$all
+||wiwirdo.ac.ug/azne.exe^$all
+||marnersstyler.ug/zxcvb.exe^$all
+||marnersstyler.ug/asdfg.exe^$all
+||marnersstyler.ug/asdf.EXE^$all
+||marnersstyler.ug/zxcv.EXE^$all
 ||jg.studio/vast.exe^$all
 ||jg.studio/client-build.exe^$all
 ||jg.studio/c.exe^$all
@@ -98,13 +108,3 @@
 ||cracksmsa.ug/zxcvb.exe^$all
 ||my.cloudme.com/v1/ws2/:portable2022/:Setup_49/Setup.exe^$all
 ||cdn.discordapp.com/attachments/918234799016120353/993215540292243597/Mnr.exe^$all
-||134.195.138.33/.nCKx/zx.arm7^$all
-||134.195.138.33/.nCKx/zx.mips^$all
-||134.195.138.33/.nCKx/zx.x86^$all
-||91.218.67.131/reaper/reap.arm7^$all
-||91.218.67.131/reaper/reap.x86^$all
-||172.93.213.149/upload/simpledropper.exe^$all
-||github.com/steven02f/qqq/raw/main/copw.exe^$all
-||37.0.11.164/loader/uploads/Renevct.exe^$all
-||37.0.11.164/loader/uploads/Renevct.exe^$all
-||37.0.11.164/loader/uploads/Renevct.exe^$all
