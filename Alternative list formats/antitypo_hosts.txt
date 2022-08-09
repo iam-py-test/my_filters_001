@@ -4,7 +4,7 @@
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # Issues url: https://github.com/iam-py-test/my_filters_001/issues
 # GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-# Last updated: 7/6/2022
+# Last updated: 98/2022
 # If someone can confirm this, it can move to malware 
 # https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 # https://www.virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
@@ -289,3 +289,6 @@
 0.0.0.0 bleepingocmputer.com
 0.0.0.0 bleepingvomputer.com
 0.0.0.0 bleepingxomputer.com
+# I made a mistake and went to this domain
+0.0.0.0 forums.malwarebytes.co
+0.0.0.0 malwarebytes.co
