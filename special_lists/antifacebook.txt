@@ -1,21 +1,21 @@
-! Title: Anti-facebook
-! Expires: 1 day
-! Last updated: 20/10/2021
-! Description: Do you want to get rid of Facebook for good? This list should help, but you may need to delete your account first.
-facebook.com$all
-facebook.net$all
-fbsbx.com$all
-fbcdn.net$all
-static.xx.fbcdn.net$all
-connect.facebook.net$all
-www.facebook.com$all
-fb.com$all
-facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion$doc
-facebookcorewwwi.onion$all
+! Title: iam-py-test's Anti-facebook list
+! Expires: 2 days
+! Last updated: 30/8/2022
+! Description: Do you want to get rid of Facebook for good? This list might help, but you may need to delete your account first.
+||facebook.com^$all
+||facebook.net^$all
+||fbsbx.com^$all
+||fbcdn.net^$all
+||static.xx.fbcdn.net^$all
+||connect.facebook.net^$all
+||www.facebook.com^$all
+||fb.com^$all
+||facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion^$doc
+||facebookcorewwwi.onion^$all
 
 ! DuckDuckGo link to the company's Facebook page
 duckduckgo.com##li.about-profiles__item:has(a[href*="facebook.com"])
 
 ! Facebook links on websites
-www.ghacks.net##a.mr--6[href*="facebook.com"]
-www.merriam-webster.com##.hoverable.share-link.fb.ul-icon:has(#Share_Facebook)
+ghacks.net##a.mr--6[href*="facebook.com"]
+merriam-webster.com##.hoverable.share-link.fb.ul-icon:has(#Share_Facebook)
