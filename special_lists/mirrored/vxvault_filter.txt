@@ -2,11 +2,20 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter
 ! Script last updated: 5/4/2022
 ! Expires: 1 day
-! Last updated: 04/09/2022
+! Last updated: 06/09/2022
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Sun, 04 Sep 2022 04:13:56 +0000
+! Tue, 06 Sep 2022 20:32:50 +0000
+||85.209.88.29/nbmn.exe^$all
+||85.209.88.29/wevtutil.exe^$all
+||85.209.88.29/avicap32.exe^$all
+||103.114.163.185/431/vbc.exe^$all
+||rgyui.top/dl/build.exe^$all
+||derioswinf.org/vento/6523.exe^$all
+||host-coin-file-17.com/downloads/toolspab3.exe^$all
+||5.255.104.227/ad22b/a84eb.exe^$all
+||81.161.229.110/xampp/api.txt^$all
 ||ameis.andalanmutuenergi.com/home/Payment_Details.exe^$all
 ||172.86.75.33/C3J7N6F6X3P8I0I0M/17819203282122080878.bin^$all
 ||173.234.155.22/crypted.exe^$all
@@ -99,12 +108,3 @@
 ||flacnet.com/V2^$all
 ||185.17.0.52/bin^$all
 ||srv99775454.ultasrv.com/DoFPS.exe^$all
-||185.17.0.52/yuri.exe^$all
-||185.17.0.52/a.exe^$all
-||cdn.discordapp.com/attachments/994291092520435833/994300649011433592/Exotic.exe^$all
-||5.230.71.78/obi.exe^$all
-||dragonfruitting.com/cPWLd.exe^$all
-||dragonfruitting.com/GmHrS.exe^$all
-||files.catbox.moe/w41th3.jpg^$all
-||mistitis.ug/zxcvb.exe^$all
-||goldrush.ug/zxcv.EXE^$all
