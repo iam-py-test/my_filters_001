@@ -1,4 +1,5 @@
-import os
+import os,sys
+import datetime
 from publicsuffixlist import PublicSuffixList
 
 psl = PublicSuffixList()
@@ -9,23 +10,18 @@ list1 = """[Adblock Plus 2.0]
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
+! Script last updated: 14/9/2022
+! Last updated: {}
 ! Expires: 1 day
 
 ! Main blocking rules
 ||gdn^$document
-||win^$document
 ||bid^$document
-||top^$document,domain=~corriente.top
-||monster^$document
-||ooo^$document
-||loan^$document
-||agency^$document
-||download^$document
-||cricket^$document
+||loan^$documen
 
 ! Domain/url blocking rules (auto-generated)
-"""
-blockedtlds = ["gdn","win","bid","top","monster","ooo","loan","agency","download","cricket"]
+""".format(datetime.datetime.now().strftime("%d/%m/%y %H:%M"))
+blockedtlds = ["gdn","bid","loan"]
 
 lines = open("antimalware.txt").read().split("\n")
 for line in lines:
