@@ -2,11 +2,19 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter
 ! Script last updated: 12/9/2022
 ! Expires: 1 day
-! Last updated: 21/09/2022
+! Last updated: 22/09/2022
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Wed, 21 Sep 2022 04:27:40 +0000
+! Thu, 22 Sep 2022 04:22:02 +0000
+||manomav.com/12/TrdngAnr6339.exe^$all
+||manomav.com/12/TrdngAnlzr9949.exe^$all
+||manomav.com/12/TrdngAnlzr479932.exe^$all
+||manomav.com/12/TrdngAnlzr479112.exe^$all
+||manomav.com/12/TrdngAnlzr472032.exe^$all
+||84.38.130.219/233/vbc.exe^$all
+||194.38.23.170/loader/uploads/new.exe^$all
+||delicatedownload.co.uk/Geekbench-5.4.5-WindowsSetup.exe^$all
 ||192.3.136.187/288/vbc.exe^$all
 ||194.38.23.170/loader/uploads/new.exe^$all
 ||194.38.23.170/loader/uploads/new.exe^$all
@@ -100,11 +108,3 @@
 ||193.233.179.125/wSEFa.exe^$all
 ||f0655589.xsph.ru/crypt/build.exe^$all
 ||f0655589.xsph.ru/crypt/build%20(1).exe^$all
-||f0655589.xsph.ru/crypt/build%20(3).exe^$all
-||194.31.98.205/bins/aqua.mpsl^$all
-||lutanedukasi.co.id/wp-includes/hAiNVxLRl3ayBcV.exe^$all
-||real-software.org/software.exe^$all
-||104.193.255.90/win/infos.exe^$all
-||incotel.com.pk/10/data64_1.exe^$all
-||45.85.190.156/153/vbc.exe^$all
-||194.87.84.136/xampp/ILMerge.exe^$all
