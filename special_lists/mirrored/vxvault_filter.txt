@@ -2,11 +2,19 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter
 ! Script last updated: 12/9/2022
 ! Expires: 1 day
-! Last updated: 23/09/2022
+! Last updated: 26/09/2022
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Fri, 23 Sep 2022 04:24:26 +0000
+! Mon, 26 Sep 2022 04:33:27 +0000
+||185.17.0.86/clipcrypt.exe^$all
+||185.17.0.86/mine1cry.exe^$all
+||185.17.0.86/stelcrypt.exe^$all
+||51.161.11.58/aa.exe^$all
+||185.17.0.86/Dt0B1tdnixZl.exe^$all
+||delicatedownload.co.uk/Geekbench-5.4.5-WindowsSetup.exe^$all
+||185.17.0.86/blucy.exe^$all
+||194.38.23.170/loader/uploads/new.exe^$all
 ||178.20.45.52/pes.exe^$all
 ||178.20.45.52/sec/pes.exe^$all
 ||216.250.251.106/32/vbc.exe^$all
@@ -100,11 +108,3 @@
 ||dl.uploadgram.me/62dd5f63d89deg?raw^$all
 ||froniycj.beget.tech/0xjjjj.exe^$all
 ||102.37.220.234/htdocs/mBHKP.exe^$all
-||102.37.220.234/htdocs/mnjks.exe^$all
-||102.37.220.234/htdocs/DzXbP.exe^$all
-||102.37.220.234/htdocs/sBLQX.exe^$all
-||102.37.220.234/htdocs/bCXQP.exe^$all
-||185.174.101.246/1807.exe^$all
-||141.98.6.236/1337Traget/Rxvgxnss-1337x-4.exe^$all
-||141.98.6.236/1337Traget/Rxvgxnss-1337x-1.exe^$all
-||141.98.6.236/1337Traget/Rxvgxnss-1337x-2.exe^$all
