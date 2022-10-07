@@ -296,5 +296,5 @@ redd.close()
 
 # save debugging info
 debug_info = open("debug_info.md","w")
-debug_info.write("{}".format(json.dumps(alldomains)))
+debug_info.write("## Debug data\n```{}```".format(json.dumps(alldomains)))
 debug_info.close()
