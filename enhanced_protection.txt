@@ -10,7 +10,6 @@
 ! Abused TLDs
 ||win^$document
 ||bid^$document
-||top^$doc,domain=~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top
 ||monster^$document,domain=~cloudcdn.monster
 ||ooo^$document
 ||loan^$document
