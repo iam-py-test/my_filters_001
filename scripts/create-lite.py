@@ -6,7 +6,7 @@ psl = PublicSuffixList()
 
 list1 = """[Adblock Plus 2.0]
 ! Title: The malicious website blocklist (lite)
-! Description: I released that a lot of the domains in my antimalware list used the same TLDs, and those TLDs had almost no legit content. 
+! Description: A lighter version of The malicious website blocklist, which has no comments and blocks a few abused Top Level Domains
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
