@@ -6,7 +6,9 @@
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Fri, 07 Oct 2022 03:54:59 +0000
+! Fri, 07 Oct 2022 20:37:29 +0000
+||huntingknives.shop/crc/tyrird.exe^$all
+||193.31.116.239/crypt/public/Update_Downloads/DLL.exe^$all
 ||45.83.122.242/css/nlauncher.exe^$all
 ||45.83.122.242/css/avicap32.exe^$all
 ||45.83.122.242/css/wevtutil.exe^$all
@@ -106,5 +108,3 @@
 ||208.67.105.125/vik/zamanii.txt^$all
 ||208.67.105.125/vik/eurro.txt^$all
 ||208.67.105.125/vik/POPO.txt^$all
-||208.67.105.125/vik/AAXEL.txt^$all
-||208.67.105.125/vik/stubino.txt^$all
