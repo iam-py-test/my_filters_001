@@ -1,5 +1,6 @@
-"""Auto-create versions of my lists for other programs"""
-import json,sys
+"""Auto-create other formats of my lists"""
+import json
+import sys,os
 alldomains = {}
 allips = {}
 reddomains = []
