@@ -5,7 +5,7 @@ Please report any issues you have and I will try to fix them; please note I may 
 Thank you to all the people in https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for helping improve these filters<br>
 
 ### Some stats: 
-<a href="https://github.com/iam-py-test/my_filters_001/blob/main/stats.md"><img src="https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/totalentries.svg" width='130' height="20"></a><img src="https://img.shields.io/github/last-commit/iam-py-test/my_filters_001"> [![Update the alt lists](https://github.com/iam-py-test/my_filters_001/actions/workflows/test_commiter.yml/badge.svg)](https://github.com/iam-py-test/my_filters_001/actions/workflows/test_commiter.yml)
+<a href="https://github.com/iam-py-test/my_filters_001/blob/main/stats.md"><img src="https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/totalentries.svg" width='130' height="20"></a><img src="https://img.shields.io/github/last-commit/iam-py-test/my_filters_001"> [![Update the alt lists](https://github.com/iam-py-test/my_filters_001/actions/workflows/update_filterlists.yml/badge.svg)](https://github.com/iam-py-test/my_filters_001/actions/workflows/update_filterlists.yml)
 
 ## Filters in this repo
 
@@ -59,7 +59,7 @@ Thank you to all the people in https://github.com/iam-py-test/my_filters_001/blo
 - scams.txt (redundant, moved to antimalware.txt)
 - anti-cookie+sign up_extention.txt (had one purpose - to work with my custom scriptlets - but the website it was intended to work for changed cookie values to quickly for it to work)
 
-<br>The filters in the _Alternative list formats_ folder are versions of some of the lists above for different software. These are auto-generated, and thus updates to them must be made to the original list or [the Python script](https://github.com/iam-py-test/my_filters_001/blob/main/update.py) which generates them.<br>
+<br>The filters in the _Alternative list formats_ folder are versions of some of the lists above for different software. These are auto-generated, and thus updates to them must be made to the original list or [the Python script](https://github.com/iam-py-test/my_filters_001/blob/main/scripts/update.py) which generates them.<br>
 Everything not listed above, like the filters in the _Personal_ folder, is either completely forgotten by me, or is likely to break websites due to its purpose or lack of regulation. <br>
 
 
