@@ -14,33 +14,35 @@ malshare = ["virustotal.com","www.virustotal.com","support.virustotal.com","api.
 # nsfw
 nsfw = ["fullxh.com","megaxh.com","unlockxh4.com","xhamster46.com","xhday1.com","xhday.com","xhplanet1.com","xhtab2.com","xhwebsite.com","xhwide1.com","hamsterix.com"]
 # invalid syntax
-invalidsyntax = ["$$","$docment","$alll","^all","$docs","$scripted","|||","$alls","$documentall","$allall","$all$all","$all.","$docments","$doc$doc","|*$","$documentP","$window","$document$document","$$$"]
+invalidsyntax = ["$$","$docment","$alll","^all","$docs","$scripted","$alls","$documentall","$allall","$all$all","$all.","$docments","$doc$doc","|*$","$documentP","$window","$document$document"]
+
+legitdomains = gooddomains + hosting + social + urlshorteners + malshare + nsfw
 
 # the main text
-maintext = open("antimalware.txt","r",encoding="UTF-8").read()
-lines = maintext.split("\n")
+lines = open("antimalware.txt","r",encoding="UTF-8").read().split("\n")
 # a list of invalid lines/good domains found
 invalidlines = []
 # log
 log = ""
+totalscanned = 0
 
 for line in lines:
     if line.startswith("!"):
         continue
     try:
       domain = line.split("^$")[0][2:]
-      if domain in gooddomains or domain in hosting or domain in urlshorteners or domain in social or domain in malshare or domain in nsfw:
+      if domain in legitdomains:
         invalidlines.append(line)
         print("False positive detected: WARNING")
       for syntax in invalidsyntax:
         if syntax in line:
           invalidlines.append(line)
+      totalscanned += 1
     except:
       continue
 
 with open("invalidlines.md","w") as f:
-  f.write("## Lines detected by Lint")
+  f.write("## Lines detected by Lint (out of {})".format(totalscanned))
   for line in invalidlines:
     f.write("\n{}<br>".format(line))
   f.close()
-  
