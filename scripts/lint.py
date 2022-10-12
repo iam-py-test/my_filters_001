@@ -35,8 +35,6 @@ for line in lines:
       for syntax in invalidsyntax:
         if syntax in line:
           invalidlines.append(line)
-      if "$" in domain and "/" not in domain:
-        invalidlines.append(domain)
     except:
       continue
 
