@@ -253,7 +253,6 @@ except Exception as err:
   print(err)
 
 def mkJSON(file,altname):
-  import json
   all = json.dumps(allentries[file])
   with open(altname,"w") as f:
     f.write(all)
@@ -267,7 +266,6 @@ except Exception as err:
 def mkps_firewall_block(file,outfile):
   ips = allips[file]
   print(ips[0])
-  print(len(ips))
   print(ips[1])
   outf = open(outfile,'w')
   outf.write("echo \"PowerShell script for blocking malicious IPs in Windows Firewall\"\n")
@@ -284,13 +282,7 @@ def mkps_firewall_block(file,outfile):
 #except Exception as err:
 #  print(err)
 
-
 redd = open("reddomains.txt","w")
 for domain in reddomains:
   redd.write("{}\n".format(domain))
 redd.close()
-
-# save debugging info
-debug_info = open("debug_info.md","w")
-debug_info.write("## Debug data\n```{}```".format(json.dumps(alldomains)))
-debug_info.close()
