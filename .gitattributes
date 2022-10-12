@@ -1,1 +1,2 @@
-*.txt linguist-language=AdBlock
+[attr]adb   linguist-detectable linguist-language=AdBlock
+*.txt adb
