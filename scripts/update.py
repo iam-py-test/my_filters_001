@@ -1,4 +1,4 @@
-"""Auto-create other formats of my lists"""
+"""Automatically create other formats of my lists"""
 import json
 import sys,os
 alldomains = {}
@@ -53,7 +53,6 @@ def mkalt(file,alt):
       donedomains.append(line.split("$")[0].lower())
       alldomains[file].append(line.split("$")[0].lower())
 mkalt("antimalware.txt","antimalware_domains.txt")
-mkalt("porn.txt","porn_domains.txt")
 mkalt("antitypo.txt","antitypo_domains.txt")
 mkalt("clickbait.txt","clickbait_domains.txt")
 mkalt("anti-redirectors.txt","anti-redirectors_domains.txt")
@@ -103,7 +102,6 @@ def mkhosts(file,altname):
 
 mkhosts("antimalware.txt","Alternative list formats/antimalware_hosts.txt")
 mkhosts("antitypo.txt","Alternative list formats/antitypo_hosts.txt")
-mkhosts("porn.txt","Alternative list formats/porn_hosts.txt")
 mkhosts("anti-redirectors.txt","Alternative list formats/anti-redirectors_hosts.txt")
 
 def mkagh(file,altname):
@@ -189,7 +187,6 @@ def mkabp(file,altname):
                     
 try:
                     mkabp("antimalware.txt","Alternative list formats/antimalware_abp.txt")
-                    mkabp("porn.txt","Alternative list formats/porn_abp.txt")
                     mkabp("clickbait.txt","Alternative list formats/clickbait_abp.txt")
 except:
                     print("ABP error")
@@ -199,7 +196,6 @@ def mkpurehosts(file,altname):
       altfile.write("0.0.0.0 {}\n".format(domain))
   altfile.close()
 try:
-  mkpurehosts("porn.txt","Alternative list formats/porn_pure_hosts.txt")
   mkpurehosts("antimalware.txt","Alternative list formats/antimalware_pure_hosts.txt")
 except:
   print("Pure hosts error")
@@ -283,10 +279,10 @@ def mkps_firewall_block(file,outfile):
       outf.write("New-NetFirewallRule -DisplayName \"iam-py-test - Block outbound connections to this ip\" -Direction outbound -LocalPort Any -Protocol tcp -Action Block -RemoteAddress {}\nNew-NetFirewallRule -DisplayName \"iam-py-test - Block inbound connections from this ip\" -Direction Inbound -LocalPort Any -Protocol tcp -Action Block -RemoteAddress {}\n".format(ip,ip))
   outf.write("\n\necho \"All rules should have been added to the Windows Firewall\"\npause\n")
   outf.close()
-try:
-  mkps_firewall_block("antimalware.txt","Alternative list formats/antimalware_firewall_script.ps1")
-except Exception as err:
-  print(err)
+#try:
+#  mkps_firewall_block("antimalware.txt","Alternative list formats/antimalware_firewall_script.ps1")
+#except Exception as err:
+#  print(err)
 
 
 redd = open("reddomains.txt","w")
