@@ -18,6 +18,7 @@ Thank you to all the people in https://github.com/iam-py-test/my_filters_001/blo
 #### Automatically generated
 - DuckDuckGo Clean up (duckduckgo-clean-up.txt) - Generated from The malicious website blocklist
 - Everything in the _Alternative list formats_ folder
+- [The Malicious Website Blocklist lite](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_lite.txt)
 
 
 #### Not actively maintained but don't require frequent updates
@@ -66,9 +67,15 @@ Everything not listed above, like the filters in the _Personal_ folder, is eithe
 ## Other formats
 
 #### The malicious website blocklist
-- HOSTs format - https://github.com/iam-py-test/my_filters_001/blob/main/Alternative%20list%20formats/antimalware_hosts.txt
-- Domains only - https://github.com/iam-py-test/my_filters_001/blob/main/Alternative%20list%20formats/antimalware_domains.txt
-- AdBlock Plus format (not recommended) - https://github.com/iam-py-test/my_filters_001/blob/main/Alternative%20list%20formats/antimalware_abp.txt
+- HOSTs format - https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_hosts.txt
+- Domains only - https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_domains.txt
+- IP Addresses only - https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_ips.txt
+- AdGuard Windows/MacOS - https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_adguard_app.txt
+- AdGuard Home (untested) - https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_adguard_home.txt
+- dnsmasq (untested) - https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_dnsmasq.txt
+- JSON - https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_json.json
+- HOSTs format (no comments) - https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_pure_hosts.txt
+- AdBlock Plus format (not recommended) - https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_abp.txt
 
 #### Clickbait blocklist (unmaintained)
 - AdBlock Plus format - https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/clickbait_abp.txt
@@ -89,7 +96,7 @@ Everything not listed above, like the filters in the _Personal_ folder, is eithe
 
 #### Notes
 - The DuckDuckGo Clean Up list is auto-generated from duckduckgo-clean-up.template and the domains/ips versions of my antimalware list. Changes in Pull Requests should be made to either of those or the script which generates it
-- Google Safe Browsing reverse engineered and Microsoft Smartscreen reverse engineered _are not_ intended as lists of known malware domains, instead they are lists of domains/urls which are blocked by those services in an attempt to understand them and provide some of their protection to users of other browsers
+- Google Safe Browsing reverse engineered and Microsoft Smartscreen reverse engineered _are not_ intended as lists of known malware domains, instead they are lists of domains/urls which are blocked by those services in an attempt to understand them and provide some of their protection to users of other browsers. They are also rarely updated
 - All the up-to-date HOSTs versions use 0.0.0.0 instead of 127.0.0.1, as per [#87](https://github.com/iam-py-test/my_filters_001/issues/87)
 - The _domains_lite_ and _hosts_lite_ versions are unmaintained, however, the antimalware_lite is not
 - While the _Google Safe Browsing reverse engineered_ and _Microsoft Smartscreen reverse engineered_ lists can be installed on their own in uBlock Origin, _The malicious website blocklist - uBlock Origin extension_ can not as it is designed only to be included in _The malicious website blocklist_
