@@ -2,11 +2,19 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter. All credit to VXVault for finding these urls
 ! Script last updated: 12/9/2022
 ! Expires: 1 day
-! Last updated: 19/10/2022
+! Last updated: 20/10/2022
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Wed, 19 Oct 2022 04:28:28 +0000
+! Thu, 20 Oct 2022 20:39:29 +0000
+||103.145.253.70/clouddisk/vbc.exe^$all
+||45.139.105.159/files/UyyLYKV.exe^$all
+||45.139.105.159/files/FiNfBDd.exe^$all
+||198.23.187.168/210/vbc.exe^$all
+||111.90.151.174/5200.exe^$all
+||111.90.151.174/Ransomworm.exe^$all
+||111.90.151.174/Ransomware.exe^$all
+||111.90.151.174/5201.exe^$all
 ||cdn.discordapp.com/attachments/1028313498264023060/1029817776338116628/21N6t.exe^$all
 ||bitcoinpass.ru/whit/windll32.exe^$all
 ||bitcoinpass.ru/slf/windll32.exe^$all
@@ -100,11 +108,3 @@
 ||malanche.com/10/data64_5.exe^$all
 ||malanche.com/15/data64_4.exe^$all
 ||208.67.105.125/vik/blaq.txt^$all
-||208.67.105.125/vik/orf.txt^$all
-||208.67.105.125/vik/TMT.txt^$all
-||208.67.105.125/vik/chris.txt^$all
-||208.67.105.125/vik/BTC.txt^$all
-||208.67.105.125/vik/orde.txt^$all
-||208.67.105.125/vik/chef.txt^$all
-||208.67.105.125/vik/james.txt^$all
-||208.67.105.125/vik/abadd.txt^$all
