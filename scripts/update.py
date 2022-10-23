@@ -1,10 +1,19 @@
 """Automatically create other formats of my lists"""
 import json
 import sys,os
+import re
+
 alldomains = {}
 allips = {}
 reddomains = []
 allentries = {}
+
+# https://www.geeksforgeeks.org/how-to-validate-an-ip-address-using-regex/
+is_ip_v4 = "^((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\.){3}(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])$"
+is_ip_v6 = "((([0-9a-fA-F]){1,4})\\:){7}"\
+             "([0-9a-fA-F]){1,4}"
+is_ip_v4_reg = re.compile(is_ip_v4)
+is_ip_v6_reg = re.compile(is_ip_v6)
 
 def mkalt(file,alt):
   lines = open(file,encoding="UTF-8").read().split("\n")
@@ -12,12 +21,10 @@ def mkalt(file,alt):
   iponly = open("Alternative list formats/{}_ips.txt".format(file.split(".")[0]),"w",encoding="UTF-8")
   donedomains = []
   def isipdomain(domain):
-    try:
-      import socket
-      if socket.gethostbyname(domain) == domain:
-        return True
-    except:
-      pass
+    if re.search(is_ip_v4_reg,domain):
+      return True
+    if re.search(is_ip_v6_reg,domain):
+      return True
     return False
   alldomains[file] = []
   allips[file] = []
@@ -57,9 +64,6 @@ mkalt("antitypo.txt","antitypo_domains.txt")
 mkalt("clickbait.txt","clickbait_domains.txt")
 mkalt("anti-redirectors.txt","anti-redirectors_domains.txt")
 
-print(allips)
-print(alldomains)
-
 def mkhosts(file,altname):
   donedomains = []
   List = open(file,encoding="UTF-8").read().split("\n")
@@ -73,6 +77,8 @@ def mkhosts(file,altname):
   for line in List:
     if line.startswith("! Format notes:"):
       altfile.write('# Format notes: This format is designed for a system wide HOSTS file, and can also be used with tools that support this format. Not recommended for uBlock Origin or AdGuard\n')
+      continue
+    if line == "# Note: This list includes a version of VXVault.net's malware distribution url list, formatted for adblockers, which is at https://github.com/iam-py-test/vxvault_filter":
       continue
     if line.startswith("!"):
       altfile.write("#" + line[1:])
@@ -233,7 +239,6 @@ def mkadguard(file,altname):
         altfile.write("||{}^".format(domain))
         donedomains.append(domain)
     altfile.write("\n")
-
   
 try:
   mkadguard("antimalware.txt","Alternative list formats/antimalware_adguard_app.txt")
