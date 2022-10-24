@@ -87,12 +87,17 @@ Everything not listed above, like the filters in the _Personal_ folder, is eithe
 - Domains only (i.e. PiHole) - https://github.com/iam-py-test/my_filters_001/blob/main/Alternative%20list%20formats/porn_domains.txt
 - Pure (no comments) HOSTs format - https://github.com/iam-py-test/my_filters_001/blob/main/Alternative%20list%20formats/porn_pure_hosts.txt
 
-## Projects which use my lists (to my knowledge) 
+## Projects which use my lists (to my knowledge)
 - [pallebone's PersonalPiholeListsPAllebone](https://github.com/pallebone/PersonalPiholeListsPAllebone) uses the domains version of the malicious website blocklist
 - [eded333's TheF\*ckingList](https://github.com/eded333/TheFuckingList) uses the uBlock Origin version of the malicious website blocklist and the Anti-Norton Tracking list
 - [hagezi's DNS Blocklists](https://github.com/hagezi/dns-blocklists) use the domains version of the malicious website blocklist
 - [The oisd blocklist](https://oisd.nl) includes my antitypo list in their full list, and my Porn blocklist in their NSFW list
+## Mentions
+- [fynks's extension configuration](https://github.com/fynks/configs#extension-configs-)
+- [yokoffing's recommended lists](https://github.com/yokoffing/filterlists#security)
 
+
+These are not endorsements. 
 
 #### Notes
 - The DuckDuckGo Clean Up list is auto-generated from duckduckgo-clean-up.template and the domains/ips versions of my antimalware list. Changes in Pull Requests should be made to either of those or the script which generates it
