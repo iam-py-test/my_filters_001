@@ -30,6 +30,8 @@ def mkalt(file,alt):
   allips[file] = []
   allentries[file] = []
   for line in lines:
+    if line == '' or line.startswith("!") or line == '[Adblock Plus 2.0]' or "#" in line:
+      continue
     if len(line.split("^$")[0].split(".")) > 2:
       if isipdomain(line.split("^$")[0][2:]) == True:
         iponly.write(line.split("^$")[0][2:] + "\n")
@@ -49,8 +51,6 @@ def mkalt(file,alt):
         continue
       except:
         pass
-    if line == '' or line.startswith("!") or line == '[Adblock Plus 2.0]':
-      continue
     elif "/" in line and "|" in line:
       continue
     if line.split("$")[0] in donedomains:
@@ -60,6 +60,7 @@ def mkalt(file,alt):
       donedomains.append(line.split("$")[0].lower())
       alldomains[file].append(line.split("$")[0].lower())
 mkalt("antimalware.txt","antimalware_domains.txt")
+mkalt("antipup.txt","anti-pup_domains.txt")
 mkalt("antitypo.txt","antitypo_domains.txt")
 mkalt("clickbait.txt","clickbait_domains.txt")
 mkalt("anti-redirectors.txt","anti-redirectors_domains.txt")
