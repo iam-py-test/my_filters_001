@@ -216,3 +216,7 @@ bleepingvomputer.com
 bleepingxomputer.com
 forums.malwarebytes.co
 malwarebytes.co
+notepads-plus-plus.org
+thundersbird.org
+codevisualstudio.org
+braves-browsers.org
