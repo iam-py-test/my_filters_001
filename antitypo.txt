@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-! Last updated: 98/2022
+! Last updated: 25/10/2022
 
 ! If someone can confirm this, it can move to malware 
 ! https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
@@ -301,3 +301,12 @@ cookieslaw.org$doc
 ! I made a mistake and went to this domain
 ||forums.malwarebytes.co^$document
 ||malwarebytes.co^$document
+
+! https://github.com/VernonStow/Filterlist/commit/cb04d77547497a1cd211d2eac20f8af10de01a76 (all credit to https://github.com/VernonStow for finding these domains)
+! https://app.any.run/tasks/f204948b-3940-41d2-af50-b3db789d4ac3
+! https://www.virustotal.com/gui/file/e34575d69ee7a2c0231982d4c2e47edc9adbf7c9290caedd69ad7598a2ae759c (with junk data deleted)
+||notepads-plus-plus.org^$all
+! same file
+||thundersbird.org^$all
+||codevisualstudio.org^$all
+||braves-browsers.org^$all
