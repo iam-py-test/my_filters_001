@@ -1,0 +1,24 @@
+! Title: iam-py-test's anti-PUP list
+! Description: The purpose of this list is to block websites who only exist to promote PUPs or shady software, but which "should not" be blocked in The malicious website blocklist
+! Expires: 2 days
+! Homepage: https://github.com/iam-py-test/my_filters_001
+
+! TotalAV
+! https://safeweb.norton.com/report/show?url=https://www.safetydetectives.com/blog/speeding-up-your-pc/
+! https://www.mywot.com/scorecard/safetydetectives.com
+! Has link which redirects to hxxps://www.totalav[.]com/ultra-deal?exit which is a known fake AV
+||safetydetectives.com^$document
+||www.safetydetectives.com^$document
+! https://duckduckgo.com/?q=best+antivirus&ia=web without adblocker
+! Promotes PCProtect and TotalAV, along with other Protected net PUPs
+||trustedantiviruscompare.com^$document
+! Also promotes Protected net scams. Popups with coupons for TotalAV.
+! Reports TotalAV/PCProtect/Scanguard as best at everything
+||10bestantivirus.com^$document
+
+
+! SpyHunter (and others)
+! https://scammer.info/t/2-spyware-com-is-a-fake-technical-website/69836
+! promotes known PUPs i.e. Reimage, Spyhunter as 'solutions'. Better yet, they say 'you cannot remove every virus with only one security tool [...]  After trying Reimage, you should also run a free SpyHunter scanner'. Twice the PUPs, twice the fun?
+||2-spyware.com^$document
+||www.2-spyware.com^$document
