@@ -1,11 +1,6 @@
-try:
-  from datetime import date
-  currentdate = date.today()
-except:
-  import subprocess
-  subprocess.run("pip3 install datetime",shell=True)
-  from datetime import date
-  currentdate = date.today()
+from datetime import date
+currentdate = date.today()
+
 template = open("duckduckgo-clean-up.template")
 endfile = open("duckduckgo-clean-up.txt","w")
 maldomains = open("Alternative list formats/antimalware_domains.txt").read().split("\n")
