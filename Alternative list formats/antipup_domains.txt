@@ -9,7 +9,6 @@ download.wavebrowser.co
 wavebrowser.com
 dll-helper.en.softonic.com
 loadware.org
-google-analytics.com
 driver-soft.com
 outbyte.com
 testedforyou.net
