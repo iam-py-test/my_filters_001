@@ -30,7 +30,7 @@ def mkalt(file,alt):
   allips[file] = []
   allentries[file] = []
   for line in lines:
-    if line == '' or line.startswith("!") or line == '[Adblock Plus 2.0]' or "#" in line:
+    if line == '' or line.startswith("!") or line == '[Adblock Plus 2.0]' or "#" in line or "domain=" in line:
       continue
     if isipdomain(line.split("^$")[0][2:]) == True:
       iponly.write(line.split("^$")[0][2:] + "\n")
