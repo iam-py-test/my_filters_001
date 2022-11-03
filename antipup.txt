@@ -29,6 +29,8 @@ winaero.com##.widget:has([href="/fix-classic-issues-performance/"])
 ! promotes known PUPs i.e. Reimage, Spyhunter as 'solutions'. Better yet, they say 'you cannot remove every virus with only one security tool [...]  After trying Reimage, you should also run a free SpyHunter scanner'. Twice the PUPs, twice the fun?
 ||2-spyware.com^$document
 ||www.2-spyware.com^$document
+! Spyhunter is promoted often as a magic solution
+||malwareguide112.com^$document
 
 ! 'Wave browser' which is just a scummy version of Chrome
 ||googleads.g.doubleclick.net/aclk?sa=*&ai=*&ae=*&num=*&sig=*&nb=*&adurl=https://download.wavebrowser.co$all
