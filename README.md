@@ -9,14 +9,15 @@ Thank you to all the people in https://github.com/iam-py-test/my_filters_001/blo
 
 ## Filters in this repo
 
-**Need checksums for my lists? See checksums.txt for auto-generated SHA512 checksums**
+**Need checksums for my lists? See checksums.txt for auto-generated SHA256 checksums**
 
 
 #### Actively maintained
-- The malicious website blocklist (antimalware.txt) ([Subscribe](https://iam-py-test.github.io/add_list.html?id=2))
+- The malicious website blocklist (antimalware.txt) ([Subscribe](https://iam-py-test.github.io/add_list.html?id=2)) ([Without iam-py-test's anti-PUP list included](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_nopup.txt))
 
 #### Automatically generated
-- DuckDuckGo Clean up (duckduckgo-clean-up.txt) - Generated from The malicious website blocklist
+- DuckDuckGo Clean up (duckduckgo-clean-up.txt) - Generated from The malicious website blocklist and iam-py-test's anti-PUP list
+- Brave Search Clean up (brave-clean-up.txt) - Generated from The malicious website blocklist and iam-py-test's anti-PUP list
 - Everything in the _Alternative list formats_ folder
 - [The Malicious Website Blocklist lite](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_lite.txt)
 
@@ -24,7 +25,7 @@ Thank you to all the people in https://github.com/iam-py-test/my_filters_001/blo
 #### Not actively maintained but don't require frequent updates
 - [My anti-facebook list](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/antifacebook.txt)
 - [My Enhanced Protection list](https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt)
-- Anti-Norton tracking list (anti-norton-tracking.txt)
+- Anti-Norton tracking list HOSTs file (anti-norton-tracking.txt)
 
 
 #### Not frequently updated but still receive occasional updates
@@ -33,14 +34,12 @@ Thank you to all the people in https://github.com/iam-py-test/my_filters_001/blo
 - Annoyances (annoyances.txt)
 
 #### Extension lists which add onto my existing lists
-- [Google Safe Browsing reverse-engineered](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/google-safe-browsing-reverse-engineered.txt)
-- [Microsoft Smart Screen reverse-engineered](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/microsoft-smart-screen-reverse-engineered.txt)
 - [The malicious website blocklist - uBlock Origin extension](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/anti-malware-ubo-extension.txt)
+- [iam-py-test's anti-PUP list](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antipup.txt)
 
 #### Updated rarely but still technically supported
 - My anti-rickroll list (anti-rickroll-list.txt)
 - The clickbait blocklist (clickbait.txt) ([Subscribe](https://iam-py-test.github.io/add_list.html?id=4))
-
 
 #### Lists for testing syntax
 - Everything in the _Sandbox_ folder
@@ -52,6 +51,8 @@ Thank you to all the people in https://github.com/iam-py-test/my_filters_001/blo
 - The cleaner Tor list (cleaner-tor.txt)
 - The device privacy list (device_privacy.txt)
 - Anti-cookie-consent and paywalls list (anti-cookie+sign up.txt) ([Subscribe](https://iam-py-test.github.io/add_list.html?id=3))
+- [Google Safe Browsing reverse-engineered](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/google-safe-browsing-reverse-engineered.txt)
+- [Microsoft Smart Screen reverse-engineered](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/microsoft-smart-screen-reverse-engineered.txt)
 
 
 #### Dead lists which are not even complete
@@ -100,8 +101,9 @@ Everything not listed above, like the filters in the _Personal_ folder, is eithe
 These are not endorsements. 
 
 #### Notes
-- The DuckDuckGo Clean Up list is auto-generated from duckduckgo-clean-up.template and the domains/ips versions of my antimalware list. Changes in Pull Requests should be made to either of those or the script which generates it
+- The DuckDuckGo Clean Up list is auto-generated from duckduckgo-clean-up.template and the domains/ips versions of my antimalware list. Changes in Pull Requests should be made to either of those or the script which generates it. 
+- Like above, The Brave Search Clean Up list is auto-generated from brave-clean-up.template and the domains/ips versions of my antimalware list. Changes in Pull Requests should be made to either of those or the script which generates it.
 - Google Safe Browsing reverse engineered and Microsoft Smartscreen reverse engineered _are not_ intended as lists of known malware domains, instead they are lists of domains/urls which are blocked by those services in an attempt to understand them and provide some of their protection to users of other browsers. They are also rarely updated
 - All the up-to-date HOSTs versions use 0.0.0.0 instead of 127.0.0.1, as per [#87](https://github.com/iam-py-test/my_filters_001/issues/87)
-- The _domains_lite_ and _hosts_lite_ versions are unmaintained, however, the antimalware_lite is not
-- While the _Google Safe Browsing reverse engineered_ and _Microsoft Smartscreen reverse engineered_ lists can be installed on their own in uBlock Origin, _The malicious website blocklist - uBlock Origin extension_ can not as it is designed only to be included in _The malicious website blocklist_
+- The _domains_lite_ and _hosts_lite_ versions are unmaintained as they took too much time to create and the script(s) which made them have been lost to history, however, the antimalware_lite is not
+- _The malicious website blocklist - uBlock Origin extension_ should not be installed on it's own as it is designed only to be included in _The malicious website blocklist_
