@@ -1,11 +1,6 @@
-try:
-  from datetime import date
-  currentdate = date.today()
-except:
-  import subprocess
-  subprocess.run("pip3 install datetime",shell=True)
-  from datetime import date
-  currentdate = date.today()
+from datetime import date
+currentdate = date.today()
+
 template = open("brave-clean-up.template")
 endfile = open("brave-clean-up.txt","w")
 maldomains = open("Alternative list formats/antimalware_domains.txt").read().split("\n")
