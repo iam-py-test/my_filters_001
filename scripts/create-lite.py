@@ -10,7 +10,7 @@ list1 = """[Adblock Plus 2.0]
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-! Script last updated: 7/10/2022
+! Script last updated: 4/11/2022
 ! Last updated: {}
 ! Expires: 1 day
 
@@ -20,7 +20,7 @@ list1 = """[Adblock Plus 2.0]
 ||loan^$document
 
 ! Domain/url blocking rules (auto-generated)
-""".format(datetime.datetime.now().strftime("%d/%m/%y %H:%M"))
+""".format(datetime.datetime.now().strftime("%d/%m/%y"))
 blockedtlds = ["gdn","bid","loan"]
 
 lines = open("antimalware.txt").read().split("\n")
