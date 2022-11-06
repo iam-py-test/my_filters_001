@@ -2,7 +2,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results
 ! Expires: 1 day
 ! Last updated: 3/11/2022
-! Last auto-generated: 04/11/2022
+! Last auto-generated: 06/11/2022
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -4147,6 +4147,10 @@ search.brave.com##div.fdb.snippet:has(a[href*="://software-plus.space"])
 search.brave.com##div.fdb.snippet:has(a[href*="://centrica.com--otquhaigsms9dovxnoxmotquhaigsms9dovxnoxm--5709331927445963.ayllur.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://51051767719--5105176771951051767719--5105176771951051767719.skylightsurgical.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://clipper.guru"])
+search.brave.com##div.fdb.snippet:has(a[href*="://photo.1pmoc.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://1pmoc.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://monkey.redirectmaster.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://xe2w.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://adublock.net"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublockerext.com"])
