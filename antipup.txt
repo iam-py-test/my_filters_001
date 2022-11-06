@@ -1,6 +1,6 @@
 ! Title: iam-py-test's anti-PUP list
 ! Description: The purpose of this list is to block websites who only exist to promote PUPs or shady software, but which "should not" be blocked in The malicious website blocklist
-! Last updated: 3/11/2022
+! Last updated: 6/11/2022
 ! Expires: 5 days
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 
@@ -50,6 +50,12 @@ winaero.com##.widget:has([href="/fix-classic-issues-performance/"])
 ! https://github.com/iam-py-test/investigations/blob/main/2021/11/13/1.md
 ||chrome.google.com/webstore/detail/zeta-adblock/okfdbakkmcdmbmfnjeiifakgjgdfhddf^$document
 ||docs.google.com/document/d/1FS7-6-nEO4nVv8fqhbbS_4kSIBRg0Uy54Gx7ErDS6cg/edit^$all
+
+! The makers of such wonderful programs like "Driver Genius 22" and "PC Cleaner"
+||avanquest.com^$document
+||www.avanquest.com^$document
+
+! ---- hide PUPs ----
 
 ! copied over from https://github.com/DandelionSprout/adfilt/blob/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt which is maintained by https://github.com/DandelionSprout. This content has not been modified
 ! ——— Links to PC "optimising" "tool" PUPs that'll most likely stuff your PC full of nagware and malware ———
