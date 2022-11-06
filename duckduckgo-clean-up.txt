@@ -39,6 +39,8 @@ duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaf
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.result:has(a[href*="://avanquest.com"])
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*="://www.avanquest.com"])
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.result:has(a[href*="://www.avanquest.com"])
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*="://webtools.avanquest.com"])
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.result:has(a[href*="://webtools.avanquest.com"])
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*="://loadware.org"])
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.result:has(a[href*="://loadware.org"])
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*="://driver-soft.com"])

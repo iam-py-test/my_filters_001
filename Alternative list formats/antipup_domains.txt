@@ -11,6 +11,7 @@ wavebrowser.com
 dll-helper.en.softonic.com
 avanquest.com
 www.avanquest.com
+webtools.avanquest.com
 loadware.org
 driver-soft.com
 outbyte.com
