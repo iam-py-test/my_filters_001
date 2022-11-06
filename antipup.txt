@@ -55,8 +55,9 @@ winaero.com##.widget:has([href="/fix-classic-issues-performance/"])
 ! The makers of such wonderful programs like "Driver Genius 22" and "PC Cleaner"
 ||avanquest.com^$document
 ||www.avanquest.com^$document
+||webtools.avanquest.com^$document
 
-! ---- hide PUPs ----
+! --- Removing already-blocked PUPs from websites ---
 
 ! copied over from https://github.com/DandelionSprout/adfilt/blob/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt which is maintained by https://github.com/DandelionSprout. This content has not been modified
 ! ——— Links to PC "optimising" "tool" PUPs that'll most likely stuff your PC full of nagware and malware ———
@@ -184,7 +185,6 @@ dll-found.com#?#p:has(a[href*=tweakbit])
 ! ¤¤¤ "DLL Helper" ¤¤¤
 azdll.net##.dllhelper-banner
 
-! --- Removing already-blocked PUPs from websites ---
 
 ! Download.com - this currently leaves random blank squares on the page
 download.cnet.com,download.com##div.c-productCard-simple.u-flexbox-column.c-productCard:has-text(/Advanced SystemCare Free/i)
