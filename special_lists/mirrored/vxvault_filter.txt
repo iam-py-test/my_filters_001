@@ -2,11 +2,14 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter. All credit to VXVault for finding these urls
 ! Script last updated: 10/11/2022
 ! Expires: 1 day
-! Last updated: 10/11/2022
+! Last updated: 11/11/2022
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Thu, 10 Nov 2022 20:32:43 +0000
+! Fri, 11 Nov 2022 12:10:40 +0000
+||istanbulyazilim.net/fh28fu490fiu42.kdfd^$all
+||istanbulyazilim.net/1255321213.yutoiop^$all
+||cdn.discordapp.com/attachments/1034566764819918851/1040422829100892231/GameLauncher.exe^$all
 ||cdn.discordapp.com/attachments/963158858975559760/998699040013307994/Final4942080.exe^$all
 ||cdn.discordapp.com/attachments/1037798440857505884/1037798662920732682/dmi17n.exe^$all
 ||ezisc.com/dmi1dfg7n.iujgy^$all
@@ -105,6 +108,3 @@
 ||193.31.116.239/crypt/public/Update_Downloads/rt.jpg^$all
 ||79.110.62.66/push/git/pushprocess.exe^$all
 ||84.38.135.157/223/vbc.exe^$all
-||85.209.88.29/nbmn.exe^$all
-||85.209.88.29/wevtutil.exe^$all
-||85.209.88.29/avicap32.exe^$all
