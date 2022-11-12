@@ -183,8 +183,8 @@
 # another Grabify site
 0.0.0.0 joinmy.site
 # https://www.reddit.com/r/uBlockOrigin/comments/rwzdvk/ublock_is_blocking_the_livestream_as_well_as/
-0.0.0.0 cdrvrs.com^
-0.0.0.0 ahscdn.com^
+
+
 # hxxp://usheethe[.]com/p9Ei
 0.0.0.0 usheethe.com
 # https://quttera.com/detailed_report/mastodon.top
