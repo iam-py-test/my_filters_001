@@ -45,6 +45,7 @@ def mkalt(file,alt):
       try:
         print(line.split("^$"))
         domain = idna.encode(line.split("^$")[0][2:].lower()).decode()
+        print(domain,line.split("^$")[0][2:].lower())
         alt.write("{}\n".format(domain))
         if domain in donedomains:
           reddomains.append(line.split("$")[0])
