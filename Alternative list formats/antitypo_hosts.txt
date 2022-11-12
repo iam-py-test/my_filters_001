@@ -4,7 +4,7 @@
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # Issues url: https://github.com/iam-py-test/my_filters_001/issues
 # GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-# Last updated: 29/10/2022
+# Last updated: 12/11/2022
 # If someone can confirm this, it can move to malware 
 # https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 # https://www.virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
@@ -81,9 +81,9 @@
 # https://www.scamner.com/check/irs.guv
 0.0.0.0 irs.guv
 # Look-alikes using non-ascii
-0.0.0.0 discōrd.com
 0.0.0.0 xn--discrd-egb.com
-0.0.0.0 rėddit.com
+0.0.0.0 xn--discrd-egb.com
+0.0.0.0 xn--rddit-6za.com
 0.0.0.0 xn--rddit-6za.com
 # https://www.virustotal.com/gui/user/Site.safetychecker
 # https://www.virustotal.com/gui/url/7108cfe6953cab08696ae1f9ab2c777b749fb53e7beb5c003756ea522c880f17/detection
