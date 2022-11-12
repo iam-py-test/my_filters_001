@@ -2,6 +2,7 @@
 import json
 import sys,os
 import re
+import idna
 
 alldomains = {}
 allips = {}
@@ -42,7 +43,7 @@ def mkalt(file,alt):
       continue
     if line.startswith("||") and "/" not in line and "^" in line:
       try:
-        domain = line.split("^$")[0][2:].lower()
+        domain = idna.encode(line.split("^$")[0][2:].lower())
         alt.write("{}\n".format(domain))
         donedomains.append(domain)
         alldomains[file].append(domain)
@@ -84,7 +85,7 @@ def mkhosts(file,altname):
       altfile.write("#" + line[1:])
     elif line.startswith("||") and "/" not in line and "^" in line:
       try:
-        domain = line.split("^$")[0][2:].lower()
+        domain = idna.encode(line.split("^$")[0][2:].lower()).decode()
         if isipdomain(domain) != True:
           altfile.write("0.0.0.0 {}\n".format(domain))
           donedomains.append(domain)
