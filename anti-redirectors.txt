@@ -4,11 +4,10 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Please report false positives & unblocked domains to me using the GitHub or GitLab (urls below). Thanks!
 ! Expires: 1 day
-! Last updated: 6/11/2022
+! Last updated: 12/11/2022
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 ! If you want shorter urls, check out DandelionSprout's Actually Legitimate URL Shortener Tool at https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
-
 
 ! Google redirects
 ||google.*/url?$document
@@ -18,106 +17,105 @@
 ! URL shorteners
 ! http://www.surbl.org/tld
 ! https://www.mywot.com/scorecard/x.co
-x.co$document
+||x.co^$document
 ! https://www.mywot.com/scorecard/bitly.com
 ! https://www.mywot.com/scorecard/bit.ly
-bit.ly$document
+||bit.ly^$document
 ! https://www.mywot.com/scorecard/bit.do
-bit.do$document
+||bit.do^$document
 ! https://www.mywot.com/scorecard/ow.ly
-ow.ly$document
+||ow.ly^$document
 ! https://www.mywot.com/scorecard/goo.gl
 ! Has been shutdown by google but old links will still work - see https://developers.googleblog.com/2018/03/transitioning-google-url-shortener.html
-goo.gl$document
+||goo.gl^$document
 ! https://www.mywot.com/scorecard/rebrand.ly
-rebrand.ly$document
+||rebrand.ly^$document
 ! https://www.mywot.com/scorecard/tinyurl.com
-tinyurl.com$document
-! https://www.mywot.com/scorecard/t.co
-t.co$document
+||tinyurl.com^$document
+! https://www.mywot.com/scorecard/t.co - breaks Twitter links
+||t.co^$document
 ! https://www.mywot.com/scorecard/is.gd
-is.gd$document
+||is.gd^$document
 ! https://www.mywot.com/scorecard/ht.ly
 ! https://www.virustotal.com/gui/url/622b404a5a4800592ffcf7ed931af3fe700b03453d7c2c0549db932c2c1def56/community
-ht.ly$all
+||ht.ly^$all
 ! https://github.com/DandelionSprout/adfilt/issues/191
-rb.gy$document
+||rb.gy^$document
 ! https://github.com/uBlockOrigin/uAssets/issues/7636#issuecomment-831362259
 ! https://www.virustotal.com/gui/url/f76ff730e3eed94c7285ffd57e9e2e97c33e83f3b94690fd765fea325aea9acc/detection
 ! https://www.mywot.com/scorecard/href.li
-href.li$document
+||href.li^$document
 ! https://www.reddit.com/r/uBlockOrigin/comments/nsi67q/shortner_detected_ublock_origin/
 ! https://www.mywot.com/scorecard/link1s.com
 ! https://www.virustotal.com/gui/url/0eec678febb448dd69296061732d621acc6f409418c6e5dee961ddc1f3264c81/detection
 ! https://sitecheck.sucuri.net/results/link1s.com
 ! https://yandex.com/safety/?url=https%3A%2F%2Flink1s.com%2Fw9NR0gIK
-link1s.com$document
+||link1s.com^$document
 ! https://github.com/easylist/easylist/issues/8041
-urlshortx.com$document
+||urlshortx.com^$document
 ! https://www.businessonhome.com/best-url-shortener-to-earn-money/#8019
-Exe.io$document
-fc.lc$document
-shrinkme.io$document
-ouo.io$document
-clk.sh$document
-Shrink.Pe$document
-Al.ly$document
+||Exe.io^$document
+||fc.lc^$document
+||shrinkme.io^$document
+||ouo.io^$document
+||clk.sh^$document
+||Shrink.Pe^$document
+||Al.ly^$document
 ! https://safeweb.norton.com/reviews?url=adfoc.us
-adfoc.us$document
+||adfoc.us^$document
 ! https://www.mywot.com/en/scorecard/shorte.st
-shorte.st$document
+||shorte.st^$document
 ! https://www.mywot.com/en/scorecard/www.linkbucks.com
 ! https://safeweb.norton.com/reviews?url=linkbucks.com
-www.linkbucks.com$document
-linkbucks.com$document
+||www.linkbucks.com^$document
+||linkbucks.com^$document
 ! AdGuard redirects
 ||adguardteam.github.io/AnonymousRedirect/redirect.html$document
 ! https://github.com/iam-py-test/my_filters_001/commit/a715b1c437506b43e73c64a328acc715ab1d0f30
-git.io$document
+||git.io^$document
 ! https://twitter.com/infowebica/status/1402895823244083200
 ! https://www.virustotal.com/gui/domain/buff.ly/community
 ! https://www.mywot.com/scorecard/buff.ly
-buff.ly$document
+||buff.ly^$document
 ! https://www.mywot.com/scorecard/go.microsoft.com
-go.microsoft.com$document
+||go.microsoft.com^$document
 ! https://github.com/404-not-find/urlshorten
 ! https://www.mywot.com/scorecard/t.cn
 ! https://www.virustotal.com/gui/url/13837bdd9a599156270ae6ce6cd6c0234404a0a50a52f32d0eb5ef04be95c9bf/community
-t.cn$document
+||t.cn^$document
 ! https://www.virustotal.com/gui/ip-address/47.95.48.149/relations
 ! https://www.mywot.com/scorecard/sinaurl.cn
-sinaurl.cn$document
+||sinaurl.cn^$document
 
 ! internal Amazon URL shortener - https://www.virustotal.com/gui/url/7e815c5445c740bc53f6046d3c5b99be664aaedd8536e5c4ed57ec14e64b2ef4/details
-a.co$document
+||a.co^$document
 
-! Malware infections - you can use https://redirectdetective.com to find out where the links go if you must use them
 ! https://safeweb.norton.com/reviews?url=adf.ly
 ! https://www.virustotal.com/gui/url/f3c346224a877b6085292a47c0fc0fc894cdfad6ab5da9cba25051c8a8013247/community
 ! https://www.mywot.com/scorecard/adf.ly
 ! https://yandex.com/safety/?url=adf.ly
 ! https://transparencyreport.google.com/safe-browsing/search?url=adf.ly
-adf.ly$all
+||adf.ly^$document
 
 ! DuckDuckGo redirects - https://help.duckduckgo.com/duckduckgo-help-pages/results/rduckduckgocom/
-r.duckduckgo.com$document
+||r.duckduckgo.com^$document
 
 ! https://search.norton.com
 ! https://www.mywot.com/scorecard/redirect.viglink.com
-redirect.viglink.com$document
+||redirect.viglink.com^$document
 ! https://redirectdetective.com
 ! https://www.mywot.com/scorecard/jdoqocy.com
-www.jdoqocy.com$document
-jdoqocy.com$document
+||www.jdoqocy.com^$document
+||jdoqocy.com^$document
 
 ! https://www.fortinet.com/blog/threat-research/phishing-malware-hijacks-bitcoin-addresses-delivers-new-agent-tesla-variant
 ! https://www.virustotal.com/gui/url/e0c1c1858c2679487ba451286088389d8a52d7266789adccc32e85e61780fa8e/community
 ! https://www.mywot.com/scorecard/j.mp
-j.mp$document
-www.j.mp$document
+||j.mp^$document
+||www.j.mp^$document
 
 ! https://github.com/iam-py-test/my_filters_001/issues/75
-dommania.pl$document
+||dommania.pl^$document
 
 ! https://www.virustotal.com/gui/user/Placebo
 ! https://www.virustotal.com/gui/url/0a7e3c54cdc88722b78adb9865cfddc971b0d86502811cc359be1ac59b83916e/detection
@@ -129,36 +127,33 @@ dommania.pl$document
 ! https://safeweb.norton.com/reviews?url=s.id
 ! https://sitecheck.sucuri.net/results/s.id
 ! https://www.phishtank.com/phish_detail.php?phish_id=6278726
-s.id$document
+||s.id^$document
 
 ! https://github.com/piperun/iploggerfilter/issues/47
 ! https://www.virustotal.com/gui/url/49b118a93053088dbd17c5fba17ec669fdd5a8006763ebd06e3f9279bf4afa8b/community
 ! https://www.mywot.com/scorecard/tiny.cc
 ! https://www.siteadvisor.com/sitereport.html?url=tiny.cc
-tiny.cc$document
+||tiny.cc^$document
 
 ! https://www.mywot.com/scorecard/cutt.ly
-cutt.ly$document
-
-! https://duckduckgo.com/?q=url+shortener+free&ia=web
-www.urlday.com$document
+||cutt.ly^$document
 
 ! https://www.mywot.com/scorecard/rebrandly.com
-rebrandly.com$document
+||rebrandly.com^$document
 
-! https://mywplife.com/software/url-shorteners/
-prettylinks.com$document
-www.bl.ink$document
+! hxxps://mywplife.com/software/url-shorteners/
+||prettylinks.com^$document
+||www.bl.ink^$document
 ! https://www.mywot.com/scorecard/snip.ly
 ! https://www.virustotal.com/gui/url/36bb85670e9c603bd41f688db1a3caa1ba5555c790abc621198a0e2b2b2ac590/detection
-snip.ly$document
+||snip.ly^$document
 ! mywplife.com redirects
 ||mywplife.com/out/$document
 ! https://www.virustotal.com/gui/url/d4bd72283480a00bdabbcc5f35234506988584de62ec047f4ce14059811b160f/detection
 ! https://www.mywot.com/scorecard/itsssl.com
 ! https://safeweb.norton.com/report/show?url=itsssl.com
 ! https://sitereport.netcraft.com/?url=https://itsssl.com/
-itsssl.com$document
+||itsssl.com^$document
 
 ! https://app.any.run/tasks/76c0a010-75ff-4feb-a863-69bc7e4c588a/
 ||youtube.com/redirect$document
@@ -167,7 +162,7 @@ itsssl.com$document
 ! https://www.virustotal.com/gui/url/3b7c6053f8697f7d9279ce2d12347cde3e91f13e271dca0c811ddce473af3717/community
 ! https://www.mywot.com/scorecard/v.ht
 ! https://safeweb.norton.com/reviews?url=v.ht
-v.ht$document
+||v.ht^$document
 
 ! Amazon redirections
 ||amazon.com/gp/redirect.html/$document
@@ -187,25 +182,25 @@ v.ht$document
 ! https://www.mywot.com/scorecard/iplogger.org
 ! https://safeweb.norton.com/reviews?url=iplogger.org
 ! Found in a lot of malware
-iplogger.org$document
+||iplogger.org^$document
 ! Another varation
 ! https://www.virustotal.com/gui/url/666cbd470e33070bbad62d9e92af4d80dad15e4136fcbdea6a364c38245b2d75/community
-iplogger.com$all
+||iplogger.com^$all
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1490207
-go.skimresources.com$document
+||go.skimresources.com^$document
 
 ! https://github.com/mitchellkrogza/phishing/pull/81
-sniffip.com$document
+||sniffip.com^$document
 
 ! https://github.com/easylist/easylist/issues/9445
-kqzyfj.com$doc
+||kqzyfj.com^$doc
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7206#issuecomment-963032500
-adshrink.it$doc
+||adshrink.it^$doc
 
 ! https://github.com/uBlockOrigin/uAssets/issues/3309
-vinaurl.in$doc
+||vinaurl.in^$doc
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1741570
 ||trk.klclick1.com^$doc
@@ -228,8 +223,8 @@ vinaurl.in$doc
 ||joinmy.site^$doc
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/rwzdvk/ublock_is_blocking_the_livestream_as_well_as/
-||cdrvrs.com^
-||ahscdn.com^
+||cdrvrs.com^$doc
+||ahscdn.com^$doc
 
 ! hxxp://usheethe[.]com/p9Ei
 ||usheethe.com^$document
