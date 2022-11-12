@@ -4,16 +4,16 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-! Last updated: 29/10/2022
+! Last updated: 12/11/2022
 
 ! If someone can confirm this, it can move to malware 
 ! https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 ! https://www.virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
 ! https://www.virustotal.com/gui/domain/xn--gogle-jua.com/detection
-xn--gogle-jua.com$all
+||xn--gogle-jua.com^$all
 ! https://www.mywot.com/scorecard/vrustotal.com
 ! https://safeweb.norton.com/report/show?url=vrustotal.com
-vrustotal.com$document
+||vrustotal.com^$document
 ! https://www.virustotal.com/gui/url/eb8b44eb62e50f576631d087eec719a2e12b34272ad03e04c2356a547e6896be/community
 ! https://www.virustotal.com/gui/domain/googlec.om/detection
 ! https://www.siteadvisor.com/sitereport.html?url=http%3A%2F%2Fgooglec.om
@@ -22,245 +22,245 @@ vrustotal.com$document
 ! https://sitecheck.sucuri.net/results/googlec.om
 ! https://safeweb.norton.com/reviews?url=googlec.om
 ! Can not resolve host but might come back some day
-googlec.om$all
+||googlec.om^$all
 ! https://www.virustotal.com/gui/url/f044015cf97b2475c569b46c7dc45b152ecd991ff365facd5c9a15cdfdeb8f68/detection
 ! https://www.urlvoid.com/scan/accountgoogle.com/
 ! https://www.mywot.com/scorecard/accountgoogle.com
-accountgoogle.com$all
-accountsgoogle.net$all
-googlesignin.xyz$all
-signingoogle.xyz$all
-logingoogle.xyz$all
+||accountgoogle.com^$all
+||accountsgoogle.net^$all
+||googlesignin.xyz^$all
+||signingoogle.xyz^$all
+||logingoogle.xyz^$all
 ! https://www.virustotal.com/gui/url/2778a0b6162e8c14ed450dda8aa6c32486a6c7a8c224e940e7fb41be39816fc4/detection
-malwarebytes.xyz$doc
+||malwarebytes.xyz^$doc
 !!! w3school.com$document
 ! https://github.com/easylist/easylist/pull/7950
 ! https://www.siteadvisor.com/sitereport.html?url=xozilla.com
 !!! xozilla.com$all
 ! https://sitecheck.sucuri.net/results/bit.lu
-bit.lu$doc
+||bit.lu^$doc
 ! https://www.mywot.com/scorecard/alwarebytes.com
-alwarebytes.com$document
+||alwarebytes.com^$document
 ! inkbunny[.]net typosquatt
-inkbunny.xyz$document
+||inkbunny.xyz^$document
 ! duckDuckGo typosquatt - https://www.fortiguard.com/webfilter?q=dukduckgo.com&version=8
-dukduckgo.com$document
+||dukduckgo.com^$document
 ! https://blog.dynamoo.com/2011/04/alisa-cartercom-lizamooncom-and-worid.html
 ! https://safeweb.norton.com/report/show?url=google-1aa.com
-google-1aa.com$all
+||google-1aa.com^$all
 ! https://safeweb.norton.com/report/show?url=googlesite.ws
-googlesite.ws$document
+||googlesite.ws^$document
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85224
-www.youtubewon.com$document
-youtubewon.com$document
+||www.youtubewon.com^$document
+||youtubewon.com^$document
 ! https://www.reddit.com/r/mildlyinfuriating/comments/nc9zpe/got_a_paypal_or_should_i_say_paypl_phishing_email/
 ! https://www.virustotal.com/gui/url/e604fa0374dbbceefaf7190bd7aa649561dfc19ff49af443d8931df40e1e1f43/detection
-paypl.com$all
-paypal.xyz$document
+||paypl.com^$all
+||paypal.xyz^$document
 ! https://www.virustotal.com/gui/url/4531df5b01e2c58f9307fabecc9a17b03c6157bafc8e9af736b278e95c182dc5/detection
-payapl.com$all
+||payapl.com^$all
 ! https://www.virustotal.com/gui/url/2b0a3525bf412601e1acea8f7ee1eb0627df843d58e2d10553ea5a81d4ba26be/detection
 ! https://www.siteadvisor.com/sitereport.html?url=cchase.com
-cchase.com$document
+||cchase.com^$document
 ! https://www.virustotal.com/gui/url/6d9e9d347f3578fe8fea973820a40a0ab760165e613af323b4a025dee339c73e/detection
 ! https://www.mywot.com/scorecard/blogsopt.com
-blogsopt.com$all
+||blogsopt.com^$all
 ! https://www.virustotal.com/gui/url/76074c7a040ba1edcea412c3d1ea9098ee43ee85cffb75be5882ea553bc43d81/community
 ! https://www.mywot.com/scorecard/g0ogle.com
-g0ogle.com$document
+||g0ogle.com^$document
 ! https://github.com/SOBotics/Belisarius/issues/5
-stackoverflows.com$document
+||stackoverflows.com^$document
 ! https://safeweb.norton.com/reviews?url=googe.com
-googe.com$all
+||googe.com^$all
 ! https://forum.mywot.com/24626-whatsmyipaddress-com
-whatsmyipaddress.com$document
+||whatsmyipaddress.com^$document
 ! https://www.fortiguard.com/webfilter?q=appple.com&version=8
-appple.com$all
-bankofamericaa.com$document
-rasberrypi.org$document
-google.xyz$document
+||appple.com^$all
+||bankofamericaa.com^$document
+||rasberrypi.org^$document
+||google.xyz^$document
 ! https://www.scamner.com/check/irs.guv
-irs.guv$document
+||irs.guv^$document
 ! Look-alikes using non-ascii
-discōrd.com$document
-xn--discrd-egb.com$document
-rėddit.com$document
-xn--rddit-6za.com$document
+||discōrd.com^$document
+||xn--discrd-egb.com^$document
+||rėddit.com^$document
+||xn--rddit-6za.com^$document
 ! https://www.virustotal.com/gui/user/Site.safetychecker
 ! https://www.virustotal.com/gui/url/7108cfe6953cab08696ae1f9ab2c777b749fb53e7beb5c003756ea522c880f17/detection
-yotube.com$all
+||yotube.com^$all
 ! https://github.com/rcmaehl/WhyNotWin11/issues/66
-whynotwin11.com$document
+||whynotwin11.com^$document
 ! https://github.com/blocklistproject/Lists/blob/master/malware.txt
 ! https://www.virustotal.com/gui/url/7f0b595a6004b1b6b6563e39b8d147dfde6a70d714e43b8a5a3da81b857e6b8b/detection
 ! https://www.siteadvisor.com/sitereport.html?url=01apple.com
-01apple.com$all
+||01apple.com^$all
 ! Does not resolve to anything - yet...
-duckduckgo.net$document
+||duckduckgo.net^$document
 ! Might be typosquatts of yahoo
-yahooc.com$document
-yahooc.om$document
+||yahooc.com^$document
+||yahooc.om^$document
 ! https://www.virustotal.com/gui/url/263cf0103560c531755ed20823111c0cef36108893f369e8b58885777883940e/community
-virustotl.com$document
+||virustotl.com^$document
 ! https://www.virustotal.com/gui/url/83cbc65ef32d4eef31acf9c5cfbf6acf1a41d8689c106836770caf31f5153e06/community
-yutube.com$document
+||yutube.com^$document
 ! https://www.virustotal.com/gui/url/8e073d1ab7f3234109c1b9382a784886631a8b8c486b55845fe9c07628dfa593/detection
 ! https://safeweb.norton.com/report/show?url=virusttal.com
-virusttal.com$document,popup
+||virusttal.com^$document,popup
 ! https://www.virustotal.com/gui/url/db1da5818091e5270454bf765af7f24f8e1aec7ae7b6d0aeb384c3db95e67416/detection
 ! https://www.siteadvisor.com/sitereport.html?url=virustota.com
 ! https://safeweb.norton.com/report/show?url=virustota.com
-virustota.com$all
+||virustota.com^$all
 
 ! https://www.virustotal.com/gui/url/7192e189a778151b8b2ac216542c1dd4c842cc5dded479941cfecfc940e44cc8/detection
 ! https://safeweb.norton.com/report/show?url=discordapp.cam
 ! https://www.siteadvisor.com/sitereport.html?url=discordapp.cam
-discordapp.cam$all
+||discordapp.cam^$all
 
-old.ereddit.com$document
-ereddit.com$document
-craisglist.org$document
+||old.ereddit.com^$document
+||ereddit.com^$document
+||craisglist.org^$document
 ! https://new.reddit.com/r/dwarffortress/comments/e4srco/be_sure_to_use_org_instead_of_com_when_going_to/
-dwarffortresswiki.com$doc
+||dwarffortresswiki.com^$doc
 
-bitdefneder.com$document
+||bitdefneder.com^$document
 
 ! https://blog.malwarebytes.com/threat-intelligence/2021/09/the-many-tentacles-of-magecart-group-8/
-googheusercontent.com$document
-googlatagmanager.com$document
-googlausercontent.com$document
-google5sercontent.com$document
-googleafalytics.com$document
-googleanadytics.com$document
-googleanahytics.com$document
-googleanal9tics.com$document
-googleanalxtics.com$document
-googleanaly4ics.com$document
-googleanalydics.com$document
-googleanalypics.com$document
-googleanalytacs.com$document
-googleanalytias.com$document
-googleanalytibs.com$document
-googleanalyticc.com$document
-googleanalyticr.com$document
-googleanalyticw.com$document
-googleanalytigs.com$document
-googleanalytiks.com$document
-googleanalytkcs.com$document
-googleanalytmcs.com$document
-googleanalytycs.com$document
-googleanalyuics.com$document
-googleanalyvics.com$document
-googleanamytics.com$document
-googleananytics.com$document
-googleanclytics.com$document
-googleanelytics.com$document
-googleanilytics.com$document
-googleanqlytics.com$document
-googleaoalytics.com$document
-googlecnalytics.com$document
-googledagmanager.com$document
-googleenalytics.com$document
-googleesercontent.com$document
-googleinalytics.com$document
-googlepagmanager.com$document
-googleqnalytics.com$document
-googleqsercontent.com$document
-googletacmanager.com$document
-googletaemanager.com$document
-googletag-anager.com$document
-googletageanager.com$document
-googletagianager.com$document
-googletaglanager.com$document
-googletagmafager.com$document
-googletagmajager.com$document
-googletagmalager.com$document
-googletagmanacer.com$document
-googletagmanaeer.com$document
-googletagmanafer.com$document
-googletagmanagar.com$document
-googletagmanagdr.com$document
-googletagmanage2.com$document
-googletagmanageb.com$document
-googletagmanagep.com$document
-googletagmanages.com$document
-googletagmanagev.com$document
-googletagmanagez.com$document
-googletagmanaggr.com$document
-googletagmanagmr.com$document
-googletagmanagur.com$document
-googletagmanaoer.com$document
-googletagmanawer.com$document
-googletagmancger.com$document
-googletagmaneger.com$document
-googletagmaniger.com$document
-googletagmanqger.com$document
-googletagmaoager.com$document
-googletagmcnager.com$document
-googletagminager.com$document
-googletagmqnager.com$document
-googletagoanager.com$document
-googletaomanager.com$document
-googletawmanager.com$document
-googletcgmanager.com$document
-googletigmanager.com$document
-googletqgmanager.com$document
-googletsercontent.com$document
-googleu3ercontent.com$document
-googleuagmanager.com$document
-googleucercontent.com$document
-googleuqercontent.com$document
-googleurercontent.com$document
-googleusarcontent.com$document
-googleusdrcontent.com$document
-googleuse2content.com$document
-googleusebcontent.com$document
-googleusepcontent.com$document
-googleuseraontent.com$document
-googleuserbontent.com$document
-googleusercgntent.com$document
-googleuserckntent.com$document
-googleusercmntent.com$document
-googleusercnntent.com$document
-googleusercoftent.com$document
-googleusercojtent.com$document
-googleusercoltent.com$document
-googleusercon4ent.com$document
-googleusercondent.com$document
-googleuserconpent.com$document
-googleusercontant.com$document
-googleusercontdnt.com$document
-googleuserconteft.com$document
-googleusercontejt.com$document
-googleusercontelt.com$document
-googleuserconten4.com$document
-googleusercontend.com$document
-googleusercontenp.com$document
-googleusercontenu.com$document
-googleusercontenv.com$document
-googleuserconteot.com$document
-googleusercontgnt.com$document
-googleusercontmnt.com$document
-googleusercontunt.com$document
-googleuserconuent.com$document
-googleusescontent.com$document
-googleusgrcontent.com$document
-googleusmrcontent.com$document
-googlevagmanager.com$document
-googlganalytics.com$document
-googluanalytics.com$document
-googlutagmanager.com$document
-googmeanalytics.com$document
+||googheusercontent.com^$document
+||googlatagmanager.com^$document
+||googlausercontent.com^$document
+||google5sercontent.com^$document
+||googleafalytics.com^$document
+||googleanadytics.com^$document
+||googleanahytics.com^$document
+||googleanal9tics.com^$document
+||googleanalxtics.com^$document
+||googleanaly4ics.com^$document
+||googleanalydics.com^$document
+||googleanalypics.com^$document
+||googleanalytacs.com^$document
+||googleanalytias.com^$document
+||googleanalytibs.com^$document
+||googleanalyticc.com^$document
+||googleanalyticr.com^$document
+||googleanalyticw.com^$document
+||googleanalytigs.com^$document
+||googleanalytiks.com^$document
+||googleanalytkcs.com^$document
+||googleanalytmcs.com^$document
+||googleanalytycs.com^$document
+||googleanalyuics.com^$document
+||googleanalyvics.com^$document
+||googleanamytics.com^$document
+||googleananytics.com^$document
+||googleanclytics.com^$document
+||googleanelytics.com^$document
+||googleanilytics.com^$document
+||googleanqlytics.com^$document
+||googleaoalytics.com^$document
+||googlecnalytics.com^$document
+||googledagmanager.com^$document
+||googleenalytics.com^$document
+||googleesercontent.com^$document
+||googleinalytics.com^$document
+||googlepagmanager.com^$document
+||googleqnalytics.com^$document
+||googleqsercontent.com^$document
+||googletacmanager.com^$document
+||googletaemanager.com^$document
+||googletag-anager.com^$document
+||googletageanager.com^$document
+||googletagianager.com^$document
+||googletaglanager.com^$document
+||googletagmafager.com^$document
+||googletagmajager.com^$document
+||googletagmalager.com^$document
+||googletagmanacer.com^$document
+||googletagmanaeer.com^$document
+||googletagmanafer.com^$document
+||googletagmanagar.com^$document
+||googletagmanagdr.com^$document
+||googletagmanage2.com^$document
+||googletagmanageb.com^$document
+||googletagmanagep.com^$document
+||googletagmanages.com^$document
+||googletagmanagev.com^$document
+||googletagmanagez.com^$document
+||googletagmanaggr.com^$document
+||googletagmanagmr.com^$document
+||googletagmanagur.com^$document
+||googletagmanaoer.com^$document
+||googletagmanawer.com^$document
+||googletagmancger.com^$document
+||googletagmaneger.com^$document
+||googletagmaniger.com^$document
+||googletagmanqger.com^$document
+||googletagmaoager.com^$document
+||googletagmcnager.com^$document
+||googletagminager.com^$document
+||googletagmqnager.com^$document
+||googletagoanager.com^$document
+||googletaomanager.com^$document
+||googletawmanager.com^$document
+||googletcgmanager.com^$document
+||googletigmanager.com^$document
+||googletqgmanager.com^$document
+||googletsercontent.com^$document
+||googleu3ercontent.com^$document
+||googleuagmanager.com^$document
+||googleucercontent.com^$document
+||googleuqercontent.com^$document
+||googleurercontent.com^$document
+||googleusarcontent.com^$document
+||googleusdrcontent.com^$document
+||googleuse2content.com^$document
+||googleusebcontent.com^$document
+||googleusepcontent.com^$document
+||googleuseraontent.com^$document
+||googleuserbontent.com^$document
+||googleusercgntent.com^$document
+||googleuserckntent.com^$document
+||googleusercmntent.com^$document
+||googleusercnntent.com^$document
+||googleusercoftent.com^$document
+||googleusercojtent.com^$document
+||googleusercoltent.com^$document
+||googleusercon4ent.com^$document
+||googleusercondent.com^$document
+||googleuserconpent.com^$document
+||googleusercontant.com^$document
+||googleusercontdnt.com^$document
+||googleuserconteft.com^$document
+||googleusercontejt.com^$document
+||googleusercontelt.com^$document
+||googleuserconten4.com^$document
+||googleusercontend.com^$document
+||googleusercontenp.com^$document
+||googleusercontenu.com^$document
+||googleusercontenv.com^$document
+||googleuserconteot.com^$document
+||googleusercontgnt.com^$document
+||googleusercontmnt.com^$document
+||googleusercontunt.com^$document
+||googleuserconuent.com^$document
+||googleusescontent.com^$document
+||googleusgrcontent.com^$document
+||googleusmrcontent.com^$document
+||googlevagmanager.com^$document
+||googlganalytics.com^$document
+||googluanalytics.com^$document
+||googlutagmanager.com^$document
+||googmeanalytics.com^$document
 
 ! random domains
-pay-pal.club$document
-tw1tch.info$document
-cioubfiare.com$document
+||pay-pal.club^$document
+||tw1tch.info^$document
+||cioubfiare.com^$document
 ||exampe.com^$document
 
 ! https://blog.malwarebytes.com/threat-intelligence/2021/11/credit-card-skimmer-evades-virtual-machines/
-cdn.cookieslaw.org$all
-cookieslaw.org$doc
+||cdn.cookieslaw.org^$all
+||cookieslaw.org^$doc
 
 ! https://twitter.com/Artilllerie/status/1534076124829036544
 ||bbleepingcomputer.com^$document
