@@ -43,9 +43,11 @@ def mkalt(file,alt):
       continue
     if line.startswith("||") and "/" not in line and "^" in line:
       try:
-        print(line.split("^$"))
-        domain = idna.encode(line.split("^$")[0][2:].lower()).decode()
-        print(domain,line.split("^$")[0][2:].lower())
+        try:
+          domain = idna.encode(line.split("^$")[0][2:].lower()).decode()
+        except:
+          domain = line.split("^$")[0][2:].lower()
+        print(domain)
         alt.write("{}\n".format(domain))
         if domain in donedomains:
           reddomains.append(line.split("$")[0])
