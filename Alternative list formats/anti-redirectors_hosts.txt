@@ -3,7 +3,7 @@
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # Please report false positives & unblocked domains to me using the GitHub or GitLab (urls below). Thanks!
 # Expires: 1 day
-# Last updated: 6/11/2022
+# Last updated: 12/11/2022
 # Issues url: https://github.com/iam-py-test/my_filters_001/issues
 # GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 # If you want shorter urls, check out DandelionSprout's Actually Legitimate URL Shortener Tool at https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
@@ -28,7 +28,7 @@
 0.0.0.0 rebrand.ly
 # https://www.mywot.com/scorecard/tinyurl.com
 0.0.0.0 tinyurl.com
-# https://www.mywot.com/scorecard/t.co
+# https://www.mywot.com/scorecard/t.co - breaks Twitter links
 0.0.0.0 t.co
 # https://www.mywot.com/scorecard/is.gd
 0.0.0.0 is.gd
@@ -83,7 +83,6 @@
 0.0.0.0 sinaurl.cn
 # internal Amazon URL shortener - https://www.virustotal.com/gui/url/7e815c5445c740bc53f6046d3c5b99be664aaedd8536e5c4ed57ec14e64b2ef4/details
 0.0.0.0 a.co
-# Malware infections - you can use https://redirectdetective.com to find out where the links go if you must use them
 # https://safeweb.norton.com/reviews?url=adf.ly
 # https://www.virustotal.com/gui/url/f3c346224a877b6085292a47c0fc0fc894cdfad6ab5da9cba25051c8a8013247/community
 # https://www.mywot.com/scorecard/adf.ly
@@ -124,11 +123,9 @@
 0.0.0.0 tiny.cc
 # https://www.mywot.com/scorecard/cutt.ly
 0.0.0.0 cutt.ly
-# https://duckduckgo.com/?q=url+shortener+free&ia=web
-0.0.0.0 www.urlday.com
 # https://www.mywot.com/scorecard/rebrandly.com
 0.0.0.0 rebrandly.com
-# https://mywplife.com/software/url-shorteners/
+# hxxps://mywplife.com/software/url-shorteners/
 0.0.0.0 prettylinks.com
 0.0.0.0 www.bl.ink
 # https://www.mywot.com/scorecard/snip.ly
@@ -183,8 +180,8 @@
 # another Grabify site
 0.0.0.0 joinmy.site
 # https://www.reddit.com/r/uBlockOrigin/comments/rwzdvk/ublock_is_blocking_the_livestream_as_well_as/
-
-
+0.0.0.0 cdrvrs.com
+0.0.0.0 ahscdn.com
 # hxxp://usheethe[.]com/p9Ei
 0.0.0.0 usheethe.com
 # https://quttera.com/detailed_report/mastodon.top

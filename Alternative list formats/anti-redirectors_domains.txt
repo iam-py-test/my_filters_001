@@ -40,7 +40,6 @@ dommania.pl
 s.id
 tiny.cc
 cutt.ly
-www.urlday.com
 rebrandly.com
 prettylinks.com
 www.bl.ink
@@ -61,7 +60,7 @@ grabify.link
 iplogger.info
 02ip.ru
 joinmy.site
-||cdrvrs.com^
-||ahscdn.com^
+cdrvrs.com
+ahscdn.com
 usheethe.com
 zpr.io
