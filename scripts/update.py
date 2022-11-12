@@ -43,8 +43,11 @@ def mkalt(file,alt):
       continue
     if line.startswith("||") and "/" not in line and "^" in line:
       try:
+        print(line.split("^$"))
         domain = idna.encode(line.split("^$")[0][2:].lower()).decode()
         alt.write("{}\n".format(domain))
+        if domain in donedomains:
+          reddomains.append(line.split("$")[0])
         donedomains.append(domain)
         alldomains[file].append(domain)
         allentries[file].append(domain)
@@ -53,12 +56,7 @@ def mkalt(file,alt):
         pass
     elif "/" in line and "|" in line:
       continue
-    if line.split("$")[0] in donedomains:
-      reddomains.append(line.split("$")[0])
-    if line.split("$")[0] not in donedomains:
-      alt.write("{}\n".format(line.split("$")[0].lower()))
-      donedomains.append(line.split("$")[0].lower())
-      alldomains[file].append(line.split("$")[0].lower())
+
 mkalt("antimalware.txt","antimalware_domains.txt")
 mkalt("antipup.txt","antipup_domains.txt")
 mkalt("antitypo.txt","antitypo_domains.txt")
