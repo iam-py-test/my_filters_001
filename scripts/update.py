@@ -53,8 +53,8 @@ def mkalt(file,alt):
         alldomains[file].append(domain)
         allentries[file].append(domain)
         continue
-      except:
-        pass
+      except Exception as err:
+        print("error: ",err)
     elif "/" in line and "|" in line:
       continue
 
