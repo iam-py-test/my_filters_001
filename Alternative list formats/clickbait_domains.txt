@@ -1,5 +1,5 @@
-b'cdn.taboola.com'
-b'taboola.com'
+cdn.taboola.com
+taboola.com
 absolutehistory.com
 affluenttimes.com
 atlanticmirror.com
