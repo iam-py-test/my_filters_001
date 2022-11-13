@@ -105,7 +105,7 @@ majorgeeks.com#?#b:has(a[target^=reimage])
 ! ¤¤¤ ScanUtilities ¤¤¤
 ! https://www.bynarycodes.com/fix-windows-10-update-error-0x80070006/
 bynarycodes.com##div[class^=bynar-content_]
-bynarycodes.com#?#.panel:has-text(a[href*="scanutilities.com"])
+bynarycodes.com#?#.panel:has(a[href*="scanutilities.com"])
 ! ¤¤¤ Driver Easy ¤¤¤
 ! https://www.drivereasy.com/knowledge/fix-critical-service-failed-blue-screen-error-on-windows-10/
 drivereasy.com#?#.pakb-content ol:has-text(Download and install Driver Easy)
@@ -150,7 +150,7 @@ virusresearch.org##.virus-after-content
 cyclonis.com##div.rotatead-container:has(.download[data-params*="dl.enigmasoftware.com"])
 ! https://www.2-viruses.com/remove-ad-spam-press-allow-to-continue
 2-viruses.com##.active.prods-win.prod-download
-||2-viruses.com/downloads/spyhunter2^$all
+||2-viruses.com/downloads/spyhunter2^$all,~inline-font,~inline-script
 ! ¤¤¤ Restoro  ¤¤¤
 ! https://www.windowsdispatch.com/fix-system-restore-0x81000203-error-code/
 windowsdispatch.com##strong
@@ -181,15 +181,13 @@ fix4dll.com##.file__download
 fix4dll.com#?#.sidebar__block:has-text(Outbyte)
 winaero.com##.entry-content > div:has([href="/fix-classic-issues-performance/"])
 ||outbyte.com^$doc
-||testedforyou.net^$all
+||testedforyou.net^$all,~inline-font,~inline-script
 ! ¤¤¤ PC Reviver ¤¤¤
 dll4free.com#?#.leftdiv:has-text(PC Reviver)
 ! ¤¤¤ FixMyPC ¤¤¤
 dll-found.com#?#p:has(a[href*=tweakbit])
 ! ¤¤¤ "DLL Helper" ¤¤¤
 azdll.net##.dllhelper-banner
-
-
 ! Download.com - this currently leaves random blank squares on the page
 download.cnet.com,download.com##div.c-productCard-simple.u-flexbox-column.c-productCard:has-text(/Advanced SystemCare Free/i)
 download.cnet.com,download.com##div.c-productCard-simple.u-flexbox-column.c-productCard:has-text(/driver easy/i)
