@@ -2,11 +2,13 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter. All credit to VXVault for finding these urls
 ! Script last updated: 10/11/2022
 ! Expires: 1 day
-! Last updated: 13/11/2022
+! Last updated: 14/11/2022
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Sun, 13 Nov 2022 03:38:57 +0000
+! Mon, 14 Nov 2022 20:32:04 +0000
+||gvcaeorx.tk/tt/palmicc.txt^$all
+||208.67.105.179/haitianzx.exe^$all
 ||github.com/Cteklooo/u/raw/main/free_donate.exe^$all
 ||istanbulyazilim.net/fh28fu490fiu42.kdfd^$all
 ||istanbulyazilim.net/1255321213.yutoiop^$all
@@ -106,5 +108,3 @@
 ||itomail.ug/cc.exe^$all
 ||194.38.23.170/loader/uploads/new.exe^$all
 ||cdn.discordapp.com/attachments/1002319488340992093/1018244699775049828/kitty-nocompress_1_Jyqhuxph.png^$all
-||193.31.116.239/crypt/public/Update_Downloads/rt.jpg^$all
-||79.110.62.66/push/git/pushprocess.exe^$all
