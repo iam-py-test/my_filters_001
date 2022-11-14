@@ -1,11 +1,10 @@
-# Title: The antitypo list
-# Description: Ever hit the wrong key when typing an address and ended up in the wrong place? This list aims to prevent you from ending up in the wrong website
+# Title: iam-py-test's antitypo list
+# Description: Ever hit the wrong key when typing an address and ended up in the wrong place? This list aims to prevent that
 # Expires: 1 day
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # Issues url: https://github.com/iam-py-test/my_filters_001/issues
 # GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-# Last updated: 12/11/2022
-# If someone can confirm this, it can move to malware 
+# Last updated: 14/11/2022
 # https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 # https://www.virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
 # https://www.virustotal.com/gui/domain/xn--gogle-jua.com/detection
@@ -82,8 +81,6 @@
 0.0.0.0 irs.guv
 # Look-alikes using non-ascii
 0.0.0.0 xn--discrd-egb.com
-0.0.0.0 xn--discrd-egb.com
-0.0.0.0 xn--rddit-6za.com
 0.0.0.0 xn--rddit-6za.com
 # https://www.virustotal.com/gui/user/Site.safetychecker
 # https://www.virustotal.com/gui/url/7108cfe6953cab08696ae1f9ab2c777b749fb53e7beb5c003756ea522c880f17/detection
