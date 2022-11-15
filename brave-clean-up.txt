@@ -1,7 +1,8 @@
+[Adblock Plus 2.0]
 ! Title: Brave Search clean up
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results
 ! Expires: 1 day
-! Last updated: 3/11/2022
+! Last updated: 15/11/2022
 ! Last auto-generated: 15/11/2022
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
@@ -6512,7 +6513,6 @@ search.brave.com##div.fdb.snippet:has(a[href*="://d3f068fvt45f1f.cloudfront.net"
 search.brave.com##div.fdb.snippet:has(a[href*="://eastrk-dn.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://teenmas46.tistory.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://teenymi.tistory.com"])
-search.brave.com##div.fdb.snippet:has(a[href*="://foradream.top"])
 search.brave.com##div.fdb.snippet:has(a[href*="://myapplesite.us"])
 search.brave.com##div.fdb.snippet:has(a[href*="://feuvpu.evidencelonglie.top"])
 search.brave.com##div.fdb.snippet:has(a[href*="://evidencelonglie.top"])
@@ -6615,6 +6615,29 @@ search.brave.com##div.fdb.snippet:has(a[href*="://ftuyn.ewoverth.buzz"])
 search.brave.com##div.fdb.snippet:has(a[href*="://elooksjustli.one"])
 search.brave.com##div.fdb.snippet:has(a[href*="://www10.davisonbarker.pro"])
 search.brave.com##div.fdb.snippet:has(a[href*="://www24.davisonbarker.pro"])
+search.brave.com##div.fdb.snippet:has(a[href*="://2.napublic.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://napublic.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://haxbyq.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://authookroop.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://s1cp.xyz"])
+search.brave.com##div.fdb.snippet:has(a[href*="://dlinkrdr.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://s.viichxt.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://getsecures.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://s.viiqvmfb.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://flirtclub.life"])
+search.brave.com##div.fdb.snippet:has(a[href*="://getlaid-chat.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://bumble-me.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://localhookup5.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://i.placefordating.live"])
+search.brave.com##div.fdb.snippet:has(a[href*="://placefordating.live"])
+search.brave.com##div.fdb.snippet:has(a[href*="://elooksjustli.one"])
+search.brave.com##div.fdb.snippet:has(a[href*="://her-cupid.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://eroticmadness.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://jtdn2.datingtopgirls.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://datingtopgirls.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://join-the-dating.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://18hot.pw"])
+search.brave.com##div.fdb.snippet:has(a[href*="://dating-hotcontacts.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://www.totalav.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://totalav.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://api.totalav.com"])
