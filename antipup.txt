@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: iam-py-test's anti-PUP list
 ! Description: The purpose of this list is to block websites who only exist to promote PUPs or shady software, but which "should not" be blocked in The malicious website blocklist
-! Last updated: 9/11/2022
+! Last updated: 15/11/2022
 ! Expires: 5 days
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 
@@ -36,6 +36,8 @@ winaero.com##.widget:has([href="/fix-classic-issues-performance/"])
 ||pcsafetygeek.com^$document
 ! promotes Spyhunter
 ||cybosectech.com^$document
+! Spyhunter promotion, acts like MacOS can be infected with Windows malware
+||cfoc.org^$document
 
 ! 'Wave browser' which is just a scummy version of Chrome
 ||googleads.g.doubleclick.net/aclk?sa=*&ai=*&ae=*&num=*&sig=*&nb=*&adurl=https://download.wavebrowser.co$all
