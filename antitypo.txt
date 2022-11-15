@@ -1,3 +1,4 @@
+[Adblock Plus 2.0]
 ! Title: iam-py-test's antitypo list
 ! Description: Ever hit the wrong key when typing an address and ended up in the wrong place? This list aims to prevent that
 ! Expires: 1 day
