@@ -6,7 +6,12 @@
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Wed, 16 Nov 2022 03:30:57 +0000
+! Wed, 16 Nov 2022 20:30:08 +0000
+||cnom.sante.gov.ml/core^$all
+||cnom.sante.gov.ml/12^$all
+||31.42.177.59/wevtutil.exe^$all
+||31.42.177.59/kurwa.exe^$all
+||85.208.136.89/Explorer/vbc.exe^$all
 ||89.208.104.172/412.exe^$all
 ||89.208.104.172/bebra.exe^$all
 ||gvcaeorx.tk/tt/palmicc.txt^$all
@@ -103,8 +108,3 @@
 ||194.38.23.170/loader/uploads/new.exe^$all
 ||delicatedownload.co.uk/Geekbench-5.4.5-WindowsSetup.exe^$all
 ||192.3.136.187/288/vbc.exe^$all
-||194.38.23.170/loader/uploads/new.exe^$all
-||194.38.23.170/loader/uploads/new.exe^$all
-||88.198.98.203/277/vbc.exe^$all
-||194.38.23.170/new.exe^$all
-||itomail.ug/cc.exe^$all
