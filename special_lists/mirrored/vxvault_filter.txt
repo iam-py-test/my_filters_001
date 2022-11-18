@@ -2,11 +2,16 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter. All credit to VXVault for finding these urls
 ! Script last updated: 10/11/2022
 ! Expires: 1 day
-! Last updated: 17/11/2022
+! Last updated: 18/11/2022
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Thu, 17 Nov 2022 20:30:16 +0000
+! Fri, 18 Nov 2022 20:30:05 +0000
+||194.180.48.203/Dspvxt.jpeg^$all
+||uaery.top/dl/build2.exe^$all
+||guluiiiimnstrannaer.net/dl/6523.exe^$all
+||privacy-tools-for-you-453.com/downloads/toolspab4.exe^$all
+||uaery.top/dl/buildz.exe^$all
 ||cnom.sante.gov.ml/core^$all
 ||cnom.sante.gov.ml/12^$all
 ||31.42.177.59/wevtutil.exe^$all
@@ -103,8 +108,3 @@
 ||manomav.com/12/TrdngAnlzr9949.exe^$all
 ||manomav.com/12/TrdngAnlzr479932.exe^$all
 ||manomav.com/12/TrdngAnlzr479112.exe^$all
-||manomav.com/12/TrdngAnlzr472032.exe^$all
-||84.38.130.219/233/vbc.exe^$all
-||194.38.23.170/loader/uploads/new.exe^$all
-||delicatedownload.co.uk/Geekbench-5.4.5-WindowsSetup.exe^$all
-||192.3.136.187/288/vbc.exe^$all
