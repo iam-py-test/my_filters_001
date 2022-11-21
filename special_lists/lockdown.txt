@@ -1,5 +1,5 @@
 ! Title: (Personal) Lockdown mode
-! Description: Please do not use this list. It's purpose is to block almost everything 
+! Description: Please do not use this list. It's purpose is to block almost everything, and will break many websites.
 ! Expires: 1 day
 
 ! TLDs
@@ -10,8 +10,9 @@
 ||*.info^$all
 
 ! hosting
-||weebly.com^$document
+||weebly.*^$document
 ||github.io^$document,domain=~virustotal.github.io|~iam-py-test.github.io
+||wixsite.*^$document
 
 ! files
 ||mediafire.*^$document
