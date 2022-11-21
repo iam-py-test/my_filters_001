@@ -1,0 +1,24 @@
+! Title: (Personal) Lockdown mode
+! Description: Please do not use this list. It's purpose is to block almost everything 
+! Expires: 1 day
+
+! TLDs
+||*.top^$all
+||*.live^$all
+||*.xxx^$all
+||*.xyz^$all
+||*.info^$all
+
+! hosting
+||weebly.com^$document
+||github.io^$document,domain=~virustotal.github.io|~iam-py-test.github.io
+
+! files
+||mediafire.*^$document
+
+! URL shortners
+||bit.ly^$all
+||adf.ly^$all
+
+! avoid opening malware YT videos
+||youtube.com^$popup,domain=google.*|duckduckgo.com
