@@ -3,11 +3,14 @@
 ! Expires: 1 day
 
 ! TLDs
-||*.top^$all
-||*.live^$all
-||*.xxx^$all
-||*.xyz^$all
-||*.info^$all
+||top^$all
+||live^$all
+||xxx^$all
+||xyz^$all
+||info^$all
+||tk^$all
+||gd^$all
+||cfd^$all
 
 ! hosting
 ||weebly.*^$document
