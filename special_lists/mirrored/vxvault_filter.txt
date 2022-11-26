@@ -2,11 +2,18 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter. All credit to VXVault for finding these urls
 ! Script last updated: 10/11/2022
 ! Expires: 1 day
-! Last updated: 21/11/2022
+! Last updated: 25/11/2022
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Mon, 21 Nov 2022 20:28:43 +0000
+! Fri, 25 Nov 2022 23:41:08 +0000
+||192.3.101.26/30/vbc.exe^$all
+||77.73.133.113/lego/okok.exe^$all
+||github.com/Chelloxy/Do-not-Try-this-at-Home/raw/main/Temp3.exe^$all
+||github.com/Chelloxy/Do-not-Try-this-at-Home/raw/main/Temp2.exe^$all
+||github.com/Chelloxy/Do-not-Try-this-at-Home/raw/main/Temp1.exe^$all
+||info123info.site/clip1.exe^$all
+||cdn.discordapp.com/attachments/1013922792204415100/1029136565533933638/Setup.exe^$all
 ||194.180.48.203/Dspvxt.jpeg^$all
 ||uaery.top/dl/build2.exe^$all
 ||guluiiiimnstrannaer.net/dl/6523.exe^$all
@@ -101,10 +108,3 @@
 ||185.17.0.86/blucy.exe^$all
 ||194.38.23.170/loader/uploads/new.exe^$all
 ||178.20.45.52/pes.exe^$all
-||178.20.45.52/sec/pes.exe^$all
-||216.250.251.106/32/vbc.exe^$all
-||194.38.23.170/loader/uploads/new.exe^$all
-||manomav.com/12/TrdngAnr6339.exe^$all
-||manomav.com/12/TrdngAnlzr9949.exe^$all
-||manomav.com/12/TrdngAnlzr479932.exe^$all
-||manomav.com/12/TrdngAnlzr479112.exe^$all
