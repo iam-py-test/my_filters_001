@@ -3,8 +3,16 @@
 ! Description: Remove annoyances from Discord's web version
 ! Expires: 2 days
 ! Homepage: https://github.com/iam-py-test/my_filters_001
-! Last updated: 26/11/2022
+! Last updated: 27/11/2022
 ! Note: This list can not help you if you chose to use the Discord app
 
 ! Promotion for Discord Nitro
 discord.com##div[class|=upsellVisible]
+discord.com##div[class|="channelNotice"]
+discord.com##[class*="linkButton"]:has(h2[class*="offerBadge"])
+
+! Promotion for Discord's app
+discord.com##[class*="colorDefault-"][class*="notice-"]
+
+! Tracking
+||discord.com/api/*/science

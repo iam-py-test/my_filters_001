@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: iam-py-test's anti-PUP list
 ! Description: The purpose of this list is to block websites who only exist to promote PUPs or shady software, but which "should not" be blocked in The malicious website blocklist
-! Last updated: 15/11/2022
+! Last updated: 27/11/2022
 ! Expires: 5 days
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 
@@ -20,6 +20,12 @@
 ! TotalAV has a YouTube channel
 ||youtube.com/watch?v=9ocPeo-y6t4^$doc
 ||youtube.com/c/TotalAV^$document
+! browser extensions
+||addons.mozilla.org/en-US/firefox/user/13039502/^$document
+||addons.mozilla.org/en-US/firefox/addon/total-adblock/^$document
+||addons.mozilla.org/en-US/firefox/addon/total-webshield/^$document
+||addons.mozilla.org/en-US/firefox/addon/totalav-pva/^$document
+||addons.mozilla.org/en-US/firefox/addon/totalav-safe-site/^$document
 
 ! hxxps://winaero.com/execti-run-programs-trustedinstaller/
 ||winaero.com/blog/wp-content/uploads/2020/04/OU-PCR-300.png^$all

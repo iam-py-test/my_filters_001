@@ -24,14 +24,13 @@ Thank you to all the people in https://github.com/iam-py-test/my_filters_001/blo
 
 #### Not actively maintained but don't require frequent updates
 - [My anti-facebook list](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/antifacebook.txt)
-- [My Enhanced Protection list](https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt)
 - Anti-Norton tracking list HOSTs file (anti-norton-tracking.txt)
+- iam-py-test's Discord cleanup list ([discord_cleanup.txt](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/discord_cleanup.txt))
 
 
 #### Not frequently updated but still receive occasional updates
 - Anti-typosquatting list (antitypo.txt)
 - Anti redirectors list (anti-redirectors.txt)
-- Annoyances (annoyances.txt)
 
 #### Extension lists which add onto my existing lists
 - [The malicious website blocklist - uBlock Origin extension](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/anti-malware-ubo-extension.txt)
@@ -40,6 +39,10 @@ Thank you to all the people in https://github.com/iam-py-test/my_filters_001/blo
 #### Updated rarely but still technically supported
 - My anti-rickroll list (anti-rickroll-list.txt)
 - The clickbait blocklist (clickbait.txt) ([Subscribe](https://iam-py-test.github.io/add_list.html?id=4))
+- [My Enhanced Protection list](https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt)
+- Annoyances (annoyances.txt)
+
+
 
 #### Lists for testing syntax
 - Everything in the _Sandbox_ folder
