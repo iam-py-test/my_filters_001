@@ -309,3 +309,5 @@
 0.0.0.0 yahoo-news.co
 # https://dnstwister.report/search?ed=676f6f676c652e636f6d
 0.0.0.0 googloe.com
+# I made (another) typo
+0.0.0.0 example.cm
