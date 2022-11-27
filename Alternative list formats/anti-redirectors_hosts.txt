@@ -57,6 +57,9 @@
 0.0.0.0 clk.sh
 0.0.0.0 shrink.pe
 0.0.0.0 al.ly
+# real "short" urls
+0.0.0.0 fc-lc.com
+0.0.0.0 exee.app
 # https://safeweb.norton.com/reviews?url=adfoc.us
 0.0.0.0 adfoc.us
 # https://www.mywot.com/en/scorecard/shorte.st
@@ -188,3 +191,7 @@
 0.0.0.0 zpr.io
 # adfly
 0.0.0.0 lyksoomu.com
+# "short urls" for various services
+0.0.0.0 destyy.com
+# a Referer hiding service, often abused by malware download websites
+0.0.0.0 href.li
