@@ -46,7 +46,6 @@ winaero.com##.widget:has([href="/fix-classic-issues-performance/"])
 ||cfoc.org^$document
 
 ! 'Wave browser' which is just a scummy version of Chrome
-||googleads.g.doubleclick.net/aclk?sa=*&ai=*&ae=*&num=*&sig=*&nb=*&adurl=https://download.wavebrowser.co$all
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-968062965
 ||wavebrowser.co^$document
 ||download.wavebrowser.co^$all

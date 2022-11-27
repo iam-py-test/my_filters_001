@@ -324,3 +324,6 @@
 
 ! https://dnstwister.report/search?ed=676f6f676c652e636f6d
 ||googloe.com^$document
+
+! I made (another) typo
+||example.cm^$document
