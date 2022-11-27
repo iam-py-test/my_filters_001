@@ -1,0 +1,10 @@
+[Adblock Plus 2.0]
+! Title: iam-py-test's Discord cleanup list
+! Description: Remove annoyances from Discord's web version
+! Expires: 2 days
+! Homepage: https://github.com/iam-py-test/my_filters_001
+! Last updated: 26/11/2022
+! Note: This list can not help you if you chose to use the Discord app
+
+! Promotion for Discord Nitro
+discord.com##div[class|=upsellVisible]
