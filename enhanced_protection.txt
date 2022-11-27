@@ -5,22 +5,16 @@
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 ! Expires: 1 day
-! Last updated: 30/7/2022
+! Last updated: 27/11/2022
 
 ! Abused TLDs
 ||win^$document
 ||bid^$document
-||monster^$document,domain=~cloudcdn.monster
 ||ooo^$document
 ||loan^$document
 ||agency^$document
 ||fun^$document
 ||cricket^$document
-
-! fake copycats of legit websites which use the original website name as a subdomain
-||google.com.^$document,domain=~google.com.au
-||amazon.com.^$document,domain=~amazon.com.au
-||yahoo.com.^$document,domain=~yahoo.com.au
 
 ! Fake flash players targeting Android devices (i.e. https://www.virustotal.com/gui/file/368afeda7af69f329e896dc86e9e4187a59d2007e0e4b47af30a1c117da0d792/community)
 ||.link/Flash_Player.apk$document
