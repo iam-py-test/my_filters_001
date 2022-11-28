@@ -42,8 +42,6 @@ Thank you to all the people in https://github.com/iam-py-test/my_filters_001/blo
 - [My Enhanced Protection list](https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt)
 - Annoyances (annoyances.txt)
 
-
-
 #### Lists for testing syntax
 - Everything in the _Sandbox_ folder
 - The useless filter list (useless-list.txt)
@@ -63,6 +61,10 @@ Thank you to all the people in https://github.com/iam-py-test/my_filters_001/blo
 - Anti-over-promoted Windows antivirus list (could not find enough instances of this that would not break legitimate websites)
 - scams.txt (redundant, moved to antimalware.txt)
 - anti-cookie+sign up_extention.txt (had one purpose - to work with my custom scriptlets - but the website it was intended to work for changed cookie values to quickly for it to work)
+
+#### Personal
+- "Lockdown mode"
+This list has a very specific purpose, and **SHOULD NOT BE USED**.
 
 <br>The filters in the _Alternative list formats_ folder are versions of some of the lists above for different software. These are auto-generated, and thus updates to them must be made to the original list or [the Python script](https://github.com/iam-py-test/my_filters_001/blob/main/scripts/update.py) which generates them.<br>
 Everything not listed above, like the filters in the _Personal_ folder, is either completely forgotten by me, or is likely to break websites due to its purpose or lack of regulation. <br>
