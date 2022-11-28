@@ -9,9 +9,6 @@ Thank you to all the people in https://github.com/iam-py-test/my_filters_001/blo
 
 ## Filters in this repo
 
-**Need checksums for my lists? See checksums.txt for auto-generated SHA256 checksums**
-
-
 #### Actively maintained
 - The malicious website blocklist (antimalware.txt) ([Subscribe](https://iam-py-test.github.io/add_list.html?id=2)) ([Without iam-py-test's anti-PUP list included](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_nopup.txt))
 
@@ -30,7 +27,7 @@ Thank you to all the people in https://github.com/iam-py-test/my_filters_001/blo
 
 #### Not frequently updated but still receive occasional updates
 - Anti-typosquatting list (antitypo.txt)
-- Anti redirectors list (anti-redirectors.txt)
+- Anti-redirectors list (anti-redirectors.txt)
 
 #### Extension lists which add onto my existing lists
 - [The malicious website blocklist - uBlock Origin extension](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/anti-malware-ubo-extension.txt)

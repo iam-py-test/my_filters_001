@@ -1,6 +1,6 @@
 ! Title: iam-py-test Annoyances
 ! Expires: 1 day
-! Last updated: 6/1/2021
+! Last updated: 28/11/2022
 ! Description: A list to remove some things I find annoying, along with a few ads and trackers. Very small right now, but slowly getting bigger and more powerful
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -9,16 +9,15 @@
 ! Possible Antiadblock (it detects adblocker but does nothing - yet)
 @@||npttech.com/advertising.js$script,domain=dagsavisen.no
 
-
 ! merriam-webster.com
 merriam-webster.com##+js(cookie-remover,OptanonConsent)
 merriam-webster.com##+js(cookie-remover,eupubconsent)
-www.merriam-webster.com##+js(cookie-remover,usprivacy)
+merriam-webster.com##+js(cookie-remover,usprivacy)
 merriam-webster.com##+js(cookie-remover,user-data)
-www.merriam-webster.com##.register-promo.section--spacer.row
+merriam-webster.com##.register-promo.section--spacer.row
 
 ! https://www.dictionary.com
-www.dictionary.com###marketingBanner-right-button
+dictionary.com###marketingBanner-right-button
 ! Trackers and ads (already blocked in uBo)
 ||track.dictionary.com^
 ||dictionary.com/adscripts/9.8.1/adscripts.js$all
@@ -50,16 +49,16 @@ bbc.com##.nw-c-leaderboard-ad
 discord.me##.promo-page-lower
 
 ! https://www.microsoft.com promotion of Edge
-www.microsoft.com##.b-white.theme-light.epb-container.f-information.c-uhfh-alert:has-text(/microsoft edge/i)
+microsoft.com##.b-white.theme-light.epb-container.f-information.c-uhfh-alert:has-text(/microsoft edge/i)
 
 ! Some kind of ad or promo - please open an issue if I misunderstood what this was & its legit
-www.ksta.de##section.dm_content_block.module_for_tracking:nth-of-type(3)
+ksta.de##section.dm_content_block.module_for_tracking:nth-of-type(3)
 
-www.autodoc.de##.home-block-slider:has(.link.ga-click)
+autodoc.de##.home-block-slider:has(.link.ga-click)
 
 ! forbes
-www.forbes.com##.ad-rail
-www.forbes.com##.right-rail
+forbes.com##.ad-rail
+forbes.com##.right-rail
 
 ! common tracking params
 ! this works better than what I was doing - https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-488307
@@ -124,16 +123,16 @@ online-metrix.net$all
 ||personalfirewall.comodo.com^$badfilter
 
 ! Ads promoting a PUP on https://www[.]windowsdispatch[.]com
-www.windowsdispatch.com##strong:has(a[href*="restoro.com"])
+windowsdispatch.com##strong:has(a[href*="restoro.com"])
 
 ! Ad remainders on https://www.aftenposten.no
-www.aftenposten.no###top-ads-container
-www.aftenposten.no###right:has(.skyscraper.ad):remove()
-www.aftenposten.no##.bsWidgetFallback.contentboard.ad
-www.aftenposten.no##.align-left.standard-ad-container.col-2.column
-www.aftenposten.no##.brandboard.ad
-www.aftenposten.no##.jobb.ad
-www.aftenposten.no##.align-right.standard-ad-container.col-2.column
+aftenposten.no###top-ads-container
+aftenposten.no###right:has(.skyscraper.ad):remove()
+aftenposten.no##.bsWidgetFallback.contentboard.ad
+aftenposten.no##.align-left.standard-ad-container.col-2.column
+aftenposten.no##.brandboard.ad
+aftenposten.no##.jobb.ad
+aftenposten.no##.align-right.standard-ad-container.col-2.column
 
 ! Ads - https://github.com/uBlock-LLC/uBlock/issues/1839
 ieeod0.com$all

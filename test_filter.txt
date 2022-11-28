@@ -1,5 +1,5 @@
 ! Title: Test
-! Description: This filter is for testing other AdBlockers, nothing more. It will only work on my computer.
+! Description: This filter is for testing other adblockers, nothing more.
 ! Expires: 1 day
 ! Last updated: 26/10/2021
 malware.localhost$all
