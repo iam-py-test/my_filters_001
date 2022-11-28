@@ -26,7 +26,7 @@ jobs:
         python scripts/checksum.py
         cat antimalware.txt | grep -v "!#include antipup.txt" > "Alternative list formats/antimalware_nopup.txt"
     - name: Commit & Push
-      uses: actions-x/commit@v5
+      uses: actions-x/commit@v6
       with:
           email: noreply@example.com
           name: Update bot
