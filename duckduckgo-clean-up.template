@@ -12,6 +12,7 @@
 ! ads - also blocked by default in uBo
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.links_deep.links_main.result__body:has(.js-badge--ad.badge--ad)
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.js-results-ads.results--ads--main.results--ads
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.bing.module--carousel-products.module--carousel.module:has(.badge--ad)
 
 ! common patterns for scam/malware websites
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href$="/roblox-hacks-download-free-no-virus.html"])
