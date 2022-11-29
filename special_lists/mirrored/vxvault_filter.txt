@@ -6,7 +6,9 @@
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Tue, 29 Nov 2022 03:01:21 +0000
+! Tue, 29 Nov 2022 20:27:18 +0000
+||198.23.188.139/220/vbc.exe^$all
+||techhint24.com/new/Chrome.exe^$all
 ||198.23.188.139/220/vbc.exe^$all
 ||198.23.188.139/190/vbc.exe^$all
 ||198.23.188.139/160/vbc.exe^$all
@@ -106,5 +108,3 @@
 ||185.17.0.86/clipcrypt.exe^$all
 ||185.17.0.86/mine1cry.exe^$all
 ||185.17.0.86/stelcrypt.exe^$all
-||51.161.11.58/aa.exe^$all
-||185.17.0.86/Dt0B1tdnixZl.exe^$all
