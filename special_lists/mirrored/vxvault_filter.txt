@@ -6,7 +6,11 @@
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Mon, 28 Nov 2022 12:05:55 +0000
+! Mon, 28 Nov 2022 20:27:39 +0000
+||198.23.188.139/220/vbc.exe^$all
+||198.23.188.139/190/vbc.exe^$all
+||198.23.188.139/160/vbc.exe^$all
+||198.23.188.139/180/vbc.exe^$all
 ||192.3.101.26/30/vbc.exe^$all
 ||77.73.133.113/lego/okok.exe^$all
 ||github.com/Chelloxy/Do-not-Try-this-at-Home/raw/main/Temp3.exe^$all
@@ -104,7 +108,3 @@
 ||185.17.0.86/stelcrypt.exe^$all
 ||51.161.11.58/aa.exe^$all
 ||185.17.0.86/Dt0B1tdnixZl.exe^$all
-||delicatedownload.co.uk/Geekbench-5.4.5-WindowsSetup.exe^$all
-||185.17.0.86/blucy.exe^$all
-||194.38.23.170/loader/uploads/new.exe^$all
-||178.20.45.52/pes.exe^$all
