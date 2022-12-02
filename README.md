@@ -1,11 +1,14 @@
 # My filters
 This is a collection of filterlists made by me (iam-py-test).<br>
-Feel free to use any and all of them (they are under CC0) in [uBlock Origin](https://github.com/gorhill/uBlock), AdGuard, AdBlock Plus (special version required), or in any other way (i.e. PiHole, Linux /etc/hosts) <br/>
+Feel free to use any and all of them (they are under CC0) in [uBlock Origin](https://github.com/gorhill/uBlock), AdGuard, AdBlock Plus (special version required), or in any other way (i.e. PiHole, /etc/hosts) <br/>
 Please report any issues you have and I will try to fix them; please note I may not reply within the day the issue is posted as I am often busy.<br>
-Thank you to all the people in https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for helping improve these filters<br>
+Thank you to all the people in https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for helping improve these filters.<br>
 
 ### Some stats: 
-<a href="https://github.com/iam-py-test/my_filters_001/blob/main/stats.md"><img src="https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/totalentries.svg" width='130' height="20"></a><img src="https://img.shields.io/github/last-commit/iam-py-test/my_filters_001"> [![Update the alt lists](https://github.com/iam-py-test/my_filters_001/actions/workflows/update_filterlists.yml/badge.svg)](https://github.com/iam-py-test/my_filters_001/actions/workflows/update_filterlists.yml)
+<a href="https://github.com/iam-py-test/my_filters_001/blob/main/stats.md">
+<img src="https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/totalentries.svg" width='130' height="20"></a>
+<img src="https://img.shields.io/github/last-commit/iam-py-test/my_filters_001"> 
+[![Update the alt lists](https://github.com/iam-py-test/my_filters_001/actions/workflows/update_filterlists.yml/badge.svg)](https://github.com/iam-py-test/my_filters_001/actions/workflows/update_filterlists.yml)
 
 ## Filters in this repo
 
@@ -20,7 +23,7 @@ Thank you to all the people in https://github.com/iam-py-test/my_filters_001/blo
 
 
 #### Not actively maintained but don't require frequent updates
-- [My anti-facebook list](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/antifacebook.txt)
+- [My anti-Facebook list](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/antifacebook.txt)
 - Anti-Norton tracking list HOSTs file (anti-norton-tracking.txt)
 - iam-py-test's Discord cleanup list ([discord_cleanup.txt](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/discord_cleanup.txt))
 
@@ -61,7 +64,7 @@ Thank you to all the people in https://github.com/iam-py-test/my_filters_001/blo
 
 #### Personal
 - "Lockdown mode"
-This list has a very specific purpose, and **SHOULD NOT BE USED**.
+This list has an extremely specific purpose, and **SHOULD NOT BE USED**.
 
 <br>The filters in the _Alternative list formats_ folder are versions of some of the lists above for different software. These are auto-generated, and thus updates to them must be made to the original list or [the Python script](https://github.com/iam-py-test/my_filters_001/blob/main/scripts/update.py) which generates them.<br>
 Everything not listed above, like the filters in the _Personal_ folder, is either completely forgotten by me, or is likely to break websites due to its purpose or lack of regulation. <br>
@@ -84,10 +87,10 @@ Everything not listed above, like the filters in the _Personal_ folder, is eithe
 - AdBlock Plus format - https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/clickbait_abp.txt
 - Domains only - https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/clickbait_domains.txt
 
-#### Pornograhy Blocklist (unmaintained)
+#### Pornography Blocklist (unmaintained)
 - HOSTs format - https://github.com/iam-py-test/my_filters_001/blob/main/Alternative%20list%20formats/porn_hosts.txt
 - AdBlock Plus format - https://github.com/iam-py-test/my_filters_001/blob/main/Alternative%20list%20formats/porn_abp.txt
-- Domains only (i.e. PiHole) - https://github.com/iam-py-test/my_filters_001/blob/main/Alternative%20list%20formats/porn_domains.txt
+- Domains only (i.e., PiHole) - https://github.com/iam-py-test/my_filters_001/blob/main/Alternative%20list%20formats/porn_domains.txt
 - Pure (no comments) HOSTs format - https://github.com/iam-py-test/my_filters_001/blob/main/Alternative%20list%20formats/porn_pure_hosts.txt
 
 ## Projects which use my lists (to my knowledge)
@@ -108,4 +111,4 @@ These are not endorsements.
 - Google Safe Browsing reverse engineered and Microsoft Smartscreen reverse engineered _are not_ intended as lists of known malware domains, instead they are lists of domains/urls which are blocked by those services in an attempt to understand them and provide some of their protection to users of other browsers. They are also rarely updated
 - All the up-to-date HOSTs versions use 0.0.0.0 instead of 127.0.0.1, as per [#87](https://github.com/iam-py-test/my_filters_001/issues/87)
 - The _domains_lite_ and _hosts_lite_ versions are unmaintained as they took too much time to create and the script(s) which made them have been lost to history, however, the antimalware_lite is not
-- _The malicious website blocklist - uBlock Origin extension_ should not be installed on it's own as it is designed only to be included in _The malicious website blocklist_
+- _The malicious website blocklist - uBlock Origin extension_ should not be installed on its own as it is designed only to be included in _The malicious website blocklist_

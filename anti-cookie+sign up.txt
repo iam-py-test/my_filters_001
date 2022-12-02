@@ -1,26 +1,26 @@
-! Title: Anticookie and Sign-up list
+! Title: Anticookie and Sign-up list (unmaintained)
 ! Description: Do you find cookie consent and sign up prompts annoying, especially if you already clear you cookies regularly or do not want to sign up to every website you visit? This list attempts to remove those annoyances and a few others.
-! Expires: 1 day
+! Expires: 9 days
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-! Last updated: 28/4/2022
+! Last updated: 2/12/2022
 
 ! https://www.fortiguard.com Cookie consent 
 fortiguard.com###__agreementBar
 
 ! https://www.patreon.com cookie consent
-www.patreon.com##.bGMpbm.sc-bBXqnf:has-text(/cookie/)
+patreon.com##.bGMpbm.sc-bBXqnf:has-text(/cookie/)
 
 ! https://www.chip.de cookie consent
 ||cdn-217.privacy-mgmt.com^$subdocument,domain=www.chip.de
 ||cdn.privacy-mgmt.com/consent/tcfv2/vendor-list/categories?siteId=147&consentLanguage=de$xhr,domain=cmp.chip.de
 
 ! https://www.kozminski.edu.pl cookie consent
-www.kozminski.edu.pl##.eu-cookie-compliance-banner--opt-in.eu-cookie-compliance-banner-info.eu-cookie-compliance-banner
+kozminski.edu.pl##.eu-cookie-compliance-banner--opt-in.eu-cookie-compliance-banner-info.eu-cookie-compliance-banner
 
 ! cookie notice
-www.antiviruscontactsupport.com###cookie-law-info-bar
+antiviruscontactsupport.com###cookie-law-info-bar
 
 ! https://github.com/easylist/easylist/pull/9820
 ||cdn.gravito.net/cmp/$script
@@ -30,16 +30,16 @@ mgtv.com##.m-agreement
 ||googletagmanager.com^
 
 ! https://www.ksta.de cookie consent
-www.ksta.de##.dimissed.sticky-footer.screen.ssoTemplate.revealed
-www.ksta.de##section.dm_content_block.module_for_tracking:nth-of-type(3)
+ksta.de##.dimissed.sticky-footer.screen.ssoTemplate.revealed
+ksta.de##section.dm_content_block.module_for_tracking:nth-of-type(3)
 
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-944921911
 the-dots.com##[class*="ContentPaywall"]
 ||mxpnl.com^$third-party
 
 ! https://www.merkur.de
-www.merkur.de##.cmp_overlay
-www.merkur.de##.cmp_overwriteLevel1.cmp_app
+merkur.de##.cmp_overlay
+merkur.de##.cmp_overwriteLevel1.cmp_app
 ||idcdn.de/static/common/js/build/modules/a34cba325fe0c0b819de78676bf63705/id.cookie.js$script,domain=www.merkur.de
 
 ! https://tiny.cc cookie consent
@@ -53,20 +53,20 @@ tiny.cc##.cc_banner-wrapper
 fraudscore.ai##.cookiesBlock
 
 ! https://www.spamhaus.org cookie consent
-www.spamhaus.org##.cookieinfo
+spamhaus.org##.cookieinfo
 
 ! https://github.com/easylist/easylist/pull/9697
 autokeskus.fi##.hybrid-cookie-modal-backdrop
 autokeskus.fi##.hybrid-cookie-modal-modal
 
 ! https://www.gdata-software.com cookie consent
-www.gdata-software.com###gd-cookie-consent
+gdata-software.com###gd-cookie-consent
 
 ! https://labs.bitdefender.com cookie consent
 labs.bitdefender.com##.cookie-notice-container
 
 ! https://www.forcepoint.com cookie consent
-www.forcepoint.com##.jquery-once-1-processed.cookie-consent
+forcepoint.com##.jquery-once-1-processed.cookie-consent
 
 ! https://github.com/easylist/easylist/issues/8823
 savoriurbane.com###cookie-law-info-bar
@@ -82,7 +82,7 @@ fitfoodway.ro##.cookie
 lauraadamache.ro##.flatsome-cookies--active.flatsome-cookies
 
 ! https://www.emsisoft.com cookie consent
-www.emsisoft.com##.cc-color-override--432516077.cc-bottom.cc-theme-block.cc-type-info.cc-banner.cc-window
+emsisoft.com##.cc-color-override--432516077.cc-bottom.cc-theme-block.cc-type-info.cc-banner.cc-window
 
 ! https://cyanforensics.com cookie consent
 cyanforensics.com###catapult-cookie-bar
@@ -92,13 +92,13 @@ sitechecker.pro##.footer__cookie
 
 
 ! https://www.osma-aufzuege.de
-www.osma-aufzuege.de###cookie-consent-dialog
+osma-aufzuege.de###cookie-consent-dialog
 
 ! https://www.pkwteile.de
-www.pkwteile.de##.popup-choose-cookies
+pkwteile.de##.popup-choose-cookies
 
 ! https://www.autodoc.de
-www.autodoc.de##.popup-choose-cookies
+autodoc.de##.popup-choose-cookies
 ||www.autodoc.de/ajax/features/checkcookiesession$xhr,domain=www.autodoc.de
 ||www.autodoc.de/ajax/popupcookies.html$xhr,domain=www.autodoc.de
 
@@ -106,7 +106,7 @@ www.autodoc.de##.popup-choose-cookies
 discord.me##.show.px-3.cookiealert.text-center.alert-dismissible.alert.position-fixed
 
 ! https://www.ksta.de cookie consent
-www.ksta.de##.dimissed.sticky-footer.screen.ssoTemplate.revealed
+ksta.de##.dimissed.sticky-footer.screen.ssoTemplate.revealed
 
 ! https://www.chip.de cookie consent
 ||cdn-217.privacy-mgmt.com^$subdocument,domain=www.chip.de
@@ -144,11 +144,11 @@ prisjakt.no##+js(set,toggleCookieBanner,noopFunc)
 ! merriam-webster.com cookie consent? For some reason, I could not trigger anything more...
 merriam-webster.com##+js(cookie-remover,OptanonConsent)
 merriam-webster.com##+js(cookie-remover,eupubconsent)
-www.merriam-webster.com##+js(cookie-remover,usprivacy)
+merriam-webster.com##+js(cookie-remover,usprivacy)
 merriam-webster.com##+js(cookie-remover,user-data)
 
 ! https://www.merriam-webster.com promo
-www.merriam-webster.com##.register-promo.section--spacer.row
+merriam-webster.com##.register-promo.section--spacer.row
 
 ! https://www.aftenposten.no cookie consent
 ||cmp.aftenposten.no/index.html$subdocument
@@ -179,7 +179,7 @@ express.de##+js(cookie-remover,consentRedirectUrl)
 
 
 ! https://www.crowrivermedia.com cookie consent
-www.crowrivermedia.com###cookie-notice
+crowrivermedia.com###cookie-notice
 ! Possible GEOLOCK script
 ||evvnt-plugin-proxy.global.ssl.fastly.net/?publisher_id=3659&api_key=*&facet_filters=%5B%22country.iso_code$xhr,domain=www.crowrivermedia.com
 ! Paywall
@@ -214,22 +214,22 @@ bunte.de###sp_message_container_482588
 ||cmp.bunte.de/wrapper/tcfv2/v1/gdpr/native-message?requestUUID=*&hasCsp=*&env=prod&consentLanguage=*&body=$xhr,domain=bunte.de
 
 ! https://www.sondakika.com cookie consent
-www.sondakika.com###cookiePolicyw
+sondakika.com###cookiePolicyw
 
 ! https://www.nordlb.de cookie consent
-www.nordlb.de##.b-typography--text-small.b-typography.b-cookie-banner
+nordlb.de##.b-typography--text-small.b-typography.b-cookie-banner
 
 ! https://www.oetker.de cookie consent
-www.oetker.de##.js-pd-main.pd-main
+oetker.de##.js-pd-main.pd-main
 
 ! https://www.f-secure.com cookie consent
 f-secure.com##.en_global.type-b.view-1.fs-consent
 
 ! cookie consent
-www.roastmarket.de,trustpilot.com,cars.mclaren.com,sozcu.com.tr,community.broadcom.com,www.vmware.com,vmware.com,www.alternatives-economiques.fr###onetrust-consent-sdk
+roastmarket.de,trustpilot.com,cars.mclaren.com,sozcu.com.tr,community.broadcom.com,www.vmware.com,vmware.com,www.alternatives-economiques.fr###onetrust-consent-sdk
 
 ! https://www.bundesregierung.de cookie consent
-www.bundesregierung.de##.bpa-white.bpa-module-supplement.bpa-module.bpa-cookie-banner
+bundesregierung.de##.bpa-white.bpa-module-supplement.bpa-module.bpa-cookie-banner
 
 ! https://www.foerde-sparkasse.de cookie consent
 !#if !false
@@ -246,13 +246,13 @@ foerde-sparkasse.de##.initial.if6_eprivacy.if6_outer:remove()
 ! https://www.flashscore.de cookie consent
 ||cdn.cookielaw.org/consent/0df30b7a-bae8-41c1-af14-50012d2ab386/0df30b7a-bae8-41c1-af14-50012d2ab386.json$xhr,redirect=noop.txt,domain=www.flashscore.de
 ||cdn.cookielaw.org/scripttemplates/otSDKStub.js$script,redirect=noop.js,domain=www.flashscore.de
-www.flashscore.de##.otPlaceholder
+flashscore.de##.otPlaceholder
 
 ! https://www.elefacts.de cookie consent
-www.elefacts.de##.cc_overlay_lock
+elefacts.de##.cc_overlay_lock
 
 ! https://www.spiegel.de cookie consent
-www.spiegel.de##.sm\:py-24.sm\:px-16.md\:p-24.lg\:py-24.lg\:px-12.sm\:mx-16.md\:mx-auto.lg\:mx-auto.md\:w-10\/12.lg\:w-8\/12.bg-white
+spiegel.de##.sm\:py-24.sm\:px-16.md\:p-24.lg\:py-24.lg\:px-12.sm\:mx-16.md\:mx-auto.lg\:mx-auto.md\:w-10\/12.lg\:w-8\/12.bg-white
 ||sni.cdn.prod.www.spiegel.de.c.footprint.net^$script,domain=www.spiegel.de
 
 
@@ -310,7 +310,7 @@ fc.lc###cookie-pop
 shrinkme.io###cookie-pop
 
 ! https://www.google.org cookie consent
-www.google.org###cookieBar
+google.org###cookieBar
 
 ! https://blog.google cookie consent
 blog.google##.cookie-show
@@ -338,7 +338,7 @@ deutsche-stammzellspenderdatei.de##.ncoi---centerCenter.ncoi---animation-no.ncoi
 
 ! 2021-06-09 https://www.sparkasse-hagenherdecke.de
 !#if !false
-www.sparkasse-hagenherdecke.de##.initial.if6_eprivacy.if6_outer
+sparkasse-hagenherdecke.de##.initial.if6_eprivacy.if6_outer
 !#endif
 sparkasse-hagenherdecke.de##.initial.if6_eprivacy.if6_outer:remove()
 
@@ -348,22 +348,22 @@ sparkasse-hagenherdecke.de##.initial.if6_eprivacy.if6_outer:remove()
 
 ! https://www.dtv.de cookie banner
 ! https://github.com/AdguardTeam/AdguardFilters/commit/d2c6ea33c8896a18de39b8db538715520ae49b31
-www.dtv.de##.cc-color-override-datareporter.cc-middle.cc-theme-block.cc-type-opt-out.cc-banner.cc-window
-www.dtv.de###dr_blocking_div
+dtv.de##.cc-color-override-datareporter.cc-middle.cc-theme-block.cc-type-opt-out.cc-banner.cc-window
+dtv.de###dr_blocking_div
 
 ! https://www.tranzystor.pl cookie banner
-www.tranzystor.pl###tranzystorcookies
+tranzystor.pl###tranzystorcookies
 
 ! https://www.visitberlin.de cookie banner
-www.visitberlin.de###klaro
+visitberlin.de###klaro
 
 ! https://insani24.de cookie banner
 insani24.de###ws_eu-cookie-container
 
 ! https://www.kliemannsland.de cookie banner
-www.kliemannsland.de##.overlay_bc_banner
+kliemannsland.de##.overlay_bc_banner
 kliemannsland.de#$#body { overflow: visible !important; padding-right: 0 !important; }
-www.kliemannsland.de###banner-wrapper
+kliemannsland.de###banner-wrapper
 kliemannsland.de##+js(cookie-remover,_tracking_consent)
 
 ! https://www.giga.de cookie-consent
@@ -386,7 +386,7 @@ quttera.com##.fixed-cookie-container
 safetoopen.com###cookiesdirective
 
 ! https://www.snigel.com cookie consent
-www.snigel.com##.shown.gdpr-banner
+snigel.com##.shown.gdpr-banner
 
 ! https://www.random.org cookie consent
 random.org###cookie-banner
@@ -509,11 +509,11 @@ ublock-origin.com###cookie-law-info-bar
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/93794
 ! Fix bkk-vdn.de cookie consent
-www.bkk-vdn.de##.cc-color-override-1808778711.cc-left.cc-bottom.cc-theme-classic.cc-type-opt-in.cc-floating.cc-window
-www.bkk-vdn.de##+js(rc,body,dp--cookie-consent)
+bkk-vdn.de##.cc-color-override-1808778711.cc-left.cc-bottom.cc-theme-classic.cc-type-opt-in.cc-floating.cc-window
+bkk-vdn.de##+js(rc,body,dp--cookie-consent)
 ||www.bkk-vdn.de/typo3conf/ext/dp_cookieconsent/Resources/Public/css/dp_cookieconsent.css?1603355725$stylesheet,domain=www.bkk-vdn.de
-www.bkk-vdn.de#$#body.dp--cookie-consent:before {background:unset !important}
-www.bkk-vdn.de#$#body.dp--cookie-consent {background:unset !important}
+bkk-vdn.de#$#body.dp--cookie-consent:before {background:unset !important}
+bkk-vdn.de#$#body.dp--cookie-consent {background:unset !important}
 
 ! https://www.robtex.com
 robtex.com###cookienotice
@@ -523,29 +523,29 @@ developer.chrome.com##.hairline-top.cookie-banner
 developer.chrome.com##.banner--info.banner
 
 ! https://www.quickheal.com
-www.quickheal.com##.is-sticky.js-cookie-bar.cookie-bar
+quickheal.com##.is-sticky.js-cookie-bar.cookie-bar
 
 ! https://sucuri.net
 sucuri.net##.p-0.hide.cookie-policy-banner.container-fluid
 
 ! https://www.washingtonpost.com
-www.washingtonpost.com##div#i_userMessages.rml:nth-of-type(2)
+washingtonpost.com##div#i_userMessages.rml:nth-of-type(2)
 
 ! https://sucuri.net
 sucuri.net##.p-0.hide.cookie-policy-banner.container-fluid
 
 ! https://www.apivoid.com
-www.apivoid.com##.cookiebanner
+apivoid.com##.cookiebanner
 
 ! https://www.scamner.com
-www.scamner.com##.cookies
+scamner.com##.cookies
 
 ! https://who.is
 who.is##[href="https://www.name.com/redirect/whodotis/sidebar-middle"]
 who.is##.col-md-4 > center
 
 ! https://www.drweb.com
-www.drweb.com##.bg_green_3.white.space_1of1.ztop.left.bottom
+drweb.com##.bg_green_3.white.space_1of1.ztop.left.bottom
 
 ! https://adblockplus.org
 adblockplus.org##.cookiebar.cookie
@@ -557,72 +557,72 @@ who.is##[href="https://www.name.com/redirect/whodotis/homepage"]
 cybersecurity.att.com##.active.cookie-notice
 
 ! https://www.paypal.com cookies
-www.paypal.com##.ccpaHideCookieBannerMobile.ccpaCookieBanner_container-custom.ccpaCookieBanner_container
+paypal.com##.ccpaHideCookieBannerMobile.ccpaCookieBanner_container-custom.ccpaCookieBanner_container
 
 ! JoeSandbox
-www.joesandbox.com##.cc-color-override-1830989329.cc-bottom.cc-theme-classic.cc-type-info.cc-banner.cc-window
+joesandbox.com##.cc-color-override-1830989329.cc-bottom.cc-theme-classic.cc-type-info.cc-banner.cc-window
 
 ! Various norton.com cookie banners - if there is a better catch-all, I am open to suggestions
 us.norton.com,uk.norton.com,es.norton.com##.ensNotifyBanner
 
 ! An annoying download pannel which follows you down the page - this should not break the regular download buttons
 ! https://www.novirusthanks.org
-www.novirusthanks.org##.text-xs-center.download-panel
+novirusthanks.org##.text-xs-center.download-panel
 
 !NPR sign up to newsletter - can still sign up via sign up page
-www.npr.org##.newsletter-stickybar.global-stickybar
+npr.org##.newsletter-stickybar.global-stickybar
 
 ! YouTube - see https://github.com/iam-py-test/my_filters_001/issues/95
 !!! www.youtube.com##tp-yt-paper-dialog.ytd-popup-container.style-scope
 
 ! Cookie banner - https://www.visme.co
-www.visme.co##.cookies-popup
+visme.co##.cookies-popup
 
 ! weather.com cookies and 'upgrade' sidebar
 weather.com##.PrivacyDataNotice--container--1kMjz
 weather.com###WxuSmartMessage-sidebar-cf7684f8-a943-4593-9471-49a48a402aaa > .Card--card--4VS_Q.Card--cardPadded--2jAM0.card
 
 ! annoying fullpage cookie consent - https://forums.lanik.us/viewtopic.php?f=91&t=46152
-www.jeuxvideo.com##.didomi-popup-notice-optin-type.didomi-popup-notice.didomi-popup__dialog.didomi-popup-container
-www.jeuxvideo.com##.didomi-popup__backdrop.didomi-notice-popup.didomi-popup-backdrop
+jeuxvideo.com##.didomi-popup-notice-optin-type.didomi-popup-notice.didomi-popup__dialog.didomi-popup-container
+jeuxvideo.com##.didomi-popup__backdrop.didomi-notice-popup.didomi-popup-backdrop
 
 ! Example URL: https://twitter.com/gorhill/status/1033706103782170625
 ! Can someone confirm if there is more to the Twitter paywall - This was all I could find
 twitter.com##.r-1upvrn0.r-urgr8i.css-1dbjc4n
 
 ! www.publico.pt paywall - I could find no solution (these filters are just attempts)
-www.publico.pt##.datawall-warning.site-message--datawall.site-message--notice.site-message
-www.publico.pt##.shown.site-message--paywall.site-message--notice.site-message
-www.publico.pt##+js(cookie-remover,_hd_)
-www.publico.pt##+js(cookie-remover,_ex_C_last)
-www.publico.pt##+js(cookie-remover,last-show)
+publico.pt##.datawall-warning.site-message--datawall.site-message--notice.site-message
+publico.pt##.shown.site-message--paywall.site-message--notice.site-message
+publico.pt##+js(cookie-remover,_hd_)
+publico.pt##+js(cookie-remover,_ex_C_last)
+publico.pt##+js(cookie-remover,last-show)
 !||mkt.publico.pt/get/US-1621527817-707-60a68d09acfb1$xhr,domain=www.publico.pt
 !||www.publico.pt/js/workers/clusters.min.js?v202001211700$script,domain=www.publico.pt
 !||www.publico.pt/api/list/caixa/413718/news/0?size=3$xhr,domain=www.publico.pt
 ||s.publico.pt/ip.php$xhr,domain=www.publico.pt
 !||www.publico.pt/api/cluster/zombie/premium$xhr,domain=www.publico.pt
-www.publico.pt##+js(set,pageHasPaywall,false)
+publico.pt##+js(set,pageHasPaywall,false)
 !||www.publico.pt/api/traffic/split/custom/_ex_C/3$xhr,domain=www.publico.pt
 
 ! https://www.washingtonpost.com paywall
-www.washingtonpost.com##.bg-white.justify-center.flex.overflow-hidden.border-box.w-100.left-0.bottom-0.fixed
-www.washingtonpost.com##.bg-black.w-100.h-100.o-50.fixed.right-0.bottom-0
-www.washingtonpost.com##+js(aeld,scroll)
+washingtonpost.com##.bg-white.justify-center.flex.overflow-hidden.border-box.w-100.left-0.bottom-0.fixed
+washingtonpost.com##.bg-black.w-100.h-100.o-50.fixed.right-0.bottom-0
+washingtonpost.com##+js(aeld,scroll)
 ||www.washingtonpost.com/subscribe/paywall/*$xhr,domain=www.washingtonpost.com
 
 ! www.dallasnews.com cookie consent
-www.dallasnews.com##+js(cookie-remover,usprivacy)
-www.dallasnews.com##.osano-cm-dialog--type_bar.osano-cm-dialog--position_bottom.osano-cm-dialog.osano-cm-window__dialog
+dallasnews.com##+js(cookie-remover,usprivacy)
+dallasnews.com##.osano-cm-dialog--type_bar.osano-cm-dialog--position_bottom.osano-cm-dialog.osano-cm-window__dialog
 
 ! www.themarshallproject.org paywall
-www.themarshallproject.org##+js(cookie-remover,_utpv)
-www.themarshallproject.org##.toast-active.toast-email-signup-v2.toast-email-signup.toast-notification
+themarshallproject.org##+js(cookie-remover,_utpv)
+themarshallproject.org##.toast-active.toast-email-signup-v2.toast-email-signup.toast-notification
 
 ! https://www.ublock-origin.com cookie banner
-www.ublock-origin.com###cookie-law-info-bar
+ublock-origin.com###cookie-law-info-bar
 
 ! https://www.robtex.com cookie banner
-www.robtex.com###cookienotice
+robtex.com###cookienotice
 
 ! https://developer.chrome.com cookie banner
 developer.chrome.com##.hairline-top.cookie-banner
@@ -637,16 +637,16 @@ developer.chrome.com##.banner--info.banner
 !###ffpop
 !###ffBlanket
 !##.syndicated-modal
-www.nationalgeographic.com##.EmailStickyFooter__Container
+nationalgeographic.com##.EmailStickyFooter__Container
 ! 2021-04-19 https://www.nationalgeographic.com
-www.nationalgeographic.com##.ModalInner
-www.nationalgeographic.com###fittPortal_0 > .no-touch.bp-desktopLGPlus.bp-desktopPlus.bp-tabletPlus.bp-mobileLGPlus.bp-mobileMDPlus
+nationalgeographic.com##.ModalInner
+nationalgeographic.com###fittPortal_0 > .no-touch.bp-desktopLGPlus.bp-desktopPlus.bp-tabletPlus.bp-mobileLGPlus.bp-mobileMDPlus
 !Allow scrolling
 nationalgeographic.com##+js(aeld, scroll)
 
 ! Fix opera.com annoyances - https://www.opera.com
-www.opera.com##.cookie-consent
-www.opera.com##+js(cookie-remover,operf)
+opera.com##.cookie-consent
+opera.com##+js(cookie-remover,operf)
 addons.opera.com###overlay
 ! Add fix from uBlock Origin annoyances 
 ! https://github.com/uBlockOrigin/uAssets/issues/5030
@@ -658,8 +658,8 @@ badbitcoin.org##[href^="https://partners_click.bitcasino.io/"]
 ||badbitcoin.org/images/freebitcoin728x90.png$image
 
 !Fix www.howtogeek.com sign up prompt
-www.howtogeek.com###v2campaignpopup
-www.howtogeek.com###v2campaignpopup_backdrop
+howtogeek.com###v2campaignpopup
+howtogeek.com###v2campaignpopup_backdrop
 ! Waiting for someone to confirm that this cookie is related to the sign up prompt
 ! www.howtogeek.com##+js(cookie-remover,_dlt)
 
@@ -671,21 +671,21 @@ www.howtogeek.com###v2campaignpopup_backdrop
 
 ! https://www.reddit.com/r/uBlockOrigin/wiki/solutions#wiki_consent_dialog_popup
 ! Google consent, "before you continue"
-www.google.*##^script:has-text(consentCookiePayload)
-www.google.*##+js(acis, document.cookie, YES+)
+google.*##^script:has-text(consentCookiePayload)
+google.*##+js(acis, document.cookie, YES+)
 google.*##+js(aeld, DOMContentLoaded, CONSENT)
 ||consent.google.com^
 
 ! anti-adblock https://www.drawasaurus.org
 ! https://github.com/uBlockOrigin/uAssets/issues/9183
-www.drawasaurus.org##.c-footer__blocked
+drawasaurus.org##.c-footer__blocked
 drawasaurus.org##+js(nostif, forceRefresh)
 
 ! ads on http://multirbl.valli.org
 multirbl.valli.org###lo-ads
 
 ! cookie banner https://www.heroku.com
-www.heroku.com###heroku-cookie-banner
+heroku.com###heroku-cookie-banner
 
 ! https://blavity.com Cookie banners 
 blavity.com##.Cookie--blood-orange.Cookie--bottom.Cookie
@@ -701,21 +701,21 @@ mediafire.com###cookie-accept-footer
 mediafire.com##+js(cookie-remover,accept-cookies)
 
 ! Hide the banner and delete the cookie
-www.codespeedy.com###catapult-cookie-bar
-www.codespeedy.com##+js(cookie-remover,catAccCookies)
-www.codespeedy.com###catapultCookie
+codespeedy.com###catapult-cookie-bar
+codespeedy.com##+js(cookie-remover,catAccCookies)
+codespeedy.com###catapultCookie
 ! Get rid of the remaining ads - https://www.codespeedy.com
-www.codespeedy.com##div.height_250_ad
+codespeedy.com##div.height_250_ad
 
 ! Commonsensemedia paywall
-www.commonsensemedia.org##+js(cookie-remover,STYXKEY-content-gating-SR1)
-www.commonsensemedia.org##+js(cookie-remover,__cfduid)
-www.commonsensemedia.org##+js(aeld, scroll)
-www.commonsensemedia.org###csm-premium-gate
+commonsensemedia.org##+js(cookie-remover,STYXKEY-content-gating-SR1)
+commonsensemedia.org##+js(cookie-remover,__cfduid)
+commonsensemedia.org##+js(aeld, scroll)
+commonsensemedia.org###csm-premium-gate
 
 ! Hide the banner and delete the cookie
-www.urlvoid.com##+js(cookie-remover,cookiebanner-accepted)
-www.urlvoid.com##.cookiebanner
+urlvoid.com##+js(cookie-remover,cookiebanner-accepted)
+urlvoid.com##.cookiebanner
 
 ! Time.com paywall
 ! Delete all the cookies
@@ -726,75 +726,75 @@ time.com##+js(cookie-remover,usprivacy)
 time.com##.roadblock.hide-on-mobile.can-animate.meter-wall.component
 
 ! www.nytimes.com paywall
-www.nytimes.com##+js(cookie-remover,datadome)
-www.nytimes.com##+js(cookie-remover,nyt-a)
-www.nytimes.com##+js(cookie-remover,nyt-auth-action)
-www.nytimes.com##+js(cookie-remover,nyt-gdpr)
-www.nytimes.com##+js(cookie-remover,nyt-geo)
-www.nytimes.com##+js(cookie-remover,nyt-purr)
-www.nytimes.com##+js(cookie-remover,nyt-us)
-www.nytimes.com##.e1x0szx60.css-17nqy7q.expanded-dock.expanded.shown.MAG_web_regi_us_sale_apple-pay-dock-ecd-test
-www.nytimes.com##div.egw6tc41.css-et84d3:nth-of-type(2)
-www.nytimes.com##.e1x0szx60.css-17nqy7q.expanded-dock.shown.MAG_web_regi_us_sale_apple-pay-dock-ecd-test
-www.nytimes.com##.nytcp-opt.css-1kj7lfb > .ez4a0qj0.css-zbkuyb
+nytimes.com##+js(cookie-remover,datadome)
+nytimes.com##+js(cookie-remover,nyt-a)
+nytimes.com##+js(cookie-remover,nyt-auth-action)
+nytimes.com##+js(cookie-remover,nyt-gdpr)
+nytimes.com##+js(cookie-remover,nyt-geo)
+nytimes.com##+js(cookie-remover,nyt-purr)
+nytimes.com##+js(cookie-remover,nyt-us)
+nytimes.com##.e1x0szx60.css-17nqy7q.expanded-dock.expanded.shown.MAG_web_regi_us_sale_apple-pay-dock-ecd-test
+nytimes.com##div.egw6tc41.css-et84d3:nth-of-type(2)
+nytimes.com##.e1x0szx60.css-17nqy7q.expanded-dock.shown.MAG_web_regi_us_sale_apple-pay-dock-ecd-test
+nytimes.com##.nytcp-opt.css-1kj7lfb > .ez4a0qj0.css-zbkuyb
 
 ! www.britannica.com tracking. 
-www.britannica.com##+js(cookie-remover,webstats)
-www.britannica.com##+js(cookie-remover,usprivacy)
-www.britannica.com##+js(cookie-remover,__mendel)
+britannica.com##+js(cookie-remover,webstats)
+britannica.com##+js(cookie-remover,usprivacy)
+britannica.com##+js(cookie-remover,__mendel)
 
 ! More paywall - https://www.independent.co.uk
-www.independent.co.uk##.bjWcZt.sc-ptRml
-www.independent.co.uk##.jEfqsK.sc-pZnSc
-www.independent.co.uk##.eAffPM.sc-qPwPv
-www.independent.co.uk##+js(cookie-remover,fresh8_toggle)
+independent.co.uk##.bjWcZt.sc-ptRml
+independent.co.uk##.jEfqsK.sc-pZnSc
+independent.co.uk##.eAffPM.sc-qPwPv
+independent.co.uk##+js(cookie-remover,fresh8_toggle)
 
 !Annoying, scroll locking, cookie consent popup - https://www.fsma.be
-www.fsma.be###CybotCookiebotDialog
-www.fsma.be###CybotCookiebotDialogBodyUnderlay
-www.fsma.be##+js(cookie-remover,CookieConsent)
-www.fsma.be##+js(cookie-remover,has_js)
-www.fsma.be##+js(aeld,scroll)
+fsma.be###CybotCookiebotDialog
+fsma.be###CybotCookiebotDialogBodyUnderlay
+fsma.be##+js(cookie-remover,CookieConsent)
+fsma.be##+js(cookie-remover,has_js)
+fsma.be##+js(aeld,scroll)
 ||consent.cookiebot.com/20b54b69-4b4d-48f1-9364-75c0686444e6/cc.js$script,domain=www.fsma.be
 ||consentcdn.cookiebot.com/consentconfig/20b54b69-4b4d-48f1-9364-75c0686444e6/fsma.be/configuration.js$script,domain=www.fsma.be
 
 ! Reddit "get premium"
-www.reddit.com##.premium-banner
+reddit.com##.premium-banner
 
 !MyWot trying to get you to install the extension
 ! https://github.com/uBlockOrigin/uAssets/issues/9235
-www.mywot.com##.fmdjuL.StyledIntroSection__IntroContent-zlf7ux-1.StyledUtils__FlexColumn-sc-14r66vj-1 > .ohnJg.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0 > .jss297.jss295.jss122.jss113.jss112.jss110.jss109.jss98.jss124
-www.mywot.com##.faGFby.StyledFloatingHorizontalAddWOT__FloatingHorizontalAddWOTContainer-sc-8kea3v-0.StyledUtils__FlexRow-sc-14r66vj-0
-www.mywot.com##.fmdjuL.StyledIntroSection__IntroContent-zlf7ux-1.StyledUtils__FlexColumn-sc-14r66vj-1 > .ohnJg.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0 > .jss319.jss317.jss122.jss113.jss112.jss110.jss109.jss98.jss124
-www.mywot.com##.kxzBLN.StyledRectangleDesktopConversionBanner__RectangleDesktopConversionBannerContainer-sc-1kgcajq-0.StyledUtils__FlexColumn-sc-14r66vj-1
-www.mywot.com##.dLClwL.StyledCookiesConsent__CookiesConsentContainer-sc-1hx0re8-0.StyledUtils__FlexRow-sc-14r66vj-0
-www.mywot.com##.kQDsFi.StyledPopup__PopupContainer-sc-1ql589a-0.StyledUtils__FlexColumn-sc-14r66vj-1
-www.mywot.com##.fizXGU.StyledHorizontalAddWOT-z0aeqf-0.StyledUtils__FlexRow-sc-14r66vj-0
-www.mywot.com##.jss332.jss334.jss132.jss123.jss122.jss120.jss119.jss108.jss134
-www.mywot.com##.bTrYWJ.StyledHorizontalAddWOT-z0aeqf-0.StyledUtils__FlexRow-sc-14r66vj-0
-www.mywot.com##.faGFby.StyledFloatingHorizontalAddWOT__FloatingHorizontalAddWOTContainer-sc-8kea3v-0.StyledUtils__FlexRow-sc-14r66vj-0
-www.mywot.com##.dLClwL.StyledCookiesConsent__CookiesConsentContainer-sc-1hx0re8-0.StyledUtils__FlexRow-sc-14r66vj-0
-www.mywot.com##.kQDsFi.StyledPopup__PopupContainer-sc-1ql589a-0.StyledUtils__FlexColumn-sc-14r66vj-1
-www.mywot.com##.byIuiX.StyledRectangleDesktopConversionBanner__RectangleDesktopConversionBannerContainer-sc-1kgcajq-0.StyledUtils__FlexColumn-sc-14r66vj-1
-www.mywot.com##.jss327.jss329.jss132.jss123.jss122.jss120.jss119.jss108.jss134
-www.mywot.com##.eYusTO.StyledScorecardHeader__Row-sc-1j5xgrs-3.StyledUtils__FlexRow-sc-14r66vj-0 > .gyaPxX.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0
-www.mywot.com##.fmdjuL.StyledIntroSection__IntroContent-zlf7ux-1.StyledUtils__FlexColumn-sc-14r66vj-1 > .gyaPxX.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0 > .jss298.jss296.jss124.jss115.jss114.jss112.jss111.jss100.jss126
-www.mywot.com##.bHRuhF.StyledFloatingAddWOT__FloatingAddWOTContainer-x3wli8-0.StyledUtils__FlexColumn-sc-14r66vj-1
-www.mywot.com##.fmdjuL.StyledIntroSection__IntroContent-zlf7ux-1.StyledUtils__FlexColumn-sc-14r66vj-1 > .gyaPxX.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0 > .jss297.jss295.jss122.jss113.jss112.jss110.jss109.jss98.jss124
-www.mywot.com##.fizXGU.StyledHorizontalAddWOT-z0aeqf-0.StyledUtils__FlexRow-sc-14r66vj-0
-www.mywot.com##.fmdjuL.StyledIntroSection__IntroContent-zlf7ux-1.StyledUtils__FlexColumn-sc-14r66vj-1 > .ohnJg.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0 > .jss297.jss295.jss122.jss113.jss112.jss110.jss109.jss98.jss124
+mywot.com##.fmdjuL.StyledIntroSection__IntroContent-zlf7ux-1.StyledUtils__FlexColumn-sc-14r66vj-1 > .ohnJg.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0 > .jss297.jss295.jss122.jss113.jss112.jss110.jss109.jss98.jss124
+mywot.com##.faGFby.StyledFloatingHorizontalAddWOT__FloatingHorizontalAddWOTContainer-sc-8kea3v-0.StyledUtils__FlexRow-sc-14r66vj-0
+mywot.com##.fmdjuL.StyledIntroSection__IntroContent-zlf7ux-1.StyledUtils__FlexColumn-sc-14r66vj-1 > .ohnJg.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0 > .jss319.jss317.jss122.jss113.jss112.jss110.jss109.jss98.jss124
+mywot.com##.kxzBLN.StyledRectangleDesktopConversionBanner__RectangleDesktopConversionBannerContainer-sc-1kgcajq-0.StyledUtils__FlexColumn-sc-14r66vj-1
+mywot.com##.dLClwL.StyledCookiesConsent__CookiesConsentContainer-sc-1hx0re8-0.StyledUtils__FlexRow-sc-14r66vj-0
+mywot.com##.kQDsFi.StyledPopup__PopupContainer-sc-1ql589a-0.StyledUtils__FlexColumn-sc-14r66vj-1
+mywot.com##.fizXGU.StyledHorizontalAddWOT-z0aeqf-0.StyledUtils__FlexRow-sc-14r66vj-0
+mywot.com##.jss332.jss334.jss132.jss123.jss122.jss120.jss119.jss108.jss134
+mywot.com##.bTrYWJ.StyledHorizontalAddWOT-z0aeqf-0.StyledUtils__FlexRow-sc-14r66vj-0
+mywot.com##.faGFby.StyledFloatingHorizontalAddWOT__FloatingHorizontalAddWOTContainer-sc-8kea3v-0.StyledUtils__FlexRow-sc-14r66vj-0
+mywot.com##.dLClwL.StyledCookiesConsent__CookiesConsentContainer-sc-1hx0re8-0.StyledUtils__FlexRow-sc-14r66vj-0
+mywot.com##.kQDsFi.StyledPopup__PopupContainer-sc-1ql589a-0.StyledUtils__FlexColumn-sc-14r66vj-1
+mywot.com##.byIuiX.StyledRectangleDesktopConversionBanner__RectangleDesktopConversionBannerContainer-sc-1kgcajq-0.StyledUtils__FlexColumn-sc-14r66vj-1
+mywot.com##.jss327.jss329.jss132.jss123.jss122.jss120.jss119.jss108.jss134
+mywot.com##.eYusTO.StyledScorecardHeader__Row-sc-1j5xgrs-3.StyledUtils__FlexRow-sc-14r66vj-0 > .gyaPxX.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0
+mywot.com##.fmdjuL.StyledIntroSection__IntroContent-zlf7ux-1.StyledUtils__FlexColumn-sc-14r66vj-1 > .gyaPxX.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0 > .jss298.jss296.jss124.jss115.jss114.jss112.jss111.jss100.jss126
+mywot.com##.bHRuhF.StyledFloatingAddWOT__FloatingAddWOTContainer-x3wli8-0.StyledUtils__FlexColumn-sc-14r66vj-1
+mywot.com##.fmdjuL.StyledIntroSection__IntroContent-zlf7ux-1.StyledUtils__FlexColumn-sc-14r66vj-1 > .gyaPxX.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0 > .jss297.jss295.jss122.jss113.jss112.jss110.jss109.jss98.jss124
+mywot.com##.fizXGU.StyledHorizontalAddWOT-z0aeqf-0.StyledUtils__FlexRow-sc-14r66vj-0
+mywot.com##.fmdjuL.StyledIntroSection__IntroContent-zlf7ux-1.StyledUtils__FlexColumn-sc-14r66vj-1 > .ohnJg.StyledInstallContainer__InstallButtonContainerRow-jubsjz-3.StyledUtils__FlexRow-sc-14r66vj-0 > .jss297.jss295.jss122.jss113.jss112.jss110.jss109.jss98.jss124
 ! Both cookie consent and "Download our extension" full page alerts
-www.mywot.com##.dLClwL.StyledCookiesConsent__CookiesConsentContainer-sc-1hx0re8-0.StyledUtils__FlexRow-sc-14r66vj-0
+mywot.com##.dLClwL.StyledCookiesConsent__CookiesConsentContainer-sc-1hx0re8-0.StyledUtils__FlexRow-sc-14r66vj-0
 ||www.mywot.com/images/popup/wot-laptop-tinified.png$image
-www.mywot.com##html > iframe
-www.mywot.com##.kQDsFi.StyledPopup__PopupContainer-sc-1ql589a-0.StyledUtils__FlexColumn-sc-14r66vj-1
+mywot.com##html > iframe
+mywot.com##.kQDsFi.StyledPopup__PopupContainer-sc-1ql589a-0.StyledUtils__FlexColumn-sc-14r66vj-1
 
 
 ! New rules
-www.mywot.com##.StyledFloatingHorizontalAddWOT__FloatingHorizontalAddWOTContainer-sc-8kea3v-0.StyledUtils__FlexRow-sc-14r66vj-0
-www.mywot.com##.StyledPopup__PopupContainer-sc-1ql589a-0
+mywot.com##.StyledFloatingHorizontalAddWOT__FloatingHorizontalAddWOTContainer-sc-8kea3v-0.StyledUtils__FlexRow-sc-14r66vj-0
+mywot.com##.StyledPopup__PopupContainer-sc-1ql589a-0
 
 !More sign up/paywall
 ! https://www.geeksforgeeks.org
-www.geeksforgeeks.org##.side--container_wscard > [href^="https://premium.geeksforgeeks.org/premium-plans/"]
-www.geeksforgeeks.org##.show-consent.hide-consent.cookie-consent
+geeksforgeeks.org##.side--container_wscard > [href^="https://premium.geeksforgeeks.org/premium-plans/"]
+geeksforgeeks.org##.show-consent.hide-consent.cookie-consent
