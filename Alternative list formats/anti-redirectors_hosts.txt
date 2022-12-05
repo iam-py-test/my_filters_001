@@ -194,5 +194,4 @@
 # "short urls" for various services
 0.0.0.0 destyy.com
 # "best URL shorteners for earning money"
-0.0.0.0 clk.sh
 0.0.0.0 upo.im
