@@ -1,0 +1,25 @@
+! Title: DuckDuckGo Extra Clean
+! Description: Remove annoyances from DuckDuckGo to create a clean search experence. Some of what is removed may be considered helpful. Use with caution!
+! Expires: 2 days
+! Last updated: 4/12/2022s
+! I would recommend using this list alongside my "DuckDuckGo cleanup" list to remove unwanted/malicious websites as well
+
+! get rid of the Feedback icon
+duckduckgo.com##.js-feedback-btn-wrap
+duckduckgo.com##.feedback-prompt
+
+! promo
+duckduckgo.com##.header--aside__item--hidden-lg.header--aside__item
+
+! footer
+||duckduckgo.com/assets/icons/footer/reddit.svg$image
+||duckduckgo.com/assets/icons/footer/twr.svg$image
+duckduckgo.com##.footer
+
+! the "shopping" tab which is basically an ad
+duckduckgo.com##[data-zci-link="products"]
+||links.duckduckgo.com^$removeparam=ad_domain
+
+! Twitter link
+||duckduckgo.com/assets/icons/thirdparty/twitter.svg$image
+duckduckgo.com##li.about-profiles__item:has(img[src*="/assets/icons/thirdparty/twitter.svg"])
