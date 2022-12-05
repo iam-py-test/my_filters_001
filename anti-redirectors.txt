@@ -248,5 +248,4 @@
 ||destyy.com^$document
 
 ! "best URL shorteners for earning money"
-||clk.sh^$document
 ||upo.im^$document
