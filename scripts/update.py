@@ -175,7 +175,7 @@ def convert_to_abp(clist,clistpath="./list.txt",include=False):
         try:
           incpath = os.path.abspath(line[10:])
           inccontents = open(incpath,encoding="UTF-8").read().replace("! Title","! Included title")
-          endlist += "{}\n".format(convert_to_abp(inccontents),include=True)
+          endlist += "{}\n".format(convert_to_abp(inccontents,include=True))
         except:
           pass
       elif line.startswith("||"):
