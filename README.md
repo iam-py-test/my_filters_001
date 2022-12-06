@@ -5,8 +5,7 @@ Please report any issues you have and I will try to fix them; please note I may 
 Thank you to all the people in https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for helping improve these filters.<br>
 
 ### Some stats: 
-<a href="https://github.com/iam-py-test/my_filters_001/blob/main/stats.md">
-<img src="https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/totalentries.svg" width='130' height="20"></a>
+<a href="https://github.com/iam-py-test/my_filters_001/blob/main/stats.md"><img src="https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/totalentries.svg" width='130' height="20"></a>
 <img src="https://img.shields.io/github/last-commit/iam-py-test/my_filters_001"> 
 [![Update the alt lists](https://github.com/iam-py-test/my_filters_001/actions/workflows/update_filterlists.yml/badge.svg)](https://github.com/iam-py-test/my_filters_001/actions/workflows/update_filterlists.yml)
 
@@ -26,6 +25,7 @@ Thank you to all the people in https://github.com/iam-py-test/my_filters_001/blo
 - [My anti-Facebook list](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/antifacebook.txt)
 - Anti-Norton tracking list HOSTs file (anti-norton-tracking.txt)
 - iam-py-test's Discord cleanup list ([discord_cleanup.txt](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/discord_cleanup.txt))
+- DuckDuckGo Extra Clean ([duckduckgo_extra_clean.txt](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/duckduckgo_extra_clean.txt))
 
 
 #### Not frequently updated but still receive occasional updates
@@ -102,13 +102,12 @@ Everything not listed above, like the filters in the _Personal_ folder, is eithe
 - [fynks's extension configuration](https://github.com/fynks/configs#extension-configs-)
 - [yokoffing's recommended lists](https://github.com/yokoffing/filterlists#security)
 
-
 These are not endorsements. 
 
 #### Notes
-- The DuckDuckGo Clean Up list is auto-generated from duckduckgo-clean-up.template and the domains/ips versions of my antimalware list. Changes in Pull Requests should be made to either of those or the script which generates it. 
-- Like above, The Brave Search Clean Up list is auto-generated from brave-clean-up.template and the domains/ips versions of my antimalware list. Changes in Pull Requests should be made to either of those or the script which generates it.
+- The DuckDuckGo Clean Up list is auto-generated from duckduckgo-clean-up.template and the domains/ips versions of The malicious website blocklist. Changes in Pull Requests should be made to The malicious website blocklist or to [the Python script](https://github.com/iam-py-test/my_filters_001/blob/main/scripts/update-duckduckgo-clean-up.py). 
+- Like above, The Brave Search Clean Up list is auto-generated from brave-clean-up.template and the domains/ips versions of The malicious website blocklist. Changes in Pull Requests should be made to The malicious website blocklist or [the Python script](https://github.com/iam-py-test/my_filters_001/blob/main/scripts/update-brave-clean-up.py).
 - Google Safe Browsing reverse engineered and Microsoft Smartscreen reverse engineered _are not_ intended as lists of known malware domains, instead they are lists of domains/urls which are blocked by those services in an attempt to understand them and provide some of their protection to users of other browsers. They are also rarely updated
 - All the up-to-date HOSTs versions use 0.0.0.0 instead of 127.0.0.1, as per [#87](https://github.com/iam-py-test/my_filters_001/issues/87)
-- The _domains_lite_ and _hosts_lite_ versions are unmaintained as they took too much time to create and the script(s) which made them have been lost to history, however, the antimalware_lite is not
-- _The malicious website blocklist - uBlock Origin extension_ should not be installed on its own as it is designed only to be included in _The malicious website blocklist_
+- The _domains_lite_ and _hosts_lite_ versions are unmaintained as they took too much time to create and the script(s) which made them have been lost to history, however, the antimalware_lite is not.
+- _The malicious website blocklist - uBlock Origin extension_ should not be installed on its own as it is designed only to be included in _The malicious website blocklist_.
