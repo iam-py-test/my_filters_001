@@ -47,7 +47,6 @@ def mkalt(file,alt):
           domain = idna.encode(line.split("^$")[0][2:].lower()).decode()
         except:
           domain = line.split("^$")[0][2:].lower()
-        print(domain)
         alt.write("{}\n".format(domain))
         if domain in donedomains:
           reddomains.append(line.split("$")[0])
@@ -156,48 +155,45 @@ try:
   mkagh("antimalware.txt","Alternative list formats/antimalware_adguard_home.txt")
 except:
   print("Error")
+
+def convert_to_abp(list):
+  endlist = ""
+  listlines = line.split("\n")
+  for line in listlines:
+    try:
+      if line.startswith("!"):
+        endlist += "{}\n".format(line)
+      elif line.startswith("||"):
+        try:
+          line = idna.encode(line).decode()
+        except Exception as err:
+          print("Didn't encode line {} due to {}".format(line,err))
+          # failed to encode
+          
+        modifier = line.split("$")[1]
+        if "all" in modifier or "doc" in modifier:
+          modifier = ""
+        else:
+          modifier = "${}".format(modifier)
+        endlist += "{}{}\n".format(line.split("$")[0],modifier)
+    except Exception as err:
+      print(err,line)
+  return endlist 
+
+
 def mkabp(file,altname):
   donedomains = []
-  List = open(file).read().split("\n")
-  altfile = open(altname,"w")
-  def isipdomain(domain):
-    try:
-      return domain in allips[file]
-    except:
-      pass
-    return False
-  for line in List:
-    if line.startswith("! Format notes: "):
-      altfile.write("! Format notes: This format is designed for use in AdBlock Plus. However, I recommend you do not use AdBlock Plus with this list, due to lack of support for full website blocking and some other more advanced features\n")
-    if line.startswith("!"):
-      altfile.write(line)
-      altfile.write("\n")
-      continue
-    if line.startswith("||"):
-      altfile.write(line.split("$")[0])
-      altfile.write("\n")
-      continue
-    if "[Adblock Plus 2.0]" in line:
-      altfile.write(line)
-    if "$" in line:
-      domain = line.split("$")[0].lower()
-      isip = isipdomain(domain)
-      if domain in donedomains:
-        continue
-      if isip == True:
-        altfile.write("||{}^".format(domain))
-        donedomains.append(domain)
-      if isip == False and domain != "" and domain not in donedomains:
-        altfile.write("||{}^".format(domain))
-        donedomains.append(domain)
-    altfile.write("\n")
+  List = open(file).read()
+  altfile = open(altname,"w",encoding="UTF-8")
+  altfile.write(convert_to_abp(List))
+  altfile.close()
                     
                     
 try:
-                    mkabp("antimalware.txt","Alternative list formats/antimalware_abp.txt")
-                    mkabp("clickbait.txt","Alternative list formats/clickbait_abp.txt")
-except:
-                    print("ABP error")
+  mkabp("antimalware.txt","Alternative list formats/antimalware_abp.txt")
+  mkabp("clickbait.txt","Alternative list formats/clickbait_abp.txt")
+except Exception as err:
+  print("ABP error: {}".format(err))
 def mkpurehosts(file,altname):
   altfile = open(altname,"w")
   for domain in alldomains[file]:
