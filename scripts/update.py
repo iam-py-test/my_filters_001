@@ -156,26 +156,32 @@ try:
 except:
   print("Error")
 
-def convert_to_abp(list):
+convert_to_abp = None
+def convert_to_abp(clist,clistpath="./list.txt"):
   endlist = ""
-  listlines = line.split("\n")
+  listlines = clist.split("\n")
   for line in listlines:
     try:
-      if line.startswith("!"):
+      if line.startswith("!") and line.startswith("!#") == False:
         endlist += "{}\n".format(line)
-      elif line.startswith("||"):
-        try:
-          line = idna.encode(line).decode()
-        except Exception as err:
-          print("Didn't encode line {} due to {}".format(line,err))
-          # failed to encode
-          
+      elif line.startswith("||") and "$" in line:
         modifier = line.split("$")[1]
         if "all" in modifier or "doc" in modifier:
           modifier = ""
         else:
           modifier = "${}".format(modifier)
         endlist += "{}{}\n".format(line.split("$")[0],modifier)
+      elif line.startswith("!#include "):
+        try:
+          incpath = os.path.abspath(line[10:])
+          inccontents = open(incpath,encoding="UTF-8").read()
+          endlist += "{}\n".format(convert_to_abp(inccontents))
+        except:
+          pass
+      elif line.startswith("||"):
+        endlist += "{}\n".format(line)
+      elif line == "":
+        endlist += "\n"
     except Exception as err:
       print(err,line)
   return endlist 
@@ -183,11 +189,10 @@ def convert_to_abp(list):
 
 def mkabp(file,altname):
   donedomains = []
-  List = open(file).read()
+  List = open(file,encoding="UTF-8").read()
   altfile = open(altname,"w",encoding="UTF-8")
-  altfile.write(convert_to_abp(List))
-  altfile.close()
-                    
+  altfile.write(convert_to_abp(List,clistpath=file))
+  altfile.close()               
                     
 try:
   mkabp("antimalware.txt","Alternative list formats/antimalware_abp.txt")
@@ -206,8 +211,8 @@ except:
 
 def mkadguard(file,altname):
   donedomains = []
-  List = open(file).read().split("\n")
-  altfile = open(altname,"w")
+  List = open(file,encoding="UTF-8").read().split("\n")
+  altfile = open(altname,"w",encoding="UTF-8")
   def isipdomain(domain):
     try:
       return domain in allips[file]
@@ -215,9 +220,6 @@ def mkadguard(file,altname):
       pass
     return False
   for line in List:
-    if line.startswith("! Format notes: "):
-      altfile.write("! Format notes: This format is designed for use in AdGuard's desktop app\n")
-      continue
     if line.startswith("!"):
       altfile.write(line)
       altfile.write("\n")

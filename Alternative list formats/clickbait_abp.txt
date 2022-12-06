@@ -15,7 +15,7 @@
 ! Pesto Harel Shemesh (also known as Crunchmind) appears to operate 88 websites 
 
 ! Clickbait ads
-||cdn.taboola.com^
+||cdn.taboola.com^$third-party
 ||taboola.com^
 
 ! Sites which exist only for clickbait
@@ -25,32 +25,6 @@
 ! same Google Analytics ID UA-43750835-36/ UA-178993256-6 (new) or Taboola tracking pixel ID 1240533 or Yahoo tracking pixel ID 10122972 as magellantimes.com
 ! loads pubocean-tracker.js
 ! https://lh6.googleusercontent.com/jnZD7P2C5u0lsP8o10-Z_qHHQk9ADy5A5o7FtrlFX8xWD7e4KZ09dXP-a2ii67IrqgLEIvU_xnjYhD8q8Y8pyHz6YXJb5OrbU0Kbbuio-EqTtRqdPbDQwoDKRJgoqYU-6FCgIyKB=s0
-||absolutehistory.com^
-||affluenttimes.com^
-||atlanticmirror.com^
-||autoinquirer.com^
-||brillianttraveler.com^
-||eliteherald.com^
-||equitymirror.com^
-||guerillainsurance.com^
-||happinesstimes.com^
-||historicalgenius.com^
-||historicalpost.com^
-||inspiringpet.com^
-||luxandlush.com^
-||magellantimes.com^
-||moneycougar.com^
-||mowmag.com^
-||nextrefinance.com^
-||nightdaily.com^
-||opulentexpress.com^
-||pawszilla.com^
-||petsfanatic.com^
-||scribol.com^
-||totalpast.com^
-||unleashedfinance.com^
-||wealtheditor.com^
-||zenherald.com^
 
 ! NOT SURE ABOUT THIS
 ! trivia.com
@@ -61,30 +35,11 @@
 
 ! Other clickbait sites cross-linked
 ! autooverload and bonvoyaged have the same designs
-||autooverload.com^
-||bonvoyaged.com^
 
-||adventurecrunch.com^
-||centurylink.net^
-||definition.org^
-||elitereaders.com^
-||factinate.com^
-||gazillions.com^
-||heraldweekly.com^
-||inventgoddess.com^
-||itsthevibe.com^
-||postfun.com^
-||theclever.com^
-||therichest.com^
-||thetalko.com^
-||thethings.com^
-||upbeatnews.com^
-||worldlifestyle.com^
 
 ! NOT SURE ABOUT THIS
 ! historydaily.org
 ! maternityweek.com
 
 ! Copied over from https://raw.githubusercontent.com/cpeterso/clickbait-blocklist/master/clickbait-blocklist.txt
-||adblade.com^
 
