@@ -157,7 +157,7 @@ except:
   print("Error")
 
 convert_to_abp = None
-def convert_to_abp(clist,clistpath="./list.txt"):
+def convert_to_abp(clist,clistpath="./list.txt",include=False):
   endlist = ""
   listlines = clist.split("\n")
   for line in listlines:
@@ -174,14 +174,16 @@ def convert_to_abp(clist,clistpath="./list.txt"):
       elif line.startswith("!#include "):
         try:
           incpath = os.path.abspath(line[10:])
-          inccontents = open(incpath,encoding="UTF-8").read()
-          endlist += "{}\n".format(convert_to_abp(inccontents))
+          inccontents = open(incpath,encoding="UTF-8").read().replace("! Title","! Included title")
+          endlist += "{}\n".format(convert_to_abp(inccontents),include=True)
         except:
           pass
       elif line.startswith("||"):
         endlist += "{}\n".format(line)
       elif line == "":
         endlist += "\n"
+      elif line.startswith("[Adblock") and include == False:
+        endlist += line + "\n"
     except Exception as err:
       print(err,line)
   return endlist 
