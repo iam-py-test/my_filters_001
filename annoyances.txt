@@ -1,7 +1,7 @@
 ! Title: iam-py-test's Annoyances
 ! Expires: 1 day
-! Last updated: 1/12/2022
-! Description: A list to remove some things I find annoying, along with a few ads and trackers. Very small right now, but slowly getting bigger and more powerful
+! Last updated: 6/12/2022
+! Description: A list to remove some things I find annoying, along with a few ads and trackers. Very small right now
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
@@ -238,6 +238,9 @@ vblocalhost.com##.ad-rotator
 
 ! https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/issues/51
 ||newrelic.com^$all
+
+! "Everything you ever wanted to know about your website... but your analytics never told you." AKA tracking
+||hotjar.com^$all
 
 ! Some tracker blocking
 !#include anti-norton-tracking.txt
