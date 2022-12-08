@@ -1,6 +1,6 @@
 ! Title: Clickbait blocklist
 ! Description: Isn't it annoying when news websites and search results are filled with random clickbait content? This list hopefully makes some of that go away
-! Last updated: 15/10/2021
+! Last updated: 8/12/2021
 ! Expires: 1 day
 ! Special thanks to https://github.com/sanjayen for inspiring this list and contributing over half of the entries in it
 ! This list was inspired by https://github.com/DandelionSprout/adfilt/issues/272
@@ -25,32 +25,32 @@
 ! same Google Analytics ID UA-43750835-36/ UA-178993256-6 (new) or Taboola tracking pixel ID 1240533 or Yahoo tracking pixel ID 10122972 as magellantimes.com
 ! loads pubocean-tracker.js
 ! https://lh6.googleusercontent.com/jnZD7P2C5u0lsP8o10-Z_qHHQk9ADy5A5o7FtrlFX8xWD7e4KZ09dXP-a2ii67IrqgLEIvU_xnjYhD8q8Y8pyHz6YXJb5OrbU0Kbbuio-EqTtRqdPbDQwoDKRJgoqYU-6FCgIyKB=s0
-absolutehistory.com$document
-affluenttimes.com$document
-atlanticmirror.com$document
-autoinquirer.com$document
-brillianttraveler.com$document
-eliteherald.com$document
-equitymirror.com$document
-guerillainsurance.com$document
-happinesstimes.com$document
-historicalgenius.com$document
-historicalpost.com$document
-inspiringpet.com$document
-luxandlush.com$document
-magellantimes.com$document
-moneycougar.com$document
-mowmag.com$document
-nextrefinance.com$document
-nightdaily.com$document
-opulentexpress.com$document
-pawszilla.com$document
-petsfanatic.com$document
-scribol.com$document
-totalpast.com$document
-unleashedfinance.com$document
-wealtheditor.com$document
-zenherald.com$document
+||absolutehistory.com^$document
+||affluenttimes.com^$document
+||atlanticmirror.com^$document
+||autoinquirer.com^$document
+||brillianttraveler.com^$document
+||eliteherald.com^$document
+||equitymirror.com$^document
+||guerillainsurance.com^$document
+||happinesstimes.com^$document
+||historicalgenius.com^$document
+||historicalpost.com^$document
+||inspiringpet.com^$document
+||luxandlush.com^$document
+||magellantimes.com^$document
+||moneycougar.com^$document
+||mowmag.com^$document
+||nextrefinance.com^$document
+||nightdaily.com^$document
+||opulentexpress.com^$document
+||pawszilla.com^$document
+||petsfanatic.com^$document
+||scribol.com^$document
+||totalpast.com^$document
+||unleashedfinance.com^$document
+||wealtheditor.com^$document
+||zenherald.com^$document
 
 ! NOT SURE ABOUT THIS
 ! trivia.com
@@ -61,29 +61,29 @@ zenherald.com$document
 
 ! Other clickbait sites cross-linked
 ! autooverload and bonvoyaged have the same designs
-autooverload.com$document
-bonvoyaged.com$document
+||autooverload.com^$document
+||bonvoyaged.com^$document
 
-adventurecrunch.com$document
-centurylink.net$document
-definition.org$document
-elitereaders.com$document
-factinate.com$document
-gazillions.com$document
-heraldweekly.com$document
-inventgoddess.com$document
-itsthevibe.com$document
-postfun.com$document
-theclever.com$document
-therichest.com$document
-thetalko.com$document
-thethings.com$document
-upbeatnews.com$document
-worldlifestyle.com$document
+||adventurecrunch.com^$document
+||centurylink.net^$document
+||definition.org^$document
+||elitereaders.com^$document
+||factinate.com^$document
+||gazillions.com^$document
+||heraldweekly.com^$document
+||inventgoddess.com^$document
+||itsthevibe.com^$document
+||postfun.com^$document
+||theclever.com^$document
+||therichest.com^$document
+||thetalko.com^$document
+||thethings.com^$document
+||upbeatnews.com^$document
+||worldlifestyle.com^$document
 
 ! NOT SURE ABOUT THIS
 ! historydaily.org
 ! maternityweek.com
 
 ! Copied over from https://raw.githubusercontent.com/cpeterso/clickbait-blocklist/master/clickbait-blocklist.txt
-adblade.com$all
+||adblade.com^$all

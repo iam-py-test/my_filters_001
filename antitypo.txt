@@ -5,7 +5,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-! Last updated: 2/12/2022
+! Last updated: 8/12/2022
 
 ! https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 ! https://www.virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
@@ -32,13 +32,13 @@
 ||signingoogle.xyz^$all
 ||logingoogle.xyz^$all
 ! https://www.virustotal.com/gui/url/2778a0b6162e8c14ed450dda8aa6c32486a6c7a8c224e940e7fb41be39816fc4/detection
-||malwarebytes.xyz^$doc
+||malwarebytes.xyz^$document
 !!! w3school.com$document
 ! https://github.com/easylist/easylist/pull/7950
 ! https://www.siteadvisor.com/sitereport.html?url=xozilla.com
 !!! xozilla.com$all
 ! https://sitecheck.sucuri.net/results/bit.lu
-||bit.lu^$doc
+||bit.lu^$document
 ! https://www.mywot.com/scorecard/alwarebytes.com
 ||alwarebytes.com^$document
 ! inkbunny[.]net typosquatt
@@ -119,7 +119,7 @@
 ||ereddit.com^$document
 ||craisglist.org^$document
 ! https://new.reddit.com/r/dwarffortress/comments/e4srco/be_sure_to_use_org_instead_of_com_when_going_to/
-||dwarffortresswiki.com^$doc
+||dwarffortresswiki.com^$document
 
 ||bitdefneder.com^$document
 
@@ -258,7 +258,7 @@
 
 ! https://blog.malwarebytes.com/threat-intelligence/2021/11/credit-card-skimmer-evades-virtual-machines/
 ||cdn.cookieslaw.org^$all
-||cookieslaw.org^$doc
+||cookieslaw.org^$document
 
 ! https://twitter.com/Artilllerie/status/1534076124829036544
 ||bbleepingcomputer.com^$document

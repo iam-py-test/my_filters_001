@@ -1,3 +1,0 @@
-! Title: A list of known scam sites (not maintained - moved to antimalware.txt)
-! https://www.mywot.com/scorecard/sexy.com
-sexy.com
