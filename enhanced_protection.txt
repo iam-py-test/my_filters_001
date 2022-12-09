@@ -1,11 +1,11 @@
 ! Title: Enhanced website protection
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Description: This list aims to - when combined with an antimalware blocklist (like mine) - provide the highest protection I can offer by blocking commonly abused TLDs, along with a few other protections too extreme to put in my main list.
-! Note: This list will have many false positives, and may be unusable for people who often visit domains using one of the blocked TLDs.
+! Warning: This list will have many false positives, and may be unusable for people who often visit domains using one of the blocked TLDs.
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 ! Expires: 1 day
-! Last updated: 8/12/2022
+! Last updated: 9/12/2022
 
 ! Abused TLDs
 ||win^$document
@@ -24,7 +24,9 @@
 ||dotagift*.xyz^$all
 
 ! Fake Discord websites
-/(discord|discrod|dlscord)[a-z](nitro|gift)/$document,domain=ru|xyz|online
+/http(s|):\/\/discord(nitro|gift)[a-zA-Z0-9]*\.[a-zA-Z0-9]*/$document,domain=ru|xyz|online|top
+/http(s|):\/\/discrod(nitro|gift)[a-zA-Z0-9]*\.[a-zA-Z0-9]*/$document,domain=ru|xyz|online|top
+/http(s|):\/\/dlscord(nitro|gift)[a-zA-Z0-9]*\.[a-zA-Z0-9]*/$document,domain=ru|xyz|online|top
 
 ! Scam websites - https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-927183223
 ! Credit to https://github.com/spirillen and https://github.com/Yuki2718 for the RegExp and https://github.com/krystian3w for the report
