@@ -1,12 +1,18 @@
 ! Title: VXVault filter for uBlock Origin (unofficial)
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter. All credit to VXVault for finding these urls
-! Script last updated: 10/11/2022
+! Script last updated: 9/12/2022
 ! Expires: 1 day
-! Last updated: 08/12/2022
+! Last updated: 09/12/2022
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Thu, 08 Dec 2022 20:26:48 +0000
+! Fri, 09 Dec 2022 20:30:33 +0000
+||ripple-wells-2022.net/yzoyoebw6fqrey/iF3JduUnN5dx.exe^$all
+||ripple-wells-2022.net/yzoyoebw6fqrey/nppshell32.exe^$all
+||ripple-wells-2022.net/yzoyoebw6fqrey/nppshell.exe^$all
+||ripple-wells-2022.net/n8exrcvvse1m2/syncfiles.dll^$all
+||ripple-wells-2022.net/n8exrcvvse1m2/Emit64.exe^$all
+||ripple-wells-2022.net/n8exrcvvse1m2/avicapn32.exe^$all
 ||juggenbande.site/bmbdeathrow/whoismoke/MemoryLoader.exe^$all
 ||juggenbande.site/bmbdeathrow/whoismoke/Filthy.exe^$all
 ||91.213.50.36/files/spacemen.exe^$all
@@ -102,9 +108,3 @@
 ||45.83.122.242/css/wevtutil.exe^$all
 ||147.182.192.85/blackyellow.exe^$all
 ||147.182.192.85/common.exe^$all
-||85.192.63.81/ZRkLaxArOkhz.exe^$all
-||cleaning.homesecuritypc.com/packages/Jaetbm_Sxzaaqvv.bmp^$all
-||79.110.62.23/madeit_Bevuknwa.png^$all
-||185.147.34.178/20.png^$all
-||bontiakhotel.net/article/Client.exe^$all
-||45.155.165.63/tq/loader/uploads/Product_Details_018_RFQ.exe^$all
