@@ -22,11 +22,15 @@ list1 = """[Adblock Plus 2.0]
 ! Domain/url blocking rules (auto-generated)
 """.format(datetime.datetime.now().strftime("%d/%m/%y"))
 blockedtlds = ["gdn","bid","loan"]
+done_entries = []
 
 lines = open("antimalware.txt").read().split("\n")
 for line in lines:
-  if line.startswith("||"):
+  if line in done_entries:
+    continue
+  if line.startswith("||") and "/" in line:
     list1 += line + "\n"
+    done_entries.append(line)
     continue
   if line.startswith("!") or line == "" or line.startswith("#") or "[Adblock Plus 2.0]" in line:
     continue
@@ -37,8 +41,10 @@ for line in lines:
         continue
       else:
         list1 += line + "\n"
+        done_entries.append(line)
     except:
       list1 += line + "\n"
+      done_entries.append(line)
 endlist = open("Alternative list formats/antimalware_lite.txt","w")
 endlist.write(list1)
 endlist.close()
