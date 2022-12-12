@@ -150,6 +150,8 @@ def mkagh(file,altname):
         else:
           altfile.write("||{}^\n".format(domain))
         donedomains.append(domain)
+    elif line == "":
+      altfile.write("\n")
 
 try:
   mkagh("antimalware.txt","Alternative list formats/antimalware_adguard_home.txt")
@@ -222,17 +224,16 @@ def mkadguard(file,altname):
       pass
     return False
   for line in List:
-    if line.startswith("!"):
-      altfile.write(line)
+    if line == "":
       altfile.write("\n")
-      continue
-    if line.startswith("||"):
+    elif line.startswith("!"):
+      altfile.write("{}\n".format(line))
+    elif line.startswith("||"):
       altfile.write(line.split("$")[0])
       altfile.write("\n")
-      continue
-    if "[Adblock Plus 2.0]" in line:
+    elif "[Adblock Plus 2.0]" in line:
       altfile.write(line)
-    if "$" in line:
+    elif "$" in line:
       domain = line.split("$")[0].lower()
       isip = isipdomain(domain)
       if isip == True:
