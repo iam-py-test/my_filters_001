@@ -1,4 +1,5 @@
 """Verify the syntax of my antimalware list and verify there are no legit domains in it"""
+import requests
 # note: this does include allowlisting trackers, as this is just for my antimalware list. This will NOT prevent other lists from blocking these domains
 
 # domains which are good & should never be blocked in this list (includes trackers and ads)
@@ -17,6 +18,15 @@ nsfw = ["fullxh.com","megaxh.com","unlockxh4.com","xhamster46.com","xhday1.com",
 invalidsyntax = ["$$","$docment","$alll","^all","$docs","$scripted","$alls","$documentall","$allall","$all$all","$all.","$docments","$doc$doc","|*$","$documentP","$window","$document$document"]
 
 legitdomains = gooddomains + hosting + social + urlshorteners + malshare + nsfw
+
+# download allowlisted domains from my personal allowlist
+try:
+  legitdomains += requests.get("https://raw.githubusercontent.com/iam-py-test/allowlist/main/allowlist.txt").text.split("\n")
+  # strip out empty strings - https://stackoverflow.com/questions/19875595/removing-empty-elements-from-an-array-in-python#19875634
+  legitdomains = list(filter(bool,legitdomains))
+  print("Added!")
+except:
+  pass
 
 # the main text
 lines = open("antimalware.txt","r",encoding="UTF-8").read().split("\n")
