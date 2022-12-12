@@ -2,11 +2,19 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter. All credit to VXVault for finding these urls
 ! Script last updated: 9/12/2022
 ! Expires: 1 day
-! Last updated: 11/12/2022
+! Last updated: 12/12/2022
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Sun, 11 Dec 2022 20:26:15 +0000
+! Mon, 12 Dec 2022 20:26:51 +0000
+||bitbucket.org/lucifer61156/thisisforeducationalpurposesonly/raw/bc18553af2861543b406b0ca967d1ff48501f86a/limalt.exe^$all
+||bitbucket.org/lucifer61156/thisisforeducationalpurposesonly/raw/bc18553af2861543b406b0ca967d1ff48501f86a/devalt.exe^$all
+||bitbucket.org/lucifer61156/thisisforeducationalpurposesonly/raw/bc18553af2861543b406b0ca967d1ff48501f86a/LIMSt.exe^$all
+||bitbucket.org/lucifer61156/thisisforeducationalpurposesonly/raw/bc18553af2861543b406b0ca967d1ff48501f86a/LIMMin.exe^$all
+||bitbucket.org/lucifer61156/thisisforeducationalpurposesonly/raw/bc18553af2861543b406b0ca967d1ff48501f86a/DEVMin.exe^$all
+||bitbucket.org/lucifer61156/thisisforeducationalpurposesonly/raw/bc18553af2861543b406b0ca967d1ff48501f86a/CLEP.exe^$all
+||bitbucket.org/lucifer61156/thisisforeducationalpurposesonly/raw/bc18553af2861543b406b0ca967d1ff48501f86a/DevSt.exe^$all
+||80.76.51.212/files/adsme.exe^$all
 ||35.235.126.33/cia.windows.arm.exe^$all
 ||35.235.126.33/cia.windows.amd64.exe^$all
 ||35.235.126.33/cia.linux.amd64^$all
@@ -100,11 +108,3 @@
 ||111.90.151.174/Ransomware.exe^$all
 ||111.90.151.174/5201.exe^$all
 ||cdn.discordapp.com/attachments/1028313498264023060/1029817776338116628/21N6t.exe^$all
-||bitcoinpass.ru/whit/windll32.exe^$all
-||bitcoinpass.ru/slf/windll32.exe^$all
-||77.73.133.31/v0.9_rebranding_64.exe^$all
-||gtok.axfree.com/xxr.exe^$all
-||one.liteshare.co/download.php?id=EMM466Y^$all
-||huntingknives.shop/crc/tyrird.exe^$all
-||193.31.116.239/crypt/public/Update_Downloads/DLL.exe^$all
-||45.83.122.242/css/nlauncher.exe^$all
