@@ -11,14 +11,20 @@
 ||tk^$all
 ||gd^$all
 ||cfd^$all
+||cx^$all
+||best^$all
+||ru^$all
+||cn^$all
+||xxx^$all
 
 ! hosting
 ||weebly.*^$document
-||github.io^$document,domain=~virustotal.github.io|~iam-py-test.github.io
+||github.io^$document,domain=~virustotal.github.io|~iam-py-test.github.io|~gchq.github.io
 ||wixsite.*^$document
 
 ! files
 ||mediafire.*^$document
+||mega.*^$document
 
 ! URL shortners
 ||bit.ly^$all
