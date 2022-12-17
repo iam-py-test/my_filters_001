@@ -168,7 +168,7 @@ def convert_to_abp(clist,clistpath="./list.txt",include=False):
         endlist += "{}\n".format(line)
       elif line.startswith("||") and "$" in line:
         modifier = line.split("$")[1]
-        if "all" in modifier or "doc" in modifier:
+        if "all" in modifier or "doc" in modifier or "important":
           modifier = ""
         else:
           modifier = "${}".format(modifier)
@@ -181,6 +181,8 @@ def convert_to_abp(clist,clistpath="./list.txt",include=False):
         except:
           pass
       elif line.startswith("||"):
+        endlist += "{}\n".format(line)
+      elif "##" in line and "+js" not in line and ":remove" not in line:
         endlist += "{}\n".format(line)
       elif line == "":
         endlist += "\n"
