@@ -227,14 +227,9 @@ def mkadguard(file,altname):
       altfile.write("\n")
     elif line.startswith("!"):
       altfile.write("{}\n".format(line))
-    elif line.startswith("||"):
-      altfile.write(line.split("$")[0])
-      altfile.write("\n")
     elif "[Adblock Plus 2.0]" in line:
       altfile.write("{}\n".format(line))
-    elif "$" in line:
-      domain = line.split("$")[0].lower()
-      if domain != "" and domain not in donedomains:
+    elif line.startswith("||") and "$" in line:
         altfile.write("{}\n".format(line))
         donedomains.append(domain)
   
