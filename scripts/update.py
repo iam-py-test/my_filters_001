@@ -182,7 +182,7 @@ def convert_to_abp(clist,clistpath="./list.txt",include=False):
           pass
       elif line.startswith("||"):
         endlist += "{}\n".format(line)
-      elif "##" in line and "+js" not in line and ":remove" not in line:
+      elif "##" in line and "+js" not in line and ":remove" not in line and "##^" not in line:
         endlist += "{}\n".format(line)
       elif line == "":
         endlist += "\n"
