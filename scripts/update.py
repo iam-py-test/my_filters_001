@@ -212,6 +212,26 @@ try:
 except:
   print("Pure hosts error")
 
+adguardparse = None # this is a really bad solution to allow a function to use it's self
+def adguardparse(data):
+  List = data.split("\n")
+  endlist = ""
+  for line in List:
+    if line == "":
+      endlist += "\n"
+    elif line.startswith("!#include"):
+        try:
+            includecontent = open(" ".join(line.split(" ")[1:])).read()
+            endlist += adguardparse(includecontent)
+        except Exception as err:
+          print(err)
+    elif line.startswith("!"):
+      endlist += "{}\n".format(line)
+    elif "[Adblock Plus 2.0]" in line:
+      endlist += "{}\n".format(line)
+    elif line.startswith("||") and "$" in line:
+        endlist += "{}\n".format(line)
+
 def mkadguard(file,altname):
   donedomains = []
   List = open(file,encoding="UTF-8").read().split("\n")
@@ -222,15 +242,7 @@ def mkadguard(file,altname):
     except:
       pass
     return False
-  for line in List:
-    if line == "":
-      altfile.write("\n")
-    elif line.startswith("!"):
-      altfile.write("{}\n".format(line))
-    elif "[Adblock Plus 2.0]" in line:
-      altfile.write("{}\n".format(line))
-    elif line.startswith("||") and "$" in line:
-        altfile.write("{}\n".format(line))
+  
   
 try:
   mkadguard("antimalware.txt","Alternative list formats/antimalware_adguard_app.txt")
