@@ -15,7 +15,7 @@
 ! Pesto Harel Shemesh (also known as Crunchmind) appears to operate 88 websites 
 
 ! Clickbait ads
-||cdn.taboola.com^$third-party
+||cdn.taboola.com^
 ||taboola.com^
 
 ! Sites which exist only for clickbait
