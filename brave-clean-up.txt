@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results
 ! Expires: 1 day
 ! Last updated: 2/12/2022
-! Last auto-generated: 16/12/2022
+! Last auto-generated: 17/12/2022
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -35,6 +35,8 @@ search.brave.com##div.fdb.snippet:has(a[href*="://cfoc.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://wavebrowser.co"])
 search.brave.com##div.fdb.snippet:has(a[href*="://download.wavebrowser.co"])
 search.brave.com##div.fdb.snippet:has(a[href*="://wavebrowser.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://dl.gowavebrowser.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://gowavebrowser.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://dll-helper.en.softonic.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://avanquest.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://www.avanquest.com"])
@@ -5637,6 +5639,8 @@ search.brave.com##div.fdb.snippet:has(a[href*="://t20boltmig.click"])
 search.brave.com##div.fdb.snippet:has(a[href*="://offsebike.cyou"])
 search.brave.com##div.fdb.snippet:has(a[href*="://awareofthat.za.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://desinvca.ru"])
+search.brave.com##div.fdb.snippet:has(a[href*="://glthub.org"])
+search.brave.com##div.fdb.snippet:has(a[href*="://glthub.pro"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://adublock.net"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublockerext.com"])
@@ -7089,6 +7093,17 @@ search.brave.com##div.fdb.snippet:has(a[href*="://search.securedbrowser.net"])
 search.brave.com##div.fdb.snippet:has(a[href*="://kms-auto.site"])
 search.brave.com##div.fdb.snippet:has(a[href*="://gwe92vt.cfd"])
 search.brave.com##div.fdb.snippet:has(a[href*="://coacytecarni.ga"])
+search.brave.com##div.fdb.snippet:has(a[href*="://phenotypeguide.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://onesocialimpactnow.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://globaledyta.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://topcontactinc.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://adsforcomputertech.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://pushuworld.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://managecompletelyquickinfo-file.info"])
+search.brave.com##div.fdb.snippet:has(a[href*="://torrent-protection.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://offsebike.cyou"])
+search.brave.com##div.fdb.snippet:has(a[href*="://jytibarose.xyz"])
+search.brave.com##div.fdb.snippet:has(a[href*="://adblock-chrome.net"])
 search.brave.com##div.fdb.snippet:has(a[href*="://z83z9.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://zcelv.toftheca.buzz"])
 search.brave.com##div.fdb.snippet:has(a[href*="://toftheca.buzz"])

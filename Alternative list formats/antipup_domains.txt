@@ -11,6 +11,8 @@ cfoc.org
 wavebrowser.co
 download.wavebrowser.co
 wavebrowser.com
+dl.gowavebrowser.com
+gowavebrowser.com
 dll-helper.en.softonic.com
 avanquest.com
 www.avanquest.com
