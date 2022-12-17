@@ -234,13 +234,9 @@ def mkadguard(file,altname):
       altfile.write("{}\n".format(line))
     elif "$" in line:
       domain = line.split("$")[0].lower()
-      isip = isipdomain(domain)
-      if isip == True:
-        altfile.write("{}$network".format(domain))
-      if isip == False and domain != "" and domain not in donedomains:
-        altfile.write("{}".format(line))
+      if domain != "" and domain not in donedomains:
+        altfile.write("{}\n".format(line))
         donedomains.append(domain)
-      altfile.write("\n")
   
 try:
   mkadguard("antimalware.txt","Alternative list formats/antimalware_adguard_app.txt")
