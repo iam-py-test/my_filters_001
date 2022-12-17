@@ -231,7 +231,6 @@ def mkadguard(file,altname):
       altfile.write("{}\n".format(line))
     elif line.startswith("||") and "$" in line:
         altfile.write("{}\n".format(line))
-        donedomains.append(domain)
   
 try:
   mkadguard("antimalware.txt","Alternative list formats/antimalware_adguard_app.txt")
