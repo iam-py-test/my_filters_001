@@ -238,7 +238,7 @@ def mkadguard(file,altname):
       if isip == True:
         altfile.write("{}$network".format(domain))
       if isip == False and domain != "" and domain not in donedomains:
-        altfile.write("||{}^".format(domain))
+        altfile.write("{}".format(line))
         donedomains.append(domain)
       altfile.write("\n")
   
