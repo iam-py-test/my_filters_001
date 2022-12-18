@@ -234,7 +234,7 @@ def adguardparse(data):
 
 def mkadguard(file,altname):
   donedomains = []
-  List = open(file,encoding="UTF-8").read().split("\n")
+  List = open(file,encoding="UTF-8").read()
   altfile = open(altname,"w",encoding="UTF-8")
   def isipdomain(domain):
     try:
@@ -242,6 +242,8 @@ def mkadguard(file,altname):
     except:
       pass
     return False
+  altfile.write(adguardparse(List))
+  altfile.close()
   
   
 try:
