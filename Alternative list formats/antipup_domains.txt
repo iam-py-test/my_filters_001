@@ -21,3 +21,9 @@ loadware.org
 driver-soft.com
 outbyte.com
 testedforyou.net
+totalav-essential-antivirus.en.softonic.com
+iobit-uninstaller.en.softonic.com
+drivereasy.en.softonic.com
+mycleanpc-pc-optimizer.en.softonic.com
+pc-speedcat.en.softonic.com
+advanced-systemcare-ultimate.en.softonic.com
