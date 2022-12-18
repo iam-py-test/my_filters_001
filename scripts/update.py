@@ -231,6 +231,7 @@ def adguardparse(data):
       endlist += "{}\n".format(line)
     elif line.startswith("||") and "$" in line:
         endlist += "{}\n".format(line)
+  return endlist
 
 def mkadguard(file,altname):
   donedomains = []
