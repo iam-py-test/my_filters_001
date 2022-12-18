@@ -170,6 +170,9 @@ windowsdispatch.com##strong
 dlldownloads.com##.page-container > p
 ! https://windowsreport.com/find-remove-duplicate-files-windows-10/
 windowsreport.com##.bnr-block
+! https://windowsreport.com/how-to-update-roblox/ (08/12/2022)
+windowsreport.com##div[class^=restoro-download] + section
+windowsreport.com##div[class^=refmed]
 ! https://appuals.com/pr-connect-reset-error/
 appuals.com##.wptp
 appuals.com#?#h3:has(+ p:has-text(Download and run Restoro ))
@@ -200,66 +203,4 @@ dll4free.com#?#.leftdiv:has-text(PC Reviver)
 dll-found.com#?#p:has(a[href*=tweakbit])
 ! ¤¤¤ "DLL Helper" ¤¤¤
 azdll.net##.dllhelper-banner
-! Download.com - this currently leaves random blank squares on the page
-download.cnet.com,download.com##div.c-productCard-simple.u-flexbox-column.c-productCard:has-text(/Advanced SystemCare Free/i)
-download.cnet.com,download.com##div.c-productCard-simple.u-flexbox-column.c-productCard:has-text(/driver easy/i)
-download.cnet.com,download.com##div.c-productCard-simple.u-flexbox-column.c-productCard:has-text(/iobit uninstaller/i)
-download.cnet.com,download.com##div.c-productCard-simple.u-flexbox-column.c-productCard:has-text(/totalav/i)
-download.cnet.com,download.com##div.c-productCard-simple.u-flexbox-column.c-productCard:has-text(/PC Protect for Android/i)
-download.cnet.com,download.com##div.c-productCard-simple.u-flexbox-column.c-productCard:has-text(/Scanguard/i)
-download.cnet.com##div.c-productCard-search:has-text(/Advanced SystemCare/i)
-download.cnet.com##div.c-productCard-search:has-text(/driver easy/i)
-download.cnet.com##div.c-productCard-search:has-text(/iobit uninstaller/i)
-download.cnet.com##div.c-productCard-search:has-text(/TotalAV/i)
-download.cnet.com##div.c-productCard-search:has-text(/PC Protect for Android/i)
-download.cnet.com##div.c-productCard-search:has-text(/Scanguard/i)
-||download.cnet.com/Advanced-SystemCare-Free$doc
-||download.cnet.com/Driver-Easy$doc
-||download.cnet.com/IObit-Uninstaller$doc
-||download.cnet.com/TotalAV$doc
-||download.cnet.com/ScanGuard$doc
-||download.cnet.com/developer/SS%20Protect$doc
-||download.cnet.com/developer/Security%20Suite$doc
-! Softonic
-softonic.com##.top-app:has-text(/TotalAV/i)
-softonic.com##.top-app:has-text(/iobit uninstaller/i)
-softonic.com##.top-app:has-text(/iobit malware fighter/i)
-softonic.com##.top-app:has-text(/Driver Easy/i)
-softonic.com##.top-app:has-text(/MyCleanPC/i)
-softonic.com##.top-app:has-text(/PC SpeedCAT/i)
-softonic.com##.top-app:has-text(/DLL Helper/i)
-softonic.com##.top-app:has-text(/Advanced SystemCare/i)
-softonic.com##[href="https://advanced-systemcare-ultimate.en.softonic.com"] > .app-list-item--interactive.app-list-item
-softonic.com##.app-list-item:has-text(/TotalAV/)
-softonic.com##.app-list-item:has-text(/iobit uninstaller/i)
-softonic.com##.app-list-item:has-text(/iobit malware fighter/i)
-softonic.com##.app-list-item:has-text(/Advanced SystemCare/)
-softonic.com##.app-list-item:has-text(/Driver Easy/i)
-softonic.com##.app-list-item:has-text(/MyCleanPC/i)
-softonic.com##.app-list-item:has-text(/PC SpeedCAT/i)
-softonic.com##.app-list-item:has-text(/DLL Helper/i)
-||totalav-essential-antivirus.en.softonic.com^$doc
-||iobit-uninstaller.en.softonic.com^$doc
-||drivereasy.en.softonic.com^$doc
-||mycleanpc-pc-optimizer.en.softonic.com^$doc
-||pc-speedcat.en.softonic.com^$doc
-||advanced-systemcare-ultimate.en.softonic.com^$doc
-softonic.com##.modal-di__content
-softonic.com##.modal-di__header
-softonic.com##.modal-di__button-wrapper:has(#download-recommended-app)
-||images.sftcdn.net/images/*/di/winzip-compression/$all
-! Google Play (web only)
-play.google.com##div.mpg5gc.ImZGtf:has-text(/TotalAV/i)
-play.google.com##div.mpg5gc.ImZGtf:has-text(/scanguard/i):has-text(/Protected.net/i)
-play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.net/i)
-||play.google.com/store/apps/details?id=com.totalav.android$doc
-||play.google.com/store/apps/details?id=com.scanguard.android$doc
-||play.google.com/store/apps/details?id=com.pcprotect.android$doc
-||play.google.com/store/apps/developer?id=Protected.net+Group+Limited$doc
-! Apple App store (web only)
-||apps.apple.com/us/app/totalav/id1130411958$doc
-||apps.apple.com/us/app/total-adblock-ad-blocker/id1564900435$doc
-||apps.apple.com/us/app/pcprotect/id1130412321$doc
-||apps.apple.com/us/app/totalav-safe-site/id1403850681$doc
-||apps.apple.com/us/developer/protected-net-group-limited$doc
 
