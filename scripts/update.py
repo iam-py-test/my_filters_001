@@ -213,7 +213,7 @@ except:
   print("Pure hosts error")
 
 adguardparse = None # this is a really bad solution to allow a function to use it's self
-def adguardparse(data):
+def adguardparse(data,lpath="./list.txt"):
   List = data.split("\n")
   endlist = ""
   for line in List:
@@ -221,8 +221,9 @@ def adguardparse(data):
       endlist += "\n"
     elif line.startswith("!#include"):
         try:
-            includecontent = open(" ".join(line.split(" ")[1:])).read()
-            endlist += adguardparse(includecontent)
+            includepath = os.path.join(os.path.split(lpath)[0]," ".join(line.split(" ")[1:]))
+            includecontent = open(includepath).read()
+            endlist += adguardparse(includecontent,includepath)
         except Exception as err:
           print(err)
     elif line.startswith("!"):
@@ -243,7 +244,7 @@ def mkadguard(file,altname):
     except:
       pass
     return False
-  altfile.write(adguardparse(List))
+  altfile.write(adguardparse(List,file))
   altfile.close()
   
   
