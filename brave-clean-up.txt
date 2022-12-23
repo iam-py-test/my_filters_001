@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results
 ! Expires: 1 day
 ! Last updated: 2/12/2022
-! Last auto-generated: 22/12/2022
+! Last auto-generated: 23/12/2022
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -5650,6 +5650,7 @@ search.brave.com##div.fdb.snippet:has(a[href*="://goog.goodsearchez.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://goodsearchez.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://daggerhashimoto.eu.nicehash.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://plazaboulevard.com.br"])
+search.brave.com##div.fdb.snippet:has(a[href*="://tomcleaneraddon.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://adublock.net"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublockerext.com"])
@@ -7150,6 +7151,8 @@ search.brave.com##div.fdb.snippet:has(a[href*="://deten.live"])
 search.brave.com##div.fdb.snippet:has(a[href*="://kfl86.xyz"])
 search.brave.com##div.fdb.snippet:has(a[href*="://70uj5.xyz"])
 search.brave.com##div.fdb.snippet:has(a[href*="://7l087.xyz"])
+search.brave.com##div.fdb.snippet:has(a[href*="://www.gifsmakerpro.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://gifsmakerpro.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://www.totalav.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://totalav.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://api.totalav.com"])
@@ -7406,6 +7409,10 @@ search.brave.com##div.fdb.snippet:has(a[href*="://www.onesafesoftware.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://driversupport.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://front.driversupport.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://secure.driversupport.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://aloha.driversupport.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://apps.solveiq.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://preview.solveiq.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://auth.solveiq.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://driver-soft.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://pcspeedup.en.softonic.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://tweakbit.com"])
