@@ -1,0 +1,6 @@
+! Title: (sandbox) weird regex stuff
+! Description: This list is just for playing with regexs! Please don't use it
+
+/http?:\/\/[0-9]*\.localhost/
+/\.test$/$all
+||example.com^$removeparam=/^bad/
