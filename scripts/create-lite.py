@@ -1,8 +1,8 @@
 import datetime
 import requests
-from publicsuffixlist import PublicSuffixListS
+import publicsuffixlist
 
-psl = PublicSuffixList()
+psl = publicsuffixlist.PublicSuffixList()
 
 list1 = """[Adblock Plus 2.0]
 ! Title: The malicious website blocklist (lite)
