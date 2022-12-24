@@ -1,0 +1,34 @@
+! Title: Personal filters
+! Expires: 1 day
+! Description: Random personal filters
+
+
+! copied/stole from uBlock Origin Annoyances to get rid of the annoying "add redirect on right click" thing
+www.google.*##+js(set-constant, rwt, noopFunc)
+
+! created by DandelionSprout to make browsing Legit URL easier
+github.com##html:has(meta[content$="/DandelionSprout/adfilt/discussions/163"]) .js-timeline-item > .TimelineItem > div[id^=discussioncomment-]:has-text(/I have fixed it in |This has been fixed in /) .timeline-comment:style(background-color: #cee4c5 !important)
+github.com##html:has(meta[content$="/DandelionSprout/adfilt/discussions/163"]) .js-timeline-item > .TimelineItem > div[id^=discussioncomment-]:has-text(/I have fixed it in |This has been fixed in /) .timeline-comment > div:style(background-color: #cee4c5 !important)
+github.com##html:has(meta[content$="/DandelionSprout/adfilt/discussions/163"]) .js-timeline-item > .TimelineItem > div[id^=discussioncomment-]:has-text(/I have fixed it in |This has been fixed in /) .timeline-comment > div > div:style(background-color: #cee4c5 !important)
+
+! make Malwarebytes forums easier to read
+forums.malwarebytes.com###elFooterSocialLinks
+forums.malwarebytes.com##[href*="https://www.malwarebytes.com/business"]
+forums.malwarebytes.com###cleantalk_footer_link
+
+! no, I do not want ProtonMail paid
+mail.proton.me##.flex-align-items-center.flex-nowrap.inline-flex.topnav-link.button-solid-norm.button
+
+! random Google products stuff
+classroom.google.com##a[href*="google.com/intl/en/about/products"]
+
+! ---- full website blocks which don't go in another filterlist ----
+||kiwifarms.net^$document
+
+! ---- unbreak filters ----
+
+! https://github.com/elliotwutingfeng/ipsniper-info-malicious/issues/46
+||youtube.com^$all,badfilter
+||google.com^$all,badfilter
+||googlevideo.com^$all,badfilter
+
