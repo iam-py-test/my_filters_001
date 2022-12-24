@@ -18,12 +18,14 @@ nsfw = ["fullxh.com","megaxh.com","unlockxh4.com","xhamster46.com","xhday1.com",
 invalidsyntax = ["$$","$docment","$alll","^all","$docs","$scripted","$alls","$documentall","$allall","$all$all","$all.","$docments","$doc$doc","|*$","$documentP","$window","$document$document"]
 
 legitdomains = gooddomains + hosting + social + urlshorteners + malshare + nsfw
+bannedfilters = []
 
 # download allowlisted domains from my personal allowlist
 try:
   legitdomains += requests.get("https://raw.githubusercontent.com/iam-py-test/allowlist/main/allowlist.txt").text.split("\n")
   # strip out empty strings - https://stackoverflow.com/questions/19875595/removing-empty-elements-from-an-array-in-python#19875634
   legitdomains = list(filter(bool,legitdomains))
+  bannedfilters += list(filter(bool,requests.get("https://raw.githubusercontent.com/iam-py-test/allowlist/main/filter.txt").text.split("\n")))
   print("Added!")
 except:
   pass
@@ -37,6 +39,8 @@ log = ""
 totalscanned = 0
 
 for line in lines:
+    if line in bannedfilters:
+      invalidlines.append(line)
     if line.startswith("!"):
         continue
     try:
