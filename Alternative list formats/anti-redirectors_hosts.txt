@@ -197,3 +197,5 @@
 0.0.0.0 upo.im
 # got this in a email. It is blocked by Peter Lowe's
 0.0.0.0 awstrack.me
+# Malwarebytes emails
+0.0.0.0 links.e.malwarebytes.com
