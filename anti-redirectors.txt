@@ -252,3 +252,6 @@
 
 ! got this in a email. It is blocked by Peter Lowe's
 ||awstrack.me^$document
+
+! Malwarebytes emails
+||links.e.malwarebytes.com^$document
