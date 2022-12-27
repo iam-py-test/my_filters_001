@@ -22,6 +22,13 @@ mail.proton.me##.flex-align-items-center.flex-nowrap.inline-flex.topnav-link.but
 ! random Google products stuff
 classroom.google.com##a[href*="google.com/intl/en/about/products"]
 
+! hybrid analysis
+hybrid-analysis.com###signatures-malicious > .alert-info.alert
+hybrid-analysis.com##.small.btn-xs.btn.twitter-share-button
+
+! ---- cookie banners ----
+sitecheck.sucuri.net##.p-0.hide.cookie-policy-banner.container-fluid
+
 ! ---- full website blocks which don't go in another filterlist ----
 ||kiwifarms.net^$document
 
