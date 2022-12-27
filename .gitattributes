@@ -1,3 +1,5 @@
 [attr]adb   linguist-detectable linguist-language=AdBlock
 *.txt adb
-scripts/* Python
+/special_lists/*.txt
+/Sandbox/*.txt
+/scripts/* Python
