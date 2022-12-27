@@ -16,13 +16,14 @@
 ||ru^$all
 ||cn^$all
 ||xxx^$all
+||biz^$all
 
 ! hosting
 ||weebly.*^$document
 ||github.io^$document,domain=~virustotal.github.io|~iam-py-test.github.io|~gchq.github.io
 ||wixsite.*^$document
 
-! files
+! file hosting
 ||mediafire.*^$document
 ||mega.*^$document
 
@@ -32,3 +33,6 @@
 
 ! avoid opening malware YT videos
 ||youtube.com^$popup,domain=google.*|duckduckgo.com
+
+! pings (blocked by EL?)
+$ping,third-party
