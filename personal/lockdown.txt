@@ -17,6 +17,9 @@
 ||cn^$all
 ||xxx^$all
 ||biz^$all
+||info^$all
+||fun^$all
+||games^$all
 
 ! hosting
 ||weebly.*^$document
