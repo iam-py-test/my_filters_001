@@ -20,6 +20,8 @@
 ||info^$all
 ||fun^$all
 ||games^$all
+||sv^$all
+||fo^$all
 
 ! hosting
 ||weebly.*^$document
