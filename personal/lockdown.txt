@@ -22,6 +22,9 @@
 ||games^$all
 ||sv^$all
 ||fo^$all
+||photos^$all
+||vip^$all
+||vn^$all
 
 ! hosting
 ||weebly.*^$document
