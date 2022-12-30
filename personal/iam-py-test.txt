@@ -2,7 +2,6 @@
 ! Expires: 1 day
 ! Description: Random personal filters
 
-
 ! copied/stole from uBlock Origin Annoyances to get rid of the annoying "add redirect on right click" thing
 www.google.*##+js(set-constant, rwt, noopFunc)
 
@@ -19,18 +18,28 @@ forums.malwarebytes.com###cleantalk_footer_link
 ! no, I do not want ProtonMail paid
 mail.proton.me##.flex-align-items-center.flex-nowrap.inline-flex.topnav-link.button-solid-norm.button
 
-! random Google products stuff
-classroom.google.com##a[href*="google.com/intl/en/about/products"]
-
 ! hybrid analysis
 hybrid-analysis.com###signatures-malicious > .alert-info.alert
 hybrid-analysis.com##.small.btn-xs.btn.twitter-share-button
 
+! mywot
+mywot.com###wot-install-button
+mywot.com##[class*="StyledHorizontalAddWOT-"]
+mywot.com##[class*=StyledRectangleDesktopConversionBanner]
+mywot.com##[class*="StyledFloatingHorizontalAddWOT__FloatingHorizontalAddWOTContainer-"]
+
 ! ---- cookie banners ----
 sitecheck.sucuri.net##.p-0.hide.cookie-policy-banner.container-fluid
+mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
+
+! ---- anti-twitter ----
+||duckduckgo.com/assets/icons/footer/twr.svg$image
+
 
 ! ---- full website blocks which don't go in another filterlist ----
 ||kiwifarms.net^$document
+||pornhub.*^$all
+||bit.ly^$document
 
 ! ---- unbreak filters ----
 
