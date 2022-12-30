@@ -17,6 +17,8 @@ dll-helper.en.softonic.com
 avanquest.com
 www.avanquest.com
 webtools.avanquest.com
+byebyeads.org
+vought.removeads.workers.dev
 loadware.org
 driver-soft.com
 outbyte.com
