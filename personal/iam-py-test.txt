@@ -28,6 +28,10 @@ mywot.com##[class*="StyledHorizontalAddWOT-"]
 mywot.com##[class*=StyledRectangleDesktopConversionBanner]
 mywot.com##[class*="StyledFloatingHorizontalAddWOT__FloatingHorizontalAddWOTContainer-"]
 
+! ipvoid
+ipvoid.com##body:remove-class(banner-offset)
+ipvoid.com###sticky-banner
+
 ! ---- cookie banners ----
 sitecheck.sucuri.net##.p-0.hide.cookie-policy-banner.container-fluid
 mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
