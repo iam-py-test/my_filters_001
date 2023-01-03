@@ -81,6 +81,7 @@ winaero.com##.widget:has([href="/fix-classic-issues-performance/"])
 ! makes a ton of useless software, inc "Registry cleaners", "memory cleaners" (https://www.howtogeek.com/171424/why-memory-optimizers-and-ram-boosters-are-worse-than-useless/), etc
 ! while some of their software seems like it might be helpful to some people, I am chosing to block the entire website anyway
 ||wisecleaner.com^$document
+||wisecleaner.net^$document
 
 ! --- Removing already-blocked PUPs from websites ---
 

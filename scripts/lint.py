@@ -51,8 +51,6 @@ for line in lines:
       for syntax in invalidsyntax:
         if syntax in line:
           invalidlines.append(line)
-      if line.lower() != line:
-        invalidlines.append("{} <-- Mixed case\n".format(line))
       totalscanned += 1
     except:
       continue
