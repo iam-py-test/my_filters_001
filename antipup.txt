@@ -82,6 +82,8 @@ winaero.com##.widget:has([href="/fix-classic-issues-performance/"])
 ! while some of their software seems like it might be helpful to some people, I am chosing to block the entire website anyway
 ||wisecleaner.com^$document
 ||wisecleaner.net^$document
+||wisecleaner.eu^$document
+||wisecleaner.com.cn^$document
 
 ! --- Removing already-blocked PUPs from websites ---
 
