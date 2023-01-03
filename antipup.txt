@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: iam-py-test's anti-PUP list
 ! Description: The purpose of this list is to block websites who only exist to promote PUPs or shady software, but which "should not" be blocked in The malicious website blocklist
-! Last updated: 30/12/2022
+! Last updated: 3/1/2023
 ! Expires: 5 days
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 
@@ -77,6 +77,10 @@ winaero.com##.widget:has([href="/fix-classic-issues-performance/"])
 ||byebyeads.org^$document
 ||chrome.google.com/webstore/detail/bye-bye-ads/hmhhfebnmmdjdpmcognacjklpbcepjak^$document
 ||vought.removeads.workers.dev^$third-party
+
+! makes a ton of useless software, inc "Registry cleaners", "memory cleaners" (https://www.howtogeek.com/171424/why-memory-optimizers-and-ram-boosters-are-worse-than-useless/), etc
+! while some of their software seems like it might be helpful to some people, I am chosing to block the entire website anyway
+||wisecleaner.com^$document
 
 ! --- Removing already-blocked PUPs from websites ---
 
