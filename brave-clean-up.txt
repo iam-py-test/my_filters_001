@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results
 ! Expires: 1 day
 ! Last updated: 27/12/2022
-! Last auto-generated: 03/01/2023
+! Last auto-generated: 04/01/2023
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -5645,6 +5645,14 @@ search.brave.com##div.fdb.snippet:has(a[href*="://loadingnow.me"])
 search.brave.com##div.fdb.snippet:has(a[href*="://gsecurecontent.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://pressizer.net"])
 search.brave.com##div.fdb.snippet:has(a[href*="://sapino.net"])
+search.brave.com##div.fdb.snippet:has(a[href*="://loopsoft.dedyn.io"])
+search.brave.com##div.fdb.snippet:has(a[href*="://1weset6y.cfd"])
+search.brave.com##div.fdb.snippet:has(a[href*="://wwww-dlscord.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://wwww-discord.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://wwwwdiscord.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://www-discord.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://vvv-discord.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://vwvv-discord.top"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://adublock.net"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublockerext.com"])
@@ -7169,6 +7177,8 @@ search.brave.com##div.fdb.snippet:has(a[href*="://an1.fun"])
 search.brave.com##div.fdb.snippet:has(a[href*="://b7ax3cyzhq.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://thunderfiles.co"])
 search.brave.com##div.fdb.snippet:has(a[href*="://g.luckycashzone.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://discordt.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://wildberriessgift.pw"])
 search.brave.com##div.fdb.snippet:has(a[href*="://www.totalav.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://totalav.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://api.totalav.com"])
@@ -8437,6 +8447,9 @@ search.brave.com##div.fdb.snippet:has(a[href*="://44.236.213.34"])
 search.brave.com##div.fdb.snippet:has(a[href*="://52.24.156.12"])
 search.brave.com##div.fdb.snippet:has(a[href*="://52.25.6.134"])
 search.brave.com##div.fdb.snippet:has(a[href*="://100.20.13.49"])
+search.brave.com##div.fdb.snippet:has(a[href*="://88.119.161.188"])
+search.brave.com##div.fdb.snippet:has(a[href*="://88.119.161.19"])
+search.brave.com##div.fdb.snippet:has(a[href*="://68.60.77.128"])
 search.brave.com##div.fdb.snippet:has(a[href*="://5.8.47.3"])
 search.brave.com##div.fdb.snippet:has(a[href*="://5.8.34.26"])
 search.brave.com##div.fdb.snippet:has(a[href*="://103.224.182.251"])
