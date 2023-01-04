@@ -1,6 +1,6 @@
 ! Title: iam-py-test's Anti-facebook list
-! Expires: 2 days
-! Last updated: 30/8/2022
+! Expires: 9 days
+! Last updated: 4/1/2023
 ! Description: Do you want to get rid of Facebook for good? This list might help, but you may need to delete your account first.
 ||facebook.com^$all
 ||facebook.net^$all
@@ -19,3 +19,4 @@ duckduckgo.com##li.about-profiles__item:has(a[href*="facebook.com"])
 ! Facebook links on websites
 ghacks.net##a.mr--6[href*="facebook.com"]
 merriam-webster.com##.hoverable.share-link.fb.ul-icon:has(#Share_Facebook)
+forums.malwarebytes.com##.cShareLink_facebook

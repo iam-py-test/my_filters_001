@@ -5,7 +5,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-! Last updated: 2/1/2023
+! Last updated: 4/1/2023
 
 ! https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 ! https://www.virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
@@ -338,3 +338,25 @@
 ||duckduckg0.com^$document
 ! parked
 ||virtualboc.org^$document
+
+! copied from ThreatFox
+! https://threatfox.abuse.ch/ioc/1064519/
+! https://threatfox.abuse.ch/ioc/1053246/
+||wwww-dlscord.top^$all
+! https://threatfox.abuse.ch/ioc/1064520/
+! https://threatfox.abuse.ch/ioc/1053244/
+||wwww-discord.top^$all
+! https://threatfox.abuse.ch/ioc/1064521/
+||wwwwdiscord.top^$all
+! https://threatfox.abuse.ch/ioc/1064528/
+! https://threatfox.abuse.ch/ioc/1053222/
+||www-discord.top^$all
+! https://threatfox.abuse.ch/ioc/1064468/
+||vvv-discord.top^$all
+! https://threatfox.abuse.ch/ioc/1064472/
+||vwvv-discord.top^$all
+
+! https://dnstwist.it/
+||discordi.com^$document
+! https://app.any.run/tasks/015824a4-f267-48df-8dde-a7ddd78f167e
+||discordt.com^$all
