@@ -25,11 +25,17 @@
 ||photos^$all
 ||vip^$all
 ||vn^$all
+||website^$all
+||site^$all
+||cam^$all
+||lol^$all
+||pw^$all
 
 ! hosting
 ||weebly.*^$document
 ||github.io^$document,domain=~virustotal.github.io|~iam-py-test.github.io|~gchq.github.io
 ||wixsite.*^$document
+||proxy2link.com^$all
 
 ! file hosting
 ||mediafire.*^$document
