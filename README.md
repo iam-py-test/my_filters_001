@@ -41,7 +41,7 @@ Thank you to all the people in https://github.com/iam-py-test/my_filters_001/blo
 #### Updated rarely but still technically supported
 - My anti-rickroll list (anti-rickroll-list.txt)
 - The clickbait blocklist (clickbait.txt) ([Subscribe](https://iam-py-test.github.io/add_list.html?id=4))
-- [My Enhanced Protection list](https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt)
+- [My Enhanced Protection list](https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt) (Warning: This list is pretty much unmaintained and very poorly thought out)
 - Annoyances (annoyances.txt)
 
 #### Lists for testing syntax
