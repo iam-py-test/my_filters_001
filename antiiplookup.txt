@@ -1,0 +1,8 @@
+# Title: IP Lookup service blocklist (beta)
+# Description: This list is designed to block services which allow automated-ish lookup of your IP
+# Note: There is nothing inherently bad about these services, but they are sometimes abused by malware and can present a privacy risk
+0.0.0.0 geoplugin.net
+0.0.0.0 api.ip.sb
+0.0.0.0 api.2ip.ua
+0.0.0.0 ipwhois.app
+0.0.0.0 ipwho.is
