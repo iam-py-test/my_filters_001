@@ -201,5 +201,5 @@
 0.0.0.0 links.e.malwarebytes.com
 # https://forums.malwarebytes.com/topic/292703-how-do-i-specify-what-malwarebytes-should-remove-currently-shorturlat/
 0.0.0.0 shorturl.at
-# ! https://www.virustotal.com/gui/file/f776b6341455d570e098f76b6ca38c4e6c47603070d367885d45619795f6fe17
+# https://www.virustotal.com/gui/file/f776b6341455d570e098f76b6ca38c4e6c47603070d367885d45619795f6fe17
 0.0.0.0 u.to
