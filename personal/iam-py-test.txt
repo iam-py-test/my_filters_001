@@ -32,6 +32,9 @@ mywot.com##[class*="StyledFloatingHorizontalAddWOT__FloatingHorizontalAddWOTCont
 ipvoid.com##body:remove-class(banner-offset)
 ipvoid.com###sticky-banner
 
+! ClearURLs for uBo allowlists "ref" on Amazon (i.e. https://www.amazon.com/s?k=harry+potter+and+the+sorcerer%27s+stone+movie&ref=nb_sb_noss_2)
+||amazon.*^$removeparam=ref,important
+
 ! ---- cookie banners ----
 sitecheck.sucuri.net##.p-0.hide.cookie-policy-banner.container-fluid
 mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
