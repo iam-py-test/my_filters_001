@@ -342,3 +342,5 @@
 0.0.0.0 discordt.com
 # https://www.virustotal.com/gui/domain/netfllpl.com/community
 0.0.0.0 netfllpl.com
+# listed in some list somewhere
+0.0.0.0 facebooklcom.com
