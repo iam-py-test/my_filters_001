@@ -363,3 +363,6 @@
 
 ! https://www.virustotal.com/gui/domain/netfllpl.com/community
 ||netfllpl.com^$all
+
+! listed in some list somewhere
+||facebooklcom.com^$all
