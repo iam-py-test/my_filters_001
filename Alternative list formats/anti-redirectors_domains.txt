@@ -74,3 +74,5 @@ links.e.malwarebytes.com
 shorturl.at
 u.to
 shorturl.gg
+promo-visits.site
+satoshi-win.xyz
