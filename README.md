@@ -27,7 +27,7 @@ Thank you to all the people in https://github.com/iam-py-test/my_filters_001/blo
 - [My anti-Facebook list](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/antifacebook.txt)
 - Anti-Norton tracking list HOSTs file (anti-norton-tracking.txt)
 - iam-py-test's Discord cleanup list ([discord_cleanup.txt](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/discord_cleanup.txt))
-- DuckDuckGo Extra Clean ([duckduckgo_extra_clean.txt](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/duckduckgo_extra_clean.txt))
+- DuckDuckGo Additional Cleanup ([duckduckgo_extra_clean.txt](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/duckduckgo_extra_clean.txt))
 - Anti-Dynamic DNS ([antidynamicdns.txt](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antidynamicdns.txt))
 - IP Lookup service blocklist ([antiiplookup.txt](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antiiplookup.txt))
 

@@ -1,7 +1,7 @@
-! Title: DuckDuckGo Extra Clean
+! Title: DuckDuckGo Additional Cleanup
 ! Description: Remove annoyances from DuckDuckGo to create a clean search experence. Some of what is removed may be considered helpful. Use with caution!
-! Expires: 2 days
-! Last updated: 9/12/2022s
+! Expires: 10 days
+! Last updated: 18/1/2023
 ! I would recommend using this list alongside my "DuckDuckGo cleanup" list to remove unwanted/malicious websites as well
 
 ! get rid of the Feedback icon
