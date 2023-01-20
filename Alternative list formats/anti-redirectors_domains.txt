@@ -76,3 +76,4 @@ u.to
 shorturl.gg
 promo-visits.site
 satoshi-win.xyz
+lnkd.in
