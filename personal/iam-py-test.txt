@@ -47,6 +47,7 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||kiwifarms.net^$document
 ||pornhub.*^$all
 ||bit.ly^$document
+||img.pushflow.net^$all
 
 ! ---- unbreak filters ----
 

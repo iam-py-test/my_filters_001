@@ -41,3 +41,5 @@
 ||peufga06.top^$all
 ! https://github.com/uBlockOrigin/uAssets/pull/10879
 ||3650365voicemailplay.blob.core.windows.net^$all
+! 21/1/2023
+||theantivirusprotection.xyz^$all
