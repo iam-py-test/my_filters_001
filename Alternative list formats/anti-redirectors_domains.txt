@@ -77,3 +77,4 @@ shorturl.gg
 promo-visits.site
 satoshi-win.xyz
 lnkd.in
+refererhider.com
