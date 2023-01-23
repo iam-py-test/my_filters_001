@@ -346,3 +346,6 @@
 0.0.0.0 facebooklcom.com
 # another day, another typo
 0.0.0.0 virustotal.co
+# https://dnstwist.it/
+0.0.0.0 virusotal.com
+0.0.0.0 virustptal.com
