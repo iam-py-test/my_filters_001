@@ -369,3 +369,7 @@
 
 ! another day, another typo
 ||virustotal.co^$document
+
+! https://dnstwist.it/
+||virusotal.com^$document
+||virustptal.com^$document

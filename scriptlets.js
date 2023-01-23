@@ -119,3 +119,98 @@ var selector = '{{1}}';
         addEventListener('load', click);
     }
 })();
+
+// clr.js
+(() => {
+	cvalue = console.log;
+	let aborted = false;
+    const mustAbort = function(v) {
+        if ( aborted ) { return true; }
+        aborted =
+            (v !== undefined && v !== null) &&
+            (cValue !== undefined && cValue !== null) &&
+            (typeof v !== typeof cValue);
+        return aborted;
+    };
+    // https://github.com/uBlockOrigin/uBlock-issues/issues/156
+    //   Support multiple trappers for the same property.
+    const trapProp = function(owner, prop, configurable, handler) {
+        if ( handler.init(owner[prop]) === false ) { return; }
+        const odesc = Object.getOwnPropertyDescriptor(owner, prop);
+        let prevGetter, prevSetter;
+        if ( odesc instanceof Object ) {
+            owner[prop] = cValue;
+            if ( odesc.get instanceof Function ) {
+                prevGetter = odesc.get;
+            }
+            if ( odesc.set instanceof Function ) {
+                prevSetter = odesc.set;
+            }
+        }
+        try {
+            Object.defineProperty(owner, prop, {
+                configurable,
+                get() {
+                    if ( prevGetter !== undefined ) {
+                        prevGetter();
+                    }
+                    return handler.getter(); // cValue
+                },
+                set(a) {
+                    if ( prevSetter !== undefined ) {
+                        prevSetter(a);
+                    }
+                    handler.setter(a);
+                }
+            });
+        } catch(ex) {
+        }
+    };
+    const trapChain = function(owner, chain) {
+        const pos = chain.indexOf('.');
+        if ( pos === -1 ) {
+            trapProp(owner, chain, false, {
+                v: undefined,
+                init: function(v) {
+                    if ( mustAbort(v) ) { return false; }
+                    this.v = v;
+                    return true;
+                },
+                getter: function() {
+                    return document.currentScript === thisScript
+                        ? this.v
+                        : cValue;
+                },
+                setter: function(a) {
+                    if ( mustAbort(a) === false ) { return; }
+                    cValue = a;
+                }
+            });
+            return;
+        }
+        const prop = chain.slice(0, pos);
+        const v = owner[prop];
+        chain = chain.slice(pos + 1);
+        if ( v instanceof Object || typeof v === 'object' && v !== null ) {
+            trapChain(v, chain);
+            return;
+        }
+        trapProp(owner, prop, true, {
+            v: undefined,
+            init: function(v) {
+                this.v = v;
+                return true;
+            },
+            getter: function() {
+                return this.v;
+            },
+            setter: function(a) {
+                this.v = a;
+                if ( a instanceof Object ) {
+                    trapChain(a, chain);
+                }
+            }
+        });
+    };
+    trapChain(window, chain);
+})
