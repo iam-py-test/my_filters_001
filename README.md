@@ -6,6 +6,8 @@ Thank you to all the people in https://github.com/iam-py-test/my_filters_001/blo
 
 **The malicious website blocklist should now work in AdGuard on Windows. Please try it out (especially in AdGuard on Mac, iOS, and Android as I lack the ability to test those versions) and report any bugs. [Make sure you are using the designated version](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_adguard_app.txt)**
 
+Please note! I am only one person, and I do not have much time to dedicate to this project. These lists _don't_ get updated as often as they should, and I'm sorry.
+
 ### Some stats: 
 <a href="https://github.com/iam-py-test/my_filters_001/blob/main/stats.md"><img src="https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/totalentries.svg" width='130' height="20"></a>
 <img src="https://img.shields.io/github/last-commit/iam-py-test/my_filters_001"> 
@@ -69,6 +71,9 @@ Thank you to all the people in https://github.com/iam-py-test/my_filters_001/blo
 #### Personal
 - "Lockdown mode"
 This list has an extremely specific purpose, and **SHOULD NOT BE USED**.
+
+#### Experimental lists
+- TLD blocking lists ([more information](https://github.com/iam-py-test/my_filters_001/tree/main/region_blocklist))
 
 <br>The filters in the _Alternative list formats_ folder are versions of some of the lists above for different software. These are auto-generated, and thus updates to them must be made to the original list or [the Python script](https://github.com/iam-py-test/my_filters_001/blob/main/scripts/update.py) which generates them.<br>
 Everything not listed above, like the filters in the _Personal_ folder, is either completely forgotten by me, or is likely to break websites due to its purpose or lack of regulation. <br>
