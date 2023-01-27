@@ -1,6 +1,6 @@
 # Title: Anti-Dynamic DNS
 # Expires: 4 days
-# Version: 2023127.1
+# Version: 2023127.2
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # Description: Dynamic DNS providers are often abused by malware and phishing. While these do have legit uses, some people may wish to block them completly
 # Note: This list blocks ALL use of listed services, not just abuse. All Dynamic DNS services should be listed, regardless of abuse
@@ -34,7 +34,6 @@
 0.0.0.0 hosthampster.com
 0.0.0.0 freedynamicdns.net
 0.0.0.0 25u.com
-0.0.0.0 2waky.com
 0.0.0.0 3-a.net
 0.0.0.0 4dq.com
 0.0.0.0 4pu.com
@@ -77,7 +76,6 @@
 0.0.0.0 dubya.net
 0.0.0.0 dubya.us
 0.0.0.0 dumb1.com
-0.0.0.0 dynamic-dns.net
 0.0.0.0 dynamicdns.biz
 0.0.0.0 dynssl.com
 0.0.0.0 edns.biz
@@ -148,24 +146,20 @@
 0.0.0.0 ns2.name
 0.0.0.0 ns3.name
 0.0.0.0 ocry.com
-0.0.0.0 onedumb.com
 0.0.0.0 onmypc.biz
 0.0.0.0 onmypc.info
 0.0.0.0 onmypc.net
 0.0.0.0 onmypc.org
 0.0.0.0 onmypc.us
-0.0.0.0 organiccrap.com
 0.0.0.0 otzo.com
 0.0.0.0 ourhobby.com
 0.0.0.0 port25.biz
 0.0.0.0 proxydns.com
-0.0.0.0 qhigh.com
 0.0.0.0 qpoe.com
 0.0.0.0 rebatesrule.net
 0.0.0.0 sendsmtp.com
 0.0.0.0 serveuser.com
 0.0.0.0 serveusers.com
-0.0.0.0 sexidude.com
 0.0.0.0 sexxxy.biz
 0.0.0.0 sixth.biz
 0.0.0.0 squirly.info
@@ -173,11 +167,9 @@
 0.0.0.0 ssmailer.com
 0.0.0.0 toh.info
 0.0.0.0 toshibanetcam.com
-0.0.0.0 toythieves.com
 0.0.0.0 trickip.net
 0.0.0.0 trickip.org
 0.0.0.0 vizvaz.com
-0.0.0.0 wikaba.com
 0.0.0.0 www1.biz
 0.0.0.0 wwwhost.biz
 0.0.0.0 wwwhost.us
@@ -186,6 +178,4 @@
 0.0.0.0 xxxy.biz
 0.0.0.0 xxxy.info
 0.0.0.0 ygto.com
-0.0.0.0 youdontcare.com
-0.0.0.0 yourtrap.com
 0.0.0.0 zyns.com
