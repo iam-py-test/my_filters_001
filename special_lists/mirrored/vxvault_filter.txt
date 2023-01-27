@@ -2,11 +2,13 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter. All credit to VXVault for finding these urls
 ! Script last updated: 9/12/2022
 ! Expires: 1 day
-! Last updated: 26/01/2023
+! Last updated: 27/01/2023
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Thu, 26 Jan 2023 20:25:31 +0000
+! Fri, 27 Jan 2023 20:26:03 +0000
+||144.168.243.177/113/vbc.exe^$all
+||103.133.214.139/2/NINJA.exe^$all
 ||unionbindinqcompany.it/vbs.exe^$all
 ||77.73.134.24/Clip1.exe^$all
 ||72.251.235.155/rt/dp/2^$all
@@ -106,5 +108,3 @@
 ||89.208.104.172/bebra.exe^$all
 ||jhtmuw1v.beget.tech/build/A.exe^$all
 ||89.208.104.172/412.exe^$all
-||jhtmuw1v.beget.tech/build/3.exe^$all
-||gitcdn.link/cdn/gta11113/fgjhfh/main/ofg32.jp^$all
