@@ -1,5 +1,5 @@
 num = 0
-lists = ["porn.txt","antimalware.txt","antitypo.txt","anti-redirectors.txt","anti-cookie+sign up.txt","anti-rickroll-list.txt","annoyances.txt","duckduckgo-clean-up.template","enhanced_protection.txt","anti-norton-tracking.txt","clickbait.txt"]
+lists = ["porn.txt","antimalware.txt","antitypo.txt","anti-redirectors.txt","anti-cookie+sign up.txt","anti-rickroll-list.txt","annoyances.txt","duckduckgo-clean-up.template","enhanced_protection.txt","anti-norton-tracking.txt","clickbait.txt","antidynamicdns.txt"]
 reviewedlines = {}
 perlistnum = {}
 for list in lists:
