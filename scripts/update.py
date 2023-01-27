@@ -111,7 +111,7 @@ def mkhosts(file,altname):
 mkhosts("antimalware.txt","Alternative list formats/antimalware_hosts.txt")
 mkhosts("antitypo.txt","Alternative list formats/antitypo_hosts.txt")
 mkhosts("anti-redirectors.txt","Alternative list formats/anti-redirectors_hosts.txt")
-mkalt("antidynamicdns.txt","Alternative list formats/antidynamicdns_hosts.txt")
+mkhosts("antidynamicdns.txt","Alternative list formats/antidynamicdns_hosts.txt")
 
 
 def mkagh(file,altname):
