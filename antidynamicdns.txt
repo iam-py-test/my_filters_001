@@ -1,6 +1,6 @@
 ! Title: Anti-Dynamic DNS
 ! Expires: 4 days
-! Version: 2023127.1
+! Version: 2023127.2
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Description: Dynamic DNS providers are often abused by malware and phishing. While these do have legit uses, some people may wish to block them completly
 ! Note: This list blocks ALL use of listed services, not just abuse. All Dynamic DNS services should be listed, regardless of abuse
@@ -34,7 +34,6 @@
 ||hosthampster.com^$document
 ||freedynamicdns.net^$document
 ||25u.com^$document
-||2waky.com^$document
 ||3-a.net^$document
 ||4dq.com^$document
 ||4pu.com^$document
@@ -77,7 +76,6 @@
 ||dubya.net^$document
 ||dubya.us^$document
 ||dumb1.com^$document
-||dynamic-dns.net^$document
 ||dynamicdns.biz^$document
 ||dynssl.com^$document
 ||edns.biz^$document
@@ -148,24 +146,20 @@
 ||ns2.name^$document
 ||ns3.name^$document
 ||ocry.com^$document
-||onedumb.com^$document
 ||onmypc.biz^$document
 ||onmypc.info^$document
 ||onmypc.net^$document
 ||onmypc.org^$document
 ||onmypc.us^$document
-||organiccrap.com^$document
 ||otzo.com^$document
 ||ourhobby.com^$document
 ||port25.biz^$document
 ||proxydns.com^$document
-||qhigh.com^$document
 ||qpoe.com^$document
 ||rebatesrule.net^$document
 ||sendsmtp.com^$document
 ||serveuser.com^$document
 ||serveusers.com^$document
-||sexidude.com^$document
 ||sexxxy.biz^$document
 ||sixth.biz^$document
 ||squirly.info^$document
@@ -173,11 +167,9 @@
 ||ssmailer.com^$document
 ||toh.info^$document
 ||toshibanetcam.com^$document
-||toythieves.com^$document
 ||trickip.net^$document
 ||trickip.org^$document
 ||vizvaz.com^$document
-||wikaba.com^$document
 ||www1.biz^$document
 ||wwwhost.biz^$document
 ||wwwhost.us^$document
@@ -186,6 +178,4 @@
 ||xxxy.biz^$document
 ||xxxy.info^$document
 ||ygto.com^$document
-||youdontcare.com^$document
-||yourtrap.com^$document
 ||zyns.com^$document
