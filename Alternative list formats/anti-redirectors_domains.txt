@@ -78,3 +78,5 @@ promo-visits.site
 satoshi-win.xyz
 lnkd.in
 refererhider.com
+rotf.lol
+link-split.com
