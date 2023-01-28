@@ -43,3 +43,5 @@
 ||3650365voicemailplay.blob.core.windows.net^$all
 ! 21/1/2023
 ||theantivirusprotection.xyz^$all
+! 28/1/2023
+||xtracker.top^$all

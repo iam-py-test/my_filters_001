@@ -8,3 +8,5 @@
 0.0.0.0 ipwhois.app
 0.0.0.0 ipwho.is
 0.0.0.0 iplogger.org
+0.0.0.0 02ip.ru
+0.0.0.0 yip.su
