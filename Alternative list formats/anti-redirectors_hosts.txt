@@ -3,7 +3,7 @@
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # Please report false positives & unblocked domains to me using the GitHub or GitLab (urls below). Thanks!
 # Expires: 1 day
-# Last updated: 21/1/2023
+# Last updated: 28/1/2023
 # Issues url: https://github.com/iam-py-test/my_filters_001/issues
 # GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 # If you want shorter urls, check out DandelionSprout's Actually Legitimate URL Shortener Tool at https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
@@ -151,7 +151,7 @@
 # Bing redirects (use uBo's query-param parsing find the original url and bypass the redirect)
 # Possible tracker redirects
 # https://www.virustotal.com/gui/url/324d9f78151bf5a2a8130b07849f9427c2ce45abf5dd1276100cf5dd71bf9ec1/details
-# Tracker, ip-logging, url shortener used by cybercriminals
+# Ip-logging url shortener often abused by cybercriminals
 # https://www.virustotal.com/gui/url/94bd1436eccc87b7cef754f5ed42569f9d0694c6f67e0ff6c27acf5fe3f3771b/community
 # https://www.mywot.com/scorecard/iplogger.org
 # https://safeweb.norton.com/reviews?url=iplogger.org
@@ -212,3 +212,7 @@
 0.0.0.0 lnkd.in
 # from the push notifications from https://github.com/DandelionSprout/adfilt/issues/752
 0.0.0.0 refererhider.com
+# https://app.any.run/tasks/acb995d6-45ba-4680-8c39-b96b7a8574d8
+0.0.0.0 rotf.lol
+# https://app.any.run/tasks/55be25cf-bf75-4f7c-93ec-68ecf0e40e2c
+0.0.0.0 link-split.com
