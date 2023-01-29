@@ -355,3 +355,5 @@
 0.0.0.0 mediafiire.com
 # https://github.com/uBlockOrigin/uAssets/issues/11269
 0.0.0.0 discqrdapp.com
+# appears to be a former tech support scam page, but now is parked
+0.0.0.0 malwarebytes.support
