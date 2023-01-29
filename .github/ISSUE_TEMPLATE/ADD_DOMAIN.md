@@ -1,6 +1,6 @@
 ---
 name: Unblocked domain report
-about: Report an ublocked domain
+about: Report an unblocked domain
 title: "[domain report]"
 labels: Add domain
 assignees: iam-py-test
@@ -16,5 +16,3 @@ assignees: iam-py-test
 - [ ] [MyWOT](https://mywot.com)
 - [ ] [FortiGuard Labs](https://www.fortiguard.com/webfilter)
 #### Other information
-
-- [ ] Is this domain harmful? (i.e. malware, browser hijack)

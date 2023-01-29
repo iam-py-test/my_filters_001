@@ -1,6 +1,6 @@
 ! Title: Personal filters
 ! Expires: 1 day
-! Description: Random personal filters
+! Description: Random personal filters. Please do not use
 
 ! copied/stole from uBlock Origin Annoyances to get rid of the annoying "add redirect on right click" thing
 www.google.*##+js(set-constant, rwt, noopFunc)

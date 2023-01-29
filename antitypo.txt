@@ -381,3 +381,6 @@
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11269
 ||discqrdapp.com^$all
+
+! appears to be a former tech support scam page, but now is parked
+||malwarebytes.support^$document

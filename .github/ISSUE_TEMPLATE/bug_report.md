@@ -15,9 +15,8 @@ assignees: ''
 ### What OS/browser do you have (optional)
 
 ### What list(s) are you using?
-- [ ] Porn.txt
 - [ ] Antirickroll
-- [ ] Antimalware
+- [ ] The malicious website blocklist
 - [ ] Other (explain)
 ### What other lists do you have (optional - helps me find the problem)
 
