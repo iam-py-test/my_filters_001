@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: iam-py-test's anti-PUP list
 ! Description: The purpose of this list is to block websites who only exist to promote PUPs or shady software, but which "should not" be blocked in The malicious website blocklist
-! Last updated: 3/1/2023
+! Last updated: 30/1/2023
 ! Expires: 5 days
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 
@@ -124,8 +124,6 @@ majorgeeks.com#?#b:has(a[target^=reimage])
 2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,ioys.gr,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk#?#.nfc-bottom-right:has-text(Reimage)
 2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,ioys.gr,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk#?#a:has-text(Reimage)
 2-spyware.com,novirus.uk,faravirus.ro,uirusu.jp,virusi.hr,wubingdu.cn,avirus.hu,ioys.gr,odstranitvirus.cz,tanpavirus.web.id,utanvirus.se,virukset.fi,losvirus.es,virusler.info.tr,semvirus.pt,lesvirus.fr,senzavirus.it,dieviren.de,viruset.no,usunwirusa.pl,zondervirus.nl,bedynet.ru,virusai.lt,virusi.bg,viirused.ee,udenvirus.dk##.quick-download-button-text
-! https://github.com/AdguardTeam/AdguardFilters/issues/111843
-||loadware.org^$doc,popup
 ! ¤¤¤ ScanUtilities ¤¤¤
 ! https://www.bynarycodes.com/fix-windows-10-update-error-0x80070006/
 bynarycodes.com##div[class^=bynar-content_]
@@ -215,6 +213,9 @@ dll4free.com#?#.leftdiv:has-text(PC Reviver)
 dll-found.com#?#p:has(a[href*=tweakbit])
 ! ¤¤¤ "DLL Helper" ¤¤¤
 azdll.net##.dllhelper-banner
+! ¤¤¤ WinThruster ¤¤¤
+||solvusoft.com^$document
+exefiles.com##.panel:has([href*="/en/recommended/winthruster/"])
 
 ! Download.com - this currently leaves random blank squares on the page
 download.cnet.com,download.com##div.c-productCard-simple.u-flexbox-column.c-productCard:has-text(/Advanced SystemCare Free/i)
