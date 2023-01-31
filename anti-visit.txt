@@ -1,4 +1,13 @@
 ! Title: Anti-visit counters
+! Homepage: https://github.com/iam-py-test/my_filters_001
+! Last updated: 31/1/2023
 ! Expires: 2 days
 
 ||hits.seeyoufarm.com^$3p
+||websitecounterfree.com^$3p
+||free-website-hit-counter.com^$3p
+||livetrafficfeed.com/static/hitcounter/hitcounter.gif
+||cdn.livetrafficfeed.com/static/hitcounter/live.js^$script,3p
+||freecounterstat.com^
+||hitwebcounter.com/counter/counter.php
+||hitwebcounter.com^$3p

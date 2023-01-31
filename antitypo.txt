@@ -387,3 +387,6 @@
 
 ! https://github.com/uBlockOrigin/uAssets/issues/16558
 ||obsproicet.net^$all
+
+! https://scammer.info/t/fake-metamask-download/119071 (NXDOMAIN)
+||download-metamask.com^$all
