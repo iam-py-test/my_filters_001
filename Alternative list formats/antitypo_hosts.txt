@@ -359,3 +359,5 @@
 0.0.0.0 malwarebytes.support
 # https://github.com/uBlockOrigin/uAssets/issues/16558
 0.0.0.0 obsproicet.net
+# https://scammer.info/t/fake-metamask-download/119071 (NXDOMAIN)
+0.0.0.0 download-metamask.com
