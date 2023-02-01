@@ -313,3 +313,4 @@
 ||servequake.com^$document
 ||sytes.net^$document
 ||webhop.me^$document
+||pp.ua^$document
