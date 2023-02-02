@@ -313,3 +313,4 @@
 0.0.0.0 servequake.com
 0.0.0.0 sytes.net
 0.0.0.0 webhop.me
+0.0.0.0 pp.ua
