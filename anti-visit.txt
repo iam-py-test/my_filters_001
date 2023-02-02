@@ -1,7 +1,8 @@
 ! Title: Anti-visit counters
 ! Homepage: https://github.com/iam-py-test/my_filters_001
-! Last updated: 31/1/2023
+! Last updated: 1/2/2023
 ! Expires: 2 days
+! Note: I am currently unable to block counters located on GitHub due to how GitHub mirrors their image. 
 
 ||hits.seeyoufarm.com^$3p
 ||websitecounterfree.com^$3p
@@ -11,3 +12,5 @@
 ||freecounterstat.com^
 ||hitwebcounter.com/counter/counter.php
 ||hitwebcounter.com^$3p
+||profile-counter.glitch.me^$3p
+github.com##[data-canonical-src*="https://profile-counter.glitch.me/"][data-canonical-src*="/count.svg"]
