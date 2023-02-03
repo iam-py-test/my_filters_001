@@ -112,3 +112,5 @@
 ||grubwhatsapp40.duckdns.org^$all
 ||mikeysphising3.duckdns.org^$all
 ||heinthu1.github.io^$all
+! as of 3/2/2023
+||satoulishing0-webapps-document-adaf7.ondigitalocean.app^$all
