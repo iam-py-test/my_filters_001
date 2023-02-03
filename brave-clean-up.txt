@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results
 ! Expires: 1 day
 ! Last updated: 27/12/2022
-! Last auto-generated: 02/02/2023
+! Last auto-generated: 03/02/2023
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -5701,6 +5701,14 @@ search.brave.com##div.fdb.snippet:has(a[href*="://xer382yrotxz.yachts"])
 search.brave.com##div.fdb.snippet:has(a[href*="://watch-online.7oc5b1i3v4iu.top"])
 search.brave.com##div.fdb.snippet:has(a[href*="://7oc5b1i3v4iu.top"])
 search.brave.com##div.fdb.snippet:has(a[href*="://21bustqisw2.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://331454283.jirikrcmar-photography.cz"])
+search.brave.com##div.fdb.snippet:has(a[href*="://jirikrcmar-photography.cz"])
+search.brave.com##div.fdb.snippet:has(a[href*="://dh4jf8fjs.affiliatemarketing.news"])
+search.brave.com##div.fdb.snippet:has(a[href*="://affiliatemarketing.news"])
+search.brave.com##div.fdb.snippet:has(a[href*="://ccleaner-download.xyz"])
+search.brave.com##div.fdb.snippet:has(a[href*="://service-domain.xyz"])
+search.brave.com##div.fdb.snippet:has(a[href*="://www-biccamera-com.xdtylc468.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://www-biccamera-com.jycfmf.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://adublock.net"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublockerext.com"])
@@ -10954,6 +10962,7 @@ search.brave.com##div.fdb.snippet:has(a[href*="://5.61.55.143"])
 search.brave.com##div.fdb.snippet:has(a[href*="://194.36.177.164"])
 search.brave.com##div.fdb.snippet:has(a[href*="://135.181.41.147"])
 search.brave.com##div.fdb.snippet:has(a[href*="://82.115.223.46"])
+search.brave.com##div.fdb.snippet:has(a[href*="://35.181.110.225"])
 search.brave.com##div.fdb.snippet:has(a[href*="://5.8.47.3"])
 search.brave.com##div.fdb.snippet:has(a[href*="://5.8.34.26"])
 search.brave.com##div.fdb.snippet:has(a[href*="://103.224.182.251"])
