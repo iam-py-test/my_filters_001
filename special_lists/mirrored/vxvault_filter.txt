@@ -2,11 +2,13 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter. All credit to VXVault for finding these urls
 ! Script last updated: 9/12/2022
 ! Expires: 1 day
-! Last updated: 01/02/2023
+! Last updated: 03/02/2023
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Wed, 01 Feb 2023 20:26:51 +0000
+! Fri, 03 Feb 2023 02:55:32 +0000
+||qtvotqx-krf-6.ml/chibk/Jrxqkbvdpcg.png^$all
+||qtvotqx-krf-6.ml/olu/Vutbwiazl.bmp^$all
 ||uploadkon.ir/uploads/280e09_22no.rar^$all
 ||h167159.srv11.test-hf.su/53.exe^$all
 ||h167159.srv11.test-hf.su/52.exe^$all
@@ -106,5 +108,3 @@
 ||bitbucket.org/wres1/new777/downloads/NOTWAR.exe^$all
 ||bitbucket.org/wres1/new777/downloads/Check.exe^$all
 ||178.62.211.84/B3O0M3O8H4I2P1/4567585376312434683574.exe^$all
-||jhtmuw1v.beget.tech/build/M.exe^$all
-||jhtmuw1v.beget.tech/build/H.exe^$all
