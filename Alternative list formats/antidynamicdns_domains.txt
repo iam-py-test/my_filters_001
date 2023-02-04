@@ -23,7 +23,6 @@ ddnss.de
 myddns.me
 ddnss.ch
 cloudns.cl
-dnsiskinky.com
 fantasyleague.cc
 hosthampster.com
 freedynamicdns.net
@@ -173,8 +172,6 @@ xxxy.biz
 xxxy.info
 ygto.com
 zyns.com
-dns05.com
-dns04.com
 entrydns.org
 ddns5.com
 drayddns.com
@@ -238,7 +235,6 @@ dnsiskinky.com
 dvrcam.info
 dynns.com
 eating-organic.net
-fantasyleague.cc
 geekgalaxy.com
 golffan.us
 health-carereform.com
@@ -283,13 +279,11 @@ workisboring.com
 3utilities.com
 bounceme.net
 ddnsking.com
-hopto.org
 myftp.biz
 myftp.org
 myvnc.com
 no-ip.biz
 no-ip.info
-no-ip.org
 noip.me
 redirectme.net
 servebeer.com
@@ -307,3 +301,8 @@ servequake.com
 sytes.net
 webhop.me
 pp.ua
+freetcp.com
+itemdb.com
+serveuser.com
+serveusers.com
+jetos.com
