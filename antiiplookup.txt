@@ -10,3 +10,4 @@
 0.0.0.0 iplogger.org
 0.0.0.0 02ip.ru
 0.0.0.0 yip.su
+0.0.0.0 ip-api.com

@@ -30,6 +30,8 @@
 ||cam^$all
 ||lol^$all
 ||pw^$all
+||icu^$all
+||shop^$all
 
 ! hosting
 ||weebly.*^$document
