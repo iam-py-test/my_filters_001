@@ -1,6 +1,5 @@
-||dns05.com^
-||dns04.com^
-||dnsiskinky.com^
-||fantasyleague.cc^
-||hopto.org^
-||no-ip.org^
+||freetcp.com^
+||itemdb.com^
+||serveuser.com^
+||serveusers.com^
+||jetos.com^
