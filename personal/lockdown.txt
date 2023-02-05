@@ -32,6 +32,9 @@
 ||pw^$all
 ||icu^$all
 ||shop^$all
+||mobi^$all
+||it^$all
+||tube^$all
 
 ! hosting
 ||weebly.*^$document
