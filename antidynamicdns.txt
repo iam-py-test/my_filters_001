@@ -308,3 +308,4 @@
 ||sytes.net^$document
 ||webhop.me^$document
 ||pp.ua^$document
+||topsddns.net^$document
