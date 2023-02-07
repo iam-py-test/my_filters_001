@@ -2,11 +2,18 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter. All credit to VXVault for finding these urls
 ! Script last updated: 9/12/2022
 ! Expires: 1 day
-! Last updated: 05/02/2023
+! Last updated: 06/02/2023
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Sun, 05 Feb 2023 20:24:52 +0000
+! Mon, 06 Feb 2023 20:27:20 +0000
+||185.17.0.54/wvVRGaJtNlPK.exe^$all
+||167.235.69.31/nppshell.exe^$all
+||195.201.23.180/urapwd2x.dll^$all
+||farmriterural.com.au/javonet2.1.exe^$all
+||cryptoidea.help/downloads/video.exe^$all
+||cryptoidea.help/downloads/metamask.exe^$all
+||cdn.discordapp.com/attachments/1052616590480380017/1052617391454040144/autorun.exe^$all
 ||107.189.5.161/Loader.exe^$all
 ||s3rrrv3r.xyz/lll.exe^$all
 ||qtvotqx-krf-6.ml/chibk/Jrxqkbvdpcg.png^$all
@@ -101,10 +108,3 @@
 ||cdn.discordapp.com/attachments/963158858975559760/998699040013307994/Final4942080.exe^$all
 ||cdn.discordapp.com/attachments/1037798440857505884/1037798662920732682/dmi17n.exe^$all
 ||ezisc.com/dmi1dfg7n.iujgy^$all
-||istanbulyazilim.net/ofg7dfg312.wretg^$all
-||istanbulyazilim.net/f429f4uf84u.f2hf9842^$all
-||istanbulyazilim.net/dmi1dfg7n.iujgy^$all
-||uaery.top/dl/build2.exe^$all
-||fresherlights.com/files/1/build3.exe^$all
-||uaery.top/dl/build2.exe^$all
-||bitbucket.org/wres1/new777/downloads/NOTWAR.exe^$all
