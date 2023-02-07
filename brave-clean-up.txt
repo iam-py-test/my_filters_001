@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results
 ! Expires: 1 day
 ! Last updated: 27/12/2022
-! Last auto-generated: 06/02/2023
+! Last auto-generated: 07/02/2023
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -5726,6 +5726,35 @@ search.brave.com##div.fdb.snippet:has(a[href*="://tiktok.topprofile24.site"])
 search.brave.com##div.fdb.snippet:has(a[href*="://topprofile24.site"])
 search.brave.com##div.fdb.snippet:has(a[href*="://rdr.mobiletime.net"])
 search.brave.com##div.fdb.snippet:has(a[href*="://quickttax.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://qfdsq.inghesatin.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://blockadsez.info"])
+search.brave.com##div.fdb.snippet:has(a[href*="://wickedhumankindbarrel.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://videoadblockerpro.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://watchadfree.info"])
+search.brave.com##div.fdb.snippet:has(a[href*="://stop-adblocker.info"])
+search.brave.com##div.fdb.snippet:has(a[href*="://ia9j0.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://yk946.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://ayybt.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://8b947.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://yz9iy.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://9sgqi.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://pivoms.live"])
+search.brave.com##div.fdb.snippet:has(a[href*="://ys2fr.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://9elo3.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://zjvw7.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://z4r0w.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://8yqet.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://wheeshoo.net"])
+search.brave.com##div.fdb.snippet:has(a[href*="://justquiz39.pushalert.co"])
+search.brave.com##div.fdb.snippet:has(a[href*="://easyadblocker.info"])
+search.brave.com##div.fdb.snippet:has(a[href*="://wbofc.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://x435f.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://w6got.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://xk9tx.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://wiruv.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://xpdep.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://woodbattle2.xyz"])
+search.brave.com##div.fdb.snippet:has(a[href*="://shoesauto3.xyz"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://adublock.net"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublockerext.com"])
