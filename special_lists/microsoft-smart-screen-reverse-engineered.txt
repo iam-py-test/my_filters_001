@@ -45,3 +45,5 @@
 ||theantivirusprotection.xyz^$all
 ! 28/1/2023
 ||xtracker.top^$all
+! 9/2/2023
+||pmngrnw.com^$all

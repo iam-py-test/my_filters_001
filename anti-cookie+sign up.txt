@@ -512,7 +512,7 @@ ublock-origin.com###cookie-law-info-bar
 bkk-vdn.de##.cc-color-override-1808778711.cc-left.cc-bottom.cc-theme-classic.cc-type-opt-in.cc-floating.cc-window
 bkk-vdn.de##+js(rc,body,dp--cookie-consent)
 ||www.bkk-vdn.de/typo3conf/ext/dp_cookieconsent/Resources/Public/css/dp_cookieconsent.css?1603355725$stylesheet,domain=www.bkk-vdn.de
-bkk-vdn.de#$#body.dp--cookie-consent:before {background:unset !important}
+bkk-vdn.de#$#body.dp--cookie-consent::before {background:unset !important}
 bkk-vdn.de#$#body.dp--cookie-consent {background:unset !important}
 
 ! https://www.robtex.com

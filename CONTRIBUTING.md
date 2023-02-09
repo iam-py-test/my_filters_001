@@ -17,3 +17,10 @@ I can - and never will - support Google's Manifest V3 as it will destroy all con
 
 ### Note about Internet Explorer
 I do not - and never will - support Microsoft's Internet Explorer, as it is a complete mess, and isn't even maintained. I recommend you switch to any maintained browser, as Microsoft won't fix any issues with IE, and it is therefore broken and insecure.
+
+### Opera
+Opera prevents extensions from accessing search result pages. To allow access, open opera://extensions/ and check the "allow access to search page results" option. Thanks to the uBo team for informing me (and other people) of this. 
+
+### kiwibrowser
+Kiwi is not supported by uBlock Origin. It also [disables extensions on many pages](https://www.reddit.com/r/uBlockOrigin/comments/10xntsr/comment/j7teo9p/) on [a long list of domains](https://github.com/kiwibrowser/src/blob/c51d640a8e984ff0fb24049c53a7ed4e458775ef/extensions/browser/api/web_request/web_request_permissions.cc#L167). Note that this also includes **any** domain containing `bing.com`, `search.yahoo.`, and some other tokens, meaning extensions may be disabled on other websites (such as malware and scam sites).
+For this reason, and [the lack of frequent updates](https://github.com/kiwibrowser/src/commits/master), I would recommend against using this browser.
