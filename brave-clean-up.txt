@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results
 ! Expires: 1 day
 ! Last updated: 27/12/2022
-! Last auto-generated: 08/02/2023
+! Last auto-generated: 09/02/2023
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -9894,6 +9894,10 @@ search.brave.com##div.fdb.snippet:has(a[href*="://affiliates.totaladblock.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://affiliate.totaladblock.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://url.totaladblock.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://api.totaladblock.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://signup.totaladblock.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://track.totaladblock.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://my.totaladblock.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://support.totaladblock.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://mycleanpc.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://www.mycleanpc.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://reviews.mycleanpc.com"])
@@ -10197,6 +10201,7 @@ search.brave.com##div.fdb.snippet:has(a[href*="://link.sv"])
 search.brave.com##div.fdb.snippet:has(a[href*="://to.sv"])
 search.brave.com##div.fdb.snippet:has(a[href*="://go.sv"])
 search.brave.com##div.fdb.snippet:has(a[href*="://scuekpza.ws"])
+search.brave.com##div.fdb.snippet:has(a[href*="://thedrivingtutors.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://mailboxdelivery.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://csgo.xyz"])
 search.brave.com##div.fdb.snippet:has(a[href*="://contribute.to-support.me"])
