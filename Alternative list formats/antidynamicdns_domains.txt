@@ -302,6 +302,7 @@ sytes.net
 webhop.me
 pp.ua
 topsddns.net
+cupddns.net
 at-band-camp.net
 ath.cx
 barrel-of-knowledge.info
@@ -487,7 +488,8 @@ is-a-personaltrainer.com
 is-a-photographer.com
 is-a-player.com
 is-a-republican.com
-is-a-rockstar.com 	is-a-socialist.com
+is-a-rockstar.com
+is-a-socialist.com
 is-a-soxfan.org
 is-a-student.com
 is-a-teacher.com
