@@ -399,3 +399,8 @@
 
 ! listed in uBo badware
 ||com.com^$all
+
+! imports from the MWB
+||googieapls.com^$all
+! https://www.reddit.com/r/mildlyinfuriating/comments/nc9zpe/got_a_paypal_or_should_i_say_paypl_phishing_email/
+||paypaI.com^$all
