@@ -367,3 +367,7 @@
 0.0.0.0 gogle.net
 # listed in uBo badware
 0.0.0.0 com.com
+# imports from the MWB
+0.0.0.0 googieapls.com
+# https://www.reddit.com/r/mildlyinfuriating/comments/nc9zpe/got_a_paypal_or_should_i_say_paypl_phishing_email/
+0.0.0.0 paypai.com
