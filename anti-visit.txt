@@ -1,6 +1,7 @@
 ! Title: Anti-visit counters
 ! Homepage: https://github.com/iam-py-test/my_filters_001
-! Last updated: 1/2/2023
+! Description: You know those "number of times this page has been requested" counter images? I personally find those annoying. This is clearly just my opinion, but for those who don't want to see those anymore, this list is for you. It is very much still a work-in-progress!
+! Last updated: 11/2/2023
 ! Expires: 2 days
 ! Note: I am currently unable to block counters located on GitHub due to how GitHub mirrors their image. 
 
