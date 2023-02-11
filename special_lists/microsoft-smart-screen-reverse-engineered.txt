@@ -47,3 +47,5 @@
 ||xtracker.top^$all
 ! 9/2/2023
 ||pmngrnw.com^$all
+! 11/2/2023
+||cashspacex.org^$all
