@@ -1,6 +1,6 @@
 ! Title: Anti-Dynamic DNS
 ! Expires: 4 days
-! Version: 2023-2-9.1
+! Version: 2023-2-12.1
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Description: Dynamic DNS providers are often abused by malware and phishing. While these do have legit uses, some people may wish to block them completly
 ! Note: This list blocks ALL use of listed services, not just abuse. All Dynamic DNS services should be listed, regardless of abuse
@@ -310,6 +310,7 @@
 ||pp.ua^$document
 ||topsddns.net^$document
 ||cupddns.net^$document
+||ydns.eu^$document
 ! https://help.dyn.com/list-of-dyn-dns-pro-remote-access-domain-names/
 ||at-band-camp.net^$document
 ||ath.cx^$document
@@ -404,7 +405,8 @@
 ||from-mo.com^$document
 ||from-ms.com^$document
 ||from-mt.com^$document
-||from-nc.com 	from-nd.com^$document
+||from-nc.com^$document
+||from-nd.com^$document
 ||from-ne.com^$document
 ||from-nh.com^$document
 ||from-nj.com^$document

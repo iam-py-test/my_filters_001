@@ -35,23 +35,24 @@
 ||mobi^$all
 ||it^$all
 ||tube^$all
+||pro^$all
+||club^$all
 
 ! hosting
 ||weebly.*^$document
 ||github.io^$document,domain=~virustotal.github.io|~iam-py-test.github.io|~gchq.github.io
 ||wixsite.*^$document
 ||proxy2link.com^$all
+||amplifyapp.com^$all
 
 ! file hosting
 ||mediafire.*^$document
 ||mega.*^$document
+||discordapp.com^$document
 
 ! URL shortners
 ||bit.ly^$all
 ||adf.ly^$all
-
-! avoid opening malware YT videos
-||youtube.com^$popup,domain=google.*|duckduckgo.com
 
 ! pings (blocked by EL?)
 $ping,third-party

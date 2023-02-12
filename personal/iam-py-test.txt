@@ -35,6 +35,9 @@ ipvoid.com###sticky-banner
 ! ClearURLs for uBo allowlists "ref" on Amazon (i.e. https://www.amazon.com/s?k=harry+potter+and+the+sorcerer%27s+stone+movie&ref=nb_sb_noss_2)
 ||amazon.*^$removeparam=ref,important
 
+! reddit
+reddit.com##span:has(#COIN_PURCHASE_DROPDOWN_ID)
+
 ! ---- cookie banners ----
 sitecheck.sucuri.net##.p-0.hide.cookie-policy-banner.container-fluid
 mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
@@ -42,12 +45,14 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ! ---- anti-twitter ----
 ||duckduckgo.com/assets/icons/footer/twr.svg$image
 
-
 ! ---- full website blocks which don't go in another filterlist ----
 ||kiwifarms.net^$document
 ||pornhub.*^$all
 ||bit.ly^$document
-||img.pushflow.net^$all
+||pushflow.net^$all
+
+! ---- suspected malware ----
+||inghesatin.com^$all
 
 ! ---- unbreak filters ----
 
