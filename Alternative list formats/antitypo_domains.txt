@@ -257,3 +257,4 @@ com.com
 googieapls.com
 paypai.com
 dizcord.gift
+gitlabs.com
