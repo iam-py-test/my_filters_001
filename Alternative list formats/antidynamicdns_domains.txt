@@ -303,6 +303,7 @@ webhop.me
 pp.ua
 topsddns.net
 cupddns.net
+ydns.eu
 at-band-camp.net
 ath.cx
 barrel-of-knowledge.info
@@ -396,7 +397,8 @@ from-mn.com
 from-mo.com
 from-ms.com
 from-mt.com
-from-nc.com 	from-nd.com
+from-nc.com
+from-nd.com
 from-ne.com
 from-nh.com
 from-nj.com
