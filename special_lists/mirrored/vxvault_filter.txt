@@ -6,7 +6,9 @@
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/
 ! VX Vault last 100 Links
-! Mon, 13 Feb 2023 02:54:46 +0000
+! Mon, 13 Feb 2023 20:27:54 +0000
+||67.198.237.222/k20/k20sh4^$all
+||67.198.237.222/k20/k20x86^$all
 ||panel984257.site/Baasbq.dat^$all
 ||dl.dropboxusercontent.com/s/c1hzli34bo5kxwg/update.exe?dl=0^$all
 ||84.21.172.35/polish.exe^$all
@@ -106,5 +108,3 @@
 ||208.67.105.179/haitianzx.exe^$all
 ||github.com/Cteklooo/u/raw/main/free_donate.exe^$all
 ||istanbulyazilim.net/fh28fu490fiu42.kdfd^$all
-||istanbulyazilim.net/1255321213.yutoiop^$all
-||cdn.discordapp.com/attachments/1034566764819918851/1040422829100892231/GameLauncher.exe^$all
