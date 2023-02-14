@@ -410,3 +410,7 @@
 
 ! typo someone made. Redirects to a rhymes website?
 ||gitlabs.com^$document
+
+! https://forums.malwarebytes.com/topic/294989-making-sense-of-a-website-exclusion-issue/
+! https://forums.malwarebytes.com/topic/294994-possible-false-positive/ (account required)
+||stopify.co^$document

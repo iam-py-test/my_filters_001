@@ -50,6 +50,11 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||pornhub.*^$all
 ||bit.ly^$document
 ||pushflow.net^$all
+||tiktok.com^$3p
+||xxx^$all
+||stopify.co^$all
+||grabify.world^$all
+||adf.ly^$all
 
 ! ---- suspected malware ----
 ||inghesatin.com^$all

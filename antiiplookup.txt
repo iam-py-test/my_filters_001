@@ -11,3 +11,7 @@
 0.0.0.0 02ip.ru
 0.0.0.0 yip.su
 0.0.0.0 ip-api.com
+# https://forums.malwarebytes.com/topic/294989-making-sense-of-a-website-exclusion-issue/
+# https://forums.malwarebytes.com/topic/294994-possible-false-positive/ (account required)
+0.0.0.0 stopify.co
+0.0.0.0 grabify.world
