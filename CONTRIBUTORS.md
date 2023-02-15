@@ -8,4 +8,4 @@ This project is currently maintained by [@iam-py-test](https://github.com/iam-py
 - [Andrey Meshkov](https://github.com/ameshkov) and [@Yuki2718](https://github.com/Yuki2718) for helping me expand support to AdGuard
 - [@SilkArt](https://github.com/SilkArt) for reporting a domain to my Anti-Rickroll list
 - [@yokoffing](https://github.com/yokoffing) for reporting a false positive and a missing newline in [Issue 98](https://github.com/iam-py-test/my_filters_001/issues/98)
-- [@nicolaasjan](https://github.com/nicolaasjan) for [reporting that not encoding Cyrillic domains into Punycode causes problems](https://github.com/iam-py-test/my_filters_001/issues/102), and [reporting a few invalid entries in the HOSTs format](https://github.com/iam-py-test/my_filters_001/issues/103).
+- [@nicolaasjan](https://github.com/nicolaasjan) for [reporting that not encoding Cyrillic domains into Punycode causes problems](https://github.com/iam-py-test/my_filters_001/issues/102), and [reporting a few invalid entries in the HOSTs format](https://github.com/iam-py-test/my_filters_001/issues/103), and [other reports](https://github.com/iam-py-test/my_filters_001/issues/109).
