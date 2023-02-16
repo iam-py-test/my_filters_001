@@ -430,7 +430,6 @@
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142492
 ||apkmirror.net^$document
-||webogram.org^$document
 ||github.me^$document
 ||yandec.ru^$document
 ||yandex.co^$document
