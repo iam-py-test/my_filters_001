@@ -392,7 +392,6 @@
 0.0.0.0 tiny-url.mobi
 # https://github.com/AdguardTeam/AdguardFilters/issues/142492
 0.0.0.0 apkmirror.net
-0.0.0.0 webogram.org
 0.0.0.0 github.me
 0.0.0.0 yandec.ru
 0.0.0.0 yandex.co

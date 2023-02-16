@@ -271,7 +271,6 @@ bitly.host
 bitly.network
 tiny-url.mobi
 apkmirror.net
-webogram.org
 github.me
 yandec.ru
 yandex.co
