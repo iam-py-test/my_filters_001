@@ -270,3 +270,14 @@ bitly.gold
 bitly.host
 bitly.network
 tiny-url.mobi
+apkmirror.net
+webogram.org
+github.me
+yandec.ru
+yandex.co
+tgram.ru
+telegramm.site
+web-telegram.net
+apkmirror.co
+webogram.org
+webogram.ru
