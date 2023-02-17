@@ -4,6 +4,8 @@
 
 ! copied/stole from uBlock Origin Annoyances to get rid of the annoying "add redirect on right click" thing
 www.google.*##+js(set-constant, rwt, noopFunc)
+! https://github.com/easylist/easylist/issues/14891
+||google.*/url?*source=$ping
 
 ! created by DandelionSprout to make browsing Legit URL easier
 github.com##html:has(meta[content$="/DandelionSprout/adfilt/discussions/163"]) .js-timeline-item > .TimelineItem > div[id^=discussioncomment-]:has-text(/I have fixed it in |This has been fixed in /) .timeline-comment:style(background-color: #cee4c5 !important)
@@ -38,6 +40,9 @@ ipvoid.com###sticky-banner
 ! reddit
 reddit.com##span:has(#COIN_PURCHASE_DROPDOWN_ID)
 
+! https://github.com/uBlockOrigin/uAssets/issues/16689
+virustotal.com##.alert-info
+
 ! ---- cookie banners ----
 sitecheck.sucuri.net##.p-0.hide.cookie-policy-banner.container-fluid
 mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
@@ -55,6 +60,7 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||stopify.co^$all
 ||grabify.world^$all
 ||adf.ly^$all
+||taboola.com^$all
 
 ! ---- suspected malware ----
 ||inghesatin.com^$all
