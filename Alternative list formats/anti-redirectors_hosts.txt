@@ -226,3 +226,5 @@
 # discontinued MailChimp shortener
 0.0.0.0 eepurl.com
 # https://disq.us/url?url=https%3A%2F%2Fhaveibeenpwned.uservoice.com%2Fforums%2F275398-general%2Fsuggestions%2F6774229-enable-search-and-notifications-for-email-addresse%3A-QlNycBH52QjExviPImrJWl8-2Q&cuid=621325
+# https://github.com/brave/adblock-lists/issues/1025
+# https://github.com/brave/adblock-lists/issues/901
