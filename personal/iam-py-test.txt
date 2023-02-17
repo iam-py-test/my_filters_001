@@ -55,7 +55,7 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||pornhub.*^$all
 ||bit.ly^$document
 ||pushflow.net^$all
-||tiktok.com^$3p
+||tiktok.com^$all
 ||xxx^$all
 ||stopify.co^$all
 ||grabify.world^$all
@@ -64,6 +64,9 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 
 ! ---- suspected malware ----
 ||inghesatin.com^$all
+||js.rip^$all
+||duwabchhdgkqc.com^$all
+
 
 ! ---- unbreak filters ----
 

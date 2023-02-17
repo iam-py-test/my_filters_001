@@ -37,6 +37,10 @@
 ||tube^$all
 ||pro^$all
 ||club^$all
+||accountant^$all
+||reisen^$all
+||study^$all
+||ru^$all
 
 ! hosting
 ||weebly.*^$document
