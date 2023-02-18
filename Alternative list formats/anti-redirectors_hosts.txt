@@ -28,6 +28,7 @@
 0.0.0.0 rebrand.ly
 # https://www.mywot.com/scorecard/tinyurl.com
 0.0.0.0 tinyurl.com
+0.0.0.0 tinyurl.hu
 # https://www.mywot.com/scorecard/t.co - breaks Twitter links
 0.0.0.0 t.co
 # https://www.mywot.com/scorecard/is.gd

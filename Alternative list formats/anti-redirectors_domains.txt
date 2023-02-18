@@ -5,6 +5,7 @@ ow.ly
 goo.gl
 rebrand.ly
 tinyurl.com
+tinyurl.hu
 t.co
 is.gd
 ht.ly

@@ -4,9 +4,9 @@
 ! Expires: 1 day
 ! Last updated: 18/02/2023
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
-! Data from http://vxvault.net/
+! Data from http://vxvault.net/. All credit to them for finding these URLs
 ! VX Vault last 100 Links
-! Sat, 18 Feb 2023 02:50:48 +0000
+! Sat, 18 Feb 2023 20:25:44 +0000
 ||62.204.41.176/putingod.exe^$all
 ||67.198.237.222/k20/k20sh4^$all
 ||67.198.237.222/k20/k20x86^$all
