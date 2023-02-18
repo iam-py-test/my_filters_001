@@ -3,7 +3,6 @@ import requests
 # invalid syntax
 invalidsyntax = ["$$","$docment","$alll","^all","$docs","$scripted","$alls","$documentall","$allall","$all$all","$all.","$docments","$doc$doc","|*$","$documentP","$window","$document$document"]
 
-legitdomains = gooddomains + hosting + social + urlshorteners + malshare + nsfw
 bannedfilters = []
 
 # download allowlisted domains from my personal allowlist
