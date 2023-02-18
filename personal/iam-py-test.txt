@@ -43,6 +43,8 @@ reddit.com##span:has(#COIN_PURCHASE_DROPDOWN_ID)
 ! https://github.com/uBlockOrigin/uAssets/issues/16689
 virustotal.com##.alert-info
 
+filescan.io##.card.advertisement-small-screen
+
 ! ---- cookie banners ----
 sitecheck.sucuri.net##.p-0.hide.cookie-policy-banner.container-fluid
 mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
