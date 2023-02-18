@@ -8,10 +8,12 @@ assignees: iam-py-test
 ---
 
 #### What is the unblocked domain?
-[[replace with the domain]]
+
 #### What catagory is this domain?
-[porn,malware,phishing,spam,ad]
-#### Results for various scanners (only for some types)
+
+#### Screenshots (optional)
+
+#### Results for various scanners (optional)
 - [ ] [VirusTotal](https://virustotal.com)
 - [ ] [MyWOT](https://mywot.com)
 - [ ] [FortiGuard Labs](https://www.fortiguard.com/webfilter)

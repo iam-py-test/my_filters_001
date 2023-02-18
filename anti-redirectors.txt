@@ -32,6 +32,7 @@
 ||rebrand.ly^$document
 ! https://www.mywot.com/scorecard/tinyurl.com
 ||tinyurl.com^$document
+||tinyurl.hu^$document
 ! https://www.mywot.com/scorecard/t.co - breaks Twitter links
 ||t.co^$document
 ! https://www.mywot.com/scorecard/is.gd

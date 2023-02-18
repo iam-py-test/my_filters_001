@@ -14,11 +14,11 @@ totalpups = ''
 for line in maldomains:
   if line == '' or line.startswith("!"):
     continue
-  total += """duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*="://{}"])\nduckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.result:has(a[href*="://{}"])\n""".format(line,line)
+  total += """duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*="://{}"])\nduckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.result:has(a[href*="://{}"])\n""".format(line,line)
 for line in pupdomains:
   if line == '' or line.startswith("!"):
     continue
-  totalpups += """duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*="://{}"])\nduckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.result:has(a[href*="://{}"])\n""".format(line,line)
+  totalpups += """duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*="://{}"])\nduckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.result:has(a[href*="://{}"])\n""".format(line,line)
 
 endfile.write(template.read().replace("{{auto-gen-time}}",currentdate.strftime('%d/%m/%Y')).replace("{mal}",total).replace("{pup}",totalpups))
 endfile.close()

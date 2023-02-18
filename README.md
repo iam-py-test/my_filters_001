@@ -55,7 +55,6 @@ Please note! I am only one person, and I do not have much time to dedicate to th
 
 #### Lists which I gave up on
 - Pornography Blocklist (porn.txt) ([Subscribe to this dead list](https://iam-py-test.github.io/add_list.html?id=1))
-- The cleaner Tor list (cleaner-tor.txt)
 - The device privacy list (device_privacy.txt)
 - Anti-cookie-consent and paywalls list (anti-cookie+sign up.txt)
 - [Google Safe Browsing reverse-engineered](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/google-safe-browsing-reverse-engineered.txt)
