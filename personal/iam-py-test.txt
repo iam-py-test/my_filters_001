@@ -63,6 +63,7 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||grabify.world^$all
 ||adf.ly^$all
 ||taboola.com^$all
+||anonfiles.com^$all
 
 ! ---- suspected malware ----
 ||inghesatin.com^$all
