@@ -41,6 +41,7 @@
 ||reisen^$all
 ||study^$all
 ||ru^$all
+||rest^$all
 
 ! hosting
 ||weebly.*^$document
