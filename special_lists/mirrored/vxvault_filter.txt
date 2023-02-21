@@ -6,7 +6,13 @@
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/. All credit to them for finding these URLs
 ! VX Vault last 100 Links
-! Tue, 21 Feb 2023 02:57:36 +0000
+! Tue, 21 Feb 2023 22:50:54 +0000
+||github.com/Crysiz2631/sup/raw/main/Software_Requirements.exe^$all
+||uaery.top/dl/build2.exe^$all
+||jiqaz.com/files/1/build3.exe^$all
+||www.franceconsobanque.fr/wp-admin/images/css/design/fabric/bo/Uqvfulhohfm.bmp^$all
+||gitlab.com/oxx980/1234/-/raw/main/buildnew.exe^$all
+||merafm.com/wp-content/uploads/2021/02/paf/Talking-Points-with-China-PLAAF.exe^$all
 ||hugersi.com/dl/6523.exe^$all
 ||79.137.207.113/1.exe^$all
 ||193.38.55.218/1.exe^$all
@@ -102,9 +108,3 @@
 ||info123info.site/clip1.exe^$all
 ||cdn.discordapp.com/attachments/1013922792204415100/1029136565533933638/Setup.exe^$all
 ||194.180.48.203/Dspvxt.jpeg^$all
-||uaery.top/dl/build2.exe^$all
-||guluiiiimnstrannaer.net/dl/6523.exe^$all
-||privacy-tools-for-you-453.com/downloads/toolspab4.exe^$all
-||uaery.top/dl/buildz.exe^$all
-||cnom.sante.gov.ml/core^$all
-||cnom.sante.gov.ml/12^$all
