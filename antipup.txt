@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: iam-py-test's anti-PUP list
 ! Description: The purpose of this list is to block websites who only exist to promote PUPs or shady software, but which "should not" be blocked in The malicious website blocklist
-! Last updated: 30/1/2023
-! Expires: 5 days
+! Last updated: 23/2/2023
+! Expires: 6 days
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 
 ! TotalAV
@@ -18,7 +18,7 @@
 ! Reports TotalAV/PCProtect/Scanguard as best at everything
 ||10bestantivirus.com^$document
 ! TotalAV has a YouTube channel
-||youtube.com/watch?v=9ocPeo-y6t4^$doc
+||youtube.com/watch?v=9ocPeo-y6t4^$document
 ||youtube.com/c/TotalAV^$document
 ! browser extensions
 ||addons.mozilla.org/en-US/firefox/user/13039502/^$document
@@ -189,7 +189,7 @@ appuals.com#?#h3:has(+ p:has-text(Download and run Restoro ))
 appuals.com#?#p:has-text(Download and run Restoro )
 appuals.com##p + div > div:first-of-type
 ! ¤¤¤ "Driver" download sites that instead download PUP tools ¤¤¤
-||driver-soft.com^$doc
+||driver-soft.com^$document
 ! ¤¤¤ Outbyte ¤¤¤
 wikidll.com,dllfile.net,dll-files.org##.detection-os
 wikidll.com,dllfile.net,dll-files.org##.detection-desc
@@ -205,7 +205,7 @@ dllfile.net##.sticky-link
 fix4dll.com##.file__download
 fix4dll.com#?#.sidebar__block:has-text(Outbyte)
 winaero.com##.entry-content > div:has([href="/fix-classic-issues-performance/"])
-||outbyte.com^$doc
+||outbyte.com^$document
 ||testedforyou.net^$all,~inline-font,~inline-script
 ! ¤¤¤ PC Reviver ¤¤¤
 dll4free.com#?#.leftdiv:has-text(PC Reviver)
@@ -230,13 +230,13 @@ download.cnet.com##div.c-productCard-search:has-text(/iobit uninstaller/i)
 download.cnet.com##div.c-productCard-search:has-text(/TotalAV/i)
 download.cnet.com##div.c-productCard-search:has-text(/PC Protect for Android/i)
 download.cnet.com##div.c-productCard-search:has-text(/Scanguard/i)
-||download.cnet.com/Advanced-SystemCare-Free$doc
-||download.cnet.com/Driver-Easy$doc
-||download.cnet.com/IObit-Uninstaller$doc
-||download.cnet.com/TotalAV$doc
-||download.cnet.com/ScanGuard$doc
-||download.cnet.com/developer/SS%20Protect$doc
-||download.cnet.com/developer/Security%20Suite$doc
+||download.cnet.com/Advanced-SystemCare-Free$document
+||download.cnet.com/Driver-Easy$document
+||download.cnet.com/IObit-Uninstaller$document
+||download.cnet.com/TotalAV$document
+||download.cnet.com/ScanGuard$document
+||download.cnet.com/developer/SS%20Protect$document
+||download.cnet.com/developer/Security%20Suite$document
 ! Softonic
 softonic.com##.top-app:has-text(/TotalAV/i)
 softonic.com##.top-app:has-text(/iobit uninstaller/i)
@@ -255,12 +255,12 @@ softonic.com##.app-list-item:has-text(/Driver Easy/i)
 softonic.com##.app-list-item:has-text(/MyCleanPC/i)
 softonic.com##.app-list-item:has-text(/PC SpeedCAT/i)
 softonic.com##.app-list-item:has-text(/DLL Helper/i)
-||totalav-essential-antivirus.en.softonic.com^$doc
-||iobit-uninstaller.en.softonic.com^$doc
-||drivereasy.en.softonic.com^$doc
-||mycleanpc-pc-optimizer.en.softonic.com^$doc
-||pc-speedcat.en.softonic.com^$doc
-||advanced-systemcare-ultimate.en.softonic.com^$doc
+||totalav-essential-antivirus.en.softonic.com^$document
+||iobit-uninstaller.en.softonic.com^$document
+||drivereasy.en.softonic.com^$document
+||mycleanpc-pc-optimizer.en.softonic.com^$document
+||pc-speedcat.en.softonic.com^$document
+||advanced-systemcare-ultimate.en.softonic.com^$document
 softonic.com##.modal-di__content
 softonic.com##.modal-di__header
 softonic.com##.modal-di__button-wrapper:has(#download-recommended-app)
@@ -269,16 +269,16 @@ softonic.com##.modal-di__button-wrapper:has(#download-recommended-app)
 play.google.com##div.mpg5gc.ImZGtf:has-text(/TotalAV/i)
 play.google.com##div.mpg5gc.ImZGtf:has-text(/scanguard/i):has-text(/Protected.net/i)
 play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.net/i)
-||play.google.com/store/apps/details?id=com.totalav.android$doc
-||play.google.com/store/apps/details?id=com.scanguard.android$doc
-||play.google.com/store/apps/details?id=com.pcprotect.android$doc
-||play.google.com/store/apps/developer?id=Protected.net+Group+Limited$doc
+||play.google.com/store/apps/details?id=com.totalav.android$document
+||play.google.com/store/apps/details?id=com.scanguard.android$document
+||play.google.com/store/apps/details?id=com.pcprotect.android$document
+||play.google.com/store/apps/developer?id=Protected.net+Group+Limited$document
 ! Apple App store (web only)
-||apps.apple.com/us/app/totalav/id1130411958$doc
-||apps.apple.com/us/app/total-adblock-ad-blocker/id1564900435$doc
-||apps.apple.com/us/app/pcprotect/id1130412321$doc
-||apps.apple.com/us/app/totalav-safe-site/id1403850681$doc
-||apps.apple.com/us/developer/protected-net-group-limited$doc
+||apps.apple.com/us/app/totalav/id1130411958$document
+||apps.apple.com/us/app/total-adblock-ad-blocker/id1564900435$document
+||apps.apple.com/us/app/pcprotect/id1130412321$document
+||apps.apple.com/us/app/totalav-safe-site/id1403850681$document
+||apps.apple.com/us/developer/protected-net-group-limited$document
 
 
 
