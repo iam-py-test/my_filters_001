@@ -2,11 +2,16 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter. All credit to VXVault for finding these urls
 ! Script last updated: 9/12/2022
 ! Expires: 1 day
-! Last updated: 22/02/2023
+! Last updated: 23/02/2023
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/. All credit to them for finding these URLs
 ! VX Vault last 100 Links
-! Wed, 22 Feb 2023 20:23:10 +0000
+! Thu, 23 Feb 2023 20:23:36 +0000
+||bbc-s.news/12333.exe^$all
+||a0782451.xsph.ru/vr/st/Reb.exe^$all
+||94.142.138.116/dashboard/installer.exe^$all
+||94.142.138.116/dashboard/pay/new.exe.exe^$all
+||77.73.134.24/Clip1.exe^$all
 ||193.233.20.19/mi/sonto.exe^$all
 ||github.com/Crysiz2631/sup/raw/main/Software_Requirements.exe^$all
 ||uaery.top/dl/build2.exe^$all
@@ -103,8 +108,3 @@
 ||198.23.188.139/180/vbc.exe^$all
 ||192.3.101.26/30/vbc.exe^$all
 ||77.73.133.113/lego/okok.exe^$all
-||github.com/Chelloxy/Do-not-Try-this-at-Home/raw/main/Temp3.exe^$all
-||github.com/Chelloxy/Do-not-Try-this-at-Home/raw/main/Temp2.exe^$all
-||github.com/Chelloxy/Do-not-Try-this-at-Home/raw/main/Temp1.exe^$all
-||info123info.site/clip1.exe^$all
-||cdn.discordapp.com/attachments/1013922792204415100/1029136565533933638/Setup.exe^$all
