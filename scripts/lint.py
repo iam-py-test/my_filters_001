@@ -1,7 +1,7 @@
 """Verify the syntax of my antimalware list and verify there are no legit domains in it"""
 import requests
 # invalid syntax
-invalidsyntax = ["$$","$docment","$alll","^all","$docs","$scripted","$alls","$documentall","$allall","$all$all","$all.","$docments","$doc$doc","|*$","$documentP","$window","$document$document"]
+invalidsyntax = ["$$","$docment","$alll","^all","$docs","$scripted","$alls","$documentall","$allall","$all$all","$all.","$docments","$doc$doc","|*$","$documentP","$window","$document$document","$documnt"]
 
 bannedfilters = []
 
