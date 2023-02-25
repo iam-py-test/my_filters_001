@@ -2,11 +2,15 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter. All credit to VXVault for finding these urls
 ! Script last updated: 9/12/2022
 ! Expires: 1 day
-! Last updated: 23/02/2023
+! Last updated: 25/02/2023
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/. All credit to them for finding these URLs
 ! VX Vault last 100 Links
-! Thu, 23 Feb 2023 20:23:36 +0000
+! Sat, 25 Feb 2023 20:22:13 +0000
+||bitbucket.org/thisisaworkspace/bumogak/raw/cf339d8869a4980f17da4d2a7ca92d4cd8dfa47b/LK2.exe^$all
+||bitbucket.org/thisisaworkspace/bumogak/raw/cf339d8869a4980f17da4d2a7ca92d4cd8dfa47b/LEMON.exe^$all
+||bitbucket.org/thisisaworkspace/bumogak/raw/cf339d8869a4980f17da4d2a7ca92d4cd8dfa47b/DEV.exe^$all
+||bitbucket.org/thisisaworkspace/bumogak/raw/cf339d8869a4980f17da4d2a7ca92d4cd8dfa47b/DCKA.exe^$all
 ||bbc-s.news/12333.exe^$all
 ||a0782451.xsph.ru/vr/st/Reb.exe^$all
 ||94.142.138.116/dashboard/installer.exe^$all
@@ -104,7 +108,3 @@
 ||techhint24.com/new/Chrome.exe^$all
 ||198.23.188.139/220/vbc.exe^$all
 ||198.23.188.139/190/vbc.exe^$all
-||198.23.188.139/160/vbc.exe^$all
-||198.23.188.139/180/vbc.exe^$all
-||192.3.101.26/30/vbc.exe^$all
-||77.73.133.113/lego/okok.exe^$all
