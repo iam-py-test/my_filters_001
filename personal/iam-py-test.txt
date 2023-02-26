@@ -71,6 +71,9 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||duwabchhdgkqc.com^$all
 ||track.gositego.live^$document
 
+! ---- undoing ublock filters in other lists ----
+@@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument,badfilter
+
 ! ---- unbreak filters ----
 
 ! https://github.com/elliotwutingfeng/ipsniper-info-malicious/issues/46
@@ -78,3 +81,5 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||google.com^$all,badfilter
 ||googlevideo.com^$all,badfilter
 
+! tempfix for https://github.com/uBlockOrigin/uBlock-issues/issues/2512
+||localhost^$badfilter

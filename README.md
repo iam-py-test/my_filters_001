@@ -31,7 +31,6 @@ Please note! I am only one person, and I do not have much time to dedicate to th
 - iam-py-test's Discord cleanup list ([discord_cleanup.txt](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/discord_cleanup.txt))
 - DuckDuckGo Additional Cleanup ([duckduckgo_extra_clean.txt](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/duckduckgo_extra_clean.txt))
 - Anti-Dynamic DNS ([antidynamicdns.txt](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antidynamicdns.txt))
-- IP Lookup service blocklist ([antiiplookup.txt](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antiiplookup.txt))
 
 
 #### Not frequently updated but still receive occasional updates
@@ -74,7 +73,7 @@ This list has an extremely specific purpose, and **SHOULD NOT BE USED**.
 #### Experimental lists
 - TLD blocking lists ([more information](https://github.com/iam-py-test/my_filters_001/tree/main/region_blocklist))
 - Anti-'page visit counter' list
-- Anti-'ip lookup' list
+- IP Lookup service blocklist ([antiiplookup.txt](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antiiplookup.txt))
 
 <br>The filters in the _Alternative list formats_ folder are versions of some of the lists above for different software. These are auto-generated, and thus updates to them must be made to the original list or [the Python script](https://github.com/iam-py-test/my_filters_001/blob/main/scripts/update.py) which generates them.<br>
 Everything not listed above, like the filters in the _Personal_ folder, is either completely forgotten by me, or is likely to break websites due to its purpose or lack of regulation. <br>

@@ -445,3 +445,6 @@
 
 ! https://en.wikipedia.org/wiki/Typosquatting
 ||yuube.com^$document
+
+! https://github.com/DandelionSprout/adfilt/commit/32ea69e5a7c632bc2cd739fba4ee256e8a9e8abf (all credit to https://github.com/DandelionSprout)
+||hbo.cm^$all
