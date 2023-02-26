@@ -405,3 +405,5 @@
 0.0.0.0 micnosoftupdates.com
 # https://en.wikipedia.org/wiki/Typosquatting
 0.0.0.0 yuube.com
+# https://github.com/DandelionSprout/adfilt/commit/32ea69e5a7c632bc2cd739fba4ee256e8a9e8abf (all credit to https://github.com/DandelionSprout)
+0.0.0.0 hbo.cm
