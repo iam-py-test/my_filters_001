@@ -64,12 +64,15 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||adf.ly^$all
 ||taboola.com^$all
 ||anonfiles.com^$all
+||getgx.net^$all
+||opera.com^$document
 
 ! ---- suspected malware ----
 ||inghesatin.com^$all
 ||js.rip^$all
 ||duwabchhdgkqc.com^$all
 ||track.gositego.live^$document
+||smrturl.co^$document
 
 ! ---- undoing ublock filters in other lists ----
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument,badfilter
