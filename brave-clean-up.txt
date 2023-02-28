@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results
 ! Expires: 1 day
 ! Last updated: 27/12/2022
-! Last auto-generated: 27/02/2023
+! Last auto-generated: 28/02/2023
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -2008,14 +2008,11 @@ search.brave.com##div.fdb.snippet:has(a[href*="://gmpeople.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://fiskahlilian16.top"])
 search.brave.com##div.fdb.snippet:has(a[href*="://gcl-page.biz"])
 search.brave.com##div.fdb.snippet:has(a[href*="://update.myiphost.com"])
-search.brave.com##div.fdb.snippet:has(a[href*="://paishancho17.top"])
 search.brave.com##div.fdb.snippet:has(a[href*="://hsiens.xyz"])
 search.brave.com##div.fdb.snippet:has(a[href*="://remotenetwork.xyz"])
-search.brave.com##div.fdb.snippet:has(a[href*="://2no.co"])
 search.brave.com##div.fdb.snippet:has(a[href*="://secure-recovery03.ddns.net"])
 search.brave.com##div.fdb.snippet:has(a[href*="://secure-recovery02.ddns.net"])
 search.brave.com##div.fdb.snippet:has(a[href*="://secure02p-login.ddns.net"])
-search.brave.com##div.fdb.snippet:has(a[href*="://skoromoh.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://no-vac.ru"])
 search.brave.com##div.fdb.snippet:has(a[href*="://screenshoter.site"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ck87769.tmweb.ru"])
@@ -5847,6 +5844,8 @@ search.brave.com##div.fdb.snippet:has(a[href*="://dlscord-nltro.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://uaery.top"])
 search.brave.com##div.fdb.snippet:has(a[href*="://jiqaz.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ewzsvl72.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://dash.blastchallenger-intel.pro"])
+search.brave.com##div.fdb.snippet:has(a[href*="://blastchallenger-intel.pro"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://adublock.net"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublockerext.com"])
