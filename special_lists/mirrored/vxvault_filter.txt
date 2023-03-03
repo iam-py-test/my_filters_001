@@ -2,11 +2,18 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter. All credit to VXVault for finding these urls
 ! Script last updated: 9/12/2022
 ! Expires: 1 day
-! Last updated: 27/02/2023
+! Last updated: 02/03/2023
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/. All credit to them for finding these URLs
 ! VX Vault last 100 Links
-! Mon, 27 Feb 2023 20:24:01 +0000
+! Thu, 02 Mar 2023 20:23:58 +0000
+||uaery.top/dl/build2.exe^$all
+||zexeq.com/files/1/build3.exe^$all
+||eboka.vip/stream.exe^$all
+||cdn.discordapp.com/attachments/483916447823822851/1079722023502217216/EasyCrypterSupport.exe^$all
+||cdn.discordapp.com/attachments/1066774563054157866/1067847877860270181/Ace.exe^$all
+||77.73.134.35/bebra.exe^$all
+||77.73.134.24/Clip1.exe^$all
 ||bitbucket.org/thisisaworkspace/bumogak/raw/cf339d8869a4980f17da4d2a7ca92d4cd8dfa47b/LK2.exe^$all
 ||bitbucket.org/thisisaworkspace/bumogak/raw/cf339d8869a4980f17da4d2a7ca92d4cd8dfa47b/LEMON.exe^$all
 ||bitbucket.org/thisisaworkspace/bumogak/raw/cf339d8869a4980f17da4d2a7ca92d4cd8dfa47b/DEV.exe^$all
@@ -101,10 +108,3 @@
 ||juggenbande.site/bmbdeathrow/whoismoke/Filthy.exe^$all
 ||91.213.50.36/files/spacemen.exe^$all
 ||77.73.133.113/lego/barebones1.exe^$all
-||mrfreeman.shop/DgxuGixWrsAdtx/wevtutil.exe^$all
-||jonnyomar.xyz/nppshell32.exe^$all
-||jonnyomar.xyz/nppshell.exe^$all
-||198.23.188.139/220/vbc.exe^$all
-||techhint24.com/new/Chrome.exe^$all
-||198.23.188.139/220/vbc.exe^$all
-||198.23.188.139/190/vbc.exe^$all
