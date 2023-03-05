@@ -53,7 +53,7 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||duckduckgo.com/assets/icons/footer/twr.svg$image
 
 ! ---- full website blocks which don't go in another filterlist ----
-||kiwifarms.net^$document
+||kiwifarms.*^$all
 ||pornhub.*^$all
 ||bit.ly^$document
 ||pushflow.net^$all
@@ -67,6 +67,11 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||getgx.net^$all
 ||opera.com^$document
 ||click-cdn.com^$all
+||myg0t.win^$all
+||lolcow.farm^$all
+||doxbin.*^$all
+||liveleak.cc^$all
+||hackforums.net^$all
 /^https?:\/\/torrentdia[0-9]*\.com/$document
 
 ! ---- suspected malware ----
@@ -75,6 +80,7 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||duwabchhdgkqc.com^$all
 ||track.gositego.live^$document
 ||smrturl.co^$document
+||adblocker360.com^$all
 
 ! ---- undoing ublock filters in other lists ----
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument,badfilter
