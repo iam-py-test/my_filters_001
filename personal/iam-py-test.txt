@@ -66,6 +66,8 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||anonfiles.com^$all
 ||getgx.net^$all
 ||opera.com^$document
+||click-cdn.com^$all
+/^https?:\/\/torrentdia[0-9]*\.com/$document
 
 ! ---- suspected malware ----
 ||inghesatin.com^$all

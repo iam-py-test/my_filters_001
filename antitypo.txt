@@ -449,7 +449,10 @@
 ! https://github.com/DandelionSprout/adfilt/commit/32ea69e5a7c632bc2cd739fba4ee256e8a9e8abf (all credit to https://github.com/DandelionSprout)
 ||hbo.cm^$all
 
-! 
+! an online source
 ||wwwcitibank.com^$document
 ||onlineciti.com^$document
 ||coinbases.org^$document
+
+! listed in the MWB, seems to be owned by Meta now
+||instagramm.com^$document

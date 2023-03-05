@@ -1,6 +1,0 @@
-! Title: iam-py-test's DHMA abuse list 
-! Description: This list contains domains which the domain owner (or someone pretending to be them) has tried to get removed from blocklists using legal threats
-! Expires: 40 days
-
-! https://github.com/easylist/easylist/commit/8339afeecfee872bdf2e1455e041dc42c5579699
-||click-cdn.com^$all
