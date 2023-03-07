@@ -304,6 +304,8 @@ pp.ua
 topsddns.net
 cupddns.net
 ydns.eu
+chickenkiller.com
+afraid.org
 at-band-camp.net
 ath.cx
 barrel-of-knowledge.info

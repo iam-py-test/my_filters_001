@@ -2,7 +2,7 @@
 #### porn.txt
 Entries: 1580 <br> 
 #### antimalware.txt
-Entries: 11610 <br> 
+Entries: 11545 <br> 
 #### antitypo.txt
 Entries: 290 <br> 
 #### anti-redirectors.txt
@@ -22,4 +22,4 @@ Entries: 62 <br>
 #### clickbait.txt
 Entries: 47 <br> 
 #### antidynamicdns.txt
-Entries: 588 <br> 
+Entries: 590 <br> 

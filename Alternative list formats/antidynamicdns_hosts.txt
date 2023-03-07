@@ -311,6 +311,8 @@
 0.0.0.0 topsddns.net
 0.0.0.0 cupddns.net
 0.0.0.0 ydns.eu
+0.0.0.0 chickenkiller.com
+0.0.0.0 afraid.org
 # https://help.dyn.com/list-of-dyn-dns-pro-remote-access-domain-names/
 0.0.0.0 at-band-camp.net
 0.0.0.0 ath.cx
