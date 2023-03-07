@@ -311,6 +311,8 @@
 ||topsddns.net^$document
 ||cupddns.net^$document
 ||ydns.eu^$document
+||chickenkiller.com^$document
+||afraid.org^$document
 ! https://help.dyn.com/list-of-dyn-dns-pro-remote-access-domain-names/
 ||at-band-camp.net^$document
 ||ath.cx^$document
