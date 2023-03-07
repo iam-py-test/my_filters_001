@@ -2,11 +2,12 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter. All credit to VXVault for finding these urls
 ! Script last updated: 9/12/2022
 ! Expires: 1 day
-! Last updated: 06/03/2023
+! Last updated: 07/03/2023
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/. All credit to them for finding these URLs
 ! VX Vault last 100 Links
-! Mon, 06 Mar 2023 20:24:15 +0000
+! Tue, 07 Mar 2023 20:23:46 +0000
+||194.87.35.101/nigga.exe^$all
 ||tap-taptap.com/1488/106.exe^$all
 ||oof00.com/666/105.exe^$all
 ||oof00.com/666/106.exe^$all
@@ -107,4 +108,3 @@
 ||ripple-wells-2022.net/yzoyoebw6fqrey/nppshell.exe^$all
 ||ripple-wells-2022.net/n8exrcvvse1m2/syncfiles.dll^$all
 ||ripple-wells-2022.net/n8exrcvvse1m2/Emit64.exe^$all
-||ripple-wells-2022.net/n8exrcvvse1m2/avicapn32.exe^$all
