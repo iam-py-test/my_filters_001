@@ -1,0 +1,8 @@
+! Title: Redirect removal list (experimental)
+! Description: This list was inspired by https://github.com/uBlockOrigin/uBlock-issues/issues/2531. 
+! Note: This list requires the href-sanitizer, which only exists in uBlock Origin and is currently only in the dev version of uBo. It is also very experimental, and may change.
+
+! https://github.com/uBlockOrigin/uBlock-issues/issues/2531
+twitter.com##+js(href-sanitizer, a[href^="https://t.co/"])
+vk.com,vk.ru##+js(href-sanitizer, a[href^="/away.php?to="]:not([title]))
+vk.com,vk.ru##+js(href-sanitizer, a[href^="/away.php?to="][title], [title])

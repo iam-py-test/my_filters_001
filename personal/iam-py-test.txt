@@ -45,6 +45,11 @@ virustotal.com##.alert-info
 
 filescan.io##.card.advertisement-small-screen
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/142820
+||youtube.com/redirect?$removeparam=event
+||youtube.com/redirect?$removeparam=redir_token
+||youtube.com/redirect?$removeparam=v
+
 ! ---- cookie banners ----
 sitecheck.sucuri.net##.p-0.hide.cookie-policy-banner.container-fluid
 mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
