@@ -23,4 +23,4 @@ Opera prevents extensions from accessing search result pages. To allow access, o
 
 ### kiwibrowser
 Kiwi is not supported by uBlock Origin. It also [disables extensions on many pages](https://www.reddit.com/r/uBlockOrigin/comments/10xntsr/comment/j7teo9p/) on [a long list of domains](https://github.com/kiwibrowser/src/blob/c51d640a8e984ff0fb24049c53a7ed4e458775ef/extensions/browser/api/web_request/web_request_permissions.cc#L167). Note that this also includes **any** domain containing `bing.com`, `search.yahoo.`, and some other tokens, meaning extensions may be disabled on other websites (such as malware and scam sites).
-For this reason, and [the lack of frequent updates](https://github.com/kiwibrowser/src/commits/master), I would recommend against using this browser.
+For this reason, [privacy issues](https://github.com/Tobi823/ffupdater/issues/35), [the lack of frequent updates](https://github.com/kiwibrowser/src/commits/master), I would recommend against using this browser.
