@@ -3,7 +3,7 @@
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # Please report false positives & unblocked domains to me using the GitHub or GitLab (urls below). Thanks!
 # Expires: 1 day
-# Last updated: 5/3/2023
+# Last updated: 11/3/2023
 # Issues url: https://github.com/iam-py-test/my_filters_001/issues
 # GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 # If you want shorter urls, check out DandelionSprout's Actually Legitimate URL Shortener Tool at https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
@@ -234,3 +234,5 @@
 0.0.0.0 bstore.smsb.co
 # https://forums.malwarebytes.com/topic/295583-1041813120-blocked-as-trojan/
 0.0.0.0 v.gd
+# NSFW: https://app.any.run/tasks/964eb423-0fdd-4684-91d9-63e4a0f9417f
+0.0.0.0 refererhider.com
