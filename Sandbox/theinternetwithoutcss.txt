@@ -1,0 +1,5 @@
+! Title: The internet without CSS
+! Description: For people who hate CSS. Will break most websites. Has little/no privacy/security benifit
+
+$stylesheet
+##style:remove()

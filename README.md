@@ -36,6 +36,8 @@ Please note! I am only one person, and I do not have much time to dedicate to th
 #### Not frequently updated but still receive occasional updates
 - Anti-typosquatting list (antitypo.txt)
 - Anti-redirectors list (anti-redirectors.txt)
+- Anti-'JavaScript is disabled' warnings (no-js-warnings.txt)
+
 
 #### Extension lists which add onto my existing lists
 - [The malicious website blocklist - uBlock Origin extension](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/anti-malware-ubo-extension.txt)
@@ -70,10 +72,12 @@ Please note! I am only one person, and I do not have much time to dedicate to th
 - "Lockdown mode"
 This list has an extremely specific purpose, and **SHOULD NOT BE USED**.
 
-#### Experimental lists
+#### Experimental lists (use with care)
 - TLD blocking lists ([more information](https://github.com/iam-py-test/my_filters_001/tree/main/region_blocklist))
-- Anti-'page visit counter' list
+- Anti-'page visit counter' list (anti-visit.txt)
 - IP Lookup service blocklist ([antiiplookup.txt](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antiiplookup.txt))
+- Anti-adfly (anti-adfly.txt)
+- Link redirect removal list (redirect-remover.txt)
 
 <br>The filters in the _Alternative list formats_ folder are versions of some of the lists above for different software. These are auto-generated, and thus updates to them must be made to the original list or [the Python script](https://github.com/iam-py-test/my_filters_001/blob/main/scripts/update.py) which generates them.<br>
 Everything not listed above, like the filters in the _Personal_ folder, is either completely forgotten by me, or is likely to break websites due to its purpose or lack of regulation. <br>

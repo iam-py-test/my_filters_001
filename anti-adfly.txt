@@ -1,0 +1,56 @@
+# Title: Block adfly completely
+# Description: Block all adfly domains
+0.0.0.0 adf.ly
+0.0.0.0 cdn.adf.ly
+0.0.0.0 support.adf.ly
+0.0.0.0 login.adf.ly
+0.0.0.0 forum.adf.ly
+# other adfly domains
+0.0.0.0 lyksoomu.com
+0.0.0.0 oaxyteek.net
+0.0.0.0 cdn.oaxyteek.net
+# used for adfly redirections & notification requests (import from MWB)
+0.0.0.0 davisonbarker.pro
+0.0.0.0 www64.davisonbarker.pro
+0.0.0.0 www31.davisonbarker.pro
+0.0.0.0 www10.davisonbarker.pro
+0.0.0.0 www24.davisonbarker.pro
+0.0.0.0 www62.davisonbarker.pro
+0.0.0.0 www87.davisonbarker.pro
+0.0.0.0 www16.davisonbarker.pro
+0.0.0.0 www61.davisonbarker.pro
+0.0.0.0 www50.davisonbarker.pro
+0.0.0.0 www77.davisonbarker.pro
+0.0.0.0 www100.davisonbarker.pro
+0.0.0.0 www85.davisonbarker.pro
+0.0.0.0 www76.davisonbarker.pro
+0.0.0.0 www39.davisonbarker.pro
+0.0.0.0 www28.davisonbarker.pro
+0.0.0.0 www3.davisonbarker.pro
+0.0.0.0 www75.davisonbarker.pro
+0.0.0.0 www78.davisonbarker.pro
+0.0.0.0 lowrihouston.pro
+0.0.0.0 www53.lowrihouston.pro
+0.0.0.0 www44.lowrihouston.pro
+0.0.0.0 www48.lowrihouston.pro
+0.0.0.0 www91.lowrihouston.pro
+0.0.0.0 nathanaeldan.pro
+0.0.0.0 www97.nathanaeldan.pro
+0.0.0.0 www61.nathanaeldan.pro
+0.0.0.0 www48.nathanaeldan.pro
+0.0.0.0 www4.nathanaeldan.pro
+0.0.0.0 www86.nathanaeldan.pro
+0.0.0.0 www84.nathanaeldan.pro
+0.0.0.0 www50.nathanaeldan.pro
+0.0.0.0 www39.nathanaeldan.pro
+0.0.0.0 www16.nathanaeldan.pro
+0.0.0.0 www44.nathanaeldan.pro
+0.0.0.0 www63.freddyoctavio.pro
+0.0.0.0 www70.freddyoctavio.pro
+0.0.0.0 www16.freddyoctavio.pro
+0.0.0.0 www36.freddyoctavio.pro
+0.0.0.0 www21.freddyoctavio.pro
+0.0.0.0 www68.freddyoctavio.pro
+0.0.0.0 www72.freddyoctavio.pro
+0.0.0.0 www86.freddyoctavio.pro
+0.0.0.0 freddyoctavio.pro
