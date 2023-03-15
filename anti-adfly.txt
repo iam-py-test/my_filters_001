@@ -1,12 +1,25 @@
 # Title: Block adfly completely
 # Description: Block all adfly domains
 0.0.0.0 adf.ly
+0.0.0.0 www.adf.ly
 0.0.0.0 cdn.adf.ly
 0.0.0.0 support.adf.ly
 0.0.0.0 login.adf.ly
 0.0.0.0 forum.adf.ly
+0.0.0.0 bot.adf.ly
+0.0.0.0 stats.adf.ly
+0.0.0.0 rc.adf.ly
+0.0.0.0 web2.adf.ly
+0.0.0.0 web3.adf.ly
+0.0.0.0 dmca.adf.ly
+0.0.0.0 fb.adf.ly
+0.0.0.0 kb.adf.ly
+0.0.0.0 logo.adf.ly
+0.0.0.0 mail.adf.ly
+0.0.0.0 
 # other adfly domains
 0.0.0.0 lyksoomu.com
+0.0.0.0 mail.lyksoomu.com
 0.0.0.0 oaxyteek.net
 0.0.0.0 cdn.oaxyteek.net
 # used for adfly redirections & notification requests (import from MWB)
@@ -29,6 +42,7 @@
 0.0.0.0 www3.davisonbarker.pro
 0.0.0.0 www75.davisonbarker.pro
 0.0.0.0 www78.davisonbarker.pro
+0.0.0.0 www15.davisonbarker.pro
 0.0.0.0 lowrihouston.pro
 0.0.0.0 www53.lowrihouston.pro
 0.0.0.0 www44.lowrihouston.pro

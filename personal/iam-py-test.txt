@@ -86,6 +86,11 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||track.gositego.live^$document
 ||smrturl.co^$document
 ||adblocker360.com^$all
+||pogothere.xyz^$all
+||ablesasmetotr.monster^$all
+||ongteqheroad.com^$all
+||arrowtoldilim.com^$all
+||estatueofthea.info^$all
 
 ! ---- undoing ublock filters in other lists ----
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument,badfilter
