@@ -22,3 +22,4 @@ merriam-webster.com##.hoverable.share-link.fb.ul-icon:has(#Share_Facebook)
 ##.cShareLink_facebook
 ##.o-icon--facebook.o-icon
 ##.facebook.icon
+~facebook.com##button[aria-label="Share on Facebook"]
