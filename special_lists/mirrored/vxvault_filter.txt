@@ -2,11 +2,16 @@
 ! Description: VXVault's latest links compiled into a uBlock Origin compatible filter. All credit to VXVault for finding these urls
 ! Script last updated: 9/12/2022
 ! Expires: 1 day
-! Last updated: 14/03/2023
+! Last updated: 16/03/2023
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/. All credit to them for finding these URLs
 ! VX Vault last 100 Links
-! Tue, 14 Mar 2023 20:28:15 +0000
+! Thu, 16 Mar 2023 20:22:25 +0000
+||95.214.55.109/bins/zwx86_64^$all
+||77.73.134.35/bebra.exe^$all
+||77.73.134.24/Clip1.exe^$all
+||208.67.105.179/robinzx.exe^$all
+||46.3.197.29/bins/sora.x86^$all
 ||cdn.discordapp.com/attachments/849373097303080960/1077991259299393606/Cleaner8.exe^$all
 ||185.106.94.190/file1.exe^$all
 ||77.73.134.24/Clip1.exe^$all
@@ -103,8 +108,3 @@
 ||cdn.discordapp.com/attachments/489454962405802007/495984558177517568/system.exe^$all
 ||89.208.104.172/Amadey_.exe^$all
 ||77.73.134.24/Clip1.exe^$all
-||89.208.104.172/bebra.exe^$all
-||divmainbot.pages.dev/xxb.exe^$all
-||bitbucket.org/lucifer61156/thisisforeducationalpurposesonly/raw/bc18553af2861543b406b0ca967d1ff48501f86a/limalt.exe^$all
-||bitbucket.org/lucifer61156/thisisforeducationalpurposesonly/raw/bc18553af2861543b406b0ca967d1ff48501f86a/devalt.exe^$all
-||bitbucket.org/lucifer61156/thisisforeducationalpurposesonly/raw/bc18553af2861543b406b0ca967d1ff48501f86a/LIMSt.exe^$all
