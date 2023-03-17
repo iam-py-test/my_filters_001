@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: iam-py-test's anti-PUP list
-! Description: The purpose of this list is to block websites who only exist to promote PUPs or shady software, but which "should not" be blocked in The malicious website blocklist
+! Description: The purpose of this list is to be more extreme that the MWB
 ! Last updated: 23/2/2023
 ! Expires: 6 days
 ! Homepage: https://github.com/iam-py-test/my_filters_001
