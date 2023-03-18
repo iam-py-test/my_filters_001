@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Please report false positives & unblocked domains to me using the GitHub or GitLab (urls below). Thanks!
 ! Expires: 1 day
-! Last updated: 12/3/2023
+! Last updated: 17/3/2023
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 ! If you want shorter urls, check out DandelionSprout's Actually Legitimate URL Shortener Tool at https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
@@ -315,3 +315,35 @@
 
 ! https://github.com/DandelionSprout/adfilt/issues/802
 ||shorturl.ga^$document
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/145810
+||photovault.pics^$document
+||bathtub.pics^$document
+||foot.wiki^$document
+||thisdomainislong.lol^$document
+||gamergirl.pro^$document
+||picshost.pics^$document
+||pichost.pics^$document
+||gamertag.shop^$document
+||imghost.pics^$document
+||imagehost.pics^$document
+||toldyouso.lol^$document
+||toldyouso.pics^$document
+||screenshare.pics^$document
+||myprivate.pics^$document
+||noodshare.pics^$document
+||cheapcinema.club^$document
+||shhh.lol^$document
+||dateing.club^$document
+||shrekis.life^$document
+||headshot.monster^$document
+||gaming-at-my.best^$document
+||progaming.monster^$document
+||yourmy.monster^$document
+||screenshot.best^$document
+||gamingfun.me^$document
+||catsnthing.com^$document
+||catsnthings.fun^$document
+||joinmy.site^$document
+||fortnitechat.site^$document
+||fortnight.space^$document
