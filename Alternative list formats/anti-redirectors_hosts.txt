@@ -3,7 +3,7 @@
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # Please report false positives & unblocked domains to me using the GitHub or GitLab (urls below). Thanks!
 # Expires: 1 day
-# Last updated: 12/3/2023
+# Last updated: 17/3/2023
 # Issues url: https://github.com/iam-py-test/my_filters_001/issues
 # GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 # If you want shorter urls, check out DandelionSprout's Actually Legitimate URL Shortener Tool at https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
@@ -236,3 +236,34 @@
 0.0.0.0 v.gd
 # https://github.com/DandelionSprout/adfilt/issues/802
 0.0.0.0 shorturl.ga
+# https://github.com/AdguardTeam/AdguardFilters/issues/145810
+0.0.0.0 photovault.pics
+0.0.0.0 bathtub.pics
+0.0.0.0 foot.wiki
+0.0.0.0 thisdomainislong.lol
+0.0.0.0 gamergirl.pro
+0.0.0.0 picshost.pics
+0.0.0.0 pichost.pics
+0.0.0.0 gamertag.shop
+0.0.0.0 imghost.pics
+0.0.0.0 imagehost.pics
+0.0.0.0 toldyouso.lol
+0.0.0.0 toldyouso.pics
+0.0.0.0 screenshare.pics
+0.0.0.0 myprivate.pics
+0.0.0.0 noodshare.pics
+0.0.0.0 cheapcinema.club
+0.0.0.0 shhh.lol
+0.0.0.0 dateing.club
+0.0.0.0 shrekis.life
+0.0.0.0 headshot.monster
+0.0.0.0 gaming-at-my.best
+0.0.0.0 progaming.monster
+0.0.0.0 yourmy.monster
+0.0.0.0 screenshot.best
+0.0.0.0 gamingfun.me
+0.0.0.0 catsnthing.com
+0.0.0.0 catsnthings.fun
+0.0.0.0 joinmy.site
+0.0.0.0 fortnitechat.site
+0.0.0.0 fortnight.space
