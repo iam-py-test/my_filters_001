@@ -13,6 +13,13 @@
 0.0.0.0 ip-api.com
 0.0.0.0 api4.ipify.org
 0.0.0.0 api.ipify.org
+0.0.0.0 ipinfo.io
+0.0.0.0 ezstat.ru
+0.0.0.0 iplogger.com
+0.0.0.0 iplogger.ru
+0.0.0.0 iplogger.co
+0.0.0.0 ipgraber.ru
+0.0.0.0 iplis.ru
 # https://forums.malwarebytes.com/topic/294989-making-sense-of-a-website-exclusion-issue/
 # https://forums.malwarebytes.com/topic/294994-possible-false-positive/ (account required)
 0.0.0.0 stopify.co
