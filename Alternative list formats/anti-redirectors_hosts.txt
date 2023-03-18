@@ -3,7 +3,7 @@
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # Please report false positives & unblocked domains to me using the GitHub or GitLab (urls below). Thanks!
 # Expires: 1 day
-# Last updated: 17/3/2023
+# Last updated: 18/3/2023
 # Issues url: https://github.com/iam-py-test/my_filters_001/issues
 # GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 # If you want shorter urls, check out DandelionSprout's Actually Legitimate URL Shortener Tool at https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
@@ -267,3 +267,35 @@
 0.0.0.0 joinmy.site
 0.0.0.0 fortnitechat.site
 0.0.0.0 fortnight.space
+# https://github.com/uBlockOrigin/uBlock-issues/issues/980
+# looks like an iplogger domain
+0.0.0.0 ezstat.ru
+# shorturl domains
+0.0.0.0 shorturl.com
+0.0.0.0 2ya.com
+0.0.0.0 vze.com
+0.0.0.0 24ex.com
+0.0.0.0 hitart.com
+0.0.0.0 bigbig.com
+0.0.0.0 2fear.com
+0.0.0.0 2hell.com
+0.0.0.0 2tunes.com
+0.0.0.0 2freedom.com
+0.0.0.0 2truth.com
+0.0.0.0 2savvy.com
+0.0.0.0 2fortune.com
+0.0.0.0 mirrorz.com
+0.0.0.0 echoz.com
+0.0.0.0 ebored.com
+0.0.0.0 antiblog.com
+0.0.0.0 headplug.com
+0.0.0.0 dealtap.com
+0.0.0.0 filetap.com
+0.0.0.0 funurl.com
+0.0.0.0 alturl.com
+0.0.0.0 hereweb.com
+0.0.0.0 1sta.com
+# malware
+0.0.0.0 ibf.tw
+# "shorte.st"
+0.0.0.0 sh.st

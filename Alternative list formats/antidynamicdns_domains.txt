@@ -306,6 +306,10 @@ cupddns.net
 ydns.eu
 chickenkiller.com
 afraid.org
+publicvm.com
+linkpc.net
+dnsget.org
+sql01.com
 at-band-camp.net
 ath.cx
 barrel-of-knowledge.info
