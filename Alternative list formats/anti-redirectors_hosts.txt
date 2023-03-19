@@ -264,7 +264,6 @@
 0.0.0.0 gamingfun.me
 0.0.0.0 catsnthing.com
 0.0.0.0 catsnthings.fun
-0.0.0.0 joinmy.site
 0.0.0.0 fortnitechat.site
 0.0.0.0 fortnight.space
 # https://github.com/uBlockOrigin/uBlock-issues/issues/980

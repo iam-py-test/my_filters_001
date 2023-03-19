@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results
 ! Expires: 1 day
 ! Last updated: 27/12/2022
-! Last auto-generated: 18/03/2023
+! Last auto-generated: 19/03/2023
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -4854,6 +4854,23 @@ search.brave.com##div.fdb.snippet:has(a[href*="://theparlornextthef.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://dtsdr.theparlornextthef.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://findc-download2.cfd"])
 search.brave.com##div.fdb.snippet:has(a[href*="://lxyrlp.shop"])
+search.brave.com##div.fdb.snippet:has(a[href*="://jonathanbartz.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://jp.imonitorsoft.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://junk-bros.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://kakiosk.adsparkdev.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://kepw.org"])
+search.brave.com##div.fdb.snippet:has(a[href*="://kristinee.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://lakeside-fishandchips.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://system-libs.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://usa-winwin.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://optercore.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://optimizewin.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://office-softs.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://office-checker.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://system-checker.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://center-main.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://office-view.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://i-likefood.co"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://adublock.net"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublockerext.com"])
@@ -10420,6 +10437,11 @@ search.brave.com##div.fdb.snippet:has(a[href*="://95.217.14.200"])
 search.brave.com##div.fdb.snippet:has(a[href*="://46.48.76.120"])
 search.brave.com##div.fdb.snippet:has(a[href*="://3.231.116.86"])
 search.brave.com##div.fdb.snippet:has(a[href*="://54.237.193.255"])
+search.brave.com##div.fdb.snippet:has(a[href*="://108.61.242.65"])
+search.brave.com##div.fdb.snippet:has(a[href*="://146.70.78.43"])
+search.brave.com##div.fdb.snippet:has(a[href*="://87.120.254.39"])
+search.brave.com##div.fdb.snippet:has(a[href*="://45.150.108.213"])
+search.brave.com##div.fdb.snippet:has(a[href*="://92.204.160.240"])
 search.brave.com##div.fdb.snippet:has(a[href*="://5.8.47.3"])
 search.brave.com##div.fdb.snippet:has(a[href*="://5.8.34.26"])
 search.brave.com##div.fdb.snippet:has(a[href*="://103.224.182.251"])
