@@ -344,7 +344,6 @@
 ||gamingfun.me^$document
 ||catsnthing.com^$document
 ||catsnthings.fun^$document
-||joinmy.site^$document
 ||fortnitechat.site^$document
 ||fortnight.space^$document
 
