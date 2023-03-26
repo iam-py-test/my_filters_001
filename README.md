@@ -16,7 +16,7 @@ Please note! I am only one person, and I do not have much time to dedicate to th
 ## Filters in this repo
 
 #### Actively maintained
-- The malicious website blocklist (antimalware.txt) ([Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt&title=The%20malicious%20website%20blocklist)) ([Without iam-py-test's anti-PUP list included](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_nopup.txt))
+- The malicious website blocklist (antimalware.txt) ([Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt&title=The%20malicious%20website%20blocklist)) ([Without iam-py-test's anti-PUP list included](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware_nopup.txt))
 
 #### Automatically generated
 - DuckDuckGo Clean up (duckduckgo-clean-up.txt) - Generated from The malicious website blocklist and iam-py-test's anti-PUP list
