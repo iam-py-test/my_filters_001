@@ -3,6 +3,8 @@ This is a collection of filterlists made by me (iam-py-test).<br>
 Feel free to use any and all of them (they are under CC0) in [uBlock Origin](https://github.com/gorhill/uBlock), AdGuard, AdBlock Plus (special version required), or in any other way (i.e. PiHole, /etc/hosts) <br/>
 Please report any issues you have and I will try to fix them; please note I may not reply within the day the issue is posted as I am often busy.<br>
 Thank you to all the people in https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md for helping improve these filters.<br>
+For uBlock Origin users, you can right click on any link starting with `https://subscribe.adblockplus.org`, click "uBlock Origin", then "Subscribe to filterlist...":<br>
+<img src="https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/wiki/right%20click%20to%20add.jpg" alt="The Firefox context menu when clicking on a filterlist subscribe link, showing the uBlock Origin options" title="This shows the Firefox context menu, but it should work in any browser supporting the latest version of uBo. uBo lite is not supported (yet) and may will never be"><br>
 
 **The malicious website blocklist should now work in AdGuard on Windows. Please try it out (especially in AdGuard on Mac, iOS, and Android as I lack the ability to test those versions) and report any bugs. [Make sure you are using the designated version](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_adguard_app.txt)**
 
@@ -45,7 +47,7 @@ Please note! I am only one person, and I do not have much time to dedicate to th
 
 #### Updated rarely but still technically supported
 - My anti-rickroll list (anti-rickroll-list.txt)
-- The clickbait blocklist (clickbait.txt) ([Subscribe](https://iam-py-test.github.io/add_list.html?id=4))
+- The clickbait blocklist (clickbait.txt) ([Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/clickbait.txt&title=Clickbait%20Blocklist))
 - [My Enhanced Protection list](https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt) (Warning: This list is pretty much unmaintained and very poorly thought out)
 - Annoyances (annoyances.txt)
 
@@ -55,7 +57,7 @@ Please note! I am only one person, and I do not have much time to dedicate to th
 - test_filter.txt
 
 #### Lists which I gave up on
-- Pornography Blocklist (porn.txt) ([Subscribe to this dead list](https://iam-py-test.github.io/add_list.html?id=1))
+- Pornography Blocklist (porn.txt)
 - The device privacy list (device_privacy.txt)
 - Anti-cookie-consent and paywalls list (anti-cookie+sign up.txt)
 - [Google Safe Browsing reverse-engineered](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/google-safe-browsing-reverse-engineered.txt)
