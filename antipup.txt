@@ -250,12 +250,13 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||play.google.com/store/apps/details?id=com.pcprotect.android$document
 ||play.google.com/store/apps/developer?id=Protected.net+Group+Limited$document
 ! Apple App store (web only)
-||apps.apple.com/us/app/totalav/id1130411958$document
-||apps.apple.com/us/app/total-adblock-ad-blocker/id1564900435$document
-||apps.apple.com/us/app/pcprotect/id1130412321$document
-||apps.apple.com/us/app/totalav-safe-site/id1403850681$document
-||apps.apple.com/us/developer/protected-net-group-limited$document
+||apps.apple.com/*/app/totalav/id1130411958$document
+||apps.apple.com/*/app/total-adblock-ad-blocker/id1564900435$document
+||apps.apple.com/*/app/pcprotect/id1130412321$document
+||apps.apple.com/*/app/totalav-safe-site/id1403850681$document
+||apps.apple.com/*/developer/protected-net-group-limited$document
 
-! scummy websites which trick users into lowering their security by adding overly-broad allowlists to their adblockers
+! scummy websites which trick users into lowering their security by adding overly-broad allowlists to their adblockers (allowware)
 ||work-ink.github.io^$document
+||topcashback.co.uk/misc/AdBlockWhiteList.aspx^$document
 

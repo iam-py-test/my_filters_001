@@ -20,6 +20,7 @@
 0.0.0.0 iplogger.co
 0.0.0.0 ipgraber.ru
 0.0.0.0 iplis.ru
+0.0.0.0 ifconfig.me
 # https://forums.malwarebytes.com/topic/294989-making-sense-of-a-website-exclusion-issue/
 # https://forums.malwarebytes.com/topic/294994-possible-false-positive/ (account required)
 0.0.0.0 stopify.co

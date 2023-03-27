@@ -16,7 +16,6 @@
 0.0.0.0 kb.adf.ly
 0.0.0.0 logo.adf.ly
 0.0.0.0 mail.adf.ly
-0.0.0.0 
 # other adfly domains
 0.0.0.0 lyksoomu.com
 0.0.0.0 mail.lyksoomu.com
@@ -43,11 +42,15 @@
 0.0.0.0 www75.davisonbarker.pro
 0.0.0.0 www78.davisonbarker.pro
 0.0.0.0 www15.davisonbarker.pro
+0.0.0.0 www29.davisonbarker.pro
+0.0.0.0 www70.davisonbarker.pro
 0.0.0.0 lowrihouston.pro
 0.0.0.0 www53.lowrihouston.pro
 0.0.0.0 www44.lowrihouston.pro
 0.0.0.0 www48.lowrihouston.pro
 0.0.0.0 www91.lowrihouston.pro
+0.0.0.0 www57.lowrihouston.pro
+0.0.0.0 www1.lowrihouston.pro
 0.0.0.0 nathanaeldan.pro
 0.0.0.0 www97.nathanaeldan.pro
 0.0.0.0 www61.nathanaeldan.pro
