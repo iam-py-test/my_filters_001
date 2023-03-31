@@ -92,6 +92,7 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||ongteqheroad.com^$all
 ||arrowtoldilim.com^$all
 ||estatueofthea.info^$all
+||protection.byguardio.com^$document
 
 ! ---- unwanted allowlist rules ----
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument,badfilter

@@ -258,5 +258,5 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 
 ! scummy websites which trick users into lowering their security by adding overly-broad allowlists to their adblockers (allowware)
 ||work-ink.github.io^$document
-||topcashback.co.uk/misc/AdBlockWhiteList.aspx^$document
+||topcashback.*/misc/AdBlockWhiteList.aspx^$document
 
