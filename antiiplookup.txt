@@ -25,3 +25,8 @@
 # https://forums.malwarebytes.com/topic/294994-possible-false-positive/ (account required)
 0.0.0.0 stopify.co
 0.0.0.0 grabify.world
+# https://github.com/duckduckgo/duckduckgo-privacy-extension/issues/1598
+0.0.0.0 mapper.info
+0.0.0.0 wl.gl
+0.0.0.0 ed.tk
+0.0.0.0 bc.ax

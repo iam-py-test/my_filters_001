@@ -42,6 +42,8 @@
 ||study^$all
 ||ru^$all
 ||rest^$all
+||gl^$all
+||ax^$all
 
 ! hosting
 ||weebly.*^$document

@@ -459,3 +459,10 @@
 
 ! https://github.com/mitchellkrogza/Badd-Boyz-Hosts/issues/83
 ||nottepad-plus-plus.org^$all
+
+! https://dnstwist.it/ for wolframalpha
+||wolfamalpha.com^$document
+||wolfremalpha.com^$document
+||woldramalpha.com^$document
+||woolframalpha.com^$document
+||www.woolframalpha.com^$document

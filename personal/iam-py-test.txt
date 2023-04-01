@@ -79,6 +79,7 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||hackforums.net^$all
 /^https?:\/\/torrentdia[0-9]*\.com/$document
 ||topcashback.*^$document
+||pomf.cat^$document
 
 ! ---- suspected malware ----
 ||inghesatin.com^$all

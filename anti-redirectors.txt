@@ -387,3 +387,6 @@
 
 ! seem in use by malware
 ||cli.re^$document
+
+! shady shorterner used by malware
+||kingshortener.com^$document
