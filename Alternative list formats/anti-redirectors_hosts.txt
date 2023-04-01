@@ -300,3 +300,5 @@
 0.0.0.0 sh.st
 # seem in use by malware
 0.0.0.0 cli.re
+# shady shorterner used by malware
+0.0.0.0 kingshortener.com

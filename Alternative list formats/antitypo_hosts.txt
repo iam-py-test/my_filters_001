@@ -415,3 +415,9 @@
 0.0.0.0 instagramm.com
 # https://github.com/mitchellkrogza/Badd-Boyz-Hosts/issues/83
 0.0.0.0 nottepad-plus-plus.org
+# https://dnstwist.it/ for wolframalpha
+0.0.0.0 wolfamalpha.com
+0.0.0.0 wolfremalpha.com
+0.0.0.0 woldramalpha.com
+0.0.0.0 woolframalpha.com
+0.0.0.0 www.woolframalpha.com
