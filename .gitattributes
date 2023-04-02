@@ -3,3 +3,6 @@
 /special_lists/*.txt
 /Sandbox/*.txt
 /scripts/* Python
+
+# https://github.com/DandelionSprout/adfilt/issues/819
+* text=auto eol=lf
