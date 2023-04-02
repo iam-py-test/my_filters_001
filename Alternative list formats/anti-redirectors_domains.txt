@@ -147,3 +147,8 @@ ibf.tw
 sh.st
 cli.re
 kingshortener.com
+t.ly
+shorturl.lol
+shortest.link
+urlday.cc
+mylinkinb.io
