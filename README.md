@@ -18,7 +18,7 @@ Please note! I am only one person, and I do not have much time to dedicate to th
 ## Filters in this repo
 
 #### Actively maintained
-- The malicious website blocklist (antimalware.txt) ([Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt&title=The%20malicious%20website%20blocklist)) ([Without iam-py-test's anti-PUP list included](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware_nopup.txt))
+- The malicious website blocklist (antimalware.txt) ([Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt&title=The%20malicious%20website%20blocklist))
 
 #### Automatically generated
 - DuckDuckGo Clean up (duckduckgo-clean-up.txt) - Generated from The malicious website blocklist and iam-py-test's anti-PUP list
@@ -33,6 +33,7 @@ Please note! I am only one person, and I do not have much time to dedicate to th
 - iam-py-test's Discord cleanup list ([discord_cleanup.txt](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/discord_cleanup.txt))
 - DuckDuckGo Additional Cleanup ([duckduckgo_extra_clean.txt](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/duckduckgo_extra_clean.txt))
 - Anti-Dynamic DNS ([antidynamicdns.txt](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antidynamicdns.txt))
+- [iam-py-test's anti-PUP list](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antipup.txt)
 
 
 #### Not frequently updated but still receive occasional updates
@@ -43,7 +44,6 @@ Please note! I am only one person, and I do not have much time to dedicate to th
 
 #### Extension lists which add onto my existing lists
 - [The malicious website blocklist - uBlock Origin extension](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/anti-malware-ubo-extension.txt)
-- [iam-py-test's anti-PUP list](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antipup.txt)
 
 #### Updated rarely but still technically supported
 - My anti-rickroll list (anti-rickroll-list.txt)

@@ -80,6 +80,7 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 /^https?:\/\/torrentdia[0-9]*\.com/$document
 ||topcashback.*^$document
 ||pomf.cat^$document
+||monerominer.rocks^$all
 
 ! ---- suspected malware ----
 ||inghesatin.com^$all
