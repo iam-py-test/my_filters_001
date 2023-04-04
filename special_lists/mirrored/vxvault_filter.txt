@@ -1,12 +1,13 @@
-! Title: VXVault filter for uBlock Origin (unofficial)
-! Description: VXVault's latest links compiled into a uBlock Origin compatible filter. All credit to VXVault for finding these urls
-! Script last updated: 9/12/2022
+! Title: VXVault filterlist (unofficial)
+! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
+! Script last updated: 4/4/2023
 ! Expires: 1 day
-! Last updated: 02/04/2023
+! Last updated: 04/04/2023
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
-! Data from http://vxvault.net/. All credit to them for finding these URLs
+! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Sun, 02 Apr 2023 20:18:26 +0000
+! Tue, 04 Apr 2023 21:38:58 +0000
+||103.170.255.139/B191206/vbc.exe^$all
 ||ji.jhia6gy44dd.com/m/ss47.exe^$all
 ||79.137.203.144/white.exe^$all
 ||cdn.discordapp.com/attachments/1072409919527067670/1085902945905811507/fleint.exe^$all
@@ -107,4 +108,3 @@
 ||37.77.239.239/crypted/ransom.EXE^$all
 ||37.77.239.239/crypted/nVidiaControllSetup.exe^$all
 ||37.77.239.239/crypted/server5.EXE^$all
-||37.77.239.239/crypted/stealer.EXE^$all
