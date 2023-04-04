@@ -41,7 +41,6 @@ Please note! I am only one person, and I do not have much time to dedicate to th
 - Anti-redirectors list (anti-redirectors.txt)
 - Anti-'JavaScript is disabled' warnings (no-js-warnings.txt)
 
-
 #### Extension lists which add onto my existing lists
 - [The malicious website blocklist - uBlock Origin extension](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/anti-malware-ubo-extension.txt)
 
