@@ -26,9 +26,13 @@
 ||addons.mozilla.org/en-US/firefox/addon/total-webshield/^$document
 ||addons.mozilla.org/en-US/firefox/addon/totalav-pva/^$document
 ||addons.mozilla.org/en-US/firefox/addon/totalav-safe-site/^$document
-! some youtuber who was probably paid to promote this scam
+! TotalAV affiliate links
 ||bit.ly/total-av^$document
 ||visit-techdeals.com/3eQeCSQ^$document
+||cnews.link/get-totalav$document
+||cnews.link/totalav-$document
+||cnews.link/try-totalav-$document
+||cnews.link/get-totaladblock_$document
 
 ! hxxps://winaero.com/execti-run-programs-trustedinstaller/
 ||winaero.com/blog/wp-content/uploads/2020/04/OU-PCR-300.png^$all

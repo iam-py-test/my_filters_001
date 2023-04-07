@@ -408,3 +408,6 @@
 
 ! https://www.youtube.com/watch?v=1VQ_3sBZEm0 (video description)
 ||smarturl.it^$document
+
+! https://github.com/gorhill/uBlock/issues/2067
+||bc.vc^$document

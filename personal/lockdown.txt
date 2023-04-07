@@ -44,6 +44,9 @@
 ||rest^$all
 ||gl^$all
 ||ax^$all
+||am^$all
+||dx.am^$all
+||pt^$all
 
 ! hosting
 ||weebly.*^$document
