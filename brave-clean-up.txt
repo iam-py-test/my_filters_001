@@ -2,21 +2,26 @@
 ! Title: Brave Search clean up
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results
 ! Expires: 1 day
-! Last updated: 27/12/2022
-! Last auto-generated: 06/04/2023
+! Last updated: 7/4/2023
+! Last auto-generated: 07/04/2023
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 
 ! tracking
-||cdn.search.brave.com/serp/*/static/serp-js/telemetry/*$script,domain=search.brave.com
+||cdn.search.brave.com/serp/*/static/serp-js/telemetry/*$script
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-4505016
 ||search.brave.com/api/suggest$removeparam=source
+! https://github.com/easylist/easylist/issues/15235
+||search.anonymous.ads.brave.com^
 
 ! ads - https://www.bleepingcomputer.com/news/technology/brave-starts-showing-privacy-preserving-ads-in-search-results/
-search.brave.com##div[data-type="ad"]
-||search.brave.com/api/ads/*$xhr,domain=search.brave.com
+search.brave.com##[data-type="ad"]
+||search.brave.com/api/ads/*$xhr
+
+! "upgrade to premium"
+search.brave.com###premium-promo-wrapper
 
 ! common patterns for scam/malware websites
 search.brave.com##div.fdb.snippet:has(a[href$="/roblox-hacks-download-free-no-virus.html"])

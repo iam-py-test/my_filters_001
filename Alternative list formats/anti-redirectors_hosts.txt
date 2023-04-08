@@ -314,3 +314,5 @@
 0.0.0.0 mylinkinb.io
 # https://www.youtube.com/watch?v=1VQ_3sBZEm0 (video description)
 0.0.0.0 smarturl.it
+# https://github.com/gorhill/uBlock/issues/2067
+0.0.0.0 bc.vc
