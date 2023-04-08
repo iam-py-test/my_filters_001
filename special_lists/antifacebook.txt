@@ -1,7 +1,7 @@
-! Title: iam-py-test's anti-facebook list
+! Title: iam-py-test's anti-Meta list
 ! Expires: 30 days
 ! Last updated: 2/3/2023
-! Description: Do you want to get rid of Facebook for good? This list might help, but you may need to delete your account first.
+! Description: Do you want to get rid of Facebook/Meta/Instagram for good? This list might help, but you may need to delete your account first.
 ||facebook.com^$all
 ||facebook.net^$all
 ||fbsbx.com^$all
@@ -12,6 +12,8 @@
 ||fb.com^$all
 ||m.me^$all
 ||facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion^$document
+||meta.com^$all
+||instagram.com^$all
 
 ! DuckDuckGo link to the company's Facebook page
 duckduckgo.com##li.about-profiles__item:has(a[href*="facebook.com"])
