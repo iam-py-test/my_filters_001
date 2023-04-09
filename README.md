@@ -35,7 +35,6 @@ Please note! I am only one person, and I do not have much time to dedicate to th
 - Anti-Dynamic DNS ([antidynamicdns.txt](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antidynamicdns.txt))
 - [iam-py-test's anti-PUP list](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antipup.txt)
 
-
 #### Not frequently updated but still receive occasional updates
 - Anti-typosquatting list (antitypo.txt)
 - Anti-redirectors list (anti-redirectors.txt)
@@ -79,6 +78,7 @@ This list has an extremely specific purpose, and **SHOULD NOT BE USED**.
 - IP Lookup service blocklist ([antiiplookup.txt](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antiiplookup.txt))
 - Anti-adfly (anti-adfly.txt)
 - Link redirect removal list (redirect-remover.txt)
+- Favicon blocker ([favicon_blocker.txt](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/favicon_blocker.txt))
 
 <br>The filters in the _Alternative list formats_ folder are versions of some of the lists above for different software. These are auto-generated, and thus updates to them must be made to the original list or [the Python script](https://github.com/iam-py-test/my_filters_001/blob/main/scripts/update.py) which generates them.<br>
 Everything not listed above, like the filters in the _Personal_ folder, is either completely forgotten by me, or is likely to break websites due to its purpose or lack of regulation. <br>
