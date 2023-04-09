@@ -6,3 +6,8 @@ http://5.localhost/5?5
 http://6.localhost/6.exe
 http://7.localhost:7000/
 http://8.localhost:8000/8/
+http://9.localhost:9000
+http://10.localhost/
+http://11.localhost//
+http://12.localhost#local
+://13.localhost/
