@@ -1,4 +1,8 @@
 http://1.localhost
 http://2.localhost/2
-http://3.localhost/3/3
-http://4.localhost/4?4
+http://3.localhost/3/
+http://4.localhost/4/4
+http://5.localhost/5?5
+http://6.localhost/6.exe
+http://7.localhost:7000/
+http://8.localhost:8000/8/
