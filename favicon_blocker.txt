@@ -1,4 +1,6 @@
 ! Title: Favicon blocker (beta)
 ! Description: This list aim to block both /favicon.ico and (unlike some other lists) other common file paths for favicons.
-/favicon.*$image
+/favicon.$image
 /*-favicon*.ico|$image
+-favicon-48x48.png|$image
+/favicon_*.png|$image

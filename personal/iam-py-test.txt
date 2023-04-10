@@ -99,6 +99,7 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||estatueofthea.info^$all
 ||protection.byguardio.com^$document
 ||ev-dating.com^$document
+||superdealsearch.com^$all
 
 ! ---- unwanted allowlist rules ----
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument,badfilter
