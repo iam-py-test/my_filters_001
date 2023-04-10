@@ -2,11 +2,12 @@
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 4/4/2023
 ! Expires: 1 day
-! Last updated: 09/04/2023
+! Last updated: 10/04/2023
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Sun, 09 Apr 2023 20:18:53 +0000
+! Mon, 10 Apr 2023 20:20:10 +0000
+||simplmizer.duckdns.org/GamingBooster.exe^$all
 ||filebin.net/al5dqiowja8bpmov/explorer.exe^$all
 ||103.170.255.139/B191206/vbc.exe^$all
 ||ji.jhia6gy44dd.com/m/ss47.exe^$all
@@ -107,4 +108,3 @@
 ||179.43.142.79/hapuh/client.exe^$all
 ||37.77.239.239/crypted/Pr0xyWifeStealer.exe^$all
 ||37.77.239.239/crypted/ransom.EXE^$all
-||37.77.239.239/crypted/nVidiaControllSetup.exe^$all
