@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results
 ! Expires: 1 day
 ! Last updated: 7/4/2023
-! Last auto-generated: 10/04/2023
+! Last auto-generated: 12/04/2023
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -10382,6 +10382,7 @@ search.brave.com##div.fdb.snippet:has(a[href*="://debts71.semashi.ru"])
 search.brave.com##div.fdb.snippet:has(a[href*="://mewed.ulitron.ru"])
 search.brave.com##div.fdb.snippet:has(a[href*="://poloniumo.ru"])
 search.brave.com##div.fdb.snippet:has(a[href*="://alley.sorting88.cavalierso.ru"])
+search.brave.com##div.fdb.snippet:has(a[href*="://q3i5q2r6.stackpathcdn.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://www.totalav.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://totalav.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://api.totalav.com"])
@@ -10497,6 +10498,11 @@ search.brave.com##div.fdb.snippet:has(a[href*="://signup.totaladblock.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://track.totaladblock.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://my.totaladblock.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://support.totaladblock.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://login.totaladblock.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://totaladblock.protected.net"])
+search.brave.com##div.fdb.snippet:has(a[href*="://extension.protected.net"])
+search.brave.com##div.fdb.snippet:has(a[href*="://totaladblocker.xyz"])
+search.brave.com##div.fdb.snippet:has(a[href*="://www.totaladblocker.xyz"])
 search.brave.com##div.fdb.snippet:has(a[href*="://winzipregistryoptimizer.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://download.winzipregistryoptimizer.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://winzipdriverupdater.com"])
