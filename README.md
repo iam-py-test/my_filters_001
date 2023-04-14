@@ -55,7 +55,8 @@ Please note! I am only one person, and I do not have much time to dedicate to th
 - test_filter.txt
 
 #### Lists which I gave up on
-- Pornography Blocklist (porn.txt)
+- Pornography Blocklist (porn.txt) <br>
+This list [has been unmaintained since 2021](https://github.com/iam-py-test/my_filters_001/commits/main/porn.txt), and many of the domains listed are either dead or false positives. I have no plans of adding new entries or removing invalid/dead ones. Use at your own risk (or not at all, there are far better actively maintained lists).
 - The device privacy list (device_privacy.txt)
 - Anti-cookie-consent and paywalls list (anti-cookie+sign up.txt)
 - [Google Safe Browsing reverse-engineered](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/google-safe-browsing-reverse-engineered.txt)

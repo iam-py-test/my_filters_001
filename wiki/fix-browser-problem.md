@@ -1,4 +1,5 @@
 ## Fix browser-based malware
+Browser-based malware is fairly common now days. This guide should help remove a few of the most common types.
 
 ### Remove spam notifications
 Malicious websites can send you spammy notifications, such as fake warnings about malware: <br>
