@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: iam-py-test's anti-PUP list
 ! Description: This list blocks sites promoting PUPs, unreliable antivirus review sites, very poorly made malware removal guides, scummy adblockers, and websites which trick users into lowering their security via overly broad allowlists
-! Last updated: 10/4/2023
+! Last updated: 15/4/2023
 ! Expires: 5 days
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 
@@ -73,3 +73,5 @@ winaero.com##.widget:has([href="/fix-classic-issues-performance/"])
 ||filewhopper.com^$document
 ||wiki-drivers.com^$document
 
+! appears to be uBlock Origin, but with tracking added
+||adremover.org^$document

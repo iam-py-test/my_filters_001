@@ -27,10 +27,23 @@ Homepage/new tab:
 - Firefox: https://support.mozilla.org/en-US/kb/change-your-default-search-settings-firefox
 - Chrome: https://support.google.com/chrome/answer/95426
 - Edge: https://support.microsoft.com/en-us/microsoft-edge/change-your-default-search-engine-in-microsoft-edge-cccaf51c-a4df-a43e-8036-d4d2c527a791
+<br>If your browser says the homepage or search engine is managed by an extension, follow [the instructions below to uninstall that extension](#uninstall-a-specific-extension).
 
 ### Uninstall a specific extension
 If a specific extension is causing problems, you can uninstall it: 
 - Firefox: https://support.mozilla.org/en-US/kb/disable-or-remove-add-ons
 - Chrome: https://support.google.com/chrome_webstore/answer/2664769
 - Edge: https://support.microsoft.com/en-us/microsoft-edge/add-turn-off-or-remove-extensions-in-microsoft-edge-9c0ec68c-2fbc-2f2c-9ff0-bdc76f46b026
+In some cases, extensions can not be removed or reappear. If that happens, see [Dealing with agressive malware](#dealing-with-agressive-malware). If you are unsure what extensions to uninstall, see if you have [any of the extensions listed below](#known-malware-browser-extensions) installed, and if so, try uninstalling them.
 
+#### Known malware browser extensions
+If installed, I recommend you remove these. However, this is not an exhaustive  list.
+- "Browsing Overview by Securify"
+Changes your search engine to `search[.]mysecurify[.]com`, which redirects to Bing.
+
+### Remove malware from your system
+Windows:
+- Adwcleaner: https://support.malwarebytes.com/hc/en-us/articles/360038520114-Malwarebytes-AdwCleaner-scan-and-clean (do not remove any of the "preinstalled software" unless you know what you are doing; it is **not** malware)
+
+### Dealing with agressive malware
+Before continuing, try the steps for removing malware on your system. 
