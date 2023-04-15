@@ -2,11 +2,15 @@
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 4/4/2023
 ! Expires: 1 day
-! Last updated: 13/04/2023
+! Last updated: 14/04/2023
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Thu, 13 Apr 2023 20:20:04 +0000
+! Fri, 14 Apr 2023 20:20:09 +0000
+||140.99.221.199/w01.exe^$all
+||www.ddtools.top/handdiy6/handdiy_6.exe^$all
+||www.tobimar.ro/tmp/index.php^$all
+||140.99.221.199/001.exe^$all
 ||asalroshani.ir/user/uni.exe^$all
 ||65.21.3.192/msiexp.exe^$all
 ||45.15.159.42/XSS1.exe^$all
@@ -104,7 +108,3 @@
 ||137.175.17.190/mogu/xmg.x86^$all
 ||137.175.17.190/mogu/xmg.arm^$all
 ||77.73.134.24/Clip2.exe^$all
-||77.73.134.24/Clip1.exe^$all
-||grantable-excesses.000webhostapp.com/WindowsServices.exe^$all
-||45.15.159.230/avicapn32.exe^$all
-||h166794.srv12.test-hf.su/42.exe^$all
