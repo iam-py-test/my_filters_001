@@ -4,3 +4,5 @@
 /*-favicon*.ico|$image
 -favicon-48x48.png|$image
 /favicon_*.png|$image
+/favicon.ico?$image
+/favicon/*$image
