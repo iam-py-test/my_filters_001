@@ -4,7 +4,7 @@
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # Issues url: https://github.com/iam-py-test/my_filters_001/issues
 # GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-# Last updated: 5/3/2023
+# Last updated: 17/3/2023
 # https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 # https://www.virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
 # https://www.virustotal.com/gui/domain/xn--gogle-jua.com/detection
@@ -421,3 +421,16 @@
 0.0.0.0 woldramalpha.com
 0.0.0.0 woolframalpha.com
 0.0.0.0 www.woolframalpha.com
+# https://github.com/durablenapkin/scamblocklist/issues/31
+0.0.0.0 balkeryswep.online
+0.0.0.0 bakeryxswap.org
+0.0.0.0 bakareiswap.xyz
+# https://github.com/durablenapkin/scamblocklist/issues/29
+0.0.0.0 youutube.com
+0.0.0.0 youtubee.com
+0.0.0.0 youtunbe.com
+0.0.0.0 twiiiter.com
+0.0.0.0 twitterr.com
+0.0.0.0 goglle.com
+0.0.0.0 toyrube.com
+0.0.0.0 yahhhoo.com
