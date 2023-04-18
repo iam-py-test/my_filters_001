@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: iam-py-test's anti-PUP list
-! Description: This list blocks sites promoting PUPs, unreliable antivirus review sites, very poorly made malware removal guides, scummy adblockers, and websites which trick users into lowering their security via overly broad allowlists
+! Description: This list blocks sites promoting PUPs, unreliable antivirus review sites, very poorly made malware removal guides, scummy adblockers, "snake oil" programs, and websites which trick users into lowering their security via overly broad allowlists
 ! Last updated: 15/4/2023
 ! Expires: 5 days
 ! Homepage: https://github.com/iam-py-test/my_filters_001
@@ -75,3 +75,10 @@ winaero.com##.widget:has([href="/fix-classic-issues-performance/"])
 
 ! appears to be uBlock Origin, but with tracking added
 ||adremover.org^$document
+
+! makes a ton of useless software, inc "Registry cleaners", "memory cleaners" (https://www.howtogeek.com/171424/why-memory-optimizers-and-ram-boosters-are-worse-than-useless/), etc
+! while some of their software seems like it might be helpful to some people, I am chosing to block the entire website anyway
+||wisecleaner.com^$document
+||wisecleaner.net^$document
+||wisecleaner.eu^$document
+||wisecleaner.com.cn^$document
