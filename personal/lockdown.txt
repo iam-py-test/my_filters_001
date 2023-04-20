@@ -47,6 +47,7 @@
 ||am^$all
 ||dx.am^$all
 ||pt^$all
+||yachts^$all
 
 ! hosting
 ||weebly.*^$document
