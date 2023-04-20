@@ -2,11 +2,18 @@
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 4/4/2023
 ! Expires: 1 day
-! Last updated: 19/04/2023
+! Last updated: 20/04/2023
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Wed, 19 Apr 2023 20:20:50 +0000
+! Thu, 20 Apr 2023 22:29:55 +0000
+||cdn.discordapp.com/attachments/1096076829531574352/1096076987812036759/svchost.exe^$all
+||cdn.discordapp.com/attachments/1096076829531574352/1097477404122939422/XWorm.exe^$all
+||103.189.202.201/0000213/vbc.exe^$all
+||85.217.144.143/files/123.exe^$all
+||85.217.144.143/files/haddd.exe^$all
+||famileai.com/php/upsoft/zov.txt^$all
+||famileai.com/php/upsoft/milmonjey.txt^$all
 ||cdn.discordapp.com/attachments/1098002440479064067/1098002456824270959/YeniLib.dll^$all
 ||files.catbox.moe/xfcdu9.dll^$all
 ||ji.ghwiwwff.com/m/oskg25^$all
@@ -101,10 +108,3 @@
 ||qtvotqx-krf-6.ml/olu/Vutbwiazl.bmp^$all
 ||uploadkon.ir/uploads/280e09_22no.rar^$all
 ||h167159.srv11.test-hf.su/53.exe^$all
-||h167159.srv11.test-hf.su/52.exe^$all
-||144.168.243.177/113/vbc.exe^$all
-||103.133.214.139/2/NINJA.exe^$all
-||unionbindinqcompany.it/vbs.exe^$all
-||77.73.134.24/Clip1.exe^$all
-||72.251.235.155/rt/dp/2^$all
-||72.251.235.155/rt/dp/1^$all
