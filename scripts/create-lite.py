@@ -36,8 +36,7 @@ for line in lines:
     continue
   else:
     try:
-      domain = line.split("$")[0].split("^")[0]
-      print(domain)
+      domain = line.split("$")[0].split("^")[0][2:]
       rootdomain = psl.privatesuffix(domain)
       if rootdomain in done_domains:
         continue
