@@ -14,9 +14,7 @@ list1 = """[Adblock Plus 2.0]
 ! Last updated: {}
 ! Expires: 1 day
 
-! Domain/url blocking rules (auto-generated)
 """.format(datetime.datetime.now().strftime("%d/%m/%y"))
-blockedtlds = ["gdn"]
 done_entries = []
 bannedfilters = []
 try:
@@ -37,13 +35,16 @@ for line in lines:
 		continue
 	else:
 		try:
-			tld = psl.publicsuffix(line.split("$")[0])
-			if tld in blockedtlds:
+			domain = line.split("$")[0].split("^")[0]
+      rootdomain = psl.privatesuffix(domain)
+			if rootdomain in done_domains:
 				continue
 			else:
 				list1 += line + "\n"
 				done_entries.append(line)
-		except:
+        done_domains.append(domain)
+		except Exception as err:
+      print(err)
 			list1 += line + "\n"
 			done_entries.append(line)
 endlist = open("Alternative list formats/antimalware_lite.txt","w")
