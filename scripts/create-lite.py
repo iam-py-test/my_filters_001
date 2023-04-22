@@ -17,6 +17,7 @@ list1 = """[Adblock Plus 2.0]
 """.format(datetime.datetime.now().strftime("%d/%m/%y"))
 done_entries = []
 bannedfilters = []
+done_domains = []
 try:
   bannedfilters += list(filter(bool,requests.get("https://raw.githubusercontent.com/iam-py-test/allowlist/main/filter.txt").text.split("\n")))
 except:
