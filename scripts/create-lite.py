@@ -18,35 +18,35 @@ list1 = """[Adblock Plus 2.0]
 done_entries = []
 bannedfilters = []
 try:
-	bannedfilters += list(filter(bool,requests.get("https://raw.githubusercontent.com/iam-py-test/allowlist/main/filter.txt").text.split("\n")))
+  bannedfilters += list(filter(bool,requests.get("https://raw.githubusercontent.com/iam-py-test/allowlist/main/filter.txt").text.split("\n")))
 except:
-	pass
+  pass
 
 
 lines = open("antimalware.txt").read().split("\n")
 for line in lines:
-	if line in done_entries or line in bannedfilters:
-		continue
-	if line.startswith("||") and "/" in line:
-		list1 += line + "\n"
-		done_entries.append(line)
-		continue
-	if line.startswith("!") or line == "" or line.startswith("#") or "[Adblock Plus 2.0]" in line:
-		continue
-	else:
-		try:
-			domain = line.split("$")[0].split("^")[0]
+  if line in done_entries or line in bannedfilters:
+    continue
+  if line.startswith("||") and "/" in line:
+    list1 += line + "\n"
+    done_entries.append(line)
+    continue
+  if line.startswith("!") or line == "" or line.startswith("#") or "[Adblock Plus 2.0]" in line:
+    continue
+  else:
+    try:
+      domain = line.split("$")[0].split("^")[0]
       rootdomain = psl.privatesuffix(domain)
-			if rootdomain in done_domains:
-				continue
-			else:
-				list1 += line + "\n"
-				done_entries.append(line)
+      if rootdomain in done_domains:
+        continue
+      else:
+        list1 += line + "\n"
+        done_entries.append(line)
         done_domains.append(domain)
-		except Exception as err:
+    except Exception as err:
       print(err)
-			list1 += line + "\n"
-			done_entries.append(line)
+      list1 += line + "\n"
+      done_entries.append(line)
 endlist = open("Alternative list formats/antimalware_lite.txt","w")
 endlist.write(list1)
 endlist.close()
