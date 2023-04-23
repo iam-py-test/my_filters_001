@@ -10,7 +10,7 @@ for flist in lists:
       num += 1
       reviewedlines[flist].append(line)
       
-allentries = "<svg height="20" width="130" xmlns="http://www.w3.org/2000/svg" version="1.1"><text x="0" y="15" fill="red">{} total entries</text></svg>"
+allentries = "<svg height=\"20\" width=\"130\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><text x=\"0\" y=\"15\" fill=\"red\">{} total entries</text></svg>"
 totalentries = open("totalentries.svg","w")
 totalentries.write(allentries.format(num))
 totalentries.close()
