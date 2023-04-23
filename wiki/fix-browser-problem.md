@@ -3,6 +3,9 @@ Browser-based malware is fairly common now days. This guide should help remove a
 
 Warning: This is a work in progress!
 
+### Things not to do
+- Do not use "cleaner" programs to clear browser cache/cookies. These programs may cause problems with your browser. Use your browser settings to clear cookies and cache.
+
 ### Remove spam notifications
 Malicious websites can send you spammy notifications, such as fake warnings about malware: <br>
 <img src="spam notifiation 1.jpg" width=300 height=300>
@@ -104,4 +107,4 @@ Before continuing, try all the prior steps. This is the "nuclear" option. It wil
 - MacOS (Safari and Chrome): https://forums.malwarebytes.com/topic/236261-how-to-remove-the-after-effects-of-adware/
 - Windows/Chrome: https://forums.malwarebytes.com/topic/258938-resetting-google-chrome-to-clear-unexpected-issues/
 - Windows/Edge: https://www.tenforums.com/tutorials/159010-how-completely-reset-microsoft-edge-chromium-default-windows.html (**Warning**: ALL data in ALL Edge profiles will be deleted!)
-<br>If there is more than one user on the system, you may need to repeat this for each user.
+<br>If there is more than one user on the system, you may need to repeat some of these steps for each user.
