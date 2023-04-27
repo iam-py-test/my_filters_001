@@ -2,11 +2,12 @@
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 4/4/2023
 ! Expires: 1 day
-! Last updated: 26/04/2023
+! Last updated: 27/04/2023
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Wed, 26 Apr 2023 20:19:22 +0000
+! Thu, 27 Apr 2023 20:20:02 +0000
+||85.217.144.143/files/123.exe^$all
 ||85.217.144.143/files/123.exe^$all
 ||fakethedead.com/sethlocker.exe^$all
 ||85.217.144.143/files/123.exe^$all
@@ -107,4 +108,3 @@
 ||167.235.69.31/nppshell.exe^$all
 ||195.201.23.180/urapwd2x.dll^$all
 ||farmriterural.com.au/javonet2.1.exe^$all
-||cryptoidea.help/downloads/video.exe^$all
