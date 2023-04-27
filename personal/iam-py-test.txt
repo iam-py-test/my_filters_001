@@ -101,6 +101,7 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||ev-dating.com^$document
 ||superdealsearch.com^$all
 ||gxpowered.com^$all
+||llsvr.com^$all
 
 ! ---- unwanted allowlist rules ----
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument,badfilter
