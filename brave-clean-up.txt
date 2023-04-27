@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results
 ! Expires: 1 day
 ! Last updated: 7/4/2023
-! Last auto-generated: 25/04/2023
+! Last auto-generated: 27/04/2023
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -10474,6 +10474,21 @@ search.brave.com##div.fdb.snippet:has(a[href*="://gbcok.aluationiamcur.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://www6.renhadmasandbab.info"])
 search.brave.com##div.fdb.snippet:has(a[href*="://mobilesecuremail.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://wormair.bio"])
+search.brave.com##div.fdb.snippet:has(a[href*="://bitcompay.org"])
+search.brave.com##div.fdb.snippet:has(a[href*="://miningpror.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://paypartc.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://bitcllpay.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://tdsintegrations11.online"])
+search.brave.com##div.fdb.snippet:has(a[href*="://crypto022.online"])
+search.brave.com##div.fdb.snippet:has(a[href*="://crypto023.online"])
+search.brave.com##div.fdb.snippet:has(a[href*="://crypto024.online"])
+search.brave.com##div.fdb.snippet:has(a[href*="://crypto025.online"])
+search.brave.com##div.fdb.snippet:has(a[href*="://crypto026.online"])
+search.brave.com##div.fdb.snippet:has(a[href*="://crypto027.online"])
+search.brave.com##div.fdb.snippet:has(a[href*="://crypto028.online"])
+search.brave.com##div.fdb.snippet:has(a[href*="://crypto029.online"])
+search.brave.com##div.fdb.snippet:has(a[href*="://crypto030.online"])
+search.brave.com##div.fdb.snippet:has(a[href*="://crypto031.online"])
 search.brave.com##div.fdb.snippet:has(a[href*="://totalav.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://www.totalav.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://api.totalav.com"])
