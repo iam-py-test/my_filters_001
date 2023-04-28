@@ -5,7 +5,7 @@
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 ! Expires: 1 day
-! Last updated: 18/4/2023
+! Last updated: 28/4/2023
 
 ! Abused TLDs
 ||win^$document
@@ -36,3 +36,7 @@
 ! false positives: website scanning services
 /\/Use_[a-zA-Z0-9]*_As_Passw0rdd\.rar$/$document
 /\/Use_[a-zA-Z0-9]*_As_Password\.rar$/$document
+
+! test rule to detect possible malware hosted on MediaFire (i.e. https://app.any.run/tasks/d40fc871-4942-4acd-8d6a-d8f4baae1f32)
+||mediafire.com/file/*/NewSetup_Use_2023_Password.rar/file^$document
+
