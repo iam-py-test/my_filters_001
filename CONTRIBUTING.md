@@ -21,9 +21,9 @@ I do not - and never will - support Microsoft's Internet Explorer, as it is a co
 ### Opera
 Opera prevents extensions from accessing search result pages. To allow access, open opera://extensions/ and check the "allow access to search page results" option. Thanks to the uBo team for informing me (and other people) of this. 
 
-### kiwibrowser
-Kiwi browser sis not supported by uBlock Origin. It also [disables extensions](https://www.reddit.com/r/uBlockOrigin/comments/10xntsr/comment/j7teo9p/) on [a long list of domains](https://github.com/kiwibrowser/src/blob/c51d640a8e984ff0fb24049c53a7ed4e458775ef/extensions/browser/api/web_request/web_request_permissions.cc#L167). Note that this also includes **any** domain containing `bing.com`, `search.yahoo.`, and some other tokens, meaning extensions may be disabled on other websites (such as malware and scam sites).
-For this reason, [privacy issues](https://github.com/Tobi823/ffupdater/issues/35), and [the lack of frequent updates](https://github.com/kiwibrowser/src/commits/master), I would recommend against using this browser.
+### kiwi browser
+Kiwi browser is not supported by uBlock Origin, and thus my filterlists (I am not sure about other content blockers). Be aware that Kiki browser [disables extensions](https://www.reddit.com/r/uBlockOrigin/comments/10xntsr/comment/j7teo9p/) on [a long list of domains](https://github.com/kiwibrowser/src/blob/c51d640a8e984ff0fb24049c53a7ed4e458775ef/extensions/browser/api/web_request/web_request_permissions.cc#L167). Note that this also includes **any** domain containing `bing.com`, `search.yahoo.`, and some other tokens, meaning extensions may be disabled on other websites (such as malware and scam sites).
+For this reason, [alleged privacy issues](https://github.com/Tobi823/ffupdater/issues/35), and [the lack of frequent updates](https://github.com/kiwibrowser/src/commits/master), I would recommend against using this browser.
 
 ### Yandex
-Yandex Browser is not supported by uBlock Origin (I do not know about other content blockers), [and is known to be problematict](https://github.com/uBlockOrigin/uBlock-issues/issues/2627). Any issues which can not be reproduced in Chrome, Edge, or Firefox will have to be investigated 
+Yandex Browser is not supported by uBlock Origin (I do not know about other content blockers), [and is known to be problematict](https://github.com/uBlockOrigin/uBlock-issues/issues/2627). Any issues which can not be reproduced in Chrome, Edge, or Firefox will have to be investigated by you.
