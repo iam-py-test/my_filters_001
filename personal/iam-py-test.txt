@@ -83,7 +83,8 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||monerominer.rocks^$all
 ||byteoversea.com^$all
 ||torchdeedp3i2jigzjdmfpn5ttjhthh5wbmda2rr3jvqjg5p77c54dqd.onion^$all
-! poorly written regex - TODO: /^https?:\/\/torch/$domain=onion,document
+||doubleclick.net^
+||googletagmanager.com^
 
 ! ---- suspected malware ----
 ||inghesatin.com^$all
@@ -102,6 +103,8 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||superdealsearch.com^$all
 ||gxpowered.com^$all
 ||llsvr.com^$all
+||godpvqnszo.com^$all
+||mamzifazsa.com^$all
 
 ! ---- unwanted allowlist rules ----
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument,badfilter

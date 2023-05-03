@@ -32,7 +32,7 @@ Homepage/new tab:
 - Firefox: https://support.mozilla.org/en-US/kb/change-your-default-search-settings-firefox
 - Chrome: https://support.google.com/chrome/answer/95426
 - Edge: https://support.microsoft.com/en-us/microsoft-edge/change-your-default-search-engine-in-microsoft-edge-cccaf51c-a4df-a43e-8036-d4d2c527a791
-<br>If your browser says the homepage or search engine is managed by an extension, follow [the instructions below to uninstall that extension](#uninstall-a-specific-extension).
+<br>If your browser says the homepage or search engine is managed by an extension, follow [the instructions below to uninstall that extension](#uninstall-a-specific-extension). If that does not work, try [reseting browser sync](#reset-browser-sync) and [removing policies (Windows only)](#remove-browser-policies-windows).
 
 ### Uninstall a specific extension
 If a specific extension is causing problems, you can uninstall it: 
