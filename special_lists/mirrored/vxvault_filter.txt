@@ -2,11 +2,15 @@
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 4/4/2023
 ! Expires: 1 day
-! Last updated: 03/05/2023
+! Last updated: 04/05/2023
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Wed, 03 May 2023 20:19:43 +0000
+! Thu, 04 May 2023 20:20:18 +0000
+||85.217.144.143/files/Had.exe^$all
+||85.217.144.143/files/5_6232986114823555269.exe^$all
+||85.217.144.143/files/123.exe^$all
+||cdn.discordapp.com/attachments/573050178412740619/644916837238439955/google_gift_card_generator.exe^$all
 ||zenithgurukul.in/v1.exe^$all
 ||85.217.144.143/files/HDCR.exe^$all
 ||85.217.144.143/files/123.exe^$all
@@ -104,7 +108,3 @@
 ||163.123.143.4/download/Service_soft.bmp^$all
 ||194.110.203.101/puta/brazilx86.exe^$all
 ||hugersi.com/dl/6523.exe^$all
-||privacy-tools-for-you-453.com/downloads/lab.exe^$all
-||62.204.41.176/putingod.exe^$all
-||67.198.237.222/k20/k20sh4^$all
-||67.198.237.222/k20/k20x86^$all
