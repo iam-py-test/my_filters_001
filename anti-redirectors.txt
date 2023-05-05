@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Please report false positives & unblocked domains to me using the GitHub or GitLab (urls below). Thanks!
 ! Expires: 1 day
-! Last updated: 22/4/2023
+! Last updated: 4/5/2023
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 ! If you want shorter urls, check out DandelionSprout's Actually Legitimate URL Shortener Tool at https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
@@ -423,3 +423,11 @@
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/12tfsn3/help_with_yelp/
 ||yelp.com/biz_redir?$document
+
+! https://forums.malwarebytes.com/topic/297570-phishing/ (account required)
+! https://l.info16.citi.com/rts/go2.aspx?h=4009490&tp=i-1NGB-Q4L-lWT-C1jVeU-1r-3KyZzS-1c-C1fuSq-l8roiBjasA-NupOi&x=example.com/phishing
+||l.info16.citi.com/rts/go2.aspx$document
+
+! https://www.tomsguide.com/how-to/how-to-uninstall-microsoft-edge
+||click.linksynergy.com^$document
+||ojrq.net^

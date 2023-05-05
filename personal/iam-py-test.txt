@@ -105,6 +105,7 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||llsvr.com^$all
 ||godpvqnszo.com^$all
 ||mamzifazsa.com^$all
+||iyfbodn.com^$all
 
 ! ---- unwanted allowlist rules ----
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument,badfilter
