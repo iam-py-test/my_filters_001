@@ -1,1 +1,1 @@
-## Lines detected by Lint (out of 13888)
+## Lines detected by Lint (out of 13885)

@@ -1,12 +1,19 @@
 ! Title: VXVault filterlist (unofficial)
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
-! Script last updated: 4/4/2023
+! Script last updated: 5/5/2023
 ! Expires: 1 day
-! Last updated: 04/05/2023
+! Last updated: 05/05/2023
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Thu, 04 May 2023 20:20:18 +0000
+! Fri, 05 May 2023 23:30:29 +0000
+||link.storjshare.io/jwgxwvintmbhhyz6izi7pm6fk3ga/na5la%2Fkanao%2Fpoweroff.exe?download=1^$all
+||85.217.144.143/files/Had.exe^$all
+||85.217.144.143/files/WSearch136Estcott.exe^$all
+||85.217.144.143/files/123.exe^$all
+||smartphoodapp.com/miner.exe^$all
+||rqnsomware.s3.us-east-2.amazonaws.com/malwr.exe^$all
+||85.217.144.143/files/Lyla131.exe^$all
 ||85.217.144.143/files/Had.exe^$all
 ||85.217.144.143/files/5_6232986114823555269.exe^$all
 ||85.217.144.143/files/123.exe^$all
@@ -101,10 +108,3 @@
 ||www.franceconsobanque.fr/wp-admin/images/css/design/fabric/bo/Uqvfulhohfm.bmp^$all
 ||gitlab.com/oxx980/1234/-/raw/main/buildnew.exe^$all
 ||merafm.com/wp-content/uploads/2021/02/paf/Talking-Points-with-China-PLAAF.exe^$all
-||hugersi.com/dl/6523.exe^$all
-||79.137.207.113/1.exe^$all
-||193.38.55.218/1.exe^$all
-||195.74.86.227/five.exe^$all
-||163.123.143.4/download/Service_soft.bmp^$all
-||194.110.203.101/puta/brazilx86.exe^$all
-||hugersi.com/dl/6523.exe^$all
