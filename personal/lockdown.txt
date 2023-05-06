@@ -56,6 +56,7 @@
 ||wixsite.*^$document
 ||proxy2link.com^$all
 ||amplifyapp.com^$all
+||000webhostapp.com^$all
 
 ! file hosting
 ||mediafire.*^$document
