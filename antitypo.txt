@@ -5,7 +5,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-! Last updated: 4/5/2023
+! Last updated: 5/5/2023
 
 ! https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 ! https://www.virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
@@ -491,3 +491,7 @@
 ! https://citizenlab.ca/2015/04/chinas-great-cannon/ (typo in https://github.com/greatfire)
 ||gitub.com^$document
 ||ww7.gitub.com^$all
+
+! https://www.reddit.com/r/uBlockOrigin/comments/1392c8f/typosquatting_domains/
+||girhub.com^$document
+||linkefdin.com^$document
