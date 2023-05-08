@@ -21,7 +21,7 @@
 0.0.0.0 mail.lyksoomu.com
 0.0.0.0 oaxyteek.net
 0.0.0.0 cdn.oaxyteek.net
-# used for adfly redirections & notification requests (import from MWB)
+# used for adfly redirections & notification requests (imported from the MWB)
 0.0.0.0 davisonbarker.pro
 0.0.0.0 www64.davisonbarker.pro
 0.0.0.0 www31.davisonbarker.pro
@@ -44,6 +44,25 @@
 0.0.0.0 www15.davisonbarker.pro
 0.0.0.0 www29.davisonbarker.pro
 0.0.0.0 www70.davisonbarker.pro
+0.0.0.0 www21.davisonbarker.pro
+0.0.0.0 www59.davisonbarker.pro
+0.0.0.0 www25.davisonbarker.pro
+0.0.0.0 www17.davisonbarker.pro
+0.0.0.0 www74.davisonbarker.pro
+0.0.0.0 www99.davisonbarker.pro
+0.0.0.0 www79.davisonbarker.pro
+0.0.0.0 www22.davisonbarker.pro
+0.0.0.0 www94.davisonbarker.pro
+0.0.0.0 www45.davisonbarker.pro
+0.0.0.0 www51.davisonbarker.pro
+0.0.0.0 www98.davisonbarker.pro
+0.0.0.0 www35.davisonbarker.pro
+0.0.0.0 www92.davisonbarker.pro
+0.0.0.0 www12.davisonbarker.pro
+0.0.0.0 www37.davisonbarker.pro
+0.0.0.0 www33.davisonbarker.pro
+0.0.0.0 www68.davisonbarker.pro
+0.0.0.0 www34.davisonbarker.pro
 0.0.0.0 lowrihouston.pro
 0.0.0.0 www53.lowrihouston.pro
 0.0.0.0 www44.lowrihouston.pro
@@ -51,6 +70,7 @@
 0.0.0.0 www91.lowrihouston.pro
 0.0.0.0 www57.lowrihouston.pro
 0.0.0.0 www1.lowrihouston.pro
+0.0.0.0 www42.lowrihouston.pro
 0.0.0.0 nathanaeldan.pro
 0.0.0.0 www97.nathanaeldan.pro
 0.0.0.0 www61.nathanaeldan.pro
@@ -62,6 +82,7 @@
 0.0.0.0 www39.nathanaeldan.pro
 0.0.0.0 www16.nathanaeldan.pro
 0.0.0.0 www44.nathanaeldan.pro
+0.0.0.0 freddyoctavio.pro
 0.0.0.0 www63.freddyoctavio.pro
 0.0.0.0 www70.freddyoctavio.pro
 0.0.0.0 www16.freddyoctavio.pro
@@ -70,4 +91,3 @@
 0.0.0.0 www68.freddyoctavio.pro
 0.0.0.0 www72.freddyoctavio.pro
 0.0.0.0 www86.freddyoctavio.pro
-0.0.0.0 freddyoctavio.pro

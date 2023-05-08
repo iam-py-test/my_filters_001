@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Please report false positives & unblocked domains to me using the GitHub or GitLab (urls below). Thanks!
 ! Expires: 1 day
-! Last updated: 4/5/2023
+! Last updated: 6/5/2023
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 ! If you want shorter urls, check out DandelionSprout's Actually Legitimate URL Shortener Tool at https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
@@ -431,3 +431,22 @@
 ! https://www.tomsguide.com/how-to/how-to-uninstall-microsoft-edge
 ||click.linksynergy.com^$document
 ||ojrq.net^
+
+! https://oisd.nl/excludes.php?w=7.ly                            
+||www.shrunken.com^$document
+||shrunken.com^$document
+||p.asia^$document
+||g.asia^$document
+||3.ly^$document
+||0.gp^$document
+||2.ly^$document
+||4.gp^$document
+||4.ly^$document
+||6.ly^$document
+||7.ly^$document
+||8.ly^$document
+||9.ly^$document
+||2.gp^$document
+||6.gp^$document
+||5.gp^$document
+||ur3.us^$document

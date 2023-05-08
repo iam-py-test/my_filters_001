@@ -3,7 +3,7 @@
 ! Description: Remove annoyances from Discord's web version
 ! Expires: 2 days
 ! Homepage: https://github.com/iam-py-test/my_filters_001
-! Last updated: 17/4/2023
+! Last updated: 7/5/2023
 ! Note: This list can not help you if you chose to use the Discord app
 
 ! Promotion for Discord Nitro
@@ -17,5 +17,5 @@ discord.com##[aria-label="Send a gift"]
 ! Promotion for Discord's app
 discord.com##[class*="colorDefault-"][class*="notice-"]
 
-! listed in Peter Lowe's but added here anyway (breaks Discord email links)
-||click.discord.com^
+! listed in Peter Lowe's but added here anyway (breaks Discord email links) - important used to override allowlist rules
+||click.discord.com^$important
