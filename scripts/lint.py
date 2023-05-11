@@ -4,7 +4,7 @@ import requests, publicsuffixlist
 # static vars
 LEGIT_DOMAINS_URL = "https://raw.githubusercontent.com/iam-py-test/allowlist/main/allowlist.txt"
 WILDCARD_URL = "https://raw.githubusercontent.com/iam-py-test/allowlist/main/wildcard.txt"
-BANNED_FILTERS_URL = ""https://raw.githubusercontent.com/iam-py-test/allowlist/main/filter.txt""
+BANNED_FILTERS_URL = "https://raw.githubusercontent.com/iam-py-test/allowlist/main/filter.txt"
 REPORT_FILENAME = "invalidlines.md"
 INPUT_FILENAME = "antimalware.txt"
 
