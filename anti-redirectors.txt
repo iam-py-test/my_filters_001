@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Please report false positives & unblocked domains to me using the GitHub or GitLab (urls below). Thanks!
 ! Expires: 1 day
-! Last updated: 6/5/2023
+! Last updated: 10/5/2023
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 ! If you want shorter urls, check out DandelionSprout's Actually Legitimate URL Shortener Tool at https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
@@ -450,3 +450,6 @@
 ||6.gp^$document
 ||5.gp^$document
 ||ur3.us^$document
+
+! https://github.com/ClearURLs/Rules/issues/80
+||partner-ads.com/dk/klikbanner.php$document
