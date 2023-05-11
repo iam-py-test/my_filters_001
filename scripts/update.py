@@ -4,6 +4,8 @@ import sys,os
 import re
 import idna
 
+ALT_FORMATS_LOC = "Alternative list formats"
+
 alldomains = {}
 allips = {}
 reddomains = []
@@ -18,7 +20,7 @@ is_ip_v6_reg = re.compile(is_ip_v6)
 
 def mkalt(file,alt):
   lines = open(file,encoding="UTF-8").read().split("\n")
-  alt = open("Alternative list formats/{}".format(alt),"w",encoding="UTF-8")
+  alt = open(f"{ALT_FORMATS_LOC}/{alt}","w",encoding="UTF-8")
   iponly = open("Alternative list formats/{}_ips.txt".format(file.split(".")[0]),"w",encoding="UTF-8")
   donedomains = []
   def isipdomain(domain):

@@ -1,0 +1,12 @@
+!||example.org^
+# ||example.org^
+#||example.org^
+||example.org^ ! bla
+example.org
+||example.org^
+||example.org
+example.org$document
+example.org^$document
+||example.org$document
+||example.org|$document
+|example.org|$document

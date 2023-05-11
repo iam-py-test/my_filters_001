@@ -7,5 +7,4 @@ checksumf = open("checksums.txt","w")
 for listi in lists:
   chk = sha256(open(listi,"rb").read()).hexdigest()
   checksumf.write("{}: {}\n".format(listi,chk))
-
 checksumf.close()

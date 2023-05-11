@@ -1,12 +1,15 @@
 from datetime import date
-currentdate = date.today()
+currentdate = date.today().strftime('%d/%m/%Y')
 
-template = open("brave-clean-up.template")
-endfile = open("brave-clean-up.txt","w")
-maldomains = open("Alternative list formats/antimalware_domains.txt").read().split("\n")
-malips = open("Alternative list formats/antimalware_ips.txt").read().split("\n")
-pupdomains = open("Alternative list formats/antipup_domains.txt").read().split("\n")
-pupips = open("Alternative list formats/antipup_ips.txt").read().split("\n")
+FILTER_LINE = "search.brave.com##div.fdb.snippet:has(a[href*="://{}"])\n"
+TEMPLATE_FILENAME = "brave-clean-up.template"
+
+template = open(TEMPLATE_FILENAME)
+endfile = open("brave-clean-up.txt","w",encoding="UTF-8")
+maldomains = open("Alternative list formats/antimalware_domains.txt", encoding="UTF-8").read().split("\n")
+malips = open("Alternative list formats/antimalware_ips.txt", encoding="UTF-8").read().split("\n")
+pupdomains = open("Alternative list formats/antipup_domains.txt", encoding="UTF-8").read().split("\n")
+pupips = open("Alternative list formats/antipup_ips.txt", encoding="UTF-8").read().split("\n")
 maldomains.extend(malips)
 pupdomains.extend(pupips)
 total = ''
@@ -14,11 +17,12 @@ totalpups = ''
 for line in maldomains:
   if line == '' or line.startswith("!"):
     continue
-  total += """search.brave.com##div.fdb.snippet:has(a[href*="://{}"])\n""".format(line)
+  total += FILTER_LINE.format(line)
 for line in pupdomains:
   if line == '' or line.startswith("!"):
     continue
-  totalpups += """search.brave.com##div.fdb.snippet:has(a[href*="://{}"])\n""".format(line)
+  totalpups += FILTER_LINE.format(line)
 
-endfile.write(template.read().replace("{{auto-gen-time}}",currentdate.strftime('%d/%m/%Y')).replace("{mal}",total).replace("{pup}",totalpups))
+endfile.write(template.read().replace("{{auto-gen-time}}",currentdate).replace("{mal}",total).replace("{pup}",totalpups))
 endfile.close()
+template.close()

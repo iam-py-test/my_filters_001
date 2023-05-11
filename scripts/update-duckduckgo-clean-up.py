@@ -1,5 +1,4 @@
 from datetime import date
-currentdate = date.today()
 
 FILTER_TEMPLATE = "duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn=\"result\"]:has(a[href*=\"://{}\"])\nduckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.result:has(a[href*=\"://{}\"])\n"
 ALT_FOLDER = "Alternative list formats"
@@ -9,7 +8,7 @@ ALT_PUP_DOMAINS = f"{ALT_FOLDER}/antipup_domains.txt"
 ALT_PUP_IPS = f"{ALT_FOLDER}/antipup_ips.txt"
 TEMPLATE_FILE = "duckduckgo-clean-up.template"
 OUTPUT_FILE = "duckduckgo-clean-up.txt"
-current_date = currentdate.strftime('%d/%m/%Y')
+current_date = date.today().strftime('%d/%m/%Y')
 
 template = open(TEMPLATE_FILE)
 endfile = open(OUTPUT_FILE,"w")
