@@ -35,6 +35,7 @@ log = ""
 totalscanned = 0
 
 for line in lines:
+    totalscanned += 1
     if line in bannedfilters:
       invalidlines.append(line)
       continue
@@ -53,9 +54,8 @@ for line in lines:
         privatedomain = publicsuffixlist.privatesuffix(domain)
         if privatedomain in wildcard_allow:
           invalidlines.append(line)
-      totalscanned += 1
-    except:
-      continue
+    except Exception as err:
+      print("[Error]",err)
 
 with open(REPORT_FILENAME,"w",encoding="UTF-8") as f:
   f.write("## Lines detected by Lint (out of {})".format(totalscanned))
