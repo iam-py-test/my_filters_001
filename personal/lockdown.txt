@@ -49,6 +49,7 @@
 ||pt^$all
 ||yachts^$all
 ||id^$document
+||zip^$all
 
 ! hosting
 ||weebly.*^$document
