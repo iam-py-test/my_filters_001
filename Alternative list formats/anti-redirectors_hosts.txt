@@ -346,3 +346,5 @@
 0.0.0.0 5.gp
 0.0.0.0 ur3.us
 # https://github.com/ClearURLs/Rules/issues/80
+# https://forums.malwarebytes.com/topic/297907-massive-amounts-of-scammershackers-targeting-local-news-station/
+0.0.0.0 wee.so
