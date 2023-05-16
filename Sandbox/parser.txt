@@ -2,6 +2,8 @@
 # ||example.org^
 #||example.org^
 ||example.org^ ! bla
+||example.com^ # bla
+||example.com^ #bla
 example.org
 ||example.org^
 ||example.org
@@ -10,3 +12,4 @@ example.org^$document
 ||example.org$document
 ||example.org|$document
 |example.org|$document
+##example.com
