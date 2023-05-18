@@ -86,6 +86,7 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||doubleclick.net^
 ||googletagmanager.com^
 ||000webhostapp.com^$document
+||zip^$document
 
 ! ---- suspected malware ----
 ||inghesatin.com^$all
