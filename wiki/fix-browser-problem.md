@@ -86,6 +86,7 @@ Open regedit and delete these keys:
     - HKEY_CURRENT_USER\SOFTWARE\Policies\Google\Chrome
 - Chrome (system) - you will need to run regedit as admin:
     - HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome 
+- Chrome policy removal tool: `https://www.stefanvd.net/project/chrome-policy-remover/` (there is also one for MacOS, but I can not speak to it's safety or effectiveness)
 
 ### Reset your browser
 - Chrome: https://support.google.com/chrome/answer/3296214

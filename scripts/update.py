@@ -35,23 +35,23 @@ def mkalt(file,alt):
   for line in lines:
     if line == '' or line.startswith("!") or line == '[Adblock Plus 2.0]' or "#" in line or "domain=" in line:
       continue
-    if isipdomain(line.split("^$")[0][2:]) == True:
-      iponly.write(line.split("^$")[0][2:] + "\n")
+    if isipdomain(line.split("^")[0][2:]) == True:
+      iponly.write(line.split("^")[0][2:] + "\n")
       try:
-        allips[file].append(line.split("^$")[0][2:])
-        allentries[file].append(line.split("^$")[0][2:])
+        allips[file].append(line.split("^")[0][2:])
+        allentries[file].append(line.split("^")[0][2:])
       except Exception as err:
         print("Error: {}".format(err))
       continue
     if line.startswith("||") and "/" not in line and "^" in line:
       try:
         try:
-          domain = idna.encode(line.split("^$")[0][2:].lower()).decode()
+          domain = idna.encode(line.split("^")[0][2:].lower()).decode()
         except:
-          domain = line.split("^$")[0][2:].lower()
+          domain = line.split("^")[0][2:].lower()
         alt.write("{}\n".format(domain))
         if domain in donedomains:
-          reddomains.append(line.split("$")[0])
+          reddomains.append(line)
         donedomains.append(domain)
         alldomains[file].append(domain)
         allentries[file].append(domain)
@@ -88,7 +88,7 @@ def mkhosts(file,altname):
       altfile.write("#" + line[1:])
     elif line.startswith("||") and "/" not in line and "^" in line:
       try:
-        domain = idna.encode(line.split("^$")[0][2:].lower()).decode()
+        domain = idna.encode(line.split("^")[0][2:].lower()).decode()
         if isipdomain(domain) != True:
           altfile.write("0.0.0.0 {}\n".format(domain))
           donedomains.append(domain)
@@ -101,7 +101,7 @@ def mkhosts(file,altname):
       domain = line.split("$")[0].lower()
       isip = isipdomain(domain)
       if isip == True:
-        altfile.write("#IP address: {}".format(domain))
+        pass
       if domain in donedomains:
         continue
       if isip == False and domain != "" and domain not in donedomains:
@@ -134,7 +134,7 @@ def mkagh(file,altname):
     elif "$" in line:
       if line.startswith("||") and "/" not in line and "^" in line:
         try:
-          domain = line.split("^$")[0][2:].lower()
+          domain = line.split("^")[0][2:].lower()
           if isipdomain(domain):
             altfile.write("{}\n".format(domain))
           else:
@@ -143,7 +143,7 @@ def mkagh(file,altname):
           continue
         except Exception as err:
           print(err)
-      domain = line.split("$")[0].lower()
+      domain = line.split("^")[0].lower()
       if domain in donedomains:
         continue
       if domain != "" and domain not in donedomains and "/" not in domain:
@@ -168,6 +168,8 @@ def convert_to_abp(clist,clistpath="./list.txt",include=False):
     try:
       if line.startswith("!") and line.startswith("!#") == False:
         endlist += "{}\n".format(line)
+      elif line.startswith("||") and line.endswith("^"):
+        endlist += line + "\n"
       elif line.startswith("||") and "$" in line:
         modifier = line.split("$")[1]
         if "all" in modifier or "doc" in modifier or "important" in modifier:
@@ -237,6 +239,8 @@ def adguardparse(data,lpath="./list.txt"):
       endlist += "{}\n".format(line)
     elif line.startswith("||") and "$" in line:
         endlist += "{}\n".format(line)
+    elif line.startswith("||") and line.endswith("^"):
+      endlist += "{}\n".format(line)
   return endlist
 
 def mkadguard(file,altname):

@@ -50,6 +50,7 @@
 ||yachts^$all
 ||id^$document
 ||zip^$all
+||work^$all
 
 ! hosting
 ||weebly.*^$document
