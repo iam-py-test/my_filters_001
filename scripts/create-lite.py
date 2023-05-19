@@ -8,11 +8,11 @@ psl = publicsuffixlist.PublicSuffixList()
 
 list1 = """[Adblock Plus 2.0]
 ! Title: The malicious website blocklist (lite)
-! Description: A lighter version of The malicious website blocklist, which has no comments, removes redundant entries (i.e. subdomains of already blocked domains) and has some extra protections against breakage
+! Description: A lighter version of The malicious website blocklist, which has no comments, removes redundant entries (i.e. subdomains of already blocked domains) and has some extra protections against mistakes
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-! Script last updated: 21/4/2023
+! Script last updated: 18/5/2023
 ! Last updated: {}
 ! Expires: 1 day
 
@@ -38,7 +38,7 @@ for line in lines:
     continue
   else:
     try:
-      domain = line.split("$")[0].split("^")[0][2:]
+      domain = line.split("^")[0][2:]
       rootdomain = psl.privatesuffix(domain)
       if rootdomain in done_domains:
         continue
