@@ -3,7 +3,7 @@
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # Please report false positives & unblocked domains to me using the GitHub or GitLab (urls below). Thanks!
 # Expires: 1 day
-# Last updated: 10/5/2023
+# Last updated: 18/5/2023
 # Issues url: https://github.com/iam-py-test/my_filters_001/issues
 # GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 # If you want shorter urls, check out DandelionSprout's Actually Legitimate URL Shortener Tool at https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
@@ -349,3 +349,5 @@
 # https://forums.malwarebytes.com/topic/297907-massive-amounts-of-scammershackers-targeting-local-news-station/
 0.0.0.0 wee.so
 # NSFW redirects
+# https://github.com/uBlockOrigin/uAssets/issues/18115#issuecomment-1553820376
+0.0.0.0 uprot.net
