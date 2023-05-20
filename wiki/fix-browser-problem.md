@@ -1,5 +1,5 @@
 ## Fix browser-based malware
-Browser-based malware is fairly common now days. This guide should help remove a few of the most common types.
+Browser-based malware is common now days. This guide should help remove a few of the most common types.
 
 Warning: This is a work in progress!
 
@@ -8,10 +8,10 @@ Warning: This is a work in progress!
 
 ### Remove spam notifications
 Malicious websites can send you spammy notifications, such as fake warnings about malware: <br>
-<img src="spam notifiation 1.jpg" width=300 height=300>
+<img src="spam notification 1.jpg" width=300 height=300>
 <img src="notification spam 2.jpg" width=300 height=300>
 
-Revoke the ability to send notifiations for all but sites which need it and which you trust:
+Revoke the ability to send notifications for all but sites which need it and which you trust:
 - Chrome: https://support.google.com/chrome/answer/114662 (under Learn about permissions that can be changed, then scroll down)
 - Firefox: https://support.mozilla.org/en-US/kb/push-notifications-firefox#w_how-do-i-revoke-web-push-permissions-for-a-specific-site ([Firefox for Android](https://support.mozilla.org/en-US/kb/manage-notifications-firefox-android))
 - Edge: https://products.support.services.microsoft.com/en-us/microsoft-edge/manage-website-notifications-in-microsoft-edge-0c555609-5bf2-479d-a59d-fb30a0b80b2b
@@ -32,14 +32,14 @@ Homepage/new tab:
 - Firefox: https://support.mozilla.org/en-US/kb/change-your-default-search-settings-firefox
 - Chrome: https://support.google.com/chrome/answer/95426
 - Edge: https://support.microsoft.com/en-us/microsoft-edge/change-your-default-search-engine-in-microsoft-edge-cccaf51c-a4df-a43e-8036-d4d2c527a791
-<br>If your browser says the homepage or search engine is managed by an extension, follow [the instructions below to uninstall that extension](#uninstall-a-specific-extension). If that does not work, try [reseting browser sync](#reset-browser-sync) and [removing policies (Windows only)](#remove-browser-policies-windows).
+<br>If your browser says the homepage or search engine is managed by an extension, follow [the instructions below to uninstall that extension](#uninstall-a-specific-extension). If that does not work, try [resetting browser sync](#reset-browser-sync) and [removing policies (Windows only)](#remove-browser-policies-windows).
 
 ### Uninstall a specific extension
 If a specific extension is causing problems, you can uninstall it: 
 - Firefox: https://support.mozilla.org/en-US/kb/disable-or-remove-add-ons
 - Chrome: https://support.google.com/chrome_webstore/answer/2664769
 - Edge: https://support.microsoft.com/en-us/microsoft-edge/add-turn-off-or-remove-extensions-in-microsoft-edge-9c0ec68c-2fbc-2f2c-9ff0-bdc76f46b026
-In some cases, extensions can not be removed or reappear. If that happens, [make sure browser sync is not restoring them](#reset-browser-sync).
+In some cases, extensions cannot be removed or reappear. If that happens, [make sure browser sync is not restoring them](#reset-browser-sync).
 If you are unsure what extensions to uninstall, see if you have [any of the extensions listed below](#known-malware-browser-extensions) installed, and if so, try uninstalling them. You also can try disabling your extensions one-by-one and seeing which one is causing the problem.
 
 #### Known malware browser extensions
@@ -50,7 +50,7 @@ Changes your search engine to `search[.]mysecurify[.]com`, which redirects to Bi
 ### Remove a theme
 Themes should not be able to do anything bad (to my knowledge), are rarely ever are malware. However, should you want to remove them, here is how:
 - Chrome: https://support.google.com/chrome_webstore/answer/148695
-- Edge: https://www.howtogeek.com/725974/how-to-add-and-remove-themes-in-microsoft-edge/ (unoffical guide, instructions are under "How to Remove or Uninstall Themes from Microsoft Edge")
+- Edge: https://www.howtogeek.com/725974/how-to-add-and-remove-themes-in-microsoft-edge/ (unofficial guide, instructions are under "How to Remove or Uninstall Themes from Microsoft Edge")
 
 ### Reset browser sync
 Many browsers now have the ability to sync data between devices. This feature sadly has the side effect of causing unwanted browser changes to reappear, even after being removed. **Be aware that clearing your sync data probably will cause some synced data to be lost. Be sure to save any important data (i.e. passwords) securely outside your browser just in case.**<br>
@@ -103,7 +103,7 @@ Open regedit and delete these keys:
 </ul>
 </details>
 
-### Dealing with agressive malware
+### Dealing with aggressive malware
 Before continuing, try all the prior steps. This is the "nuclear" option. It will remove most/all data, so be sure you have anything (passwords, bookmarks) backed up. I do not have good guides for all browsers.
 - MacOS (Safari and Chrome): https://forums.malwarebytes.com/topic/236261-how-to-remove-the-after-effects-of-adware/
 - Windows/Chrome: https://forums.malwarebytes.com/topic/258938-resetting-google-chrome-to-clear-unexpected-issues/
