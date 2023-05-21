@@ -311,6 +311,8 @@ linkpc.net
 dnsget.org
 sql01.com
 nsupdate.info
+sieraddns.com
+xddns.de
 at-band-camp.net
 ath.cx
 barrel-of-knowledge.info
