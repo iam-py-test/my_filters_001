@@ -5,7 +5,7 @@
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 ! Expires: 1 day
-! Last updated: 12/5/2023
+! Last updated: 21/5/2023
 
 ! Abused TLDs
 ||win^$document
@@ -46,3 +46,6 @@
 ! already blocked in MWB - discord nitro scam
 .xyz/nitrocodes/|$document
 
+! various URLHaus URLs
+||transfer.sh/get/*/svchost.exe|$all
+||cdn.discordapp.com/attachments/*/*/svchost.exe|$all
