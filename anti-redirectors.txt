@@ -465,3 +465,7 @@
 
 ! https://forums.malwarebytes.com/topic/298132-infection-and-cleaning-result-confirmation/
 ||your.ls^$document
+
+! "We shorten your long URLs!"
+||chilp.it^$document
+||p.chilp.it^$document
