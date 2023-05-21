@@ -3130,6 +3130,7 @@ search.brave.com##div.fdb.snippet:has(a[href*="://dgbdhvqpwvplersqjytw.dunkansp.
 search.brave.com##div.fdb.snippet:has(a[href*="://skytils.net"])
 search.brave.com##div.fdb.snippet:has(a[href*="://skyblockmaniacs.net"])
 search.brave.com##div.fdb.snippet:has(a[href*="://fragbots.net"])
+search.brave.com##div.fdb.snippet:has(a[href*="://steelseries.club"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublockerext.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://quatrefeuillepolonaise.xyz"])

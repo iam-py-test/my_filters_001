@@ -353,3 +353,6 @@
 0.0.0.0 uprot.net
 # https://forums.malwarebytes.com/topic/298132-infection-and-cleaning-result-confirmation/
 0.0.0.0 your.ls
+# "We shorten your long URLs!"
+0.0.0.0 chilp.it
+0.0.0.0 p.chilp.it
