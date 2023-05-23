@@ -4,7 +4,7 @@
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # Issues url: https://github.com/iam-py-test/my_filters_001/issues
 # GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-# Last updated: 12/5/2023
+# Last updated: 22/5/2023
 # https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 # https://www.virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
 # https://www.virustotal.com/gui/domain/xn--gogle-jua.com/detection
@@ -448,3 +448,22 @@
 0.0.0.0 you8tube.com
 # https://forum.adguard.com/index.php?threads/dischrdapp-com-newyears.46467/
 0.0.0.0 dischrdapp.com
+# .zip domains which might also be common filenames (remove if they ever become legit websites)
+0.0.0.0 familyphotos.zip
+0.0.0.0 archive.zip
+0.0.0.0 photos.zip
+0.0.0.0 42.zip
+0.0.0.0 microsoft-office.zip
+0.0.0.0 document.zip
+0.0.0.0 download.zip
+0.0.0.0 a.zip
+0.0.0.0 rar.zip
+0.0.0.0 taxdocuments.zip
+0.0.0.0 financialstatement.zip
+0.0.0.0 datasets.zip
+# .mov domains which also might be common filenames (remove if they ever become legit websites)
+0.0.0.0 family.mov
+0.0.0.0 familyvideo.mov
+0.0.0.0 video.mov
+0.0.0.0 movie.mov
+0.0.0.0 funny.mov
