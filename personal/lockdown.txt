@@ -51,6 +51,8 @@
 ||id^$document
 ||zip^$all
 ||work^$all
+||md^$all
+||mov^$all
 
 ! hosting
 ||weebly.*^$document

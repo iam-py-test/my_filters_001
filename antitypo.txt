@@ -5,7 +5,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-! Last updated: 22/5/2023
+! Last updated: 23/5/2023
 
 ! https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 ! https://www.virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
@@ -522,3 +522,7 @@
 ||video.mov^$document
 ||movie.mov^$document
 ||funny.mov^$document
+
+! https://forums.malwarebytes.com/topic/298186-accidentally-visited-potential-maliciousmalware-website/
+! (my analysis) https://tria.ge/230523-zqkhmahd85/behavioral2
+||doodrdash.com^$all

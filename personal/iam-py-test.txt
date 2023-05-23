@@ -110,6 +110,7 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||iyfbodn.com^$all
 ||singleflirt.com^$all
 ||iflirts.com^$all
+||ktm365.com^$all
 
 ! ---- unwanted allowlist rules ----
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument,badfilter
