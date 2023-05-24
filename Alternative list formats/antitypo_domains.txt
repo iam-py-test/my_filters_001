@@ -330,3 +330,5 @@ video.mov
 movie.mov
 funny.mov
 doodrdash.com
+locahost
+readme.md

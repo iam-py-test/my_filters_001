@@ -470,3 +470,7 @@
 # https://forums.malwarebytes.com/topic/298186-accidentally-visited-potential-maliciousmalware-website/
 # (my analysis) https://tria.ge/230523-zqkhmahd85/behavioral2
 0.0.0.0 doodrdash.com
+# doubt this will do any harm, but adding anyway
+0.0.0.0 locahost
+# is autolinked, also is a common filename
+0.0.0.0 readme.md
