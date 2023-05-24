@@ -33,7 +33,6 @@
 ||icu^$all
 ||shop^$all
 ||mobi^$all
-||it^$all
 ||tube^$all
 ||pro^$all
 ||club^$all
