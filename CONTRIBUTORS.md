@@ -11,4 +11,5 @@ This project is currently maintained by [@iam-py-test](https://github.com/iam-py
 - [@nicolaasjan](https://github.com/nicolaasjan) for [reporting that not encoding Cyrillic domains into Punycode causes problems](https://github.com/iam-py-test/my_filters_001/issues/102), and [reporting a few invalid entries in the HOSTs format](https://github.com/iam-py-test/my_filters_001/issues/103), and [other reports](https://github.com/iam-py-test/my_filters_001/issues/109).
 - [@bestplayerbot](https://github.com/bestplayerbot) for reporting a false positive, and following up with that issue report
 - [@pgl](https://github.com/pgl) for removing a ton of dead domains for me!
-- anyone else who opened an issue who isn't listed here
+- [@yokoffing](https://github.com/yokoffing) [for reporting a false positive and opening a PR to fix it](https://github.com/iam-py-test/my_filters_001/pull/114)
+- anyone else who opened an issue, pull request, or otherwise contributed who isn't listed here

@@ -4,57 +4,73 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Please report false positives & unblocked domains to me using the GitHub or GitLab (urls below). Thanks!
 ! Expires: 1 day
-! Last updated: 20/5/2023
+! Last updated: 24/5/2023
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 ! If you want shorter urls, check out DandelionSprout's Actually Legitimate URL Shortener Tool at https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
 
 ! Google redirects
 ||google.*/url?$document
+
 ! Facebook
 ! https://www.eff.org/deeplinks/2018/05/privacy-badger-rolls-out-new-ways-fight-facebook-tracking
 ||l.facebook.com/l.php?$document
+
 ! URL shorteners
 ! http://www.surbl.org/tld
 ! https://www.mywot.com/scorecard/x.co
 ||x.co^$document
+
 ! https://www.mywot.com/scorecard/bitly.com
 ! https://www.mywot.com/scorecard/bit.ly
 ||bit.ly^$document
+
 ! https://www.mywot.com/scorecard/bit.do
 ||bit.do^$document
+
 ! https://www.mywot.com/scorecard/ow.ly
 ||ow.ly^$document
+
 ! https://www.mywot.com/scorecard/goo.gl
 ! Has been shutdown by google but old links will still work - see https://developers.googleblog.com/2018/03/transitioning-google-url-shortener.html
 ||goo.gl^$document
+
 ! https://www.mywot.com/scorecard/rebrand.ly
 ||rebrand.ly^$document
+
 ! https://www.mywot.com/scorecard/tinyurl.com
 ||tinyurl.com^$document
 ||tinyurl.hu^$document
+
 ! https://www.mywot.com/scorecard/t.co - breaks Twitter links
 ||t.co^$document
+
 ! https://www.mywot.com/scorecard/is.gd
 ||is.gd^$document
+
 ! https://www.mywot.com/scorecard/ht.ly
 ! https://www.virustotal.com/gui/url/622b404a5a4800592ffcf7ed931af3fe700b03453d7c2c0549db932c2c1def56/community
 ||ht.ly^$document
+
 ! https://github.com/DandelionSprout/adfilt/issues/191
 ||rb.gy^$document
+
 ! https://github.com/uBlockOrigin/uAssets/issues/7636#issuecomment-831362259
 ! https://www.virustotal.com/gui/url/f76ff730e3eed94c7285ffd57e9e2e97c33e83f3b94690fd765fea325aea9acc/detection
 ! https://www.mywot.com/scorecard/href.li
 ||href.li^$document
+
 ! https://www.reddit.com/r/uBlockOrigin/comments/nsi67q/shortner_detected_ublock_origin/
 ! https://www.mywot.com/scorecard/link1s.com
 ! https://www.virustotal.com/gui/url/0eec678febb448dd69296061732d621acc6f409418c6e5dee961ddc1f3264c81/detection
 ! https://sitecheck.sucuri.net/results/link1s.com
 ! https://yandex.com/safety/?url=https%3A%2F%2Flink1s.com%2Fw9NR0gIK
 ||link1s.com^$document
+
 ! https://github.com/easylist/easylist/issues/8041
 ||urlshortx.com^$document
-! https://www.businessonhome.com/best-url-shortener-to-earn-money/#8019
+
+! https[://]www.businessonhome[.]com/best-url-shortener-to-earn-money/#8019
 ||exe.io^$document
 ||fc.lc^$document
 ||shrinkme.io^$document
@@ -65,10 +81,13 @@
 ! real "short" urls
 ||fc-lc.com^$document
 ||exee.app^$document
+
 ! https://safeweb.norton.com/reviews?url=adfoc.us
 ||adfoc.us^$document
+
 ! https://www.mywot.com/en/scorecard/shorte.st
 ||shorte.st^$document
+
 ! https://www.mywot.com/en/scorecard/www.linkbucks.com
 ! https://safeweb.norton.com/reviews?url=linkbucks.com
 ||www.linkbucks.com^$document
@@ -86,6 +105,7 @@
 ||buff.ly^$document
 
 ! https://www.mywot.com/scorecard/go.microsoft.com
+! breaks a lot of things on M$ websites
 ||go.microsoft.com^$document
 
 ! https://github.com/404-not-find/urlshorten
@@ -154,11 +174,14 @@
 ! hxxps://mywplife.com/software/url-shorteners/
 ||prettylinks.com^$document
 ||www.bl.ink^$document
+
 ! https://www.mywot.com/scorecard/snip.ly
 ! https://www.virustotal.com/gui/url/36bb85670e9c603bd41f688db1a3caa1ba5555c790abc621198a0e2b2b2ac590/detection
 ||snip.ly^$document
+
 ! mywplife.com redirects
 ||mywplife.com/out/$document
+
 ! https://www.virustotal.com/gui/url/d4bd72283480a00bdabbcc5f35234506988584de62ec047f4ce14059811b160f/detection
 ! https://www.mywot.com/scorecard/itsssl.com
 ! https://safeweb.norton.com/report/show?url=itsssl.com
@@ -178,7 +201,7 @@
 ||amazon.com/gp/redirect.html/$document
 
 ! Tracker redirects on a Zoom invite
-||clicks.eventbrite.com/f/a/$document
+||clicks.eventbrite.com^$document
 
 ! Bing redirects (use uBo's query-param parsing find the original url and bypass the redirect)
 ||bing/newtabredirect$document
@@ -195,7 +218,11 @@
 ||iplogger.org^$document
 ! Another varation
 ! https://www.virustotal.com/gui/url/666cbd470e33070bbad62d9e92af4d80dad15e4136fcbdea6a364c38245b2d75/community
-||iplogger.com^$all
+||iplogger.com^$document
+! more similar
+||iplogger.ru^$document
+||iplogger.co^$document
+||ipgraber.ru^$document
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1490207
 ||go.skimresources.com^$document
@@ -472,3 +499,19 @@
 
 ! hxxpx://www.youtube[.]com/watch?v=4n0F74yHyOM
 ||pxl.to^$document
+
+! https://github.com/uBlockOrigin/uAssets/discussions/18185#discussioncomment-5993286
+||app.adjust.com/*?redirect=$document
+!#if false
+! for the domain lists
+||adjust.com^
+!#endif
+
+! https://forums.malwarebytes.com/topic/294989-making-sense-of-a-website-exclusion-issue/
+! https://forums.malwarebytes.com/topic/294994-possible-false-positive/ (account required)
+||stopify.co^$document
+||grabify.world^$document
+
+! new adfly "linkverse" thingy
+||direct-link.net^$document
+||cdn-lv3.de^$document
