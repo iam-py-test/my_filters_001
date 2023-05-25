@@ -12,7 +12,7 @@ list1 = """[Adblock Plus 2.0]
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-! Script last updated: 18/5/2023
+! Script last updated: 25/5/2023
 ! Last updated: {}
 ! Expires: 1 day
 
@@ -20,6 +20,7 @@ list1 = """[Adblock Plus 2.0]
 done_entries = []
 bannedfilters = []
 done_domains = []
+all_domains = []
 try:
   bannedfilters += list(filter(bool,requests.get(BANNED_FILTERS_URL).text.split("\n")))
 except:
@@ -39,6 +40,8 @@ for line in lines:
   else:
     try:
       domain = line.split("^")[0][2:]
+      if psl.publicsuffix(domain):
+        continue
       rootdomain = psl.privatesuffix(domain)
       if rootdomain in done_domains:
         continue
@@ -46,10 +49,16 @@ for line in lines:
         list1 += line + "\n"
         done_entries.append(line)
         done_domains.append(domain)
+        if "/" not in domain:
+          all_domains.append(doman)
     except Exception as err:
       print(err)
       list1 += line + "\n"
       done_entries.append(line)
 endlist = open("Alternative list formats/antimalware_lite.txt","w",encoding="UTF-8")
 endlist.write(list1)
+endlist.close()
+
+endlist = open("Alternative list formats/antimalware_lite_domains.txt","w",encoding="UTF-8")
+endlist.write("\n".join(all_domains))
 endlist.close()

@@ -531,3 +531,6 @@
 
 ! is autolinked, also is a common filename
 ||readme.md^$document
+
+! https://old.reddit.com/r/uBlockOrigin/comments/13r51k1/goglelcom_typosquatting/
+||goglel.com^$document
