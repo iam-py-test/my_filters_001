@@ -473,3 +473,5 @@
 0.0.0.0 locahost
 # is autolinked, also is a common filename
 0.0.0.0 readme.md
+# https://old.reddit.com/r/uBlockOrigin/comments/13r51k1/goglelcom_typosquatting/
+0.0.0.0 goglel.com
