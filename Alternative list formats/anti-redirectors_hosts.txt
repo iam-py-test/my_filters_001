@@ -3,7 +3,7 @@
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # Please report false positives & unblocked domains to me using the GitHub or GitLab (urls below). Thanks!
 # Expires: 1 day
-# Last updated: 20/5/2023
+# Last updated: 24/5/2023
 # Issues url: https://github.com/iam-py-test/my_filters_001/issues
 # GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 # If you want shorter urls, check out DandelionSprout's Actually Legitimate URL Shortener Tool at https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
@@ -50,7 +50,7 @@
 0.0.0.0 link1s.com
 # https://github.com/easylist/easylist/issues/8041
 0.0.0.0 urlshortx.com
-# https://www.businessonhome.com/best-url-shortener-to-earn-money/#8019
+# https[://]www.businessonhome[.]com/best-url-shortener-to-earn-money/#8019
 0.0.0.0 exe.io
 0.0.0.0 fc.lc
 0.0.0.0 shrinkme.io
@@ -77,6 +77,7 @@
 # https://www.mywot.com/scorecard/buff.ly
 0.0.0.0 buff.ly
 # https://www.mywot.com/scorecard/go.microsoft.com
+# breaks a lot of things on M$ websites
 0.0.0.0 go.microsoft.com
 # https://github.com/404-not-find/urlshorten
 # https://www.mywot.com/scorecard/t.cn
@@ -149,6 +150,7 @@
 0.0.0.0 v.ht
 # Amazon redirections
 # Tracker redirects on a Zoom invite
+0.0.0.0 clicks.eventbrite.com
 # Bing redirects (use uBo's query-param parsing find the original url and bypass the redirect)
 # Possible tracker redirects
 # https://www.virustotal.com/gui/url/324d9f78151bf5a2a8130b07849f9427c2ce45abf5dd1276100cf5dd71bf9ec1/details
@@ -161,6 +163,10 @@
 # Another varation
 # https://www.virustotal.com/gui/url/666cbd470e33070bbad62d9e92af4d80dad15e4136fcbdea6a364c38245b2d75/community
 0.0.0.0 iplogger.com
+# more similar
+0.0.0.0 iplogger.ru
+0.0.0.0 iplogger.co
+0.0.0.0 ipgraber.ru
 # https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1490207
 0.0.0.0 go.skimresources.com
 # https://github.com/mitchellkrogza/phishing/pull/81
@@ -358,3 +364,15 @@
 0.0.0.0 p.chilp.it
 # hxxpx://www.youtube[.]com/watch?v=4n0F74yHyOM
 0.0.0.0 pxl.to
+# https://github.com/uBlockOrigin/uAssets/discussions/18185#discussioncomment-5993286
+##if false
+# for the domain lists
+0.0.0.0 adjust.com
+##endif
+# https://forums.malwarebytes.com/topic/294989-making-sense-of-a-website-exclusion-issue/
+# https://forums.malwarebytes.com/topic/294994-possible-false-positive/ (account required)
+0.0.0.0 stopify.co
+0.0.0.0 grabify.world
+# new adfly "linkverse" thingy
+0.0.0.0 direct-link.net
+0.0.0.0 cdn-lv3.de
