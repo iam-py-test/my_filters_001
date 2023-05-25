@@ -40,8 +40,7 @@ for line in lines:
   else:
     try:
       domain = line.split("^")[0][2:]
-      print(domain)
-      if psl.ispublic(domain):
+      if psl.is_public(domain):
         continue
       rootdomain = psl.privatesuffix(domain)
       if rootdomain in done_domains or domain in done_domains:
