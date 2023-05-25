@@ -49,8 +49,12 @@ www.bl.ink
 snip.ly
 itsssl.com
 v.ht
+clicks.eventbrite.com
 iplogger.org
 iplogger.com
+iplogger.ru
+iplogger.co
+ipgraber.ru
 go.skimresources.com
 sniffip.com
 kqzyfj.com
@@ -181,3 +185,8 @@ your.ls
 chilp.it
 p.chilp.it
 pxl.to
+adjust.com
+stopify.co
+grabify.world
+direct-link.net
+cdn-lv3.de
