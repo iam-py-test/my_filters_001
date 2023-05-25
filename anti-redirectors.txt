@@ -515,3 +515,5 @@
 ! new adfly "linkverse" thingy
 ||direct-link.net^$document
 ||cdn-lv3.de^$document
+||link-center.net^$document
+||linkvertise.com^$document

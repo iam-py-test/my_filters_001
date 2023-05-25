@@ -5,10 +5,11 @@
 ! site-specific cosmedic filters
 drweb.com##.JsDisabled
 python.org###nojs
-pypi.org##.notification-bar--warning.notification-bar
+! pypi.org##.notification-bar--warning.notification-bar
 
 ! generic cosmedic filters
 ###nojs-banner
+##.u-noJsOnly.blockMessage--iconic
 
 ! HTML filtering rules
 
