@@ -1,10 +1,25 @@
 import datetime
 import requests
 import publicsuffixlist
+import re
 
 BANNED_FILTERS_URL = "https://raw.githubusercontent.com/iam-py-test/allowlist/main/filter.txt"
 
 psl = publicsuffixlist.PublicSuffixList()
+
+# https://www.geeksforgeeks.org/how-to-validate-an-ip-address-using-regex/
+is_ip_v4 = "^((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\.){3}(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])$"
+is_ip_v6 = "((([0-9a-fA-F]){1,4})\\:){7}"\
+             "([0-9a-fA-F]){1,4}"
+is_ip_v4_reg = re.compile(is_ip_v4)
+is_ip_v6_reg = re.compile(is_ip_v6)
+
+def isipdomain(domain):
+  if re.search(is_ip_v4_reg,domain):
+    return True
+  if re.search(is_ip_v6_reg,domain):
+    return True
+  return False
 
 list1 = """[Adblock Plus 2.0]
 ! Title: The malicious website blocklist (lite)
@@ -49,7 +64,7 @@ for line in lines:
         list1 += line + "\n"
         done_entries.append(line)
         done_domains.append(domain)
-        if "/" not in domain:
+        if "/" not in domain and isipdomain(domain) == False:
           all_domains.append(domain)
     except Exception as err:
       print(err)
