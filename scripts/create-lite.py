@@ -40,17 +40,18 @@ for line in lines:
   else:
     try:
       domain = line.split("^")[0][2:]
+      print(domain)
       if psl.ispublic(domain):
         continue
       rootdomain = psl.privatesuffix(domain)
-      if rootdomain in done_domains:
+      if rootdomain in done_domains or domain in done_domains:
         continue
       else:
         list1 += line + "\n"
         done_entries.append(line)
         done_domains.append(domain)
         if "/" not in domain:
-          all_domains.append(doman)
+          all_domains.append(domain)
     except Exception as err:
       print(err)
       list1 += line + "\n"
