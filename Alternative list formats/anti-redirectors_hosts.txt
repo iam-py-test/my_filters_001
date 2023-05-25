@@ -376,3 +376,5 @@
 # new adfly "linkverse" thingy
 0.0.0.0 direct-link.net
 0.0.0.0 cdn-lv3.de
+0.0.0.0 link-center.net
+0.0.0.0 linkvertise.com
