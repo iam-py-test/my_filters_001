@@ -6,7 +6,7 @@ for flist in lists:
   reviewedlines[flist] = []
   lines = open(flist).read().split('\n')
   for line in lines:
-    if line.startswith("!") != True and line.startwith("#") != True and line != "" and line != "[Adblock Plus 2.0]" and line not in reviewedlines[flist]:
+    if line.startswith("!") != True and line.startswith("#") != True and line != "" and line != "[Adblock Plus 2.0]" and line not in reviewedlines[flist]:
       num += 1
       reviewedlines[flist].append(line)
       
