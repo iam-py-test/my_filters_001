@@ -172,7 +172,7 @@ def convert_to_abp(clist,clistpath="./list.txt",include=False):
         endlist += line + "\n"
       elif line.startswith("||") and "$" in line:
         modifier = line.split("$")[1]
-        if "all" in modifier or "doc" in modifier or "important" in modifier:
+        if "all" in modifier or "doc" in modifier or "important" in modifier or "redirect" in modifier:
           modifier = ""
         else:
           modifier = "${}".format(modifier)
