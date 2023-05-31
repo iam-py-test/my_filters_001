@@ -17,7 +17,7 @@ mwb_file.close()
 part_name = ""
 titlearea = ""
 
-print(os.getcwd())
+print(os.getcwd(), args)
 
 include_list = None
 def include_list(path,parentpath):
@@ -52,7 +52,8 @@ for l in mwb:
         mwb_parts[part_name] += l + "\n"
 
 for part in mwb_parts:
-    partfilename = os.path.join(args.outdir,part)
+    partfilename = os.path.abspath(os.path.join(args.outdir,part))
+    print(partfilename)
     partfile = open(partfilename,'w',encoding="UTF-8")
     partfile.write(titlearea)
     partfile.write(mwb_parts[part])
