@@ -51,7 +51,7 @@ for line in lines:
         invalidlines.append(line)
         print("False positive detected: WARNING")
       else:
-        privatedomain = publicsuffixlist.privatesuffix(domain)
+        privatedomain = p.privatesuffix(domain)
         if privatedomain in wildcard_allow:
           invalidlines.append(line)
     except Exception as err:

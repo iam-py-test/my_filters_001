@@ -17,6 +17,8 @@ mwb_file.close()
 part_name = ""
 titlearea = ""
 
+print(os.getpwd())
+
 include_list = None
 def include_list(path,parentpath):
     reldir = os.path.split(parentpath)[0]
