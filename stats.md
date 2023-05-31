@@ -2,7 +2,7 @@
 #### porn.txt
 Entries: 1580 <br> 
 #### antimalware.txt
-Entries: 10183 <br> 
+Entries: 10185 <br> 
 #### antitypo.txt
 Entries: 334 <br> 
 #### anti-redirectors.txt
@@ -10,7 +10,7 @@ Entries: 216 <br>
 #### anti-cookie+sign up.txt
 Entries: 344 <br> 
 #### anti-rickroll-list.txt
-Entries: 226 <br> 
+Entries: 223 <br> 
 #### annoyances.txt
 Entries: 109 <br> 
 #### duckduckgo-clean-up.template

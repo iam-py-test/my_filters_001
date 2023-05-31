@@ -1,0 +1,158 @@
+[Adblock Plus 2.0]
+! Title: The malicious website blocklist
+! Homepage: https://github.com/iam-py-test/my_filters_001
+! Expires: 1 day
+! Last updated: 31/5/2023
+! Version: 3152023-1
+! Description: This list aims to protect against scams, phishing, malware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
+! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
+! Issues url: https://github.com/iam-py-test/my_filters_001/issues
+! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
+! Note: This list includes a version of VXVault.net's malware distribution url list, formatted for adblockers, which is at https://github.com/iam-py-test/vxvault_filter
+
+
+! copied from https://github.com/AssoEchap/stalkerware-indicators/blob/adae94598f8d628a4af90f9bf323553d3ec683a4/ioc.yaml#L1-L273 - https://github.com/AssoEchap/stalkerware-indicators#license (modified to be in uBo format, removed a few domains)
+||phonespying.com^$all
+||app.phonespying.com^$document
+||copy9.com^$document
+||fonetracker.com^$document
+||thetruthspy.com^$all
+||icloudappe.com^$all
+||spyzee.com^$all
+||media-sync-a.copy9.com^$all
+||media-sync-a.fonetracker.com^$all
+||media-sync-a.thetruthspy.com^$all
+||media-sync-a100.fonetracker.com^$all
+||media-sync-a600.fonetracker.com^$all
+||media-sync-a740.thetruthspy.com^$all
+||media-sync-a743.thetruthspy.com^$all
+||media-sync-a746.thetruthspy.com^$all
+||media-sync-a747.thetruthspy.com^$all
+||media-sync-a748.thetruthspy.com^$all
+||media-sync-a749.thetruthspy.com^$all
+||media-sync-a780.fonetracker.com^$all
+||media-sync-a785.fonetracker.com^$all
+||media-sync-a7xx.thetruthspy.com^$all
+||media-sync-a810.thetruthspy.com^$all
+||media-sync-a820.thetruthspy.com^$all
+||media-sync-a825.thetruthspy.com^$all
+||media-sync-a830.thetruthspy.com^$all
+||media-sync-a835.thetruthspy.com^$all
+||media-sync-a895.thetruthspy.com^$all
+||media-sync-a8xx.thetruthspy.com^$all
+||media-sync-a910.thetruthspy.com^$all
+||media-sync-a915.thetruthspy.com^$all
+||media-sync-a920.thetruthspy.com^$all
+||media-sync-a925.thetruthspy.com^$all
+||media-sync-a930.thetruthspy.com^$all
+||media-sync-a935.thetruthspy.com^$all
+||media-sync-a940.thetruthspy.com^$all
+||media-sync-a941.thetruthspy.com^$all
+||media-sync-a942.thetruthspy.com^$all
+||media.thetruthspy.com^$all
+||my.copy9.com^$all
+||my.ispyoo.com^$all
+||my.thetruthspy.com^$all
+||my.thespyapp.com^$all
+||phonetracking.net^$all
+||protocol-a.copy9.com^$all
+||protocol-a.exactspy.com^$all
+||protocol-a.fonetracker.com^$all
+||protocol-a.ispyoo.com^$all
+||protocol-a.mxspy.com^$all
+||protocol-a.thetruthspy.com^$all
+||protocol-a100.fonetracker.com^$all
+||protocol-a600.fonetracker.com^$all
+||protocol-a621.copy9.com^$all
+||protocol-a696.copy9.com^$all
+||protocol-a710.copy9.com^$all
+||protocol-a712.fonetracker.com^$all
+||protocol-a740.thetruthspy.com^$all
+||protocol-a741.thetruthspy.com^$all
+||protocol-a742.thetruthspy.com^$all
+||protocol-a743.thetruthspy.com^$all
+||protocol-a744.thetruthspy.com^$all
+||protocol-a745.thetruthspy.com^$all
+||protocol-a746.thetruthspy.com^$all
+||protocol-a747.thetruthspy.com^$all
+||protocol-a748.thetruthspy.com^$all
+||protocol-a749.thetruthspy.com^$all
+||protocol-a780.copy9.com^$all
+||protocol-a780.fonetracker.com^$all
+||protocol-a780.ispyoo.com^$all
+||protocol-a780.mxspy.com^$all
+||protocol-a785.copy9.com^$all
+||protocol-a785.fonetracker.com^$all
+||protocol-a810.ispyoo.com^$all
+||protocol-a810.thetruthspy.com^$all
+||protocol-a811.ispyoo.com^$all
+||protocol-a811.mxspy.com^$all
+||protocol-a880.ispyoo.com^$all
+||protocol-a910.thetruthspy.com^$all
+||protocol-a915.thetruthspy.com^$all
+||protocol-a920.thetruthspy.com^$all
+||protocol-a925.thetruthspy.com^$all
+||protocol-a930.thetruthspy.com^$all
+||protocol-a935.thetruthspy.com^$all
+||protocol-a940.thetruthspy.com^$all
+||protocol-a941.thetruthspy.com^$all
+||protocol-a942.thetruthspy.com^$all
+||protocol-monitor.thetruthspy.com^$all
+||protocol-viewer-a.copy9.com^$all
+||protocol.copy9.com^$all
+||protocol.ispyoo.com^$all
+||protocol.systemserviceprovider.com^$all
+||protocol.thetruthspy.com^$all
+||secondclone-2d312.firebaseio.com^$all
+||setupmail-a.icloudappe.com^$all
+||setupmail-a720.icloudappe.com^$all
+||setupmail-a722.icloudappe.com^$all
+||setupmail-a724.icloudappe.com^$all
+||setupmail-a725.icloudappe.com^$all
+||setupmail-a726.icloudappe.com^$all
+||setupmail-a727.icloudappe.com^$all
+||setupmail-a729.icloudappe.com^$all
+||setupmail-a732.icloudappe.com^$all
+||setupmail-a733.icloudappe.com^$all
+||setupmail-a734.icloudappe.com^$all
+||setupmail-a735.icloudappe.com^$all
+||setupmail-a737.icloudappe.com^$all
+||setupmail-a738.icloudappe.com^$all
+||setupmail-a740.icloudappe.com^$all
+||setupmail-a741.icloudappe.com^$all
+||setupmail-a742.icloudappe.com^$all
+||setupmail-a743.icloudappe.com^$all
+||setupmail-a744.icloudappe.com^$all
+||setupmail-a745.icloudappe.com^$all
+||setupmail-a746.icloudappe.com^$all
+||setupmail-a747.icloudappe.com^$all
+||setupmail-a748.icloudappe.com^$all
+||setupmail-a910.icloudappe.com^$all
+||setupmail-a915.icloudappe.com^$all
+||setupmail-a920.icloudappe.com^$all
+||setupmail.icloudappe.com^$all
+||sync-a.copy9.com^$all
+||sync-a.exactspy.com^$all
+||sync-a.fonetracker.com^$all
+||sync-a.ispyoo.com^$all
+||sync-a.mxspy.com^$all
+||sync-a.thetruthspy.com^$all
+||sync-a100.fonetracker.com^$all
+||sync-a600.fonetracker.com^$all
+||sync-a712.fonetracker.com^$all
+||sync-a7xx.thetruthspy.com^$all
+||sync-a8xx.thetruthspy.com^$all
+||sync-a925.thetruthspy.com^$all
+||sync-a930.thetruthspy.com^$all
+||sync-a935.thetruthspy.com^$all
+||sync-a940.thetruthspy.com^$all
+||sync-a941.thetruthspy.com^$all
+||sync-a942.thetruthspy.com^$all
+
+! https://github.com/AssoEchap/stalkerware-indicators/blob/9f656217ab46b2043612808940f4387b651000a9/ioc.yaml#L3937 - under https://github.com/AssoEchap/stalkerware-indicators#license
+! my analysis: https://app.any.run/tasks/57cdb248-461e-4dc5-b6b2-2235eec1e098/
+! my analysis: https://www.virustotal.com/gui/file/5809066a109718683fa1ffe3abcd0e6c9bd5f613279e081e31bc17e628d9bfba/detection
+! my analysis: https://tria.ge/230505-27f8mshd2v/behavioral1
+||myspyapps.com^$document
+||my-spy-a9c92.firebaseio.com^$document
+
