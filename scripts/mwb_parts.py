@@ -6,6 +6,10 @@ parser.add_argument("source",help="Where the MWB is")
 parser.add_argument("outdir",help="Where to save to")
 args = parser.parse_args()
 
+if os.path.exists(args.outdir) == False:
+    print("Not found. Creating...")
+    os.makedirs(args.outdir)
+
 mwb_parts = {
 
 }
