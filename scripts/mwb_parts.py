@@ -17,7 +17,7 @@ mwb_file.close()
 part_name = ""
 titlearea = ""
 
-print(os.getpwd())
+print(os.getcwd())
 
 include_list = None
 def include_list(path,parentpath):
