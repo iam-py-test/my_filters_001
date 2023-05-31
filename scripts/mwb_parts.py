@@ -34,7 +34,7 @@ def include_list(path,parentpath):
         includecontent = ""
         for l in includefilecontentlines:
             if l.startswith("!#include"):
-                includecontent += include_list(l[11:],includepath)
+                includecontent += include_list(l[10:],includepath)
             else:
                 includecontent += l + "\n"
         includecontentfile.close()
@@ -45,12 +45,12 @@ def include_list(path,parentpath):
 
 for l in mwb:
     if l.startswith("! ---- "):
-        part_name = l[6:-5]
+        part_name = l[7:-5]
         mwb_parts[part_name] = ""
     elif part_name == "":
         titlearea += l + "\n"
     elif l.startswith("!#include "):
-        includepath = l[11:]
+        includepath = l[10:]
         mwb_parts[part_name] += include_list(includepath,args.source)
     else:
         mwb_parts[part_name] += l + "\n"
