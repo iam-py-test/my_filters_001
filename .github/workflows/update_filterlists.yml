@@ -23,6 +23,7 @@ jobs:
         python scripts/create-lite.py
         python scripts/lint.py
         python scripts/checksum.py
+        python scripts/mwb_parts.py antimalware.txt "Alternative list formats/mwb_parts"
     - name: Commit & Push
       uses: actions-x/commit@v6
       with:

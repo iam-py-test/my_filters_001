@@ -1,8 +1,8 @@
 ! Title: Antirickroll list
 ! Description: Rickrolls are an annoying prank which is spreading on the internet. This list is designed to block known rickroll sites and rickroll images. It will be decommissioned once this dumb prank stops being popular.
 ! Note: This list works best when autoplay is disabled in the browser
-! Last updated: 8/12/2022
-! Expires: 2 days
+! Last updated: 30/5/2023
+! Expires: 10s days
 ! License: No copyright (CC0)
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -79,54 +79,55 @@
 ||youtube.com/watch?v=6_b7RDuLwcI^$document,frame
 !||youtube.com/watch?v=gC7Plr1DgiI$document,frame
 !||youtube.com/watch?v=HIcSWuKMwOw$document,frame
-||youtube.com/watch?v=rTgj1HxmUbg^$doc,frame
-||youtube.com/watch?v=zL19uMsnpSU^$doc,frame
-||youtube.com/watch?v=8vMZtXRq9B8^$doc,frame
-||youtube.com/watch?v=-g03jC71GBw^$doc,frame
-||youtube.com/watch?v=bIXm-Q-Xa4s^$doc,frame
-||youtube.com/watch?v=aqOoTQ-G-r4^$doc,frame
-||youtube.com/watch?v=vSKRVbVg6l4^$doc,frame
-||youtube.com/watch?v=KyJfb035uQ4^$doc,frame
-||youtube.com/watch?v=4-kg9y5mq1M^$doc,frame
-||youtube.com/watch?v=iKk8XLzOQBw^$doc,frame
-||youtube.com/watch?v=fOGEMwgqN20^$doc,frame
-||youtube.com/watch?v=gMA1FUpuELo^$doc,frame
-||youtube.com/watch?v=GheaIsTd7pY^$doc,frame
-||youtube.com/watch?v=gN1wZiwvjX4^$doc,frame
-||youtube.com/watch?v=DvqOdOY2a4I^$doc,frame
-||youtube.com/watch?v=QI1Xa3xEQQI^$doc,frame
-||youtube.com/watch?v=yeyRTDW4680^$doc,frame
-||youtube.com/watch?v=U5qh3E9JmkU^$doc,frame
-||youtube.com/watch?v=KO3G3gclgYg^$doc,frame
-||youtube.com/watch?v=UtPZcwPnvkw^$doc,frame
-||youtube.com/watch?v=kKi-AKvWHGM^$doc,frame
-||youtube.com/watch?v=PsAwRIT17Is^$doc,frame
-||youtube.com/watch?v=JrdGAcZ8vhs^$doc,frame
-||youtube.com/watch?v=6hlTj-cK7XU^$doc,frame
-||youtube.com/watch?v=sl0oROwLxlc^$doc,frame
-||youtube.com/watch?v=3-csLHSLS-k^$doc,frame
-||youtube.com/watch?v=j7gKwxRe7MQ^$doc,frame
-||youtube.com/watch?v=FqdmWQ-ACv0^$doc,frame
-||youtube.com/watch?v=jjnOn7e4k_M^$doc,frame
-||youtube.com/watch?v=mbi1xJXIqq8^$doc,frame
-||youtube.com/watch?v=pq88IKF2xy4^$doc,frame
-||youtube.com/watch?v=ts2Wy-TAgBs^$doc,frame
-||youtube.com/watch?v=2EkXa0GMH1w^$doc,frame
-||youtube.com/watch?v=uy6GMT4F6tk^$doc,frame
-||youtube.com/watch?v=Al2mDe5oA2E^$doc,frame
-||youtube.com/watch?v=bgVmj_5ooS8^$doc,frame
-||youtube.com/watch?v=rX5owpTm8kY^$doc,frame
-||youtube.com/watch?v=igaCvre6WmE^$doc,frame
-||youtube.com/watch?v=TDADLrMNY3k^$doc,frame
-||youtube.com/watch?v=YClj8irmwFA^$doc,frame
-||youtube.com/watch?v=UGTa_X8nGBY^$doc,frame
-||youtube.com/watch?v=0q2uTC0UDmQ^$doc,frame
-||youtube.com/watch?v=DcR2cN5I5Hk^$doc,frame
-||youtube.com/watch?v=zRwmPP0TfSE^$doc,frame
-||youtube.com/watch?v=z6wNtevjVOk^$doc,frame
-||youtube.com/watch?v=m6OCJxOsiyw^$doc,frame
-||youtube.com/watch?v=8iN8T-1_hrI^$doc,frame
-||youtube.com/watch?v=oml5cFYAlK8^$doc,frame
+||youtube.com/watch?v=rTgj1HxmUbg^$document,frame
+||youtube.com/watch?v=zL19uMsnpSU^$document,frame
+||youtube.com/watch?v=8vMZtXRq9B8^$document,frame
+||youtube.com/watch?v=-g03jC71GBw^$document,frame
+||youtube.com/watch?v=bIXm-Q-Xa4s^$document,frame
+||youtube.com/watch?v=aqOoTQ-G-r4^$document,frame
+||youtube.com/watch?v=vSKRVbVg6l4^$document,frame
+||youtube.com/watch?v=KyJfb035uQ4^$document,frame
+||youtube.com/watch?v=4-kg9y5mq1M^$document,frame
+||youtube.com/watch?v=iKk8XLzOQBw^$document,frame
+||youtube.com/watch?v=fOGEMwgqN20^$document,frame
+||youtube.com/watch?v=gMA1FUpuELo^$document,frame
+||youtube.com/watch?v=GheaIsTd7pY^$document,frame
+||youtube.com/watch?v=gN1wZiwvjX4^$document,frame
+||youtube.com/watch?v=DvqOdOY2a4I^$document,frame
+||youtube.com/watch?v=QI1Xa3xEQQI^$document,frame
+||youtube.com/watch?v=yeyRTDW4680^$document,frame
+||youtube.com/watch?v=U5qh3E9JmkU^$document,frame
+||youtube.com/watch?v=KO3G3gclgYg^$document,frame
+||youtube.com/watch?v=UtPZcwPnvkw^$document,frame
+||youtube.com/watch?v=kKi-AKvWHGM^$document,frame
+||youtube.com/watch?v=PsAwRIT17Is^$document,frame
+||youtube.com/watch?v=JrdGAcZ8vhs^$document,frame
+||youtube.com/watch?v=6hlTj-cK7XU^$document,frame
+||youtube.com/watch?v=sl0oROwLxlc^$document,frame
+||youtube.com/watch?v=3-csLHSLS-k^$document,frame
+||youtube.com/watch?v=j7gKwxRe7MQ^$document,frame
+||youtube.com/watch?v=FqdmWQ-ACv0^$document,frame
+||youtube.com/watch?v=jjnOn7e4k_M^$document,frame
+||youtube.com/watch?v=mbi1xJXIqq8^$document,frame
+||youtube.com/watch?v=pq88IKF2xy4^$document,frame
+||youtube.com/watch?v=ts2Wy-TAgBs^$document,frame
+||youtube.com/watch?v=2EkXa0GMH1w^$document,frame
+||youtube.com/watch?v=uy6GMT4F6tk^$document,frame
+||youtube.com/watch?v=Al2mDe5oA2E^$document,frame
+||youtube.com/watch?v=bgVmj_5ooS8^$document,frame
+||youtube.com/watch?v=rX5owpTm8kY^$document,frame
+||youtube.com/watch?v=igaCvre6WmE^$document,frame
+||youtube.com/watch?v=TDADLrMNY3k^$document,frame
+||youtube.com/watch?v=YClj8irmwFA^$document,frame
+||youtube.com/watch?v=UGTa_X8nGBY^$document,frame
+||youtube.com/watch?v=0q2uTC0UDmQ^$document,frame
+||youtube.com/watch?v=DcR2cN5I5Hk^$document,frame
+||youtube.com/watch?v=zRwmPP0TfSE^$document,frame
+||youtube.com/watch?v=z6wNtevjVOk^$document,frame
+||youtube.com/watch?v=m6OCJxOsiyw^$document,frame
+||youtube.com/watch?v=8iN8T-1_hrI^$document,frame
+||youtube.com/watch?v=oml5cFYAlK8^$document,frame
+||youtube.com/watch?v=7auj5R30b9U^$document,frame
 !Embeds - fixed by catch-all
 !||youtube-nocookie.com/embed/dQw4w9WgXcQ$all
 ! Embed catch-all? - may cause breakage, but none seen yet
@@ -243,25 +244,18 @@
 ! another failed attempt to Rickroll me on Google Meet (hxxpx[:]//www[.]youtube[.]com/watch?v=34Ig3X59_qA)
 ||youtube.com/watch?v=34Ig3X59_qA^$all
 ! YouTube shorts
-||youtube.com/shorts/xHEgHjJvR94^$doc,popup
-||youtube.com/shorts/LNew965FXZs^$doc,popup
-
+||youtube.com/shorts/xHEgHjJvR94^$document,popup
+||youtube.com/shorts/LNew965FXZs^$document,popup
 
 !More non-youtube rickroll videos
-||vimeo.com/516035924$document,frame
+||vimeo.com/516035924^$document,frame
 ||reddit.com/r/Limenade/comments/ltmszs/rick_astley_never_gonna_give_you_up_video$document,frame
 ||vimeo.com/429388049^$document,frame
-||bing.com/videos/search?q=rick+astley+never+gonna+give+you+up&docid=608043081444441392&mid=4E7B1C0F8E67E9F7B1364E7B1C0F8E67E9F7B136&view=detail&FORM=VRAASM&ru=%2Fvideos%2Fsearch%3Fq%3Dnever%2Bgonna%2Bgive%2Byou%2Bup%26FORM%3DHDRSC3$document,frame
 ||vimeo.com/307987646^$all
 ||reddit.com/r/LikedYTVideos/comments/n3jian/rick_astley_never_gonna_give_you_up_remastered_4k$document
 !Maybe rickroll? 
-||youtube-nocookie.com/embed/dQw4w9WgXcQ%22$all
+||youtube-nocookie.com/embed/dQw4w9WgXcQ%22^$all
 
 ! Rickroll images
 ||edge.alluremedia.com.au/m/g/2020/01/rickroll.jpg$all
 ||i.ytimg.com/vi/eErVS4nxol8/hqdefault.jpg$all
-
-! rickroll-related images
-||lh3.googleusercontent.com/b59aHI7z3SqRta9NKk-U3Blmf-sR0p8U2WULFwPdI9BqdMgWg3vuDuUcy9R1EE1z6Ime$all
-||i.ytimg.com/vi/HIcSWuKMwOw/*.jpg$all
-||i.ytimg.com/vi/cvh0nX08nRw/*.jpg$all

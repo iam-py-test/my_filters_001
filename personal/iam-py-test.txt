@@ -2,8 +2,6 @@
 ! Expires: 1 day
 ! Description: Random personal filters. Please do not use
 
-! copied/stole from uBlock Origin Annoyances to get rid of the annoying "add redirect on right click" thing
-www.google.*##+js(set-constant, rwt, noopFunc)
 ! https://github.com/easylist/easylist/issues/14891
 ||google.*/url?*source=$ping
 
@@ -112,6 +110,9 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||singleflirt.com^$all
 ||iflirts.com^$all
 ||ktm365.com^$all
+||cdn.discordapp.com/attachments/*.exe|$document
+||cdn.discordapp.com/attachments/*.vbs|$document
+||cdn.discordapp.com/attachments/*.rar|$document
 
 ! ---- unwanted allowlist rules ----
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument,badfilter
