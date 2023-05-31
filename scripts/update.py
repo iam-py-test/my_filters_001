@@ -18,37 +18,47 @@ is_ip_v6 = "((([0-9a-fA-F]){1,4})\\:){7}"\
 is_ip_v4_reg = re.compile(is_ip_v4)
 is_ip_v6_reg = re.compile(is_ip_v6)
 
+def isipdomain(domain):
+  if re.search(is_ip_v4_reg,domain):
+    return True
+  if re.search(is_ip_v6_reg,domain):
+    return True
+  return False
+
 def mkalt(file,alt):
   lines = open(file,encoding="UTF-8").read().split("\n")
   alt = open(f"{ALT_FORMATS_LOC}/{alt}","w",encoding="UTF-8")
   iponly = open("Alternative list formats/{}_ips.txt".format(file.split(".")[0]),"w",encoding="UTF-8")
   donedomains = []
-  def isipdomain(domain):
-    if re.search(is_ip_v4_reg,domain):
-      return True
-    if re.search(is_ip_v6_reg,domain):
-      return True
-    return False
   alldomains[file] = []
   allips[file] = []
   allentries[file] = []
   for line in lines:
     if line == '' or line.startswith("!") or line == '[Adblock Plus 2.0]' or "#" in line or "domain=" in line:
       continue
-    if isipdomain(line.split("^")[0][2:]) == True:
-      iponly.write(line.split("^")[0][2:] + "\n")
+    domain = ""
+    if "/" in line or "*" in line or "domain=" in line:
+      continue
+    if line.startswith("||") and line.endswith("^"):
+      domain = line[2:-1]
+    elif line.startswith("||") and line.endswith("$"):
+      domain = line[2:-1]
+    elif line.startswith("||") and "$" in line:
+      domain = line.split("^")[0][2:]
+    if isipdomain(domain) == True:
+      iponly.write(domain + "\n")
       try:
-        allips[file].append(line.split("^")[0][2:])
-        allentries[file].append(line.split("^")[0][2:])
+        allips[file].append(domain)
+        allentries[file].append(domain)
       except Exception as err:
         print("Error: {}".format(err))
       continue
     if line.startswith("||") and "/" not in line and "^" in line:
       try:
         try:
-          domain = idna.encode(line.split("^")[0][2:].lower()).decode()
+          domain = idna.encode(domain.lower()).decode()
         except:
-          domain = line.split("^")[0][2:].lower()
+          pass
         alt.write("{}\n".format(domain))
         if domain in donedomains:
           reddomains.append(line)
@@ -58,8 +68,6 @@ def mkalt(file,alt):
         continue
       except Exception as err:
         print("error: ",err)
-    elif "/" in line and "|" in line:
-      continue
 
 mkalt("antimalware.txt","antimalware_domains.txt")
 mkalt("antipup.txt","antipup_domains.txt")
@@ -72,12 +80,6 @@ def mkhosts(file,altname):
   donedomains = []
   List = open(file,encoding="UTF-8").read().split("\n")
   altfile = open(altname,"w",encoding='UTF-8')
-  def isipdomain(domain):
-    try:
-      return domain in allips[file]
-    except:
-      pass
-    return False
   for line in List:
     if line.startswith("! Format notes:"):
       altfile.write('# Format notes: This format is designed for a system wide HOSTS file, and can also be used with tools that support this format. Not recommended for uBlock Origin or AdGuard\n')
@@ -120,12 +122,6 @@ def mkagh(file,altname):
   donedomains = []
   List = open(file,encoding="UTF-8").read().split("\n")
   altfile = open(altname,"w",encoding="UTF-8")
-  def isipdomain(domain):
-    try:
-      return domain in allips[file]
-    except:
-      pass
-    return False
   for line in List:
     if line.startswith("!"):
       altfile.write("{}\n".format(line))
@@ -209,6 +205,49 @@ try:
   mkabp("clickbait.txt","Alternative list formats/clickbait_abp.txt")
 except Exception as err:
   print("ABP error: {}".format(err))
+
+convert_to_sabp = None
+def convert_to_sabp(clist,clistpath="./list.txt",include=False):
+  """convert a list into ||domain^ syntax, removing IPs"""
+  endlist = ""
+  listlines = clist.split("\n")
+  for line in listlines:
+    try:
+      if line.startswith("!") and line.startswith("!#") == False:
+        continue
+      elif line.startswith("||") and line.endswith("^") and "/" not in line:
+        domain = line[2:-1]
+        if isipdomain(domain) == False and domain != "":
+          endlist += "||{}^\n".format(domain)
+      elif line.startswith("||") and "$" in line and "/" not in line:
+        domain = line.split("$")[0][2:-1]
+        if isipdomain(domain) == False and domain != "":
+          endlist += "||{}^\n".format(domain)
+      elif line.startswith("!#include "):
+        try:
+          incpath = os.path.abspath(line[10:])
+          inccontents = open(incpath, encoding="UTF-8").read().replace("! Title","! Included title")
+          endlist += "{}\n".format(convert_to_sabp(inccontents,include=True))
+        except:
+          pass
+      elif line.startswith("[Adblock") and include == False:
+        pass
+    except Exception as err:
+      print(err,line)
+  return endlist
+
+def mksabp(file,altname):
+  donedomains = []
+  List = open(file,encoding="UTF-8").read()
+  altfile = open(altname,"w",encoding="UTF-8")
+  altfile.write(convert_to_sabp(List,clistpath=file))
+  altfile.close()               
+                    
+try:
+  mksabp("antimalware.txt","Alternative list formats/antimalware_abp_domainsonly.txt")
+except Exception as err:
+  print(err)
+
 def mkpurehosts(file,altname):
   altfile = open(altname,"w")
   for domain in alldomains[file]:
@@ -229,7 +268,7 @@ def adguardparse(data,lpath="./list.txt"):
     elif line.startswith("!#include"):
         try:
             includepath = os.path.join(os.path.split(lpath)[0]," ".join(line.split(" ")[1:]))
-            includecontent = open(includepath).read()
+            includecontent = open(includepath, encoding="UTF-8").read()
             endlist += adguardparse(includecontent,includepath)
         except Exception as err:
           print(err)
@@ -245,7 +284,7 @@ def adguardparse(data,lpath="./list.txt"):
 
 def mkadguard(file,altname):
   donedomains = []
-  List = open(file,encoding="UTF-8").read()
+  List = open(file, encoding="UTF-8").read()
   altfile = open(altname,"w",encoding="UTF-8")
   def isipdomain(domain):
     try:
@@ -263,7 +302,7 @@ except:
   print("AdGuard error")
 
 def mkdnsmasq(file,altname):
-  altfile = open(altname,"w",encoding="UTF-8")
+  altfile = open(altname,"w", encoding="UTF-8")
   for domain in alldomains[file]:
     if domain == "" or "|" in domain:
       continue
@@ -276,7 +315,7 @@ except Exception as err:
 
 def mkJSON(file,altname):
   all = json.dumps(allentries[file])
-  with open(altname,"w") as f:
+  with open(altname,"w", encoding="UTF-8") as f:
     f.write(all)
     f.close()
 
