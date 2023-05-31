@@ -87,6 +87,7 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||googletagmanager.com^
 ||000webhostapp.com^$document
 ||zip^$document
+||jpvhub.com^$all
 
 ! ---- suspected malware ----
 ||inghesatin.com^$all
