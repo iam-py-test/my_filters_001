@@ -474,4 +474,5 @@
 # is autolinked, also is a common filename
 0.0.0.0 readme.md
 # https://old.reddit.com/r/uBlockOrigin/comments/13r51k1/goglelcom_typosquatting/
+# https://github.com/uBlockOrigin/uAssets/issues/18332
 0.0.0.0 goglel.com
