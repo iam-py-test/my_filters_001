@@ -521,3 +521,6 @@
 ! https://www.virustotal.com/gui/url/0ed4615c9ee045c652ae76001f55252a665cacbea0ed623909f8a780cbfd564d/details
 ||linkprotect.cudasvc.com^$document
 ||short.gy^$document
+
+! shared by https://github.com/alex-302
+||o0o0oooooooo0oooooo00oo0oooo0o0oooooo0o0oooooooo0oooooo0.ooo^$document

@@ -27,10 +27,10 @@ def isipdomain(domain):
 
 def safe_encode(data):
   try:
-    return data.encode("idna").decode()
+    return idna.encode(data, uts46=True, transitional=True).decode()
   except Exception as err:
     print(err)
-    return data
+    return "" # temp fix for https://github.com/iam-py-test/my_filters_001/issues/116
 
 def mkalt(file,alt):
   lines = open(file,encoding="UTF-8").read().split("\n")
@@ -66,6 +66,8 @@ def mkalt(file,alt):
           domain = safe_encode(domain.lower())
         except:
           pass
+        if domain == "":
+          continue
         alt.write("{}\n".format(domain))
         if domain in donedomains:
           reddomains.append(line)
@@ -98,7 +100,7 @@ def mkhosts(file,altname):
     elif line.startswith("||") and "/" not in line and "^" in line:
       try:
         domain = safe_encode(line.split("^")[0][2:].lower())
-        if isipdomain(domain) != True:
+        if isipdomain(domain) != True and domain != "":
           altfile.write("0.0.0.0 {}\n".format(domain))
           donedomains.append(domain)
         continue

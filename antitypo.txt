@@ -514,6 +514,7 @@
 ||rar.zip^$document
 ||taxdocuments.zip^$document
 ||datasets.zip^$document
+||setup.zip^$document
 
 ! .mov domains which also might be common filenames (remove if they ever become legit websites)
 ||family.mov^$document
