@@ -25,6 +25,12 @@ def isipdomain(domain):
     return True
   return False
 
+def safe_encode(data):
+  try:
+    return idna.encode(data).decode()
+  except:
+    return data
+
 def mkalt(file,alt):
   lines = open(file,encoding="UTF-8").read().split("\n")
   alt = open(f"{ALT_FORMATS_LOC}/{alt}","w",encoding="UTF-8")
@@ -56,7 +62,7 @@ def mkalt(file,alt):
     if line.startswith("||") and "/" not in line and "^" in line:
       try:
         try:
-          domain = idna.encode(domain.lower()).decode()
+          domain = safe_encode(domain.lower())
         except:
           pass
         alt.write("{}\n".format(domain))
@@ -90,7 +96,7 @@ def mkhosts(file,altname):
       altfile.write("#" + line[1:])
     elif line.startswith("||") and "/" not in line and "^" in line:
       try:
-        domain = idna.encode(line.split("^")[0][2:].lower()).decode()
+        domain = safe_encode(line.split("^")[0][2:].lower())
         if isipdomain(domain) != True:
           altfile.write("0.0.0.0 {}\n".format(domain))
           donedomains.append(domain)
@@ -222,7 +228,7 @@ def convert_to_sabp(clist,clistpath="./list.txt",include=False):
       elif line.startswith("||") and "$" in line and "/" not in line:
         domain = line.split("$")[0][2:-1]
         if isipdomain(domain) == False and domain != "":
-          endlist += "||{}^\n".format(domain)
+          endlist += "||{}^\n".format(safe_encode(domain))
       elif line.startswith("!#include "):
         try:
           incpath = os.path.abspath(line[10:])
