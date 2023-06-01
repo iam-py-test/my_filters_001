@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 31/5/2023
-! Version: 3152023-2
+! Last updated: 1/6/2023
+! Version: 162023-2
 ! Description: This list aims to protect against scams, phishing, malware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -5798,7 +5798,8 @@
 ||teslatucker.com^$all
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/13e53jy/badware_movie_sites/
-||filmshngjbzix.blogspot.com^$document
+! https://github.com/uBlockOrigin/uAssets/issues/18333
+||filmshngjbzix.blogspot.com^$all
 ||mopiez.com^$all
 ! NSFW: https://tria.ge/230511-1g9xlada3x/behavioral1
 ||lynku.mingotime.com^$document
@@ -5916,4 +5917,7 @@
 ||pdtrax.g2afse.com^$document
 ||tr.trackingit.site^$all
 ||trackingit.site^$document
+
+! https://github.com/uBlockOrigin/uAssets/issues/18333
+
 
