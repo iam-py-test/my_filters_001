@@ -27,7 +27,7 @@ def isipdomain(domain):
 
 def safe_encode(data):
   try:
-    return idna.encode(data, uts46=True, transitional=True).decode()
+    return data.encode("idna").decode()
   except Exception as err:
     print(err)
     return data
