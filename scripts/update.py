@@ -27,7 +27,7 @@ def isipdomain(domain):
 
 def safe_encode(data):
   try:
-    return idna.encode(data).decode()
+    return idna.encode(data, uts46=True, transitional=True).decode()
   except:
     return data
 
@@ -222,13 +222,13 @@ def convert_to_sabp(clist,clistpath="./list.txt",include=False):
       if line.startswith("!") and line.startswith("!#") == False:
         continue
       elif line.startswith("||") and line.endswith("^") and "/" not in line:
-        domain = line[2:-1]
+        domain = safe_encode(line[2:-1])
         if isipdomain(domain) == False and domain != "":
           endlist += "||{}^\n".format(domain)
       elif line.startswith("||") and "$" in line and "/" not in line:
-        domain = line.split("$")[0][2:-1]
+        domain = safe_encode(line.split("$")[0][2:-1])
         if isipdomain(domain) == False and domain != "":
-          endlist += "||{}^\n".format(safe_encode(domain))
+          endlist += "||{}^\n".format(domain)
       elif line.startswith("!#include "):
         try:
           incpath = os.path.abspath(line[10:])
