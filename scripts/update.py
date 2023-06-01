@@ -28,7 +28,8 @@ def isipdomain(domain):
 def safe_encode(data):
   try:
     return idna.encode(data, uts46=True, transitional=True).decode()
-  except:
+  except Exception as err:
+    print(err)
     return data
 
 def mkalt(file,alt):
