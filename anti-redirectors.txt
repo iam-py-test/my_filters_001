@@ -517,3 +517,7 @@
 ||cdn-lv3.de^$document
 ||link-center.net^$document
 ||linkvertise.com^$document
+
+! https://www.virustotal.com/gui/url/0ed4615c9ee045c652ae76001f55252a665cacbea0ed623909f8a780cbfd564d/details
+||linkprotect.cudasvc.com^$document
+||short.gy^$document
