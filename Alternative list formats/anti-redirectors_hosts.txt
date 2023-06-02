@@ -381,3 +381,5 @@
 # https://www.virustotal.com/gui/url/0ed4615c9ee045c652ae76001f55252a665cacbea0ed623909f8a780cbfd564d/details
 0.0.0.0 linkprotect.cudasvc.com
 0.0.0.0 short.gy
+# shared by https://github.com/alex-302
+0.0.0.0 o0o0oooooooo0oooooo00oo0oooo0o0oooooo0o0oooooooo0oooooo0.ooo

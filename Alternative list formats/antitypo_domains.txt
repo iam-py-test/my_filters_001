@@ -323,6 +323,7 @@ a.zip
 rar.zip
 taxdocuments.zip
 datasets.zip
+setup.zip
 family.mov
 familyvideo.mov
 video.mov

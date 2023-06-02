@@ -2,11 +2,17 @@
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 5/5/2023
 ! Expires: 1 day
-! Last updated: 31/05/2023
+! Last updated: 01/06/2023
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Wed, 31 May 2023 22:33:11 +0000
+! Thu, 01 Jun 2023 20:19:28 +0000
+||raw.githubusercontent.com/xegefi/XOXO/main/WindowsDefender.exe^$all
+||cdn.discordapp.com/attachments/1053354068959051837/1113107209493155840/update.exe^$all
+||raw.githubusercontent.com/duantienty/client/main/kyovn.jpg^$all
+||raw.githubusercontent.com/duantienty/client/main/Client2.jpg^$all
+||ji.jahhaega2qq.com/m/p0aw25.exe^$all
+||ji.ase6gasdegkk.com/m/ss49.exe^$all
 ||94.142.138.148/clp6.exe^$all
 ||94.142.138.116/bebra.exe^$all
 ||h169056.srv22.test-hf.su/135.exe^$all
@@ -102,9 +108,3 @@
 ||77.73.134.24/Clip1.exe^$all
 ||bitbucket.org/thisisaworkspace/bumogak/raw/cf339d8869a4980f17da4d2a7ca92d4cd8dfa47b/LK2.exe^$all
 ||bitbucket.org/thisisaworkspace/bumogak/raw/cf339d8869a4980f17da4d2a7ca92d4cd8dfa47b/LEMON.exe^$all
-||bitbucket.org/thisisaworkspace/bumogak/raw/cf339d8869a4980f17da4d2a7ca92d4cd8dfa47b/DEV.exe^$all
-||bitbucket.org/thisisaworkspace/bumogak/raw/cf339d8869a4980f17da4d2a7ca92d4cd8dfa47b/DCKA.exe^$all
-||bbc-s.news/12333.exe^$all
-||a0782451.xsph.ru/vr/st/Reb.exe^$all
-||94.142.138.116/dashboard/installer.exe^$all
-||94.142.138.116/dashboard/pay/new.exe.exe^$all
