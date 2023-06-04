@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 3/6/2023
-! Version: 362023-1
+! Last updated: 4/6/2023
+! Version: 462023-1
 ! Description: This list aims to protect against scams, phishing, malware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -602,7 +602,7 @@
 ! https://www.reddit.com/r/computerviruses/comments/swrrx8/used_a_youtube_to_mp3_downloader_today_and_these/
 ||unrelered.xyz^$all
 
-! https://twitter.com/iam_py_test/status/1496259425493225472
+! https://web.archive.org/web/20230604183723/https://twitter.com/iam_py_test/status/1496259425493225472
 ||sites.google.com/view/groundworkssolutions/contact-us^$all
 ||sites.google.com/view/groundworkssolutions/^$all
 ||sites.google.com/mytv/maintenance^$all
@@ -803,7 +803,7 @@
 ||littlecdn.com/apps/contents/s/e1/43/b6/8d4db17f1838a03992a72e9dbf/01412844174435.png^$all
 ||gapscult.com^$all
 
-! https://twitter.com/iam_py_test/status/1528858711128625152
+! https://web.archive.org/web/20230604184010/https://twitter.com/iam_py_test/status/1528858711128625152
 ||supercillious.xyz^$all
 
 ! a fake MediaFire domain
@@ -838,7 +838,7 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/121544
 ||trafredirtds.com^$document
 
-! https://twitter.com/iam_py_test/status/1538267982551347200
+! https://web.archive.org/web/20230604184126/https://twitter.com/iam_py_test/status/1538267982551347200
 ||may8forstudents.org/free-discord-nitro-codes-list-no-human-verification/^$all
 ||www.easyrobuxtoday.org^$document
 ||robloxhackv2111.blogspot.com^$all
@@ -957,7 +957,7 @@
 ||trk-deserunt.com^$all
 ||core.alertsx.com^$all
 ||alertsx.com^$all
-! https://twitter.com/iam_py_test/status/1571997052900413440
+! https://twitter.com/iam_py_test/status/1571997052900413440 (image is age restricted for some reason, thus can't archive)
 ||medialysticos.live^$all
 
 ! Porn scam
@@ -5937,4 +5937,16 @@
 ! nsfw: https://app.any.run/tasks/49927d07-3f8e-4115-a6e3-476e6aec62c0
 ||onevenadvnow.com^$all
 ||nodritsissub.com^$all
+
+! https://github.com/uBlockOrigin/uAssets/pull/18388
+||roundyearfun.org^$document
+||anyplacehere.me^$document
+||funaroundy.click^$document
+
+! https://github.com/hagezi/dns-blocklists/issues/1116
+||dr-farfar.com^$all
+
+! https://0xacab.org/my-privacy-dns/matrix/-/issues/594269
+! my analysis: https://tria.ge/230604-x8gtcadd85/behavioral1
+||darkskin.world^$all
 
