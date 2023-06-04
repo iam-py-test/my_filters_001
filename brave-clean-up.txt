@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results, along with other annoyances
 ! Expires: 1 day
 ! Last updated: 7/4/2023
-! Last auto-generated: 03/06/2023
+! Last auto-generated: 04/06/2023
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -8252,6 +8252,13 @@ search.brave.com##div.fdb.snippet:has(a[href*="://trackingit.site"])
 search.brave.com##div.fdb.snippet:has(a[href*="://globaladblocker.info"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ourcommonwords.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://supapush.net"])
+search.brave.com##div.fdb.snippet:has(a[href*="://www.fulltimesecurityguard.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://fulltimesecurityguard.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://tepirg.xyz"])
+search.brave.com##div.fdb.snippet:has(a[href*="://lgpc.bestextensionegde.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://bestextensionegde.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://onevenadvnow.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://nodritsissub.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://totalav.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://www.totalav.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://api.totalav.com"])
