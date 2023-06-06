@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 4/6/2023
-! Version: 462023-1
+! Last updated: 5/6/2023
+! Version: 562023-1
 ! Description: This list aims to protect against scams, phishing, malware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -484,11 +484,15 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 5/5/2023
 ! Expires: 1 day
-! Last updated: 04/06/2023
+! Last updated: 05/06/2023
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Sun, 04 Jun 2023 20:18:22 +0000
+! Mon, 05 Jun 2023 20:19:08 +0000
+||192.210.215.42/860/cache_cleaner.exe^$all
+||koiniosportsde.com/bRzNAmYd/ddsc.exe^$all
+||79.137.195.246/client12/enc.exe^$all
+||79.137.195.246/client13/enc.exe^$all
 ||raw.githubusercontent.com/xegefi/XOXO/main/WindowsDefender.exe^$all
 ||cdn.discordapp.com/attachments/1053354068959051837/1113107209493155840/update.exe^$all
 ||raw.githubusercontent.com/duantienty/client/main/kyovn.jpg^$all
@@ -586,10 +590,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||eboka.vip/stream.exe^$all
 ||cdn.discordapp.com/attachments/483916447823822851/1079722023502217216/EasyCrypterSupport.exe^$all
 ||cdn.discordapp.com/attachments/1066774563054157866/1067847877860270181/Ace.exe^$all
-||77.73.134.35/bebra.exe^$all
-||77.73.134.24/Clip1.exe^$all
-||bitbucket.org/thisisaworkspace/bumogak/raw/cf339d8869a4980f17da4d2a7ca92d4cd8dfa47b/LK2.exe^$all
-||bitbucket.org/thisisaworkspace/bumogak/raw/cf339d8869a4980f17da4d2a7ca92d4cd8dfa47b/LEMON.exe^$all
 
 
 
