@@ -1,5 +1,5 @@
 ! Title: Antirickroll list
-! Description: Rickrolls are an annoying prank which is spreading on the internet. This list is designed to block known rickroll sites and rickroll images. It will be decommissioned once this dumb prank stops being popular.
+! Description: Rickrolls are an annoying prank which is spreading on the internet. This list is designed to block known rickroll sites and rickroll videos (mostly on YouTube), along with normal videos of "Rick Astley Never Gonna Give you up". It will be decommissioned once this dumb prank stops being popular.
 ! Note: This list works best when autoplay is disabled in the browser
 ! Last updated: 30/5/2023
 ! Expires: 10s days
@@ -12,7 +12,7 @@
 ||secretrickroll.com^$all
 ||yx.zone^$all
 
-!Rickroll YouTube videos - most likely only a few of the many
+! Rickroll YouTube videos - most likely only a few of the many
 ||youtube.com/watch?v=oHg5SJYRHA0^$document,frame
 ||youtube.com/watch?v=x31tDT-4fQw^$document,frame
 ||youtube.com/watch?v=sXwaRjU7Tj0^$document,frame
@@ -128,7 +128,9 @@
 ||youtube.com/watch?v=8iN8T-1_hrI^$document,frame
 ||youtube.com/watch?v=oml5cFYAlK8^$document,frame
 ||youtube.com/watch?v=7auj5R30b9U^$document,frame
-!Embeds - fixed by catch-all
+||youtube.com/watch?v=QdezFxHfatw^$document,frame
+||youtube.com/watch?v=Ykup4vetvmw^$document,frame
+!Embeds - fixed by catch-all, maybe have false positives
 !||youtube-nocookie.com/embed/dQw4w9WgXcQ$all
 ! Embed catch-all? - may cause breakage, but none seen yet
 ||youtube*.com/*gC7Plr1DgiI$all,redirect=click2load.html

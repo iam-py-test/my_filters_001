@@ -89,6 +89,10 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||redgif.com^$all
 ||xfree.com^$all
 ||rule34.*^$all
+||tube^$document
+||xvideodeutsche.com^$all
+||freepublicporn.com^$all
+||run.app^$document
 
 ! ---- suspected malware ----
 ||inghesatin.com^$all

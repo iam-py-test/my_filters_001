@@ -406,7 +406,7 @@
 ||hereweb.com^$document
 ||1stA.com^$document
 
-! malware
+! used by malware
 ||ibf.tw^$document
 
 ! "shorte.st"
@@ -526,4 +526,5 @@
 ||o0o0oooooooo0oooooo00oo0oooo0o0oooooo0o0oooooooo0oooooo0.ooo^$document
 
 ! https://github.com/738/awesome-url-shortener/issues/23
+! also has file hosting and paste sharing on the same domain
 ||san.aq^$document
