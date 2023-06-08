@@ -300,7 +300,7 @@
 0.0.0.0 alturl.com
 0.0.0.0 hereweb.com
 0.0.0.0 1sta.com
-# malware
+# used by malware
 0.0.0.0 ibf.tw
 # "shorte.st"
 0.0.0.0 sh.st
@@ -384,4 +384,5 @@
 # shared by https://github.com/alex-302
 0.0.0.0 o0o0oooooooo0oooooo00oo0oooo0o0oooooo0o0oooooooo0oooooo0.ooo
 # https://github.com/738/awesome-url-shortener/issues/23
+# also has file hosting and paste sharing on the same domain
 0.0.0.0 san.aq

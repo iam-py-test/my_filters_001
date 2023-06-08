@@ -2,11 +2,12 @@
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 5/5/2023
 ! Expires: 1 day
-! Last updated: 06/06/2023
+! Last updated: 07/06/2023
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Tue, 06 Jun 2023 20:19:06 +0000
+! Wed, 07 Jun 2023 20:19:12 +0000
+||109.205.213.7/bins/UnHAnaAW.x86^$all
 ||192.210.215.42/860/cache_cleaner.exe^$all
 ||koiniosportsde.com/bRzNAmYd/ddsc.exe^$all
 ||79.137.195.246/client12/enc.exe^$all
@@ -107,4 +108,3 @@
 ||zexeq.com/files/1/build3.exe^$all
 ||eboka.vip/stream.exe^$all
 ||cdn.discordapp.com/attachments/483916447823822851/1079722023502217216/EasyCrypterSupport.exe^$all
-||cdn.discordapp.com/attachments/1066774563054157866/1067847877860270181/Ace.exe^$all

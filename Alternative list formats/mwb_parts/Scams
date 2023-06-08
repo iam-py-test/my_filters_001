@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 5/6/2023
-! Version: 562023-1
+! Last updated: 7/6/2023
+! Version: 762023-1
 ! Description: This list aims to protect against scams, phishing, malware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -5958,4 +5958,19 @@
 
 ! https://forums.malwarebytes.com/topic/298628-specific-adwarephishing-attack-whats-the-source/
 ||axufcs.space^$document
+
+! https://github.com/hagezi/dns-blocklists/issues/718
+||leverage-btc.com^$all
+
+! https://www.malwarebytes.com/blog/threat-intelligence/2023/06/thousands-of-malicious-google-cloud-run-instances-deployed-to-scam-facebook-users
+||trendingentertainers.com^$all
+||trendingfilmreviews.com^$all
+||trendingshowbiz.com^$all
+||trendingtvshows.com^$all
+||usunveiled.net^$all
+||viralcelebrityzone.com^$all
+||viralfamezone.com^$all
+||virallaughtrack.com^$all
+||viralstargossip.com^$all
+||viralfunnylaugh.com^$all
 
