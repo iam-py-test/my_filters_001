@@ -8,3 +8,6 @@ scripts/* Python
 
 # https://github.com/DandelionSprout/adfilt/issues/819
 * text=auto eol=lf
+
+# https://github.com/StevenBlack/hosts/pull/2352
+hosts linguist-detectable linguist-language=hosts

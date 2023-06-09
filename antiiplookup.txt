@@ -32,3 +32,5 @@
 0.0.0.0 wl.gl
 0.0.0.0 ed.tk
 0.0.0.0 bc.ax
+# https://github.com/hagezi/dns-blocklists/issues/1141
+0.0.0.0 pro.ip-api.com
