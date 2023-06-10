@@ -2,11 +2,17 @@
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 5/5/2023
 ! Expires: 1 day
-! Last updated: 08/06/2023
+! Last updated: 09/06/2023
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Thu, 08 Jun 2023 20:18:18 +0000
+! Fri, 09 Jun 2023 20:19:19 +0000
+||134.122.135.4/datelog.dll^$all
+||distroforex.com/crona.exe^$all
+||89.185.85.117/laupdate.exe^$all
+||94.142.138.116/bebra.exe^$all
+||filebin.net/zexd4wguldbgaetq/rh1.exe^$all
+||raw.githubusercontent.com/duantienty/client/main/tdc.jpg^$all
 ||file.gta5cheatcode.world/dashboard/file/dxpserver.exe^$all
 ||file.gta5cheatcode.world/dashboard/file/dxpserver.exe^$all
 ||109.205.213.7/bins/UnHAnaAW.x86^$all
@@ -102,9 +108,3 @@
 ||15.204.49.145/files/HAD.exe^$all
 ||transfer.sh/get/t5y8BV/ChatGPT.exe^$all
 ||194.87.35.101/nigga.exe^$all
-||tap-taptap.com/1488/106.exe^$all
-||oof00.com/666/105.exe^$all
-||oof00.com/666/106.exe^$all
-||77.73.134.24/Clip1.exe^$all
-||uaery.top/dl/build2.exe^$all
-||zexeq.com/files/1/build3.exe^$all
