@@ -93,6 +93,7 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||xvideodeutsche.com^$all
 ||freepublicporn.com^$all
 ||run.app^$document
+||pixhost.to^$all
 
 ! ---- suspected malware ----
 ||inghesatin.com^$all
