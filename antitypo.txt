@@ -539,3 +539,10 @@
 
 ! https://github.com/uBlockOrigin/uAssets/issues/18454
 ||fllwers.com^$document
+
+! redirects to a malwarebytes affilate link
+||malwarebyttes.com^$document
+
+! https://dnstwist.it/ for slack.com
+! https://app.any.run/tasks/14cafa37-652e-47dc-b08f-39843f7ef022
+||slackk.com^$all

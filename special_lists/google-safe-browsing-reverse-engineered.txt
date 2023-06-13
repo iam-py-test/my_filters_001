@@ -1,7 +1,5 @@
 ! Title: Google Safe Browsing reverse engineered
 ! this is a list of domains blocked by Google Safe Browsing in an attempt to understand it
-! as of 27/9/2021
-||facebok.xyz^$all
 ! as of 3/10/2021
 ||cx97551.tmweb.ru^$all
 ||ck33675.tmweb.ru^$all
@@ -114,3 +112,7 @@
 ||heinthu1.github.io^$all
 ! as of 3/2/2023
 ||satoulishing0-webapps-document-adaf7.ondigitalocean.app^$all
+! as of 13/6/2023: https://github.com/StevenBlack/hosts/issues/2358 -> https://www.virustotal.com/gui/ip-address/213.226.123.202/relations
+||votre-authentification-sg.com^$all
+||dhl-support-colis.com^$all
+||reconnections-mabanque.com^$all
