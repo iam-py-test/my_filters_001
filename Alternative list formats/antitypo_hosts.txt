@@ -479,3 +479,8 @@
 0.0.0.0 goglel.com
 # https://github.com/uBlockOrigin/uAssets/issues/18454
 0.0.0.0 fllwers.com
+# redirects to a malwarebytes affilate link
+0.0.0.0 malwarebyttes.com
+# https://dnstwist.it/ for slack.com
+# https://app.any.run/tasks/14cafa37-652e-47dc-b08f-39843f7ef022
+0.0.0.0 slackk.com
