@@ -202,3 +202,12 @@ shrx.in
 shorterall.com
 mgnet.xyz
 email-sendgrid-deep-linking.chewy.com
+redirect.viglink.com
+klclick.com
+klclick1.com
+klclick2.com
+klclick3.com
+trk.klclick.com
+trk.klclick1.com
+trk.klclick2.com
+trk.klclick3.com

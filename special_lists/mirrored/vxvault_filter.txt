@@ -2,11 +2,13 @@
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 5/5/2023
 ! Expires: 1 day
-! Last updated: 12/06/2023
+! Last updated: 13/06/2023
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Mon, 12 Jun 2023 20:19:07 +0000
+! Tue, 13 Jun 2023 20:19:27 +0000
+||51.79.49.73/crc/Play.exe^$all
+||51.79.49.73/crc/bz.exe^$all
 ||134.122.135.4/datelog.dll^$all
 ||distroforex.com/crona.exe^$all
 ||89.185.85.117/laupdate.exe^$all
@@ -106,5 +108,3 @@
 ||15.204.49.145/files/New1.exe^$all
 ||15.204.49.145/files/JavHa.exe^$all
 ||15.204.49.145/files/HAD.exe^$all
-||transfer.sh/get/t5y8BV/ChatGPT.exe^$all
-||194.87.35.101/nigga.exe^$all
