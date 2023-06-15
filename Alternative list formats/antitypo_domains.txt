@@ -336,3 +336,5 @@ goglel.com
 fllwers.com
 malwarebyttes.com
 slackk.com
+dev.craftbukkit.org
+craftbukkit.org
