@@ -2,11 +2,15 @@
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 5/5/2023
 ! Expires: 1 day
-! Last updated: 14/06/2023
+! Last updated: 16/06/2023
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Wed, 14 Jun 2023 20:19:19 +0000
+! Fri, 16 Jun 2023 20:19:29 +0000
+||23.94.144.13/555/vbc.exe^$all
+||bluestaks.novationgroups.com/post/ClipperDoej4oa.exe^$all
+||bluestaks.novationgroups.com/post/Upshotox64.exe^$all
+||bluestaks.novationgroups.com/post/p5zl9bq82kjf7.exe^$all
 ||africatechs.com/YoutubeAdvert.exe^$all
 ||miateknik.com/Amday.exe^$all
 ||51.79.49.73/crc/Play.exe^$all
@@ -104,7 +108,3 @@
 ||80.66.75.36/a-Yfgvvxyduvu.exe^$all
 ||ji.jhia6gyygcc.com/m/ss27.exe^$all
 ||www.cpasdrole.com/handdiy6/handdiy_6.exe^$all
-||tornomoita.com/RoMunITrLKUraN4728294.exe^$all
-||a.dowgmua.com/gamexyz/3002/random.exe^$all
-||www.imagn.world/storage/sqlcmd.exe^$all
-||15.204.49.145/files/New1.exe^$all
