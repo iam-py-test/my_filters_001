@@ -1,5 +1,6 @@
 # Title: Block adfly completely
 # Description: Block all adfly domains
+# Note: adfly is now owned by linkverse and seems to have ceased to exist.
 0.0.0.0 adf.ly
 0.0.0.0 www.adf.ly
 0.0.0.0 cdn.adf.ly
