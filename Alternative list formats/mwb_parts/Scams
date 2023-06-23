@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 17/6/2023
-! Version: 1762023-1
+! Last updated: 22/6/2023
+! Version: 2262023-1
 ! Description: This list aims to protect against scams, phishing, malware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -15,6 +15,7 @@
 ! See https://github.com/gorhill/uBlock/wiki/Badware-risks#ublockorg
 ! Also blocked by uBlock Origin badware and DandelionSprout antimalware
 ||ublock.org^$document
+||www.ublock.org^$document
 ||chrome.google.com/webstore/detail/ublock-free-ad-blocker/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ||chrome.google.com/webstore/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn^$document
 ! Malware
@@ -820,7 +821,7 @@
 ||filevortex.com/show.php?cl=*&l=*&u=*&id=*^$all
 ||y.promotionsonlineusa.com^$document
 
-! ads on a site --> https://www.virustotal.com/gui/url/0871f217f945c993d8624aadd5e718e9bb740096d13fad74d58b3fc3a4fdfda0?nocache=1
+! ads on a site --> https://www.virustotal.com/gui/url/0871f217f945c993d8624aadd5e718e9bb740096d13fad74d58b3fc3a4fdfda0
 ||ebaaa.xyz^$all
 ||uprimp.com^$document
 ||odaba.live^$all
@@ -1309,7 +1310,7 @@
 ! https://scammer.info/t/viruses-need-to-be-removed-immediately-take-emergency-measures-trojan/117241/3
 ||install.sunlifestores.com^$document
 
-! https://www.virustotal.com/gui/url/2dabab937f09b2892f26c995365f64402574c8aa3e2f9750047131ca7a8d73d6?nocache=1
+! https://www.virustotal.com/gui/url/2dabab937f09b2892f26c995365f64402574c8aa3e2f9750047131ca7a8d73d6
 ! https://tria.ge/230109-14rdrsbd6t/behavioral1
 ||lootprime.com^$all
 ||rdr.mobiletime.net^$all
@@ -6015,4 +6016,10 @@
 
 ! clicked on an ad: https://tria.ge/230617-m6144abb3z/behavioral2
 ||yourstented.azurewebsites.net^$all
+
+! https://github.com/hagezi/dns-blocklists/issues/1193
+||coinaps.com^$all
+
+! https://www.bleepingcomputer.com/forums/t/786537/mcafee-popup/
+||www.mistiotia.com^$document
 
