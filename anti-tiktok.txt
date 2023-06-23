@@ -1,0 +1,15 @@
+! Title: anti-TikTok
+! Description: Block TikTok
+! Expires: 2 days
+||tiktok.com^$all
+||tiktokcdn-us.com^$all
+||lf16-tiktok-web.tiktokcdn-us.com^$all
+||ttwstatic.com^$all
+||lf16-tiktok-web.ttwstatic.com^$all
+||lf16-tiktok-web.$3p
+||tiktokcdn.com^$all
+||s20.tiktokcdn.com^$all
+||p16-sign-sg.tiktokcdn.com^$all
+||tiktokv.com^$all
+||byteoversea.com^$all
+||mon-va.byteoversea.com^$all

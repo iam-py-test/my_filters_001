@@ -94,6 +94,8 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||freepublicporn.com^$all
 ||run.app^$document
 ||pixhost.to^$all
+||motherless.com^$all
+||imagefap.com^$all
 
 ! ---- suspected malware ----
 ||inghesatin.com^$all

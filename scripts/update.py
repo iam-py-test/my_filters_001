@@ -50,8 +50,12 @@ def mkalt(file,alt):
       domain = line[2:-1]
     elif line.startswith("||") and line.endswith("$"):
       domain = line[2:-1]
+      if domain.endswith(".") or domain == "":
+        continue
     elif line.startswith("||") and "$" in line:
       domain = line.split("^")[0][2:]
+      if domain.endswith(".") or domain == "":
+        continue
     if isipdomain(domain) == True:
       iponly.write(domain + "\n")
       try:
