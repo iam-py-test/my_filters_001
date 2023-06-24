@@ -461,6 +461,7 @@
 0.0.0.0 taxdocuments.zip
 0.0.0.0 datasets.zip
 0.0.0.0 setup.zip
+0.0.0.0 java.util.zip
 # .mov domains which also might be common filenames (remove if they ever become legit websites)
 0.0.0.0 family.mov
 0.0.0.0 familyvideo.mov
