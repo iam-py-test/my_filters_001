@@ -69,6 +69,6 @@ for part in mwb_parts:
     partfile.close()
     part_explain += f"[{part}](./{partfilename})" + "\n"
 
-readme = open("README.md",'w')
+readme = open(os.path.join(args.outdir,"README.md"),'w')
 readme.write(part_explain)
 readme.close()
