@@ -55,6 +55,11 @@ for l in mwb:
     else:
         mwb_parts[part_name] += l + "\n"
 
+part_explain = """This folder includes each of the sections of The malicious website blocklist, so you can use only rules from specific sections (i.e. only block scams).
+Sections:
+
+"""
+
 for part in mwb_parts:
     partfilename = os.path.abspath(os.path.join(args.outdir,part))
     print(partfilename)
@@ -62,3 +67,8 @@ for part in mwb_parts:
     partfile.write(titlearea)
     partfile.write(mwb_parts[part])
     partfile.close()
+    part_explain += f"[{part}](./{partfilename})" + "\n"
+
+readme = open("README.md",'w')
+readme.write(part_explain)
+readme.close()
