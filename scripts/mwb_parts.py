@@ -46,6 +46,8 @@ def include_list(path,parentpath):
 for l in mwb:
     if l.startswith("! ---- "):
         part_name = l[7:-5]
+        if part_name.startswith(" "):
+            part_name = part_name[1:]
         mwb_parts[part_name] = ""
     elif part_name == "":
         titlearea += l + "\n"
