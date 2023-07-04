@@ -15,6 +15,7 @@ Revoke the ability to send notifications for all but sites which need it and whi
 - Chrome: https://support.google.com/chrome/answer/114662 (under Learn about permissions that can be changed, then scroll down)
 - Firefox: https://support.mozilla.org/en-US/kb/push-notifications-firefox#w_how-do-i-revoke-web-push-permissions-for-a-specific-site ([Firefox for Android](https://support.mozilla.org/en-US/kb/manage-notifications-firefox-android))
 - Edge: https://products.support.services.microsoft.com/en-us/microsoft-edge/manage-website-notifications-in-microsoft-edge-0c555609-5bf2-479d-a59d-fb30a0b80b2b
+- More information: https://www.malwarebytes.com/blog/news/2019/01/browser-push-notifications-feature-asking-abused
 
 If that does not work or you want to be sure, [clear your browser cache and site data](#clear-browser-cache-and-cookies), which should remove the code which is causing these issues. <br>
 
@@ -98,6 +99,7 @@ Open regedit and delete these keys:
 ### Reset your browser
 - Chrome: https://support.google.com/chrome/answer/3296214
 - Firefox: https://support.mozilla.org/en-US/kb/reset-preferences-fix-problems
+- OperaGX: https://www.youtube.com/watch?v=5rjfyD13-Vk
 - Edge (I do not see a good online guide for Edge)<br>
 <details>
 <summary>How to reset Edge</summary>
@@ -109,6 +111,8 @@ Open regedit and delete these keys:
 <li>Edge will be reset. All extensions will be disabled, but not uninstalled</li>
 </ul>
 </details>
+
+- Various browsers: https://www.computerhope.com/issues/ch001748.htm
 
 ### Dealing with aggressive malware
 Before continuing, try all the prior steps. This is the "nuclear" option. It will remove most/all data, so be sure you have anything (passwords, bookmarks) backed up. I do not have good guides for all browsers.
