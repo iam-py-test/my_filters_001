@@ -14,6 +14,7 @@
 ||facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion^$document
 ||meta.com^$all
 ||instagram.com^$all
+||threads.net^$all
 
 ! DuckDuckGo link to the company's Facebook page
 duckduckgo.com##li.about-profiles__item:has(a[href*="facebook.com"])

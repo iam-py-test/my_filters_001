@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: iam-py-test's anti-PUP list
 ! Description: This list blocks sites promoting PUPs, unreliable antivirus review sites, very poorly made malware removal guides, scummy adblockers, "snake oil" programs, and websites which trick users into lowering their security via overly broad allowlists
-! Last updated: 21/6/2023
+! Last updated: 5/7/2023
 ! Expires: 5 days
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 
@@ -92,3 +92,7 @@ winaero.com##.widget:has([href="/fix-classic-issues-performance/"])
 ! bundled installer - https://forums.malwarebytes.com/topic/299299-malwarebytes-and-videowizard-all-in-one-dvd-video-converter/
 ! my analysis: https://tria.ge/230622-ab1tmabh94/behavioral1
 ||videowizard-all-in-one-dvd-video-converter.en.softonic.com^$document
+
+! https://tria.ge/230705-3ac1dshf7z/behavioral1
+! https://app.any.run/tasks/c3057271-4453-4437-b619-3ee08588db54 (broke)
+||getconvertpdf.com^$document
