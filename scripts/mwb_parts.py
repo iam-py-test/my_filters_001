@@ -69,7 +69,7 @@ for part in mwb_parts:
     partfile.write(titlearea)
     partfile.write(mwb_parts[part])
     partfile.close()
-    part_explain += f"[{part}](./{part.replace(" ","%20")})" + "<br>\n"
+    part_explain += f"[{part}](./{part.replace(' ','%20')})<br>\n"
 
 readme = open(os.path.join(args.outdir,"README.md"),'w')
 readme.write(part_explain)
