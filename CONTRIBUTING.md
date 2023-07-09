@@ -26,4 +26,4 @@ Kiwi browser is not supported by uBlock Origin, and thus my filterlists (I am no
 For this reason, [alleged privacy issues](https://github.com/Tobi823/ffupdater/issues/35), and [the lack of frequent updates](https://github.com/kiwibrowser/src/commits/master), I would recommend against using this browser.
 
 ### Yandex
-Yandex Browser is not supported by uBlock Origin (I do not know about other content blockers), [and is known to be problematict](https://github.com/uBlockOrigin/uBlock-issues/issues/2627). Any issues which can not be reproduced in Chrome, Edge, or Firefox will have to be investigated by you.
+Yandex Browser is not supported by uBlock Origin (I do not know about other content blockers), [and is known to be problematic](https://github.com/uBlockOrigin/uBlock-issues/issues/2627). Any issues which can not be reproduced in Chrome, Edge, or Firefox will have to be investigated by you.

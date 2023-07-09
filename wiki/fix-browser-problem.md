@@ -13,7 +13,9 @@ Malicious websites can send you spammy notifications, such as fake warnings abou
 
 Revoke the ability to send notifications for all but sites which need it and which you trust:
 - Chrome: https://support.google.com/chrome/answer/114662 (under Learn about permissions that can be changed, then scroll down)
-- Firefox: https://support.mozilla.org/en-US/kb/push-notifications-firefox#w_how-do-i-revoke-web-push-permissions-for-a-specific-site ([Firefox for Android](https://support.mozilla.org/en-US/kb/manage-notifications-firefox-android))
+- Firefox: https://support.mozilla.org/en-US/kb/push-notifications-firefox#w_how-do-i-revoke-web-push-permissions-for-a-specific-site 
+- Firefox for Android: https://support.mozilla.org/en-US/kb/manage-notifications-firefox-android
+- Firefox Focus for Android: https://support.mozilla.org/en-US/kb/change-site-permissions-firefox-focus-android
 - Edge: https://products.support.services.microsoft.com/en-us/microsoft-edge/manage-website-notifications-in-microsoft-edge-0c555609-5bf2-479d-a59d-fb30a0b80b2b
 - More information: https://www.malwarebytes.com/blog/news/2019/01/browser-push-notifications-feature-asking-abused
 
@@ -28,12 +30,14 @@ If that does not work or you want to be sure, [clear your browser cache and site
 ### Change search engine and homepage/new tab
 Some malware will only change your homepage/new tab or search engine, and will not prevent you from changing it back.<br>
 Homepage/new tab:
-- Firefox: https://support.mozilla.org/en-US/kb/how-to-set-the-home-page
+- Firefox: https://support.mozilla.org/en-US/kb/how-to-set-the-home-
+- Firefox for iOS: https://support.mozilla.org/en-US/kb/set-homepage-firefox-ios
 - Chrome: https://support.google.com/chrome/answer/95314
 - Edge: https://support.microsoft.com/en-us/microsoft-edge/change-your-browser-home-page-a531e1b8-ed54-d057-0262-cc5983a065c6 (also has steps for other browsers, but they may not be up-to-date)
 
 <br>Search engine:
 - Firefox: https://support.mozilla.org/en-US/kb/change-your-default-search-settings-firefox
+- Firefox Focus on Android: https://support.mozilla.org/en-US/kb/change-your-default-search-firefox-focus-android
 - Chrome: https://support.google.com/chrome/answer/95426
 - Edge: https://support.microsoft.com/en-us/microsoft-edge/change-your-default-search-engine-in-microsoft-edge-cccaf51c-a4df-a43e-8036-d4d2c527a791
 
@@ -42,6 +46,7 @@ Homepage/new tab:
 ### Uninstall a specific extension
 If a specific extension is causing problems, you can uninstall it: 
 - Firefox: https://support.mozilla.org/en-US/kb/disable-or-remove-add-ons
+- Firefox for Android: https://support.mozilla.org/en-US/kb/uninstall-firefox-android-add-ons
 - Chrome: https://support.google.com/chrome_webstore/answer/2664769
 - Edge: https://support.microsoft.com/en-us/microsoft-edge/add-turn-off-or-remove-extensions-in-microsoft-edge-9c0ec68c-2fbc-2f2c-9ff0-bdc76f46b026
 
@@ -54,13 +59,13 @@ If installed, I recommend you remove these. However, this is not an exhaustive  
 Changes your search engine to `search[.]mysecurify[.]com`, which redirects to Bing.
 
 ### Remove a theme
-Themes should not be able to do anything bad, are highly unlikely to be malware. However, should you want to remove them, here is how:
+Themes should not be able to do anything bad, and thus are highly unlikely to be malware. However, should you want to remove them, here is how:
 - Chrome: https://support.google.com/chrome_webstore/answer/148695
 - Edge: https://www.howtogeek.com/725974/how-to-add-and-remove-themes-in-microsoft-edge/ (unofficial guide, instructions are under "How to Remove or Uninstall Themes from Microsoft Edge")
 
 ### Reset browser sync
-Many browsers now have the ability to sync data between devices. This feature sadly has the side effect of causing unwanted browser changes to reappear, even after being removed. **Be aware that clearing your sync data probably will cause some synced data to be lost. Be sure to save any important data (i.e. passwords) securely outside your browser just in case.**<br>
-- Chrome: https://forums.malwarebytes.com/topic/258886-chrome-secure-preferences-detection-always-returns/ (this is a good guide made by people who know what they are doing)
+Many browsers now can sync data between devices. This feature sadly has the side effect of causing unwanted browser changes to reappear, even after being removed. **Be aware that clearing your sync data probably will cause some synced data to be lost. Be sure to save any important data (i.e. passwords) securely outside your browser just in case.**<br>
+- Chrome: https://forums.malwarebytes.com/topic/258886-chrome-secure-preferences-detection-always-returns/
 - Edge (didn't find a good online guide): <br>
 <details>
 <summary>How to clear sync data in Edge</summary>
@@ -94,7 +99,7 @@ Open regedit and delete these keys:
     - HKEY_CURRENT_USER\SOFTWARE\Policies\Google\Chrome
 - Chrome (system) - you will need to run regedit as admin:
     - HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome 
-- Chrome policy removal tool: `https://www.stefanvd.net/project/chrome-policy-remover/` (there is also one for MacOS, but I can not speak to it's safety or effectiveness)
+- Chrome policy removal tool: `https://www.stefanvd.net/project/chrome-policy-remover/` (there is also one for MacOS, but I cannot speak to its safety or effectiveness)
 
 ### Reset your browser
 - Chrome: https://support.google.com/chrome/answer/3296214
