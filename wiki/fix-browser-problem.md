@@ -30,7 +30,7 @@ If that does not work or you want to be sure, [clear your browser cache and site
 ### Change search engine and homepage/new tab
 Some malware will only change your homepage/new tab or search engine, and will not prevent you from changing it back.<br>
 Homepage/new tab:
-- Firefox: https://support.mozilla.org/en-US/kb/how-to-set-the-home-
+- Firefox: https://support.mozilla.org/en-US/kb/how-to-set-the-home-page
 - Firefox for iOS: https://support.mozilla.org/en-US/kb/set-homepage-firefox-ios
 - Chrome: https://support.google.com/chrome/answer/95314
 - Edge: https://support.microsoft.com/en-us/microsoft-edge/change-your-browser-home-page-a531e1b8-ed54-d057-0262-cc5983a065c6 (also has steps for other browsers, but they may not be up-to-date)
