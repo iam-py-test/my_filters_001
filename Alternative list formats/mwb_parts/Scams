@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 30/6/2023
-! Version: 3062023-1
+! Last updated: 5/7/2023
+! Version: 572023-1
 ! Description: This list aims to protect against scams, phishing, malware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -6051,6 +6051,8 @@
 
 ! https://github.com/DandelionSprout/adfilt/discussions/779#discussioncomment-6298369
 ||anglebank.space^$all
+! https://tria.ge/230701-q2qdksgh48/behavioral1
+||crummygoddess.com^$all
 
 ! https://github.com/uBlockOrigin/uAssets/pull/18736
 ||funtwitter.games^$all
@@ -6059,4 +6061,84 @@
 ! https://github.com/uBlockOrigin/uAssets/issues/18664
 ||family-simulators.io^$all
 ||familyfornicate.com^$all
+
+! https://github.com/blocklistproject/Lists/issues/1015
+||bigosext9s.com^$document
+
+! musk-themed crypto scam
+||muskday.org^$all
+
+! popups
+||xmegaxvideox.com^$all
+||neeglashsurvey.top^$all
+
+! https://github.com/MetaMask/eth-phishing-detect/pull/12959
+||l0ktf.com^$document
+||babydegods.com^$document
+
+! https://github.com/hagezi/dns-blocklists/issues/1244
+||soaplooparrowstereo.click^$document
+
+! https://github.com/MetaMask/eth-phishing-detect/pull/12960
+||apecoin.group^$document
+||app.uniswap.cam^$document
+||bbhjb.com^$document
+||blur-nft.xyz^$document
+||bridge-claim.xyz^$document
+||claim-booster.xyz^$document
+||claim-pepe-airdrop.xyz^$document
+||claimairdrop.online^$document
+||crypto-claims.io^$document
+||dev851.d3710yoqrad6y3.amplifyapp.com^$document
+||email-metamask.com^$document
+||enter-uniswap.net^$document
+||get-uniswap.org^$document
+||join-whatisthissorcery.com^$document
+||lensprotocols-claim.com^$document
+||live-update-security.com^$document
+||loyaldrops.life^$document
+||metamaskdrop.fun^$document
+||metamasks.best^$document
+||newsletter-metamask.com^$document
+||nft-free.store^$document
+||notify-metamask.com^$document
+||psydex.gl^$document
+||register-ether.com^$document
+||whitelist-ether.site^$document
+
+! https://github.com/MetaMask/eth-phishing-detect/pull/12983
+||rabbit.claims^$document
+
+! https://github.com/hagezi/dns-blocklists/issues/1255
+||beze.co^$document
+||laro.co^$document
+||haso.co^$document
+||fessy.co^$document
+||zatte.co^$document
+||lanno.co^$document
+||detty.co^$document
+||durro.co^$document
+
+! https://tria.ge/230708-zw13kaab69/behavioral2
+||baconaces.pro^$all
+||rightsapphiresand.info^$all
+||aonforhaving.info^$all
+||download7locked.com^$all
+||install-check.com^$all
+||zz6av.top^$all
+||j4352.top^$all
+||ptrmx.top^$all
+||p5s12.top^$all
+||pnw9r.top^$all
+! stuff from a VM
+||kn3vp.top^$all
+||eyq2w.top^$all
+||edsn6.top^$all
+||c8pjg.top^$all
+||kwptr.top^$all
+||ese04.top^$all
+||uldmakefeagre.com^$all
+||ourmarketingefi.info^$all
+! https://app.any.run/tasks/561c592f-07c8-4954-95c7-1201da83e2f5
+||dacins.xyz^$all
 

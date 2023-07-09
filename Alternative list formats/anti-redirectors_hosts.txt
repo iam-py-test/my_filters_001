@@ -143,6 +143,7 @@
 # https://sitereport.netcraft.com/?url=https://itsssl.com/
 0.0.0.0 itsssl.com
 # https://app.any.run/tasks/76c0a010-75ff-4feb-a863-69bc7e4c588a/
+
 # https://www.virustotal.com/gui/user/Zonoiscool/comments
 # https://www.virustotal.com/gui/url/3b7c6053f8697f7d9279ce2d12347cde3e91f13e271dca0c811ddce473af3717/community
 # https://www.mywot.com/scorecard/v.ht
@@ -398,14 +399,11 @@
 0.0.0.0 mgnet.xyz
 # https://github.com/hagezi/dns-blocklists/issues/1161
 0.0.0.0 email-sendgrid-deep-linking.chewy.com
-# https://github.com/ClearURLs/Rules/issues/82
-0.0.0.0 redirect.viglink.com
 # https://forums.malwarebytes.com/topic/299088-false-positive-trkklclickcom-klaviyo-click-tracking-proxy/
 0.0.0.0 klclick.com
 0.0.0.0 klclick1.com
 0.0.0.0 klclick2.com
 0.0.0.0 klclick3.com
 0.0.0.0 trk.klclick.com
-0.0.0.0 trk.klclick1.com
 0.0.0.0 trk.klclick2.com
 0.0.0.0 trk.klclick3.com
