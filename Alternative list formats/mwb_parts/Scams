@@ -11,7 +11,7 @@
 ! Note: This list includes a version of VXVault.net's malware distribution url list, formatted for adblockers, which is at https://github.com/iam-py-test/vxvault_filter
 
 
-! Fake websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
+! websites pretending to be related to uBlock Origin - the real uBlock Origin is at https://github.com/gorhill/uBlock
 ! See https://github.com/gorhill/uBlock/wiki/Badware-risks#ublockorg
 ! Also blocked by uBlock Origin badware and DandelionSprout antimalware
 ||ublock.org^$document
