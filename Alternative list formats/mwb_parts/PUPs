@@ -143,7 +143,7 @@
 ! A scam adblocker (use uBlock Origin, AdGuard, or even AdBlock Plus. They are all better then TotalAdBlock)
 ! VirusTotal scan of Android version: https://www.virustotal.com/gui/file/24ce64dfa6937c5ede674b2ba33d6818bfa9f8bb4d36ff8da9aff39e05b8e41c/detection
 ! https://apps.apple.com/app/totaladblock/id1564900435 (only two reviews?)
-||totaladblock.com^$all
+||totaladblock.com^
 ||www.totaladblock.com^$all
 ||download.totaladblock.com^$all
 ||blockpage.totaladblock.com^$all

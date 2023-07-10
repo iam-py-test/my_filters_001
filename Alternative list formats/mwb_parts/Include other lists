@@ -15,7 +15,7 @@
 ! Title: The malicious website blocklist - extension
 ! Description: This is an extension to The malicious website blocklist for uBlock Origin and AdGuard which includes rules which can not be added to the main blocklist
 ! WARNING: This list is _not_ intended to be used on its own, or to be manually added. This list is auto-included in the uBo/AdGuard version of The malicious website blocklist
-! Last updated: 2/4/2023
+! Last updated: 9/7/2023
 
 ! ----- threats which can not or will not be blocked in the main list -----
 
@@ -194,7 +194,7 @@ rarbg.to##a[href*="furiousfar.com"]
 /^https?:\/\/(www\.)?click-video[a-zA-Z]\.com/$document
 
 ! adfly (might be dead as adfly is now owned by Linkverse)
-/^https?:\/\/www[0-9]*\.[a-zA-Z0-9]*.pro/pushredirect/.*&site=adfly&/$document
+/^https?:\/\/www[0-9]*\.[a-zA-Z0-9]*.pro/pushredirect\/.*&site=adfly&/$document
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139667
 /\.(live|buzz)/.*&[a-z]{1,3}=[a-zA-Z0-9%]{250,}/$document
@@ -215,6 +215,10 @@ rarbg.to##a[href*="furiousfar.com"]
 ||img.cdn.house^$domain=anonfiles.com
 ||anonfiles.com/sw_anonfiles.js$image
 anonfiles.com##+js(set, Notification.requestPermission, noopFunc)
+
+! https://github.com/uBlockOrigin/uAssets/issues/18897
+startpage.com##.total-adblock-desktop
+||startpage.com/sp/cdn/bundles/*/*/lib/TotalAdBlockAdultWidget.js^$script
 
 ! ---- malware or scam browser extensions -----
 
@@ -494,11 +498,11 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 5/5/2023
 ! Expires: 1 day
-! Last updated: 08/07/2023
+! Last updated: 09/07/2023
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Sat, 08 Jul 2023 20:20:39 +0000
+! Sun, 09 Jul 2023 20:20:49 +0000
 ||91.234.99.110/mipsel^$all
 ||103.95.196.149/x86^$all
 ||cdn.discordapp.com/attachments/1124469077491069010/1124473530491338752/inteldrv.exe^$all
