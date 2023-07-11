@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results, along with other annoyances
 ! Expires: 1 day
 ! Last updated: 7/4/2023
-! Last auto-generated: 10/07/2023
+! Last auto-generated: 11/07/2023
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -3162,6 +3162,13 @@ search.brave.com##div.fdb.snippet:has(a[href*="://find.fnavigate-now.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://southbayleadgen.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ezsoftware.fun"])
 search.brave.com##div.fdb.snippet:has(a[href*="://truanet.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://logictrackngs.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://super-trackings.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://web-trackings.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://tracks4me.biz"])
+search.brave.com##div.fdb.snippet:has(a[href*="://forgetrackng.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://chijkkkll.pages.dev"])
+search.brave.com##div.fdb.snippet:has(a[href*="://decentrall.online"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://www.ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublockerext.com"])
@@ -8371,13 +8378,11 @@ search.brave.com##div.fdb.snippet:has(a[href*="://zatte.co"])
 search.brave.com##div.fdb.snippet:has(a[href*="://lanno.co"])
 search.brave.com##div.fdb.snippet:has(a[href*="://detty.co"])
 search.brave.com##div.fdb.snippet:has(a[href*="://durro.co"])
-search.brave.com##div.fdb.snippet:has(a[href*="://baconaces.pro"])
 search.brave.com##div.fdb.snippet:has(a[href*="://rightsapphiresand.info"])
 search.brave.com##div.fdb.snippet:has(a[href*="://aonforhaving.info"])
 search.brave.com##div.fdb.snippet:has(a[href*="://download7locked.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://install-check.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://zz6av.top"])
-search.brave.com##div.fdb.snippet:has(a[href*="://j4352.top"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ptrmx.top"])
 search.brave.com##div.fdb.snippet:has(a[href*="://p5s12.top"])
 search.brave.com##div.fdb.snippet:has(a[href*="://pnw9r.top"])
