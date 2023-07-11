@@ -26,6 +26,7 @@ If that does not work or you want to be sure, [clear your browser cache and site
 - Firefox: https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox
 - Chrome: https://support.google.com/accounts/answer/32050
 - Edge: https://support.microsoft.com/en-us/microsoft-edge/delete-cookies-in-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09 (chose "delete all cookies")
+- Safari on MacOS: https://www.howtogeek.com/242324/how-to-clear-safari-browsing-history-and-cookies-on-mac/ (scroll down to "How to Clear Your Cookies on Safari". You don't need to delete your history)
 
 ### Change search engine and homepage/new tab
 Some malware will only change your homepage/new tab or search engine, and will not prevent you from changing it back.<br>
@@ -35,7 +36,8 @@ Homepage/new tab:
 - Chrome: https://support.google.com/chrome/answer/95314
 - Edge: https://support.microsoft.com/en-us/microsoft-edge/change-your-browser-home-page-a531e1b8-ed54-d057-0262-cc5983a065c6 (also has steps for other browsers, but they may not be up-to-date)
 
-<br>Search engine:
+<br>
+Search engine:
 - Firefox: https://support.mozilla.org/en-US/kb/change-your-default-search-settings-firefox
 - Firefox Focus on Android: https://support.mozilla.org/en-US/kb/change-your-default-search-firefox-focus-android
 - Chrome: https://support.google.com/chrome/answer/95426
@@ -50,13 +52,16 @@ If a specific extension is causing problems, you can uninstall it:
 - Chrome: https://support.google.com/chrome_webstore/answer/2664769
 - Edge: https://support.microsoft.com/en-us/microsoft-edge/add-turn-off-or-remove-extensions-in-microsoft-edge-9c0ec68c-2fbc-2f2c-9ff0-bdc76f46b026
 
-In some cases, extensions cannot be removed or reappear. If that happens, [make sure browser sync is not restoring them](#reset-browser-sync).
+In some cases, extensions cannot be removed or reappear. If that happens, [make sure browser sync is not restoring them](#reset-browser-sync) and [check your system for malware that may be reinstalling them](#remove-malware-from-your-system).
 If you are unsure what extensions to uninstall, see if you have [any of the extensions listed below](#known-malware-browser-extensions) installed, and if so, try uninstalling them. You also can try disabling your extensions one-by-one and seeing which one is causing the problem.
 
 #### Known malware browser extensions
 If installed, I recommend you remove these. However, this is not an exhaustive  list.
 - "Browsing Overview by Securify"
 Changes your search engine to `search[.]mysecurify[.]com`, which redirects to Bing.
+
+### General advice on troubleshooting issues caused by malware
+- Firefox: https://support.mozilla.org/en-US/kb/troubleshoot-firefox-issues-caused-malware
 
 ### Remove a theme
 Themes should not be able to do anything bad, and thus are highly unlikely to be malware. However, should you want to remove them, here is how:
@@ -80,12 +85,15 @@ Many browsers now can sync data between devices. This feature sadly has the side
 </details>
 I do not use sync on Firefox, so not sure this will help at all. Deleting your account will clear all data, but probably isn't ideal.
 
-- Firefox sync: https://support.mozilla.org/en-US/kb/delete-sync-data-firefox-signing-out-firefox-account
+- Firefox sync: https://support.mozilla.org/en-US/kb/delete-sync-data-firefox-signing-out-firefox-
 
 ### Remove malware from your system
 Windows:
 - Adwcleaner: https://support.malwarebytes.com/hc/en-us/articles/360038520114-Malwarebytes-AdwCleaner-scan-and-clean (do not remove any of the "preinstalled software" unless you know what you are doing; it is **not** malware)
 - Microsoft Safety Scanner: https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/safety-scanner-download
+
+### Fix browsers not opening
+- Firefox: try opening Firefox in [Troubleshoot Mode](https://support.mozilla.org/en-US/kb/diagnose-firefox-issues-using-troubleshoot-mode)
 
 ### Remove browser policies (Windows)
 Open regedit and delete these keys:
