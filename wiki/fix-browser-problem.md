@@ -27,6 +27,7 @@ If that does not work or you want to be sure, [clear your browser cache and site
 - Chrome: https://support.google.com/accounts/answer/32050
 - Edge: https://support.microsoft.com/en-us/microsoft-edge/delete-cookies-in-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09 (chose "delete all cookies")
 - Safari on MacOS: https://www.howtogeek.com/242324/how-to-clear-safari-browsing-history-and-cookies-on-mac/ (scroll down to "How to Clear Your Cookies on Safari". You don't need to delete your history)
+- Safari on iOS: https://support.apple.com/en-us/HT201265
 
 ### Change search engine and homepage/new tab
 Some malware will only change your homepage/new tab or search engine, and will not prevent you from changing it back.<br>
@@ -62,6 +63,7 @@ Changes your search engine to `search[.]mysecurify[.]com`, which redirects to Bi
 
 ### General advice on troubleshooting issues caused by malware
 - Firefox: https://support.mozilla.org/en-US/kb/troubleshoot-firefox-issues-caused-malware
+- Chrome: https://support.google.com/chrome/answer/2765944
 
 ### Remove a theme
 Themes should not be able to do anything bad, and thus are highly unlikely to be malware. However, should you want to remove them, here is how:
@@ -91,6 +93,7 @@ I do not use sync on Firefox, so not sure this will help at all. Deleting your a
 Windows:
 - Adwcleaner: https://support.malwarebytes.com/hc/en-us/articles/360038520114-Malwarebytes-AdwCleaner-scan-and-clean (do not remove any of the "preinstalled software" unless you know what you are doing; it is **not** malware)
 - Microsoft Safety Scanner: https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/safety-scanner-download
+- Emsisoft Emergency Kit: https://www.emsisoft.com/home/emergency-kit/
 
 ### Fix browsers not opening
 - Firefox: try opening Firefox in [Troubleshoot Mode](https://support.mozilla.org/en-US/kb/diagnose-firefox-issues-using-troubleshoot-mode)
@@ -125,6 +128,7 @@ Open regedit and delete these keys:
 </ul>
 </details>
 
+- Internet Explorer: https://support.microsoft.com/en-us/windows/change-or-reset-internet-explorer-settings-2d4bac50-5762-91c5-a057-a922533f77d5
 - Various browsers: https://www.computerhope.com/issues/ch001748.htm
 
 ### Dealing with aggressive malware

@@ -556,3 +556,9 @@ youtube.com##+js(href-sanitizer,a[href*="https://www.youtube.com/redirect"], ?q)
 ||trk.klclick.com^
 ||trk.klclick2.com^
 ||trk.klclick3.com^
+
+! https://github.com/hagezi/dns-blocklists/issues/1278
+||linkspy.cc^$document
+
+! https://github.com/hagezi/dns-blocklists/issues/1279
+||shrinkearn.com^$document
