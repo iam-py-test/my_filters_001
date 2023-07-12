@@ -407,3 +407,7 @@
 0.0.0.0 trk.klclick.com
 0.0.0.0 trk.klclick2.com
 0.0.0.0 trk.klclick3.com
+# https://github.com/hagezi/dns-blocklists/issues/1278
+0.0.0.0 linkspy.cc
+# https://github.com/hagezi/dns-blocklists/issues/1279
+0.0.0.0 shrinkearn.com
