@@ -44,13 +44,11 @@ except:
 
 lines = open("antimalware.txt",encoding="UTF-8").read().split("\n")
 for line in lines:
-  if line in done_entries or line in bannedfilters:
+  if line in done_entries or line in bannedfilters or line == "" or line.startswith("!") or line.startswith("#") or "[Adblock Plus 2.0]" in line:
     continue
   if line.startswith("||") and "/" in line:
     list1 += line + "\n"
     done_entries.append(line)
-    continue
-  if line.startswith("!") or line == "" or line.startswith("#") or "[Adblock Plus 2.0]" in line:
     continue
   else:
     try:
@@ -64,7 +62,7 @@ for line in lines:
         list1 += line + "\n"
         done_entries.append(line)
         done_domains.append(domain)
-        if "/" not in domain and isipdomain(domain) == False:
+        if "/" not in line and isipdomain(domain) == False:
           all_domains.append(domain)
     except Exception as err:
       print(err)
