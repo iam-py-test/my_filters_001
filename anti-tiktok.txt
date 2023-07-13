@@ -13,3 +13,6 @@
 ||tiktokv.com^$all
 ||byteoversea.com^$all
 ||mon-va.byteoversea.com^$all
+||ibytedtos.com^$all
+||lf16-tiktok-common.ibytedtos.com^$all
+||us.tiktok.com^$all
