@@ -562,3 +562,6 @@ youtube.com##+js(href-sanitizer,a[href*="https://www.youtube.com/redirect"], ?q)
 
 ! https://github.com/hagezi/dns-blocklists/issues/1279
 ||shrinkearn.com^$document
+
+! https://github.com/badmojr/1Hosts/issues/1500
+||cuty.io^$document
