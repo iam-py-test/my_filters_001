@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results, along with other annoyances
 ! Expires: 1 day
 ! Last updated: 7/4/2023
-! Last auto-generated: 13/07/2023
+! Last auto-generated: 14/07/2023
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -3297,8 +3297,6 @@ search.brave.com##div.fdb.snippet:has(a[href*="://www.qualityhealth.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://qualityhealth.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://consumerproductsusa.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://www.consumerproductsusa.com"])
-search.brave.com##div.fdb.snippet:has(a[href*="://yasir252.com"])
-search.brave.com##div.fdb.snippet:has(a[href*="://www.yasir252.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://safelink.kadal.club"])
 search.brave.com##div.fdb.snippet:has(a[href*="://iclickcdn.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://bedrapiona.com"])
@@ -3315,6 +3313,10 @@ search.brave.com##div.fdb.snippet:has(a[href*="://gammamkt.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://leadgentrk.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://chirkacylal.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://shoksips.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://adblock-zen-download.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://adblock-zen.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://adblockertool.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://supremeadblocker.info"])
 search.brave.com##div.fdb.snippet:has(a[href*="://www.faremart.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://faremart.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://alexstewartinternationalltd.rw"])

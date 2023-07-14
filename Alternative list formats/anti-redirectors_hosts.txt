@@ -411,3 +411,5 @@
 0.0.0.0 linkspy.cc
 # https://github.com/hagezi/dns-blocklists/issues/1279
 0.0.0.0 shrinkearn.com
+# https://github.com/badmojr/1Hosts/issues/1500
+0.0.0.0 cuty.io
