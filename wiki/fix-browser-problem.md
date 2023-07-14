@@ -89,11 +89,16 @@ I do not use sync on Firefox, so not sure this will help at all. Deleting your a
 
 - Firefox sync: https://support.mozilla.org/en-US/kb/delete-sync-data-firefox-signing-out-firefox-
 
+### Reset the HOSTs file
+- Windows: https://support.microsoft.com/en-us/topic/how-to-reset-the-hosts-file-back-to-the-default-c2a43f9d-e176-c6f3-e4ef-3500277a6dae
+
 ### Remove malware from your system
 Windows:
 - Adwcleaner: https://support.malwarebytes.com/hc/en-us/articles/360038520114-Malwarebytes-AdwCleaner-scan-and-clean (do not remove any of the "preinstalled software" unless you know what you are doing; it is **not** malware)
 - Microsoft Safety Scanner: https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/safety-scanner-download
 - Emsisoft Emergency Kit: https://www.emsisoft.com/home/emergency-kit/
+- ESET Online Scanner: https://download.eset.com/com/eset/tools/online_scanner/latest/esetonlinescanner.exe
+- Norton Power Eraser: https://support.norton.com/sp/en/us/home/current/solutions/kb20100824120155EN
 
 ### Fix browsers not opening
 - Firefox: try opening Firefox in [Troubleshoot Mode](https://support.mozilla.org/en-US/kb/diagnose-firefox-issues-using-troubleshoot-mode)
