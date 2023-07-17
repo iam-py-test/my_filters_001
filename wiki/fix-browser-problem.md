@@ -110,6 +110,7 @@ Windows:
 - If you are unable to download this software:
     - [Try resetting your HOSTs file](#reset-the-hosts-file)
     - [Change your DNS server](#change-your-dns-server)
+    - [Remove any browser policies added by the malware](#remove-browser-policies-windows)<sup>[[1]](https://infosec.exchange/@iampytest1/110729341478492979)</sup>
     - Download and run RKill: https://www.bleepingcomputer.com/download/rkill/
 - Adwcleaner: https://support.malwarebytes.com/hc/articles/360038520054-Download-and-install-Malwarebytes-AdwCleaner
     - For more information: https://support.malwarebytes.com/hc/articles/360038520114-Malwarebytes-AdwCleaner-scan-and-clean 
@@ -155,6 +156,8 @@ Open regedit and delete these keys:
 - Chrome (system) - you will need to run regedit as admin:
     - HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome 
 - Chrome policy removal tool: `https://www.stefanvd.net/project/chrome-policy-remover/` (there is also one for MacOS, but I cannot speak to its safety or effectiveness)
+
+After doing this, restart your browser
 
 ### Reset your browser
 - Chrome: https://support.google.com/chrome/answer/3296214
