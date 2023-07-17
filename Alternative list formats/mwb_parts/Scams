@@ -6557,3 +6557,9 @@
 ||nip99.com^$document
 ||nip100.com^$document
 
+! https://github.com/hagezi/dns-blocklists/issues/1310
+||bcb.game^$all
+
+! scam? notification spam & weird pharmaceutical ads
+||us-trendingtoday.com^$document,popup
+
