@@ -803,3 +803,12 @@
 ||ofoseveralyea.info^$all
 ||ratefinaukncei.info^$all
 
+! adware
+||pdfsuperhero.com^$all
+||pdfsuperhero.azureedge.net^$all
+||pdfconverty.com^$all
+
+! chromium based adware
+||gettoptemplates.com^$document
+||downloadonelaunchnow.com^$document
+
