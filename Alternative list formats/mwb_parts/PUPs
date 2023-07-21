@@ -23,6 +23,7 @@
 ! https://malwaretips.com/threads/total-av-is-it-a-scam.80362/
 ! https://github.com/uBlockOrigin/uAssets/issues/9355
 ! https://github.com/notracking/hosts-blocklists/issues/756#issuecomment-1172973042
+! https://tria.ge/230720-3qya9sbh2t/behavioral2
 ! *many* deceptive ads
 ||totalav.com^$all
 ||www.totalav.com^$all
@@ -559,7 +560,7 @@
 ||start.pdfsharkapp.com^$document
 ||searchmagiconline.com^$document
 ||start.searchmagiconline.com^$document
-||pdfsuperhero.com^$document
+||pdfsuperhero.com^$all
 ||stats.pdfsuperhero.com^$all
 ||bl.searchpoweronline.com^$document
 
@@ -804,7 +805,6 @@
 ||ratefinaukncei.info^$all
 
 ! adware
-||pdfsuperhero.com^$all
 ||pdfsuperhero.azureedge.net^$all
 ||pdfconverty.com^$all
 

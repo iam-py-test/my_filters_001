@@ -320,6 +320,8 @@
 0.0.0.0 nsupdate.info
 0.0.0.0 sieraddns.com
 0.0.0.0 xddns.de
+0.0.0.0 dnsmax.com
+0.0.0.0 thatip.com
 # https://help.dyn.com/list-of-dyn-dns-pro-remote-access-domain-names/
 0.0.0.0 at-band-camp.net
 0.0.0.0 ath.cx

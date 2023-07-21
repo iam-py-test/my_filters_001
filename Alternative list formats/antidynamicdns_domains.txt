@@ -313,6 +313,8 @@ sql01.com
 nsupdate.info
 sieraddns.com
 xddns.de
+dnsmax.com
+thatip.com
 at-band-camp.net
 ath.cx
 barrel-of-knowledge.info
