@@ -116,3 +116,5 @@
 ||votre-authentification-sg.com^$all
 ||dhl-support-colis.com^$all
 ||reconnections-mabanque.com^$all
+! as of 20/7/2023 (https://www.virustotal.com/gui/domain/americafirsta.top/community)
+||americafirsta.top^$all

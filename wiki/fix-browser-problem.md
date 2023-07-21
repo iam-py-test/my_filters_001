@@ -129,6 +129,11 @@ Windows:
     - Would recommend you go into the settings and turn off "Scan for Tracking Cookies". These are **not malware** and clutter up the scan results. It is better to [manage cookies from your browser's settings](#clear-browser-cache-and-cookies) rather than using 3rd-party tools, and it is even better to block trackers rather than just removing tracking cookies after the fact.
 - Malwarebytes: https://www.malwarebytes.com/mwb-download/thankyou
     - You **do not** need to buy it! The free version can remove malware just as well as the paid one.
+    - It will come with a trial version:
+        - The real-time protection may confict with your security software:
+            - You can disactivate the trial: https://support.malwarebytes.com/hc/en-us/articles/360040972954-Deactivate-Premium-Trial-in-Malwarebytes-for-Windows
+            - You can turn off real-time protection: https://support.malwarebytes.com/hc/en-us/articles/360038984793 (if you don't want the real time protection, you are better off disactivating the trial. The only downside is that you will never be able to use the trial again)
+            - Or if you want the real time protection (which **is not needed to clean your system**), you can exclude Malwarebytes from your security software and vice versa: https://support.malwarebytes.com/hc/en-us/articles/360038522974-Malwarebytes-for-Windows-antivirus-exclusions-list
     - You do not need to do a custom scan of your entire C:\ drive. The threat scan is enough
     - I would strongly recommend you unregister it from the Windows Security Center, as to avoid disabling Windows Defender
     - While the default scan settings are enough for normal usage, I would recommend enabling the "Scan for rootkits" option on infected systems: https://support.malwarebytes.com/hc/articles/360038984953-Security-settings-in-Malwarebytes-for-Windows
