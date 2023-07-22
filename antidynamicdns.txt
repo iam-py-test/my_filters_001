@@ -322,6 +322,7 @@
 ||xddns.de^$document
 ||dnsmax.com^$document
 ||thatip.com^$document
+||tpddns.cn^$document
 ! https://help.dyn.com/list-of-dyn-dns-pro-remote-access-domain-names/
 ||at-band-camp.net^$document
 ||ath.cx^$document
