@@ -2,11 +2,13 @@
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 5/5/2023
 ! Expires: 1 day
-! Last updated: 20/07/2023
+! Last updated: 21/07/2023
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Thu, 20 Jul 2023 20:19:33 +0000
+! Fri, 21 Jul 2023 20:18:57 +0000
+||212.8.251.176/596a96cc7bf9108cd896f33c44aedc8a/db0fa4b8db0333367e9bda3ab68b8042.i686^$all
+||165.232.162.31/udp/taskhostamd.exe^$all
 ||raw.githubusercontent.com/duantienty/miner/main/Client.jpg^$all
 ||raw.githubusercontent.com/duantienty/miner/main/Jcojp.jpg^$all
 ||107.189.3.174/596a96cc7bf9108cd896f33c44aedc8a/db0fa4b8db0333367e9bda3ab68b8042.x86^$all
@@ -106,5 +108,3 @@
 ||65.21.3.192/msiexp.exe^$all
 ||45.15.159.42/XSS1.exe^$all
 ||intercross.shop/index/kXFpZBb.exe^$all
-||bitbucket.org/dushanbepromo/kingsoft/downloads/OriginalBuild.exe^$all
-||bitbucket.org/dushanbepromo/kingsoft/downloads/tmpF82D.tmp.exe^$all

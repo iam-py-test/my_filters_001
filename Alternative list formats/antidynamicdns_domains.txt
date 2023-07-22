@@ -315,6 +315,7 @@ sieraddns.com
 xddns.de
 dnsmax.com
 thatip.com
+tpddns.cn
 at-band-camp.net
 ath.cx
 barrel-of-knowledge.info
