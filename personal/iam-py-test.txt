@@ -96,6 +96,7 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||pixhost.to^$all
 ||motherless.com^$all
 ||imagefap.com^$all
+||dr-farfar.com^$all
 
 ! ---- suspected malware ----
 ||inghesatin.com^$all
