@@ -25,6 +25,7 @@
 ! https://github.com/notracking/hosts-blocklists/issues/756#issuecomment-1172973042
 ! https://tria.ge/230720-3qya9sbh2t/behavioral2
 ! https://app.any.run/tasks/cc0dd977-97e3-4b4a-833b-dfc4d5f0be55/
+! https://tria.ge/230724-z8hfzsha64/behavioral1
 ! *many* deceptive ads
 ||totalav.com^$all
 ||www.totalav.com^$all

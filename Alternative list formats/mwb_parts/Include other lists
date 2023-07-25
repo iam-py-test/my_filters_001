@@ -215,6 +215,8 @@ rarbg.to##a[href*="furiousfar.com"]
 ||img.cdn.house^$domain=anonfiles.com
 ||anonfiles.com/sw_anonfiles.js$image
 anonfiles.com##+js(set, Notification.requestPermission, noopFunc)
+! https://tria.ge/230724-z8hfzsha64/behavioral1
+||info^$domain=anonfiles.com
 
 ! https://github.com/uBlockOrigin/uAssets/issues/18897
 startpage.com##.total-adblock-desktop
@@ -501,11 +503,12 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 5/5/2023
 ! Expires: 1 day
-! Last updated: 23/07/2023
+! Last updated: 24/07/2023
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Sun, 23 Jul 2023 20:18:02 +0000
+! Mon, 24 Jul 2023 20:19:50 +0000
+||ha5hfiles.xyz/jusched.exe^$all
 ||212.8.251.176/596a96cc7bf9108cd896f33c44aedc8a/db0fa4b8db0333367e9bda3ab68b8042.i686^$all
 ||165.232.162.31/udp/taskhostamd.exe^$all
 ||raw.githubusercontent.com/duantienty/miner/main/Client.jpg^$all
@@ -606,7 +609,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||asalroshani.ir/user/uni.exe^$all
 ||65.21.3.192/msiexp.exe^$all
 ||45.15.159.42/XSS1.exe^$all
-||intercross.shop/index/kXFpZBb.exe^$all
 
 
 
