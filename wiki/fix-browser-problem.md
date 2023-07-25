@@ -54,7 +54,13 @@ If a specific extension is causing problems, you can uninstall it:
 - Chrome: https://support.google.com/chrome_webstore/answer/2664769
 - Edge: https://support.microsoft.com/microsoft-edge/add-turn-off-or-remove-extensions-in-microsoft-edge-9c0ec68c-2fbc-2f2c-9ff0-bdc76f46b026
 
-In some cases, extensions cannot be removed or reappear. If that happens, [make sure browser sync is not restoring them](#reset-browser-sync) and [check your system for malware that may be reinstalling them](#remove-malware-from-your-system).
+#### Can not remove an extension:
+- Firefox: https://support.mozilla.org/kb/cannot-remove-add-on-extension-or-theme
+- Chrome:
+    - [Reset browser sync](#reset-browser-sync)
+    - [Remove malware infections](#remove-malware-from-your-system)
+    - Remove extensions installed via policy: https://www.howtogeek.com/410270/how-to-remove-a-chrome-extension-installed-by-enterprise-policy-on-windows/
+
 If you are unsure what extensions to uninstall, see if you have [any of the extensions listed below](#known-malware-browser-extensions) installed, and if so, try uninstalling them. You also can try disabling your extensions one-by-one and seeing which one is causing the problem.
 
 #### Known malware browser extensions
@@ -104,51 +110,64 @@ After resetting your HOSTs file, reboot your device.
 
 ### Remove malware from your system
 No one malware removal tool can clean a system.
-Windows:
-- All of these programs are free. Some may advertise their payed software, but it is not needed
-- Sadly, none of these are libre software
-- If you are unable to download this software:
-    - [Try resetting your HOSTs file](#reset-the-hosts-file)
-    - [Change your DNS server](#change-your-dns-server)
-    - [Remove any browser policies added by the malware](#remove-browser-policies-windows)<sup>[[1]](https://infosec.exchange/@iampytest1/110729341478492979)</sup>
-    - Download and run RKill: https://www.bleepingcomputer.com/download/rkill/
-- Adwcleaner: https://support.malwarebytes.com/hc/articles/360038520054-Download-and-install-Malwarebytes-AdwCleaner
-    - For more information: https://support.malwarebytes.com/hc/articles/360038520114-Malwarebytes-AdwCleaner-scan-and-clean 
-    - Do not remove any of the "preinstalled software" unless you know what you are doing; it is **not** malware.
-- Emsisoft Emergency Kit: https://www.emsisoft.com/home/emergency-kit/
-    - It is recommended you run the full scan.
-- ESET Online Scanner: https://download.eset.com/com/eset/tools/online_scanner/latest/esetonlinescanner.exe
-    - It is recommended to run the full scan
-    - ESET automatically removes threats during the scan. [You can restore them](https://support.eset.com/en/kb2915-restore-files-quarantined-by-the-eset-online-scanner)
-- Norton Power Eraser: https://support.norton.com/sp/en/us/home/current/solutions/kb20100824120155EN
-    - No, this is not a joke.
-- Sophos Scan and Clean:
-    - 64-bit: https://download.sophos.com/tools/SophosScanAndClean_x64.exe
-    - 32-bit: https://download.sophos.com/tools/SophosScanAndClean.exe
-    - If these links do not work, you can [download it from here](https://www.sophos.com/free-tools/virus-removal-tool/free-download), but you will have to enter a name and email. You do not have to enter a real email, but they do block obviously invalid ones (i.e. `example@example.example`)
-    - Would recommend you go into the settings and turn off "Scan for Tracking Cookies". These are **not malware** and clutter up the scan results. It is better to [manage cookies from your browser's settings](#clear-browser-cache-and-cookies) rather than using 3rd-party tools, and it is even better to block trackers rather than just removing tracking cookies after the fact.
-- Malwarebytes: https://www.malwarebytes.com/mwb-download/thankyou
-    - You **do not** need to buy it! The free version can remove malware just as well as the paid one.
-    - It will come with a trial version:
-        - The real-time protection may confict with your security software:
-            - You can disactivate the trial: https://support.malwarebytes.com/hc/en-us/articles/360040972954-Deactivate-Premium-Trial-in-Malwarebytes-for-Windows
-            - You can turn off real-time protection: https://support.malwarebytes.com/hc/en-us/articles/360038984793 (if you don't want the real time protection, you are better off disactivating the trial. The only downside is that you will never be able to use the trial again)
-            - Or if you want the real time protection (which **is not needed to clean your system**), you can exclude Malwarebytes from your security software and vice versa: https://support.malwarebytes.com/hc/en-us/articles/360038522974-Malwarebytes-for-Windows-antivirus-exclusions-list
-    - You do not need to do a custom scan of your entire C:\ drive. The threat scan is enough
-    - I would strongly recommend you unregister it from the Windows Security Center, as to avoid disabling Windows Defender
-    - While the default scan settings are enough for normal usage, I would recommend enabling the "Scan for rootkits" option on infected systems: https://support.malwarebytes.com/hc/articles/360038984953-Security-settings-in-Malwarebytes-for-Windows
-    - You can uninstall Malwarebytes once you are done
-    - If you want to keep Malwarebytes installed, be sure to reset the scan settings to default.
-- Microsoft Safety Scanner: https://learn.microsoft.com/microsoft-365/security/intelligence/safety-scanner-download
-    - Be sure to run the Full scan!
-    - Be aware that the Microsoft Safety Scanner may show detections during the scan. This is *normal* and does *not* mean you are infected. All that matters is the result at the end.
-- Kaspersky: https://www.kaspersky.com/downloads/free-virus-removal-tool
-    - I am not a big fan on Kaspersky, and I know a lot of people distrust them (for various reasons, mostly concerning Russia). However, if you are ok with running their software, their malware removal tool is one of the best.
+- Windows:
+    - All of these programs are free. Some may advertise their payed software, but it is not needed
+    - Sadly, none of these are libre software
+    - If you are unable to download this software:
+        - [Try resetting your HOSTs file](#reset-the-hosts-file)
+        - [Change your DNS server](#change-your-dns-server)
+        - [Remove any browser policies added by the malware](#remove-browser-policies-windows)<sup>[[1]](https://infosec.exchange/@iampytest1/110729341478492979)</sup>
+        - Download and run RKill: https://www.bleepingcomputer.com/download/rkill/
+        - Boot into safe mode: https://support.microsoft.com/en-us/windows/start-your-pc-in-safe-mode-in-windows-92c27cff-db89-8644-1ce4-b3e5e56fe234
+        - Malwarebytes Anti-rootkit: https://forums.malwarebytes.com/topic/198907-requested-resource-is-in-use-error-unable-to-start-malwarebytes/#comment-1114827 (ignore the title)
+    - Adwcleaner: https://support.malwarebytes.com/hc/articles/360038520054-Download-and-install-Malwarebytes-AdwCleaner
+        - For more information: https://support.malwarebytes.com/hc/articles/360038520114-Malwarebytes-AdwCleaner-scan-and-clean 
+        - Do not remove any of the "preinstalled software" unless you know what you are doing; it is **not** malware.
+    - Emsisoft Emergency Kit: https://www.emsisoft.com/home/emergency-kit/
+        - It is recommended you run the full scan.
+    - ESET Online Scanner: https://download.eset.com/com/eset/tools/online_scanner/latest/esetonlinescanner.exe
+        - It is recommended to run the full scan
+        - ESET automatically removes threats during the scan. [You can restore them](https://support.eset.com/en/kb2915-restore-files-quarantined-by-the-eset-online-scanner)
+    - Norton Power Eraser: https://support.norton.com/sp/en/us/home/current/solutions/kb20100824120155EN
+        - No, this is not a joke.
+    - Sophos Scan and Clean:
+        - 64-bit: https://download.sophos.com/tools/SophosScanAndClean_x64.exe
+        - 32-bit: https://download.sophos.com/tools/SophosScanAndClean.exe
+        - If these links do not work, you can [download it from here](https://www.sophos.com/free-tools/virus-removal-tool/free-download), but you will have to enter a name and email. You do not have to enter a real email, but they do block obviously invalid ones (i.e. `example@example.example`)
+        - Would recommend you go into the settings and turn off "Scan for Tracking Cookies". These are **not malware** and clutter up the scan results. It is better to [manage cookies from your browser's settings](#clear-browser-cache-and-cookies) rather than using 3rd-party tools, and it is even better to block trackers rather than just removing tracking cookies after the fact.
+    - Malwarebytes: https://www.malwarebytes.com/mwb-download/thankyou
+        - You **do not** need to buy it! The free version can remove malware just as well as the paid one.
+        - It will come with a trial version:
+            - The real-time protection may confict with your security software:
+                - You can disactivate the trial: https://support.malwarebytes.com/hc/en-us/articles/360040972954-Deactivate-Premium-Trial-in-Malwarebytes-for-Windows
+                - You can turn off real-time protection: https://support.malwarebytes.com/hc/en-us/articles/360038984793 (if you don't want the real time protection, you are better off disactivating the trial. The only downside is that you will never be able to use the trial again)
+                - Or if you want the real time protection (which **is not needed to clean your system**), you can exclude Malwarebytes from your security software and vice versa: https://support.malwarebytes.com/hc/en-us/articles/360038522974-Malwarebytes-for-Windows-antivirus-exclusions-list
+        - You do not need to do a custom scan of your entire C:\ drive. The threat scan is enough
+        - I would strongly recommend you unregister it from the Windows Security Center, as to avoid disabling Windows Defender
+        - While the default scan settings are enough for normal usage, I would recommend enabling the "Scan for rootkits" option on infected systems: https://support.malwarebytes.com/hc/articles/360038984953-Security-settings-in-Malwarebytes-for-Windows
+        - You can uninstall Malwarebytes once you are done
+        - If you want to keep Malwarebytes installed, be sure to reset the scan settings to default.
+    - Microsoft Safety Scanner: https://learn.microsoft.com/microsoft-365/security/intelligence/safety-scanner-download
+        - Be sure to run the Full scan!
+        - Be aware that the Microsoft Safety Scanner may show detections during the scan. This is *normal* and does *not* mean you are infected. All that matters is the result at the end.
+    - Kaspersky: https://www.kaspersky.com/downloads/free-virus-removal-tool
+        - I am not a big fan on Kaspersky, and I know a lot of people distrust them (for various reasons, mostly concerning Russia). However, if you are ok with running their software, their malware removal tool is one of the best.
+- Android:
+
+- iOS:
+    - iOS malware is very rare outside targeted attacks
+        - If you are reading a page on GitHub about how to fix problems with your browser, you probably aren't someone who would be targeted.
+        - If you are indeed targeted, you should seek help from an expert, not a page on GitHub
+    - This is far beyond the scope of this page and my knowledge
+    - However, if needed, below is information on reseting an iOS device
+    - Reset: https://support.apple.com/guide/iphone/return-iphone-settings-to-their-defaults-iphea1c2fe48/ios
+    - Reinstall: https://support.apple.com/guide/iphone/erase-iphone-iph7a2a9399b/16.0/ios/16.0#iph622110a2d
 
 ### Fix browsers not opening
 - Firefox: try opening Firefox in [Troubleshoot Mode](https://support.mozilla.org/kb/diagnose-firefox-issues-using-troubleshoot-mode)
 
 ### Remove browser policies (Windows)
+Before doing this, close all browsers.
 Open regedit and delete these keys:
 - Edge (current user):
     - HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Edge
@@ -166,6 +185,7 @@ After doing this, restart your browser
 
 ### Reset your browser
 - Chrome: https://support.google.com/chrome/answer/3296214
+    - Chrome (Android): https://malwaretips.com/blogs/how-to-reset-chrome-browser-settings-on-android-phone/
 - Firefox: https://support.mozilla.org/kb/reset-preferences-fix-problems
 - OperaGX: https://www.youtube.com/watch?v=5rjfyD13-Vk
 - Edge (I do not see a good online guide for Edge)<br>
