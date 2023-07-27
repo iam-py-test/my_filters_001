@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results, along with other annoyances
 ! Expires: 1 day
 ! Last updated: 7/4/2023
-! Last auto-generated: 25/07/2023
+! Last auto-generated: 27/07/2023
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -3224,6 +3224,9 @@ search.brave.com##div.fdb.snippet:has(a[href*="://update-smart.club"])
 search.brave.com##div.fdb.snippet:has(a[href*="://cleaner-update.club"])
 search.brave.com##div.fdb.snippet:has(a[href*="://speedupdate.club"])
 search.brave.com##div.fdb.snippet:has(a[href*="://good-update.club"])
+search.brave.com##div.fdb.snippet:has(a[href*="://eclatearns.documentbusinesses.online"])
+search.brave.com##div.fdb.snippet:has(a[href*="://documentbusinesses.online"])
+search.brave.com##div.fdb.snippet:has(a[href*="://formulagile.xyz"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://www.ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublockerext.com"])
@@ -8883,6 +8886,19 @@ search.brave.com##div.fdb.snippet:has(a[href*="://zubajuroo.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://singlewomenmeet.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://only2date.online"])
 search.brave.com##div.fdb.snippet:has(a[href*="://amnotification.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://desbiens123.net"])
+search.brave.com##div.fdb.snippet:has(a[href*="://sex-dating.qbig.site"])
+search.brave.com##div.fdb.snippet:has(a[href*="://anesthesia2000.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://balladoron.life"])
+search.brave.com##div.fdb.snippet:has(a[href*="://avprotect.store"])
+search.brave.com##div.fdb.snippet:has(a[href*="://www.pioxe.live"])
+search.brave.com##div.fdb.snippet:has(a[href*="://86ff56b6d5.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://030e9b0efb.47aead8f05.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://47aead8f05.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://systemoon.co.in"])
+search.brave.com##div.fdb.snippet:has(a[href*="://moontrck.xyz"])
+search.brave.com##div.fdb.snippet:has(a[href*="://donemileliondol.info"])
+search.brave.com##div.fdb.snippet:has(a[href*="://inarilyhukel.info"])
 search.brave.com##div.fdb.snippet:has(a[href*="://totalav.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://www.totalav.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://api.totalav.com"])
