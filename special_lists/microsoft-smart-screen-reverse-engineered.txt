@@ -51,3 +51,9 @@
 ||cashspacex.org^$all
 ! 5/3/2023
 ||mignished-sility.com^$all
+! 26/7/2023: https://0xacab.org/my-privacy-dns/matrix/-/issues/644873
+||donemileliondol.info^$all
+! 26/7/2023: https://0xacab.org/my-privacy-dns/matrix/-/issues/644871
+||inarilyhukel.info^$all
+! 26/7/2023
+||www.pioxe.live^$all

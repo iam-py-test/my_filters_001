@@ -34,4 +34,7 @@ taskkill /F /IM "opera_autoupdate.exe"
 rem OperaGX
 taskkill /F /IM "OperaGXSetup.exe"
 
+rem Yandex
+taskkill /F /IM "yandex.exe"
+
 echo All browsers killed
