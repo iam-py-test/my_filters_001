@@ -118,3 +118,7 @@
 ||reconnections-mabanque.com^$all
 ! as of 20/7/2023 (https://www.virustotal.com/gui/domain/americafirsta.top/community)
 ||americafirsta.top^$all
+! as of 27/7/2023
+||prestamos-prestacapital.top^$all
+! as of 27/7/2023 (https://urlhaus.abuse.ch/url/2690431/)
+||103.180.134.66^$all

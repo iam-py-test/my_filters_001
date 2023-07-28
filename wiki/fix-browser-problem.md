@@ -180,6 +180,7 @@ Open regedit and delete these keys:
 - Chrome (system) - you will need to run regedit as admin:
     - HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome 
 - Chrome policy removal tool: `https://www.stefanvd.net/project/chrome-policy-remover/` (there is also one for MacOS, but I cannot speak to its safety or effectiveness)
+- Internet Explorer: HKLM\SOFTWARE\Policies\Microsoft\Internet Explorer
 
 After doing this, restart your browser
 
