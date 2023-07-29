@@ -122,3 +122,11 @@
 ||prestamos-prestacapital.top^$all
 ! as of 27/7/2023 (https://urlhaus.abuse.ch/url/2690431/)
 ||103.180.134.66^$all
+! as of 28/7/2023 (openphish)
+||faq.itupdates.support^$all
+||258transports.com^$all
+||tgatgu.top^$all
+||whattapp.net^$all
+||akmalhost21.cfd^$all
+||vmlx98.codes^$all
+||67.205.178.82^$all

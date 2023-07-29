@@ -5,7 +5,7 @@ Warning: This is a work in progress!
 
 ### Things not to do
 - Do not use "cleaner" programs to clear browser cache/cookies. These programs may cause problems with your browser. Use your browser settings to clear cookies and cache.
-- Stay aware from scam or low quality malware removal tools, such as SpyHunter, TotalAV, and PCProtect.
+- Stay aware from scam or low quality malware removal tools, such as SpyHunter, TotalAV, ScanGuard, and PCProtect.
 
 ### Remove spam notifications
 Malicious websites can send you spammy notifications, such as fake warnings about malware: <br>
@@ -71,7 +71,7 @@ Changes your search engine to `search[.]mysecurify[.]com`, which redirects to Bi
 ### General advice on troubleshooting
 - Firefox: 
     - https://support.mozilla.org/kb/troubleshoot-firefox-issues-caused-malware
-    - https://support.mozilla.org/en-US/kb/troubleshoot-and-diagnose-firefox-problems
+    - https://support.mozilla.org/kb/troubleshoot-and-diagnose-firefox-problems
 - Chrome: https://support.google.com/chrome/answer/2765944
 
 ### Remove a theme
@@ -108,6 +108,11 @@ After resetting your HOSTs file, reboot your device.
 - Windows: https://www.howtogeek.com/786911/how-to-change-your-dns-server-on-windows-10/
 - MacOS: https://www.howtogeek.com/787642/how-to-change-your-dns-server-on-a-mac/
 
+### Fix problems updating
+- Chrome: https://support.google.com/chrome/answer/111996
+- Firefox: https://support.mozilla.org/kb/update-failed-error-message-when-updating
+- [Try reseting your HOSTs file](#reset-the-hosts-file) and [changing your DNS server](#change-your-dns-server)
+
 ### Remove malware from your system
 No one malware removal tool can clean a system.
 - Windows:
@@ -118,7 +123,7 @@ No one malware removal tool can clean a system.
         - [Change your DNS server](#change-your-dns-server)
         - [Remove any browser policies added by the malware](#remove-browser-policies-windows)<sup>[[1]](https://infosec.exchange/@iampytest1/110729341478492979)</sup>
         - Download and run RKill: https://www.bleepingcomputer.com/download/rkill/
-        - Boot into safe mode: https://support.microsoft.com/en-us/windows/start-your-pc-in-safe-mode-in-windows-92c27cff-db89-8644-1ce4-b3e5e56fe234
+        - Boot into safe mode: https://support.microsoft.com/windows/start-your-pc-in-safe-mode-in-windows-92c27cff-db89-8644-1ce4-b3e5e56fe234
         - Malwarebytes Anti-rootkit: https://forums.malwarebytes.com/topic/198907-requested-resource-is-in-use-error-unable-to-start-malwarebytes/#comment-1114827 (ignore the title)
     - Adwcleaner: https://support.malwarebytes.com/hc/articles/360038520054-Download-and-install-Malwarebytes-AdwCleaner
         - For more information: https://support.malwarebytes.com/hc/articles/360038520114-Malwarebytes-AdwCleaner-scan-and-clean 
@@ -127,7 +132,7 @@ No one malware removal tool can clean a system.
         - It is recommended you run the full scan.
     - ESET Online Scanner: https://download.eset.com/com/eset/tools/online_scanner/latest/esetonlinescanner.exe
         - It is recommended to run the full scan
-        - ESET automatically removes threats during the scan. [You can restore them](https://support.eset.com/en/kb2915-restore-files-quarantined-by-the-eset-online-scanner)
+        - ESET automatically removes threats during the scan. [You can restore them if you are sure they are false positives](https://support.eset.com/en/kb2915-restore-files-quarantined-by-the-eset-online-scanner)
     - Norton Power Eraser: https://support.norton.com/sp/en/us/home/current/solutions/kb20100824120155EN
         - No, this is not a joke.
     - Sophos Scan and Clean:
@@ -139,9 +144,9 @@ No one malware removal tool can clean a system.
         - You **do not** need to buy it! The free version can remove malware just as well as the paid one.
         - It will come with a trial version:
             - The real-time protection may confict with your security software:
-                - You can disactivate the trial: https://support.malwarebytes.com/hc/en-us/articles/360040972954-Deactivate-Premium-Trial-in-Malwarebytes-for-Windows
-                - You can turn off real-time protection: https://support.malwarebytes.com/hc/en-us/articles/360038984793 (if you don't want the real time protection, you are better off disactivating the trial. The only downside is that you will never be able to use the trial again)
-                - Or if you want the real time protection (which **is not needed to clean your system**), you can exclude Malwarebytes from your security software and vice versa: https://support.malwarebytes.com/hc/en-us/articles/360038522974-Malwarebytes-for-Windows-antivirus-exclusions-list
+                - You can disactivate the trial: https://support.malwarebytes.com/hc/articles/360040972954-Deactivate-Premium-Trial-in-Malwarebytes-for-Windows
+                - You can turn off real-time protection: https://support.malwarebytes.com/hc/articles/360038984793 (if you don't want the real time protection, you are better off disactivating the trial. The only downside is that you will never be able to use the trial again)
+                - Or if you want the real time protection (which **is not needed to clean your system**), you can exclude Malwarebytes from your security software and vice versa: https://support.malwarebytes.com/hc/articles/360038522974-Malwarebytes-for-Windows-antivirus-exclusions-list
         - You do not need to do a custom scan of your entire C:\ drive. The threat scan is enough
         - I would strongly recommend you unregister it from the Windows Security Center, as to avoid disabling Windows Defender
         - While the default scan settings are enough for normal usage, I would recommend enabling the "Scan for rootkits" option on infected systems: https://support.malwarebytes.com/hc/articles/360038984953-Security-settings-in-Malwarebytes-for-Windows
@@ -152,6 +157,9 @@ No one malware removal tool can clean a system.
         - Be aware that the Microsoft Safety Scanner may show detections during the scan. This is *normal* and does *not* mean you are infected. All that matters is the result at the end.
     - Kaspersky: https://www.kaspersky.com/downloads/free-virus-removal-tool
         - I am not a big fan on Kaspersky, and I know a lot of people distrust them (for various reasons, mostly concerning Russia). However, if you are ok with running their software, their malware removal tool is one of the best.
+    - Windows Defender:
+        - Before scanning, check for and remove any exclusions: https://support.microsoft.com/en-us/topic/what-are-exclusions-in-windows-security-8b248399-5e63-4a4b-897f-52ea2dddb962#ID0EDF
+        - Run a scan: https://www.howtogeek.com/679263/how-to-scan-with-microsoft-defender-antivirus-on-windows-10/
 - Android:
 
 - iOS:
@@ -233,6 +241,8 @@ After doing this, restart your browser
 - Microsoft Edge:
     - [Try repairing it first](#repair-microsoft-edge-on-windows)
     - All devices: https://www.microsoft.com/edge/download
+#### Problems installing
+- Chrome: https://support.google.com/chrome/answer/6315198
 
 ### Dealing with aggressive malware
 Before continuing, try all the prior steps. This is the "nuclear" option. It will remove most/all data, so be sure you have anything (passwords, bookmarks) backed up. I do not have good guides for all browsers.
@@ -240,3 +250,13 @@ Before continuing, try all the prior steps. This is the "nuclear" option. It wil
 - Windows/Chrome: https://forums.malwarebytes.com/topic/258938-resetting-google-chrome-to-clear-unexpected-issues/
 - Windows/Edge: https://www.tenforums.com/tutorials/159010-how-completely-reset-microsoft-edge-chromium-default-windows.html (**Warning**: ALL data in ALL Edge profiles will be deleted!)
 <br>If there is more than one user on the system, you may need to repeat some of these steps for each user.
+
+### Browser security advice
+Once you have fixed your issue, it is recommended to take this advice:
+- Install software to block ads. [uBlock Origin is a free (and libre) browser extension which blocks ads, trackers, and malware.](https://github.com/gorhill/uBlock).
+    - Only use one ad/content blocker at a time!
+- Keep your browser up to date:
+    - Firefox: https://support.mozilla.org/kb/update-firefox-latest-release
+    - Firefox for Android: https://support.mozilla.org/kb/update-latest-version-firefox-android
+    - Chrome: https://support.google.com/chrome/answer/95414
+    - Edge (a bit old but should still work): https://www.howtogeek.com/672726/how-to-update-microsoft-edge/

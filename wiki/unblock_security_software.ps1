@@ -62,10 +62,41 @@ foreach($subprop in $disallowrun){
     }
 }
 
+Write-Host "Repairing Windows Defender"
 $defender_exc_paths = (Get-Mppreference).ExclusionPath
 foreach($expath in $defender_exc_paths){
     Remove-MpPreference -ExclusionPath $expath
 }
+Add-MpPreference -DisableArchiveScanning False
+Add-MpPreference -PUAProtection 1
 Remove-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender" -Name "DisableAntiSpyware"
+Remove-ItemProperty -Path "HKLM:\SOFTWARE\POLICIES\MICROSOFT\MRT" -Name "DONTOFFERTHROUGHWUAU"
+Remove-ItemProperty -Path "HKLM:\SOFTWARE\POLICIES\MICROSOFT\MRT" -Name "DONTREPORTINFECTIONINFORMATION"
+Remove-ItemProperty -Path "HKLM:\SOFTWARE\WOW6432NODE\POLICIES\MICROSOFT\MRT" -Name "DONTOFFERTHROUGHWUAU"
+Remove-ItemProperty -Path "HKLM:\SOFTWARE\WOW6432NODE\POLICIES\MICROSOFT\MRT" -Name "DONTREPORTINFECTIONINFORMATION"
 
+Set-Service WinDefend -StartupType Automatic -ErrorAction SilentlyContinue
+Set-Service Bits -StartupType Automatic -ErrorAction SilentlyContinue
+
+Start-Service WinDefend -ErrorAction SilentlyContinue
+
+Write-Host "Removing known malware"
+Remove-Item C:\Windows\Fonts\* -Include "*.exe"
+$knownmalware = @("c:\Users\$env:username\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\eNXtBTKShU.url", "c:\Users\Public\Viyeinmz.url", "c:\Users\Public\Owhgjnta.url")
+foreach($malware in $knownmalware){
+    if(Test-Path "$malware"){
+        Remove-Item "$malware"
+        Write-Host "Removed $malware"
+    }
+}
+
+Write-Host "Clearing temp files..."
+$tempfolders = @("C:\USERS\$env:username\APPDATA\LOCAL\MICROSOFT\WINDOWS\INETCACHE\IE\", "$env:temp", "$env:appdata\Microsoft\Windows\Recent", "C:\Windows\Temp")
+foreach($temploc in $tempfolders){
+    Get-ChildItem $temploc | Remove-Item -Recurse -Force
+    Write-Host "Cleared $temploc"
+}
+Remove-Item "C:\Windows\Prefetch\*" -Include "*.pf"
+
+Write-Host "You need to reboot your system"
 Read-Host "Press enter to end" | Out-Null
