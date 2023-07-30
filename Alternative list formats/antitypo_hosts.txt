@@ -4,7 +4,7 @@
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # Issues url: https://github.com/iam-py-test/my_filters_001/issues
 # GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-# Last updated: 20/6/2023
+# Last updated: 29/6/2023
 # https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 # https://www.virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
 # https://www.virustotal.com/gui/domain/xn--gogle-jua.com/detection
@@ -492,3 +492,11 @@
 0.0.0.0 pronhubb.com
 # https://github.com/uBlockOrigin/uAssets/issues/18564
 0.0.0.0 yyooutube.com
+# https://github.com/uBlockOrigin/uAssets/issues/19212
+0.0.0.0 tikotk.com
+# https://dnstwist.it/ for tiktok.com
+0.0.0.0 tiktoks.com
+0.0.0.0 tiktokc.com
+0.0.0.0 tiktokl.com
+0.0.0.0 tiktokw.com
+0.0.0.0 tiktoke.com

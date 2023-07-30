@@ -6642,3 +6642,24 @@
 ||ambrs.online^$document
 ||www.ambrs.online^$document
 
+! infected system
+||dojtxl6jydd7s.cloudfront.net/*/*/indexp.html$document
+||jokekroako.com^$all
+||gokend.xyz^$all
+||push-ebfhafd-7996.boustahe.com^$document
+
+! https://0xacab.org/my-privacy-dns/matrix/-/issues/646845
+||pacosystem.es^$all
+
+! https://0xacab.org/my-privacy-dns/matrix/-/issues/646600
+||74les.ru^$all
+
+! https://0xacab.org/my-privacy-dns/matrix/-/issues/646179
+||zaffirosas.it^$all
+
+! https://0xacab.org/my-privacy-dns/matrix/-/issues/646173
+||alimentasegovia.es^$all
+
+! https://github.com/durablenapkin/scamblocklist/issues/60
+||upstrick.com^$all
+
