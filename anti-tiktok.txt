@@ -16,3 +16,4 @@
 ||ibytedtos.com^$all
 ||lf16-tiktok-common.ibytedtos.com^$all
 ||us.tiktok.com^$all
+||byteigtm.com^$all

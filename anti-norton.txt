@@ -1,0 +1,61 @@
+# Title: Anti-Norton
+# Description: Norton (or rather Gen Digital) is now a massive company that owns the companies behind many of the most popular antimalware and security applications (https://en.wikipedia.org/wiki/List_of_mergers_and_acquisitions_by_Gen_Digital). This list should block them and all the companies they own
+
+# Gen digital
+0.0.0.0 gendigital.com
+
+# Norton
+0.0.0.0 us.norton.com
+0.0.0.0 norton.com
+0.0.0.0 stats.norton.com
+0.0.0.0 analytics-login.norton.com
+
+# Avast
+0.0.0.0 avast.com
+0.0.0.0 www.avast.com
+0.0.0.0 ip-info.ff.avast.com
+0.0.0.0 urlite.ff.avast.com
+0.0.0.0 shepherd.ff.avast.com
+0.0.0.0 v7event.stats.avast.com
+0.0.0.0 analytics.ff.avast.com
+0.0.0.0 analytics-prod-gcp.ff.avast.com
+0.0.0.0 f3461309.iavs9x.u.avast.com
+0.0.0.0 ipm-provider.ff.avast.com
+0.0.0.0 ipmcdn.avast.com
+0.0.0.0 uupdate.avast.com
+0.0.0.0 winqual.sb.avast.com
+0.0.0.0 ncc.avast.com
+
+# Avira
+0.0.0.0 avira-update.com
+0.0.0.0 avira.com
+0.0.0.0 api.my.avira.com
+0.0.0.0 dispatch.avira-update.com
+0.0.0.0 package.avira.com
+
+# CCleaner
+0.0.0.0 ccleaner.com
+0.0.0.0 download.ccleaner.com
+0.0.0.0 piriform.com
+0.0.0.0 license.piriform.com
+0.0.0.0 service.piriform.com
+0.0.0.0 ccleaner.tools.avcdn.net
+0.0.0.0 cdn-production.ccleaner.com
+0.0.0.0 cdn-uat.ccleaner.com
+0.0.0.0 mstatic.ccleaner.com
+0.0.0.0 license-api.ccleaner.com
+
+# AVG
+0.0.0.0 avg.com
+0.0.0.0 browser-update.avg.com
+
+# Secure Browser
+0.0.0.0 avast_browser_tiles.ampxdirect.com
+0.0.0.0 stats.securebrowser.com
+0.0.0.0 config.avg.securebrowser.com
+0.0.0.0 avastbrowser.com
+0.0.0.0 engagement-content.avastbrowser.com
+0.0.0.0 avgbrowser.com
+0.0.0.0 update.avgbrowser.com
+
+# 

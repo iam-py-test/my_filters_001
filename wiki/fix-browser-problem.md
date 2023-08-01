@@ -113,6 +113,47 @@ After resetting your HOSTs file, reboot your device.
 - Firefox: https://support.mozilla.org/kb/update-failed-error-message-when-updating
 - [Try reseting your HOSTs file](#reset-the-hosts-file) and [changing your DNS server](#change-your-dns-server)
 
+### Fix hijacked shortcuts (Windows)
+If your browser keeps opening unwanted websites, it could be that 
+#### Method 1
+This method will delete and recreate the taskbar shortcut.
+- Right click on your browser's icon in your taskbar
+- Click "Unpin from taskbar": <br>
+<img src="unpin1.png"><br>
+- Search for your browser in Windows search or open it via another method (i.e. a desktop shortcut)
+- Once it opens, right click on it's icon in the taskbar and click "Pin to taskbar": <br>
+<img src="pin to taskbar1.png"><br>
+
+#### Method 2
+This method will clean any shortcuts in your desktop.
+- Right click on the desktop shortcut
+- Click "Properties"
+<br><img src="properties1.png"><br>
+- Click the "Target" box and delete everything after the name of the browser and the last double-quote:
+<br><img src="target1.png"><br>
+- Delete all the selected text. Remember: Do not delete anything before the double-quote and browser name
+- Click "Apply"
+- If you get this error, click "Continue" and accept the UAC prompt if needed
+<br><img src="access denied1.png" alt="Dialog box saying 'Access denied. You will need to provide administrator permission to change these settings. Click Continue to complete this operation.' There are two buttons: Continue, and Cancel"><br>
+
+### Method 3
+- Open the start menu
+- Find your browser
+- Right click on it:
+<br><img src="startmenu1.png"><br>
+- Hover over "More" and click "Open file location":
+<br><img src="open file location1.png"><br>
+- Right click on the shortcut (Windows should already select the proper shortcut)
+<br><img src="startmenuprograms1.png"><br>
+- Click "Properties"
+<br><img src="properties1.png"><br>
+- Click the "Target" box and delete everything after the name of the browser and the last double-quote:
+<br><img src="target1.png"><br>
+- Delete all the selected text. Remember: Do not delete anything before the double-quote and browser name
+- Click "Apply"
+- If you get this error, click "Continue" and accept the UAC prompt if needed
+<br><img src="access denied1.png" alt="Dialog box saying 'Access denied. You will need to provide administrator permission to change these settings. Click Continue to complete this operation.' There are two buttons: Continue, and Cancel"><br>
+
 ### Remove malware from your system
 No one malware removal tool can clean a system.
 - Windows:

@@ -130,3 +130,5 @@
 ||akmalhost21.cfd^$all
 ||vmlx98.codes^$all
 ||67.205.178.82^$all
+! as of 31/7/2023 (openphish)
+||almiramoney.kz^$all
