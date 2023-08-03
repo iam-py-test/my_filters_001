@@ -418,3 +418,8 @@
 # not my analysis: https://app.any.run/tasks/5bc3d455-486d-4d74-9cae-557eeaf69f27/
 # my analysis: https://app.any.run/tasks/fc24d271-a114-4c43-b99b-8bf8e9f6c704
 0.0.0.0 shre.su
+# https://forums.malwarebytes.com/topic/300810-our-domains-for-url-shortener-service-is-being-blocked-please-whitelist/
+0.0.0.0 ln.run
+0.0.0.0 shorten.ee
+0.0.0.0 shorten.is
+0.0.0.0 shorten.world

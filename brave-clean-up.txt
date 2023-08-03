@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results, along with other annoyances
 ! Expires: 1 day
 ! Last updated: 7/4/2023
-! Last auto-generated: 01/08/2023
+! Last auto-generated: 03/08/2023
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -3232,6 +3232,7 @@ search.brave.com##div.fdb.snippet:has(a[href*="://licensevilla.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://kemmakhao.click"])
 search.brave.com##div.fdb.snippet:has(a[href*="://trapmusics.xyz"])
 search.brave.com##div.fdb.snippet:has(a[href*="://hopvibestravel.co.za"])
+search.brave.com##div.fdb.snippet:has(a[href*="://revanced.net"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://www.ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublockerext.com"])
@@ -8935,6 +8936,19 @@ search.brave.com##div.fdb.snippet:has(a[href*="://downloadfilekee.lol"])
 search.brave.com##div.fdb.snippet:has(a[href*="://browser-app.co"])
 search.brave.com##div.fdb.snippet:has(a[href*="://golend.xyz"])
 search.brave.com##div.fdb.snippet:has(a[href*="://seduction-simple.fr"])
+search.brave.com##div.fdb.snippet:has(a[href*="://farmrrlendsee.ru"])
+search.brave.com##div.fdb.snippet:has(a[href*="://mokha.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://voecf.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://w6got.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://a7afn.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://zn4hk.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://t0hgf.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://kuq2s.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://o8he3.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://expressionsvegetales.fr"])
+search.brave.com##div.fdb.snippet:has(a[href*="://kfl86.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://aroyf.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://aord3.top"])
 search.brave.com##div.fdb.snippet:has(a[href*="://totalav.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://www.totalav.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://api.totalav.com"])
