@@ -51,11 +51,10 @@
 
 # Secure Browser
 0.0.0.0 avast_browser_tiles.ampxdirect.com
+0.0.0.0 securebrowser.com
 0.0.0.0 stats.securebrowser.com
 0.0.0.0 config.avg.securebrowser.com
 0.0.0.0 avastbrowser.com
 0.0.0.0 engagement-content.avastbrowser.com
 0.0.0.0 avgbrowser.com
 0.0.0.0 update.avgbrowser.com
-
-# 

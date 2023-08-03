@@ -98,6 +98,10 @@ I do not use sync on Firefox, so not sure this will help at all. Deleting your a
 
 - Firefox sync: https://support.mozilla.org/kb/delete-sync-data-firefox-signing-out-firefox-
 
+### Remove a proxy
+A proxy is another computer or software which sits between you and the website you are accessing. There are many legitimate uses for proxies. However, if you do not use one, you may want to check if one has been set by malware:
+- Firefox: https://support.mozilla.org/kb/connection-settings-firefox
+
 ### Reset the HOSTs file
 GNU/Linux, Windows, MacOS, and many other operating systems nowdays have a special file called the HOSTs file which lets you tell your computer where to find specific websites. This also means you can tell your computer that a website doesn't exist. Many people use this to block ads, trackers, or malware. However, malware can use this to block websites hosting security software.
 - Windows: https://support.microsoft.com/topic/how-to-reset-the-hosts-file-back-to-the-default-c2a43f9d-e176-c6f3-e4ef-3500277a6dae
@@ -107,6 +111,8 @@ After resetting your HOSTs file, reboot your device.
 ### Change your DNS server
 - Windows: https://www.howtogeek.com/786911/how-to-change-your-dns-server-on-windows-10/
 - MacOS: https://www.howtogeek.com/787642/how-to-change-your-dns-server-on-a-mac/
+- Possible DNS servers:
+    - 
 
 ### Fix problems updating
 - Chrome: https://support.google.com/chrome/answer/111996
@@ -230,6 +236,7 @@ Open regedit and delete these keys:
     - HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome 
 - Chrome policy removal tool: `https://www.stefanvd.net/project/chrome-policy-remover/` (there is also one for MacOS, but I cannot speak to its safety or effectiveness)
 - Internet Explorer: HKLM\SOFTWARE\Policies\Microsoft\Internet Explorer
+- Firefox: HKLM\SOFTWARE\Policies\Mozilla\Firefox
 
 After doing this, restart your browser
 

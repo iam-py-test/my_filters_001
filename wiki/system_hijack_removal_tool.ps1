@@ -1,8 +1,9 @@
 Write-Host "The System Hijack Removal Tool (2)"
 Write-Host "This tool will try to remove known malware"
 $security_software_filenames = @("mbam.exe", "msert.exe", "taskmgr.exe", "eav_trial_rus.exe", "eis_trial_rus.exe", "essf_trial_rus.exe", "hitmanpro_x64.exe", "ESETOnlineScanner_UKR.exe", "ESETOnlineScanner_RUS.exe", "HitmanPro.exe", "Cezurity_Scanner_Pro_Free.exe", "Cube.exe", "AVbr.exe", "AV_br.exe", "KVRT.exe", "cureit.exe", "FRST64.exe", "eset_internet_security_live_installer.exe", "esetonlinescanner.exe", "eset_nod32_antivirus_live_installer.exe", "PANDAFREEAV.exe", "bitdefender_avfree.exe", "drweb-12.0-ss-win.exe", "Cureit.exe", "TDSSKiller.exe", "KVRT(1).exe", "rkill.exe", "adwcleaner.exe", "frst.exe", "frstenglish.exe", "combofix.exe", "iexplore.exe", "msconfig.exe", "jrt.exe", "mbar.exe", "SecHealthUI.exe")
-$procs_to_kill = @("sOFvE.exe", "aspnet_compiler.exe", "ZBrWfxmlCHpYeX.exe", "n2770812.exe", "legola.exe", "pdates.exe", "applaunch.exe", "jsc.exe", "wscript.exe", "cscript.exe", "csc.exe", "usjhlmmdmsqjfbox.exe", "bstyoops.exe", "Setup_File.exe", "timeout.exe", "hydra.exe", "Endermanch@Hydra.exe", "processhider.exe", "Endermanch@Hydra.exe", "c5892073.exe", "ratt.exe", "rundll32.exe")
+$procs_to_kill = @("sOFvE", "aspnet_compiler", "ZBrWfxmlCHpYeX", "n2770812", "legola", "pdates", "applaunch", "jsc", "wscript", "cscript", "csc", "usjhlmmdmsqjfbox", "bstyoops", "Setup_File", "timeout", "hydra", "Endermanch@Hydra", "processhider", "Endermanch@Hydra", "c5892073", "ratt", "rundll32", "lll", "livess", "atonand", "rft64", "MsiExec", "Launcher", "AddInUtil")
 $locs_to_kill = @("$env:APPDATA", "$env:TEMP")
+$systemdirs = @("$env:windir\System32".ToLower(),"$env:windir".ToLower(), "$env:windir\syswow64".ToLower())
 
 # https://stackoverflow.com/a/63344749
 if(!([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] 'Administrator')) {
@@ -20,10 +21,18 @@ foreach($proc in $procs){
         Write-Host "Killed $procpath"
         $proc.kill()
     }
-    $rootdir = Split-Path ($procpath)
+    $rootdir = (Split-Path ($procpath)).ToLower()
     if($locs_to_kill.Contains($rootdir)){
         $proc.kill()
         Write-Host "Killed $procpath"
+    }
+    if($proc.Name -eq "winlogon"){
+        if($systemdirs.Contains($rootdir)){
+
+        }
+        else{
+            $proc.kill()
+        }
     }
 }
 
@@ -68,8 +77,15 @@ $defender_exc_paths = (Get-Mppreference).ExclusionPath
 foreach($expath in $defender_exc_paths){
     Remove-MpPreference -ExclusionPath $expath
 }
-Add-MpPreference -DisableArchiveScanning False
-Add-MpPreference -PUAProtection 1
+$defender_exc_ext = (Get-Mppreference).ExclusionExtension
+foreach($ext in $defender_exc_ext){
+    Write-Host "Removed exclusion for $ext"
+    Remove-MpPreference -ExclusionExtension $ext
+}
+Set-MpPreference -DisableArchiveScanning $false -Force
+Set-MpPreference -PUAProtection 1
+Set-MpPreference -UILockdown $false
+Set-MpPreference -DisableAutoExclusions $true
 Remove-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender" -Name "DisableAntiSpyware"
 Remove-ItemProperty -Path "HKLM:\SOFTWARE\POLICIES\MICROSOFT\MRT" -Name "DONTOFFERTHROUGHWUAU"
 Remove-ItemProperty -Path "HKLM:\SOFTWARE\POLICIES\MICROSOFT\MRT" -Name "DONTREPORTINFECTIONINFORMATION"
@@ -79,8 +95,18 @@ Remove-ItemProperty -Path "HKLM:\SOFTWARE\WOW6432NODE\POLICIES\MICROSOFT\MRT" -N
 Set-Service WinDefend -StartupType Automatic -ErrorAction SilentlyContinue
 Set-Service Bits -StartupType Automatic -ErrorAction SilentlyContinue
 Set-Service trustedinstaller -StartupType Automatic -ErrorAction SilentlyContinue
+Start-Service bits
 
 Start-Service WinDefend -ErrorAction SilentlyContinue
+
+Write-Host "Turning on Windows Firewall"
+Set-Service BFE -StartupType Automatic -ErrorAction SilentlyContinue
+Set-Service mpsdrv -StartupType Automatic -ErrorAction SilentlyContinue
+Set-Service mpssvc -StartupType Automatic -ErrorAction SilentlyContinue
+Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled True
+
+Write-Host "Checking for damaged system files"
+sfc /scannow
 
 Write-Host "Removing unwanted browser changes"
 Remove-ItemProperty -Path "HKCU:\Software\Policies\Google\chrome" -Name "DownloadRestrictions"
@@ -88,15 +114,17 @@ Remove-ItemProperty -Path "HKCU:\Software\Policies\Microsoft\Edge" -Name "Downlo
 
 Write-Host "Removing known malware"
 Remove-Item "$env:systemdrive\Windows\Fonts\*" -Include "*.exe"
+Remove-Item "HKCU:\Software\Conduit" -Recurse -Force -ErrorAction SilentlyContinue
 $filesinroaming = (Get-ChildItem $env:appdata)
 foreach($file in $filesinroaming){
     $root = Split-Path "$env:appdata\$file"
-    Write-Host "$env:appdata\$file"
     if($root -eq $env:appdata){
-        Write-Host "$root $env:appdata\$file"
+        if($file.Name.EndsWith(".exe")){
+            Write-Host "$root $env:appdata\$file"
+        }
     }
 }
-$knownmalware = @("$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\eNXtBTKShU.url", "$env:systemdrive\Users\Public\Viyeinmz.url", "$env:systemdrive\Users\Public\Owhgjnta.url", "$env:systemdrive\ProgramData\Default\cDefaultc.vbs", "$env:systemdrive\Windows\system32\config\systemprofile\AppData\Roaming\winlogon.exe", "$env:systemdrive\Program Files\WindowsPowershell\RuntimeBroker.exe", "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\ratt.exe")
+$knownmalware = @("$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\eNXtBTKShU.url", "$env:systemdrive\Users\Public\Viyeinmz.url", "$env:systemdrive\Users\Public\Owhgjnta.url", "$env:systemdrive\ProgramData\Default\cDefaultc.vbs", "$env:systemdrive\Windows\system32\config\systemprofile\AppData\Roaming\winlogon.exe", "$env:systemdrive\Program Files\WindowsPowershell\RuntimeBroker.exe", "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\ratt.exe", "C:\Windows\rft64.exe", "C:\WINDOWS\SYSTEM32\TASKS\GoogleUpdateTaskMachineQC", "C:\PROGRAM FILES\GOOGLE\CHROME\UPDATER.EXE")
 foreach($malware in $knownmalware){
     if(Test-Path "$malware"){
         Remove-Item "$malware"
@@ -106,6 +134,8 @@ foreach($malware in $knownmalware){
 
 Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders" -Name "Startup" -Value "$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup"
 Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" -Name "Shell" -Value "explorer.exe"
+Set-ItemProperty -Path "Registry::HKEY_CLASSES_ROOT\.exe" -Name "(default)" -Value "exefile"
+Set-ItemProperty -Path "Registry::HKEY_CLASSES_ROOT\exefile\shell\runas\command" -Name "(default)" -Value "`"%1`" %*"
 
 Write-Host "Clearing temp files..."
 bitsadmin /reset /allusers | Out-Null
