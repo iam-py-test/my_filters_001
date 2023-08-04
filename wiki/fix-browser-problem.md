@@ -112,7 +112,12 @@ After resetting your HOSTs file, reboot your device.
 - Windows: https://www.howtogeek.com/786911/how-to-change-your-dns-server-on-windows-10/
 - MacOS: https://www.howtogeek.com/787642/how-to-change-your-dns-server-on-a-mac/
 - Possible DNS servers:
-    - 
+    - AdGuard: https://adguard-dns.io/public-dns.html
+    - NextDNS: https://my.nextdns.io/setup
+        - https://github.com/yokoffing/NextDNS-Config
+    - Not recommended:
+        - CloudFlare
+        - Google
 
 ### Fix problems updating
 - Chrome: https://support.google.com/chrome/answer/111996

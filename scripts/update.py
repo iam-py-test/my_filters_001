@@ -342,17 +342,48 @@ def mkps_firewall_block(file,outfile):
   print(ips[0])
   print(ips[1])
   outf = open(outfile,'w')
-  outf.write("echo \"PowerShell script for blocking malicious IPs in Windows Firewall\"\n")
-  outf.write("echo \"Created by iam-py-test\"\n")
-  outf.write("echo \"This must be run as admin and on Microsoft Windows 10/11 or else it will not work!\"\n\n")
+  outf.write("""Write-Host \"PowerShell script for blocking malicious IPs in Windows Firewall"
+Write-Host "Created by iam-py-test"
+Write-Host "This must be run as admin and on Microsoft Windows 10/11 or else it will not work!"
+
+Write-Host "Removing old rules"
+Get-NetFirewallRule -DisplayName "iam-py-test - Block outbound connections to this ip" | Remove-NetFirewallRule
+Get-NetFirewallRule -DisplayName "iam-py-test - Block inbound connections from this ip" | Remove-NetFirewallRule
+
+Write-Host "Adding new rules"
+""")
   for ip in ips:
     # safety check to make sure this doesn't turn into a prefect RCE
     if "\"" not in ip and ";" not in ip and "-" not in ip and ":/" not in ip:
       outf.write("New-NetFirewallRule -DisplayName \"iam-py-test - Block outbound connections to this ip\" -Direction outbound -LocalPort Any -Protocol tcp -Action Block -RemoteAddress {}\nNew-NetFirewallRule -DisplayName \"iam-py-test - Block inbound connections from this ip\" -Direction Inbound -LocalPort Any -Protocol tcp -Action Block -RemoteAddress {}\n".format(ip,ip))
-  outf.write("\n\necho \"All rules should have been added to the Windows Firewall\"\npause\n")
+  outf.write("\n\nWrite-Host \"All rules should have been added to the Windows Firewall\"\npause\n")
   outf.close()
 try:
   mkps_firewall_block("antimalware.txt","Alternative list formats/antimalware_firewall_script.ps1")
+except Exception as err:
+  print(err)
+
+def mkps_firewall_block_combined_rules(file,outfile):
+  ips = allips[file]
+  csi = ",".join(ips)
+  print(ips[0])
+  print(ips[1])
+  outf = open(outfile,'w')
+  outf.write("""Write-Host \"PowerShell script for blocking malicious IPs in Windows Firewall"
+Write-Host "Created by iam-py-test"
+Write-Host "This must be run as admin and on Microsoft Windows 10/11 or else it will not work!"
+
+Write-Host "Removing old rules"
+Get-NetFirewallRule -DisplayName "iam-py-test - Block outbound connections to this ip" | Remove-NetFirewallRule
+Get-NetFirewallRule -DisplayName "iam-py-test - Block inbound connections from this ip" | Remove-NetFirewallRule
+
+Write-Host "Adding new rules"
+""")
+  outf.write("New-NetFirewallRule -DisplayName \"iam-py-test - Block outbound connections to this ip\" -Direction outbound -LocalPort Any -Protocol tcp -Action Block -RemoteAddress {}\nNew-NetFirewallRule -DisplayName \"iam-py-test - Block inbound connections from this ip\" -Direction Inbound -LocalPort Any -Protocol tcp -Action Block -RemoteAddress {}\n".format(csi,csi))
+  outf.write("\n\nWrite-Host \"All rules should have been added to the Windows Firewall\"\npause\n")
+  outf.close()
+try:
+  mkps_firewall_block_combined_rules("antimalware.txt","Alternative list formats/antimalware_firewall_script_c.ps1")
 except Exception as err:
   print(err)
 
