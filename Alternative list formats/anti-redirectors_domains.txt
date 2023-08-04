@@ -219,3 +219,4 @@ ln.run
 shorten.ee
 shorten.is
 shorten.world
+track.spe.schoolmessenger.com

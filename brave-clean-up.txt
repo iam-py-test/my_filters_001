@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results, along with other annoyances
 ! Expires: 1 day
 ! Last updated: 7/4/2023
-! Last auto-generated: 03/08/2023
+! Last auto-generated: 04/08/2023
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -3233,6 +3233,8 @@ search.brave.com##div.fdb.snippet:has(a[href*="://kemmakhao.click"])
 search.brave.com##div.fdb.snippet:has(a[href*="://trapmusics.xyz"])
 search.brave.com##div.fdb.snippet:has(a[href*="://hopvibestravel.co.za"])
 search.brave.com##div.fdb.snippet:has(a[href*="://revanced.net"])
+search.brave.com##div.fdb.snippet:has(a[href*="://psequeldegaste.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://psequeldegaste.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://www.ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublockerext.com"])
@@ -8949,6 +8951,14 @@ search.brave.com##div.fdb.snippet:has(a[href*="://expressionsvegetales.fr"])
 search.brave.com##div.fdb.snippet:has(a[href*="://kfl86.top"])
 search.brave.com##div.fdb.snippet:has(a[href*="://aroyf.top"])
 search.brave.com##div.fdb.snippet:has(a[href*="://aord3.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://flipperzero.at"])
+search.brave.com##div.fdb.snippet:has(a[href*="://trkrspace.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://kncecafvdeuk.info"])
+search.brave.com##div.fdb.snippet:has(a[href*="://karbe.live"])
+search.brave.com##div.fdb.snippet:has(a[href*="://downloadpeso.space"])
+search.brave.com##div.fdb.snippet:has(a[href*="://rewovucikaf.shop"])
+search.brave.com##div.fdb.snippet:has(a[href*="://outhjkm.ezasutuduwife.online"])
+search.brave.com##div.fdb.snippet:has(a[href*="://wtfgep.xyz"])
 search.brave.com##div.fdb.snippet:has(a[href*="://totalav.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://www.totalav.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://api.totalav.com"])
