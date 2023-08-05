@@ -180,8 +180,12 @@ No one malware removal tool can clean a system.
     - Adwcleaner: https://support.malwarebytes.com/hc/articles/360038520054-Download-and-install-Malwarebytes-AdwCleaner
         - For more information: https://support.malwarebytes.com/hc/articles/360038520114-Malwarebytes-AdwCleaner-scan-and-clean 
         - Do not remove any of the "preinstalled software" unless you know what you are doing; it is **not** malware.
+        - About the settings: https://support.malwarebytes.com/hc/en-us/articles/360038520134-Malwarebytes-AdwCleaner-Application-settings
+        - Under "Basic repair options", I would recommend you enable "Reset HOSTs file"
+        - I would recommend you turn off "usage and threat statistics"
     - Emsisoft Emergency Kit: https://www.emsisoft.com/home/emergency-kit/
         - It is recommended you run the full scan.
+        - Be sure to update after installing
     - ESET Online Scanner: https://download.eset.com/com/eset/tools/online_scanner/latest/esetonlinescanner.exe
         - It is recommended to run the full scan
         - ESET automatically removes threats during the scan. [You can restore them if you are sure they are false positives](https://support.eset.com/en/kb2915-restore-files-quarantined-by-the-eset-online-scanner)

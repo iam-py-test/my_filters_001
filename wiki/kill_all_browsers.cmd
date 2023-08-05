@@ -37,4 +37,7 @@ taskkill /F /IM "OperaGXSetup.exe"
 rem Yandex
 taskkill /F /IM "yandex.exe"
 
+rem Chromium
+taskkill /F /IM "chromium.exe"
+
 echo All browsers killed

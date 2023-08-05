@@ -1,8 +1,23 @@
 Write-Host "The System Hijack Removal Tool (2)"
 Write-Host "This tool will try to remove known malware"
 Read-Host "Press enter to continue" | Out-Null
+
+$should_create_restore = (Read-Host "Create system restore point (y/n)?")
+if($should_create_restore -eq "y"){
+    try{
+        Checkpoint-Computer -Description 'System Hijack Removal Tool - before run' -RestorePointType 'MODIFY_SETTINGS'
+    }
+    catch{
+        Write-Host "Could not create system restore point"
+        $should_enable = (Read-Host "Enable system restore (y/n)?")
+        if($should_enable -eq "y"){
+            Enable-ComputerRestore -Drive "$env:systemdrive\"
+        }
+    }
+}
+
 $security_software_filenames = @("mbam.exe", "msert.exe", "taskmgr.exe", "eav_trial_rus.exe", "eis_trial_rus.exe", "essf_trial_rus.exe", "hitmanpro_x64.exe", "ESETOnlineScanner_UKR.exe", "ESETOnlineScanner_RUS.exe", "HitmanPro.exe", "Cezurity_Scanner_Pro_Free.exe", "Cube.exe", "AVbr.exe", "AV_br.exe", "KVRT.exe", "cureit.exe", "FRST64.exe", "eset_internet_security_live_installer.exe", "esetonlinescanner.exe", "eset_nod32_antivirus_live_installer.exe", "PANDAFREEAV.exe", "bitdefender_avfree.exe", "drweb-12.0-ss-win.exe", "Cureit.exe", "TDSSKiller.exe", "KVRT(1).exe", "rkill.exe", "adwcleaner.exe", "frst.exe", "frstenglish.exe", "combofix.exe", "iexplore.exe", "msconfig.exe", "jrt.exe", "mbar.exe", "SecHealthUI.exe")
-$procs_to_kill = @("sOFvE", "aspnet_compiler", "ZBrWfxmlCHpYeX", "n2770812", "legola", "pdates", "applaunch", "jsc", "wscript", "cscript", "csc", "usjhlmmdmsqjfbox", "bstyoops", "Setup_File", "timeout", "hydra", "Endermanch@Hydra", "processhider", "Endermanch@Hydra", "c5892073", "ratt", "rundll32", "lll", "livess", "atonand", "rft64", "MsiExec", "Launcher", "AddInUtil")
+$procs_to_kill = @("sOFvE", "aspnet_compiler", "ZBrWfxmlCHpYeX", "n2770812", "legola", "pdates", "applaunch", "jsc", "wscript", "cscript", "csc", "usjhlmmdmsqjfbox", "bstyoops", "Setup_File", "timeout", "hydra", "Endermanch@Hydra", "processhider", "Endermanch@Hydra", "c5892073", "ratt", "rundll32", "lll", "livess", "atonand", "rft64", "MsiExec", "Launcher", "AddInUtil", "wordpad", "x9943392", "pdates", "bs1", "cacls", "rundll32")
 $locs_to_kill = @("$env:APPDATA", "$env:TEMP")
 $systemdirs = @("$env:windir\System32".ToLower(),"$env:windir".ToLower(), "$env:windir\syswow64".ToLower())
 
@@ -125,10 +140,17 @@ foreach($file in $filesinroaming){
         }
     }
 }
-$knownmalware = @("$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\eNXtBTKShU.url", "$env:systemdrive\Users\Public\Viyeinmz.url", "$env:systemdrive\Users\Public\Owhgjnta.url", "$env:systemdrive\ProgramData\Default\cDefaultc.vbs", "$env:systemdrive\Windows\system32\config\systemprofile\AppData\Roaming\winlogon.exe", "$env:systemdrive\Program Files\WindowsPowershell\RuntimeBroker.exe", "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\ratt.exe", "C:\Windows\rft64.exe", "C:\WINDOWS\SYSTEM32\TASKS\GoogleUpdateTaskMachineQC", "C:\PROGRAM FILES\GOOGLE\CHROME\UPDATER.EXE")
+$knownmalware = @("$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\eNXtBTKShU.url", "$env:systemdrive\Users\Public\Viyeinmz.url", "$env:systemdrive\Users\Public\Owhgjnta.url", "$env:systemdrive\ProgramData\Default\cDefaultc.vbs", "$env:systemdrive\Windows\system32\config\systemprofile\AppData\Roaming\winlogon.exe", "$env:systemdrive\Program Files\WindowsPowershell\RuntimeBroker.exe", "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\ratt.exe", "C:\Windows\rft64.exe", "C:\WINDOWS\SYSTEM32\TASKS\GoogleUpdateTaskMachineQC", "C:\PROGRAM FILES\GOOGLE\CHROME\UPDATER.EXE", "$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\Scanned.js")
 foreach($malware in $knownmalware){
     if(Test-Path "$malware"){
         Remove-Item "$malware"
+        Write-Host "Removed $malware"
+    }
+}
+$knownmalwaredirs = @("C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Auslogics", "C:\WINDOWS\SYSTEM32\TASKS\jjrcjc", "c:\ProgramData\Microsoft\IObitUnlocker", "c:\ProgramData\WindowsTask", "C:\Programdata\Microsoft\wjqqg")
+foreach($malware in $knownmalwaredirs){
+    if(Test-Path "$malware"){
+        Remove-Item -Recurse -Force "$malware"
         Write-Host "Removed $malware"
     }
 }
@@ -137,6 +159,8 @@ Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer
 Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" -Name "Shell" -Value "explorer.exe"
 Set-ItemProperty -Path "Registry::HKEY_CLASSES_ROOT\.exe" -Name "(default)" -Value "exefile"
 Set-ItemProperty -Path "Registry::HKEY_CLASSES_ROOT\exefile\shell\runas\command" -Name "(default)" -Value "`"%1`" %*"
+Remove-Item -Path HKCU:\SOFTWARE\Classes\mscfile\shell\open\command
+Remove-Item -Path HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate
 
 Write-Host "Resetting network settings"
 netsh winhttp reset proxy

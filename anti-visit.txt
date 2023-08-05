@@ -17,11 +17,8 @@
 ||freevisitorcounters.com^$3p
 
 ! GitHub proxies images through their servers, bypassing the above rules
-!#if !cap_html_filtering
-! there is no way (that I am aware of) to block these from loading in Chromium, so this just hides the image
-github.com##[data-canonical-src*="profile-counter.glitch.me/"][data-canonical-src*="/count.svg"]
-github.com##img[src][data-canonical-src*="websitecounterfree.com/c.php"]
-!#endif
+github.com##[data-canonical-src*="profile-counter.glitch.me/"][data-canonical-src*="/count.svg"]:remove()
+github.com##img[src][data-canonical-src*="websitecounterfree.com/c.php"]:remove()
 !#if cap_html_filtering
 github.com##^[data-canonical-src*="profile-counter.glitch.me/"][data-canonical-src*="/count.svg"]
 github.com##^img[src][data-canonical-src*="websitecounterfree.com/c.php"]
