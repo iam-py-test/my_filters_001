@@ -6699,7 +6699,6 @@
 ||farmrrlendsee.ru^$all
 ||mokha.top^$all
 ||voecf.top^$all
-||w6got.top^$all
 ||a7afn.top^$all
 ||zn4hk.top^$all
 ||t0hgf.top^$all
@@ -6724,4 +6723,13 @@
 ||rewovucikaf.shop^$document
 ||outhjkm.ezasutuduwife.online^$document
 ||wtfgep.xyz^$document
+
+! https://forums.malwarebytes.com/topic/300873-i-keep-getting-pop-ups-from-eudmailcom/
+||eudmail.com^$all
+
+! crypto scams
+||musk-x.org^$all
+||give2x.net^$all
+! https://tria.ge/230804-15hs1sfh6t/behavioral1
+||2xtesla.net^$all
 

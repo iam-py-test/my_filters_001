@@ -1,2 +1,3 @@
 ||psequeldegaste.com^$all
-||w6got.top^$all
+||mobility-search.com^$document
+||mobilisearch.com^$document
