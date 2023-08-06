@@ -567,3 +567,14 @@
 ||tiktokl.com^$document
 ||tiktokw.com^$document
 ||tiktoke.com^$document
+
+! https://dnsrf.org/blog/the--zip-tld---ripe-for-abuse--but-so-far-so-good-/index.html
+||business-appeal.zip^$document
+||newdocument.zip^$document
+||google-drive.zip^$document
+||dhl-invoice.zip^$document
+||zoominstaller.zip^$document
+||pdfword.zip^$document
+||freecrack.zip^$document
+||computer.zip^$document
+||cringe.zip^$document

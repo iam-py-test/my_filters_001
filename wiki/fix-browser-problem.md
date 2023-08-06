@@ -208,14 +208,15 @@ No one malware removal tool can clean a system.
         - While the default scan settings are enough for normal usage, I would recommend enabling the "Scan for rootkits" option on infected systems: https://support.malwarebytes.com/hc/articles/360038984953-Security-settings-in-Malwarebytes-for-Windows
         - You can uninstall Malwarebytes once you are done
         - If you want to keep Malwarebytes installed, be sure to reset the scan settings to default.
-    - Microsoft Safety Scanner: https://learn.microsoft.com/microsoft-365/security/intelligence/safety-scanner-download
-        - Be sure to run the Full scan!
-        - Be aware that the Microsoft Safety Scanner may show detections during the scan. This is *normal* and does *not* mean you are infected. All that matters is the result at the end.
     - Kaspersky: https://www.kaspersky.com/downloads/free-virus-removal-tool
         - I am not a big fan on Kaspersky, and I know a lot of people distrust them (for various reasons, mostly concerning Russia). However, if you are ok with running their software, their malware removal tool is one of the best.
     - Windows Defender:
         - Before scanning, check for and remove any exclusions: https://support.microsoft.com/en-us/topic/what-are-exclusions-in-windows-security-8b248399-5e63-4a4b-897f-52ea2dddb962#ID0EDF
         - Run a scan: https://www.howtogeek.com/679263/how-to-scan-with-microsoft-defender-antivirus-on-windows-10/
+    - Microsoft Safety Scanner: https://learn.microsoft.com/microsoft-365/security/intelligence/safety-scanner-download
+        - Be sure to run the Full scan!
+        - Be aware that the Microsoft Safety Scanner may show detections during the scan. This is *normal* and does *not* mean you are infected. All that matters is the result at the end.
+        - There is no point in running this in addition to Windows Defender
 - Android:
 
 - iOS:

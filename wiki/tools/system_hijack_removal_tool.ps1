@@ -17,7 +17,7 @@ if($should_create_restore -eq "y"){
 }
 
 $security_software_filenames = @("mbam.exe", "msert.exe", "taskmgr.exe", "eav_trial_rus.exe", "eis_trial_rus.exe", "essf_trial_rus.exe", "hitmanpro_x64.exe", "ESETOnlineScanner_UKR.exe", "ESETOnlineScanner_RUS.exe", "HitmanPro.exe", "Cezurity_Scanner_Pro_Free.exe", "Cube.exe", "AVbr.exe", "AV_br.exe", "KVRT.exe", "cureit.exe", "FRST64.exe", "eset_internet_security_live_installer.exe", "esetonlinescanner.exe", "eset_nod32_antivirus_live_installer.exe", "PANDAFREEAV.exe", "bitdefender_avfree.exe", "drweb-12.0-ss-win.exe", "Cureit.exe", "TDSSKiller.exe", "KVRT(1).exe", "rkill.exe", "adwcleaner.exe", "frst.exe", "frstenglish.exe", "combofix.exe", "iexplore.exe", "msconfig.exe", "jrt.exe", "mbar.exe", "SecHealthUI.exe")
-$procs_to_kill = @("sOFvE", "aspnet_compiler", "ZBrWfxmlCHpYeX", "n2770812", "legola", "pdates", "applaunch", "jsc", "wscript", "cscript", "csc", "usjhlmmdmsqjfbox", "bstyoops", "Setup_File", "timeout", "hydra", "Endermanch@Hydra", "processhider", "Endermanch@Hydra", "c5892073", "ratt", "rundll32", "lll", "livess", "atonand", "rft64", "MsiExec", "Launcher", "AddInUtil", "wordpad", "x9943392", "pdates", "bs1", "cacls", "rundll32")
+$procs_to_kill = @("sOFvE", "aspnet_compiler", "ZBrWfxmlCHpYeX", "n2770812", "legola", "pdates", "applaunch", "jsc", "wscript", "cscript", "csc", "usjhlmmdmsqjfbox", "bstyoops", "Setup_File", "timeout", "hydra", "Endermanch@Hydra", "processhider", "Endermanch@Hydra", "c5892073", "ratt", "rundll32", "lll", "livess", "atonand", "rft64", "MsiExec", "Launcher", "AddInUtil", "wordpad", "x9943392", "pdates", "bs1", "cacls", "rundll32", "calc", "winlogson", "schtasks")
 $locs_to_kill = @("$env:APPDATA", "$env:TEMP")
 $systemdirs = @("$env:windir\System32".ToLower(),"$env:windir".ToLower(), "$env:windir\syswow64".ToLower())
 
@@ -112,8 +112,10 @@ Set-Service WinDefend -StartupType Automatic -ErrorAction SilentlyContinue
 Set-Service Bits -StartupType Automatic -ErrorAction SilentlyContinue
 Set-Service trustedinstaller -StartupType Automatic -ErrorAction SilentlyContinue
 Start-Service bits
-
 Start-Service WinDefend -ErrorAction SilentlyContinue
+
+Update-MpSignature
+Start-MpScan -ScanType QuickScan
 
 Write-Host "Turning on Windows Firewall"
 Set-Service BFE -StartupType Automatic -ErrorAction SilentlyContinue
@@ -130,6 +132,7 @@ Remove-ItemProperty -Path "HKCU:\Software\Policies\Microsoft\Edge" -Name "Downlo
 
 Write-Host "Removing known malware"
 Remove-Item "$env:systemdrive\Windows\Fonts\*" -Include "*.exe"
+Remove-Item "$env:public\AccountPictures\*" -Include "*.exe"
 Remove-Item "HKCU:\Software\Conduit" -Recurse -Force -ErrorAction SilentlyContinue
 $filesinroaming = (Get-ChildItem $env:appdata)
 foreach($file in $filesinroaming){
@@ -147,7 +150,7 @@ foreach($malware in $knownmalware){
         Write-Host "Removed $malware"
     }
 }
-$knownmalwaredirs = @("C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Auslogics", "C:\WINDOWS\SYSTEM32\TASKS\jjrcjc", "c:\ProgramData\Microsoft\IObitUnlocker", "c:\ProgramData\WindowsTask", "C:\Programdata\Microsoft\wjqqg")
+$knownmalwaredirs = @("C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Auslogics", "C:\WINDOWS\SYSTEM32\TASKS\jjrcjc", "c:\ProgramData\Microsoft\IObitUnlocker", "c:\ProgramData\WindowsTask", "C:\Programdata\Microsoft\wjqqg", "C:\ProgramData\Dllhost")
 foreach($malware in $knownmalwaredirs){
     if(Test-Path "$malware"){
         Remove-Item -Recurse -Force "$malware"
@@ -157,12 +160,29 @@ foreach($malware in $knownmalwaredirs){
 
 Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders" -Name "Startup" -Value "$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup"
 Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" -Name "Shell" -Value "explorer.exe"
+New-Item -Path "Registry::HKEY_CLASSES_ROOT\.exe" -ErrorAction silentlyContinue
 Set-ItemProperty -Path "Registry::HKEY_CLASSES_ROOT\.exe" -Name "(default)" -Value "exefile"
+New-Item -Path "Registry::HKEY_CLASSES_ROOT\exefile" -ErrorAction silentlyContinue
+New-Item -Path "Registry::HKEY_CLASSES_ROOT\exefile\shell" -ErrorAction silentlyContinue
+New-Item -Path "Registry::HKEY_CLASSES_ROOT\exefile\shell\runas" -ErrorAction silentlyContinue
+New-Item -Path "Registry::HKEY_CLASSES_ROOT\exefile\shell\runas\command" -ErrorAction silentlyContinue
 Set-ItemProperty -Path "Registry::HKEY_CLASSES_ROOT\exefile\shell\runas\command" -Name "(default)" -Value "`"%1`" %*"
+New-Item -Path "Registry::HKEY_CLASSES_ROOT\exefile\shell\open" -ErrorAction silentlyContinue
+New-Item -Path "Registry::HKEY_CLASSES_ROOT\exefile\shell\open\command" -ErrorAction silentlyContinue
+Set-ItemProperty -Path "Registry::HKEY_CLASSES_ROOT\exefile\open\runas\command" -Name "(default)" -Value "`"%1`" %*"
 Remove-Item -Path HKCU:\SOFTWARE\Classes\mscfile\shell\open\command
 Remove-Item -Path HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate
+Remove-Item -Path HKCU:\SOFTWARE\Classes\.exe
+Remove-Item -Path HKCU:\SOFTWARE\Classes\.reg
+bcdedit.exe /set "{default}" recoveryenabled yes
+Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\SafeBoot" -Name "AlternateShell" -Value "cmd.exe"
 
 Write-Host "Resetting network settings"
+NETSH winsock reset catalog
+NETSH int ipv4 reset reset.log
+NETSH int ipv6 reset reset.log
+netsh int ip reset
+netsh winsock reset
 netsh winhttp reset proxy
 ipconfig /flushdns
 
@@ -174,6 +194,7 @@ foreach($temploc in $tempfolders){
     Write-Host "Cleared $temploc"
 }
 Remove-Item "$env:systemdrive\Windows\Prefetch\*" -Include "*.pf"
+Clear-RecycleBin -Force
 
 Write-Host "You need to reboot your system"
 Read-Host "Press enter to end" | Out-Null
