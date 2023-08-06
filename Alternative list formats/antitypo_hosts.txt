@@ -500,3 +500,13 @@
 0.0.0.0 tiktokl.com
 0.0.0.0 tiktokw.com
 0.0.0.0 tiktoke.com
+# https://dnsrf.org/blog/the--zip-tld---ripe-for-abuse--but-so-far-so-good-/index.html
+0.0.0.0 business-appeal.zip
+0.0.0.0 newdocument.zip
+0.0.0.0 google-drive.zip
+0.0.0.0 dhl-invoice.zip
+0.0.0.0 zoominstaller.zip
+0.0.0.0 pdfword.zip
+0.0.0.0 freecrack.zip
+0.0.0.0 computer.zip
+0.0.0.0 cringe.zip
