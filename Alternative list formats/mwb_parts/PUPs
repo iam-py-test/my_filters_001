@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 5/8/2023
-! Version: 582023-1
+! Last updated: 6/8/2023
+! Version: 682023-1
 ! Description: This list aims to protect against scams, phishing, malware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -26,6 +26,7 @@
 ! https://tria.ge/230720-3qya9sbh2t/behavioral2
 ! https://app.any.run/tasks/cc0dd977-97e3-4b4a-833b-dfc4d5f0be55/
 ! https://tria.ge/230724-z8hfzsha64/behavioral1
+! https://www.youtube.com/watch?v=PcS3EozgyhI
 ! *many* deceptive ads
 ||totalav.com^$all
 ||www.totalav.com^$all

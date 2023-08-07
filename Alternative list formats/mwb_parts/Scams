@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 5/8/2023
-! Version: 582023-1
+! Last updated: 6/8/2023
+! Version: 682023-1
 ! Description: This list aims to protect against scams, phishing, malware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -6770,4 +6770,23 @@
 ||theod-omq.com^$document
 ||goatmod.xyz^$all
 ||mkhvuv.metriumoldeb.com^$all
+
+! https://0xacab.org/my-privacy-dns/matrix/-/issues/649771
+! https://tria.ge/230806-v2fatsbc57/behavioral1
+||sex-girls.khayyamfestival.com^$document
+
+! https://github.com/easylist/easylist/pull/16955
+! https://tria.ge/230806-xd58fsdc4t/behavioral1
+||lands.ninja^$document,popup
+||6.lands.ninja^$all
+||19.lands.ninja^$all
+
+! https://web.archive.org/web/20230806191228/https://spamlogger.com/t/congrats-claim-your-500-walmart-gift-card/295
+! https://tria.ge/230806-xteenscb23/behavioral1
+||usadailysweepswinners.com^$all
+
+! https://github.com/durablenapkin/scamblocklist/issues/61
+! https://github.com/hagezi/dns-blocklists/issues/1390
+||okdebrid.com^$document
+||youdebrid.com^$document
 
