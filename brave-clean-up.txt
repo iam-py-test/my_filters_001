@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results, along with other annoyances
 ! Expires: 1 day
 ! Last updated: 7/4/2023
-! Last auto-generated: 07/08/2023
+! Last auto-generated: 11/08/2023
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -3245,6 +3245,10 @@ search.brave.com##div.fdb.snippet:has(a[href*="://keen-chaussures.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://keenfrancefr.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://keenfr.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://keen-chaussures.fr"])
+search.brave.com##div.fdb.snippet:has(a[href*="://pnsys.info"])
+search.brave.com##div.fdb.snippet:has(a[href*="://drto.info"])
+search.brave.com##div.fdb.snippet:has(a[href*="://dowloadkeepfilezzz.website"])
+search.brave.com##div.fdb.snippet:has(a[href*="://dowloadslek2.website"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://www.ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublockerext.com"])
@@ -9005,6 +9009,14 @@ search.brave.com##div.fdb.snippet:has(a[href*="://19.lands.ninja"])
 search.brave.com##div.fdb.snippet:has(a[href*="://usadailysweepswinners.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://okdebrid.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://youdebrid.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://graduatedgroan.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://oudguide.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://uidhealth.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://repairmostspeedyinfo-product.info"])
+search.brave.com##div.fdb.snippet:has(a[href*="://popgoldblocker.info"])
+search.brave.com##div.fdb.snippet:has(a[href*="://adblockology.net"])
+search.brave.com##div.fdb.snippet:has(a[href*="://download-adblock-zen.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://blockadsology.net"])
 search.brave.com##div.fdb.snippet:has(a[href*="://totalav.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://www.totalav.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://api.totalav.com"])
@@ -9301,6 +9313,8 @@ search.brave.com##div.fdb.snippet:has(a[href*="://download2.enigmasoftware.com"]
 search.brave.com##div.fdb.snippet:has(a[href*="://spyhunter.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://www.spyhunter.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://spyhunter-download-v2.b-cdn.net"])
+search.brave.com##div.fdb.snippet:has(a[href*="://enigmasoft.net"])
+search.brave.com##div.fdb.snippet:has(a[href*="://rh.downloads.enigmasoft.net"])
 search.brave.com##div.fdb.snippet:has(a[href*="://mackeeper.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://secure-browser.io"])
 search.brave.com##div.fdb.snippet:has(a[href*="://zipfileslikeapro.net"])
