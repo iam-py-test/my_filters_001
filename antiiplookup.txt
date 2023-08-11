@@ -36,3 +36,7 @@
 0.0.0.0 bc.ax
 # https://github.com/hagezi/dns-blocklists/issues/1141
 0.0.0.0 pro.ip-api.com
+# malware
+0.0.0.0 icanhazip.com
+# https://tria.ge/230810-2gkhdahd53/behavioral1
+0.0.0.0 geo-ip.enigmasoft.net

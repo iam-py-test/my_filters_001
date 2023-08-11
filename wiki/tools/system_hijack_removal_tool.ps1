@@ -17,9 +17,12 @@ if($should_create_restore -eq "y"){
 }
 
 $security_software_filenames = @("mbam.exe", "msert.exe", "taskmgr.exe", "eav_trial_rus.exe", "eis_trial_rus.exe", "essf_trial_rus.exe", "hitmanpro_x64.exe", "ESETOnlineScanner_UKR.exe", "ESETOnlineScanner_RUS.exe", "HitmanPro.exe", "Cezurity_Scanner_Pro_Free.exe", "Cube.exe", "AVbr.exe", "AV_br.exe", "KVRT.exe", "cureit.exe", "FRST64.exe", "eset_internet_security_live_installer.exe", "esetonlinescanner.exe", "eset_nod32_antivirus_live_installer.exe", "PANDAFREEAV.exe", "bitdefender_avfree.exe", "drweb-12.0-ss-win.exe", "Cureit.exe", "TDSSKiller.exe", "KVRT(1).exe", "rkill.exe", "adwcleaner.exe", "frst.exe", "frstenglish.exe", "combofix.exe", "iexplore.exe", "msconfig.exe", "jrt.exe", "mbar.exe", "SecHealthUI.exe")
-$procs_to_kill = @("sOFvE", "aspnet_compiler", "ZBrWfxmlCHpYeX", "n2770812", "legola", "pdates", "applaunch", "jsc", "wscript", "cscript", "csc", "usjhlmmdmsqjfbox", "bstyoops", "Setup_File", "timeout", "hydra", "Endermanch@Hydra", "processhider", "Endermanch@Hydra", "c5892073", "ratt", "rundll32", "lll", "livess", "atonand", "rft64", "MsiExec", "Launcher", "AddInUtil", "wordpad", "x9943392", "pdates", "bs1", "cacls", "rundll32", "calc", "winlogson", "schtasks", "autoit", "autoit3", "0a29ee64b40a3adb3f5a5e1815c5de53", "b78f9dc987653121104c5eaa55ab8d4a", "fe2c051a9160b6207a186110b585a5b8", "TotalUninstall", "	Total Uninstall Professional","totalav", "spyhunter", "regclean", "mssconfig", "mscnfig", "393", "aafg31", "more", "bot")
+$procs_to_kill = @("sOFvE", "aspnet_compiler", "ZBrWfxmlCHpYeX", "n2770812", "legola", "pdates", "applaunch", "jsc", "wscript", "cscript", "csc", "usjhlmmdmsqjfbox", "bstyoops", "Setup_File", "timeout", "hydra", "Endermanch@Hydra", "processhider", "Endermanch@Hydra", "c5892073", "ratt", "rundll32", "lll", "livess", "atonand", "rft64", "MsiExec", "Launcher", "AddInUtil", "wordpad", "x9943392", "pdates", "bs1", "cacls", "rundll32", "calc", "winlogson", "schtasks", "autoit", "autoit3", "0a29ee64b40a3adb3f5a5e1815c5de53", "b78f9dc987653121104c5eaa55ab8d4a", "fe2c051a9160b6207a186110b585a5b8", "TotalUninstall", "	Total Uninstall Professional","totalav", "spyhunter", "regclean", "mssconfig", "mscnfig", "393", "aafg31", "more", "bot", "mshta")
 $locs_to_kill = @("$env:APPDATA", "$env:TEMP")
 $systemdirs = @("$env:windir\System32".ToLower(),"$env:windir".ToLower(), "$env:windir\syswow64".ToLower())
+$bad_schtasks = @()
+$knownmalware = @("$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\eNXtBTKShU.url", "$env:systemdrive\Users\Public\Viyeinmz.url", "$env:systemdrive\Users\Public\Owhgjnta.url", "$env:systemdrive\ProgramData\Default\cDefaultc.vbs", "$env:systemdrive\Windows\system32\config\systemprofile\AppData\Roaming\winlogon.exe", "$env:systemdrive\Program Files\WindowsPowershell\RuntimeBroker.exe", "$env:systemdrive\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\ratt.exe", "$env:windir\rft64.exe", "$env:windir\SYSTEM32\TASKS\GoogleUpdateTaskMachineQC", "$env:systemdrive\PROGRAM FILES\GOOGLE\CHROME\UPDATER.EXE", "$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\Scanned.js", "$env:userprofile\Videos\edddegyjjykj.exe", "$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\edddegyjjykj.lnk")
+$knownmalwaredirs = @("$env:systemdrive\ProgramData\Microsoft\Windows\Start Menu\Programs\Auslogics", "$env:windir\SYSTEM32\TASKS\jjrcjc", "$env:systemdrive\ProgramData\Microsoft\IObitUnlocker", "$env:systemdrive\ProgramData\WindowsTask", "$env:systemdrive\Programdata\Microsoft\wjqqg", "$env:systemdrive\ProgramData\Dllhost", "$env:systemdrive\ProgramData\Windows Tasks Service". "$env:systemdrive\Programdata\ReaItekHD", "$env:programdata\IObit\Advanced SystemCare", "C:\Users\Default\AppData\Local\Microsoft\Windows\InetHelper", "$userprofile\AppData\Local\Microsoft\Windows\InetHelper", "C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\Windows\InetHelper")
 
 # https://stackoverflow.com/a/63344749
 if(!([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] 'Administrator')) {
@@ -114,6 +117,8 @@ Remove-ItemProperty -Path "HKLM:\SOFTWARE\WOW6432NODE\POLICIES\MICROSOFT\MRT" -N
 Set-Service WinDefend -StartupType Automatic -ErrorAction SilentlyContinue
 Set-Service Bits -StartupType Automatic -ErrorAction SilentlyContinue
 Set-Service trustedinstaller -StartupType Automatic -ErrorAction SilentlyContinue
+Set-Service winmgmt -StartupType Automatic -ErrorAction SilentlyContinue
+Set-Service EventLog -StartupType Automatic -ErrorAction SilentlyContinue
 Start-Service bits
 Start-Service WinDefend -ErrorAction SilentlyContinue
 
@@ -127,6 +132,8 @@ Set-Service mpssvc -StartupType Automatic -ErrorAction SilentlyContinue
 Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled True
 
 Write-Host "Checking for damaged system files"
+New-Item "$env:windir\WinSxS\Temp\PendingDeletes" -ItemType Directory -Force
+DISM /Online /Cleanup-Image /RestoreHealth
 sfc /scannow
 
 Write-Host "Removing unwanted browser changes"
@@ -136,6 +143,7 @@ Remove-ItemProperty -Path "HKCU:\Software\Policies\Microsoft\Edge" -Name "Downlo
 Write-Host "Removing known malware"
 Remove-Item "$env:systemdrive\Windows\Fonts\*" -Include "*.exe"
 Remove-Item "$env:public\AccountPictures\*" -Include "*.exe"
+Remove-Item "$env:localappdata\Microsoft\Windows\PowerShell" -Include "*.vbs"
 Remove-Item "HKCU:\Software\Conduit" -Recurse -Force -ErrorAction SilentlyContinue
 $filesinroaming = (Get-ChildItem $env:appdata)
 foreach($file in $filesinroaming){
@@ -146,18 +154,41 @@ foreach($file in $filesinroaming){
         }
     }
 }
-$knownmalware = @("$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\eNXtBTKShU.url", "$env:systemdrive\Users\Public\Viyeinmz.url", "$env:systemdrive\Users\Public\Owhgjnta.url", "$env:systemdrive\ProgramData\Default\cDefaultc.vbs", "$env:systemdrive\Windows\system32\config\systemprofile\AppData\Roaming\winlogon.exe", "$env:systemdrive\Program Files\WindowsPowershell\RuntimeBroker.exe", "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\ratt.exe", "C:\Windows\rft64.exe", "C:\WINDOWS\SYSTEM32\TASKS\GoogleUpdateTaskMachineQC", "C:\PROGRAM FILES\GOOGLE\CHROME\UPDATER.EXE", "$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\Scanned.js")
 foreach($malware in $knownmalware){
     if(Test-Path "$malware"){
         Remove-Item "$malware"
         Write-Host "Removed $malware"
     }
 }
-$knownmalwaredirs = @("C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Auslogics", "C:\WINDOWS\SYSTEM32\TASKS\jjrcjc", "c:\ProgramData\Microsoft\IObitUnlocker", "c:\ProgramData\WindowsTask", "C:\Programdata\Microsoft\wjqqg", "C:\ProgramData\Dllhost")
 foreach($malware in $knownmalwaredirs){
     if(Test-Path "$malware"){
         Remove-Item -Recurse -Force "$malware"
         Write-Host "Removed $malware"
+    }
+}
+# while this may appear to remove legitimate Google Chrome tasks, all legitimate Chrome tasks should start with Google, ie
+# 08/03/2023  01:44 PM             3,666 GoogleUpdateTaskMachineCore{3C3D51F0-3550-4F05-9038-3B7773729F72}
+# 08/03/2023  01:44 PM             3,790 GoogleUpdateTaskMachineUA{DAFD2719-AC4D-4124-9A28-DECE3E1533CC}
+$all_tasks = (Get-ScheduledTask)
+foreach($task in $all_tasks){
+    $taskname = $task.taskname
+    if($taskname.ToLower().StartsWith("chrome")){
+        Unregister-ScheduledTask "$taskname" -TaskPath $task.TaskPath -Confirm:$false
+        Write-Host "Removed $taskname"
+    }
+}
+$chrome_tasks_files = (Get-ChildItem $env:windir\System32\tasks\* -Recurse -Include "chrome*")
+foreach($task in $chrome_tasks_files){
+    $taskpath = $task.VersionInfo.FileName
+    Remove-Item $taskpath
+    Write-Host "Removed $taskpath"
+}
+
+$known_bad_runkeys = @("WindowsSecurity", "gieruwgew")
+$runkeys = @("HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run", "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce", "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run", "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce")
+foreach($runkey in $runkeys){
+    foreach($bad in $known_bad_runkeys){
+        #TODO: Remove-ItemProperty
     }
 }
 
@@ -203,6 +234,7 @@ foreach($temploc in $tempfolders){
     Write-Host "Cleared $temploc"
 }
 Remove-Item "$env:systemdrive\Windows\Prefetch\*" -Include "*.pf"
+Remove-Item "$env:windir\SoftwareDistribution\Download\*" -Recurse -Force
 Clear-RecycleBin -Force
 
 Write-Host "You need to reboot your system"

@@ -126,6 +126,8 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||cdn.discordapp.com/attachments/*.vbs|$document
 ||cdn.discordapp.com/attachments/*.rar|$document
 ||tiktok*.com^$document
+||adpointrtb.com^$document
+||clicknewsview.com^$document
 
 ! ---- unwanted allowlist rules ----
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument,badfilter
