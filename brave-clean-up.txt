@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results, along with other annoyances
 ! Expires: 1 day
 ! Last updated: 7/4/2023
-! Last auto-generated: 06/08/2023
+! Last auto-generated: 07/08/2023
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -3236,6 +3236,15 @@ search.brave.com##div.fdb.snippet:has(a[href*="://revanced.net"])
 search.brave.com##div.fdb.snippet:has(a[href*="://psequeldegaste.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://psequeldegaste.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://thehipsteragency.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://keen-chaussure.fr"])
+search.brave.com##div.fdb.snippet:has(a[href*="://keen-france.fr"])
+search.brave.com##div.fdb.snippet:has(a[href*="://keenshoesfrance.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://keenfrance.fr"])
+search.brave.com##div.fdb.snippet:has(a[href*="://keen-fr.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://keen-chaussures.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://keenfrancefr.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://keenfr.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://keen-chaussures.fr"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://www.ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublockerext.com"])
@@ -8989,6 +8998,13 @@ search.brave.com##div.fdb.snippet:has(a[href*="://581358.metriumoldeb.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://theod-omq.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://goatmod.xyz"])
 search.brave.com##div.fdb.snippet:has(a[href*="://mkhvuv.metriumoldeb.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://sex-girls.khayyamfestival.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://lands.ninja"])
+search.brave.com##div.fdb.snippet:has(a[href*="://6.lands.ninja"])
+search.brave.com##div.fdb.snippet:has(a[href*="://19.lands.ninja"])
+search.brave.com##div.fdb.snippet:has(a[href*="://usadailysweepswinners.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://okdebrid.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://youdebrid.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://totalav.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://www.totalav.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://api.totalav.com"])
