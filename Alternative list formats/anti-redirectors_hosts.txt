@@ -426,3 +426,5 @@
 # in an email
 0.0.0.0 track.spe.schoolmessenger.com
 # https://www.bleepingcomputer.com/news/technology/google-news-discover-links-showing-404-not-found-heres-how-to-fix/
+# https://link.sbstck.com/redirect/451866dc-e583-4cd5-8a7d-ebf67a70f827
+0.0.0.0 link.sbstck.com
