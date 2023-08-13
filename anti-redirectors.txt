@@ -584,3 +584,6 @@ youtube.com##+js(href-sanitizer,a[href*="https://www.youtube.com/redirect"], ?q)
 
 ! https://www.bleepingcomputer.com/news/technology/google-news-discover-links-showing-404-not-found-heres-how-to-fix/
 ||play.google.com/newsstand/api/v3/articleaccess$document
+
+! https://link.sbstck.com/redirect/451866dc-e583-4cd5-8a7d-ebf67a70f827
+||link.sbstck.com^$document

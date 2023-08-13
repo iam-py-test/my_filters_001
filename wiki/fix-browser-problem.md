@@ -197,6 +197,7 @@ No one malware removal tool can clean a system.
         - If these links do not work, you can [download it from here](https://www.sophos.com/free-tools/virus-removal-tool/free-download), but you will have to enter a name and email. You do not have to enter a real email, but they do block obviously invalid ones (i.e. `example@example.example`)
         - Would recommend you go into the settings and turn off "Scan for Tracking Cookies". These are **not malware** and clutter up the scan results. It is better to [manage cookies from your browser's settings](#clear-browser-cache-and-cookies) rather than using 3rd-party tools, and it is even better to block trackers rather than just removing tracking cookies after the fact.
     - Malwarebytes: https://www.malwarebytes.com/mwb-download/thankyou
+        - Offline installer: https://downloads.malwarebytes.com/file/mb4_offline
         - You **do not** need to buy it! The free version can remove malware just as well as the paid one.
         - It will come with a trial version:
             - The real-time protection may confict with your security software:
@@ -218,7 +219,10 @@ No one malware removal tool can clean a system.
         - Be aware that the Microsoft Safety Scanner may show detections during the scan. This is *normal* and does *not* mean you are infected. All that matters is the result at the end.
         - There is no point in running this in addition to Windows Defender
 - Android:
-
+    - I have little experence removing malware from Android, and lack an environment to test in. Thus, I do not know what the best security software for Android is.
+    - Malwarebytes: https://play.google.com/store/apps/details?id=org.malwarebytes.antimalware
+        - It seems you now need to share payment information and agree to the trial, even to do a free scan
+    - https://support.google.com/accounts/answer/9924802?co=GENIE.Platform%3DAndroid
 - iOS:
     - iOS malware is very rare outside targeted attacks
         - If you are reading a page on GitHub about how to fix problems with your browser, you probably aren't someone who would be targeted.
@@ -277,6 +281,7 @@ After doing this, restart your browser
 - Brave: https://support.brave.com/hc/articles/4404876135565-How-do-I-uninstall-Brave-
 - Vivaldi: https://help.vivaldi.com/desktop/install-update/how-to-uninstall-vivaldi/
 - It is not possible to uninstall Microsoft Edge from Windows. You can, however, install it over your existing install or repair it (below).
+
 #### Repair Microsoft Edge on Windows
 - Type appwiz.cpl into the Windows search
 - Click on "appwiz.cpl":
@@ -299,6 +304,7 @@ After doing this, restart your browser
 - Microsoft Edge:
     - [Try repairing it first](#repair-microsoft-edge-on-windows)
     - All devices: https://www.microsoft.com/edge/download
+
 #### Problems installing
 - Chrome: https://support.google.com/chrome/answer/6315198
 

@@ -95,20 +95,9 @@ foreach($subprop in $disallowrun){
 }
 
 Write-Host "Repairing Windows Defender"
-$defender_exc_paths = (Get-Mppreference).ExclusionPath
-foreach($expath in $defender_exc_paths){
-    Remove-MpPreference -ExclusionPath $expath
-}
-$defender_exc_ext = (Get-Mppreference).ExclusionExtension
-foreach($ext in $defender_exc_ext){
-    Write-Host "Removed exclusion for $ext"
-    Remove-MpPreference -ExclusionExtension $ext
-}
-Set-MpPreference -DisableArchiveScanning $false -Force
-Set-MpPreference -PUAProtection 1
-Set-MpPreference -UILockdown $false
-Set-MpPreference -DisableAutoExclusions $true
 Remove-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender" -Name "DisableAntiSpyware"
+Remove-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender" -Name "DisableRoutinelyTakingAction"
+Remove-ItemProperty -Path "HKLM:\SOFTWARE\Wow6432Node\Policies\Microsoft\Windows Defender\Real-Time Protection" -Name "DisableRealtimeMonitoring"
 Remove-ItemProperty -Path "HKLM:\SOFTWARE\POLICIES\MICROSOFT\MRT" -Name "DONTOFFERTHROUGHWUAU"
 Remove-ItemProperty -Path "HKLM:\SOFTWARE\POLICIES\MICROSOFT\MRT" -Name "DONTREPORTINFECTIONINFORMATION"
 Remove-ItemProperty -Path "HKLM:\SOFTWARE\WOW6432NODE\POLICIES\MICROSOFT\MRT" -Name "DONTOFFERTHROUGHWUAU"
@@ -122,8 +111,28 @@ Set-Service EventLog -StartupType Automatic -ErrorAction SilentlyContinue
 Start-Service bits
 Start-Service WinDefend -ErrorAction SilentlyContinue
 
+$defender_exc_paths = (Get-Mppreference).ExclusionPath
+foreach($expath in $defender_exc_paths){
+    Remove-MpPreference -ExclusionPath $expath
+}
+$defender_exc_ext = (Get-Mppreference).ExclusionExtension
+foreach($ext in $defender_exc_ext){
+    Write-Host "Removed exclusion for $ext"
+    Remove-MpPreference -ExclusionExtension $ext
+}
+$defender_exc_proc = (Get-Mppreference).ExclusionProcess
+foreach($proc in $defender_exc_proc){
+    Write-Host "Removed exclusion for $proc"
+    Remove-MpPreference -ExclusionProcess $proc
+}
+Set-MpPreference -DisableArchiveScanning $false -Force
+Set-MpPreference -PUAProtection 1
+Set-MpPreference -UILockdown $false
+Set-MpPreference -DisableAutoExclusions $true
+
 Update-MpSignature
 Start-MpScan -ScanType QuickScan
+Remove-MpThreat
 
 Write-Host "Turning on Windows Firewall"
 Set-Service BFE -StartupType Automatic -ErrorAction SilentlyContinue

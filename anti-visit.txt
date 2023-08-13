@@ -19,7 +19,9 @@
 ! GitHub proxies images through their servers, bypassing the above rules
 github.com##[data-canonical-src*="profile-counter.glitch.me/"][data-canonical-src*="/count.svg"]:remove()
 github.com##img[src][data-canonical-src*="websitecounterfree.com/c.php"]:remove()
+github.com##[data-canonical-src="https://hits.seeyoufarm.com/api/count/incr/badge.svg]
 !#if cap_html_filtering
 github.com##^[data-canonical-src*="profile-counter.glitch.me/"][data-canonical-src*="/count.svg"]
 github.com##^img[src][data-canonical-src*="websitecounterfree.com/c.php"]
+github.com##^[data-canonical-src="https://hits.seeyoufarm.com/api/count/incr/badge.svg]
 !#endif
