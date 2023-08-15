@@ -510,3 +510,5 @@
 0.0.0.0 freecrack.zip
 0.0.0.0 computer.zip
 0.0.0.0 cringe.zip
+# https://web.archive.org/web/20230813181452/https://www.bleepingcomputer.com/news/security/uk-gov-keeps-repeating-its-voter-registration-website-is-not-a-scam/
+0.0.0.0 householdresponses.com

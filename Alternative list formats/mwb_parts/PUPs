@@ -660,8 +660,9 @@
 ||www.gifsmakerpro.com^$document
 
 ! https://forums.malwarebytes.com/topic/293346-malwarebytes-not-detecting-virus-highjacking-my-search-engine-in-chrome/
+! https://www.bleepingcomputer.com/forums/t/788099/howdy-yall-i-could-use-some-help-antivirus-and-self-hacking/
 ||mobilisearch.com^$all
-||mobility-search.com^$document
+||mobility-search.com^$all
 
 ! another clone of ziprar thing (Adware.SearchLightPro)
 ||imagelighteditor.com^$document
@@ -820,10 +821,6 @@
 ||downloadonelaunchnow.com^$document
 ! https://tria.ge/230805-1lv91agc6x/behavioral1
 ||getconvertmyfile.com^$document
-
-! https://www.bleepingcomputer.com/forums/t/788099/howdy-yall-i-could-use-some-help-antivirus-and-self-hacking/
-||mobility-search.com^$document
-||mobilisearch.com^$document
 
 ! https://0xacab.org/my-privacy-dns/matrix/-/issues/649666
 ! https://tria.ge/230805-rgmydsee8s/behavioral1
