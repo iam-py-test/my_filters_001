@@ -578,3 +578,6 @@
 ||freecrack.zip^$document
 ||computer.zip^$document
 ||cringe.zip^$document
+
+! https://web.archive.org/web/20230813181452/https://www.bleepingcomputer.com/news/security/uk-gov-keeps-repeating-its-voter-registration-website-is-not-a-scam/
+||householdresponses.com^$document

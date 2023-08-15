@@ -40,3 +40,5 @@
 0.0.0.0 icanhazip.com
 # https://tria.ge/230810-2gkhdahd53/behavioral1
 0.0.0.0 geo-ip.enigmasoft.net
+# https://github.com/PeterDaveHello/ipinfo.tw-uptime
+0.0.0.0 ipinfo.tw

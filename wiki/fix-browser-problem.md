@@ -3,6 +3,9 @@ Now days, it is common for malware to make unwanted modifications to your browse
 
 Warning: This is a work in progress!
 
+## Notice!
+This page has been moved to https://iam-py-test.github.io/malware_removal.html
+
 ### Things not to do
 - Do not use "cleaner" programs to clear browser cache/cookies. These programs may cause problems with your browser. Use your browser settings to clear cookies and cache.
 - Stay aware from scam or low quality malware removal tools, such as SpyHunter, TotalAV, ScanGuard, and PCProtect.

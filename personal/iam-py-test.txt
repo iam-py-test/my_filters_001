@@ -98,6 +98,8 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||imagefap.com^$all
 ||dr-farfar.com^$all
 ||daartads.com^
+||gaytube.com^$all
+||redtube.*^$all
 
 ! ---- suspected malware ----
 ||inghesatin.com^$all

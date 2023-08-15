@@ -1,6 +1,6 @@
 """Automatically create other formats of my lists"""
 import json
-import sys,os
+import sys, os
 import re
 import idna
 
@@ -374,8 +374,8 @@ Write-Host "Created by iam-py-test"
 Write-Host "This must be run as admin and on Microsoft Windows 10/11 or else it will not work!"
 
 Write-Host "Removing old rules"
-Get-NetFirewallRule -DisplayName "iam-py-test - Block outbound connections to this ip" | Remove-NetFirewallRule
-Get-NetFirewallRule -DisplayName "iam-py-test - Block inbound connections from this ip" | Remove-NetFirewallRule
+Get-NetFirewallRule -DisplayName "iam-py-test - Block outbound connections to this ip" -ErrorAction SilentlyContinue | Remove-NetFirewallRule
+Get-NetFirewallRule -DisplayName "iam-py-test - Block inbound connections from this ip" -ErrorAction SilentlyContinue | Remove-NetFirewallRule
 
 Write-Host "Adding new rules"
 """)
@@ -384,6 +384,32 @@ Write-Host "Adding new rules"
   outf.close()
 try:
   mkps_firewall_block_combined_rules("antimalware.txt","Alternative list formats/antimalware_firewall_script_c.ps1")
+except Exception as err:
+  print(err)
+
+def mkpac(file, outfile):
+  # PAC file format copied from https://pgl.yoyo.org/adservers/serverlist.php?hostformat=proxyautoconfig&showintro=1&mimetype=plaintext
+  # which is under MCRAE GENERAL PUBLIC LICENSE (version 4.r53)
+  # see also https://github.com/hagezi/dns-blocklists/issues/1423
+  pall_domains = alldomains[file]
+  end_domains = []
+  for d in pall_domains:
+    end_domains.append(f"		  shExpMatch(host, \"{d}\")")
+  pac_format = """function FindProxyForURL(url, host) {
+   if (
+[[LIST]]) {
+       return "PROXY 127.0.0.1";
+       }
+   else {
+       return "DIRECT";
+       }
+   }
+""".replace("[[LIST]]", " ||\n".join(end_domains))
+  outhandle = open(outfile, 'w', encoding="UTF-8")
+  outhandle.write(pac_format)
+  outhandle.close()
+try:
+  mkpac("antimalware.txt","Alternative list formats/antimalware.pac")
 except Exception as err:
   print(err)
 
