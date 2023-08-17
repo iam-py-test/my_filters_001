@@ -39,5 +39,6 @@ taskkill /F /IM "yandex.exe"
 
 rem Chromium
 taskkill /F /IM "chromium.exe"
+taskkill /F /IM "ChromiumUpdate.exe"
 
 echo All browsers killed
