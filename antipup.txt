@@ -98,3 +98,8 @@ winaero.com##.widget:has([href="/fix-classic-issues-performance/"])
 ! https://tria.ge/230705-3ac1dshf7z/behavioral1
 ! https://app.any.run/tasks/c3057271-4453-4437-b619-3ee08588db54 (broke)
 ||getconvertpdf.com^$document
+
+! https://github.com/iam-py-test/my_filters_001/issues/119
+! https://tria.ge/230817-a16feaee47/behavioral1
+||combocleaner.com^$document
+||www.combocleaner.com^$document
