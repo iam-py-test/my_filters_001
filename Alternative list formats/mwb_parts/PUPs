@@ -830,3 +830,8 @@
 ||websearchextension-api.info^$document
 ||api.websearchextension-api.info^$document
 
+! https://github.com/StevenBlack/hosts/issues/2403
+||madqudden.com^$document
+! https://github.com/StevenBlack/hosts/issues/2408
+||santknow.com^$document
+
