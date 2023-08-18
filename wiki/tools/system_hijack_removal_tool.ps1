@@ -20,9 +20,9 @@ $security_software_filenames = @("mbam.exe", "msert.exe", "taskmgr.exe", "eav_tr
 $procs_to_kill = @("sOFvE", "aspnet_compiler", "ZBrWfxmlCHpYeX", "n2770812", "legola", "pdates", "applaunch", "jsc", "wscript", "cscript", "csc", "usjhlmmdmsqjfbox", "bstyoops", "Setup_File", "timeout", "hydra", "Endermanch@Hydra", "processhider", "Endermanch@Hydra", "c5892073", "ratt", "rundll32", "lll", "livess", "atonand", "rft64", "MsiExec", "Launcher", "AddInUtil", "wordpad", "x9943392", "pdates", "bs1", "cacls", "rundll32", "calc", "winlogson", "schtasks", "autoit", "autoit3", "0a29ee64b40a3adb3f5a5e1815c5de53", "b78f9dc987653121104c5eaa55ab8d4a", "fe2c051a9160b6207a186110b585a5b8", "TotalUninstall", "	Total Uninstall Professional","totalav", "spyhunter", "regclean", "mssconfig", "mscnfig", "393", "aafg31", "more", "bot", "mshta", "system64bit", "ApowerREC", "NdKP12ZmmL", "Lavasoft.WCAssistant.WinService", "santivirusclient", "ChromiumUpdate")
 $locs_to_kill = @("$env:APPDATA", "$env:TEMP")
 $systemdirs = @("$env:windir\System32".ToLower(),"$env:windir".ToLower(), "$env:windir\syswow64".ToLower())
-$bad_schtasks = @("svvchost")
+$bad_schtasks = @("svvchost", "DigitalPulseUpdateTask", "Microsoft\Windows\Wininet\Cleaner")
 $knownmalware = @("$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\eNXtBTKShU.url", "$env:systemdrive\Users\Public\Viyeinmz.url", "$env:systemdrive\Users\Public\Owhgjnta.url", "$env:systemdrive\ProgramData\Default\cDefaultc.vbs", "$env:systemdrive\Windows\system32\config\systemprofile\AppData\Roaming\winlogon.exe", "$env:systemdrive\Program Files\WindowsPowershell\RuntimeBroker.exe", "$env:systemdrive\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\ratt.exe", "$env:windir\rft64.exe", "$env:windir\SYSTEM32\TASKS\GoogleUpdateTaskMachineQC", "$env:systemdrive\PROGRAM FILES\GOOGLE\CHROME\UPDATER.EXE", "$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\Scanned.js", "$env:userprofile\Videos\edddegyjjykj.exe", "$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\edddegyjjykj.lnk", "$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\519b55464950ce55b68715cb59bcfbfb.exe", "$env:userprofile\Documents\NdKP12ZmmL.pif", "$env:systemdrive\Program Files\Common Files\System\iediagcmd.exe", "$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\system.exe")
-$knownmalwaredirs = @("$env:systemdrive\ProgramData\Microsoft\Windows\Start Menu\Programs\Auslogics", "$env:windir\SYSTEM32\TASKS\jjrcjc", "$env:systemdrive\ProgramData\Microsoft\IObitUnlocker", "$env:systemdrive\ProgramData\WindowsTask", "$env:systemdrive\Programdata\Microsoft\wjqqg", "$env:systemdrive\ProgramData\Dllhost", "$env:systemdrive\ProgramData\Windows Tasks Service". "$env:systemdrive\Programdata\ReaItekHD", "$env:programdata\IObit\Advanced SystemCare", "C:\Users\Default\AppData\Local\Microsoft\Windows\InetHelper", "$userprofile\AppData\Local\Microsoft\Windows\InetHelper", "C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\Windows\InetHelper", "$env:systemdrive\ProgramData\WindowsTask", "C:\Program Files (x86)\IObit", "$env:systemdrive\ProgramData\Microsoft\NetFramework\57aZolanDbk")
+$knownmalwaredirs = @("$env:systemdrive\ProgramData\Microsoft\Windows\Start Menu\Programs\Auslogics", "$env:windir\SYSTEM32\TASKS\jjrcjc", "$env:systemdrive\ProgramData\Microsoft\IObitUnlocker", "$env:systemdrive\ProgramData\WindowsTask", "$env:systemdrive\Programdata\Microsoft\wjqqg", "$env:systemdrive\ProgramData\Dllhost", "$env:systemdrive\ProgramData\Windows Tasks Service". "$env:systemdrive\Programdata\ReaItekHD", "$env:programdata\IObit\Advanced SystemCare", "C:\Users\Default\AppData\Local\Microsoft\Windows\InetHelper", "$userprofile\AppData\Local\Microsoft\Windows\InetHelper", "C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\Windows\InetHelper", "$env:systemdrive\ProgramData\WindowsTask", "C:\Program Files (x86)\IObit", "$env:systemdrive\ProgramData\Microsoft\NetFramework\57aZolanDbk", "C:\ProgramData\Microsoft\MapData\MDTFx6Mpd")
 
 # https://stackoverflow.com/a/63344749
 if(!([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] 'Administrator')) {
@@ -110,10 +110,12 @@ Remove-ItemProperty -Path "HKLM:\SOFTWARE\POLICIES\MICROSOFT\MRT" -Name "DONTREP
 Remove-ItemProperty -Path "HKLM:\SOFTWARE\WOW6432NODE\POLICIES\MICROSOFT\MRT" -Name "DONTOFFERTHROUGHWUAU"
 Remove-ItemProperty -Path "HKLM:\SOFTWARE\WOW6432NODE\POLICIES\MICROSOFT\MRT" -Name "DONTREPORTINFECTIONINFORMATION"
 # https://forums.malwarebytes.com/topic/301140-pupadwareheuristic-wont-quarantine/#comment-1582969
-Remove-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender" -Name "DisableRoutinelyTakingAction" –Force
+Remove-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender" -Name "DisableRoutinelyTakingAction" -Force
 Remove-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection" -Name "DisableBehaviorMonitoring" -force
 Remove-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection" -Name "DisableOnAccessProtection" -force
 Remove-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection" -Name "DisableScanOnRealtimeEnable" -force
+# 
+Remove-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows Defender Security Center\Notifications" -Name "DisableNotifications" -ErrorAction SilentlyContinue
 
 Set-Service WinDefend -StartupType Automatic -ErrorAction SilentlyContinue
 Set-Service Bits -StartupType Automatic -ErrorAction SilentlyContinue
@@ -207,8 +209,15 @@ foreach($malware in $knownmalwaredirs){
 $all_tasks = (Get-ScheduledTask)
 foreach($task in $all_tasks){
     $taskname = $task.taskname
+    $taskpath = $task.TaskPath
+    $taskfullname = "$taskpath$taskname"
+    Write-Host $taskfullname
     if($taskname.ToLower().StartsWith("chrome")){
-        Unregister-ScheduledTask "$taskname" -TaskPath $task.TaskPath -Confirm:$false
+        Unregister-ScheduledTask "$taskname" -TaskPath $taskpath -Confirm:$false
+        Write-Host "Removed $taskname"
+    }
+    if($bad_schtasks.Contains($taskname) -or $bad_schtasks.Contains($taskfullname)){
+        Unregister-ScheduledTask "$taskname" -TaskPath $taskpath -Confirm:$false
         Write-Host "Removed $taskname"
     }
 }
@@ -219,7 +228,7 @@ foreach($task in $chrome_tasks_files){
     Write-Host "Removed $taskpath"
 }
 
-$known_bad_runkeys = @("WindowsSecurity", "gieruwgew", "519b55464950ce55b68715cb59bcfbfb", "WindowsBootManager")
+$known_bad_runkeys = @("WindowsSecurity", "gieruwgew", "519b55464950ce55b68715cb59bcfbfb", "WindowsBootManager", "Digital Pulse", "DigitalPulse")
 $runkeys = @("HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run", "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce", "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run", "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce")
 foreach($runkey in $runkeys){
     foreach($bad in $known_bad_runkeys){

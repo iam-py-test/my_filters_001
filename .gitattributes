@@ -10,4 +10,4 @@ scripts/* Python
 * text=auto eol=lf
 
 # https://github.com/StevenBlack/hosts/pull/2352
-hosts linguist-detectable linguist-language=hosts
+hosts linguist-detectable linguist-language="Hosts file"
