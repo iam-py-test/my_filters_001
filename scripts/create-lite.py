@@ -43,6 +43,9 @@ except:
 
 parse = None
 def parse(lines):
+  global done_domains
+  global done_entries
+  global all_domains
   lcontents = ""
   for line in lines:
     if line.startswith("!#include "):
