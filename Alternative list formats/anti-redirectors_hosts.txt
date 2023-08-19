@@ -3,7 +3,7 @@
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # Please report false positives & unblocked domains to me using the GitHub or GitLab (urls below). Thanks!
 # Expires: 1 day
-# Last updated: 6/8/2023
+# Last updated: 19/8/2023
 # Issues url: https://github.com/iam-py-test/my_filters_001/issues
 # GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 # Google redirects
@@ -428,3 +428,5 @@
 # https://www.bleepingcomputer.com/news/technology/google-news-discover-links-showing-404-not-found-heres-how-to-fix/
 # https://link.sbstck.com/redirect/451866dc-e583-4cd5-8a7d-ebf67a70f827
 0.0.0.0 link.sbstck.com
+# https://github.com/uBlockOrigin/uAssets/issues/19400
+0.0.0.0 stfly.xyz

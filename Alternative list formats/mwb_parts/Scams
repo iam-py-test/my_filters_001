@@ -6799,7 +6799,7 @@
 
 ! https://tria.ge/230810-zzlr2sah5y/behavioral1
 ||popgoldblocker.info^$document
-||adblockology.net^$document
+||adblockology.net^$all
 ||download-adblock-zen.com^$document
 ||blockadsology.net^$document
 
@@ -6830,4 +6830,10 @@
 
 ! https://tria.ge/230817-127yqsdh56/behavioral1
 ||investmusk.org^$all
+
+! https://github.com/uBlockOrigin/uAssets/issues/19400
+! https://tria.ge/230819-nzqkfshe69/behavioral1
+||adblocko-supremo.info^$document
+||video-adblocker.pro^$document
+||
 
