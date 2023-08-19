@@ -71,6 +71,7 @@ def parse(lines):
         else:
           lcontents += line + "\n"
           done_entries.append(line)
+          all_domains.append(domain)
           if "/" not in line and isipdomain(domain) == False:
             all_domains.append(domain)
       except Exception as err:
