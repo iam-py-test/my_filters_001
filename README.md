@@ -35,6 +35,11 @@ Please note! I am only one person, and I do not have much time to dedicate to th
 - Anti-Dynamic DNS ([antidynamicdns.txt](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antidynamicdns.txt))
 - [iam-py-test's anti-PUP list](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antipup.txt)
 
+This is a more agressive list which blocks:
+- Snake oil programs such as registry cleaners
+- Low quality malware removal guides
+- Bundled software installers
+
 #### Not frequently updated but still receive occasional updates
 - Anti-typosquatting list (antitypo.txt)
 - Anti-redirectors list (anti-redirectors.txt)
@@ -78,6 +83,7 @@ This list has an extremely specific purpose, and **SHOULD NOT BE USED**.
 - Anti-'page visit counter' list (anti-visit.txt)
 - IP Lookup service blocklist ([antiiplookup.txt](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antiiplookup.txt))
 - Anti-adfly (anti-adfly.txt)
+This list is no longer maintained, as adfly has been bought by Linkverse.
 - Link redirect removal list (redirect-remover.txt)
 - Favicon blocker ([favicon_blocker.txt](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/favicon_blocker.txt))
 - Anti-TikTok ([anti-tiktok.txt](./anti-tiktok.txt))

@@ -103,3 +103,6 @@ winaero.com##.widget:has([href="/fix-classic-issues-performance/"])
 ! https://tria.ge/230817-a16feaee47/behavioral1
 ||combocleaner.com^$document
 ||www.combocleaner.com^$document
+
+! bundles software, registry cleaner
+||ccleaner.com^$document

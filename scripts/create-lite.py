@@ -41,33 +41,43 @@ try:
 except:
   pass
 
+parse = None
+def parse(lines):
+  lcontents = ""
+  for line in lines:
+    if line.startswith("!#include "):
+      try:
+        path = line[10:]
+        lcontents += parse(open(path, encoding="UTF-8").read().replace("\r\n", "\n").split("\n"))
+      except Exception as err:
+        print(err)
+    if line in done_entries or line in bannedfilters or line == "" or line.startswith("!") or line.startswith("#") or "[Adblock Plus 2.0]" in line:
+      continue
+    if line.startswith("||") and "/" in line:
+      lcontents += line + "\n"
+      done_entries.append(line)
+      continue
+    else:
+      try:
+        domain = line.split("^")[0][2:]
+        if psl.is_public(domain):
+          continue
+        rootdomain = psl.privatesuffix(domain)
+        if rootdomain in done_domains or domain in done_domains:
+          continue
+        else:
+          lcontents += line + "\n"
+          done_entries.append(line)
+          if "/" not in line and isipdomain(domain) == False:
+            all_domains.append(domain)
+      except Exception as err:
+        print(err)
+        lcontents += line + "\n"
+        done_entries.append(line)
+  return lcontents
 
 lines = open("antimalware.txt",encoding="UTF-8").read().split("\n")
-for line in lines:
-  if line in done_entries or line in bannedfilters or line == "" or line.startswith("!") or line.startswith("#") or "[Adblock Plus 2.0]" in line:
-    continue
-  if line.startswith("||") and "/" in line:
-    list1 += line + "\n"
-    done_entries.append(line)
-    continue
-  else:
-    try:
-      domain = line.split("^")[0][2:]
-      if psl.is_public(domain):
-        continue
-      rootdomain = psl.privatesuffix(domain)
-      if rootdomain in done_domains or domain in done_domains:
-        continue
-      else:
-        list1 += line + "\n"
-        done_entries.append(line)
-        done_domains.append(domain)
-        if "/" not in line and isipdomain(domain) == False:
-          all_domains.append(domain)
-    except Exception as err:
-      print(err)
-      list1 += line + "\n"
-      done_entries.append(line)
+list1 += parse(lines)
 endlist = open("Alternative list formats/antimalware_lite.txt","w",encoding="UTF-8")
 endlist.write(list1)
 endlist.close()
