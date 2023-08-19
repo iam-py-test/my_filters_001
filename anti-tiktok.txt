@@ -17,3 +17,6 @@
 ||lf16-tiktok-common.ibytedtos.com^$all
 ||us.tiktok.com^$all
 ||byteigtm.com^$all
+
+! https://github.com/hagezi/dns-blocklists/issues/1445
+||byteglb.com^$all
