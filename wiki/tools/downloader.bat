@@ -1,5 +1,5 @@
 @echo off
-echo "Killing processes..."
+echo Killing processes...
 taskkill /F /IM "powershell.exe"
 taskkill /F /IM "curl.exe"
 
@@ -12,6 +12,6 @@ ipconfig /flushdns
 
 echo Downloading...
 del /F "%temp%\system_hijack_removal_tool.ps1" 
-curl "https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/wiki/system_hijack_removal_tool.ps1" --output "%temp%\system_hijack_removal_tool.ps1"
+curl "https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/wiki/tools/system_hijack_removal_tool.ps1" --output "%temp%\system_hijack_removal_tool.ps1"
 powershell -executionpolicy bypass "%temp%\system_hijack_removal_tool.ps1"
 del /F "%temp%\system_hijack_removal_tool.ps1"
