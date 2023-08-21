@@ -10,11 +10,6 @@ For uBlock Origin users, you can right click on any link starting with `https://
 
 Please note! I am only one person, and I do not have much time to dedicate to this project. These lists _don't_ get updated as often as they should, and I'm sorry.
 
-### Some stats: 
-<a href="https://github.com/iam-py-test/my_filters_001/blob/main/stats.md"><img src="https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/totalentries.svg" width='130' height="20"></a>
-<img src="https://img.shields.io/github/last-commit/iam-py-test/my_filters_001"> 
-[![Update the alt lists](https://github.com/iam-py-test/my_filters_001/actions/workflows/update_filterlists.yml/badge.svg)](https://github.com/iam-py-test/my_filters_001/actions/workflows/update_filterlists.yml)
-
 ## Filters in this repo
 
 #### Actively maintained
@@ -98,7 +93,7 @@ Everything not listed above, like the filters in the _Personal_ folder, is eithe
 - Domains only - https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_domains.txt
 - IP Addresses only - https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_ips.txt
 - AdGuard Windows/MacOS (beta) - https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_adguard_app.txt
-- AdGuard Home (untested) - https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_adguard_home.txt
+- AdGuard Home - https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_adguard_home.txt
 - dnsmasq (untested) - https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_dnsmasq.txt
 - JSON - https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_json.json
 - HOSTs format (no comments) - https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_pure_hosts.txt
