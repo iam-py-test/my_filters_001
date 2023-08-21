@@ -6838,6 +6838,7 @@
 
 ! https://github.com/hagezi/dns-blocklists/issues/1452
 ||huuskmesser.de^$all
+||huusk-original.com^$all
 
 ! https://www.malwarebytes.com/blog/threat-intelligence/2023/08/wooflocker2
 ||api.cloudcachestels.com^$all
@@ -6873,4 +6874,13 @@
 ||beeronas.com^$all
 ||lobosixt.com^$all
 ||gomoyad.com^$all
+
+! https://github.com/hagezi/dns-blocklists/issues/1458
+||software19797.blogspot.com^$all
+
+! https://github.com/hagezi/dns-blocklists/issues/1457
+||cutty.app^$document
+
+! https://github.com/hagezi/dns-blocklists/issues/1455
+||wintexfashions.com^$all
 
