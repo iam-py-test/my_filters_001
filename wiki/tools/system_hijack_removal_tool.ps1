@@ -1,23 +1,41 @@
+$shrt_log_filepath = "$env:public\Desktop\shrt.log"
+function Add-SHRTLog {
+    param (
+        [string]$logMessage,
+        [switch]$debug
+    )
+    $prepend = "[debug]"
+    if($debug.Equals($false)){
+        Write-Host "$logMessage"
+        $prepend = "[log]"
+    }
+    Add-Content -Path "$shrt_log_filepath" -Value "$prepend $logMessage" -ErrorAction SilentlyContinue
+}
+
 Write-Host "The System Hijack Removal Tool (2)"
 Write-Host "This tool will try to remove known malware"
 Read-Host "Press enter to continue" | Out-Null
+
+Add-SHRTLog "`nThe System Hijack Removal Tool (2) - Begin log`nRunning under $env:username" -Debug
 
 $should_create_restore = (Read-Host "Create system restore point (y/n)?")
 if($should_create_restore -eq "y"){
     try{
         Checkpoint-Computer -Description 'System Hijack Removal Tool - before run' -RestorePointType 'MODIFY_SETTINGS'
+        Add-SHRTLog "Created system restore point"
     }
     catch{
-        Write-Host "Could not create system restore point"
-        $should_enable = (Read-Host "Enable system restore (y/n)?")
+        Add-SHRTLog "Could not create system restore point"
+        $should_enable = (Read-Host "Enable system restore (y/n)? ")
         if($should_enable -eq "y"){
             Enable-ComputerRestore -Drive "$env:systemdrive\"
+            Add-SHRTLog "Enabled system restore"
         }
     }
 }
 
 $security_software_filenames = @("mbam.exe", "msert.exe", "taskmgr.exe", "eav_trial_rus.exe", "eis_trial_rus.exe", "essf_trial_rus.exe", "hitmanpro_x64.exe", "ESETOnlineScanner_UKR.exe", "ESETOnlineScanner_RUS.exe", "HitmanPro.exe", "Cezurity_Scanner_Pro_Free.exe", "Cube.exe", "AVbr.exe", "AV_br.exe", "KVRT.exe", "cureit.exe", "FRST64.exe", "eset_internet_security_live_installer.exe", "esetonlinescanner.exe", "eset_nod32_antivirus_live_installer.exe", "PANDAFREEAV.exe", "bitdefender_avfree.exe", "drweb-12.0-ss-win.exe", "Cureit.exe", "TDSSKiller.exe", "KVRT(1).exe", "rkill.exe", "adwcleaner.exe", "frst.exe", "frstenglish.exe", "combofix.exe", "iexplore.exe", "msconfig.exe", "jrt.exe", "mbar.exe", "SecHealthUI.exe")
-$procs_to_kill = @("sOFvE", "aspnet_compiler", "ZBrWfxmlCHpYeX", "n2770812", "legola", "pdates", "applaunch", "jsc", "wscript", "cscript", "csc", "usjhlmmdmsqjfbox", "bstyoops", "Setup_File", "timeout", "hydra", "Endermanch@Hydra", "processhider", "Endermanch@Hydra", "c5892073", "ratt", "rundll32", "lll", "livess", "atonand", "rft64", "MsiExec", "Launcher", "AddInUtil", "wordpad", "x9943392", "pdates", "bs1", "cacls", "rundll32", "calc", "winlogson", "schtasks", "autoit", "autoit3", "0a29ee64b40a3adb3f5a5e1815c5de53", "b78f9dc987653121104c5eaa55ab8d4a", "fe2c051a9160b6207a186110b585a5b8", "TotalUninstall", "Total Uninstall Professional","totalav", "spyhunter", "regclean", "mssconfig", "mscnfig", "393", "aafg31", "more", "bot", "mshta", "system64bit", "ApowerREC", "NdKP12ZmmL", "Lavasoft.WCAssistant.WinService", "santivirusclient", "ChromiumUpdate", "powercfg", "vbc", "saves")
+$procs_to_kill = @("sOFvE", "aspnet_compiler", "ZBrWfxmlCHpYeX", "n2770812", "legola", "pdates", "applaunch", "jsc", "wscript", "cscript", "csc", "usjhlmmdmsqjfbox", "bstyoops", "Setup_File", "timeout", "hydra", "Endermanch@Hydra", "processhider", "Endermanch@Hydra", "c5892073", "ratt", "rundll32", "lll", "livess", "atonand", "rft64", "MsiExec", "Launcher", "AddInUtil", "wordpad", "x9943392", "pdates", "bs1", "cacls", "rundll32", "calc", "winlogson", "schtasks", "autoit", "autoit3", "0a29ee64b40a3adb3f5a5e1815c5de53", "b78f9dc987653121104c5eaa55ab8d4a", "fe2c051a9160b6207a186110b585a5b8", "TotalUninstall", "Total Uninstall Professional","totalav", "spyhunter", "regclean", "mssconfig", "mscnfig", "393", "aafg31", "more", "bot", "mshta", "system64bit", "ApowerREC", "NdKP12ZmmL", "Lavasoft.WCAssistant.WinService", "santivirusclient", "ChromiumUpdate", "powercfg", "vbc", "saves", "windowsx64_build")
 $locs_to_kill = @("$env:APPDATA", "$env:TEMP")
 $systemdirs = @("$env:windir\System32".ToLower(),"$env:windir".ToLower(), "$env:windir\syswow64".ToLower())
 $bad_schtasks = @("svvchost", "DigitalPulseUpdateTask", "Microsoft\Windows\Wininet\Cleaner", "NvStray\NvStrayService_bk6481")
@@ -37,13 +55,13 @@ foreach($proc in $procs){
         continue
     }
     if($procs_to_kill.Contains($proc.Name)){
-        Write-Host "Killed $procpath"
+        Add-SHRTLog "Killed $procpath"
         $proc.kill()
     }
     $rootdir = (Split-Path ($procpath)).ToLower()
     if($locs_to_kill.Contains($rootdir)){
         $proc.kill()
-        Write-Host "Killed $procpath"
+        Add-SHRTLog "Killed $procpath"
     }
     if($proc.Name -eq "winlogon"){
         if($systemdirs.Contains($rootdir)){
@@ -51,10 +69,12 @@ foreach($proc in $procs){
         }
         else{
             $proc.kill()
+            Add-SHRTLog "Killed $procpath"
         }
     }
     if($procpath.Contains(".pif")){
         $proc.kill()
+        Add-SHRTLog "Killed $procpath"
     }
 }
 
@@ -65,8 +85,9 @@ foreach($subiefo in $iefo){
     $subiefocname = $subiefo.PSChildName
     if($security_software_filenames.Contains($subiefocname)){
         if((Get-ItemProperty ($subiefo).PSPath).PSobject.Properties.name -match "Debugger"){
-             Remove-ItemProperty -Path ($subiefo).PSPath -Name "Debugger"
-             Write-Host "Unblocked $subiefocname"
+            Add-SHRTLog "Found bad IEFO: $subiefoname ($dbgval)" -Debug
+            Remove-ItemProperty -Path ($subiefo).PSPath -Name "Debugger"
+            Add-SHRTLog "Unblocked $subiefocname"
         }
     }
     
@@ -87,10 +108,10 @@ foreach($subprop in $disallowrun){
             $darname = $p.Name
         }
     }
-    echo $dar $darname
+    Add-SHRTLog "Disallow run entry: $dar $darname" -Debug
     if($security_software_filenames.Contains($dar)){
         Remove-ItemProperty -Path $disallowrun_path -Name $darname
-        Write-Host "Unblocked $dar"
+        Add-SHRTLog "Unblocked $dar"
     }
 }
 
@@ -127,16 +148,17 @@ Start-Service WinDefend -ErrorAction SilentlyContinue
 
 $defender_exc_paths = (Get-Mppreference).ExclusionPath
 foreach($expath in $defender_exc_paths){
+    Add-SHRTLog "Removed exclusion for $expath"
     Remove-MpPreference -ExclusionPath $expath
 }
 $defender_exc_ext = (Get-Mppreference).ExclusionExtension
 foreach($ext in $defender_exc_ext){
-    Write-Host "Removed exclusion for $ext"
+    Add-SHRTLog "Removed exclusion for $ext"
     Remove-MpPreference -ExclusionExtension $ext
 }
 $defender_exc_proc = (Get-Mppreference).ExclusionProcess
 foreach($proc in $defender_exc_proc){
-    Write-Host "Removed exclusion for $proc"
+    Add-SHRTLog "Removed exclusion for $proc"
     Remove-MpPreference -ExclusionProcess $proc
 }
 Set-MpPreference -DisableArchiveScanning $false -Force
@@ -174,7 +196,7 @@ foreach($file in $filesinroaming){
     $root = Split-Path "$env:appdata\$file"
     if($root -eq $env:appdata){
         if($file.Name.EndsWith(".exe")){
-            Write-Host "$root $env:appdata\$file"
+            Add-SHRTLog "$root $env:appdata\$file"
         }
     }
 }
@@ -188,11 +210,11 @@ foreach($malware in $knownmalware){
     if(Test-Path "$malware"){
         try{
             Remove-Item "$malware"
-            Write-Host "Removed $malware"
+            Add-SHRTLog "Removed $malware"
         }
         catch{
             $Win32::MoveFileEx($malware, [NullString]::Value, 4 <# DelayUntilReboot #> )
-            Write-Host "Reboot to remove $malware"
+            Add-SHRTLog "Reboot to remove $malware"
         }
         
     }
@@ -200,7 +222,7 @@ foreach($malware in $knownmalware){
 foreach($malware in $knownmalwaredirs){
     if(Test-Path "$malware"){
         Remove-Item -Recurse -Force "$malware"
-        Write-Host "Removed $malware"
+        Add-SHRTLog "Removed $malware"
     }
 }
 # while this may appear to remove legitimate Google Chrome tasks, all legitimate Chrome tasks should start with Google, ie
@@ -214,25 +236,26 @@ foreach($task in $all_tasks){
     Write-Host $taskfullname
     if($taskname.ToLower().StartsWith("chrome")){
         Unregister-ScheduledTask "$taskname" -TaskPath $taskpath -Confirm:$false
-        Write-Host "Removed $taskname"
+        Add-SHRTLog "Removed $taskname"
     }
     if($bad_schtasks.Contains($taskname) -or $bad_schtasks.Contains($taskfullname)){
         Unregister-ScheduledTask "$taskname" -TaskPath $taskpath -Confirm:$false
-        Write-Host "Removed $taskname"
+        Add-SHRTLog "Removed $taskname"
     }
 }
 $chrome_tasks_files = (Get-ChildItem $env:windir\System32\tasks\* -Recurse -Include "chrome*")
 foreach($task in $chrome_tasks_files){
     $taskpath = $task.VersionInfo.FileName
     Remove-Item $taskpath
-    Write-Host "Removed $taskpath"
+    Add-SHRTLog "Removed $taskpath"
 }
 
-$known_bad_runkeys = @("WindowsSecurity", "gieruwgew", "519b55464950ce55b68715cb59bcfbfb", "WindowsBootManager", "Digital Pulse", "DigitalPulse", "DriverUpdUI.exe")
+$known_bad_runkeys = @("WindowsSecurity", "gieruwgew", "519b55464950ce55b68715cb59bcfbfb", "WindowsBootManager", "Digital Pulse", "DigitalPulse", "DriverUpdUI.exe", "757D9DEAA02700C32F987B29023E43D7", "9A600B72591E9AC18743731A7139BD9D")
 $runkeys = @("HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run", "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce", "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run", "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce")
 foreach($runkey in $runkeys){
     foreach($bad in $known_bad_runkeys){
         Remove-ItemProperty -Path "$runkey" -Name "$bad"
+        Add-SHRTLog "$runkey|$bad"
     }
 }
 
@@ -261,7 +284,7 @@ Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies
 Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" -Name "ConsentPromptBehaviorUser" -Value 3
 Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" -Name "ConsentPromptBehaviorAdmin" -Value 3
 
-Write-Host "Resetting network settings"
+Add-SHRTLog "Resetting network settings"
 NETSH winsock reset catalog
 NETSH int ipv4 reset reset.log
 NETSH int ipv6 reset reset.log
@@ -270,17 +293,17 @@ netsh winsock reset
 netsh winhttp reset proxy
 ipconfig /flushdns
 
-Write-Host "Checking for damaged system files"
+Add-SHRTLog "Checking for damaged system files"
 New-Item "$env:windir\WinSxS\Temp\PendingDeletes" -ItemType Directory -Force
 DISM /Online /Cleanup-Image /RestoreHealth
 sfc /scannow
 
-Write-Host "Clearing temp files..."
+Add-SHRTLog "Clearing temp files"
 bitsadmin /reset /allusers | Out-Null
 $tempfolders = @("$env:userprofile\APPDATA\LOCAL\MICROSOFT\WINDOWS\INETCACHE\IE\", "$env:temp", "$env:appdata\Microsoft\Windows\Recent", "$env:systemdrive\Windows\Temp")
 foreach($temploc in $tempfolders){
     Get-ChildItem $temploc -Exclude "system_hijack_removal_tool.ps1" | Remove-Item -Recurse -Force
-    Write-Host "Cleared $temploc"
+    Add-SHRTLog "Cleared $temploc"
 }
 Remove-Item "$env:systemdrive\Windows\Prefetch\*" -Include "*.pf"
 Remove-Item "$env:windir\SoftwareDistribution\Download\*" -Recurse -Force
