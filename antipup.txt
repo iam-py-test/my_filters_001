@@ -106,3 +106,6 @@ winaero.com##.widget:has([href="/fix-classic-issues-performance/"])
 
 ! bundles software, registry cleaner
 ||ccleaner.com^$document
+
+! https://tria.ge/230821-2bt5maad51/behavioral1
+||cloud.fortect.com^$document

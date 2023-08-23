@@ -170,18 +170,20 @@ Update-MpSignature
 Start-MpScan -ScanType QuickScan
 Remove-MpThreat
 
-Write-Host "Turning on Windows Firewall"
+Add-SHRTLog "Turning on Windows Firewall"
 Set-Service BFE -StartupType Automatic -ErrorAction SilentlyContinue
 Set-Service mpsdrv -StartupType Automatic -ErrorAction SilentlyContinue
 Set-Service mpssvc -StartupType Automatic -ErrorAction SilentlyContinue
 Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled True
 
-Write-Host "Removing unwanted browser changes"
+Add-SHRTLog "Removing unwanted browser changes"
+$chromepol = (Get-ItemProperty "HKCU:\Software\Policies\Google\chrome" -ErrorAction SilentlyContinue | Format-List | Out-String)
+Add-SHRTLog "Chrome policies:`n$chromepol" -Debug
 Remove-ItemProperty -Path "HKCU:\Software\Policies\Google\chrome" -Name "DownloadRestrictions"
 Remove-ItemProperty -Path "HKCU:\Software\Policies\Microsoft\Edge" -Name "DownloadRestrictions"
 Remove-ItemProperty -Path "HKCU:\SOFTWARE\Policies\Microsoft\Edge" -Name "HomepageLocation" -ErrorAction SilentlyContinue # https://learn.microsoft.com/en-us/DeployEdge/microsoft-edge-policies#homepagelocation
 
-Write-Host "Removing known malware"
+Add-SHRTLog "Removing known malware"
 Remove-Item "$env:systemdrive\Windows\Fonts\*" -Include "*.exe"
 Remove-Item "$env:public\AccountPictures\*" -Include "*.exe"
 Remove-Item "$env:localappdata\Microsoft\Windows\PowerShell" -Include "*.vbs"
@@ -253,9 +255,20 @@ foreach($task in $chrome_tasks_files){
 $known_bad_runkeys = @("WindowsSecurity", "gieruwgew", "519b55464950ce55b68715cb59bcfbfb", "WindowsBootManager", "Digital Pulse", "DigitalPulse", "DriverUpdUI.exe", "757D9DEAA02700C32F987B29023E43D7", "9A600B72591E9AC18743731A7139BD9D")
 $runkeys = @("HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run", "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce", "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run", "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce")
 foreach($runkey in $runkeys){
+    $runv = (Get-ItemProperty $runkey -ErrorAction SilentlyContinue | Format-List | Out-String)
+    Add-SHRTLog $runv -Debug
     foreach($bad in $known_bad_runkeys){
-        Remove-ItemProperty -Path "$runkey" -Name "$bad"
-        Add-SHRTLog "$runkey|$bad"
+        try{
+            $bv = Get-ItemProperty -Path $runkey -Name $bad -ErrorAction SilentlyContinue
+        }
+        catch{
+
+        }
+        if($bv){
+            Remove-ItemProperty -Path "$runkey" -Name "$bad"
+            Add-SHRTLog "Removed $runkey|$bad"
+        }
+
     }
 }
 
