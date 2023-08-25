@@ -7441,3 +7441,15 @@
 ||194.63.143.61^$document
 ||194.63.143.96^$document
 
+! https://github.com/durablenapkin/scamblocklist/issues/63
+||summersale.online^$all
+
+! https://github.com/hagezi/dns-blocklists/issues/1469
+||crackedkey.org^$all
+
+! https://github.com/hagezi/dns-blocklists/issues/1470
+||mixcrack.net^$all
+
+! https://github.com/hagezi/dns-blocklists/issues/1471
+||kingsoftz.com^$all
+

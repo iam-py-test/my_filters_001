@@ -838,3 +838,7 @@
 ! https://forums.malwarebytes.com/topic/301185-i-ran-galacticshooterexe/#comment-1583465
 ||segoonow.com^$document
 
+! https://forums.malwarebytes.com/topic/301473-pupoptionalcoduit/
+||search.conduit.com^$document
+||conduit.com^$document
+
