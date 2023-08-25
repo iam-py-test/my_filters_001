@@ -193,15 +193,6 @@ Remove-Item "HKCU:\Software\Lavasoft\Web Companion" -Force -ErrorAction Silently
 #  https://forums.malwarebytes.com/topic/301140-pupadwareheuristic-wont-quarantine/#comment-1582969
 Remove-Item -Path "HKCU:\SOFTWARE\353526A37049C6636D28F632A766CA4B" -force -ErrorAction SilentlyContinue
 Remove-Item -Path "HKCU:\SOFTWARE\4F905DFBB0C92199DB550940702AF609" -force -ErrorAction SilentlyContinue
-$filesinroaming = (Get-ChildItem $env:appdata)
-foreach($file in $filesinroaming){
-    $root = Split-Path "$env:appdata\$file"
-    if($root -eq $env:appdata){
-        if($file.Name.EndsWith(".exe")){
-            Add-SHRTLog "$root $env:appdata\$file"
-        }
-    }
-}
 
 # https://stackoverflow.com/questions/69518375/delete-a-locked-file-using-powershell
 $Win32 = Add-Type -Passthru -Name Win32 -MemberDefinition '
@@ -227,6 +218,22 @@ foreach($malware in $knownmalwaredirs){
         Add-SHRTLog "Removed $malware"
     }
 }
+
+Add-SHRTLog "Checking roots" -Debug
+$cleanroots = @("$env:userprofile\AppData\Roaming\Microsoft", "$env:userprofile\AppData\Roaming\Microsoft\Windows", "$env:appdata", "$env:localappdata")
+foreach($rapath in $cleanroots){
+    Add-SHRTLog "Checking files in $rapath" -Debug
+    $roamingmicrosoft = Get-ChildItem $rapath
+    foreach($file in $roamingmicrosoft){
+        $fname = $file.Name
+        Add-SHRTLog "Checking $fname" -Debug
+        if($fname.EndsWith(".exe") -or $fname.EndsWith(".scr")){
+            $file | Remove-Item 
+            Add-SHRTLog "Removed $rapath\$fname"
+        }
+    }
+}
+
 # while this may appear to remove legitimate Google Chrome tasks, all legitimate Chrome tasks should start with Google, ie
 # 08/03/2023  01:44 PM             3,666 GoogleUpdateTaskMachineCore{3C3D51F0-3550-4F05-9038-3B7773729F72}
 # 08/03/2023  01:44 PM             3,790 GoogleUpdateTaskMachineUA{DAFD2719-AC4D-4124-9A28-DECE3E1533CC}
@@ -286,6 +293,7 @@ New-Item -Path "Registry::HKEY_CLASSES_ROOT\exefile\shell\open\command" -ErrorAc
 Set-ItemProperty -Path "Registry::HKEY_CLASSES_ROOT\exefile\open\runas\command" -Name "(default)" -Value "`"%1`" %*"
 Remove-Item -Path HKCU:\SOFTWARE\Classes\mscfile\shell\open\command
 Remove-Item -Path HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate
+Remove-Item -Path "HKLM:\SOFTWARE\WOW6432Node\Policies\Microsoft\Windows\WindowsUpdate" -Recurse -Force
 Remove-Item -Path HKCU:\SOFTWARE\Classes\.exe
 Remove-Item -Path HKCU:\SOFTWARE\Classes\.reg
 bcdedit.exe /set "{default}" recoveryenabled yes
