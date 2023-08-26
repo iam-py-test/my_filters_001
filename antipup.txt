@@ -113,3 +113,6 @@ winaero.com##.widget:has([href="/fix-classic-issues-performance/"])
 ! https://forums.malwarebytes.com/topic/301486-vetting-cleanmymac/
 ||cleanmymac.com^$document
 ||macpaw.com^$document
+
+! https://tria.ge/230825-31j7dshd61/behavioral1
+||utorrent.com^$document
