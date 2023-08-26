@@ -7453,3 +7453,6 @@
 ! https://github.com/hagezi/dns-blocklists/issues/1471
 ||kingsoftz.com^$all
 
+! https://github.com/hagezi/dns-blocklists/issues/1476
+||msm-coop.co.uk^$all
+
