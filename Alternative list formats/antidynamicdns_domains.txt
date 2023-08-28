@@ -316,6 +316,12 @@ xddns.de
 dnsmax.com
 thatip.com
 tpddns.cn
+cloudns.cc
+cloudns.pro
+cloudns.net
+cloudns.asia
+cloudns.cx
+free-ddns.com
 at-band-camp.net
 ath.cx
 barrel-of-knowledge.info
@@ -598,3 +604,6 @@ webhop.net
 webhop.org
 worse-than.tv
 writesthisblog.com
+freedynamicdns.org
+viewdns.net
+access.ly

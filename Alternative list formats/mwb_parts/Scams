@@ -7456,3 +7456,6 @@
 ! https://github.com/hagezi/dns-blocklists/issues/1476
 ||msm-coop.co.uk^$all
 
+! https://forums.malwarebytes.com/topic/301587-adware-not-recognized-or-deleted/
+||presonsinatize.com^$all
+

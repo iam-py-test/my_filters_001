@@ -323,6 +323,12 @@
 0.0.0.0 dnsmax.com
 0.0.0.0 thatip.com
 0.0.0.0 tpddns.cn
+0.0.0.0 cloudns.cc
+0.0.0.0 cloudns.pro
+0.0.0.0 cloudns.net
+0.0.0.0 cloudns.asia
+0.0.0.0 cloudns.cx
+0.0.0.0 free-ddns.com
 # https://help.dyn.com/list-of-dyn-dns-pro-remote-access-domain-names/
 0.0.0.0 at-band-camp.net
 0.0.0.0 ath.cx
@@ -606,3 +612,7 @@
 0.0.0.0 webhop.org
 0.0.0.0 worse-than.tv
 0.0.0.0 writesthisblog.com
+# https://www.noip.com/support/faq/frequently-asked-questions
+0.0.0.0 freedynamicdns.org
+0.0.0.0 viewdns.net
+0.0.0.0 access.ly
