@@ -323,6 +323,12 @@
 ||dnsmax.com^$document
 ||thatip.com^$document
 ||tpddns.cn^$document
+||cloudns.cc^$document
+||cloudns.pro^$document
+||cloudns.net^$document
+||cloudns.asia^$document
+||cloudns.cx^$document
+||free-ddns.com^$document
 ! https://help.dyn.com/list-of-dyn-dns-pro-remote-access-domain-names/
 ||at-band-camp.net^$document
 ||ath.cx^$document
@@ -606,3 +612,7 @@
 ||webhop.org^$document
 ||worse-than.tv^$document
 ||writesthisblog.com^$document
+! https://www.noip.com/support/faq/frequently-asked-questions
+||freedynamicdns.org^$document
+||viewdns.net^$document
+||access.ly^$document

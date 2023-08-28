@@ -12,11 +12,40 @@ function Add-SHRTLog {
     Add-Content -Path "$shrt_log_filepath" -Value "$prepend $logMessage" -ErrorAction SilentlyContinue
 }
 
+function Remove-SHRTItemProp {
+    param (
+        [string]$Path,
+        [string]$Name
+    )
+    $propval = "Unknown"
+    try{
+        $propval = (Get-ItemPropertyValue -Path $path -Name $name)
+    }
+    catch {}
+    Add-Content -Path "$shrt_log_filepath" -Value "[removal] Removing $Name from $Path (Value: $propval)" -ErrorAction SilentlyContinue
+    Remove-ItemProperty -Path $path -Name $name
+}
+
+function Set-SHRTItemProp {
+    param (
+        [string]$Path,
+        [string]$Name,
+        [string]$Value
+    )
+    $propval = "Unknown"
+    try{
+        $propval = (Get-ItemPropertyValue -Path $Path -Name $Name)
+    }
+    catch {}
+    Add-Content -Path "$shrt_log_filepath" -Value "[removal] Setting $Name from $Path to $value (old value: $propval)" -ErrorAction SilentlyContinue
+    Set-ItemProperty -Path $path -Name $name -Value $value
+}
+
 Write-Host "The System Hijack Removal Tool (2)"
 Write-Host "This tool will try to remove known malware"
 Read-Host "Press enter to continue" | Out-Null
 
-Add-SHRTLog "`nThe System Hijack Removal Tool (2) - Begin log`nRunning under $env:username" -Debug
+Add-SHRTLog "`nThe System Hijack Removal Tool (2) - Begin log" -Debug
 
 $should_create_restore = (Read-Host "Create system restore point (y/n)?")
 if($should_create_restore -eq "y"){
@@ -34,13 +63,43 @@ if($should_create_restore -eq "y"){
     }
 }
 
-$security_software_filenames = @("mbam.exe", "msert.exe", "taskmgr.exe", "eav_trial_rus.exe", "eis_trial_rus.exe", "essf_trial_rus.exe", "hitmanpro_x64.exe", "ESETOnlineScanner_UKR.exe", "ESETOnlineScanner_RUS.exe", "HitmanPro.exe", "Cezurity_Scanner_Pro_Free.exe", "Cube.exe", "AVbr.exe", "AV_br.exe", "KVRT.exe", "cureit.exe", "FRST64.exe", "eset_internet_security_live_installer.exe", "esetonlinescanner.exe", "eset_nod32_antivirus_live_installer.exe", "PANDAFREEAV.exe", "bitdefender_avfree.exe", "drweb-12.0-ss-win.exe", "Cureit.exe", "TDSSKiller.exe", "KVRT(1).exe", "rkill.exe", "adwcleaner.exe", "frst.exe", "frstenglish.exe", "combofix.exe", "iexplore.exe", "msconfig.exe", "jrt.exe", "mbar.exe", "SecHealthUI.exe")
-$procs_to_kill = @("sOFvE", "aspnet_compiler", "ZBrWfxmlCHpYeX", "n2770812", "legola", "pdates", "applaunch", "jsc", "wscript", "cscript", "csc", "usjhlmmdmsqjfbox", "bstyoops", "Setup_File", "timeout", "hydra", "Endermanch@Hydra", "processhider", "Endermanch@Hydra", "c5892073", "ratt", "rundll32", "lll", "livess", "atonand", "rft64", "MsiExec", "Launcher", "AddInUtil", "wordpad", "x9943392", "pdates", "bs1", "cacls", "rundll32", "calc", "winlogson", "schtasks", "autoit", "autoit3", "0a29ee64b40a3adb3f5a5e1815c5de53", "b78f9dc987653121104c5eaa55ab8d4a", "fe2c051a9160b6207a186110b585a5b8", "TotalUninstall", "Total Uninstall Professional","totalav", "spyhunter", "regclean", "mssconfig", "mscnfig", "393", "aafg31", "more", "bot", "mshta", "system64bit", "ApowerREC", "NdKP12ZmmL", "Lavasoft.WCAssistant.WinService", "santivirusclient", "ChromiumUpdate", "powercfg", "vbc", "saves", "windowsx64_build")
+Add-SHRTLog "Running under $env:username" -Debug
+Add-SHRTLog "User profile: $env:userprofile" -Debug
+Add-SHRTLog "System drive: $env:systemdrive" -Debug
+Add-SHRTLog "Windows directory: $env:windir" -Debug
+$powershell_version = $psversiontable.PSVersion
+Add-SHRTLog "PowerShell version: $powershell_version" -Debug
+$osversion = [System.Environment]::OSVersion.VersionString
+Add-SHRTLog "Windows version: $osversion" -Debug
+if([System.Environment]::Is64BitOperatingSystem.Equals($true)){
+    Add-SHRTLog "64-bit operating system" -Debug
+}
+
+<# https://www.tenforums.com/tutorials/163843-how-check-drive-health-smart-status-windows-10-a.html #>
+$drivehealth = (Get-CimInstance -namespace root\wmi -class MSStorageDriver_FailurePredictStatus)
+
+if($drivehealth.PredictFailure.Equals($true)){
+    Add-SHRTLog "Warning: Your drive may be failing!"
+    Write-Host "The System Hijack Removal Tool and other malware removal tools may push it over the edge. Be sure to have all your data backed up."
+    $should_continue = (Read-Host "Are you sure you want to continue? (y/n)")
+    if($should_continue -eq "y"){
+        Add-SHRTLog "Continuing anyway"
+    }
+    else{
+        exit
+    }
+}
+else{
+    Add-SHRTLog "Drive healthy"
+}
+
+$security_software_filenames = @("mbam.exe", "msert.exe", "taskmgr.exe", "eav_trial_rus.exe", "eis_trial_rus.exe", "essf_trial_rus.exe", "hitmanpro_x64.exe", "ESETOnlineScanner_UKR.exe", "ESETOnlineScanner_RUS.exe", "HitmanPro.exe", "Cezurity_Scanner_Pro_Free.exe", "Cube.exe", "AVbr.exe", "AV_br.exe", "KVRT.exe", "cureit.exe", "FRST64.exe", "eset_internet_security_live_installer.exe", "esetonlinescanner.exe", "eset_nod32_antivirus_live_installer.exe", "PANDAFREEAV.exe", "bitdefender_avfree.exe", "drweb-12.0-ss-win.exe", "Cureit.exe", "TDSSKiller.exe", "KVRT(1).exe", "rkill.exe", "adwcleaner.exe", "frst.exe", "frstenglish.exe", "combofix.exe", "iexplore.exe", "msconfig.exe", "jrt.exe", "mbar.exe", "SecHealthUI.exe", "software_reporter_tool.exe")
+$procs_to_kill = @("sOFvE", "aspnet_compiler", "ZBrWfxmlCHpYeX", "n2770812", "legola", "pdates", "applaunch", "jsc", "wscript", "cscript", "csc", "usjhlmmdmsqjfbox", "bstyoops", "Setup_File", "timeout", "hydra", "Endermanch@Hydra", "processhider", "Endermanch@Hydra", "c5892073", "ratt", "rundll32", "lll", "livess", "atonand", "rft64", "MsiExec", "Launcher", "AddInUtil", "wordpad", "x9943392", "pdates", "bs1", "cacls", "rundll32", "calc", "winlogson", "schtasks", "autoit", "autoit3", "0a29ee64b40a3adb3f5a5e1815c5de53", "b78f9dc987653121104c5eaa55ab8d4a", "fe2c051a9160b6207a186110b585a5b8", "TotalUninstall", "Total Uninstall Professional","totalav", "spyhunter", "regclean", "mssconfig", "mscnfig", "393", "aafg31", "more", "bot", "mshta", "system64bit", "ApowerREC", "NdKP12ZmmL", "Lavasoft.WCAssistant.WinService", "santivirusclient", "ChromiumUpdate", "powercfg", "vbc", "saves", "windowsx64_build", "GenuineService")
 $locs_to_kill = @("$env:APPDATA", "$env:TEMP")
 $systemdirs = @("$env:windir\System32".ToLower(),"$env:windir".ToLower(), "$env:windir\syswow64".ToLower())
-$bad_schtasks = @("svvchost", "DigitalPulseUpdateTask", "Microsoft\Windows\Wininet\Cleaner", "NvStray\NvStrayService_bk6481")
+$bad_schtasks = @("svvchost", "DigitalPulseUpdateTask", "Microsoft\Windows\Wininet\Cleaner", "NvStray\NvStrayService_bk6481", "RuntimeBroker_startup_266_str")
 $knownmalware = @("$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\eNXtBTKShU.url", "$env:systemdrive\Users\Public\Viyeinmz.url", "$env:systemdrive\Users\Public\Owhgjnta.url", "$env:systemdrive\ProgramData\Default\cDefaultc.vbs", "$env:systemdrive\Windows\system32\config\systemprofile\AppData\Roaming\winlogon.exe", "$env:systemdrive\Program Files\WindowsPowershell\RuntimeBroker.exe", "$env:systemdrive\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\ratt.exe", "$env:windir\rft64.exe", "$env:windir\SYSTEM32\TASKS\GoogleUpdateTaskMachineQC", "$env:systemdrive\PROGRAM FILES\GOOGLE\CHROME\UPDATER.EXE", "$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\Scanned.js", "$env:userprofile\Videos\edddegyjjykj.exe", "$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\edddegyjjykj.lnk", "$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\519b55464950ce55b68715cb59bcfbfb.exe", "$env:userprofile\Documents\NdKP12ZmmL.pif", "$env:systemdrive\Program Files\Common Files\System\iediagcmd.exe", "$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\system.exe", "$env:systemdrive\ProgramData\HostData\logs.uce")
-$knownmalwaredirs = @("$env:systemdrive\ProgramData\Microsoft\Windows\Start Menu\Programs\Auslogics", "$env:windir\SYSTEM32\TASKS\jjrcjc", "$env:systemdrive\ProgramData\Microsoft\IObitUnlocker", "$env:systemdrive\ProgramData\WindowsTask", "$env:systemdrive\Programdata\Microsoft\wjqqg", "$env:systemdrive\ProgramData\Dllhost", "$env:systemdrive\ProgramData\Windows Tasks Service". "$env:systemdrive\Programdata\ReaItekHD", "$env:programdata\IObit\Advanced SystemCare", "C:\Users\Default\AppData\Local\Microsoft\Windows\InetHelper", "$userprofile\AppData\Local\Microsoft\Windows\InetHelper", "C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\Windows\InetHelper", "$env:systemdrive\ProgramData\WindowsTask", "C:\Program Files (x86)\IObit", "$env:systemdrive\ProgramData\Microsoft\NetFramework\57aZolanDbk", "C:\ProgramData\Microsoft\MapData\MDTFx6Mpd", "C:\ProgramData\Dllhost")
+$knownmalwaredirs = @("$env:systemdrive\ProgramData\Microsoft\Windows\Start Menu\Programs\Auslogics", "$env:windir\SYSTEM32\TASKS\jjrcjc", "$env:systemdrive\ProgramData\Microsoft\IObitUnlocker", "$env:systemdrive\ProgramData\WindowsTask", "$env:systemdrive\Programdata\Microsoft\wjqqg", "$env:systemdrive\ProgramData\Dllhost", "$env:systemdrive\ProgramData\Windows Tasks Service". "$env:systemdrive\Programdata\ReaItekHD", "$env:programdata\IObit\Advanced SystemCare", "C:\Users\Default\AppData\Local\Microsoft\Windows\InetHelper", "$userprofile\AppData\Local\Microsoft\Windows\InetHelper", "C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\Windows\InetHelper", "$env:systemdrive\ProgramData\WindowsTask", "C:\Program Files (x86)\IObit", "$env:systemdrive\ProgramData\Microsoft\NetFramework\57aZolanDbk", "C:\ProgramData\Microsoft\MapData\MDTFx6Mpd", "C:\ProgramData\Dllhost", "$env:userprofile\Appdata\Roaming\windows_update_513432")
 
 # https://stackoverflow.com/a/63344749
 if(!([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] 'Administrator')) {
@@ -54,6 +113,7 @@ foreach($proc in $procs){
     if($procpath -eq $null){
         continue
     }
+    Add-SHRTLog "Scanning $procpath" -Debug
     if($procs_to_kill.Contains($proc.Name)){
         Add-SHRTLog "Killed $procpath"
         $proc.kill()
@@ -83,6 +143,7 @@ foreach($subiefo in $iefo){
     $dbgval = (Get-ItemProperty ($subiefo).PSPath).Debugger
     $subiefoname = $subiefo.Name
     $subiefocname = $subiefo.PSChildName
+    Add-SHRTLog "Found IEFO: $subiefoname ($dbgval)"
     if($security_software_filenames.Contains($subiefocname)){
         if((Get-ItemProperty ($subiefo).PSPath).PSobject.Properties.name -match "Debugger"){
             Add-SHRTLog "Found bad IEFO: $subiefoname ($dbgval)" -Debug
@@ -99,13 +160,13 @@ foreach($subprop in $disallowrun){
     $dar = ""
     $darname = ""
     foreach($p in $subprop.PSObject.Properties){
-        echo $p
-        if($p.Name.StartsWith("PS")){
-            echo "ignored"
+        $darname = $p.Name
+        if($darname.StartsWith("PS")){
+            Add-SHRTLog "Ignored"
+            continue
         }
         else{
             $dar = $p.Value
-            $darname = $p.Name
         }
     }
     Add-SHRTLog "Disallow run entry: $dar $darname" -Debug
@@ -123,20 +184,20 @@ foreach($subprop in $disallowrun){
 #takeown.exe /f "C:\Program Files (x86)\Kaspersky Lab\" /A /r /d y
 
 Write-Host "Repairing Windows Defender"
-Remove-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender" -Name "DisableAntiSpyware"
-Remove-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender" -Name "DisableRoutinelyTakingAction"
-Remove-ItemProperty -Path "HKLM:\SOFTWARE\Wow6432Node\Policies\Microsoft\Windows Defender\Real-Time Protection" -Name "DisableRealtimeMonitoring"
-Remove-ItemProperty -Path "HKLM:\SOFTWARE\POLICIES\MICROSOFT\MRT" -Name "DONTOFFERTHROUGHWUAU"
-Remove-ItemProperty -Path "HKLM:\SOFTWARE\POLICIES\MICROSOFT\MRT" -Name "DONTREPORTINFECTIONINFORMATION"
-Remove-ItemProperty -Path "HKLM:\SOFTWARE\WOW6432NODE\POLICIES\MICROSOFT\MRT" -Name "DONTOFFERTHROUGHWUAU"
-Remove-ItemProperty -Path "HKLM:\SOFTWARE\WOW6432NODE\POLICIES\MICROSOFT\MRT" -Name "DONTREPORTINFECTIONINFORMATION"
+Remove-SHRTItemProp -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender" -Name "DisableAntiSpyware"
+Remove-SHRTItemProp -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender" -Name "DisableRoutinelyTakingAction"
+Remove-SHRTItemProp -Path "HKLM:\SOFTWARE\Wow6432Node\Policies\Microsoft\Windows Defender\Real-Time Protection" -Name "DisableRealtimeMonitoring"
+Remove-SHRTItemProp -Path "HKLM:\SOFTWARE\POLICIES\MICROSOFT\MRT" -Name "DONTOFFERTHROUGHWUAU"
+Remove-SHRTItemProp -Path "HKLM:\SOFTWARE\POLICIES\MICROSOFT\MRT" -Name "DONTREPORTINFECTIONINFORMATION"
+Remove-SHRTItemProp -Path "HKLM:\SOFTWARE\WOW6432NODE\POLICIES\MICROSOFT\MRT" -Name "DONTOFFERTHROUGHWUAU"
+Remove-SHRTItemProp -Path "HKLM:\SOFTWARE\WOW6432NODE\POLICIES\MICROSOFT\MRT" -Name "DONTREPORTINFECTIONINFORMATION"
 # https://forums.malwarebytes.com/topic/301140-pupadwareheuristic-wont-quarantine/#comment-1582969
-Remove-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender" -Name "DisableRoutinelyTakingAction" -Force
-Remove-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection" -Name "DisableBehaviorMonitoring" -force
-Remove-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection" -Name "DisableOnAccessProtection" -force
-Remove-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection" -Name "DisableScanOnRealtimeEnable" -force
+Remove-SHRTItemProp -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender" -Name "DisableRoutinelyTakingAction"
+Remove-SHRTItemProp -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection" -Name "DisableBehaviorMonitoring"
+Remove-SHRTItemProp -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection" -Name "DisableOnAccessProtection"
+Remove-SHRTItemProp -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection" -Name "DisableScanOnRealtimeEnable"
 # 
-Remove-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows Defender Security Center\Notifications" -Name "DisableNotifications" -ErrorAction SilentlyContinue
+Remove-SHRTItemProp -Path "HKLM:\SOFTWARE\Microsoft\Windows Defender Security Center\Notifications" -Name "DisableNotifications"
 
 Set-Service WinDefend -StartupType Automatic -ErrorAction SilentlyContinue
 Set-Service Bits -StartupType Automatic -ErrorAction SilentlyContinue
@@ -179,9 +240,9 @@ Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled True
 Add-SHRTLog "Removing unwanted browser changes"
 $chromepol = (Get-ItemProperty "HKCU:\Software\Policies\Google\chrome" -ErrorAction SilentlyContinue | Format-List | Out-String)
 Add-SHRTLog "Chrome policies:`n$chromepol" -Debug
-Remove-ItemProperty -Path "HKCU:\Software\Policies\Google\chrome" -Name "DownloadRestrictions"
-Remove-ItemProperty -Path "HKCU:\Software\Policies\Microsoft\Edge" -Name "DownloadRestrictions"
-Remove-ItemProperty -Path "HKCU:\SOFTWARE\Policies\Microsoft\Edge" -Name "HomepageLocation" -ErrorAction SilentlyContinue # https://learn.microsoft.com/en-us/DeployEdge/microsoft-edge-policies#homepagelocation
+Remove-SHRTItemProp -Path "HKCU:\Software\Policies\Google\chrome" -Name "DownloadRestrictions"
+Remove-SHRTItemProp -Path "HKCU:\Software\Policies\Microsoft\Edge" -Name "DownloadRestrictions"
+Remove-SHRTItemProp -Path "HKCU:\SOFTWARE\Policies\Microsoft\Edge" -Name "HomepageLocation" -ErrorAction SilentlyContinue # https://learn.microsoft.com/en-us/DeployEdge/microsoft-edge-policies#homepagelocation
 
 Add-SHRTLog "Removing known malware"
 Remove-Item "$env:systemdrive\Windows\Fonts\*" -Include "*.exe"
@@ -242,7 +303,7 @@ foreach($task in $all_tasks){
     $taskname = $task.taskname
     $taskpath = $task.TaskPath
     $taskfullname = "$taskpath$taskname"
-    Write-Host $taskfullname
+    Add-SHRTLog "Checking $taskfullname" -Debug
     if($taskname.ToLower().StartsWith("chrome")){
         Unregister-ScheduledTask "$taskname" -TaskPath $taskpath -Confirm:$false
         Add-SHRTLog "Removed $taskname"
@@ -272,7 +333,7 @@ foreach($runkey in $runkeys){
 
         }
         if($bv){
-            Remove-ItemProperty -Path "$runkey" -Name "$bad"
+            Remove-SHRTItemProp -Path "$runkey" -Name "$bad"
             Add-SHRTLog "Removed $runkey|$bad"
         }
 
