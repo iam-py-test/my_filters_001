@@ -132,3 +132,9 @@
 ||67.205.178.82^$all
 ! as of 31/7/2023 (openphish)
 ||almiramoney.kz^$all
+! as of 28/8/2023 (openphish)
+||minharenner.000webhostapp.com^$all
+||telegramn.chat^$all
+||telegshm.club^$all
+! as of 28/8/2023 (https://urlhaus.abuse.ch/url/2707372/)
+||95.214.24.244^$all

@@ -1,4 +1,5 @@
 $shrt_log_filepath = "$env:public\Desktop\shrt.log"
+$shrt_version = "0.1.1"
 function Add-SHRTLog {
     param (
         [string]$logMessage,
@@ -41,11 +42,33 @@ function Set-SHRTItemProp {
     Set-ItemProperty -Path $path -Name $name -Value $value
 }
 
-Write-Host "The System Hijack Removal Tool (2)"
-Write-Host "This tool will try to remove known malware"
-Read-Host "Press enter to continue" | Out-Null
+function Check-SHRTIsSigned {
+    param (
+        [string]$filepath
+    )
+    try{
+        $sig = (Get-AuthenticodeSignature -FilePath $filepath)
+    }
+    catch {
+        return $true
+    }
+    if($sig.Status -eq "NotSigned"){
+        return $false
+    }
+    return $true
+    
+}
 
-Add-SHRTLog "`nThe System Hijack Removal Tool (2) - Begin log" -Debug
+Write-Host "The System Hijack Removal Tool (2)"
+Write-Host "This tool will try to remove known malware and PUPs, along with repairing Windows Defender and unblocking malware removal tools"
+try{
+    Read-Host "Press enter to continue" | Out-Null
+}
+catch {
+    exit
+}
+
+Add-SHRTLog "`nThe System Hijack Removal Tool (2) version $shrt_version - Begin log" -Debug
 
 $should_create_restore = (Read-Host "Create system restore point (y/n)?")
 if($should_create_restore -eq "y"){
@@ -74,6 +97,16 @@ Add-SHRTLog "Windows version: $osversion" -Debug
 if([System.Environment]::Is64BitOperatingSystem.Equals($true)){
     Add-SHRTLog "64-bit operating system" -Debug
 }
+$manufacturer = (Get-WmiObject win32_computersystem).Manufacturer
+Add-SHRTLog "Manufacturer: $manufacturer" -Debug
+$model = (Get-WmiObject win32_computersystem).Model
+Add-SHRTLog "Model: $model" -Debug
+$bootmode = (Get-WmiObject win32_computersystem).BootupState
+Add-SHRTLog "Boot mode: $bootmode" -Debug
+$screensaver = (Get-WmiObject win32_desktop).ScreenSaverExecutable
+Add-SHRTLog "Screensaver: $screensaver" -Debug
+$bootdir = (Get-WmiObject win32_bootconfiguration).BootDirectory
+Add-SHRTLog "Boot directory: $bootdir" -Debug
 
 <# https://www.tenforums.com/tutorials/163843-how-check-drive-health-smart-status-windows-10-a.html #>
 $drivehealth = (Get-CimInstance -namespace root\wmi -class MSStorageDriver_FailurePredictStatus)
@@ -95,11 +128,11 @@ else{
 
 $security_software_filenames = @("mbam.exe", "msert.exe", "taskmgr.exe", "eav_trial_rus.exe", "eis_trial_rus.exe", "essf_trial_rus.exe", "hitmanpro_x64.exe", "ESETOnlineScanner_UKR.exe", "ESETOnlineScanner_RUS.exe", "HitmanPro.exe", "Cezurity_Scanner_Pro_Free.exe", "Cube.exe", "AVbr.exe", "AV_br.exe", "KVRT.exe", "cureit.exe", "FRST64.exe", "eset_internet_security_live_installer.exe", "esetonlinescanner.exe", "eset_nod32_antivirus_live_installer.exe", "PANDAFREEAV.exe", "bitdefender_avfree.exe", "drweb-12.0-ss-win.exe", "Cureit.exe", "TDSSKiller.exe", "KVRT(1).exe", "rkill.exe", "adwcleaner.exe", "frst.exe", "frstenglish.exe", "combofix.exe", "iexplore.exe", "msconfig.exe", "jrt.exe", "mbar.exe", "SecHealthUI.exe", "software_reporter_tool.exe")
 $procs_to_kill = @("sOFvE", "aspnet_compiler", "ZBrWfxmlCHpYeX", "n2770812", "legola", "pdates", "applaunch", "jsc", "wscript", "cscript", "csc", "usjhlmmdmsqjfbox", "bstyoops", "Setup_File", "timeout", "hydra", "Endermanch@Hydra", "processhider", "Endermanch@Hydra", "c5892073", "ratt", "rundll32", "lll", "livess", "atonand", "rft64", "MsiExec", "Launcher", "AddInUtil", "wordpad", "x9943392", "pdates", "bs1", "cacls", "rundll32", "calc", "winlogson", "schtasks", "autoit", "autoit3", "0a29ee64b40a3adb3f5a5e1815c5de53", "b78f9dc987653121104c5eaa55ab8d4a", "fe2c051a9160b6207a186110b585a5b8", "TotalUninstall", "Total Uninstall Professional","totalav", "spyhunter", "regclean", "mssconfig", "mscnfig", "393", "aafg31", "more", "bot", "mshta", "system64bit", "ApowerREC", "NdKP12ZmmL", "Lavasoft.WCAssistant.WinService", "santivirusclient", "ChromiumUpdate", "powercfg", "vbc", "saves", "windowsx64_build", "GenuineService")
-$locs_to_kill = @("$env:APPDATA", "$env:TEMP")
+$locs_to_kill = @("$env:APPDATA", "$env:TEMP", "$env:windir\Temp", "$env:windir\Fonts","$env:userprofile", "$env:public")
 $systemdirs = @("$env:windir\System32".ToLower(),"$env:windir".ToLower(), "$env:windir\syswow64".ToLower())
-$bad_schtasks = @("svvchost", "DigitalPulseUpdateTask", "Microsoft\Windows\Wininet\Cleaner", "NvStray\NvStrayService_bk6481", "RuntimeBroker_startup_266_str")
+$bad_schtasks = @("svvchost", "DigitalPulseUpdateTask", "Microsoft\Windows\Wininet\Cleaner", "NvStray\NvStrayService_bk6481", "RuntimeBroker_startup_266_str", "CCleanerSkipUAC")
 $knownmalware = @("$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\eNXtBTKShU.url", "$env:systemdrive\Users\Public\Viyeinmz.url", "$env:systemdrive\Users\Public\Owhgjnta.url", "$env:systemdrive\ProgramData\Default\cDefaultc.vbs", "$env:systemdrive\Windows\system32\config\systemprofile\AppData\Roaming\winlogon.exe", "$env:systemdrive\Program Files\WindowsPowershell\RuntimeBroker.exe", "$env:systemdrive\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\ratt.exe", "$env:windir\rft64.exe", "$env:windir\SYSTEM32\TASKS\GoogleUpdateTaskMachineQC", "$env:systemdrive\PROGRAM FILES\GOOGLE\CHROME\UPDATER.EXE", "$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\Scanned.js", "$env:userprofile\Videos\edddegyjjykj.exe", "$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\edddegyjjykj.lnk", "$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\519b55464950ce55b68715cb59bcfbfb.exe", "$env:userprofile\Documents\NdKP12ZmmL.pif", "$env:systemdrive\Program Files\Common Files\System\iediagcmd.exe", "$env:appdata\Microsoft\Windows\Start Menu\Programs\Startup\system.exe", "$env:systemdrive\ProgramData\HostData\logs.uce")
-$knownmalwaredirs = @("$env:systemdrive\ProgramData\Microsoft\Windows\Start Menu\Programs\Auslogics", "$env:windir\SYSTEM32\TASKS\jjrcjc", "$env:systemdrive\ProgramData\Microsoft\IObitUnlocker", "$env:systemdrive\ProgramData\WindowsTask", "$env:systemdrive\Programdata\Microsoft\wjqqg", "$env:systemdrive\ProgramData\Dllhost", "$env:systemdrive\ProgramData\Windows Tasks Service". "$env:systemdrive\Programdata\ReaItekHD", "$env:programdata\IObit\Advanced SystemCare", "C:\Users\Default\AppData\Local\Microsoft\Windows\InetHelper", "$userprofile\AppData\Local\Microsoft\Windows\InetHelper", "C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\Windows\InetHelper", "$env:systemdrive\ProgramData\WindowsTask", "C:\Program Files (x86)\IObit", "$env:systemdrive\ProgramData\Microsoft\NetFramework\57aZolanDbk", "C:\ProgramData\Microsoft\MapData\MDTFx6Mpd", "C:\ProgramData\Dllhost", "$env:userprofile\Appdata\Roaming\windows_update_513432")
+$knownmalwaredirs = @("$env:systemdrive\ProgramData\Microsoft\Windows\Start Menu\Programs\Auslogics", "$env:windir\SYSTEM32\TASKS\jjrcjc", "$env:systemdrive\ProgramData\Microsoft\IObitUnlocker", "$env:systemdrive\ProgramData\WindowsTask", "$env:systemdrive\Programdata\Microsoft\wjqqg", "$env:systemdrive\ProgramData\Dllhost", "$env:systemdrive\ProgramData\Windows Tasks Service". "$env:systemdrive\Programdata\ReaItekHD", "$env:programdata\IObit\Advanced SystemCare", "C:\Users\Default\AppData\Local\Microsoft\Windows\InetHelper", "$userprofile\AppData\Local\Microsoft\Windows\InetHelper", "C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\Windows\InetHelper", "$env:systemdrive\ProgramData\WindowsTask", "C:\Program Files (x86)\IObit", "$env:systemdrive\ProgramData\Microsoft\NetFramework\57aZolanDbk", "C:\ProgramData\Microsoft\MapData\MDTFx6Mpd", "C:\ProgramData\Dllhost", "$env:userprofile\Appdata\Roaming\windows_update_513432", "$env:systemdrive\Program Files\CCleaner")
 
 # https://stackoverflow.com/a/63344749
 if(!([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] 'Administrator')) {
@@ -114,14 +147,15 @@ foreach($proc in $procs){
         continue
     }
     Add-SHRTLog "Scanning $procpath" -Debug
+    $is_signed = (Check-SHRTIsSigned $procpath)
     if($procs_to_kill.Contains($proc.Name)){
-        Add-SHRTLog "Killed $procpath"
+        Add-SHRTLog "Killed $procpath (PROCNAME)"
         $proc.kill()
     }
     $rootdir = (Split-Path ($procpath)).ToLower()
     if($locs_to_kill.Contains($rootdir)){
         $proc.kill()
-        Add-SHRTLog "Killed $procpath"
+        Add-SHRTLog "Killed $procpath (PROCDIR)"
     }
     if($proc.Name -eq "winlogon"){
         if($systemdirs.Contains($rootdir)){
@@ -129,12 +163,16 @@ foreach($proc in $procs){
         }
         else{
             $proc.kill()
-            Add-SHRTLog "Killed $procpath"
+            Add-SHRTLog "Killed $procpath (FAKEWINLOGON)"
         }
     }
     if($procpath.Contains(".pif")){
         $proc.kill()
-        Add-SHRTLog "Killed $procpath"
+        Add-SHRTLog "Killed $procpath (PIF)"
+    }
+    if($is_signed.Equals($false) -and $rootdir.StartsWith($env:windir)){
+        $proc.kill()
+        Add-SHRTLog "Killed $procpath (NOSIGN)"
     }
 }
 
@@ -175,6 +213,12 @@ foreach($subprop in $disallowrun){
         Add-SHRTLog "Unblocked $dar"
     }
 }
+
+
+Add-SHRTLog "Checking for damaged system files"
+New-Item "$env:windir\WinSxS\Temp\PendingDeletes" -ItemType Directory -Force
+DISM /Online /Cleanup-Image /RestoreHealth
+sfc /scannow
 
 # TODO: test to make sure this doesn't cause problems
 # https://forums.malwarebytes.com/topic/301209-cant-install-malwarebytes-my-pc-is-infected/?do=findComment&comment=1583160
@@ -357,10 +401,11 @@ Remove-Item -Path HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate
 Remove-Item -Path "HKLM:\SOFTWARE\WOW6432Node\Policies\Microsoft\Windows\WindowsUpdate" -Recurse -Force
 Remove-Item -Path HKCU:\SOFTWARE\Classes\.exe
 Remove-Item -Path HKCU:\SOFTWARE\Classes\.reg
+Remove-Item -Path HKCU:\SOFTWARE\Classes\.bat
 bcdedit.exe /set "{default}" recoveryenabled yes
 Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\SafeBoot" -Name "AlternateShell" -Value "cmd.exe"
-Remove-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" -Name "DisableTaskMgr"
-Remove-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" -Name "DisableRegistryTools"
+Remove-SHRTItemProp -Path "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" -Name "DisableTaskMgr"
+Remove-SHRTItemProp -Path "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" -Name "DisableRegistryTools"
 Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" -Name "PromptOnSecureDesktop" -Value 1
 Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" -Name "EnableLUA" -Value 1
 Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" -Name "ConsentPromptBehaviorUser" -Value 3
@@ -374,11 +419,6 @@ netsh int ip reset
 netsh winsock reset
 netsh winhttp reset proxy
 ipconfig /flushdns
-
-Add-SHRTLog "Checking for damaged system files"
-New-Item "$env:windir\WinSxS\Temp\PendingDeletes" -ItemType Directory -Force
-DISM /Online /Cleanup-Image /RestoreHealth
-sfc /scannow
 
 Add-SHRTLog "Clearing temp files"
 bitsadmin /reset /allusers | Out-Null
