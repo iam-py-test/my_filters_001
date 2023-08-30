@@ -7459,3 +7459,16 @@
 ! https://forums.malwarebytes.com/topic/301587-adware-not-recognized-or-deleted/
 ||presonsinatize.com^$all
 
+! https://tria.ge/230828-zyzbraga22/behavioral1
+||push-ebfhafd-6311.boustahe.com^$all
+||push-*.boustahe.com^$document
+||nomadsfit.com^$all
+||mackledcity.com^$all
+||onebiensillc.com^$all
+||wejds.co.in^$document
+||1c6d7sl37a5xsd90.wejds.co.in^$all
+||1c358sl37a69r073.wejds.co.in^$all
+||apedodo8.fun^$document
+||derytc.click^$all
+/light/av/nrtn03/index.php?lpkey=$document
+
