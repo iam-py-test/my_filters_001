@@ -116,3 +116,9 @@ winaero.com##.widget:has([href="/fix-classic-issues-performance/"])
 
 ! https://tria.ge/230825-31j7dshd61/behavioral1
 ||utorrent.com^$document
+
+! https://tria.ge/230830-l7yjxseb6z/behavioral1
+||chromnius-secure.com^$document
+||rdtk.chromnius-secure.com^$document
+||premiumworldapp.com^$document
+||free.premiumworldapp.com^$document
