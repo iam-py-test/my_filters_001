@@ -1,6 +1,6 @@
 ! Title: iam-py-test's anti-Meta list
 ! Expires: 30 days
-! Last updated: 19/5/2023
+! Last updated: 1/9/2023
 ! Description: Do you want to get rid of Facebook/Meta/Instagram for good? This list might help, but you may need to delete your account first.
 ||facebook.com^$all
 ||facebook.net^$all
@@ -15,6 +15,10 @@
 ||meta.com^$all
 ||instagram.com^$all
 ||threads.net^$all
+
+! https://github.com/hagezi/dns-blocklists/issues/1514
+||facebook-hardware.com^$all
+||graph.facebook-hardware.com^$all
 
 ! DuckDuckGo link to the company's Facebook page
 duckduckgo.com##li.about-profiles__item:has(a[href*="facebook.com"])
