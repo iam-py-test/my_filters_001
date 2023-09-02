@@ -842,3 +842,6 @@
 ||search.conduit.com^$document
 ||conduit.com^$document
 
+! https://github.com/hagezi/dns-blocklists/discussions/1515
+||techadsology.com^$all
+
