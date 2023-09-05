@@ -7509,3 +7509,6 @@
 ||binomo.broker^$document
 ||binomo-brokers.com^$document
 
+! https://github.com/durablenapkin/scamblocklist/issues/64
+||coinreq.com^$document
+
