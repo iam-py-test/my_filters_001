@@ -593,3 +593,6 @@ youtube.com##+js(href-sanitizer,a[href*="https://www.youtube.com/redirect"], ?q)
 
 ! now-dns
 ||301.li^$document
+
+! https://github.com/hagezi/dns-blocklists/issues/1531
+||ablink.email.etsy.com^$document
