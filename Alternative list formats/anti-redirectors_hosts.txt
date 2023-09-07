@@ -432,3 +432,5 @@
 0.0.0.0 stfly.xyz
 # now-dns
 0.0.0.0 301.li
+# https://github.com/hagezi/dns-blocklists/issues/1531
+0.0.0.0 ablink.email.etsy.com
