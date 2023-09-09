@@ -42,3 +42,7 @@
 0.0.0.0 geo-ip.enigmasoft.net
 # https://github.com/PeterDaveHello/ipinfo.tw-uptime
 0.0.0.0 ipinfo.tw
+# https://github.com/badmojr/1Hosts/issues/1563
+0.0.0.0 api6.ipify.org
+0.0.0.0 api64.ipify.org
+0.0.0.0 geo.ipify.org
