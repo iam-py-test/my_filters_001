@@ -810,9 +810,6 @@
 ||littlecdn.com/apps/contents/s/e1/43/b6/8d4db17f1838a03992a72e9dbf/01412844174435.png^$all
 ||gapscult.com^$all
 
-! https://web.archive.org/web/20230604184010/https://twitter.com/iam_py_test/status/1528858711128625152
-||supercillious.xyz^$all
-
 ! a fake MediaFire domain
 ||walkeryellow141.weebly.com^$all
 ||www.rewards-cards.org^$document
@@ -832,8 +829,6 @@
 ||uprimp.com^$document
 ||odaba.live^$all
 
-! https://www.youtube.com/watch?v=se4HVtBN3bM
-||postoffice-depot38.com^$document
 
 ! a random popup
 ||lifeimpressions.net^$popup
@@ -6052,6 +6047,7 @@
 ||czpcc.nereherewetem.info^$all
 ! https://tria.ge/230624-pzryysbc98/behavioral1
 ||free.premiumworldapp.com^$document
+||chromnius.com^$document
 ||www.chromnius.com^$document
 
 ! https://github.com/DandelionSprout/adfilt/discussions/779#discussioncomment-6298369
@@ -7509,4 +7505,39 @@
 
 ! https://github.com/durablenapkin/scamblocklist/issues/64
 ||coinreq.com^$document
+
+! https://tria.ge/230909-m91mqsaf82/behavioral1
+||uplevelrewards.com^$document
+||www.uplevelrewards.com^$document
+||liveappsearch.com^$document
+||www.liveappsearch.com^$document
+||oasoomsa.top^$all
+||wholedailyjournal.com^$all
+||fubsoupt.top^$all
+||adblocked-supreme.net^$document
+
+! https://forums.malwarebytes.com/topic/302090-virus-found-malware/
+||guartian.co.in^$all
+
+! https://tria.ge/230909-tghd1scd3y/behavioral1
+||5hgawd5145.monster^$all
+||another-seem.monster^$document
+||ptbqre.com^$all
+||datinghere-top.life^$document
+||popupchat-live.com^$document
+||h.datingcentral.top^$all
+||cuddleyadmire.com^$document
+||mcaverify.click^$all
+||www.mcaverify.click^$all
+
+! https://github.com/StevenBlack/hosts/issues/2436
+||w61.1piecemanga.com^$document
+||fbet.com^$all
+||onwardrespirationcommandment.com^$all
+! my analysis: https://tria.ge/230910-pysh4ahb47/behavioral1
+! my analysis: https://tria.ge/230910-py86vahb49/behavioral1
+||stemboastfulrattle.com^$all
+||odesbest.com^$all
+||loadoverlylatestinfo-program.info^$all
+
 
