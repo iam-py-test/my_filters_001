@@ -1,10 +1,4 @@
 [attr]adb   linguist-detectable linguist-language=AdBlock
-*.txt adb
-special_lists/*.txt adb
-Alternative list formats/*adp.txt adb
-Alternative list formats/*adguard*.txt adb
-Sandbox/*.txt adb
-scripts/* Python
 
 # https://github.com/DandelionSprout/adfilt/issues/819
 * text=auto eol=lf
