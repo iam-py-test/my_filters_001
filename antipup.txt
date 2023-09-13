@@ -109,6 +109,7 @@ winaero.com##.widget:has([href="/fix-classic-issues-performance/"])
 ||ccleaner.com^$document
 
 ! https://tria.ge/230821-2bt5maad51/behavioral1
+||fortect.com^$document
 ||cloud.fortect.com^$document
 
 ! https://forums.malwarebytes.com/topic/301486-vetting-cleanmymac/
