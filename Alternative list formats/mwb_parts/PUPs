@@ -847,3 +847,6 @@
 ! https://github.com/hagezi/dns-blocklists/discussions/1515
 ||techadsology.com^$all
 
+! sells driver updater snake oil
+||drivereasy.com^$document
+

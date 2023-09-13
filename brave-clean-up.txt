@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results, along with other annoyances
 ! Expires: 1 day
 ! Last updated: 7/4/2023
-! Last auto-generated: 11/09/2023
+! Last auto-generated: 13/09/2023
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -57,6 +57,7 @@ search.brave.com##div.fdb.snippet:has(a[href*="://getconvertpdf.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://combocleaner.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://www.combocleaner.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ccleaner.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://fortect.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://cloud.fortect.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://cleanmymac.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://macpaw.com"])
@@ -3272,6 +3273,8 @@ search.brave.com##div.fdb.snippet:has(a[href*="://changzhoujijinxuexi.cn"])
 search.brave.com##div.fdb.snippet:has(a[href*="://qftwpl.icu"])
 search.brave.com##div.fdb.snippet:has(a[href*="://appykidsco.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://corrpls-it-cl.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://telegrnm.org"])
+search.brave.com##div.fdb.snippet:has(a[href*="://sg.telegrnm.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://www.ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublockerext.com"])
@@ -10193,6 +10196,7 @@ search.brave.com##div.fdb.snippet:has(a[href*="://segoonow.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://search.conduit.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://conduit.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://techadsology.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://drivereasy.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://24hourhtmlcafe.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ilovealgarve.net"])
 search.brave.com##div.fdb.snippet:has(a[href*="://nbgpapartmani.com"])

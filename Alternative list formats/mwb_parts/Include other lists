@@ -737,11 +737,14 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 5/5/2023
 ! Expires: 1 day
-! Last updated: 10/09/2023
+! Last updated: 12/09/2023
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Sun, 10 Sep 2023 20:17:30 +0000
+! Tue, 12 Sep 2023 20:19:18 +0000
+||77.91.97.133/index.php^$all
+||77.91.97.133/regogo.exe^$all
+||77.91.97.56/regogo.exe^$all
 ||47.111.23.242/m.txt^$all
 ||cdn.discordapp.com/attachments/1143583597752766515/1143595419868336248/ProcessView.exe^$all
 ||cdn.discordapp.com/attachments/1132800981114032168/1143214632329285752/main.exe^$all
@@ -840,9 +843,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||85.217.144.143/files/123.exe^$all
 ||85.217.144.143/files/FL2.exe^$all
 ||85.217.144.143/files/akhrygshdfhdfjgs.c.exe^$all
-||x0.at/wEjB.exe^$all
-||beautifulqueen.com.br/Documentos.jpg^$all
-||d2.okshop168.top/xxx/15/15.ocx^$all
 
 
 
