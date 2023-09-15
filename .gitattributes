@@ -4,4 +4,5 @@
 * text=auto eol=lf
 
 # https://github.com/StevenBlack/hosts/pull/2352
-hosts linguist-detectable linguist-language=Hosts file
+# https://github.com/StevenBlack/hosts/pull/2443
+hosts linguist-detectable linguist-language=hosts

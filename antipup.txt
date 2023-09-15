@@ -106,6 +106,7 @@ winaero.com##.widget:has([href="/fix-classic-issues-performance/"])
 ||pcrisk.com/files/CCSetup.exe^$document
 
 ! bundles software, registry cleaner
+! https://spyware.neocities.org/articles/ccleaner
 ||ccleaner.com^$document
 
 ! https://tria.ge/230821-2bt5maad51/behavioral1
