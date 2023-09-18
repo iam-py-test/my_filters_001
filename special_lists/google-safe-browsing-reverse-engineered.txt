@@ -16,15 +16,6 @@
 ||cn07057.tmweb.ru^$all
 ||cx94670.tmweb.ru^$all
 ||ct36568.tmweb.ru^$all
-! as of 4/10/2021
-||sheba-digital.com^$all
-||02-billing-support.org^$all
-||036.trendsbygwen.com^$all
-||trendsbygwen.com^$all
-||05crc8i.cn^$all
-||0y7c.cn^$all
-||154.30.211.130.bc.googleusercontent.com^$all
-||1d4x.cn^$all
 ! as of 7/10/2021
 ||bilalimtyaz.co^$all
 ||extentwulfsaqqehqdwicczanin.com^$all
@@ -138,3 +129,5 @@
 ||telegshm.club^$all
 ! as of 28/8/2023 (https://urlhaus.abuse.ch/url/2707372/)
 ||95.214.24.244^$all
+! as of 18/9/2023 (https://threatfox.abuse.ch/ioc/1164432/)
+||webclinetzero.cloud^$all
