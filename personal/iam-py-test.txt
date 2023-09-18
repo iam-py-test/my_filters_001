@@ -101,6 +101,7 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||gaytube.com^$all
 ||redtube.*^$all
 ||fap18.net^$all
+||deepnude.to^$all
 
 ! ---- suspected malware ----
 ||inghesatin.com^$all
