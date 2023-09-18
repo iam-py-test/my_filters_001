@@ -2,9 +2,9 @@
 #### porn.txt
 Entries: 1580 <br> 
 #### antimalware.txt
-Entries: 11776 <br> 
+Entries: 11781 <br> 
 #### antitypo.txt
-Entries: 362 <br> 
+Entries: 363 <br> 
 #### anti-redirectors.txt
 Entries: 250 <br> 
 #### anti-cookie+sign up.txt
@@ -16,7 +16,7 @@ Entries: 109 <br>
 #### duckduckgo-clean-up.template
 Entries: 14 <br> 
 #### enhanced_protection.txt
-Entries: 22 <br> 
+Entries: 24 <br> 
 #### anti-norton-tracking.txt
 Entries: 37 <br> 
 #### clickbait.txt
