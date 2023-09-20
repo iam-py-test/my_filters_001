@@ -2,11 +2,15 @@
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 5/5/2023
 ! Expires: 1 day
-! Last updated: 17/09/2023
+! Last updated: 19/09/2023
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Sun, 17 Sep 2023 20:17:38 +0000
+! Tue, 19 Sep 2023 20:19:40 +0000
+||192.3.23.242/80/mtdocs.exe^$all
+||103.182.16.23/M189T/smss.exe^$all
+||103.182.16.23/s179m/smss.exe^$all
+||hndcakewalkers.com/update1.exe^$all
 ||193.42.32.101/files/get3.exe^$all
 ||193.42.32.101/files/UM.exe^$all
 ||galandskiyher2.com/downloads/toolspub4.exe^$all
@@ -104,7 +108,3 @@
 ||85.217.144.143/files/123.exe^$all
 ||smartphoodapp.com/miner.exe^$all
 ||rqnsomware.s3.us-east-2.amazonaws.com/malwr.exe^$all
-||85.217.144.143/files/Lyla131.exe^$all
-||85.217.144.143/files/Had.exe^$all
-||85.217.144.143/files/5_6232986114823555269.exe^$all
-||85.217.144.143/files/123.exe^$all
