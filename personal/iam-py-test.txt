@@ -48,6 +48,12 @@ filescan.io##.card.advertisement-small-screen
 ||youtube.com/redirect?$removeparam=redir_token
 ||youtube.com/redirect?$removeparam=v
 
+! https://github.com/StevenBlack/hosts/issues/2450
+! https://github.com/hagezi/dns-blocklists/issues/1592
+! https://github.com/blocklistproject/Lists/issues/1085
+||sanctioned-suicide.net^$all
+||sanctioned-suicide.org^$all
+
 ! ---- cookie banners ----
 sitecheck.sucuri.net##.p-0.hide.cookie-policy-banner.container-fluid
 mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
