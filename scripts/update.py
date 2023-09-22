@@ -140,7 +140,7 @@ def mkagh(file,altname):
       altfile.write("{}\n".format(line))
     elif line.startswith("[Adblock Plus 2.0]") or line == " ":
       continue
-    elif "$" in line:
+    elif "^" in line:
       if line.startswith("||") and "/" not in line and "^" in line:
         try:
           domain = line.split("^")[0][2:].lower()
