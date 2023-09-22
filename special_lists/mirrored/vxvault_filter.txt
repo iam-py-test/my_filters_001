@@ -2,11 +2,15 @@
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 5/5/2023
 ! Expires: 1 day
-! Last updated: 19/09/2023
+! Last updated: 21/09/2023
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Tue, 19 Sep 2023 20:19:40 +0000
+! Thu, 21 Sep 2023 20:18:05 +0000
+||wispafoods.com/BestSoftware.exe^$all
+||cat.lobret.co.za/55aa5e.exe^$all
+||192.3.179.157/112/TiWorker.exe^$all
+||192.3.179.157/112/1/Rzcjkedka.exe^$all
 ||192.3.23.242/80/mtdocs.exe^$all
 ||103.182.16.23/M189T/smss.exe^$all
 ||103.182.16.23/s179m/smss.exe^$all
@@ -104,7 +108,3 @@
 ||80.240.20.250/4D321^$all
 ||link.storjshare.io/jwgxwvintmbhhyz6izi7pm6fk3ga/na5la%2Fkanao%2Fpoweroff.exe?download=1^$all
 ||85.217.144.143/files/Had.exe^$all
-||85.217.144.143/files/WSearch136Estcott.exe^$all
-||85.217.144.143/files/123.exe^$all
-||smartphoodapp.com/miner.exe^$all
-||rqnsomware.s3.us-east-2.amazonaws.com/malwr.exe^$all
