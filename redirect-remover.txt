@@ -7,7 +7,4 @@ twitter.com##+js(href-sanitizer, a[href^="https://t.co/"])
 vk.com,vk.ru##+js(href-sanitizer, a[href^="/away.php?to="]:not([title]))
 vk.com,vk.ru##+js(href-sanitizer, a[href^="/away.php?to="][title], [title])
 
-! copied from uBo annoyances
-www.google.*##+js(set-constant, rwt, noopFunc)
-
 youtube.com##+js(href-sanitizer,a[href*="https://www.youtube.com/redirect"], ?q)
