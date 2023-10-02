@@ -1,0 +1,10 @@
+! Title: Anti-dating
+! Description: This filterlist aims to block all dating websites, including both scams and legit ones
+||dateadore.com^$document
+||lovoo.com^$document
+||joyclub.de^$document
+||pof.com^$document
+||zoosk.com^$document
+
+! Scams
+||dateadore.com^$all

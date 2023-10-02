@@ -108,6 +108,7 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||redtube.*^$all
 ||fap18.net^$all
 ||deepnude.to^$all
+||chaturbate.com^$all
 
 ! ---- suspected malware ----
 ||inghesatin.com^$all

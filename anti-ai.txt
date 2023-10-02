@@ -1,0 +1,10 @@
+! Title: No-so-artificial blocklist
+! Expires: 3 days
+
+||openai.com^
+||oaistatic.com^
+||generated.photos^
+||perchance.org^
+||deepnude.to^
+||fotor.com/features/ai-$document
+

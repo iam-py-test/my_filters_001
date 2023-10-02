@@ -1,0 +1,10 @@
+! Title: Anti-file hosting/sharing websites
+||mediafire.com^$document
+||mega.nz^$document
+||turbobit.net^$document
+||drive.google.com^$document
+||dropbox.com^$document
+||onedrive.com^$document
+
+! https://github.com/yokoffing/Betterfox/issues/238
+||dropmefile.com^$document

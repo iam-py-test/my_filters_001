@@ -82,6 +82,9 @@ This list is no longer maintained, as adfly has been bought by Linkverse.
 - Link redirect removal list (redirect-remover.txt)
 - Favicon blocker ([favicon_blocker.txt](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/favicon_blocker.txt))
 - Anti-TikTok ([anti-tiktok.txt](./anti-tiktok.txt))
+- Anti-dating ([antidating.txt](./antidating.txt))
+- Anti-file hosting/shareing websites ([anti-file-hosting.txt](./anti-file-hosting.txt))
+- Anti-AI ([anti-ai.txt](./anti-ai.txt))
 
 <br>The filters in the _Alternative list formats_ folder are versions of some of the lists above for different software. These are auto-generated, and thus updates to them must be made to the original list or [the Python script](https://github.com/iam-py-test/my_filters_001/blob/main/scripts/update.py) which generates them.<br>
 Everything not listed above, like the filters in the _Personal_ folder, is either completely forgotten by me, or is likely to break websites due to its purpose or lack of regulation. <br>
