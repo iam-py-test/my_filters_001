@@ -24,8 +24,11 @@ for e in domain_list:
 
 for e in entry_data:
     if e not in domain_list:
-        entry_data[e]["removed"] = True
-        entry_data[e]["removed_date"] = current_date
+        try:
+            entry_data[e]["removed"] = True
+            entry_data[e]["removed_date"] = current_date
+        except Exception as err:
+            print(err, e, entry_data[e])
 
 entry_data_file = open("entry_data.json", 'w', encoding="UTF-8")
 entry_data_file.write(json.dumps(entry_data))
