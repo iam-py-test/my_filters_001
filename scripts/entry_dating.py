@@ -23,7 +23,7 @@ for e in domain_list:
         entry_data[e]["removed_date"] = ""
 
 for e in entry_data:
-    if e not in domain_list:
+    if e not in domain_list and e != "last_updated":
         try:
             entry_data[e]["removed"] = True
             entry_data[e]["removed_date"] = current_date
