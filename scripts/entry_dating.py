@@ -10,7 +10,7 @@ current_date = datetime.datetime.now().isoformat()
 entry_data["last_updated"] = current_date
 
 for e in domain_list:
-    if e not in entry_data:
+    if e not in entry_data and e != "last_updated":
         entry_data[e] = {
             "first_seen": current_date,
             "last_seen": current_date,
