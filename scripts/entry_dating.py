@@ -13,10 +13,19 @@ for e in domain_list:
     if e not in entry_data:
         entry_data[e] = {
             "first_seen": current_date,
-            "last_seen": current_date
+            "last_seen": current_date,
+            "removed": False,
+            "removed_date": ""
         }
     else:
         entry_data[e]["last_seen"] = current_date
+        entry_data[e]["removed"] = False
+        entry_data[e]["removed_date"] = ""
+
+for e in entry_data:
+    if e not in domain_list:
+        entry_data[e]["removed"] = True
+        entry_data[e]["removed_date"] = current_date
 
 entry_data_file = open("entry_data.json", 'w', encoding="UTF-8")
 entry_data_file.write(json.dumps(entry_data))
