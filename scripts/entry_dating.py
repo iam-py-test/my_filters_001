@@ -1,4 +1,10 @@
-import os, sys, json, datetime
+import os, sys, json, datetime, socket, random
+
+def is_alive(domain):
+    try:
+        return socket.gethostbyname(domain) != "0.0.0.0"
+    except:
+        return False
 
 try:
     entry_data = json.loads(open("entry_data.json", encoding="UTF-8").read())
@@ -15,12 +21,22 @@ for e in domain_list:
             "first_seen": current_date,
             "last_seen": current_date,
             "removed": False,
-            "removed_date": ""
+            "removed_date": "",
+            "last_checked": "",
+            "check_counter": random.randint(0, 10),
+            "check_status": None
         }
     else:
         entry_data[e]["last_seen"] = current_date
         entry_data[e]["removed"] = False
         entry_data[e]["removed_date"] = ""
+        if "check_counter" not in entry_data[e]:
+            entry_data[e]["check_counter"] = 0
+        entry_data[e]["check_counter"] += 1
+        if entry_data[e]["check_counter"] > 50:
+            entry_data[e]["check_status"] = is_alive(e)
+            entry_data[e]["last_checked"] = current_date
+            entry_data[e]["check_counter"] = 0
 
 for e in entry_data:
     if e not in domain_list and e != "last_updated":
