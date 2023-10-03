@@ -5,6 +5,9 @@
 ||drive.google.com^$document
 ||dropbox.com^$document
 ||onedrive.com^$document
+||onedrive.live.com^$document
+||zippyshare.com^$document
+||filesend.jp^$document
 
 ! https://github.com/yokoffing/Betterfox/issues/238
 ||dropmefile.com^$document
