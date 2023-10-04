@@ -525,3 +525,5 @@
 0.0.0.0 login-office365.info
 # used to be a filesharing website - the owners gave up and the domain may be for sale
 0.0.0.0 anonfiles.com
+# dead but may return: https://www.virustotal.com/gui/url/518a4fb06ce6184f62910e42eb4081998cb3c5675c977fccb7db998881f86cdc
+0.0.0.0 steamcomunity.ru
