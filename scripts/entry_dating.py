@@ -1,9 +1,13 @@
 import os, sys, json, datetime, socket, random
 
+dead_domains = []
+
 def is_alive(domain):
+    global dead_domains
     try:
         return socket.gethostbyname(domain) != "0.0.0.0"
     except:
+        dead_domains.append(domain)
         return False
 
 try:
@@ -14,6 +18,7 @@ except:
 domain_list = open("Alternative list formats/antimalware_domains.txt", encoding="UTF-8").read().replace("\r\n","\n").split("\n")
 current_date = datetime.datetime.now().isoformat()
 entry_data["last_updated"] = current_date
+
 
 for e in domain_list:
     if e not in entry_data and e != "last_updated":
@@ -51,3 +56,7 @@ for e in entry_data:
 entry_data_file = open("entry_data.json", 'w', encoding="UTF-8")
 entry_data_file.write(json.dumps(entry_data))
 entry_data_file.close()
+
+dead_stuff = open("dead.mwbcheck.txt", 'w', encoding='UTF-8')
+dead_stuff.write("\n".join(dead_domains))
+dead_stuff.close()
