@@ -27,11 +27,20 @@ for e in domain_list:
             "last_seen": current_date,
             "removed": False,
             "removed_date": "",
-            "last_checked": "",
+            "last_checked": current_date,
             "check_counter": random.randint(0, 35),
-            "check_status": None
+            "check_status": is_alive(e),
+            "ever_rechecked": False,
+            "readded": False,
+            "origin_add": "",
+            "readd": ""
         }
     else:
+        if "removed" in entry_data[e]:
+            if entry_data[e]["removed"] == True:
+                entry_data[e]["readded"] = True
+                entry_data[e]["readd"] = current_date
+                entry_data[e]["origin_add"] = entry_data[e]["first_seen"]
         entry_data[e]["last_seen"] = current_date
         entry_data[e]["removed"] = False
         entry_data[e]["removed_date"] = ""
@@ -44,6 +53,7 @@ for e in domain_list:
             entry_data[e]["check_status"] = is_alive(e)
             entry_data[e]["last_checked"] = current_date
             entry_data[e]["check_counter"] = 0
+            entry_data[e]["ever_rechecked"] = True
 
 for e in entry_data:
     if e not in domain_list and e != "last_updated":
