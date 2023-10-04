@@ -23,7 +23,7 @@ for e in domain_list:
             "removed": False,
             "removed_date": "",
             "last_checked": "",
-            "check_counter": random.randint(0, 10),
+            "check_counter": random.randint(0, 35),
             "check_status": None
         }
     else:
@@ -31,7 +31,9 @@ for e in domain_list:
         entry_data[e]["removed"] = False
         entry_data[e]["removed_date"] = ""
         if "check_counter" not in entry_data[e]:
-            entry_data[e]["check_counter"] = 0
+            entry_data[e]["check_counter"] = random.randint(0, 45)
+        if "last_checked" not in entry_data[e]:
+            entry_data[e]["last_checked"] = "Unknown"
         entry_data[e]["check_counter"] += 1
         if entry_data[e]["check_counter"] > 50:
             entry_data[e]["check_status"] = is_alive(e)
