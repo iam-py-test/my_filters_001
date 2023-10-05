@@ -7,7 +7,8 @@ def is_alive(domain):
     try:
         return socket.gethostbyname(domain) != "0.0.0.0"
     except:
-        dead_domains.append(domain)
+        if domain not in dead_domains:
+            dead_domains.append(domain)
         return False
 
 try:
