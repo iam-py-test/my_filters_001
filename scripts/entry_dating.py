@@ -36,6 +36,8 @@ for e in domain_list:
             "readd": ""
         }
     else:
+        if entry_data[e]["check_status"] == False:
+            dead_domains.append(e)
         if "removed" in entry_data[e]:
             if entry_data[e]["removed"] == True:
                 entry_data[e]["readded"] = True
@@ -50,7 +52,8 @@ for e in domain_list:
             entry_data[e]["last_checked"] = "Unknown"
         entry_data[e]["check_counter"] += 1
         if entry_data[e]["check_counter"] > 50:
-            entry_data[e]["check_status"] = is_alive(e)
+            domain_is_alive = is_alive(e)
+            entry_data[e]["check_status"] = domain_is_alive
             entry_data[e]["last_checked"] = current_date
             entry_data[e]["check_counter"] = 0
             entry_data[e]["ever_rechecked"] = True
