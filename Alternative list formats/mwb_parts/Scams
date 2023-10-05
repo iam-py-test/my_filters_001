@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 4/10/2023
-! Version: 4102023-2
+! Last updated: 5/10/2023
+! Version: 5102023-1
 ! Description: This list aims to protect against scams, phishing, malware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -7676,4 +7676,10 @@
 ||zlibrary.is^$all
 ||z-lib.to^$all
 ||z-lib.io^$all
+
+! https://github.com/hagezi/dns-blocklists/issues/1662
+||bridgelinering.com^$document
+||show.bridgelinering.com^$all
+||go.bridgelinering.com^$document
+||daynitroglass.com^$all
 
