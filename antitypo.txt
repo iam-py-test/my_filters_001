@@ -5,7 +5,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-! Last updated: 2/10/2023
+! Last updated: 6/10/2023
 
 ! https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 ! https://www.virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
@@ -606,3 +606,7 @@
 
 ! dead but may return: https://www.virustotal.com/gui/url/518a4fb06ce6184f62910e42eb4081998cb3c5675c977fccb7db998881f86cdc
 ||steamcomunity.ru^$all
+
+! https://github.com/libre-tube/LibreTube/issues/4409
+||libretube.$document
+||libretubeapk.$document
