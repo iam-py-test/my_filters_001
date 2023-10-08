@@ -1,13 +1,44 @@
-import os, sys, json, datetime, socket, random
+import os, sys, json, datetime, socket, random, publicsuffixlist
 
 dead_domains = []
+p = publicsuffixlist.PublicSuffixList()
+
+def get_whois_data_raw(domain, server):
+	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+	s.connect((server, 43))
+	all_data = b""
+	s.send("{domain}\r\n".replace("{domain}", domain).encode())
+	while True:
+		try:
+			newdata = s.recv(100)
+			if len(newdata) == 0:
+				break
+			all_data += newdata
+		except Exception:
+			break
+	s.close()
+	return all_data.decode()
+
+def get_whois(domain):
+	tld = p.publicsuffix(domain).upper()
+	server = f"{tld}.whois-servers.net"
+	return get_whois_data_raw(domain, server)
+
+def whois_exists(domain):
+    try:
+        whois_data = get_whois(domain)
+        if "No match for" in whois_data or "No Data Found" in whois_data:
+            return False
+        return whois_data != ""
+    except:
+        return False
 
 def is_alive(domain):
     global dead_domains
     try:
         return socket.gethostbyname(domain) != "0.0.0.0"
     except:
-        if domain not in dead_domains:
+        if domain not in dead_domains and whois_exists(domain) == False:
             dead_domains.append(domain)
         return False
 
