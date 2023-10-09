@@ -37,3 +37,6 @@ rdtk.chromnius-secure.com
 premiumworldapp.com
 free.premiumworldapp.com
 fontdeterminerpro.com
+chromstera.com
+secure.chromstera.com
+www.chromstera.com
