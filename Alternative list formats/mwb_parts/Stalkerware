@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 7/10/2023
-! Version: 7102023-1
+! Last updated: 8/10/2023
+! Version: 8102023-1
 ! Description: This list aims to protect against scams, phishing, malware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -56,7 +56,6 @@
 ||my.thespyapp.com^$all
 ||phonetracking.net^$all
 ||protocol-a.copy9.com^$all
-||protocol-a.exactspy.com^$all
 ||protocol-a.fonetracker.com^$all
 ||protocol-a.ispyoo.com^$all
 ||protocol-a.mxspy.com^$all
@@ -101,7 +100,6 @@
 ||protocol-viewer-a.copy9.com^$all
 ||protocol.copy9.com^$all
 ||protocol.ispyoo.com^$all
-||protocol.systemserviceprovider.com^$all
 ||protocol.thetruthspy.com^$all
 ||secondclone-2d312.firebaseio.com^$all
 ||setupmail-a.icloudappe.com^$all
@@ -132,7 +130,6 @@
 ||setupmail-a920.icloudappe.com^$all
 ||setupmail.icloudappe.com^$all
 ||sync-a.copy9.com^$all
-||sync-a.exactspy.com^$all
 ||sync-a.fonetracker.com^$all
 ||sync-a.ispyoo.com^$all
 ||sync-a.mxspy.com^$all
