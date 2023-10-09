@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: iam-py-test's anti-PUP list
 ! Description: This list blocks sites promoting PUPs, unreliable antivirus review sites, very poorly made malware removal guides, scummy adblockers, "snake oil" programs, legitimate software installers which bundle other unrelated software, and websites which trick users into lowering their security via overly broad allowlists
-! Last updated: 4/10/2023
+! Last updated: 9/10/2023
 ! Expires: 5 days
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 
@@ -129,3 +129,8 @@ winaero.com##.widget:has([href="/fix-classic-issues-performance/"])
 
 ! https://tria.ge/231002-nhasnsbb63/behavioral1
 ||fontdeterminerpro.com^$document
+
+! https://tria.ge/231009-m46lssed76/behavioral1 (cloudflared)
+||chromstera.com^$document
+||secure.chromstera.com^$document
+||www.chromstera.com^$document
