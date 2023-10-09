@@ -27,7 +27,7 @@ def get_whois(domain):
 def whois_exists(domain):
     try:
         whois_data = get_whois(domain)
-        if "No match for" in whois_data or "No Data Found" in whois_data:
+        if "No match for" in whois_data or "No Data Found" in whois_data or "No whois information found" in whois_data:
             return False
         return whois_data != ""
     except:
