@@ -5,7 +5,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-! Last updated: 6/10/2023
+! Last updated: 14/10/2023
 
 ! https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 ! https://www.virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
@@ -610,3 +610,14 @@
 ! https://github.com/libre-tube/LibreTube/issues/4409
 ||libretube.$document
 ||libretubeapk.$document
+
+! hxxp[://]www.coinbase-walletpro[.]com/ from openphish
+||www.coinbase-wallet.$document,domain=~coinbase.com|~translate.goog
+! hxxp[://]steamc0ommunity[.]bos[.]ru/ from openphish
+||steamc0ommunity.$document,domain=~translate.goog
+! hxxp[://]facebooksecuritys[.]blogspot[.]tw/ from openphish
+||facebooksecuritys.$document,domain=~facebook.*|~translate.goog
+! hxxp[://]feceboolk[.]blogspot[.]sk/
+||feceboolk.$document,domain=blogspot.*|top|xyz|github.io
+! hxxp[://]whatsapp-com-videoooo-viral[.]paneldeni[.]com/
+/^https?:\/\/whatsapp-com-video/$document,domain=~translate.goog

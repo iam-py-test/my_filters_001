@@ -27,3 +27,10 @@ For this reason, [alleged privacy issues](https://github.com/Tobi823/ffupdater/i
 
 ### Yandex
 Yandex Browser is not supported by uBlock Origin (I do not know about other content blockers), [and is known to be problematic](https://github.com/uBlockOrigin/uBlock-issues/issues/2627). Any issues which can not be reproduced in Chrome, Edge, or Firefox will have to be investigated by you.
+
+## Extensions which confict with uBlock Origin
+
+### Malwarebytes Browser Guard
+Blocks ads/trackers by default.
+To disable: Click the Malwarebytes Browser Guard icon (not the icon for the Malwarebytes program), click the gear icon, then turn off _Ads/Trackers_.
+[It seems Malwarebytes may still confict with YouTube even with this disabled.](https://github.com/uBlockOrigin/uAssets/issues/19976#issuecomment-1762785505)

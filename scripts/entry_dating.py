@@ -1,7 +1,10 @@
 import os, sys, json, datetime, socket, random, publicsuffixlist
+import dns.resolver
 
 dead_domains = []
 p = publicsuffixlist.PublicSuffixList()
+resolver = dns.resolver.Resolver()
+resolver.nameservers = ["https://unfiltered.adguard-dns.com/dns-query","94.140.14.140", "8.8.8.8","1.1.1.1"]
 
 def get_whois_data_raw(domain, server):
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -36,7 +39,7 @@ def whois_exists(domain):
 def is_alive(domain):
     global dead_domains
     try:
-        return socket.gethostbyname(domain) != "0.0.0.0"
+        return resolver.resolve(domain) != None
     except:
         if domain not in dead_domains and whois_exists(domain) == False:
             dead_domains.append(domain)
@@ -81,6 +84,7 @@ for e in domain_list:
                 entry_data[e]["readded"] = True
                 entry_data[e]["readd"] = current_date
                 entry_data[e]["origin_add"] = entry_data[e]["first_seen"]
+                entry_data[e]["origin_removed_date"] = entry_data[e]["last_seen"]
         entry_data[e]["last_seen"] = current_date
         entry_data[e]["removed"] = False
         entry_data[e]["removed_date"] = ""
