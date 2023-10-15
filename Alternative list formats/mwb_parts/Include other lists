@@ -15,7 +15,7 @@
 ! Title: The malicious website blocklist - extension
 ! Description: This is an extension to The malicious website blocklist for uBlock Origin and AdGuard which includes rules which can not be added to the main blocklist
 ! WARNING: This list is _not_ intended to be used on its own, or to be manually added. This list is auto-included in the uBo/AdGuard version of The malicious website blocklist
-! Last updated: 14/9/2023
+! Last updated: 14/10/2023
 
 ! ----- threats which can not or will not be blocked in the main list -----
 
@@ -143,6 +143,9 @@ youtube.com###body:has-text(/ZHAXHACK23 /i):has-text(/tele/i)
 ! shady website & related
 ||romanhackers.com^$document
 ||telegram.me/Cryptoboost01^$document
+! https://github.com/ThioJoe/YT-Spam-Lists/issues/469
+||youtube.com/watch?v=xDC7a0aiOC4^$document
+||youtube.com/watch?v=Akp_aLQE3fo^$document
 
 ! crypto website?
 cryptocurrencyvideogroup.com##.comment-body:has-text(/hackerzhiyong (on|at|is|via) telegram/i)
@@ -737,11 +740,11 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 10/10/2023
+! Last updated: 14/10/2023
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Tue, 10 Oct 2023 20:17:02 +0000
+! Sat, 14 Oct 2023 20:17:42 +0000
 ||hack-x.su/file/installs.exe^$all
 ||stable4download.ocmtancmi2c5t.website/eee.exe^$all
 ||37.221.93.230/file/1693511367-HealthProtocol.exe^$all
