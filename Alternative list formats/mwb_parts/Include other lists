@@ -15,7 +15,7 @@
 ! Title: The malicious website blocklist - extension
 ! Description: This is an extension to The malicious website blocklist for uBlock Origin and AdGuard which includes rules which can not be added to the main blocklist
 ! WARNING: This list is _not_ intended to be used on its own, or to be manually added. This list is auto-included in the uBo/AdGuard version of The malicious website blocklist
-! Last updated: 14/10/2023
+! Last updated: 19/10/2023
 
 ! ----- threats which can not or will not be blocked in the main list -----
 
@@ -229,6 +229,38 @@ www.google.*##[data-dtld="totalav.com"]
 
 ! TotalAdblock ads on https://allaboutcookies.org/privacy-issues-cookies
 allaboutcookies.org###offer-review-widget-container
+
+! hxxp[://]www.coinbase-walletpro[.]com/ from openphish
+||www.coinbase-wallet.$document,domain=~coinbase.com|~translate.goog
+! hxxp[://]steamc0ommunity[.]bos[.]ru/ from openphish
+||steamc0ommunity.$document,domain=~translate.goog
+! hxxp[://]facebooksecuritys[.]blogspot[.]tw/ from openphish
+||facebooksecuritys.$document,domain=~facebook.*|~translate.goog
+! hxxp[://]feceboolk[.]blogspot[.]sk/
+||feceboolk.$document
+! hxxp[://]whatsapp-com-videoooo-viral[.]paneldeni[.]com/
+/^https?:\/\/whatsapp-com-video/$document,domain=~translate.goog
+! hxxp[://]www[.]barclaysnet-support[.]com/
+||barclaysnet-support.$document
+! hxxp[://]instragramsecurity[.]com/
+||instragramsecurity.$document
+! hxxpx[://]fb-account-restricted-8d535[.]web[.]app/
+||fb-account-restricted-$document
+! hxxpx[://]fb-reserve-noreply-ea078[.]web[.]app/
+||fb-reserve-noreply-$document
+! hxxpx://meta-account-review-af2d[.]firebaseapp[.]com/
+||meta-account-review-$document
+! hxxpx[://]metabusiness-support-6092[.]firebaseapp[.]com/
+||metabusiness-support-$document
+! https://resolve-user-violation-c6961.web.app/
+||resolve-user-violation-$document
+
+! https://urlhaus.abuse.ch/url/2722177/
+.top/_errorpages/*.exe|$document,domain=top
+! https://urlhaus.abuse.ch/url/2722146/
+/^https?:\/\/[^/]*\/wp-content\/plugins\/[a-zA-Z0-9]*\/xt\/mmd\/shell\/.*\.exe$/$document
+! https://urlhaus.abuse.ch/url/2722091/
+/hiddenbin/boatnet.spc|$document
 
 ! ---- malware or scam browser extensions -----
 
@@ -740,11 +772,11 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 17/10/2023
+! Last updated: 18/10/2023
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Tue, 17 Oct 2023 20:19:41 +0000
+! Wed, 18 Oct 2023 20:19:26 +0000
 ||hack-x.su/file/installs.exe^$all
 ||stable4download.ocmtancmi2c5t.website/eee.exe^$all
 ||37.221.93.230/file/1693511367-HealthProtocol.exe^$all
