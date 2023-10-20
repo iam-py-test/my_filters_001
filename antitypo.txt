@@ -633,8 +633,10 @@
 ||meta-account-review-$document
 ! hxxpx[://]metabusiness-support-6092[.]firebaseapp[.]com/
 ||metabusiness-support-$document
-! https://resolve-user-violation-c6961.web.app/
+! hxxpx://resolve-user-violation-c6961[.]web[.]app/
 ||resolve-user-violation-$document
+! hxxp://metamask[.]matamaskloen[.]com/
+||metamask.matamaskloen.$document
 
 ! typo I made
 ||downlod.com^$all
