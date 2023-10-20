@@ -540,6 +540,7 @@
 # hxxpx[://]fb-reserve-noreply-ea078[.]web[.]app/
 # hxxpx://meta-account-review-af2d[.]firebaseapp[.]com/
 # hxxpx[://]metabusiness-support-6092[.]firebaseapp[.]com/
-# https://resolve-user-violation-c6961.web.app/
+# hxxpx://resolve-user-violation-c6961[.]web[.]app/
+# hxxp://metamask[.]matamaskloen[.]com/
 # typo I made
 0.0.0.0 downlod.com
