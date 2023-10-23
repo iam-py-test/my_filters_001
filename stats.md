@@ -2,11 +2,11 @@
 #### porn.txt
 Entries: 1580 <br> 
 #### antimalware.txt
-Entries: 11730 <br> 
+Entries: 11755 <br> 
 #### antitypo.txt
-Entries: 384 <br> 
+Entries: 395 <br> 
 #### anti-redirectors.txt
-Entries: 252 <br> 
+Entries: 253 <br> 
 #### anti-cookie+sign up.txt
 Entries: 344 <br> 
 #### anti-rickroll-list.txt

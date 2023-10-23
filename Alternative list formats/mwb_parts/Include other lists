@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 11/10/2023
-! Version: 11102023-4
+! Last updated: 22/10/2023
+! Version: 22102023-1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -230,11 +230,12 @@ www.google.*##[data-dtld="totalav.com"]
 ! TotalAdblock ads on https://allaboutcookies.org/privacy-issues-cookies
 allaboutcookies.org###offer-review-widget-container
 
-! hxxp[://]www.coinbase-walletpro[.]com/ from openphish
+! rules based on phishing urls listed in openphish
+! hxxp[://]www.coinbase-walletpro[.]com/
 ||www.coinbase-wallet.$document,domain=~coinbase.com|~translate.goog
-! hxxp[://]steamc0ommunity[.]bos[.]ru/ from openphish
+! hxxp[://]steamc0ommunity[.]bos[.]ru/
 ||steamc0ommunity.$document,domain=~translate.goog
-! hxxp[://]facebooksecuritys[.]blogspot[.]tw/ from openphish
+! hxxp[://]facebooksecuritys[.]blogspot[.]tw/
 ||facebooksecuritys.$document,domain=~facebook.*|~translate.goog
 ! hxxp[://]feceboolk[.]blogspot[.]sk/
 ||feceboolk.$document
@@ -256,6 +257,26 @@ allaboutcookies.org###offer-review-widget-container
 ||resolve-user-violation-$document
 ! hxxp://metamask[.]matamaskloen[.]com/
 ||metamask.matamaskloen.$document
+! hxxpx[://]attcom-102582.weeblysite[.]com/
+||attcom-$document,domain=weeblysite.com|top|example
+! hxxpx://ccoinbaselogin[.]blogspot[.]com/
+||ccoinbaselogin.$document
+! hxxpx[://]web-metamaskwallet[.]ddnss[.]eu/Q5My1hNGEyLTARgAAA3RMwAi0wMAoA/2Fn8g8ZIoTRjEMi7D3wABuGi3HAAAAA/cd4ac
+||web-metamaskwallet.$document
+! hxxp[://]sign-in-att-106455[.]weeblysite[.]com/
+||sign-in-att-$document,domain=~att.com
+! hxxp[://]account-restriction-1000967754[.]firebaseapp[.]com/
+||account-restriction-$document
+! hxxp[://]metazmskloign[.]github[.]io/
+||metazmskloign.$document
+! hxxp[://]xn--mtamask-98a[.]io/
+||xn--mtamask-$document,domain=io
+! hxxp[://]apple[.]appleidto[.]top/
+||apple.appleid$document,domain=top
+! hxxp[://]usps[.]com-ca[.]xyz/
+||usps.com-$document,domain=~usps.com|~translate.goog
+! hxxp[://]linkedindocumentinquiry[.]ap-south-1.linodeobjects[.]com/linkedinindex.html
+/^http:\/\/linkedindocumentinquiry\..*\/linkedinindex\.html$/$document
 
 ! https://urlhaus.abuse.ch/url/2722177/
 .top/_errorpages/*.exe|$document,domain=top
@@ -263,6 +284,12 @@ allaboutcookies.org###offer-review-widget-container
 /^https?:\/\/[^/]*\/wp-content\/plugins\/[a-zA-Z0-9]*\/xt\/mmd\/shell\/.*\.exe$/$document
 ! https://urlhaus.abuse.ch/url/2722091/
 /hiddenbin/boatnet.spc|$document
+
+! popups
+||refusedfellow.com^$popup
+||thatwasfresh.com^$popup,third-party
+||thinkyouknowsports.com^$popup,third-party
+||thinkyouknowsports.com^$popup,third-party
 
 ! ---- malware or scam browser extensions -----
 
@@ -774,11 +801,11 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 19/10/2023
+! Last updated: 22/10/2023
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Thu, 19 Oct 2023 20:19:36 +0000
+! Sun, 22 Oct 2023 20:18:00 +0000
 ||hack-x.su/file/installs.exe^$all
 ||stable4download.ocmtancmi2c5t.website/eee.exe^$all
 ||37.221.93.230/file/1693511367-HealthProtocol.exe^$all
