@@ -2,7 +2,7 @@ import os, sys, json, datetime, socket, random, publicsuffixlist
 import dns.resolver
 
 dead_domains = []
-p = publicsuffixlist.PublicSuffixList()
+p = publicsuffixlist.PublicSuffixList(only_icann=True)
 resolver = dns.resolver.Resolver()
 resolver.nameservers = ["https://unfiltered.adguard-dns.com/dns-query","94.140.14.140", "8.8.8.8","1.1.1.1"]
 
@@ -45,6 +45,12 @@ def is_alive(domain):
             dead_domains.append(domain)
         return False
 
+def is_valid(domain):
+    try:
+        return p.publicsuffix(domain, accept_unknown=False) != None
+    except:
+        return False
+
 try:
     entry_data = json.loads(open("entry_data.json", encoding="UTF-8").read())
 except:
@@ -68,7 +74,8 @@ for e in domain_list:
             "ever_rechecked": False,
             "readded": False,
             "origin_add": "",
-            "readd": ""
+            "readd": "",
+            "is_valid": is_valid(e)
         }
     else:
         if "check_status" not in entry_data[e]:
@@ -88,6 +95,7 @@ for e in domain_list:
         entry_data[e]["last_seen"] = current_date
         entry_data[e]["removed"] = False
         entry_data[e]["removed_date"] = ""
+        entry_data[e]["is_valid"] = is_valid(e)
         if "check_counter" not in entry_data[e]:
             entry_data[e]["check_counter"] = random.randint(0, 45)
         if "last_checked" not in entry_data[e]:
