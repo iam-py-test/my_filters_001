@@ -193,6 +193,7 @@ direct-link.net
 cdn-lv3.de
 link-center.net
 linkvertise.com
+linkvertise.net
 linkprotect.cudasvc.com
 short.gy
 o0o0oooooooo0oooooo00oo0oooo0o0oooooo0o0oooooooo0oooooo0.ooo
@@ -227,3 +228,4 @@ ablink.email.etsy.com
 tinu.be
 goo.su
 corneey.com
+dub.sh

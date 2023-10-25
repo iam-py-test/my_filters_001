@@ -379,6 +379,8 @@
 0.0.0.0 cdn-lv3.de
 0.0.0.0 link-center.net
 0.0.0.0 linkvertise.com
+# https://github.com/hagezi/dns-blocklists/issues/1751
+0.0.0.0 linkvertise.net
 # https://www.virustotal.com/gui/url/0ed4615c9ee045c652ae76001f55252a665cacbea0ed623909f8a780cbfd564d/details
 0.0.0.0 linkprotect.cudasvc.com
 0.0.0.0 short.gy
@@ -440,3 +442,5 @@
 0.0.0.0 goo.su
 # nsfw: https://tria.ge/231022-r7pjxahh3w/behavioral1
 0.0.0.0 corneey.com
+# https://github.com/hagezi/dns-blocklists/issues/1750
+0.0.0.0 dub.sh
