@@ -518,6 +518,8 @@ youtube.com##+js(href-sanitizer,a[href*="https://www.youtube.com/redirect"], ?q)
 ||cdn-lv3.de^$document
 ||link-center.net^$document
 ||linkvertise.com^$document
+! https://github.com/hagezi/dns-blocklists/issues/1751
+||linkvertise.net^$document
 
 ! https://www.virustotal.com/gui/url/0ed4615c9ee045c652ae76001f55252a665cacbea0ed623909f8a780cbfd564d/details
 ||linkprotect.cudasvc.com^$document
@@ -605,3 +607,6 @@ youtube.com##+js(href-sanitizer,a[href*="https://www.youtube.com/redirect"], ?q)
 
 ! nsfw: https://tria.ge/231022-r7pjxahh3w/behavioral1
 ||corneey.com^$document
+
+! https://github.com/hagezi/dns-blocklists/issues/1750
+||dub.sh^$document
