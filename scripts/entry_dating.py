@@ -28,6 +28,9 @@ def get_whois(domain):
 	return get_whois_data_raw(domain, server)
 
 def whois_exists(domain):
+    global dead_domains
+    if domain.endswith(".onion"): # can't test onions yet
+        return True
     try:
         whois_data = get_whois(domain)
         if "No match for" in whois_data or "No Data Found" in whois_data or "No whois information found" in whois_data:
@@ -38,6 +41,8 @@ def whois_exists(domain):
 
 def is_alive(domain):
     global dead_domains
+    if domain.endswith(".onion"): # can't test onions yet
+        return True
     try:
         return resolver.resolve(domain) != None
     except:

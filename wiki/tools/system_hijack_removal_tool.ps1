@@ -364,7 +364,7 @@ foreach($task in $chrome_tasks_files){
     Add-SHRTLog "Removed $taskpath"
 }
 
-$known_bad_runkeys = @("WindowsSecurity", "gieruwgew", "519b55464950ce55b68715cb59bcfbfb", "WindowsBootManager", "Digital Pulse", "DigitalPulse", "DriverUpdUI.exe", "757D9DEAA02700C32F987B29023E43D7", "9A600B72591E9AC18743731A7139BD9D", "Dtyywptpe")
+$known_bad_runkeys = @("WindowsSecurity", "gieruwgew", "519b55464950ce55b68715cb59bcfbfb", "WindowsBootManager", "Digital Pulse", "DigitalPulse", "DriverUpdUI.exe", "757D9DEAA02700C32F987B29023E43D7", "9A600B72591E9AC18743731A7139BD9D", "Dtyywptpe", "Windows Updates Service")
 $runkeys = @("HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run", "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce", "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run", "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce")
 foreach($runkey in $runkeys){
     $runv = (Get-ItemProperty $runkey -ErrorAction SilentlyContinue | Format-List | Out-String)

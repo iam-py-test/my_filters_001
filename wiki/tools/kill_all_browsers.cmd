@@ -20,6 +20,8 @@ taskkill /F /IM "GoogleCrashHandler64.exe"
 
 rem Edge
 taskkill /F /IM "msedge.exe"
+taskkill /F /IM "MicrosoftEdgeCP.exe"
+taskkill /F /IM "MicrosoftEdge.exe"
 
 rem Brave
 taskkill /F /IM "brave.exe"
@@ -40,5 +42,8 @@ taskkill /F /IM "yandex.exe"
 rem Chromium
 taskkill /F /IM "chromium.exe"
 taskkill /F /IM "ChromiumUpdate.exe"
+
+rem Internet Explorer
+taskkill /F /IM "iexplore.exe"
 
 echo All browsers killed

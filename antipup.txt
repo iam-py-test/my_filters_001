@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: iam-py-test's anti-PUP list
 ! Description: This list blocks sites promoting PUPs, unreliable antivirus review sites, very poorly made malware removal guides, scummy adblockers, "snake oil" programs, legitimate software installers which bundle other unrelated software, and websites which trick users into lowering their security via overly broad allowlists
-! Last updated: 9/10/2023
+! Last updated: 27/10/2023
 ! Expires: 5 days
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 
@@ -53,6 +53,7 @@ winaero.com##.widget:has([href="/fix-classic-issues-performance/"])
 ! Spyhunter promotion, acts like MacOS can be infected with Windows malware
 ||cfoc.org^$document
 ! https://github.com/iam-py-test/my_filters_001/issues/119
+! https://forums.malwarebytes.com/topic/303863-cryptpkocryptpko1-and-cryptsigcryptsig1-in-registry-and-cant-delete/
 ||sensorstechforum.com^$document
 
 ! "free registry cleaner"
