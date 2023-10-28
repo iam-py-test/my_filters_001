@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 23/10/2023
-! Version: 23102023-1
+! Last updated: 27/10/2023
+! Version: 27102023-1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -271,6 +271,9 @@
 ! Screenshots from anaysis - https://github.com/iam-py-test/Assets-001/tree/main/PUPs/Restoro (VM Env: Windows 10, Windows Defender on)
 ||restoro.com^$all
 ||www.restoro.com^$all
+||techloris.com/go/restoro/$document
+||techloris.com/lp/error8.php$document
+||techloris.com/go/restoro-download/$document
 ! https://www.virustotal.com/gui/file/f019dab3172f6ce7808d45a5b5dea92354352e302219c02a84a280978f6eb166/community
 ||go.windowsreport.com/Restoro$document
 
@@ -530,11 +533,6 @@
 
 ! Some scam redirects brought me here (https://web.archive.org/web/20230604193632/https://twitter.com/iam_py_test/status/1497351777754050562 - https://www.virustotal.com/gui/file/2e68dbec330d7ebe567dcbb67a1dffe83f6f0c278664b60f3edeee684edfe7ff/relations)
 ||drivermax.com^$document
-
-! restoro
-||techloris.com/go/restoro/$document
-||techloris.com/lp/error8.php$document
-||techloris.com/go/restoro-download/$document
 
 ! adware downloader - https://app.any.run/tasks/d1918395-7080-4292-9a71-1059bc7a90cf
 ||sway.office.com/flj90JK1oswcTJEO^$document
@@ -851,4 +849,8 @@
 
 ! sells driver updater snake oil
 ||drivereasy.com^$document
+
+! https://forums.malwarebytes.com/topic/303209-need-help-with-removing-trojan-virusvirtool32/?do=findComment&comment=1594712
+||trovi.com^$document
+||www.trovi.com^$document
 

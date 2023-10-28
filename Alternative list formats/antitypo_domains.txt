@@ -371,3 +371,4 @@ magiskmanagerroot.com
 magisk.download
 magiskmanager.com
 magisk.info
+bblck.me

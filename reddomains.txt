@@ -1,0 +1,5 @@
+||converse-finland.com^$document
+||demonia--suomi.com^$document
+||footjoyfinland.com^$document
+||palladium-finland.com^$document
+||vans-finland.com^$document
