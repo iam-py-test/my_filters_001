@@ -34,6 +34,8 @@
 ||cnews.link/totalav-$document
 ||cnews.link/try-totalav-$document
 ||cnews.link/get-totaladblock_$document
+! https://windowsreport[.]com/open-source-antivirus/
+windowsreport.com##.antivirus-item:has(img[alt="TotalAV Antivirus Logo"])
 
 ! hxxps://winaero.com/execti-run-programs-trustedinstaller/
 ||winaero.com/blog/wp-content/uploads/2020/04/OU-PCR-300.png^$all

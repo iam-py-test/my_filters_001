@@ -610,3 +610,7 @@ youtube.com##+js(href-sanitizer,a[href*="https://www.youtube.com/redirect"], ?q)
 
 ! https://github.com/hagezi/dns-blocklists/issues/1750
 ||dub.sh^$document
+
+! https://github.com/public-apis-dev/public-apis#url-shorteners
+! https://tria.ge/231028-q37dgsdd89/behavioral1
+||cleanuri.com^$document
