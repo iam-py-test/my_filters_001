@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 27/10/2023
-! Version: 27102023-1
+! Last updated: 28/10/2023
+! Version: 28102023-1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -7611,7 +7611,6 @@ $popup, third-party, denyallow=trbbt.net|turbodownload.net, domain=turbobit.net
 ||converseale.com^$document
 ||conversealesuomi.com^$document
 ||conversefi.com^$document
-||converse-finland.com^$document
 ||conversehelsinki.com^$document
 ||converseinsuomi.com^$document
 ||converseoutlethelsinki.com^$document
@@ -7626,7 +7625,6 @@ $popup, third-party, denyallow=trbbt.net|turbodownload.net, domain=turbobit.net
 ||crossfitsuomi.com^$document
 ||demonia-finland.com^$document
 ||demoniafinland.com^$document
-||demonia--suomi.com^$document
 ||demoniasuomi.com^$document
 ||demoniasuomi.net^$document
 ||demoniasuomioutlet.com^$document
@@ -7657,7 +7655,6 @@ $popup, third-party, denyallow=trbbt.net|turbodownload.net, domain=turbobit.net
 ||fjallraven-suomi.com^$document
 ||fjallravensuomi.com^$document
 ||footjoy-finland.com^$document
-||footjoyfinland.com^$document
 ||footjoyssuomi.com^$document
 ||footjoy-suomi.com^$document
 ||footjoysuomi.com^$document
@@ -7875,7 +7872,6 @@ $popup, third-party, denyallow=trbbt.net|turbodownload.net, domain=turbobit.net
 ||outletveja.com^$document
 ||outletversace.com^$document
 ||palladiumfi.com^$document
-||palladium-finland.com^$document
 ||palladiumfinland.com^$document
 ||palladiumhelsinki.com^$document
 ||palladiumoutletsuomi.com^$document
@@ -7979,7 +7975,6 @@ $popup, third-party, denyallow=trbbt.net|turbodownload.net, domain=turbobit.net
 ||uniqlosuomioutlet.com^$document
 ||vansale.net^$document
 ||vansfi.com^$document
-||vans-finland.com^$document
 ||vansfioutlet.com^$document
 ||vanshelsinki.net^$document
 ||vansoutlet-suomi.com^$document

@@ -444,3 +444,6 @@
 0.0.0.0 corneey.com
 # https://github.com/hagezi/dns-blocklists/issues/1750
 0.0.0.0 dub.sh
+# https://github.com/public-apis-dev/public-apis#url-shorteners
+# https://tria.ge/231028-q37dgsdd89/behavioral1
+0.0.0.0 cleanuri.com

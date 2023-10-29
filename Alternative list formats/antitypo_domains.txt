@@ -372,3 +372,4 @@ magisk.download
 magiskmanager.com
 magisk.info
 bblck.me
+adblockplu.org
