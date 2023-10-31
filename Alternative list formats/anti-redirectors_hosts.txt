@@ -3,7 +3,7 @@
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # Please report false positives & unblocked domains to me using the GitHub or GitLab (urls below). Thanks!
 # Expires: 1 day
-# Last updated: 22/10/2023
+# Last updated: 30/10/2023
 # Issues url: https://github.com/iam-py-test/my_filters_001/issues
 # GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 # Google redirects
@@ -447,3 +447,6 @@
 # https://github.com/public-apis-dev/public-apis#url-shorteners
 # https://tria.ge/231028-q37dgsdd89/behavioral1
 0.0.0.0 cleanuri.com
+# https://www.macworld.com/article/674491/macos-vs-ios-ipados.html
+0.0.0.0 redirectingat.com
+0.0.0.0 go.redirectingat.com
