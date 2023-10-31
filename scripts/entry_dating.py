@@ -76,6 +76,7 @@ for e in domain_list:
             "last_checked": current_date,
             "check_counter": random.randint(0, 35),
             "check_status": is_alive(e),
+            "times_checked": 1,
             "ever_rechecked": False,
             "readded": False,
             "origin_add": "",
@@ -83,12 +84,15 @@ for e in domain_list:
             "is_valid": is_valid(e)
         }
     else:
+        if "times_checked" not in entry_data[e]:
+            entry_data[e]["times_checked"] = 0
         if "check_status" not in entry_data[e]:
             domain_is_alive = is_alive(e)
             entry_data[e]["check_status"] = domain_is_alive
             entry_data[e]["last_checked"] = current_date
             entry_data[e]["check_counter"] = 0
             entry_data[e]["ever_rechecked"] = True
+            entry_data[e]["times_checked"] = 0
         if entry_data[e]["check_status"] == False:
             dead_domains.append(e)
         if "removed" in entry_data[e]:
@@ -112,6 +116,7 @@ for e in domain_list:
             entry_data[e]["last_checked"] = current_date
             entry_data[e]["check_counter"] = 0
             entry_data[e]["ever_rechecked"] = True
+            entry_data[e]["times_checked"] += 1
 
 for e in entry_data:
     if e not in domain_list and e != "last_updated":

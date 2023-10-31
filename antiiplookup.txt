@@ -25,6 +25,7 @@
 0.0.0.0 spyber.com
 0.0.0.0 api.myip.com
 0.0.0.0 checkip.dyndns.org
+0.0.0.0 ipapi.co
 # https://forums.malwarebytes.com/topic/294989-making-sense-of-a-website-exclusion-issue/
 # https://forums.malwarebytes.com/topic/294994-possible-false-positive/ (account required)
 0.0.0.0 stopify.co
