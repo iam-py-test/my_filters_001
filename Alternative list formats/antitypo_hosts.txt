@@ -4,7 +4,7 @@
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # Issues url: https://github.com/iam-py-test/my_filters_001/issues
 # GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-# Last updated: 28/10/2023
+# Last updated: 2/11/2023
 # https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 # https://www.virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
 # https://www.virustotal.com/gui/domain/xn--gogle-jua.com/detection
@@ -554,6 +554,14 @@
 # hxxp[://]usps[.]com-ca[.]xyz/
 # hxxp[://]linkedindocumentinquiry[.]ap-south-1.linodeobjects[.]com/linkedinindex.html
 0.0.0.0 /^http:\/\/linkedindocumentinquiry\..*\/linkedinindex\.html
+# hxxpx[://]metamchromextensoin[.]gitbook[.]io/us/
+# hxxpx[://]www[.]lnstagram-tropicaibaiitouts[.]com/mobile.html
+# hxxpx[://]subscription-netflix-support[.]codeanyapp[.]com/monika/jonika/account/
+# hxxpx://promote-warning-meta[.]help/3b070e09e0b9ac588d6b873cb246b2ae.html
+# hxxpx[://]mailoutlook365login[.]us-lax-1.linodeobjects.com/link.html
+# hxxp[://]office356domainlistmaintainnance231clouding1[.]brizy[.]site/
+# hxxp[://]me-metamasklogin[.]mystrikingly[.]com/
+# hxxp[://]matamask-logi[.]mystrikingly[.]com/
 # typo I made
 0.0.0.0 downlod.com
 # https://forums.malwarebytes.com/topic/303708-worried-about-drive-by-download-from-typoed-address/ (parked)
@@ -571,3 +579,5 @@
 0.0.0.0 bblck.me
 # another day another typo
 0.0.0.0 adblockplu.org
+# https://www.virustotal.com/gui/url/6afece7c72420223ae6f1700d02c8bee4806a335d23ab120522accba5e45250d
+# my analysis: https://tria.ge/231102-nctnlach68/behavioral1
