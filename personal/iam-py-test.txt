@@ -140,6 +140,7 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||tiktok*.com^$document
 ||adpointrtb.com^$document
 ||clicknewsview.com^$document
+||dnsnb8.net^$all
 
 ! ---- unwanted allowlist rules ----
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument,badfilter
