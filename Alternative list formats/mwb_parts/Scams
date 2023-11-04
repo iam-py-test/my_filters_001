@@ -277,9 +277,6 @@
 ! https://scammer.info/t/youtube-bot-roblox-scam-39/84530
 ||freeco.xyz^$all
 
-! https://scammer.info/t/youtube-bot-roblox-scam-37/84528
-||modgjn.uno^$all
-
 ! https://scammer.info/t/paypal-phishing-12/84592
 ||golemgreat122.000webhostapp.com^$all
 
@@ -316,8 +313,8 @@
 
 ! scam dating sites
 ||casualdating.com^$document
-||www.iflirts.com^$document
 ||iflirts.com^$document
+||www.iflirts.com^$document
 
 ! fake notification scams
 ||ourcoolstories.com^$all
@@ -415,8 +412,8 @@
 ||pseepsie.com^$document
 
 ! pretty sure this is a porn scam
-||www.carnalcams.com^$document
 ||carnalcams.com^$document
+||www.carnalcams.com^$document
 ! the register form doesn't do anything after entering data, just redirect back to the start
 ||fbookhookups.com^$document
 ||fuckpal.com^$document
@@ -424,16 +421,16 @@
 ||fuck-me.io^$document
 
 ! https://scammer.info/t/youtube-comment-spam/85737
-||0.acceptww.com^$all
 ||acceptww.com^$all
+||0.acceptww.com^$all
 ||8.acceptww.com^$all
 
 ! https://github.com/DandelionSprout/adfilt/issues/288
 ||discordap.com^$all
 ||forwrdnow.com^$document
 ||7lyonline.com^$document
-||get.safelyonline.net^$all
 ||safelyonline.net^$document
+||get.safelyonline.net^$all
 ||browse-safe.net^$document
 ||get.browse-safe.net^$all
 ||btpnative.com^$document
@@ -580,7 +577,7 @@
 ||upload-4ever.com^$document
 ||worldcoolfeed.com^$all
 
-! Fake discord nitro (still alive as of 11/11/2022
+! Fake discord nitro (still alive as of 11/11/2022)
 ||myget.org/feed/discord-nitro-hack/package/nuget/Free-discord-nitro-codes-2021^$document
 ||lucymods.com^$all
 ||gluegames.xyz^$all

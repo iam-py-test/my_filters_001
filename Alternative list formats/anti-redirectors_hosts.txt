@@ -450,3 +450,8 @@
 # https://www.macworld.com/article/674491/macos-vs-ios-ipados.html
 0.0.0.0 redirectingat.com
 0.0.0.0 go.redirectingat.com
+# adds tracking to all the links on a page
+0.0.0.0 georiot.com
+0.0.0.0 target.georiot.com
+# https://geniuslink[.]com/
+0.0.0.0 geni.us

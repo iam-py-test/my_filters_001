@@ -232,3 +232,6 @@ dub.sh
 cleanuri.com
 redirectingat.com
 go.redirectingat.com
+georiot.com
+target.georiot.com
+geni.us
