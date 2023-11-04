@@ -46,4 +46,8 @@ taskkill /F /IM "ChromiumUpdate.exe"
 rem Internet Explorer
 taskkill /F /IM "iexplore.exe"
 
+rem adware browsers
+taskkill /F /IM "chromstera.exe"
+taskkill /F /IM "chromnius.exe"
+
 echo All browsers killed

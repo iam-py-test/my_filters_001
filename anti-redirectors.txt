@@ -618,3 +618,12 @@ youtube.com##+js(href-sanitizer,a[href*="https://www.youtube.com/redirect"], ?q)
 ! https://www.macworld.com/article/674491/macos-vs-ios-ipados.html
 ||redirectingat.com^
 ||go.redirectingat.com^$document
+
+! adds tracking to all the links on a page
+||geniuslinkcdn.com/snippet.min.js
+||georiot.com^
+||target.georiot.com^
+
+! https://geniuslink[.]com/
+||geni.us^$document
+

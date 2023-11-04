@@ -8,3 +8,14 @@
 
 ! Scams
 ||dateadore.com^$all
+||casualdating.com^$all
+||iflirts.com^$all
+||www.iflirts.com^$all
+||carnalcams.com^$all
+||www.carnalcams.com^$all
+||fbookhookups.com^$all
+||fuckpal.com^$all
+||fuck-me.io^$all
+||dream-singles.com^$all
+||webcams-chat.com^$all
+||mydirtytinders.com^$all

@@ -47,3 +47,5 @@
 0.0.0.0 api6.ipify.org
 0.0.0.0 api64.ipify.org
 0.0.0.0 geo.ipify.org
+# https://github.com/hagezi/dns-blocklists/issues/1784
+0.0.0.0 geoip.junglefrog.com
