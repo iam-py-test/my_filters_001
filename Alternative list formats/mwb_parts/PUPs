@@ -283,6 +283,7 @@
 ! https://www.mywot.com/scorecard/iobit.com
 ! https://forums.malwarebytes.com/topic/29681-iobit-steals-malwarebytes-intellectual-property/page/5/#elControls_152972_menu
 ! https://www.virustotal.com/gui/url/1a381bcdd30c4fafbe50baa12a0446c18b875e2221330ffe2adec106f14904f4/community
+! https://github.com/hagezi/dns-blocklists/issues/1794
 ||iobit.com^$document
 ! Subdomains
 ||cdn.iobit.com^$document
@@ -322,6 +323,9 @@
 ||update.itopvpn.com^$document
 ||api.itopvpn.com^$document
 ||stats.itopvpn.com^$document
+! https://tria.ge/231105-nq2lcsee2v/behavioral1
+||itopupdate.com^$document
+||update.itopupdate.com^$document
 
 ! https://www.virustotal.com/gui/file/4efd1bc1bdc12da1bbdc597cf3f37f0c65e582f42e353cf781ac1fe422dfa68c/detection
 ! https://www.virustotal.com/gui/file/69d9d162a040888164707b7e44f4709059ad45296a832c077c0dc91afed89c05/detection
@@ -864,4 +868,9 @@
 /11/?*&lpkey=*&filename=Click%20to%20view%20the%20file%20links|$document
 ||ivedmanyyea.org^$document
 ||townrusisedprivat.info^$document
+
+! snake oil, bundles software
+! https://yewtu.be/watch?v=bIpYJoE7CxA
+! https://spyware.neocities.org/articles/ccleaner
+||ccleaner.com^$document
 
