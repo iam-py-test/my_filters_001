@@ -53,6 +53,9 @@ filescan.io##.card.advertisement-small-screen
 ! https://github.com/blocklistproject/Lists/issues/1085
 ||sanctioned-suicide.net^$all
 ||sanctioned-suicide.org^$all
+! https://github.com/hagezi/dns-blocklists/issues/1804
+||sanctionedsuicide.site^$all
+||suicidabvrputryeg3mxdwwtwnv3eqj2koztuaiko5zn5rzodtencnad.onion^$all
 
 ! ---- cookie banners ----
 sitecheck.sucuri.net##.p-0.hide.cookie-policy-banner.container-fluid
