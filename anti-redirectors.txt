@@ -627,3 +627,7 @@ youtube.com##+js(href-sanitizer,a[href*="https://www.youtube.com/redirect"], ?q)
 ! https://geniuslink[.]com/
 ||geni.us^$document
 
+! email
+||link.email.usmagazine.com^$document
+||liadm.com^
+

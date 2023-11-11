@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: iam-py-test's anti-PUP list
 ! Description: This list blocks sites promoting PUPs, unreliable antivirus review sites, very poorly made malware removal guides, scummy adblockers, "snake oil" programs, legitimate software installers which bundle other unrelated software, and websites which trick users into lowering their security via overly broad allowlists
-! Last updated: 27/10/2023
+! Last updated: 10/11/2023
 ! Expires: 5 days
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 
@@ -71,7 +71,7 @@ winaero.com##.widget:has([href="/fix-classic-issues-performance/"])
 ||chrome.google.com/webstore/detail/bye-bye-ads/hmhhfebnmmdjdpmcognacjklpbcepjak^$document
 ||vought.removeads.workers.dev^$third-party
 
-! scummy websites which trick users into lowering their security by adding overly-broad allowlists to their adblockers (allowware)
+! scummy websites which trick users into lowering their security by adding overly-broad allowlists to their adblockers
 ||work-ink.github.io^$document
 ||topcashback.*/misc/AdBlockWhiteList.aspx^$document
 
@@ -133,3 +133,10 @@ winaero.com##.widget:has([href="/fix-classic-issues-performance/"])
 ||chromstera.com^$document
 ||secure.chromstera.com^$document
 ||www.chromstera.com^$document
+
+! https://github.com/collinbarrett/FilterLists/issues/3794
+||rakuten.ca^$document
+||ebates.com^$document
+
+! https://github.com/uBlockOrigin/uAssets/pull/17981
+||aadvantageeshopping.com^$document

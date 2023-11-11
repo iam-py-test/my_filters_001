@@ -73,3 +73,17 @@
 0.0.0.0 engagement-content.avastbrowser.com
 0.0.0.0 avgbrowser.com
 0.0.0.0 update.avgbrowser.com
+
+# ReputationDefender
+# https://github.com/DandelionSprout/adfilt/issues/950
+0.0.0.0 reputationdefender.com
+
+# I Don't Care About Cookies
+# https://github.com/DandelionSprout/adfilt/issues/950
+0.0.0.0 i-dont-care-about-cookies.eu
+0.0.0.0 www.i-dont-care-about-cookies.eu
+
+# HideMyAss
+# https://github.com/DandelionSprout/adfilt/issues/950
+0.0.0.0 hidemyass.com
+0.0.0.0 www.hidemyass.com
