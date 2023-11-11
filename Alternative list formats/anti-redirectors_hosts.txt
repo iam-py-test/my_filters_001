@@ -455,3 +455,6 @@
 0.0.0.0 target.georiot.com
 # https://geniuslink[.]com/
 0.0.0.0 geni.us
+# email
+0.0.0.0 link.email.usmagazine.com
+0.0.0.0 liadm.com

@@ -235,3 +235,5 @@ go.redirectingat.com
 georiot.com
 target.georiot.com
 geni.us
+link.email.usmagazine.com
+liadm.com

@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 6/11/2023
-! Version: 6112023-1
+! Last updated: 10/11/2023
+! Version: 10112023-1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -292,6 +292,11 @@ allaboutcookies.org###offer-review-widget-container
 ||thatwasfresh.com^$popup,third-party
 ||thinkyouknowsports.com^$popup,third-party
 ||thinkyouknowsports.com^$popup,third-party
+
+! https://github.com/uBlockOrigin/uAssets/issues/20553
+! https://tria.ge/231110-pftcnsgg26/behavioral1
+$popup,third-party,domain=tii.la
+||offerimage.com^$domain=tii.la
 
 ! ---- malware or scam browser extensions -----
 
@@ -803,11 +808,11 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 07/11/2023
+! Last updated: 10/11/2023
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Tue, 07 Nov 2023 20:19:38 +0000
+! Fri, 10 Nov 2023 20:19:18 +0000
 ||hack-x.su/file/installs.exe^$all
 ||stable4download.ocmtancmi2c5t.website/eee.exe^$all
 ||37.221.93.230/file/1693511367-HealthProtocol.exe^$all
