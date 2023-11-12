@@ -1,14 +1,14 @@
 ! Title: Anti-visit counters
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Description: You know those "number of times this page has been viewed" counter images? I personally find those annoying. This is clearly just my opinion, but for those who don't want to see those anymore, this list is for you. It is very much still a work-in-progress!
-! Last updated: 12/6/2023
+! Last updated: 11/11/2023
 ! Expires: 3 days
 
 ||hits.seeyoufarm.com^$3p
 ||websitecounterfree.com^$3p
 ||free-website-hit-counter.com^$3p
 /static/hitcounter/hitcounter.gif$3p,image
-||cdn.livetrafficfeed.com/static/hitcounter/live.js^$script,3p
+||cdn.livetrafficfeed.com^$script,3p
 ||freecounterstat.com^$3p
 ||hitwebcounter.com/counter/counter.php
 ||hitwebcounter.com^$3p
@@ -17,11 +17,7 @@
 ||freevisitorcounters.com^$3p
 
 ! GitHub proxies images through their servers, bypassing the above rules
+! as of currently, I lack a solution - the rules below hide the counters but do not prevent your visit from being counted
 github.com##[data-canonical-src*="profile-counter.glitch.me/"][data-canonical-src*="/count.svg"]:remove()
 github.com##img[src][data-canonical-src*="websitecounterfree.com/c.php"]:remove()
 github.com##[data-canonical-src="https://hits.seeyoufarm.com/api/count/incr/badge.svg]
-!#if cap_html_filtering
-github.com##^[data-canonical-src*="profile-counter.glitch.me/"][data-canonical-src*="/count.svg"]
-github.com##^img[src][data-canonical-src*="websitecounterfree.com/c.php"]
-github.com##^[data-canonical-src="https://hits.seeyoufarm.com/api/count/incr/badge.svg]
-!#endif
