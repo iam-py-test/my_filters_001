@@ -293,6 +293,8 @@ Remove-Item "$env:systemdrive\Windows\Fonts\*" -Include "*.exe"
 Remove-Item "$env:public\AccountPictures\*" -Include "*.exe"
 Remove-Item "$env:localappdata\Microsoft\Windows\PowerShell" -Include "*.vbs"
 Remove-Item "HKCU:\Software\Conduit" -Recurse -Force -ErrorAction SilentlyContinue
+Remove-Item "HKLM:\Software\Wow6432Node\Conduit" -Recurse -Force -ErrorAction SilentlyContinue
+Remove-Item "HKCU:\Software\360Chrome" -Recurse -Force -ErrorAction SilentlyContinue
 Remove-Item "HKCU:\di" -Recurse -Force -ErrorAction SilentlyContinue
 Remove-Item "HKCU:\Software\Lavasoft\Web Companion" -Force -ErrorAction SilentlyContinue
 #  https://forums.malwarebytes.com/topic/301140-pupadwareheuristic-wont-quarantine/#comment-1582969

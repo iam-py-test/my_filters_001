@@ -49,3 +49,8 @@
 0.0.0.0 geo.ipify.org
 # https://github.com/hagezi/dns-blocklists/issues/1784
 0.0.0.0 geoip.junglefrog.com
+# https://www.virustotal.com/gui/file/c0e59b6f83421dbe51b16dc8420217181362d6ef8b4d6fbaa9f307f1ab510a87/relations
+0.0.0.0 freegeoip.app
+0.0.0.0 api.freegeoip.app
+0.0.0.0 ipbase.com
+0.0.0.0 api.ipbase.com

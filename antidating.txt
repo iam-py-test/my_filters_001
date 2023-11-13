@@ -5,6 +5,7 @@
 ||joyclub.de^$document
 ||pof.com^$document
 ||zoosk.com^$document
+||okcupid.com^$document
 
 ! Scams
 ||dateadore.com^$all
@@ -19,3 +20,7 @@
 ||dream-singles.com^$all
 ||webcams-chat.com^$all
 ||mydirtytinders.com^$all
+||local-hotsite.com^$all
+||track.local-hotsite.com^$all
+||academicsingles.nl^$all
+||www.academicsingles.nl^$all
