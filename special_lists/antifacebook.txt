@@ -16,6 +16,8 @@
 ||instagram.com^$all
 ||threads.net^$all
 ||cdninstagram.com^$all
+||whatsapp.net^$all
+||whatsapp.com^$all
 
 ! https://github.com/hagezi/dns-blocklists/issues/1514
 ||facebook-hardware.com^$all
