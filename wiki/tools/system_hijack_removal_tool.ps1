@@ -288,6 +288,12 @@ Remove-SHRTItemProp -Path "HKCU:\Software\Policies\Google\chrome" -Name "Downloa
 Remove-SHRTItemProp -Path "HKCU:\Software\Policies\Microsoft\Edge" -Name "DownloadRestrictions"
 Remove-SHRTItemProp -Path "HKCU:\SOFTWARE\Policies\Microsoft\Edge" -Name "HomepageLocation" -ErrorAction SilentlyContinue # https://learn.microsoft.com/en-us/DeployEdge/microsoft-edge-policies#homepagelocation
 
+Add-SHRTLog "Checking for known malware"
+$sality1 = (Test-Path "HKCU:\SOFTWARE\zrfke")
+if($sality1){
+    Add-SHRTLog "Warning: Sality detected! It is recommended you reinstall Windows"
+}
+
 Add-SHRTLog "Removing known malware"
 Remove-Item "$env:systemdrive\Windows\Fonts\*" -Include "*.exe"
 Remove-Item "$env:public\AccountPictures\*" -Include "*.exe"
@@ -297,6 +303,7 @@ Remove-Item "HKLM:\Software\Wow6432Node\Conduit" -Recurse -Force -ErrorAction Si
 Remove-Item "HKCU:\Software\360Chrome" -Recurse -Force -ErrorAction SilentlyContinue
 Remove-Item "HKCU:\di" -Recurse -Force -ErrorAction SilentlyContinue
 Remove-Item "HKCU:\Software\Lavasoft\Web Companion" -Force -ErrorAction SilentlyContinue
+Remove-Item "HKCU:\SOFTWARE\zrfke" -Recurse -Force -ErrorAction SilentlyContinue
 #  https://forums.malwarebytes.com/topic/301140-pupadwareheuristic-wont-quarantine/#comment-1582969
 Remove-Item -Path "HKCU:\SOFTWARE\353526A37049C6636D28F632A766CA4B" -force -ErrorAction SilentlyContinue
 Remove-Item -Path "HKCU:\SOFTWARE\4F905DFBB0C92199DB550940702AF609" -force -ErrorAction SilentlyContinue

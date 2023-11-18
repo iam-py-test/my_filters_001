@@ -13,3 +13,6 @@
 ||dpella.io^
 ||matomo.org^
 ||near.blog/matomo/
+||goatcounter.$first-party
+||plausible.$first-party
+||matomo.$first-party
