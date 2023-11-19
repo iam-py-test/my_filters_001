@@ -713,3 +713,6 @@
 
 ! https://www.virustotal.com/gui/domain/miccrossoffit.online/community
 ||miccrossoffit.online^$all
+
+! drive-google-com[.]tk
+||drive-google-com.$document,domain=~google.*|~translate.goog

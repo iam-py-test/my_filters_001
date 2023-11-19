@@ -54,3 +54,6 @@
 0.0.0.0 api.freegeoip.app
 0.0.0.0 ipbase.com
 0.0.0.0 api.ipbase.com
+# https://forums.lanik.us/viewtopic.php?t=48351-app-ipgeolocation-io
+0.0.0.0 ipgeolocation.io
+
