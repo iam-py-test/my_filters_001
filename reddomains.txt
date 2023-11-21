@@ -7,3 +7,15 @@
 ||wireshark-app.online^$all
 ||cilrix-corporate.online^$all
 ||workspace-app.online^$all
+||vilaverde.ru^$all
+||lamentable.ru^$all
+||raidla.ru^$all
+||boskatrem.ru^$all
+||heartbreaking.ru^$all
+||valefgo.ru^$all
+||vasifgo.ru^$all
+||absorbeni.ru^$all
+||vloperang.ru^$all
+||decorous.ru^$all
+||ramizla.ru^$all
+||procellarumbi.ru^$all
