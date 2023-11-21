@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Please report false positives & unblocked domains to me using the GitHub or GitLab (urls below). Thanks!
 ! Expires: 1 day
-! Last updated: 17/11/2023
+! Last updated: 20/11/2023
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 
@@ -633,4 +633,7 @@ youtube.com##+js(href-sanitizer,a[href*="https://www.youtube.com/redirect"], ?q)
 
 ! https://github.com/738/awesome-url-shortener/pull/31
 ||url1.io^$document
+
+! https://www.threads.net/@gossithedog/post/Cz3k6_lIdGr
+||l.instagram.com^$document
 
