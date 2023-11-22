@@ -8027,3 +8027,9 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net, domain=turbobit.net
 ! https://www.bleepingcomputer.com/news/security/bloomberg-crypto-x-account-snafu-leads-to-discord-phishing-attack/
 ||altdentifiers.com^$all
 
+! https://web.archive.org/web/20231120125914/https://www.bleepingcomputer.com/news/security/russian-hackers-use-ngrok-feature-and-winrar-exploit-to-attack-embassies/
+! https://tria.ge/231120-qafp3aga52/behavioral1
+! https://infosec.exchange/@iampytest1/111443079100649886
+||cyber-wizard.com^$all
+||iboltcyberhacker.wixsite.com^$all
+
