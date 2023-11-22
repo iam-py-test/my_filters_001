@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 20/11/2023
-! Version: 20112023-1
+! Last updated: 22/11/2023
+! Version: 22112023-1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -884,4 +884,39 @@
 ! https://infosec.exchange/@iampytest1/110736203666880292
 ||fortect.com^$document
 ||cloud.fortect.com^$document
+
+! https://tria.ge/231121-x5hw8sgc87/behavioral1
+||quickdriverupdater.com^$document
+||www.quickdriverupdater.com^$document
+||webcf.quickdriverupdater.com^$document
+||cf.quickdriverupdater.com^$document
+||qip.quickdriverupdater.com^$document
+||qdu.quickdriverupdater.com^$document
+||d8kkkzr1spalx.cloudfront.net/win/qdu/setup/*/qdurtsetup.exe$document
+||dpsro.com^$document
+||www.dpsro.com^$document
+
+! https://github.com/collinbarrett/FilterLists/issues/3794
+||rakuten.ca^$document
+||ebates.com^$document
+||www.ebates.com^$document
+
+! https://github.com/uBlockOrigin/uAssets/pull/17981
+||aadvantageeshopping.com^$document
+
+! https://github.com/iam-py-test/my_filters_001/issues/119
+! https://tria.ge/230817-a16feaee47/behavioral1
+||combocleaner.com^$document
+||www.combocleaner.com^$document
+||pcrisk.com/files/CCSetup.exe^$document
+
+! tricks users into installing an allowlist - unknown source
+||work-ink.github.io^$document
+
+! https://www.reddit.com/r/uBlockOrigin/comments/143k8lm/
+||topcashback.co.uk^$document
+||topcashback.com^$document
+
+! "free registry cleaner"
+||download.freedownloadmanager.org/Windows-PC/AML-Free-Registry-Cleaner/$document
 
