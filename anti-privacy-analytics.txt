@@ -16,3 +16,7 @@
 ||goatcounter.$first-party
 ||plausible.$first-party
 ||matomo.$first-party
+||oxitraffic.$first-party,domain=~codeberg.org|~oxitraffic.mo8it.com
+||traffic.hyteck.de^
+||mo8it.com/count.js
+||hyteck.de/count.js
