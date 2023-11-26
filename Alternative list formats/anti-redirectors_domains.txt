@@ -239,3 +239,4 @@ link.email.usmagazine.com
 liadm.com
 url1.io
 l.instagram.com
+shorter.cf
