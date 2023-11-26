@@ -16,7 +16,30 @@
 ||goatcounter.$first-party
 ||plausible.$first-party
 ||matomo.$first-party
+||ackee.$first-party,domain=~ackee.electerious.com
+||a.electerious.com^
+
+! https://github.com/easylist/easylist/issues/17826
 ||oxitraffic.$first-party,domain=~codeberg.org|~oxitraffic.mo8it.com
 ||traffic.hyteck.de^
 ||mo8it.com/count.js
 ||hyteck.de/count.js
+
+! https://github.com/hagezi/dns-blocklists/issues/1865
+||stat.kozakplus.ua^
+||analytics.ndm.ngo^
+||stats.raphaelbastide.com^
+||matomo.private.storage^
+||matomo.kaleidos.net^
+||stats.minetest.net^
+||a.littlelink-custom.com^
+||piwik.savoirfairelinux.net^
+||analytics.umputun.com^
+||umami.gumblert.tech^
+||analytics.kolaente.de^
+||pla.atlasos.net^
+||analytics.qpqp.dk^
+||t.neamar.fr^
+||ackee.zenfolio.com^
+||ackee.jfagerberg.me^
+||ackee.exuanbo.xyz^
