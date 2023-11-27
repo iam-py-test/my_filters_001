@@ -464,3 +464,5 @@
 0.0.0.0 l.instagram.com
 # https://github.com/DandelionSprout/adfilt/pull/965
 0.0.0.0 shorter.cf
+# https://github.com/uBlockOrigin/uAssets/issues/20859
+
