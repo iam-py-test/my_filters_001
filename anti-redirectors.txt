@@ -640,3 +640,7 @@ youtube.com##+js(href-sanitizer,a[href*="https://www.youtube.com/redirect"], ?q)
 ! https://github.com/DandelionSprout/adfilt/pull/965
 ||shorter.cf^$document
 
+! https://github.com/uBlockOrigin/uAssets/issues/20859
+||pepper.pl/visit/$document
+pepper.pl##+js(href-sanitizer, a[href*="https://www.pepper.pl/visit/"][title^="http"], [title])
+

@@ -26,6 +26,7 @@
 0.0.0.0 api.myip.com
 0.0.0.0 checkip.dyndns.org
 0.0.0.0 ipapi.co
+0.0.0.0 checkip.amazonaws.com
 # https://forums.malwarebytes.com/topic/294989-making-sense-of-a-website-exclusion-issue/
 # https://forums.malwarebytes.com/topic/294994-possible-false-positive/ (account required)
 0.0.0.0 stopify.co
@@ -56,4 +57,5 @@
 0.0.0.0 api.ipbase.com
 # https://forums.lanik.us/viewtopic.php?t=48351-app-ipgeolocation-io
 0.0.0.0 ipgeolocation.io
-
+# https://github.com/hagezi/dns-blocklists/issues/1873
+0.0.0.0 country.jimdo.com

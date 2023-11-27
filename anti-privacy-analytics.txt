@@ -43,3 +43,7 @@
 ||ackee.zenfolio.com^
 ||ackee.jfagerberg.me^
 ||ackee.exuanbo.xyz^
+
+! https://github.com/hagezi/dns-blocklists/issues/1873
+||matomo.slint.dev^
+||stats.ballensiefen.net^
