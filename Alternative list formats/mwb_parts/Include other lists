@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 27/11/2023
-! Version: 27112023-1
+! Last updated: 28/11/2023
+! Version: 28112023-2
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -15,18 +15,13 @@
 ! Title: The malicious website blocklist - extension
 ! Description: This is an extension to The malicious website blocklist for uBlock Origin and AdGuard which includes rules which can not be added to the main blocklist
 ! WARNING: This list is _not_ intended to be used on its own, or to be manually added. This list is auto-included in the uBo/AdGuard version of The malicious website blocklist
-! Last updated: 19/10/2023
+! Last updated: 27/11/2023
 
 ! ----- threats which can not or will not be blocked in the main list -----
 
 ! YouTube spam (i.e. on https://www.youtube.com/watch?v=K2AhNVdKq-A)
-||youtube.com/channel/UCZrAzmvX3RFXW_aQLq9jP4A^$document
-||youtube.com/channel/UCYFbUq2TA5XKS5gQjs2Tuug^$document
 ||youtube.com/channel/UCWW7EjmEmZzi6N6Y7YMUnzQ^$document
 ||youtube.com/channel/UCUYkrrkUcrrnLpmejhGmCvQ^$document
-||youtube.com/channel/UCZftc38yW5yqZI2tNsJt1sQ^$document
-||youtube.com/channel/UCI2KAIrfY5Lggly7BmonC6A^$document
-||youtube.com/channel/UCwMe941WEwthn8zH72Z-7jw^$document
 ||youtube.com/channel/UCc3Vmwa4H_7d_TqPMM2QKAw^$document
 ||youtube.com/channel/UCrp5QRVp6PFHIrNg7gD4YZQ^$document
 ||youtube.com/channel/UC98HAYotaYL_GHD_ejmxX7g^$document
@@ -152,6 +147,8 @@ youtube.com###body:has-text(/ZHAXHACK23 /i):has-text(/tele/i)
 ||youtube.com/watch?v=oqL_qItz-m8^$document
 ! https://github.com/ThioJoe/YT-Spam-Lists/issues/479
 ||youtube.com/watch?v=S6fj4Pzry6E^$document
+! https://github.com/ThioJoe/YT-Spam-Lists/issues/482
+||youtube.com/watch?v=PtIVwTMcJn0^$document
 
 ! crypto website?
 cryptocurrencyvideogroup.com##.comment-body:has-text(/hackerzhiyong (on|at|is|via) telegram/i)
@@ -812,11 +809,11 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 26/11/2023
+! Last updated: 27/11/2023
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Sun, 26 Nov 2023 20:18:41 +0000
+! Mon, 27 Nov 2023 20:20:33 +0000
 ||hack-x.su/file/installs.exe^$all
 ||stable4download.ocmtancmi2c5t.website/eee.exe^$all
 ||37.221.93.230/file/1693511367-HealthProtocol.exe^$all
