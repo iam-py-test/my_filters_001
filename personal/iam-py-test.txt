@@ -113,6 +113,9 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||deepnude.to^$all
 ||chaturbate.com^$all
 ||3dporndude.com^$all
+||youporn.com^$all
+||brazzers.com^$all
+||nutaku.$document
 
 ! ---- suspected malware ----
 ||inghesatin.com^$all
