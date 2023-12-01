@@ -18,4 +18,7 @@ taskkill /F /IM "cscript.exe"
 reg add "HKLM\SOFTWARE\Microsoft\Windows Script Host\Settings" /v Enabled /d 0 /t REG_DWORD /f
 reg add "HKCU\SOFTWARE\Microsoft\Windows Script Host\Settings" /v Enabled /d 0 /t REG_DWORD /f
 
+rem https://www.bleepingcomputer.com/news/microsoft/how-to-block-windows-plug-and-play-auto-installing-insecure-apps/
+reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Device Installer" /v DisableCoInstallers /d 1 /t REG_DWORD /f
+
 pause
