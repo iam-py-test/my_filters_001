@@ -3,6 +3,8 @@ pause
 
 rem Remove malware
 del /F %appdata%\*.exe
+rd /q /s "c:\ProgramData\Babylon RAT" > nul
+del /f /q "c:\Program Files\Google\Chrome\updaters.exe" > nul
 
 rem https://support.huntress.io/hc/en-us/articles/12353342482195
 rem https://www.youtube.com/watch?v=tu6FzFfzhF4
@@ -20,5 +22,8 @@ reg add "HKCU\SOFTWARE\Microsoft\Windows Script Host\Settings" /v Enabled /d 0 /
 
 rem https://www.bleepingcomputer.com/news/microsoft/how-to-block-windows-plug-and-play-auto-installing-insecure-apps/
 reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Device Installer" /v DisableCoInstallers /d 1 /t REG_DWORD /f
+
+rem UAC
+reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v PromptOnSecureDesktop /d 1 /t REG_DWORD /f
 
 pause

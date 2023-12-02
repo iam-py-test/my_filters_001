@@ -18,6 +18,8 @@
 ||matomo.$first-party
 ||ackee.$first-party,domain=~ackee.electerious.com
 ||a.electerious.com^
+||matomo.cloud^
+||anon-stats.eff.org^
 
 ! https://github.com/easylist/easylist/issues/17826
 ||oxitraffic.$first-party,domain=~codeberg.org|~oxitraffic.mo8it.com

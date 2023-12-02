@@ -62,3 +62,6 @@
 0.0.0.0 ipgeolocation.io
 # https://github.com/hagezi/dns-blocklists/issues/1873
 0.0.0.0 country.jimdo.com
+# https://github.com/hagezi/dns-blocklists/issues/1886
+0.0.0.0 2ip.me
+0.0.0.0 api.2ip.me
