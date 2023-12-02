@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results, along with other annoyances
 ! Expires: 1 day
 ! Last updated: 7/4/2023
-! Last auto-generated: 01/12/2023
+! Last auto-generated: 02/12/2023
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -3689,6 +3689,9 @@ search.brave.com##div.fdb.snippet:has(a[href*="://systemmeasures.life"])
 search.brave.com##div.fdb.snippet:has(a[href*="://xyzcreators.xyz"])
 search.brave.com##div.fdb.snippet:has(a[href*="://veritiesgarlejobade.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://hotkabachok.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://dbmobile-phototan.de"])
+search.brave.com##div.fdb.snippet:has(a[href*="://ne-correos.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://unikey.vn"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublockerext.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://quatrefeuillepolonaise.xyz"])
@@ -12377,6 +12380,23 @@ search.brave.com##div.fdb.snippet:has(a[href*="://213.248.43.54"])
 search.brave.com##div.fdb.snippet:has(a[href*="://67.217.57.54"])
 search.brave.com##div.fdb.snippet:has(a[href*="://89.190.156.180"])
 search.brave.com##div.fdb.snippet:has(a[href*="://34.74.68.195"])
+search.brave.com##div.fdb.snippet:has(a[href*="://104.194.130.185"])
+search.brave.com##div.fdb.snippet:has(a[href*="://109.234.156.180"])
+search.brave.com##div.fdb.snippet:has(a[href*="://128.140.123.187"])
+search.brave.com##div.fdb.snippet:has(a[href*="://149.248.76.158"])
+search.brave.com##div.fdb.snippet:has(a[href*="://152.89.198.77"])
+search.brave.com##div.fdb.snippet:has(a[href*="://193.106.175.11"])
+search.brave.com##div.fdb.snippet:has(a[href*="://195.85.115.195"])
+search.brave.com##div.fdb.snippet:has(a[href*="://212.193.48.80"])
+search.brave.com##div.fdb.snippet:has(a[href*="://213.227.154.170"])
+search.brave.com##div.fdb.snippet:has(a[href*="://217.12.206.218"])
+search.brave.com##div.fdb.snippet:has(a[href*="://45.129.14.157"])
+search.brave.com##div.fdb.snippet:has(a[href*="://45.143.136.123"])
+search.brave.com##div.fdb.snippet:has(a[href*="://45.144.28.76"])
+search.brave.com##div.fdb.snippet:has(a[href*="://45.87.154.158"])
+search.brave.com##div.fdb.snippet:has(a[href*="://78.24.222.162"])
+search.brave.com##div.fdb.snippet:has(a[href*="://85.208.107.228"])
+search.brave.com##div.fdb.snippet:has(a[href*="://91.203.193.162"])
 search.brave.com##div.fdb.snippet:has(a[href*="://5.8.47.3"])
 search.brave.com##div.fdb.snippet:has(a[href*="://5.8.34.26"])
 search.brave.com##div.fdb.snippet:has(a[href*="://103.224.182.251"])

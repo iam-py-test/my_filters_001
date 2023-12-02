@@ -4,7 +4,7 @@
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # Issues url: https://github.com/iam-py-test/my_filters_001/issues
 # GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-# Last updated: 29/11/2023
+# Last updated: 1/12/2023
 # https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 # https://www.virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
 # https://www.virustotal.com/gui/domain/xn--gogle-jua.com/detection
@@ -562,6 +562,7 @@
 # hxxp[://]office356domainlistmaintainnance231clouding1[.]brizy[.]site/
 # hxxp[://]me-metamasklogin[.]mystrikingly[.]com/
 # hxxp[://]matamask-logi[.]mystrikingly[.]com/
+# hxxp[://]optusnet-com[.]blogspot[.]md/
 # typo I made
 0.0.0.0 downlod.com
 # https://forums.malwarebytes.com/topic/303708-worried-about-drive-by-download-from-typoed-address/ (parked)
@@ -587,3 +588,7 @@
 0.0.0.0 miccrossoffit.online
 # drive-google-com[.]tk
 # https://github.com/DandelionSprout/adfilt/discussions/932#discussioncomment-7694946
+# https://www.virustotal.com/gui/url/69a1570512a5694049a9444ab6c0dd73432f3685894eb3d4d1e7dba7ce99766d/community
+0.0.0.0 ne-correos.top
+# account required: https://forums.malwarebytes.com/topic/305116-fake-software-homepage/
+0.0.0.0 unikey.vn
