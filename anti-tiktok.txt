@@ -21,3 +21,7 @@
 
 ! https://github.com/hagezi/dns-blocklists/issues/1445
 ||byteglb.com^$all
+
+! https://github.com/hagezi/dns-blocklists/issues/1890
+||bytescm.com^$all
+||lf-cdn-tos.bytescm.com^$all
