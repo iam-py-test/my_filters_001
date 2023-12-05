@@ -49,3 +49,17 @@
 ! https://github.com/hagezi/dns-blocklists/issues/1873
 ||matomo.slint.dev^
 ||stats.ballensiefen.net^
+
+! https://github.com/hagezi/dns-blocklists/issues/1892
+||stats.beasy.nl^
+||bstats.nl^
+||matomo.dolicloud.com^
+||matomo.oneresource.com^
+||matomo.ranzware.com^
+||matomo.beeble.com^
+||matomo.ruedesecoles.com^
+||matomo.easterngraphics.com^
+||matomo.simsnetwork.com^
+||matomo.civilfleet.org^
+||matomo.bitkom.org^
+||motomo.raid.dp.ua^
