@@ -131,6 +131,8 @@
 ||youtube.com/watch?v=QdezFxHfatw^$document,frame
 ||youtube.com/watch?v=Ykup4vetvmw^$document,frame
 ||youtube.com/watch?v=nsCIeklgp1M^$document,frame
+||youtube.com/watch?v=GtL1huin9EE^$document,frame
+||youtube.com/watch?v=3BFTio5296w^$document,frame
 !Embeds - fixed by catch-all, maybe have false positives
 !||youtube-nocookie.com/embed/dQw4w9WgXcQ$all
 ! Embed catch-all? - may cause breakage, but none seen yet

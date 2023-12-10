@@ -18,6 +18,7 @@
 ||cdninstagram.com^$all
 ||whatsapp.net^$all
 ||whatsapp.com^$all
+||instagr.am^$all
 
 ! https://github.com/hagezi/dns-blocklists/issues/1514
 ||facebook-hardware.com^$all
