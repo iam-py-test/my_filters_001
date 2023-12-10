@@ -6,11 +6,11 @@ Entries: 12722 <br>
 #### antitypo.txt
 Entries: 425 <br> 
 #### anti-redirectors.txt
-Entries: 269 <br> 
+Entries: 270 <br> 
 #### anti-cookie+sign up.txt
 Entries: 344 <br> 
 #### anti-rickroll-list.txt
-Entries: 229 <br> 
+Entries: 231 <br> 
 #### annoyances.txt
 Entries: 109 <br> 
 #### duckduckgo-clean-up.template
