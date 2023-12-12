@@ -574,6 +574,7 @@ system-scan-tool.online
 tracklinker.space
 trkmyclk.xyz
 trk-server.xyz
+ihrkontosichern.eu
 extragifis.site
 goldprize.xyz
 diabasewoodhouse.xyz
@@ -1970,7 +1971,6 @@ gym-shark-hungary.com
 gymsharkinus.com
 gymsharknzsale.com
 gymsharkportugalstore.com
-gymsharkpt.com
 gym-shark-romania.com
 gymsharksbelgie.com
 gymshark-suomi.com
@@ -2049,6 +2049,7 @@ revokea.sh
 travix-works.com
 xairdrop.biz
 directchats.site
+totadblock.com
 itopupdate.com
 enigmasoft.net
 humanverified.net
