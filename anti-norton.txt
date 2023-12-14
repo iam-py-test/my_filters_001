@@ -9,6 +9,7 @@
 0.0.0.0 norton.com
 0.0.0.0 stats.norton.com
 0.0.0.0 analytics-login.norton.com
+0.0.0.0 nortonlifelock.com
 
 # Avast
 0.0.0.0 avast.com
