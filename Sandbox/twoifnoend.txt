@@ -1,5 +1,5 @@
 ||example.edu^
-!#if true
+!#if ext_ublock
 ||example.net^
-!#if true
+!#if ext_ublock
 ||example.org^
