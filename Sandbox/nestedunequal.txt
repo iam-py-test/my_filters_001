@@ -1,0 +1,7 @@
+||example.com^
+!#if true
+||example.edu^
+!#if true
+||example.net^
+!#endif
+||example.org^

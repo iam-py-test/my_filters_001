@@ -1,0 +1,5 @@
+||example.net^
+!#if
+||example.com^
+!#endif
+||example.org^
