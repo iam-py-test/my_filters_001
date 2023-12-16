@@ -1,7 +1,7 @@
 ||example.com^
-!#if true
+!#if ext_ublock
 ||example.edu^
-!#if true
+!#if ext_ublock
 ||example.net^
 !#endif
 ||example.org^
