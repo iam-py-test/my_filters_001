@@ -496,6 +496,7 @@ qz94.com
 thecoopmodel.com
 winscp-apps.online
 wireshark-app.online
+cilrix-corporate.online
 workspace-app.online
 downloadlekem.sbs
 magistv.video
@@ -2043,7 +2044,6 @@ vanssuomioutlet.com
 veja-finland.com
 vejahelsinki.com
 vejassuomi.com
-vejasuomi.net
 vivobarefootale.com
 vivobarefootfi.com
 vivobarefoot-suomi.com
