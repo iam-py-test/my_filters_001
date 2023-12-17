@@ -52,6 +52,7 @@
 ||work^$all
 ||md^$all
 ||mov^$all
+||dad^$document
 
 ! hosting
 ||weebly.*^$document

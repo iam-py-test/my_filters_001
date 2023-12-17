@@ -116,6 +116,8 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||youporn.com^$all
 ||brazzers.com^$all
 ||nutaku.$document
+||xxxclub.to^$all
+||kekma.$all
 
 ! ---- suspected malware ----
 ||inghesatin.com^$all
@@ -147,6 +149,7 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 ||adpointrtb.com^$document
 ||clicknewsview.com^$document
 ||dnsnb8.net^$all
+||cyberchef.$document,domain=~github.io
 
 ! ---- unwanted allowlist rules ----
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument,badfilter

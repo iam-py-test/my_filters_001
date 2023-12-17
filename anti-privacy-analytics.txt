@@ -66,3 +66,10 @@
 
 ! https://github.com/badmojr/1Hosts/issues/1584
 ||safeanalytics.net^
+
+! https://github.com/hagezi/dns-blocklists/issues/1946
+||tracking.nine.com.ua^
+||matomo.revenite.ai^
+||matomo.prewave.ai^
+||matomo.agorahero.ai^
+||matomo.ivix.ai^
