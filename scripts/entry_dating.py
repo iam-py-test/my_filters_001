@@ -5,6 +5,7 @@ dead_domains = []
 p = publicsuffixlist.PublicSuffixList(only_icann=True)
 resolver = dns.resolver.Resolver()
 resolver.nameservers = ["https://unfiltered.adguard-dns.com/dns-query","94.140.14.140", "8.8.8.8","1.1.1.1"]
+already_resolved = {}
 
 def get_whois_data_raw(domain, server):
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -41,14 +42,40 @@ def whois_exists(domain):
 
 def is_alive(domain):
     global dead_domains
+    global already_resolved
+    if domain in already_resolved:
+        return True
+    if domain in dead_domains:
+        return False
     if domain.endswith(".onion"): # can't test onions yet
         return True
     try:
-        return resolver.resolve(domain) != None
+        res_ips = list(resolver.resolve(domain))
+        found_ips = []
+        for ip in res_ips:
+            found_ips.append(ip.address)
+        already_resolved[domain] = found_ips
+        return True
     except:
         if domain not in dead_domains and whois_exists(domain) == False:
             dead_domains.append(domain)
         return False
+
+def get_ips(domain):
+    global already_resolved
+    if domain in already_resolved:
+        return already_resolved[domain]
+    if domain in dead_domains:
+        return []
+    try:
+        res_ips = list(resolver.resolve(domain))
+        found_ips = []
+        for ip in res_ips:
+            found_ips.append(ip.address)
+        already_resolved[domain] = found_ips
+        return found_ips
+    except:
+        return []
 
 def is_valid(domain):
     try:
@@ -81,7 +108,8 @@ for e in domain_list:
             "readded": False,
             "origin_add": "",
             "readd": "",
-            "is_valid": is_valid(e)
+            "is_valid": is_valid(e),
+            "ips": get_ips(e)
         }
     else:
         if "times_checked" not in entry_data[e]:
@@ -93,6 +121,10 @@ for e in domain_list:
             entry_data[e]["check_counter"] = 0
             entry_data[e]["ever_rechecked"] = True
             entry_data[e]["times_checked"] = 0
+            if "ips" not in entry_data[e]:
+                entry_data[e]["ips"] = get_ips(e)
+        elif "ips" not in entry_data[e]:
+            entry_data[e]["ips"] = []
         if entry_data[e]["check_status"] == False:
             dead_domains.append(e)
         if "removed" in entry_data[e]:
