@@ -470,3 +470,5 @@
 0.0.0.0 track.canva.com
 # https://github.com/AdguardTeam/AdguardFilters/issues/93230
 0.0.0.0 smart.link
+# from Jobcenter Tycoon
+0.0.0.0 2no.co
