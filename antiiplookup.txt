@@ -69,3 +69,5 @@
 0.0.0.0 geoip.rc.today
 0.0.0.0 geoip.amazing.media
 0.0.0.0 geoip.pandascore.co
+# from Jobcenter Tycoon
+0.0.0.0 2no.co

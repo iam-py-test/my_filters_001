@@ -649,3 +649,6 @@ pepper.pl##+js(href-sanitizer, a[href*="https://www.pepper.pl/visit/"][title^="h
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/93230
 ||smart.link^$document
+
+! from Jobcenter Tycoon
+||2no.co^$document
