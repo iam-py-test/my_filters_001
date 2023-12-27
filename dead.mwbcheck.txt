@@ -500,6 +500,7 @@ wireshark-app.online
 cilrix-corporate.online
 workspace-app.online
 downloadlekem.sbs
+anacondastoresaleau.com
 magistv.video
 tele-latino.com
 latino9.com
@@ -2039,6 +2040,7 @@ timberland-suomi.com
 timberlandsuomi.net
 uniqloale.com
 uniqlohelsinki.com
+uniqlo-suomi.com
 uniqlosuomi.com
 uniqlosuomi.net
 uniqlosuomioutlet.com
