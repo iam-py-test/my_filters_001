@@ -11,3 +11,6 @@
 
 ! https://github.com/yokoffing/Betterfox/issues/238
 ||dropmefile.com^$document
+
+! https://github.com/RPiList/specials/issues/1402
+||disk.yandex.ru^$document
