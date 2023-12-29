@@ -72,7 +72,7 @@ def parse(lines):
           lcontents += line + "\n"
           done_entries.append(line)
           done_domains.append(domain)
-          if "/" not in line and isipdomain(domain) == False and "#" not in domain:
+          if "/" not in line and isipdomain(domain) == False and "#" not in domain or "$" in domain or domain.endswith("."):
             all_domains.append(domain)
       except Exception as err:
         print(err)
