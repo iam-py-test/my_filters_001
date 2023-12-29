@@ -733,3 +733,7 @@
 
 ! https://www.virustotal.com/gui/domain/base-usps.top/community
 ||base-usps.top^$all
+
+! https://github.com/RPiList/specials/issues/1404
+||bonprix-sale.shop^$all
+||bonprix-sale.$document

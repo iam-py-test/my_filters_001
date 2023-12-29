@@ -95,6 +95,10 @@ entry_data["last_updated"] = current_date
 
 for e in domain_list:
     if e not in entry_data and e != "last_updated":
+        entry_is_alive = is_alive(e)
+        dead_since = ""
+        if entry_is_alive != True:
+            dead_since = current_date
         entry_data[e] = {
             "first_seen": current_date,
             "last_seen": current_date,
@@ -102,14 +106,16 @@ for e in domain_list:
             "removed_date": "",
             "last_checked": current_date,
             "check_counter": random.randint(0, 35),
-            "check_status": is_alive(e),
+            "check_status": entry_is_alive,
+            "alive_on_creation": entry_is_alive,
             "times_checked": 1,
             "ever_rechecked": False,
             "readded": False,
             "origin_add": "",
             "readd": "",
             "is_valid": is_valid(e),
-            "ips": get_ips(e)
+            "ips": get_ips(e),
+            "dead_since": dead_since
         }
     else:
         if "times_checked" not in entry_data[e]:
@@ -118,6 +124,8 @@ for e in domain_list:
             domain_is_alive = is_alive(e)
             entry_data[e]["check_status"] = domain_is_alive
             entry_data[e]["last_checked"] = current_date
+            if domain_is_alive != True:
+                entry_data[e]["dead_since"] = current_date
             entry_data[e]["check_counter"] = 0
             entry_data[e]["ever_rechecked"] = True
             entry_data[e]["times_checked"] = 0
@@ -149,6 +157,8 @@ for e in domain_list:
             entry_data[e]["check_counter"] = 0
             entry_data[e]["ever_rechecked"] = True
             entry_data[e]["times_checked"] += 1
+            if domain_is_alive != True:
+                entry_data[e]["dead_since"] = current_date
 
 for e in entry_data:
     if e not in domain_list and e != "last_updated":
