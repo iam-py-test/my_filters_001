@@ -8091,3 +8091,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ! https://github.com/RPiList/specials/issues/1400
 ||america4internationalstudents.com^$document
 
+! https://github.com/RPiList/specials/issues/1404
+||bonprix-sale.shop^$all
+||bonprix-sale.$document
+

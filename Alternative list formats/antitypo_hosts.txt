@@ -595,3 +595,5 @@
 # https://threatfox.abuse.ch/browse.php?search=ioc%3Adiscord-gg.duckdns.org
 # https://www.virustotal.com/gui/domain/base-usps.top/community
 0.0.0.0 base-usps.top
+# https://github.com/RPiList/specials/issues/1404
+0.0.0.0 bonprix-sale.shop
