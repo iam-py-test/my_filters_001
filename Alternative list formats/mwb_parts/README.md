@@ -5,6 +5,6 @@ Sections:
 [Scams](./Scams)<br>
 [PUPs](./PUPs)<br>
 [Spam](./Spam)<br>
-[Abusive Cryptominers](./Abusive%20Cryptominers)<br>
+[Resource Abuse](./Resource%20Abuse)<br>
 [Stalkerware](./Stalkerware)<br>
 [Include other lists](./Include%20other%20lists)<br>

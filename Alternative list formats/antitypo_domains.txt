@@ -379,3 +379,5 @@ ne-correos.top
 unikey.vn
 base-usps.top
 bonprix-sale.shop
+deepl.cm
+gimail.su

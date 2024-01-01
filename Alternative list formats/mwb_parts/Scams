@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 29/12/2023
-! Version: 29122023-1
+! Last updated: 30/12/2023
+! Version: 30122023-1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -8094,4 +8094,10 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ! https://github.com/RPiList/specials/issues/1404
 ||bonprix-sale.shop^$all
 ||bonprix-sale.$document
+
+! https://github.com/durablenapkin/scamblocklist/issues/73
+||bite-life.com^$all
+
+! scam
+||medium.com/@liamm7203/hire-a-hacker-to-change-university-grades-transcripts-lee-ultimate-hac-0ea869b69aca^$all
 
