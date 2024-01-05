@@ -73,3 +73,7 @@
 ||matomo.prewave.ai^
 ||matomo.agorahero.ai^
 ||matomo.ivix.ai^
+
+! https://github.com/hagezi/dns-blocklists/issues/2012
+||posthog.com^
+||posthog2.fluffleinfra.net^
