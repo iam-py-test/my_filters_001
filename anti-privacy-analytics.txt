@@ -19,6 +19,7 @@
 ||ackee.$first-party,domain=~ackee.electerious.com
 ||a.electerious.com^
 ||matomo.cloud^
+||cdn.matomo.cloud^
 ||anon-stats.eff.org^
 
 ! https://github.com/easylist/easylist/issues/17826
