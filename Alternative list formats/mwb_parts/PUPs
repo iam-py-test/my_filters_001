@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 13/1/2024
-! Version: 1312024-1
+! Last updated: 15/1/2024
+! Version: 1512024-1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -11,13 +11,13 @@
 ! Note: This list includes a version of VXVault.net's malware distribution url list, formatted for adblockers, which is at https://github.com/iam-py-test/vxvault_filter
 
 
-! https://www.virustotal.com/gui/url/c7e3137c4baaad64dcbbafd1938f581f264944fa1e2c1aa1ebcff77ed2959082/links
+! https://virustotal.com/gui/url/c7e3137c4baaad64dcbbafd1938f581f264944fa1e2c1aa1ebcff77ed2959082/links
 ! https://safeweb.norton.com/report/show?url=https://www.totalav.com/ultra-deal?exit
-! https://www.virustotal.com/gui/url/a15311f27a16908dfa87b8ce6cf0302d8c8260f32ce7171845fc73bd4d9769d2/detection
-! https://www.virustotal.com/gui/url/dbc664226fd57c865f66bbaeae0d7270904c4ad735d0eb0ead4511e817392943/detection
-! https://www.virustotal.com/gui/domain/www.totalav.com/detection
+! https://virustotal.com/gui/url/a15311f27a16908dfa87b8ce6cf0302d8c8260f32ce7171845fc73bd4d9769d2/detection
+! https://virustotal.com/gui/url/dbc664226fd57c865f66bbaeae0d7270904c4ad735d0eb0ead4511e817392943/detection
+! https://virustotal.com/gui/domain/www.totalav.com/detection
 ! https://quttera.com/detailed_report/totalav.com
-! https://www.virustotal.com/gui/domain/totalav.com/community
+! https://virustotal.com/gui/domain/totalav.com/community
 ! https://github.com/VernonStow/Filterlist/issues/3
 ! https://discussions.apple.com/thread/8226797
 ! https://malwaretips.com/threads/total-av-is-it-a-scam.80362/
@@ -30,7 +30,7 @@
 ! *many* deceptive ads
 ||totalav.com^$all
 ||www.totalav.com^$all
-! https://www.virustotal.com/gui/file/7a75c2c9695157772541cd426d057ff382d011a2791bcc3e511d94592ab0dbb7/relations
+! https://virustotal.com/gui/file/7a75c2c9695157772541cd426d057ff382d011a2791bcc3e511d94592ab0dbb7/relations
 ||api.totalav.com^$all
 ! Subdomains
 ||secure.totalav.com^$all
@@ -129,7 +129,7 @@
 ||download.scanguard.com^$all
 ! An alias for TotalAV
 ! https://safeweb.norton.com/report/show?url=pcprotect.com
-! https://www.virustotal.com/gui/url/523e692076d4eff5dba80a52bca9c01aa77b4e1dac6598aa78574cab1297497a/community
+! https://virustotal.com/gui/url/523e692076d4eff5dba80a52bca9c01aa77b4e1dac6598aa78574cab1297497a/community
 ! https://www.mywot.com/scorecard/pcprotect.com
 ||pcprotect.com^$all
 ||www.pcprotect.com^$all
@@ -145,7 +145,7 @@
 ! scammers - now hiring
 ||protected-net.breezy.hr^$document
 ! A scam adblocker (use uBlock Origin, AdGuard, or even AdBlock Plus. They are all better then TotalAdBlock)
-! VirusTotal scan of Android version: https://www.virustotal.com/gui/file/24ce64dfa6937c5ede674b2ba33d6818bfa9f8bb4d36ff8da9aff39e05b8e41c/detection
+! VirusTotal scan of Android version: https://virustotal.com/gui/file/24ce64dfa6937c5ede674b2ba33d6818bfa9f8bb4d36ff8da9aff39e05b8e41c/detection
 ! https://apps.apple.com/app/totaladblock/id1564900435 (only two reviews?)
 ! https://tria.ge/231024-3lc5jace3w/behavioral1
 ! https://infosec.exchange/@iampytest1/111292640449421381
@@ -172,7 +172,7 @@
 ||extension.protected.net^$all
 ||totaladblocker.xyz^$all
 ||www.totaladblocker.xyz^$all
-! https://www.virustotal.com/gui/ip-address/34.117.171.15/relations
+! https://virustotal.com/gui/ip-address/34.117.171.15/relations
 ||34.117.171.15^$document
 ||totalwebshield.xyz^$document
 ||www.totalwebshield.xyz^$document
@@ -184,31 +184,31 @@
 ||winzipregistryoptimizer.com^$document
 ||download.winzipregistryoptimizer.com^$document
 ! WinZip ads
-! https://www.virustotal.com/gui/url/cad59b610a95e69019638d171c2df89adb7eac183968e102e37396b806fa57bd/community
+! https://virustotal.com/gui/url/cad59b610a95e69019638d171c2df89adb7eac183968e102e37396b806fa57bd/community
 ||winzipdriverupdater.com^$document
 ||slowness.winzipdriverupdater.com^$document
-! https://www.virustotal.com/gui/url/e5e8624a07064fc3a296dcab3b0b578ac0ed6d841094489e8bec989653deb93c/detection
-! https://www.virustotal.com/gui/ip-address/3.222.136.53/relations
+! https://virustotal.com/gui/url/e5e8624a07064fc3a296dcab3b0b578ac0ed6d841094489e8bec989653deb93c/detection
+! https://virustotal.com/gui/ip-address/3.222.136.53/relations
 ||winzipultimatepccare.com^$document
 ||www.winzipultimatepccare.com^$document
 ||winzipdisktools.com^$document
 ||winzipsystemtools.com^$document
 
 ! It is a very bad sign when Windows Defender blocks a file, and it is not a false positive
-! https://www.virustotal.com/gui/url/b27f7a631ee2bcf759ab82fa976980c2704c787ecd21abc8b591b7fc93d96ee1/detection
+! https://virustotal.com/gui/url/b27f7a631ee2bcf759ab82fa976980c2704c787ecd21abc8b591b7fc93d96ee1/detection
 ! https://github.com/iam-py-test/Assets-001/tree/main/PUPs/SpeedCat
 ! Installer
-! https://www.virustotal.com/gui/file/3f4c860c2689984f7edab62d5a5459840dc9515ec2c7a94b6fea6878481a3992/detection
+! https://virustotal.com/gui/file/3f4c860c2689984f7edab62d5a5459840dc9515ec2c7a94b6fea6878481a3992/detection
 ! https://www.hybrid-analysis.com/sample/3f4c860c2689984f7edab62d5a5459840dc9515ec2c7a94b6fea6878481a3992
 ! https://www.hybrid-analysis.com/sample/3f4c860c2689984f7edab62d5a5459840dc9515ec2c7a94b6fea6878481a3992/60f6d24211dc4473a31cd34a
 ! Other files and the app
-! https://www.virustotal.com/gui/file/792bb2a2bd9f148d0b7dca1a98b4a310a30490c6523fc53a1f1e535e53d62389/detection
-! https://www.virustotal.com/gui/file/57c40a9d2e592d968daa0f092abfa7abe2b41c47eb718adb770bd6930ec0dba4/detection
-! https://www.virustotal.com/gui/file/f395839a00762a5e0428cb2cf596d80c56ba2be78cc3e6a3c89afb5c1f904db9/detection
-! https://www.virustotal.com/gui/file/ff652f10ac6dbf8d4965f6624339c67e02715cf499ad8b26c1a683bd503e4136/detection
+! https://virustotal.com/gui/file/792bb2a2bd9f148d0b7dca1a98b4a310a30490c6523fc53a1f1e535e53d62389/detection
+! https://virustotal.com/gui/file/57c40a9d2e592d968daa0f092abfa7abe2b41c47eb718adb770bd6930ec0dba4/detection
+! https://virustotal.com/gui/file/f395839a00762a5e0428cb2cf596d80c56ba2be78cc3e6a3c89afb5c1f904db9/detection
+! https://virustotal.com/gui/file/ff652f10ac6dbf8d4965f6624339c67e02715cf499ad8b26c1a683bd503e4136/detection
 ! https://quttera.com/detailed_report/pcspeedcat.com
 ||pcspeedcat.com^$all
-! https://www.virustotal.com/gui/domain/pcspeedcat.com/relations
+! https://virustotal.com/gui/domain/pcspeedcat.com/relations
 ||cdn.pcspeedcat.com^$all
 ||vold.pcspeedcat.com^$all
 ||www.pcspeedcat.com^$all
@@ -221,7 +221,7 @@
 ! Found in the shady Bing ads when searching for ADWCleaner
 ! Before downloading, ADWCleaner detected no adware. After downloading, ADWCleaner detected adware, which included the program. Program claims that buying the paid version (and entering private data) will fix issues with a clean VM. 
 ! This also adds unneeded start up tasks (why would it need start up tasks?). In total, Malwarebytes detected 99 threats.
-! https://www.virustotal.com/gui/url/681984dd59e84ade5ad3c7b93842dd3b8b759992e7a5f5a1a2aa8dd04f4c823e/community
+! https://virustotal.com/gui/url/681984dd59e84ade5ad3c7b93842dd3b8b759992e7a5f5a1a2aa8dd04f4c823e/community
 ||mycleanpc.com^$document
 ! I saw the www in the results
 ||www.mycleanpc.com^$document
@@ -262,13 +262,13 @@
 
 ! https://github.com/DandelionSprout/adfilt/compare/c3d04d61c9...4a2d9d2efa
 ! link on https://www.windowsdispatch.com/fix-system-restore-0x81000203-error-code/
-! https://www.virustotal.com/gui/url/41ada9c74d64537274173ea01f61fae7c7bdce2d660b64abb11546563fc6bf10/community
+! https://virustotal.com/gui/url/41ada9c74d64537274173ea01f61fae7c7bdce2d660b64abb11546563fc6bf10/community
 ! The installer
-! https://www.virustotal.com/gui/file/5d99408fc2f7bc85f2c4bc6dcd762008bfecd5c8dcaaacf9c9bdc2914ddd22b1/detection
+! https://virustotal.com/gui/file/5d99408fc2f7bc85f2c4bc6dcd762008bfecd5c8dcaaacf9c9bdc2914ddd22b1/detection
 ! Files related to the PUP program
-! https://www.virustotal.com/gui/file/fcf484d1009b4136c8655d32484babb0a284cbcb112ced7647194aea9e7688df/detection
-! https://www.virustotal.com/gui/file/67252e30a59ddc58c273555bfd306343ec61e3f198a1c2d3eb30d8a93ec4fffa/detection
-! https://www.virustotal.com/gui/file/5ef7eedfa7f283f180c1de80803e8d5c81fee09750ca044f018a098a94ad85c1/detection
+! https://virustotal.com/gui/file/fcf484d1009b4136c8655d32484babb0a284cbcb112ced7647194aea9e7688df/detection
+! https://virustotal.com/gui/file/67252e30a59ddc58c273555bfd306343ec61e3f198a1c2d3eb30d8a93ec4fffa/detection
+! https://virustotal.com/gui/file/5ef7eedfa7f283f180c1de80803e8d5c81fee09750ca044f018a098a94ad85c1/detection
 ! Malwarebytes detection - https://blog.malwarebytes.com/detections/pup-optional-restoro/
 ! Screenshots from anaysis - https://github.com/iam-py-test/Assets-001/tree/main/PUPs/Restoro (VM Env: Windows 10, Windows Defender on)
 ||restoro.com^$all
@@ -276,15 +276,15 @@
 ||techloris.com/go/restoro/$document
 ||techloris.com/lp/error8.php$document
 ||techloris.com/go/restoro-download/$document
-! https://www.virustotal.com/gui/file/f019dab3172f6ce7808d45a5b5dea92354352e302219c02a84a280978f6eb166/community
+! https://virustotal.com/gui/file/f019dab3172f6ce7808d45a5b5dea92354352e302219c02a84a280978f6eb166/community
 ||go.windowsreport.com/Restoro$document
 
 ! https://www.bleepingcomputer.com/virus-removal/page/2/
-! https://www.virustotal.com/gui/url/1a381bcdd30c4fafbe50baa12a0446c18b875e2221330ffe2adec106f14904f4/community
-! https://www.virustotal.com/gui/file/50abca232390db8eb28a17b9fa5386631857c7c14d1b43d0adcdaf90178a4f7c/community
+! https://virustotal.com/gui/url/1a381bcdd30c4fafbe50baa12a0446c18b875e2221330ffe2adec106f14904f4/community
+! https://virustotal.com/gui/file/50abca232390db8eb28a17b9fa5386631857c7c14d1b43d0adcdaf90178a4f7c/community
 ! https://www.mywot.com/scorecard/iobit.com
 ! https://forums.malwarebytes.com/topic/29681-iobit-steals-malwarebytes-intellectual-property/page/5/#elControls_152972_menu
-! https://www.virustotal.com/gui/url/1a381bcdd30c4fafbe50baa12a0446c18b875e2221330ffe2adec106f14904f4/community
+! https://virustotal.com/gui/url/1a381bcdd30c4fafbe50baa12a0446c18b875e2221330ffe2adec106f14904f4/community
 ! https://github.com/hagezi/dns-blocklists/issues/1794
 ||iobit.com^$document
 ! Subdomains
@@ -330,28 +330,28 @@
 ||update.itopupdate.com^$document
 ||stats.itopupdate.com^$document
 
-! https://www.virustotal.com/gui/file/4efd1bc1bdc12da1bbdc597cf3f37f0c65e582f42e353cf781ac1fe422dfa68c/detection
-! https://www.virustotal.com/gui/file/69d9d162a040888164707b7e44f4709059ad45296a832c077c0dc91afed89c05/detection
-! https://www.virustotal.com/gui/file/fd9dbb971a9995f6d146237933fbe27f18217d3cacbb6da121de4cc9590030be/relations
+! https://virustotal.com/gui/file/4efd1bc1bdc12da1bbdc597cf3f37f0c65e582f42e353cf781ac1fe422dfa68c/detection
+! https://virustotal.com/gui/file/69d9d162a040888164707b7e44f4709059ad45296a832c077c0dc91afed89c05/detection
+! https://virustotal.com/gui/file/fd9dbb971a9995f6d146237933fbe27f18217d3cacbb6da121de4cc9590030be/relations
 ! https://github.com/iam-py-test/Assets-001/tree/main/PUPs/Restoro
-! https://www.virustotal.com/gui/url/16766e8681f0bf474ec3238d4b6d7f33047f5f368abef0aac13001d2be0a757d/detection
+! https://virustotal.com/gui/url/16766e8681f0bf474ec3238d4b6d7f33047f5f368abef0aac13001d2be0a757d/detection
 ! https://blog.malwarebytes.com/detections/pup-optional-reimage/
 ||2-spyware.com/reimage/download$all
 ||2-spyware.com/download/ReimageRepair$all
-! https://www.virustotal.com/gui/url/16766e8681f0bf474ec3238d4b6d7f33047f5f368abef0aac13001d2be0a757d/detection
+! https://virustotal.com/gui/url/16766e8681f0bf474ec3238d4b6d7f33047f5f368abef0aac13001d2be0a757d/detection
 ||reimageplus.com^$all
 ||cdnrep.reimageplus.com^$all
 ! More reimage - new name, new SHA256, new domain?
-! https://www.virustotal.com/gui/url/3493793318d49332b789aba96de7937c468c5f6a20d6fdbf8da87832183c5d07/detection
+! https://virustotal.com/gui/url/3493793318d49332b789aba96de7937c468c5f6a20d6fdbf8da87832183c5d07/detection
 ! https://github.com/iam-py-test/Assets-001/tree/main/PUPs/Restoro_2
-! https://www.virustotal.com/gui/file/fd9dbb971a9995f6d146237933fbe27f18217d3cacbb6da121de4cc9590030be/relations
+! https://virustotal.com/gui/file/fd9dbb971a9995f6d146237933fbe27f18217d3cacbb6da121de4cc9590030be/relations
 ||reimage.org^$all
 ||www.reimage.org^$all
 ! Nobody names their legit domain after malware and then is detected on VirusTotal
-! https://www.virustotal.com/gui/url/deef544081c813ee971cfa78d8145e5a050ea5eccc3d5718b033d00b64c5f9f4/detection
+! https://virustotal.com/gui/url/deef544081c813ee971cfa78d8145e5a050ea5eccc3d5718b033d00b64c5f9f4/detection
 ||reimage.com^$all
 
-! https://www.virustotal.com/gui/file/af7b36c0f9f48f35315877e3cd5efb83c1a122a043ea9228db7da9c1c3c3120b/community
+! https://virustotal.com/gui/file/af7b36c0f9f48f35315877e3cd5efb83c1a122a043ea9228db7da9c1c3c3120b/community
 ! https://github.com/iam-py-test/Assets-001/blob/main/PUPs/MediaGet/mediaget_detections.jpeg
 ||mediaget.com^$all
 ! found by @DandelionSprout in https://github.com/DandelionSprout/adfilt/issues/253
@@ -362,16 +362,16 @@
 ||23.111.31.137^$document
 ||23.111.88.207^$document
 
-! https://www.virustotal.com/gui/file/05f052c64d192cf69a462a5ec16dda0d43ca5d0245900c9fcb9201685a2e7748/detection
-! https://www.virustotal.com/gui/url/f938821627f117b561598186343cf47ce5f75b89b8d149a3efe885f9eba51942/community
-! https://www.virustotal.com/gui/file/a367e0562e612bc66729f3a4676bad849e5c3c32fad8223b5ea991e11604f5fe/details
+! https://virustotal.com/gui/file/05f052c64d192cf69a462a5ec16dda0d43ca5d0245900c9fcb9201685a2e7748/detection
+! https://virustotal.com/gui/url/f938821627f117b561598186343cf47ce5f75b89b8d149a3efe885f9eba51942/community
+! https://virustotal.com/gui/file/a367e0562e612bc66729f3a4676bad849e5c3c32fad8223b5ea991e11604f5fe/details
 ! ADWCleaner detects malware after execution. File opens webpage with generic 'your system has issues' message
 ||driveragent.com^$all
 ! https://www.joesandbox.com/analysis/237782/0/html#domains
 ||secure.driveragent.com^$all
 ||driveragent-web-126513135.us-east-1.elb.amazonaws.com^$third-party
 
-! https://www.virustotal.com/gui/file/61ddc79c421d13052f0acdb838d1a68d98c5e4eda0058f018f72a65474135d08/detection
+! https://virustotal.com/gui/file/61ddc79c421d13052f0acdb838d1a68d98c5e4eda0058f018f72a65474135d08/detection
 ! https://github.com/DandelionSprout/adfilt/issues/254
 ! https://blog.malwarebytes.com/detections/onesafe-software-com/
 ||onesafesoftware.com^$all
@@ -386,7 +386,7 @@
 ||stats.onesafesoftware.com^$all
 ||www.onesafesoftware.com^$all
 
-! https://www.virustotal.com/gui/file/a6e89d2bb1c2da1d852fb8e248f39cf7b3d4b0ea05a8d8f343d1b8e74d271d43/relations
+! https://virustotal.com/gui/file/a6e89d2bb1c2da1d852fb8e248f39cf7b3d4b0ea05a8d8f343d1b8e74d271d43/relations
 ||driversupport.com^$document
 ||front.driversupport.com^$document
 ||secure.driversupport.com^$document
@@ -415,29 +415,29 @@
 
 ! Original inspection
 ! disable uBlock Origin and go to https://www.google.com/search?q=clean+up+computer+to+run+faster&source=hp&ei=Y4KzYIrUL-rP0PEPqM2liAc&iflsig=AINFCbYAAAAAYLOQcwKl4vglkAEcsALPhO6XEyguHxPP&oq=clean+up+comp&gs_lcp=Cgdnd3Mtd2l6EAEYATICCAAyAggAMgIIADICCAAyBQgAEMkDMgIIADICCAAyAggAMgIIADICCAA6DgguELEDEMcBEKMCEJMCOgsILhCxAxDHARCjAjoFCAAQsQM6CAgAELEDEIMBOggILhDHARCjAjoOCC4QsQMQgwEQxwEQrwE6CAgAEOoCEI8BOggILhCxAxCDAToICC4QxwEQrwE6BQguELEDOggILhCxAxCTAjoICAAQsQMQyQM6BQgAEJIDOgsILhDHARCjAhCTAjoCCC46BQguEJMCUOUoWKCDAWDakwFoAnAAeACAAYoDiAGaFJIBCDAuMTQuMC4xmAEAoAEBqgEHZ3dzLXdperABCg&sclient=gws-wiz
-! https://www.virustotal.com/gui/url/2f44cf878800c082d5fefb8326cf384fe12393ecfcca05e64903c5888f4c762c/detection
-! https://www.virustotal.com/gui/url/c6290089eb08d05375650bfb7778713e1e9443ac1d8d180df44bd8ddd49124f9/detection
-! https://www.virustotal.com/gui/domain/www.pchelpsoft.com/relations
+! https://virustotal.com/gui/url/2f44cf878800c082d5fefb8326cf384fe12393ecfcca05e64903c5888f4c762c/detection
+! https://virustotal.com/gui/url/c6290089eb08d05375650bfb7778713e1e9443ac1d8d180df44bd8ddd49124f9/detection
+! https://virustotal.com/gui/domain/www.pchelpsoft.com/relations
 ! https://www.mywot.com/scorecard/pchelpsoft.com
 ! https://safeweb.norton.com/report/show_mobile?name=https://www.pchelpsoft.com/pc-cleaner/lp1-ms-us/?tracking=PH_EN_PP_GO_SE_PCC_US&keyword=speed%20up%20my%20pc&campaignID=ADWORDS&gclid=EAIaIQobChMIsOqVwrTx8AIV9xmtBh17swHGEAAYASAAEgLr1fD_BwE
-! https://www.virustotal.com/gui/url/3cfe4ec34704092b5ad0c03b1f9566b538c11e3e0434a73991cdc2694db26582/detection
+! https://virustotal.com/gui/url/3cfe4ec34704092b5ad0c03b1f9566b538c11e3e0434a73991cdc2694db26582/detection
 ! https://www.urlvoid.com/scan/pchelpsoft.com/
 ! https://sitecheck.sucuri.net/results/pchelpsoft.com
 ! https://www.fortiguard.com/webfilter?q=pchelpsoft.com
 ! Inspection on 23/7/2021
-! https://www.virustotal.com/gui/url/3cfe4ec34704092b5ad0c03b1f9566b538c11e3e0434a73991cdc2694db26582/detection
+! https://virustotal.com/gui/url/3cfe4ec34704092b5ad0c03b1f9566b538c11e3e0434a73991cdc2694db26582/detection
 ! https://safeweb.norton.com/reviews?url=pchelpsoft.com
 ! https://www.mywot.com/en/scorecard/pchelpsoft.com
-! Setup file (installer) - https://www.virustotal.com/gui/file/7ab506784dcc49c916cdff2076132dafc881ac268e54aba39d6af2ca6ce0c775/details
+! Setup file (installer) - https://virustotal.com/gui/file/7ab506784dcc49c916cdff2076132dafc881ac268e54aba39d6af2ca6ce0c775/details
 ! Related files
-! https://www.virustotal.com/gui/file/04ef20ed8a783aaa91082865ed99c079cf2bf9f67908d536fdb9e227b19401f0/detection
-! https://www.virustotal.com/gui/file/192dc080f0c52222e03c074e3a38a8b3cc5b31605457fd6acd447bf7488a89d8/relations
-! https://www.virustotal.com/gui/file/40157e1981b97206658667927fbdc484c7e9615591884cfed2d6cadc9e3f1b4c/detection
-! A 'driver updater' it wanted me to install - https://www.virustotal.com/gui/file/965bf402594ee539ce61d2a593c421b1c7ed6e1969369ae4a7866c17b2281a3c/detection
+! https://virustotal.com/gui/file/04ef20ed8a783aaa91082865ed99c079cf2bf9f67908d536fdb9e227b19401f0/detection
+! https://virustotal.com/gui/file/192dc080f0c52222e03c074e3a38a8b3cc5b31605457fd6acd447bf7488a89d8/relations
+! https://virustotal.com/gui/file/40157e1981b97206658667927fbdc484c7e9615591884cfed2d6cadc9e3f1b4c/detection
+! A 'driver updater' it wanted me to install - https://virustotal.com/gui/file/965bf402594ee539ce61d2a593c421b1c7ed6e1969369ae4a7866c17b2281a3c/detection
 ! https://forums.malwarebytes.com/topic/200216-removal-instructions-for-pccleaner/
 ! Screenshots - https://github.com/iam-py-test/Assets-001/tree/main/PUPs/PCHelpSoft
 ! 19/9/2022: https://app.any.run/tasks/3c8b1d38-de18-488a-9e3f-62b3354c17e8
-! 6/11/2022: https://app.any.run/tasks/da8a44c3-965f-4fd6-816d-b5ae16235f62 (https://www.virustotal.com/gui/file/5475c9cff70482b8b5bf2c31395f9463261313991b41743686e4c8c43e53df0b/detection)
+! 6/11/2022: https://app.any.run/tasks/da8a44c3-965f-4fd6-816d-b5ae16235f62 (https://virustotal.com/gui/file/5475c9cff70482b8b5bf2c31395f9463261313991b41743686e4c8c43e53df0b/detection)
 ||pchelpsoft.com^$document
 ||www.pchelpsoft.com^$document
 ||cloud.pchelpsoft.com^$document
@@ -447,7 +447,7 @@
 ||pchelpsoft.net^$document
 ||www.pchelpsoft.net^$document
 
-! https://www.virustotal.com/gui/url/27307acb5b127114423ed0d7c63aaed0013d1833f56c158a3b049f8d1c98dcbc/detection
+! https://virustotal.com/gui/url/27307acb5b127114423ed0d7c63aaed0013d1833f56c158a3b049f8d1c98dcbc/detection
 ! Download button redirects to advancedsystemrepair.com
 ||pccleaner.com^$document
 ! The PUP from this website looks like a past one; maybe a variant or another download location
@@ -461,18 +461,18 @@
 ||checkout.advancedsystemrepair.com^$all
 
 ! Found this PUP on someone else's computer, so I decided to figure more about it. It does look very old; even the UI sometimes looks like Windows 7 despite the VM running 10
-! The (working) installer (from Softonic) - https://www.virustotal.com/gui/file/863adfe03c1ea35c424817274eabe4eef02fe4a2d6428f8718e61655fb8bc49c/detection
-! The program (according to Malwarebytes's IOC report) - https://www.virustotal.com/gui/file/2aad06624e9b698ec0dc0276b433c606a4858d6585028cd658ae7c697358ffec/detection
+! The (working) installer (from Softonic) - https://virustotal.com/gui/file/863adfe03c1ea35c424817274eabe4eef02fe4a2d6428f8718e61655fb8bc49c/detection
+! The program (according to Malwarebytes's IOC report) - https://virustotal.com/gui/file/2aad06624e9b698ec0dc0276b433c606a4858d6585028cd658ae7c697358ffec/detection
 ! https://blog.malwarebytes.com/detections/pup-optional-slimcleanerplus/
 ! All the domains seem to be related to this PUP
-! https://www.virustotal.com/gui/url/f7be15d28340acb7db31f63a62a26bad1253824f2424117a816203950e86fd22/community
+! https://virustotal.com/gui/url/f7be15d28340acb7db31f63a62a26bad1253824f2424117a816203950e86fd22/community
 ||slimware.com^$all
-! https://www.virustotal.com/gui/url/440e39a20d7e01064269dadfc38eafd80c8534f7391f2c1ef7ac41c10d9c4e20/detection
+! https://virustotal.com/gui/url/440e39a20d7e01064269dadfc38eafd80c8534f7391f2c1ef7ac41c10d9c4e20/detection
 ||slimcleaner.com^$all
 ||www.slimcleaner.com^$all
-! https://www.virustotal.com/gui/url/946a5c2295cfef547f162350af93257df55d6b2103a0ce2e84b241cf727a81f6/detection
+! https://virustotal.com/gui/url/946a5c2295cfef547f162350af93257df55d6b2103a0ce2e84b241cf727a81f6/detection
 ||slimwareutilities.com^$all
-! The executable from the website (https://www.virustotal.com/gui/file/d9103347f6043f0266a6480b6c794a4ee9f07800db43b6301920fe97587066d2/detection) seemed broken, but this one (maybe an older/newer mirror) works
+! The executable from the website (https://virustotal.com/gui/file/d9103347f6043f0266a6480b6c794a4ee9f07800db43b6301920fe97587066d2/detection) seemed broken, but this one (maybe an older/newer mirror) works
 ||slimcleaner-plus.en.softonic.com^$all
 ! Other TLDs
 ||slimcleaner-plus.softonic.com.tr^$document
@@ -508,7 +508,7 @@
 ! https://github.com/iam-py-test/my_filters_001/issues/84
 ||mackeeper.com^$document
 
-! https://www.virustotal.com/gui/file/088cbcec6b80eba99eb691968e0f972935aae301e9cb6d1c6133699530dd5621/community
+! https://virustotal.com/gui/file/088cbcec6b80eba99eb691968e0f972935aae301e9cb6d1c6133699530dd5621/community
 ||secure-browser.io^$document
 ||d1z0mfyqx7ypd2.cloudfront.net/securebrowser.io/$all
 
@@ -538,7 +538,7 @@
 ||searchtoolshub.com^$document
 ||find.searchtoolshub.com^$all
 
-! Some scam redirects brought me here (https://web.archive.org/web/20230604193632/https://twitter.com/iam_py_test/status/1497351777754050562 - https://www.virustotal.com/gui/file/2e68dbec330d7ebe567dcbb67a1dffe83f6f0c278664b60f3edeee684edfe7ff/relations)
+! Some scam redirects brought me here (https://web.archive.org/web/20230604193632/https://twitter.com/iam_py_test/status/1497351777754050562 - https://virustotal.com/gui/file/2e68dbec330d7ebe567dcbb67a1dffe83f6f0c278664b60f3edeee684edfe7ff/relations)
 ||drivermax.com^$document
 
 ! adware downloader - https://app.any.run/tasks/d1918395-7080-4292-9a71-1059bc7a90cf
@@ -624,8 +624,8 @@
 ||adblocker-app.info^$all
 
 ! https://blog.malwarebytes.com/detections/pup-optional-bytefence/
-! https://www.virustotal.com/gui/file/21dfa4ed47de7007c0fb6eadb3f94d2e847b3f4e301767d2320623f02f0926ba
-! https://www.virustotal.com/gui/file/d41405553da0287be81722125b35405ad90923e7aa0631b5e5c6ab80358355ca
+! https://virustotal.com/gui/file/21dfa4ed47de7007c0fb6eadb3f94d2e847b3f4e301767d2320623f02f0926ba
+! https://virustotal.com/gui/file/d41405553da0287be81722125b35405ad90923e7aa0631b5e5c6ab80358355ca
 ! https://safeweb.norton.com/reviews?url=bytefence.com
 ! https://www.mywot.com/scorecard/bytefence.com
 ||download.cnet.com/ByteFence-Anti-Malware/$document
@@ -643,24 +643,24 @@
 ||new.bytefence.com^$document
 
 ! https://www.youtube.com/watch?v=2tW_PDVfT-E
-! https://www.virustotal.com/gui/file/1c45ac42e4486ae5114cf287626ffb02eb03675f667d076d5c8f886ee0016d26/detection
+! https://virustotal.com/gui/file/1c45ac42e4486ae5114cf287626ffb02eb03675f667d076d5c8f886ee0016d26/detection
 ! https://github.com/iam-py-test/Assets-001/tree/main/PUPs/Auslogics_PUP_regclean
-! https://www.virustotal.com/gui/file/a54dffea1703732c3daf043462c289f4c9fc57fb27e1e9cc099b0cc03835940e/detection
+! https://virustotal.com/gui/file/a54dffea1703732c3daf043462c289f4c9fc57fb27e1e9cc099b0cc03835940e/detection
 ! https://forums.malwarebytes.com/topic/199170-false-positive-with-auslogics-boostspeed/#elControls_1116195_menu
 ||auslogics.com^$all
 ||www.auslogics.com^$all
 
-! https://www.virustotal.com/gui/file/1d26c8e2760b9d95e344dc93e4516c88c23bae5af1e888b2769186520f53021d/detection
-! https://www.virustotal.com/gui/url/c9d507f4fe1720bb0b70a799abfd548f315694f59eebea676204da1cbaee4b4f/detection
-! https://www.virustotal.com/gui/file/bba00552bb0a562a00aa70c8425e48bb1b407a72f84df6c8f69f0bf44fabf310/detection
-! https://www.virustotal.com/gui/file/0dcf7e52492de09df39f7b1f7996d61033c6f61b43d38990f43b45dd530dcdb9/relations
+! https://virustotal.com/gui/file/1d26c8e2760b9d95e344dc93e4516c88c23bae5af1e888b2769186520f53021d/detection
+! https://virustotal.com/gui/url/c9d507f4fe1720bb0b70a799abfd548f315694f59eebea676204da1cbaee4b4f/detection
+! https://virustotal.com/gui/file/bba00552bb0a562a00aa70c8425e48bb1b407a72f84df6c8f69f0bf44fabf310/detection
+! https://virustotal.com/gui/file/0dcf7e52492de09df39f7b1f7996d61033c6f61b43d38990f43b45dd530dcdb9/relations
 ! https://www.hybrid-analysis.com/sample/1d26c8e2760b9d95e344dc93e4516c88c23bae5af1e888b2769186520f53021d
 ! https://www.hybrid-analysis.com/sample/1d26c8e2760b9d95e344dc93e4516c88c23bae5af1e888b2769186520f53021d/60a4789f1522974edf38bd58
 ! https://www.hybrid-analysis.com/sample/bba00552bb0a562a00aa70c8425e48bb1b407a72f84df6c8f69f0bf44fabf310
 ! https://github.com/iam-py-test/Assets-001/tree/main/PUPs/ashampoo
 ||ashampoo.com^$document
 
-! https://www.virustotal.com/gui/url/9979729afeff4472121a6faa8d4a4b7c885a5f391b082d50585bf16929597d4e/community --> https://www.virustotal.com/gui/file/c9bb2af73703f81a31ae5a3dedbf6eebf404256b679303111c1dedf0e24879db/community
+! https://virustotal.com/gui/url/9979729afeff4472121a6faa8d4a4b7c885a5f391b082d50585bf16929597d4e/community --> https://virustotal.com/gui/file/c9bb2af73703f81a31ae5a3dedbf6eebf404256b679303111c1dedf0e24879db/community
 ! https://app.any.run/tasks/d2533d89-8e5e-4fc6-b110-bafc153c3636 (my analysis)
 ! walliant: https://www.youtube.com/watch?v=91w4rzBTP5o
 ||riversnails.club^$all
@@ -712,7 +712,7 @@
 ! https://github.com/uBlockOrigin/uAssets/issues/16582 (without an adblocker)
 ||easyprint.app^$document
 ||cdn.easyprint-cdn.app^$document
-! https://www.virustotal.com/gui/url/c7cdd1eaf651fbf4446d189d91b52b0c6a5811fb70db18b3eec1fa575057163a/detection
+! https://virustotal.com/gui/url/c7cdd1eaf651fbf4446d189d91b52b0c6a5811fb70db18b3eec1fa575057163a/detection
 ||freshysearch.com^$all
 ||cdn.freshysearch.com^$all
 
@@ -720,7 +720,7 @@
 ||tor-browser.app^$document
 
 ! two search engine hijackers
-! https://www.virustotal.com/gui/url/1ca49bde04ac00c79b259a4a02b041d91c512ca55a6d0e839f69010d0bc32061/detection
+! https://virustotal.com/gui/url/1ca49bde04ac00c79b259a4a02b041d91c512ca55a6d0e839f69010d0bc32061/detection
 ||pdftab.com^$document
 ||cdn.pdftab.com^$document
 ||findmanualsnow.com^$document
@@ -744,7 +744,7 @@
 ||gowavebrowser.com^$document
 
 ! DLL Helper
-! https://www.virustotal.com/gui/file/675a72bb2b3ea39beafc73e8faf31b85b58b0dcc169b10649d5f49341936a379
+! https://virustotal.com/gui/file/675a72bb2b3ea39beafc73e8faf31b85b58b0dcc169b10649d5f49341936a379
 ||dll-helper.en.softonic.com^$document
 
 ! search engine hijacker
