@@ -5,17 +5,17 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-! Last updated: 10/1/2024
+! Last updated: 15/1/2024
 
 ! https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
-! https://www.virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
-! https://www.virustotal.com/gui/domain/xn--gogle-jua.com/detection
+! https://virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
+! https://virustotal.com/gui/domain/xn--gogle-jua.com/detection
 ||xn--gogle-jua.com^$all
 ! https://www.mywot.com/scorecard/vrustotal.com
 ! https://safeweb.norton.com/report/show?url=vrustotal.com
 ||vrustotal.com^$document
-! https://www.virustotal.com/gui/url/eb8b44eb62e50f576631d087eec719a2e12b34272ad03e04c2356a547e6896be/community
-! https://www.virustotal.com/gui/domain/googlec.om/detection
+! https://virustotal.com/gui/url/eb8b44eb62e50f576631d087eec719a2e12b34272ad03e04c2356a547e6896be/community
+! https://virustotal.com/gui/domain/googlec.om/detection
 ! https://www.siteadvisor.com/sitereport.html?url=http%3A%2F%2Fgooglec.om
 ! https://safeweb.norton.com/report/show?url=http%3A%2F%2Fgooglec.om
 ! https://transparencyreport.google.com/safe-browsing/search?url=http:%2F%2Fgooglec.om
@@ -23,7 +23,7 @@
 ! https://safeweb.norton.com/reviews?url=googlec.om
 ! Can not resolve host but might come back some day
 ||googlec.om^$all
-! https://www.virustotal.com/gui/url/f044015cf97b2475c569b46c7dc45b152ecd991ff365facd5c9a15cdfdeb8f68/detection
+! https://virustotal.com/gui/url/f044015cf97b2475c569b46c7dc45b152ecd991ff365facd5c9a15cdfdeb8f68/detection
 ! https://www.urlvoid.com/scan/accountgoogle.com/
 ! https://www.mywot.com/scorecard/accountgoogle.com
 ||accountgoogle.com^$all
@@ -31,7 +31,7 @@
 ||googlesignin.xyz^$all
 ||signingoogle.xyz^$all
 ||logingoogle.xyz^$all
-! https://www.virustotal.com/gui/url/2778a0b6162e8c14ed450dda8aa6c32486a6c7a8c224e940e7fb41be39816fc4/detection
+! https://virustotal.com/gui/url/2778a0b6162e8c14ed450dda8aa6c32486a6c7a8c224e940e7fb41be39816fc4/detection
 ||malwarebytes.xyz^$document
 !!! w3school.com$document
 ! https://github.com/easylist/easylist/pull/7950
@@ -54,18 +54,18 @@
 ||www.youtubewon.com^$document
 ||youtubewon.com^$document
 ! https://www.reddit.com/r/mildlyinfuriating/comments/nc9zpe/got_a_paypal_or_should_i_say_paypl_phishing_email/
-! https://www.virustotal.com/gui/url/e604fa0374dbbceefaf7190bd7aa649561dfc19ff49af443d8931df40e1e1f43/detection
+! https://virustotal.com/gui/url/e604fa0374dbbceefaf7190bd7aa649561dfc19ff49af443d8931df40e1e1f43/detection
 ||paypl.com^$all
 ||paypal.xyz^$document
-! https://www.virustotal.com/gui/url/4531df5b01e2c58f9307fabecc9a17b03c6157bafc8e9af736b278e95c182dc5/detection
+! https://virustotal.com/gui/url/4531df5b01e2c58f9307fabecc9a17b03c6157bafc8e9af736b278e95c182dc5/detection
 ||payapl.com^$all
-! https://www.virustotal.com/gui/url/2b0a3525bf412601e1acea8f7ee1eb0627df843d58e2d10553ea5a81d4ba26be/detection
+! https://virustotal.com/gui/url/2b0a3525bf412601e1acea8f7ee1eb0627df843d58e2d10553ea5a81d4ba26be/detection
 ! https://www.siteadvisor.com/sitereport.html?url=cchase.com
 ||cchase.com^$document
-! https://www.virustotal.com/gui/url/6d9e9d347f3578fe8fea973820a40a0ab760165e613af323b4a025dee339c73e/detection
+! https://virustotal.com/gui/url/6d9e9d347f3578fe8fea973820a40a0ab760165e613af323b4a025dee339c73e/detection
 ! https://www.mywot.com/scorecard/blogsopt.com
 ||blogsopt.com^$all
-! https://www.virustotal.com/gui/url/76074c7a040ba1edcea412c3d1ea9098ee43ee85cffb75be5882ea553bc43d81/community
+! https://virustotal.com/gui/url/76074c7a040ba1edcea412c3d1ea9098ee43ee85cffb75be5882ea553bc43d81/community
 ! https://www.mywot.com/scorecard/g0ogle.com
 ||g0ogle.com^$document
 ! https://github.com/SOBotics/Belisarius/issues/5
@@ -84,13 +84,13 @@
 ! Look-alikes using non-ascii
 ||discōrd.com^$document
 ||rėddit.com^$document
-! https://www.virustotal.com/gui/user/Site.safetychecker
-! https://www.virustotal.com/gui/url/7108cfe6953cab08696ae1f9ab2c777b749fb53e7beb5c003756ea522c880f17/detection
+! https://virustotal.com/gui/user/Site.safetychecker
+! https://virustotal.com/gui/url/7108cfe6953cab08696ae1f9ab2c777b749fb53e7beb5c003756ea522c880f17/detection
 ||yotube.com^$all
 ! https://github.com/rcmaehl/WhyNotWin11/issues/66
 ||whynotwin11.com^$document
 ! https://github.com/blocklistproject/Lists/blob/master/malware.txt
-! https://www.virustotal.com/gui/url/7f0b595a6004b1b6b6563e39b8d147dfde6a70d714e43b8a5a3da81b857e6b8b/detection
+! https://virustotal.com/gui/url/7f0b595a6004b1b6b6563e39b8d147dfde6a70d714e43b8a5a3da81b857e6b8b/detection
 ! https://www.siteadvisor.com/sitereport.html?url=01apple.com
 ||01apple.com^$all
 ! Does not resolve to anything - yet...
@@ -98,19 +98,19 @@
 ! Might be typosquatts of yahoo
 ||yahooc.com^$document
 ||yahooc.om^$document
-! https://www.virustotal.com/gui/url/263cf0103560c531755ed20823111c0cef36108893f369e8b58885777883940e/community
+! https://virustotal.com/gui/url/263cf0103560c531755ed20823111c0cef36108893f369e8b58885777883940e/community
 ||virustotl.com^$document
-! https://www.virustotal.com/gui/url/83cbc65ef32d4eef31acf9c5cfbf6acf1a41d8689c106836770caf31f5153e06/community
+! https://virustotal.com/gui/url/83cbc65ef32d4eef31acf9c5cfbf6acf1a41d8689c106836770caf31f5153e06/community
 ||yutube.com^$document
-! https://www.virustotal.com/gui/url/8e073d1ab7f3234109c1b9382a784886631a8b8c486b55845fe9c07628dfa593/detection
+! https://virustotal.com/gui/url/8e073d1ab7f3234109c1b9382a784886631a8b8c486b55845fe9c07628dfa593/detection
 ! https://safeweb.norton.com/report/show?url=virusttal.com
 ||virusttal.com^$document,popup
-! https://www.virustotal.com/gui/url/db1da5818091e5270454bf765af7f24f8e1aec7ae7b6d0aeb384c3db95e67416/detection
+! https://virustotal.com/gui/url/db1da5818091e5270454bf765af7f24f8e1aec7ae7b6d0aeb384c3db95e67416/detection
 ! https://www.siteadvisor.com/sitereport.html?url=virustota.com
 ! https://safeweb.norton.com/report/show?url=virustota.com
 ||virustota.com^$all
 
-! https://www.virustotal.com/gui/url/7192e189a778151b8b2ac216542c1dd4c842cc5dded479941cfecfc940e44cc8/detection
+! https://virustotal.com/gui/url/7192e189a778151b8b2ac216542c1dd4c842cc5dded479941cfecfc940e44cc8/detection
 ! https://safeweb.norton.com/report/show?url=discordapp.cam
 ! https://www.siteadvisor.com/sitereport.html?url=discordapp.cam
 ||discordapp.cam^$all
@@ -302,7 +302,7 @@
 
 ! https://github.com/VernonStow/Filterlist/commit/cb04d77547497a1cd211d2eac20f8af10de01a76 (all credit to https://github.com/VernonStow for finding these domains)
 ! https://app.any.run/tasks/f204948b-3940-41d2-af50-b3db789d4ac3
-! https://www.virustotal.com/gui/file/e34575d69ee7a2c0231982d4c2e47edc9adbf7c9290caedd69ad7598a2ae759c (with junk data deleted)
+! https://virustotal.com/gui/file/e34575d69ee7a2c0231982d4c2e47edc9adbf7c9290caedd69ad7598a2ae759c (with junk data deleted)
 ||notepads-plus-plus.org^$all
 ! same file
 ||thundersbird.org^$all
@@ -361,7 +361,7 @@
 ! https://app.any.run/tasks/015824a4-f267-48df-8dde-a7ddd78f167e
 ||discordt.com^$all
 
-! https://www.virustotal.com/gui/domain/netfllpl.com/community
+! https://virustotal.com/gui/domain/netfllpl.com/community
 ||netfllpl.com^$all
 
 ! listed in some list somewhere
@@ -585,26 +585,26 @@
 ! https://threatfox.abuse.ch/ioc/1151472/
 ||yahootk.tk^$all
 
-! https://www.virustotal.com/gui/url/45a03d912eaf1ec11a69a69129b393e3b84a3f48812264c5c9f95854e4bc6a36?nocache=1
+! https://virustotal.com/gui/url/45a03d912eaf1ec11a69a69129b393e3b84a3f48812264c5c9f95854e4bc6a36?nocache=1
 ||www.paypal-com-verify.$document,domain=~translate.goog
 
 ! https://www.bleepingcomputer.com/news/security/evil-telegram-android-apps-on-google-play-infected-60k-with-spyware/
 ||telegrnm.org^$all
 
-! https://www.virustotal.com/gui/url/51a5c613fa07f8301aa68fa16e7307dbf3bf0b0dcfa015632895d7ebf7ca36d3/community
+! https://virustotal.com/gui/url/51a5c613fa07f8301aa68fa16e7307dbf3bf0b0dcfa015632895d7ebf7ca36d3/community
 ||bookingcomdetails.$document,domain=~booking.com|~translate.goog
 
 ! https://www.bleepingcomputer.com/news/security/fake-bitwarden-sites-push-new-zenrat-password-stealing-malware/
 ||bitwariden.com^$all
 ||crazygameis.com^$all
 
-! https://www.virustotal.com/gui/domain/login-office365.info/community
+! https://virustotal.com/gui/domain/login-office365.info/community
 ||login-office365.info^$all
 
 ! used to be a filesharing website - the owners gave up and the domain may be for sale
 ||anonfiles.com^$document
 
-! dead but may return: https://www.virustotal.com/gui/url/518a4fb06ce6184f62910e42eb4081998cb3c5675c977fccb7db998881f86cdc
+! dead but may return: https://virustotal.com/gui/url/518a4fb06ce6184f62910e42eb4081998cb3c5675c977fccb7db998881f86cdc
 ||steamcomunity.ru^$all
 
 ! https://github.com/libre-tube/LibreTube/issues/4409
@@ -708,14 +708,14 @@
 ! another day another typo
 ||adblockplu.org^$document
 
-! https://www.virustotal.com/gui/url/6afece7c72420223ae6f1700d02c8bee4806a335d23ab120522accba5e45250d
+! https://virustotal.com/gui/url/6afece7c72420223ae6f1700d02c8bee4806a335d23ab120522accba5e45250d
 ! my analysis: https://tria.ge/231102-nctnlach68/behavioral1
 ||apparaatbeheer-online-abnamro-icscards.$document
 
 ! https://www.bleepingcomputer.com/news/security/bloomberg-crypto-x-account-snafu-leads-to-discord-phishing-attack/
 ||altdentifiers.com^$all
 
-! https://www.virustotal.com/gui/domain/miccrossoffit.online/community
+! https://virustotal.com/gui/domain/miccrossoffit.online/community
 ||miccrossoffit.online^$all
 
 ! drive-google-com[.]tk
@@ -724,7 +724,7 @@
 ! https://github.com/DandelionSprout/adfilt/discussions/932#discussioncomment-7694946
 ||easypark-$document,domain=~translate.goog|~easypark.com|~easypark.net|~easyparkgroup.com|~easyparkpartners.com|~easyparksystem.net
 
-! https://www.virustotal.com/gui/url/69a1570512a5694049a9444ab6c0dd73432f3685894eb3d4d1e7dba7ce99766d/community
+! https://virustotal.com/gui/url/69a1570512a5694049a9444ab6c0dd73432f3685894eb3d4d1e7dba7ce99766d/community
 ||ne-correos.top^$document
 
 ! account required: https://forums.malwarebytes.com/topic/305116-fake-software-homepage/
@@ -733,7 +733,7 @@
 ! https://threatfox.abuse.ch/browse.php?search=ioc%3Adiscord-gg.duckdns.org
 ||discord-gg.$document,domain=~translate.goog
 
-! https://www.virustotal.com/gui/domain/base-usps.top/community
+! https://virustotal.com/gui/domain/base-usps.top/community
 ||base-usps.top^$all
 
 ! https://github.com/RPiList/specials/issues/1404
@@ -752,7 +752,115 @@
 ! https://github.com/Dogino/Discord-Phishing-URLs/pull/25
 ||steamcommuaity.com^$all
 
-! https://www.virustotal.com/gui/domain/booking.com-panel.com
+! https://virustotal.com/gui/domain/booking.com-panel.com
 ||com-panel.com^$document
 ||booking.com-panel.com^$all
 ||mail.com-panel.com^$document
+
+! https://virustotal.com/gui/url/3828695bc16bb9d0bfab17eb5c15e5fe9e8b30bb6cb948655a6a55466b9dc187/community
+||telegcrmz.fit^$all
+! https://virustotal.com/gui/url/53efa35943a9b0bbcc4f966791e992052ac647a883c81a43bb86dd94bbbbd48d/community
+||telegcrmz.work^$all
+||telegcrmz.$document,domain=telegcrmz.*
+! https://virustotal.com/gui/url/cf88de3dc23272e078a7412c64b12e038cd8b9dc1beb07be6ac3f017919aa09b/community
+||telejracm.fit^$all
+||telejracm.$document,domain=telejracm.fit.*
+! https://virustotal.com/gui/ip-address/103.119.3.17/relations
+||www.telegreem.club^$document
+||telejracm.work^$document
+||telejracm.club^$document
+||telejrzmn.cc^$document
+||teleptrm.fit^$document
+||teleptrm.work^$document
+||telegzzem.club^$document
+||telegzzem.fit^$document
+||telegzzem.work^$document
+||telegrnne.work^$document
+||telegrnne.fit^$document
+||telegrnne.club^$document
+||telegcrmz.club^$document
+||telegreem.club^$document
+||telegreem.work^$document
+||telegreem.vip^$document
+||telejrzmn.work^$document
+||telejrzmn.club^$document
+||telegcrenn.fit^$document
+||telegcrenn.club^$document
+||telegrczm.work^$document
+||telegrczm.fit^$document
+||teleggcam.club^$document
+||teleggcam.fit^$document
+||teleggcam.work^$document
+||www.telegceam.club^$document
+||www.teleqpcam.club^$document
+||teleqrinm.cn^$document
+||teleqrinm.com.cn^$document
+||www.teleqpamn.work^$document
+||www.teleqrinm.club^$document
+||www.teleqpcam.work^$document
+||teleqpcam.work^$document
+||teleqpcam.club^$document
+||teleqpcam.fit^$document
+||teleprannn.cc^$document
+||telegbrm.work^$document
+||telegbrm.club^$document
+||telebriun.work^$document
+||teleqpcn.fit^$document
+||teleqpcn.club^$document
+||teleqpcn.work^$document
+||teleqrenm.cc^$document
+||teleqpamn.fit^$document
+||teleqpamn.club^$document
+||teleqpamn.work^$document
+||teleqrinm.club^$document
+||teleqernm.cc^$document
+||www.teleprium.fit^$document
+||teleprannn.vip^$document
+||teleprannn.club^$document
+||www.teleqernm.fit^$document
+||telegceam.club^$document
+||telegceam.work^$document
+||teleppram.club^$document
+||teleqrenm.work^$document
+||teleqrenm.club^$document
+||www.telegczim.work^$document
+||www.telegczim.vip^$document
+||telegrcmn.cc^$document
+||teletrean.cc^$document
+||telegruim.top^$document
+||telegczim.work^$document
+||telegczim.club^$document
+||telegczim.vip^$document
+||www.telegczm.vip^$document
+||teleprium.fit^$document
+||teleprium.work^$document
+||teleprium.club^$document
+||www.telegczm.fit^$document
+||telepamn.cc^$document
+||telegczm.vip^$document
+||telegczm.club^$document
+||telegczm.fit^$document
+||tgelegrean.cc^$document
+||teleqriem.vip^$document
+||telegpem.club^$document
+||telegirmn.vip^$document
+||telebrzm.vip^$document
+||teleqcmn.work^$document
+||teleqcmn.fit^$document
+||teleqcmn.club^$document
+||teleqernm.fit^$document
+||teleqernm.club^$document
+||telegirmn.cn^$document
+||www.telegirmn.cn^$document
+||telegwam.work^$document
+||www.telegwam.work^$document
+||telegcmn.cc^$document
+||teletrpm.club^$document
+||teleprazm.club^$document
+||telegirm.cc^$document
+||www.telebriun.work^$document
+||tglegmn.work^$document
+||telegpem.fit^$document
+||telegpem.work^$document
+||tgelegrean.work^$document
+||teletrpm.fit^$document
