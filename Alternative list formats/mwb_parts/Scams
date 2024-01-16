@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 13/1/2024
-! Version: 1312024-1
+! Last updated: 15/1/2024
+! Version: 1512024-1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -15,15 +15,15 @@
 ! https://infosec.exchange/@iampytest1/111306748409652707
 ||ublock.org^$document
 
-! https://www.virustotal.com/gui/url/723d30dcc93ee90f8f04b5cc3c5d07492338c41f7aa62fb2723c7d8b91537338/community
+! https://virustotal.com/gui/url/723d30dcc93ee90f8f04b5cc3c5d07492338c41f7aa62fb2723c7d8b91537338/community
 ! https://github.com/uBlockOrigin/uAssets/issues/5854
 ||ublockerext.com^$all
 
 ! This domain has been used for typosquatting, malware, phishing, and scams (redirects to other scam/malware sites as of 17/9/2021)
 ! curl on 9/5/2021 shows it is still online
 ! https://www.siteadvisor.com/sitereport.html?url=quatrefeuillepolonaise.xyz
-! https://www.virustotal.com/gui/url/7319b37aff351dc0f0e71dba194b5f21972be9ad072b955a35d27d5af359d5fa/community
-! https://www.virustotal.com/gui/domain/quatrefeuillepolonaise.xyz/detection
+! https://virustotal.com/gui/url/7319b37aff351dc0f0e71dba194b5f21972be9ad072b955a35d27d5af359d5fa/community
+! https://virustotal.com/gui/domain/quatrefeuillepolonaise.xyz/detection
 ! https://safeweb.norton.com/report/show?url=quatrefeuillepolonaise.xyz
 ! https://www.fortiguard.com/webfilter?q=quatrefeuillepolonaise.xyz
 ! https://quttera.com/detailed_report/quatrefeuillepolonaise.xyz
@@ -38,10 +38,10 @@
 ||captcharesolving-universe.com^$all
 ||5.8.47.3^$all
 ||5.8.34.26^$all
-! https://www.virustotal.com/gui/ip-address/5.8.34.26/relations
+! https://virustotal.com/gui/ip-address/5.8.34.26/relations
 ! https://github.com/DandelionSprout/adfilt/issues/188
 ||captcharesolver.com^$all
-! https://www.virustotal.com/gui/url/136909c39798eacfc82e58459684619a4b89de8d3dedbe5a3010c5152b670328/detection
+! https://virustotal.com/gui/url/136909c39798eacfc82e58459684619a4b89de8d3dedbe5a3010c5152b670328/detection
 ! https://github.com/iam-py-test/Assets-001/blob/main/goglenet%20malware
 ||cpmstatsart.com^$all
 ! https://github.com/DandelionSprout/adfilt/issues/188#issuecomment-848834204
@@ -53,7 +53,7 @@
 ! https://securitytrails.com/list/ip/5.8.47.3
 ! https://safeweb.norton.com/report/show?url=gamesex.fun
 ! https://www.siteadvisor.com/sitereport.html?url=gamesex.fun
-! https://www.virustotal.com/gui/url/7bedfdd70bd23869a3598186270bcca9e64870842fb95df46da9ed5519e0b41c/detection
+! https://virustotal.com/gui/url/7bedfdd70bd23869a3598186270bcca9e64870842fb95df46da9ed5519e0b41c/detection
 ||gamesex.fun^$all
 ! just redirects to another blocked domain
 ! https://github.com/DandelionSprout/adfilt/issues/188
@@ -98,11 +98,11 @@
 ! https://github.com/iam-py-test/Assets-001/tree/main/uiz.io_scam
 ||uiz.io^$document
 ! More scam domains found via redirects when clicking on the fake recaptcha
-! https://www.virustotal.com/gui/url/73dae7d74bcdc9099a54b75b904cc45995d85534a313ad65fcc4d9e401b34607/detection
+! https://virustotal.com/gui/url/73dae7d74bcdc9099a54b75b904cc45995d85534a313ad65fcc4d9e401b34607/detection
 ||rewardsavenue.net^$all
-! https://www.virustotal.com/gui/url/d6745ce01da185054bd2125858e75445783976de0e5fa4a445284243830070e7/detection
+! https://virustotal.com/gui/url/d6745ce01da185054bd2125858e75445783976de0e5fa4a445284243830070e7/detection
 ||rewardsgiantusa.com^$all
-! https://www.virustotal.com/gui/url/9edd33c7a370ba96bf3a7682193e67538984eab9d1b719c2f3042599a4d3d1d5/detection
+! https://virustotal.com/gui/url/9edd33c7a370ba96bf3a7682193e67538984eab9d1b719c2f3042599a4d3d1d5/detection
 ||rewardgiantztesters.com^$document
 
 ! https://github.com/blocklistproject/Lists/issues/513
@@ -140,13 +140,13 @@
 ! ||kqzyfj.com^$all
 ! ||cj.dotomi.com^$all
 ||mcafee12.tt.omtrdc.net^$document
-! https://www.virustotal.com/gui/ip-address/70.32.1.32/relations
+! https://virustotal.com/gui/ip-address/70.32.1.32/relations
 ||clk.rtpdn14.com^$document
 ||cd.org^$document
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9848#issuecomment-907855092
-! https://www.virustotal.com/gui/url/1671d2b14f2baed1438176929ba9908270f26e41f7b17c0ce0a85bd5e9c20f35/detection
-! https://www.virustotal.com/gui/url/0eca172b2f35f81e0f222dbdf261a100c7897f734c7ba43920b67c4cddd6f8c9/detection
+! https://virustotal.com/gui/url/1671d2b14f2baed1438176929ba9908270f26e41f7b17c0ce0a85bd5e9c20f35/detection
+! https://virustotal.com/gui/url/0eca172b2f35f81e0f222dbdf261a100c7897f734c7ba43920b67c4cddd6f8c9/detection
 ||get-cracked.com^$all
 ! More related domains/urls
 ||tinyurl.com/gp84uz2^$document
@@ -224,7 +224,7 @@
 ! ||yasir252.com^$all
 ! ||www.yasir252.com^$all
 ||safelink.kadal.club^$document
-! https://forums.malwarebytes.com/topic/285824-malicious-disk-image-file-iso/ --> https://www.virustotal.com/gui/url/20ef8f13f6ed4f2ad0f25c4d98c5ba213223dd95d18ae31494b5df4305fc7a6c
+! https://forums.malwarebytes.com/topic/285824-malicious-disk-image-file-iso/ --> https://virustotal.com/gui/url/20ef8f13f6ed4f2ad0f25c4d98c5ba213223dd95d18ae31494b5df4305fc7a6c
 ||iclickcdn.com^$all
 ||bedrapiona.com^$all
 ||dozubatan.com^$all
@@ -551,7 +551,7 @@
 ! fake download buttons with popups
 ||cracked-games.org^$all
 ||prksism.com^$all
-! https://www.virustotal.com/gui/ip-address/18.210.201.44/relations
+! https://virustotal.com/gui/ip-address/18.210.201.44/relations
 ||antirobotsystem.com^$document
 
 ! fake 'no human verification' discord nitro generator
@@ -621,7 +621,7 @@
 ! https://app.any.run/tasks/a3abdf35-fa15-4115-91fb-cfc5c1e45ff4
 ||omnioffers.com^$document
 
-! https://www.virustotal.com/gui/url/98f0186f4d20f3138a4e05f58369019cee8e88153578e3d729b716d8b57c0857/community
+! https://virustotal.com/gui/url/98f0186f4d20f3138a4e05f58369019cee8e88153578e3d729b716d8b57c0857/community
 ||k6pay.top^$document
 ||h6pay.top^$all
 ||g6pay.top^$all
@@ -706,7 +706,7 @@
 ||livingyourbestlife.co^$document
 ||foxnewsweatherdaily.com^$document
 
-! https://www.virustotal.com/graph/gae4b79eddfec44439142fec34bf90890609e118340984dbd855b515b1be9cfc9
+! https://virustotal.com/graph/gae4b79eddfec44439142fec34bf90890609e118340984dbd855b515b1be9cfc9
 ||holgerstrehlow.de/discord-nitro-code-generator-no-human-verification.html^$document
 
 ! GH?
@@ -817,7 +817,7 @@
 ||filevortex.com/show.php?cl=*&l=*&u=*&id=*^$all
 ||y.promotionsonlineusa.com^$document
 
-! ads on a site --> https://www.virustotal.com/gui/url/0871f217f945c993d8624aadd5e718e9bb740096d13fad74d58b3fc3a4fdfda0
+! ads on a site --> https://virustotal.com/gui/url/0871f217f945c993d8624aadd5e718e9bb740096d13fad74d58b3fc3a4fdfda0
 ||ebaaa.xyz^$all
 ||uprimp.com^$document
 ||odaba.live^$all
@@ -939,7 +939,7 @@
 ||a.captchaless.top^$all
 ||pshmetrk.com^$document
 
-! https://www.virustotal.com/gui/url/d86dda38f96243311df2857966c047be0b4097ed4541ebe28cdc0dfc9e4ff4d2/community
+! https://virustotal.com/gui/url/d86dda38f96243311df2857966c047be0b4097ed4541ebe28cdc0dfc9e4ff4d2/community
 ! https://app.any.run/tasks/3c8b1d38-de18-488a-9e3f-62b3354c17e8
 ||talkweb.org.uk/cl/36889_md/4/5055/3668/710/150935^$document
 ||haltertrailer.info^$all
@@ -1071,7 +1071,7 @@
 ||iphone14.winnenmetje.info^$all
 ||winnenmetje.info^$document
 
-! https://www.virustotal.com/gui/url/7b40e1b7ffc3b710640ae41c529aff18e4c8cded55391d55c34b601912c5a2a2/community
+! https://virustotal.com/gui/url/7b40e1b7ffc3b710640ae41c529aff18e4c8cded55391d55c34b601912c5a2a2/community
 ! https://app.any.run/tasks/f0a198be-f4a4-4414-94c5-21ed61ae0264
 ! https://app.any.run/tasks/6600c704-20f5-4643-a9b7-322673aa7eb4
 ||www.vbucks-goo.com^$all
@@ -1145,7 +1145,7 @@
 ||contact.nationalconsumerscenter.co.uk^$document
 
 ! https://forums.malwarebytes.com/topic/292511-phishing-site-for-fake-usps-shipping-validation-information/ (account required)
-! https://www.virustotal.com/gui/url/fdefaa6e73e722536cd080b4e820f8b69b6678d5f0c74268de126d2435369386
+! https://virustotal.com/gui/url/fdefaa6e73e722536cd080b4e820f8b69b6678d5f0c74268de126d2435369386
 ||uspftiltedt.info^$all
 
 ! https://www.bleepingcomputer.com/forums/t/779953/urambledcom-just-a-nuisance-or-what/
@@ -1259,12 +1259,12 @@
 ||discordnitrocodegeneratorfree2022nohumanverification.weebly.com^$all
 ||gainforfree.com^$all
 
-! https://www.virustotal.com/gui/url/65e7a48f0f2efb758087a0d99e8482a4b3245468e959633493655754fec08f48/community
+! https://virustotal.com/gui/url/65e7a48f0f2efb758087a0d99e8482a4b3245468e959633493655754fec08f48/community
 ! https://app.any.run/tasks/58b76078-e35e-46c8-b15e-e187ed375be6
 ||bubuxflow.com^$all
 ||nationalconsumerscenter.co.uk^$document
 
-! https://www.virustotal.com/gui/url/9c7b98445c0fd303be8604f383b3c940309068ea88b37d3945f4d34bb42d6c57/community
+! https://virustotal.com/gui/url/9c7b98445c0fd303be8604f383b3c940309068ea88b37d3945f4d34bb42d6c57/community
 ! (nsfw) https://app.any.run/tasks/a8a191ea-0e54-439f-96fd-c04a04150b06
 ||expresscommusa.com^$document
 ||flirtingworld.com^$document
@@ -1283,7 +1283,7 @@
 ||cdn.ymaws.com/www.mnla.biz/resource/dynamic/blogs/20220207_071000_31161.pdf^$all
 ||cldoffers.net^$all
 
-! https://www.virustotal.com/gui/url/5808655d76b6ad31b7cc15fc266be2acb904ff8512fc1424103a6c54443bd272/community
+! https://virustotal.com/gui/url/5808655d76b6ad31b7cc15fc266be2acb904ff8512fc1424103a6c54443bd272/community
 ! https://app.any.run/tasks/f619367b-ba77-4dbb-9046-211758a7f31a (my "analysis")
 ||viptips4youtoday.world^$document
 
@@ -1304,7 +1304,7 @@
 ! https://scammer.info/t/viruses-need-to-be-removed-immediately-take-emergency-measures-trojan/117241/3
 ||install.sunlifestores.com^$document
 
-! https://www.virustotal.com/gui/url/2dabab937f09b2892f26c995365f64402574c8aa3e2f9750047131ca7a8d73d6
+! https://virustotal.com/gui/url/2dabab937f09b2892f26c995365f64402574c8aa3e2f9750047131ca7a8d73d6
 ! https://tria.ge/230109-14rdrsbd6t/behavioral1
 ||lootprime.com^$all
 ||rdr.mobiletime.net^$all
@@ -1335,7 +1335,7 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139667#issuecomment-1383935774
 ||tapwhomjay.live^$all
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139667#issuecomment-1387103725
-! https://www.virustotal.com/gui/url/5c74d63d19b8ec82321d352749977e29795a9d074fcdacce3f1c822da28a3bba/detection
+! https://virustotal.com/gui/url/5c74d63d19b8ec82321d352749977e29795a9d074fcdacce3f1c822da28a3bba/detection
 ||mindkneenay.live^$document
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139667#issuecomment-1398421015
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139667#issuecomment-1399002017
@@ -2232,13 +2232,13 @@
 ||qualitydating.top^$all
 ||a.curedating.top^$all
 ||curedating.top^$all
-! https://www.virustotal.com/gui/ip-address/5.181.203.4/relations
+! https://virustotal.com/gui/ip-address/5.181.203.4/relations
 ||finestdating.top^$document
 ||goodating.top^$document
 ||datingpoint.top^$document
 ||cutiesdating.top^$document
 ||vipdatingtime.top^$document
-! https://www.virustotal.com/gui/ip-address/195.201.253.131/relations
+! https://virustotal.com/gui/ip-address/195.201.253.131/relations
 ||sensualflirts.life^$document
 ||yourbestpartner.life^$document
 ||thebestdate.life^$document
@@ -2971,7 +2971,7 @@
 ||martoysure.live^$all
 ||goodgollygold.com^$document
 
-! https://www.virustotal.com/gui/domain/beastws.com
+! https://virustotal.com/gui/domain/beastws.com
 ! (my analysis) https://app.any.run/tasks/dc144216-7c8d-4a2b-963e-24b507124e81
 ||beastws.com^$all
 
@@ -3078,7 +3078,7 @@
 ! https://github.com/hagezi/dns-blocklists/issues/594
 ||nirvezal.com^$all
 
-! https://www.virustotal.com/gui/url/413da77a326371e24a4c334e749a54928b43ee6bcd27165167940456b9c14f52/community
+! https://virustotal.com/gui/url/413da77a326371e24a4c334e749a54928b43ee6bcd27165167940456b9c14f52/community
 ||eg-ame.com^$all
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/144514
@@ -3201,7 +3201,7 @@
 ! https://app.any.run/tasks/4bc28a83-6a39-430a-a74b-246b30ab4ae4
 ||fuwins.xyz^$all
 .xyz/1Sm/9.html?*&campaign_id=$document
-! https://www.virustotal.com/gui/ip-address/157.230.4.182/relations
+! https://virustotal.com/gui/ip-address/157.230.4.182/relations
 ||157.230.4.182^$document
 ! on the same IP, I tried a few and all of them hosted the same scam page (i.e. https://app.any.run/tasks/e9fd2b7d-d8cc-40dc-aa65-daaee7bc5558)
 ||gedins.xyz^$document
@@ -5976,7 +5976,7 @@
 ! https://github.com/uBlockOrigin/uAssets/issues/18452
 ||geminifond.com^$all
 
-! https://www.virustotal.com/gui/url/7df0f1873fb746b2eb98a9fc8245000222a31db82506d9988adc83f145c80b3a
+! https://virustotal.com/gui/url/7df0f1873fb746b2eb98a9fc8245000222a31db82506d9988adc83f145c80b3a
 ! my analysis: https://app.any.run/tasks/eb63e697-9df1-425a-814d-5e23858c146f
 ||gvcyk.mobiledir.us^$all
 ||umbrellacorporation.id^$all
@@ -6013,7 +6013,7 @@
 ! https://www.bleepingcomputer.com/forums/t/786537/mcafee-popup/
 ||www.mistiotia.com^$document
 
-! https://www.virustotal.com/gui/url/73d9ff9f34da3e716e5b549746d789655bb42bfaadbdeaf13d70cae63768f8cb/community
+! https://virustotal.com/gui/url/73d9ff9f34da3e716e5b549746d789655bb42bfaadbdeaf13d70cae63768f8cb/community
 ! my analysis: https://app.any.run/tasks/f5abc08a-802f-4560-9ae2-ee107fee1a2b
 ||winkcap.net^$all
 
@@ -7310,7 +7310,7 @@ $all,domain=goatmod.xyz|metriumoldeb.com
 ! https://tria.ge/230913-mb6fbsdh42/behavioral1
 ||65432qn1mftejdb6.wejds.co.in^$all
 ||0f4a1qn1m3znt18d.wejds.co.in^$all
-! subdomains: https://www.virustotal.com/gui/domain/wejds.co.in/relations
+! subdomains: https://virustotal.com/gui/domain/wejds.co.in/relations
 ||cc7ccqn52c82t729.wejds.co.in^$document
 ||0478dqncifndu16f.wejds.co.in^$document
 ||d1140e8j6g6e8491.wejds.co.in^$document
@@ -8112,7 +8112,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||cryptoslugs-hubs.com^$document
 ||verify.cryptoslugs-hubs.com^$document
 
-! https://www.virustotal.com/gui/url/dc11c48005d4e6e10f3cee13a731a131887b99ced613abd81900a2530689b94d/community
+! https://virustotal.com/gui/url/dc11c48005d4e6e10f3cee13a731a131887b99ced613abd81900a2530689b94d/community
 ! my analysis: https://tria.ge/240106-xd1yqsdfdq/behavioral1
 ||fazeskins.ru^$all
 

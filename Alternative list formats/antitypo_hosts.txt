@@ -4,16 +4,16 @@
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # Issues url: https://github.com/iam-py-test/my_filters_001/issues
 # GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-# Last updated: 10/1/2024
+# Last updated: 15/1/2024
 # https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
-# https://www.virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
-# https://www.virustotal.com/gui/domain/xn--gogle-jua.com/detection
+# https://virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
+# https://virustotal.com/gui/domain/xn--gogle-jua.com/detection
 0.0.0.0 xn--gogle-jua.com
 # https://www.mywot.com/scorecard/vrustotal.com
 # https://safeweb.norton.com/report/show?url=vrustotal.com
 0.0.0.0 vrustotal.com
-# https://www.virustotal.com/gui/url/eb8b44eb62e50f576631d087eec719a2e12b34272ad03e04c2356a547e6896be/community
-# https://www.virustotal.com/gui/domain/googlec.om/detection
+# https://virustotal.com/gui/url/eb8b44eb62e50f576631d087eec719a2e12b34272ad03e04c2356a547e6896be/community
+# https://virustotal.com/gui/domain/googlec.om/detection
 # https://www.siteadvisor.com/sitereport.html?url=http%3A%2F%2Fgooglec.om
 # https://safeweb.norton.com/report/show?url=http%3A%2F%2Fgooglec.om
 # https://transparencyreport.google.com/safe-browsing/search?url=http:%2F%2Fgooglec.om
@@ -21,7 +21,7 @@
 # https://safeweb.norton.com/reviews?url=googlec.om
 # Can not resolve host but might come back some day
 0.0.0.0 googlec.om
-# https://www.virustotal.com/gui/url/f044015cf97b2475c569b46c7dc45b152ecd991ff365facd5c9a15cdfdeb8f68/detection
+# https://virustotal.com/gui/url/f044015cf97b2475c569b46c7dc45b152ecd991ff365facd5c9a15cdfdeb8f68/detection
 # https://www.urlvoid.com/scan/accountgoogle.com/
 # https://www.mywot.com/scorecard/accountgoogle.com
 0.0.0.0 accountgoogle.com
@@ -29,7 +29,7 @@
 0.0.0.0 googlesignin.xyz
 0.0.0.0 signingoogle.xyz
 0.0.0.0 logingoogle.xyz
-# https://www.virustotal.com/gui/url/2778a0b6162e8c14ed450dda8aa6c32486a6c7a8c224e940e7fb41be39816fc4/detection
+# https://virustotal.com/gui/url/2778a0b6162e8c14ed450dda8aa6c32486a6c7a8c224e940e7fb41be39816fc4/detection
 0.0.0.0 malwarebytes.xyz
 #!! w3school.com$document
 # https://github.com/easylist/easylist/pull/7950
@@ -52,18 +52,18 @@
 0.0.0.0 www.youtubewon.com
 0.0.0.0 youtubewon.com
 # https://www.reddit.com/r/mildlyinfuriating/comments/nc9zpe/got_a_paypal_or_should_i_say_paypl_phishing_email/
-# https://www.virustotal.com/gui/url/e604fa0374dbbceefaf7190bd7aa649561dfc19ff49af443d8931df40e1e1f43/detection
+# https://virustotal.com/gui/url/e604fa0374dbbceefaf7190bd7aa649561dfc19ff49af443d8931df40e1e1f43/detection
 0.0.0.0 paypl.com
 0.0.0.0 paypal.xyz
-# https://www.virustotal.com/gui/url/4531df5b01e2c58f9307fabecc9a17b03c6157bafc8e9af736b278e95c182dc5/detection
+# https://virustotal.com/gui/url/4531df5b01e2c58f9307fabecc9a17b03c6157bafc8e9af736b278e95c182dc5/detection
 0.0.0.0 payapl.com
-# https://www.virustotal.com/gui/url/2b0a3525bf412601e1acea8f7ee1eb0627df843d58e2d10553ea5a81d4ba26be/detection
+# https://virustotal.com/gui/url/2b0a3525bf412601e1acea8f7ee1eb0627df843d58e2d10553ea5a81d4ba26be/detection
 # https://www.siteadvisor.com/sitereport.html?url=cchase.com
 0.0.0.0 cchase.com
-# https://www.virustotal.com/gui/url/6d9e9d347f3578fe8fea973820a40a0ab760165e613af323b4a025dee339c73e/detection
+# https://virustotal.com/gui/url/6d9e9d347f3578fe8fea973820a40a0ab760165e613af323b4a025dee339c73e/detection
 # https://www.mywot.com/scorecard/blogsopt.com
 0.0.0.0 blogsopt.com
-# https://www.virustotal.com/gui/url/76074c7a040ba1edcea412c3d1ea9098ee43ee85cffb75be5882ea553bc43d81/community
+# https://virustotal.com/gui/url/76074c7a040ba1edcea412c3d1ea9098ee43ee85cffb75be5882ea553bc43d81/community
 # https://www.mywot.com/scorecard/g0ogle.com
 0.0.0.0 g0ogle.com
 # https://github.com/SOBotics/Belisarius/issues/5
@@ -82,13 +82,13 @@
 # Look-alikes using non-ascii
 0.0.0.0 xn--discrd-egb.com
 0.0.0.0 xn--rddit-6za.com
-# https://www.virustotal.com/gui/user/Site.safetychecker
-# https://www.virustotal.com/gui/url/7108cfe6953cab08696ae1f9ab2c777b749fb53e7beb5c003756ea522c880f17/detection
+# https://virustotal.com/gui/user/Site.safetychecker
+# https://virustotal.com/gui/url/7108cfe6953cab08696ae1f9ab2c777b749fb53e7beb5c003756ea522c880f17/detection
 0.0.0.0 yotube.com
 # https://github.com/rcmaehl/WhyNotWin11/issues/66
 0.0.0.0 whynotwin11.com
 # https://github.com/blocklistproject/Lists/blob/master/malware.txt
-# https://www.virustotal.com/gui/url/7f0b595a6004b1b6b6563e39b8d147dfde6a70d714e43b8a5a3da81b857e6b8b/detection
+# https://virustotal.com/gui/url/7f0b595a6004b1b6b6563e39b8d147dfde6a70d714e43b8a5a3da81b857e6b8b/detection
 # https://www.siteadvisor.com/sitereport.html?url=01apple.com
 0.0.0.0 01apple.com
 # Does not resolve to anything - yet...
@@ -96,18 +96,18 @@
 # Might be typosquatts of yahoo
 0.0.0.0 yahooc.com
 0.0.0.0 yahooc.om
-# https://www.virustotal.com/gui/url/263cf0103560c531755ed20823111c0cef36108893f369e8b58885777883940e/community
+# https://virustotal.com/gui/url/263cf0103560c531755ed20823111c0cef36108893f369e8b58885777883940e/community
 0.0.0.0 virustotl.com
-# https://www.virustotal.com/gui/url/83cbc65ef32d4eef31acf9c5cfbf6acf1a41d8689c106836770caf31f5153e06/community
+# https://virustotal.com/gui/url/83cbc65ef32d4eef31acf9c5cfbf6acf1a41d8689c106836770caf31f5153e06/community
 0.0.0.0 yutube.com
-# https://www.virustotal.com/gui/url/8e073d1ab7f3234109c1b9382a784886631a8b8c486b55845fe9c07628dfa593/detection
+# https://virustotal.com/gui/url/8e073d1ab7f3234109c1b9382a784886631a8b8c486b55845fe9c07628dfa593/detection
 # https://safeweb.norton.com/report/show?url=virusttal.com
 0.0.0.0 virusttal.com
-# https://www.virustotal.com/gui/url/db1da5818091e5270454bf765af7f24f8e1aec7ae7b6d0aeb384c3db95e67416/detection
+# https://virustotal.com/gui/url/db1da5818091e5270454bf765af7f24f8e1aec7ae7b6d0aeb384c3db95e67416/detection
 # https://www.siteadvisor.com/sitereport.html?url=virustota.com
 # https://safeweb.norton.com/report/show?url=virustota.com
 0.0.0.0 virustota.com
-# https://www.virustotal.com/gui/url/7192e189a778151b8b2ac216542c1dd4c842cc5dded479941cfecfc940e44cc8/detection
+# https://virustotal.com/gui/url/7192e189a778151b8b2ac216542c1dd4c842cc5dded479941cfecfc940e44cc8/detection
 # https://safeweb.norton.com/report/show?url=discordapp.cam
 # https://www.siteadvisor.com/sitereport.html?url=discordapp.cam
 0.0.0.0 discordapp.cam
@@ -291,7 +291,7 @@
 0.0.0.0 malwarebytes.co
 # https://github.com/VernonStow/Filterlist/commit/cb04d77547497a1cd211d2eac20f8af10de01a76 (all credit to https://github.com/VernonStow for finding these domains)
 # https://app.any.run/tasks/f204948b-3940-41d2-af50-b3db789d4ac3
-# https://www.virustotal.com/gui/file/e34575d69ee7a2c0231982d4c2e47edc9adbf7c9290caedd69ad7598a2ae759c (with junk data deleted)
+# https://virustotal.com/gui/file/e34575d69ee7a2c0231982d4c2e47edc9adbf7c9290caedd69ad7598a2ae759c (with junk data deleted)
 0.0.0.0 notepads-plus-plus.org
 # same file
 0.0.0.0 thundersbird.org
@@ -340,7 +340,7 @@
 0.0.0.0 discordi.com
 # https://app.any.run/tasks/015824a4-f267-48df-8dde-a7ddd78f167e
 0.0.0.0 discordt.com
-# https://www.virustotal.com/gui/domain/netfllpl.com/community
+# https://virustotal.com/gui/domain/netfllpl.com/community
 0.0.0.0 netfllpl.com
 # listed in some list somewhere
 0.0.0.0 facebooklcom.com
@@ -514,18 +514,18 @@
 0.0.0.0 householdresponses.com
 # https://threatfox.abuse.ch/ioc/1151472/
 0.0.0.0 yahootk.tk
-# https://www.virustotal.com/gui/url/45a03d912eaf1ec11a69a69129b393e3b84a3f48812264c5c9f95854e4bc6a36?nocache=1
+# https://virustotal.com/gui/url/45a03d912eaf1ec11a69a69129b393e3b84a3f48812264c5c9f95854e4bc6a36?nocache=1
 # https://www.bleepingcomputer.com/news/security/evil-telegram-android-apps-on-google-play-infected-60k-with-spyware/
 0.0.0.0 telegrnm.org
-# https://www.virustotal.com/gui/url/51a5c613fa07f8301aa68fa16e7307dbf3bf0b0dcfa015632895d7ebf7ca36d3/community
+# https://virustotal.com/gui/url/51a5c613fa07f8301aa68fa16e7307dbf3bf0b0dcfa015632895d7ebf7ca36d3/community
 # https://www.bleepingcomputer.com/news/security/fake-bitwarden-sites-push-new-zenrat-password-stealing-malware/
 0.0.0.0 bitwariden.com
 0.0.0.0 crazygameis.com
-# https://www.virustotal.com/gui/domain/login-office365.info/community
+# https://virustotal.com/gui/domain/login-office365.info/community
 0.0.0.0 login-office365.info
 # used to be a filesharing website - the owners gave up and the domain may be for sale
 0.0.0.0 anonfiles.com
-# dead but may return: https://www.virustotal.com/gui/url/518a4fb06ce6184f62910e42eb4081998cb3c5675c977fccb7db998881f86cdc
+# dead but may return: https://virustotal.com/gui/url/518a4fb06ce6184f62910e42eb4081998cb3c5675c977fccb7db998881f86cdc
 0.0.0.0 steamcomunity.ru
 # https://github.com/libre-tube/LibreTube/issues/4409
 # rules based on phishing urls listed in openphish
@@ -581,20 +581,20 @@
 0.0.0.0 bblck.me
 # another day another typo
 0.0.0.0 adblockplu.org
-# https://www.virustotal.com/gui/url/6afece7c72420223ae6f1700d02c8bee4806a335d23ab120522accba5e45250d
+# https://virustotal.com/gui/url/6afece7c72420223ae6f1700d02c8bee4806a335d23ab120522accba5e45250d
 # my analysis: https://tria.ge/231102-nctnlach68/behavioral1
 # https://www.bleepingcomputer.com/news/security/bloomberg-crypto-x-account-snafu-leads-to-discord-phishing-attack/
 0.0.0.0 altdentifiers.com
-# https://www.virustotal.com/gui/domain/miccrossoffit.online/community
+# https://virustotal.com/gui/domain/miccrossoffit.online/community
 0.0.0.0 miccrossoffit.online
 # drive-google-com[.]tk
 # https://github.com/DandelionSprout/adfilt/discussions/932#discussioncomment-7694946
-# https://www.virustotal.com/gui/url/69a1570512a5694049a9444ab6c0dd73432f3685894eb3d4d1e7dba7ce99766d/community
+# https://virustotal.com/gui/url/69a1570512a5694049a9444ab6c0dd73432f3685894eb3d4d1e7dba7ce99766d/community
 0.0.0.0 ne-correos.top
 # account required: https://forums.malwarebytes.com/topic/305116-fake-software-homepage/
 0.0.0.0 unikey.vn
 # https://threatfox.abuse.ch/browse.php?search=ioc%3Adiscord-gg.duckdns.org
-# https://www.virustotal.com/gui/domain/base-usps.top/community
+# https://virustotal.com/gui/domain/base-usps.top/community
 0.0.0.0 base-usps.top
 # https://github.com/RPiList/specials/issues/1404
 0.0.0.0 bonprix-sale.shop
@@ -605,7 +605,112 @@
 0.0.0.0 gimail.su
 # https://github.com/Dogino/Discord-Phishing-URLs/pull/25
 0.0.0.0 steamcommuaity.com
-# https://www.virustotal.com/gui/domain/booking.com-panel.com
+# https://virustotal.com/gui/domain/booking.com-panel.com
 0.0.0.0 com-panel.com
 0.0.0.0 booking.com-panel.com
 0.0.0.0 mail.com-panel.com
+# https://virustotal.com/gui/url/3828695bc16bb9d0bfab17eb5c15e5fe9e8b30bb6cb948655a6a55466b9dc187/community
+0.0.0.0 telegcrmz.fit
+# https://virustotal.com/gui/url/53efa35943a9b0bbcc4f966791e992052ac647a883c81a43bb86dd94bbbbd48d/community
+0.0.0.0 telegcrmz.work
+# https://virustotal.com/gui/url/cf88de3dc23272e078a7412c64b12e038cd8b9dc1beb07be6ac3f017919aa09b/community
+0.0.0.0 telejracm.fit
+# https://virustotal.com/gui/ip-address/103.119.3.17/relations
+0.0.0.0 www.telegreem.club
+0.0.0.0 telejracm.work
+0.0.0.0 telejracm.club
+0.0.0.0 telejrzmn.cc
+0.0.0.0 teleptrm.fit
+0.0.0.0 teleptrm.work
+0.0.0.0 telegzzem.club
+0.0.0.0 telegzzem.fit
+0.0.0.0 telegzzem.work
+0.0.0.0 telegrnne.work
+0.0.0.0 telegrnne.fit
+0.0.0.0 telegrnne.club
+0.0.0.0 telegcrmz.club
+0.0.0.0 telegreem.club
+0.0.0.0 telegreem.work
+0.0.0.0 telegreem.vip
+0.0.0.0 telejrzmn.work
+0.0.0.0 telejrzmn.club
+0.0.0.0 telegcrenn.fit
+0.0.0.0 telegcrenn.club
+0.0.0.0 telegrczm.work
+0.0.0.0 telegrczm.fit
+0.0.0.0 teleggcam.club
+0.0.0.0 teleggcam.fit
+0.0.0.0 teleggcam.work
+0.0.0.0 www.telegceam.club
+0.0.0.0 www.teleqpcam.club
+0.0.0.0 teleqrinm.cn
+0.0.0.0 teleqrinm.com.cn
+0.0.0.0 www.teleqpamn.work
+0.0.0.0 www.teleqrinm.club
+0.0.0.0 www.teleqpcam.work
+0.0.0.0 teleqpcam.work
+0.0.0.0 teleqpcam.club
+0.0.0.0 teleqpcam.fit
+0.0.0.0 teleprannn.cc
+0.0.0.0 telegbrm.work
+0.0.0.0 telegbrm.club
+0.0.0.0 telebriun.work
+0.0.0.0 teleqpcn.fit
+0.0.0.0 teleqpcn.club
+0.0.0.0 teleqpcn.work
+0.0.0.0 teleqrenm.cc
+0.0.0.0 teleqpamn.fit
+0.0.0.0 teleqpamn.club
+0.0.0.0 teleqpamn.work
+0.0.0.0 teleqrinm.club
+0.0.0.0 teleqernm.cc
+0.0.0.0 www.teleprium.fit
+0.0.0.0 teleprannn.vip
+0.0.0.0 teleprannn.club
+0.0.0.0 www.teleqernm.fit
+0.0.0.0 telegceam.club
+0.0.0.0 telegceam.work
+0.0.0.0 teleppram.club
+0.0.0.0 teleqrenm.work
+0.0.0.0 teleqrenm.club
+0.0.0.0 www.telegczim.work
+0.0.0.0 www.telegczim.vip
+0.0.0.0 telegrcmn.cc
+0.0.0.0 teletrean.cc
+0.0.0.0 telegruim.top
+0.0.0.0 telegczim.work
+0.0.0.0 telegczim.club
+0.0.0.0 telegczim.vip
+0.0.0.0 www.telegczm.vip
+0.0.0.0 teleprium.fit
+0.0.0.0 teleprium.work
+0.0.0.0 teleprium.club
+0.0.0.0 www.telegczm.fit
+0.0.0.0 telepamn.cc
+0.0.0.0 telegczm.vip
+0.0.0.0 telegczm.club
+0.0.0.0 telegczm.fit
+0.0.0.0 tgelegrean.cc
+0.0.0.0 teleqriem.vip
+0.0.0.0 telegpem.club
+0.0.0.0 telegirmn.vip
+0.0.0.0 telebrzm.vip
+0.0.0.0 teleqcmn.work
+0.0.0.0 teleqcmn.fit
+0.0.0.0 teleqcmn.club
+0.0.0.0 teleqernm.fit
+0.0.0.0 teleqernm.club
+0.0.0.0 telegirmn.cn
+0.0.0.0 www.telegirmn.cn
+0.0.0.0 telegwam.work
+0.0.0.0 www.telegwam.work
+0.0.0.0 telegcmn.cc
+0.0.0.0 teletrpm.club
+0.0.0.0 teleprazm.club
+0.0.0.0 telegirm.cc
+0.0.0.0 www.telebriun.work
+0.0.0.0 tglegmn.work
+0.0.0.0 telegpem.fit
+0.0.0.0 telegpem.work
+0.0.0.0 tgelegrean.work
+0.0.0.0 teletrpm.fit
