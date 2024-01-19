@@ -864,3 +864,7 @@
 ||telegpem.work^$document
 ||tgelegrean.work^$document
 ||teletrpm.fit^$document
+
+! https://github.com/Dogino/Discord-Phishing-URLs/pull/26
+||steamcommuniitny.club^$all
+||steamcommuniitny.$document

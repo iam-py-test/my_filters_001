@@ -658,3 +658,6 @@ pepper.pl##+js(href-sanitizer, a[href*="https://www.pepper.pl/visit/"][title^="h
 
 ! https://github.com/738/awesome-url-shortener/pull/32
 ||dub.co^$document
+
+! https://github.com/738/awesome-url-shortener/pull/36
+||spoo.me^$document
