@@ -714,3 +714,5 @@
 0.0.0.0 telegpem.work
 0.0.0.0 tgelegrean.work
 0.0.0.0 teletrpm.fit
+# https://github.com/Dogino/Discord-Phishing-URLs/pull/26
+0.0.0.0 steamcommuniitny.club

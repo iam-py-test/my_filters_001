@@ -476,3 +476,5 @@
 0.0.0.0 shawt.af
 # https://github.com/738/awesome-url-shortener/pull/32
 0.0.0.0 dub.co
+# https://github.com/738/awesome-url-shortener/pull/36
+0.0.0.0 spoo.me
