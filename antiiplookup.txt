@@ -71,3 +71,5 @@
 0.0.0.0 geoip.pandascore.co
 # from Jobcenter Tycoon
 0.0.0.0 2no.co
+# https://github.com/hagezi/dns-blocklists/issues/2068
+0.0.0.0 myip.wtf
