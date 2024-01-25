@@ -246,3 +246,4 @@ smart.link
 shawt.af
 dub.co
 spoo.me
+sor.bz
