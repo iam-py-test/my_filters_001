@@ -876,5 +876,9 @@
 ||link-etsy.com^$all
 ||etsy-verifed-shop.com^$all
 
-! yet another typo
-||github.coom^$all
+! https://github.com/hagezi/dns-blocklists/issues/2081
+||do0cd.com^$all
+||doosd.pro^$all
+||d0ood.com^$all
+||dooodg.pro^$all
+||doode.pro^$all
