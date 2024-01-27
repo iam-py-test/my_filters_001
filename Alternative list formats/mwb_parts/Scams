@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 24/1/2024
-! Version: 2412024-1
+! Last updated: 27/1/2024
+! Version: 2712024-1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -9151,4 +9151,49 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ! https://github.com/durablenapkin/scamblocklist/issues/74
 ||link-etsy.com^$all
 ||etsy-verifed-shop.com^$all
+
+! https://github.com/hagezi/dns-blocklists/issues/2081
+||do0cd.com^$all
+||doosd.pro^$all
+||d0ood.com^$all
+||dooodg.pro^$all
+||doode.pro^$all
+
+! SMS phishing message
+! cloudflared: https://tria.ge/240127-rgd1gsdgb8/behavioral1
+||bbbvnvn.com^$all
+||usps.bbbvnvn.com^$all
+||kai12102.top^$all
+! https://www.virustotal.com/gui/ip-address/47.251.77.252/relations
+||47.251.77.252^$document
+||bbbnvnv.com^$document
+||usps.bbbnvnv.com^$document
+||bbblmlm.com^$document
+||usps.bbblmlm.com^$document
+||bbbkdt.com^$document
+||usps.bbbkdt.com^$document
+||bbbhaod.com^$document
+||usps.bbbhaod.com^$document
+||bbbnbnb.com^$document
+||usps.hkjtion.com^$document
+||usps.hjktion.com^$document
+||bbbiiuu.com^$document
+||usps.bbbiiuu.com^$document
+||bbbvbvb.com^$document
+||usps.bbbvbvb.com^$document
+||usps.bbbnbnb.com^$document
+||usps.bbbuuui.com^$document
+||bbbuuui.com^$document
+||bbbdjsgd.com^$document
+||usps.bbbdjsgd.com^$document
+||bbbdjdhes.com^$document
+||usps.bbbdjdhes.com^$document
+||bbbiuiu.com^$document
+||usps.bbbiuiu.com^$document
+||usps.zzzopjl.com^$document
+||bbbouou.com^$document
+||usps.bbbouou.com^$document
+||zzzopjl.com^$document
+||bbbiudhs.com^$document
+||usps.bbbiudhs.com^$document
 

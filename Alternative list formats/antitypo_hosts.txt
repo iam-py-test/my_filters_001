@@ -721,5 +721,9 @@
 # https://github.com/durablenapkin/scamblocklist/issues/74
 0.0.0.0 link-etsy.com
 0.0.0.0 etsy-verifed-shop.com
-# yet another typo
-0.0.0.0 github.coom
+# https://github.com/hagezi/dns-blocklists/issues/2081
+0.0.0.0 do0cd.com
+0.0.0.0 doosd.pro
+0.0.0.0 d0ood.com
+0.0.0.0 dooodg.pro
+0.0.0.0 doode.pro
