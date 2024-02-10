@@ -82,3 +82,6 @@
 ! https://github.com/uBlockOrigin/uAssets/issues/22154
 ||ed-sys.net^
 ||epsilondelta.co^
+
+! https://github.com/StevenBlack/hosts/issues/2569
+||statistik.changing-cities.org^
