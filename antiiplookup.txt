@@ -1,8 +1,7 @@
 # Title: IP Lookup service blocklist (beta)
-# Description: This list is designed to block services which allow automated-ish lookup of your IP. This is designed to be used at the system or network level, as it provides little protection at the browser level
+# Description: This list is designed to block services which allow any lookup of your IP, including those which are not abused or lack an API. This is designed to be used at the system or network level, as it provides little protection at the browser level
 # Expires: 10 days
 # Note: There is nothing inherently bad about these services, but they are sometimes abused by malware and can present a privacy risk
-# Note 2: Some of these services may have user-facing "what is my IP" pages, which will be blocked or broken
 0.0.0.0 geoplugin.net
 0.0.0.0 api.ip.sb
 0.0.0.0 api.2ip.ua
@@ -73,3 +72,5 @@
 0.0.0.0 2no.co
 # https://github.com/hagezi/dns-blocklists/issues/2068
 0.0.0.0 myip.wtf
+# https://github.com/hagezi/dns-blocklists/issues/2154
+0.0.0.0 checkip.com.vn
