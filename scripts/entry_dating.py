@@ -6,6 +6,7 @@ p = publicsuffixlist.PublicSuffixList(only_icann=True)
 resolver = dns.resolver.Resolver()
 resolver.nameservers = ["https://unfiltered.adguard-dns.com/dns-query","94.140.14.140", "8.8.8.8","1.1.1.1"]
 already_resolved = {}
+known_whois = {}
 
 def get_whois_data_raw(domain, server):
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -24,9 +25,17 @@ def get_whois_data_raw(domain, server):
 	return all_data.decode()
 
 def get_whois(domain):
+    global known_whois
+    if domain in known_whois:
+        return known_whois[domain]
 	tld = p.publicsuffix(domain).upper()
 	server = f"{tld}.whois-servers.net"
-	return get_whois_data_raw(domain, server)
+    try:
+	    whois_data = get_whois_data_raw(domain, server)
+    except:
+        return ""
+    known_whois[domain] = whois_data
+    return whois_data
 
 def whois_exists(domain):
     global dead_domains
@@ -115,7 +124,8 @@ for e in domain_list:
             "readd": "",
             "is_valid": is_valid(e),
             "ips": get_ips(e),
-            "dead_since": dead_since
+            "dead_since": dead_since,
+            "whois": get_whois(e)
         }
     else:
         if "times_checked" not in entry_data[e]:
