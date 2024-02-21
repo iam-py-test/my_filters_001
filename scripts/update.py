@@ -88,7 +88,6 @@ mkalt("antitypo.txt","antitypo_domains.txt")
 mkalt("clickbait.txt","clickbait_domains.txt")
 mkalt("anti-redirectors.txt","anti-redirectors_domains.txt")
 mkalt("antidynamicdns.txt","antidynamicdns_domains.txt")
-mkalt("special_lists/anti-malware-ubo-extension.txt", "/dev/null") # hacky way to check for redundant entries
 
 def mkhosts(file,altname):
   donedomains = []
