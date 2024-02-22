@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 27/1/2024
-! Version: 2712024-1
+! Last updated: 18/2/2024
+! Version: 1822024-2
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -920,12 +920,11 @@
 ||a2ics.eu^$all
 
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1230875702
-||youtube.com/channel/UCxpXAcML6p3Ns5T9GwEK5hQ^$all
+||youtube.com/channel/UCxpXAcML6p3Ns5T9GwEK5hQ^$document
 ||stils-top.space^$all
 
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1230939213
 ||classicsgirl.com^$document
-||youtube.com/channel/UCfSYzJufd7asej1mqg6NXAA^$all
 
 ! https://app.any.run/tasks/a24d7146-479f-4b90-b4d6-c9d6e73257a8
 ||pogothere.xyz^$document
@@ -7096,7 +7095,6 @@ $all,domain=goatmod.xyz|metriumoldeb.com
 ||o0nerfcw0vsd.top^$all
 ||o3kjm9z8g11w.top^$all
 ||o3oy5wfla2ez.top^$all
-||o4pti29j7pk6.top^$all
 ||o863tmto6ocp.com^$all
 ||oc4sjn8ziyt3.top^$all
 ||official-video-app.com^$all
@@ -8077,9 +8075,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||serenity.directchats.site^$document
 ||charlie.directchats.site^$document
 ||vivian.directchats.site^$document
-
-! X spam DM from "Christine Joncas" (ChristineJ86918): hxxpx[://]heylink[.]me/sexting
-||heylink.me^$document
 
 ! https://github.com/RPiList/specials/issues/1369
 ||qdyqdym.shop^$all
@@ -9196,4 +9191,25 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||zzzopjl.com^$document
 ||bbbiudhs.com^$document
 ||usps.bbbiudhs.com^$document
+
+! https://github.com/hagezi/dns-blocklists/issues/2178
+||guidesite.info^$all
+||ustrack.online^$all
+
+! https://github.com/hagezi/dns-blocklists/pull/2182
+||cashjuice.com^$document
+||esigningapp.com^$document
+||fastloanassist.com^$document
+||myrequestresults.com^$document
+||myresources-join.resourcesify.com^$document
+||taxreturnoptions.com^$document
+||247lendinggroup.com^$document
+||theconsumerhq.com^$document
+||banktoday.de^$document
+||secureexpressrequest.com^$document
+||cashusa.com^$document
+||choicecreditrepair.life^$document
+||swagbucks.com^$document
+||americanunsecured.com^$document
+||grantsreach.com^$document
 

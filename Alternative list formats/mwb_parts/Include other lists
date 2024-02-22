@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 27/1/2024
-! Version: 2712024-1
+! Last updated: 18/2/2024
+! Version: 1822024-2
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -15,17 +15,13 @@
 ! Title: The malicious website blocklist - extension
 ! Description: This is an extension to The malicious website blocklist for uBlock Origin and AdGuard which includes rules which can not be added to the main blocklist
 ! WARNING: This list is _not_ intended to be used on its own, or to be manually added. This list is auto-included in the uBo/AdGuard version of The malicious website blocklist
-! Last updated: 24/1/2024
+! Last updated: 28/1/2024
 
 ! ----- threats which can not or will not be blocked in the main list -----
 
 ! YouTube spam (i.e. on https://www.youtube.com/watch?v=K2AhNVdKq-A)
 ||youtube.com/channel/UCWW7EjmEmZzi6N6Y7YMUnzQ^$document
 ||youtube.com/channel/UCUYkrrkUcrrnLpmejhGmCvQ^$document
-||youtube.com/channel/UCc3Vmwa4H_7d_TqPMM2QKAw^$document
-||youtube.com/channel/UCrp5QRVp6PFHIrNg7gD4YZQ^$document
-||youtube.com/channel/UC98HAYotaYL_GHD_ejmxX7g^$document
-||youtube.com/channel/UCur-kJc2fk3AkDimvCd4U_g^$document
 ||youtube.com/channel/UCxCLdWKpF6Q1xGF_fVW6t5g^$document
 ||youtube.com/channel/UCEBXm13iwQAXN2Kz4YV5rVQ^$document
 ||youtube.com/channel/UCtjaY3UG_5KxQRMDUczFMXQ^$document
@@ -854,11 +850,101 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 26/01/2024
+! Last updated: 21/02/2024
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Fri, 26 Jan 2024 20:18:20 +0000
+! Wed, 21 Feb 2024 20:19:02 +0000
+||195.20.16.46/download/RetailerRise.exe^$all
+||41.216.183.27/bins/yakuza.arm^$all
+||91.92.240.69/beastmode/b3astmode.arm^$all
+||185.215.113.46/cost/fu.exe^$all
+||185.172.128.127/syncUpd.exe^$all
+||185.215.113.46/cost/ladas.exe^$all
+||185.215.113.46/mine/amert.exe^$all
+||185.215.113.46/mine/plaza.exe^$all
+||185.172.128.109/InstallSetup3.exe^$all
+||185.215.113.46/cost/niks.exe^$all
+||github.com/Sobaka212/n/releases/download/rr/DCRatBuild.exe^$all
+||github.com/Sobaka212/n/releases/download/rr/ce0b953269c74bc.exe^$all
+||mahta-netwotk.click/111.exe^$all
+||clean.sunaviat.com/data/pdf/june.exe^$all
+||185.172.128.127/timeSync.exe^$all
+||brusuax.com/dl/build2.exe^$all
+||185.172.128.154/hv.exe^$all
+||185.172.128.19/dayroc.exe^$all
+||185.172.128.32/sc.exe^$all
+||45.13.227.186/bins/sora.mips^$all
+||195.20.16.46/download/RetailerRise.exe^$all
+||185.172.128.154/hv.exe^$all
+||ji.alie3ksggg.com/ef/rty45.exe^$all
+||mix.avalmag.com/data/pdf/june.exe^$all
+||109.107.182.38/retro/dota.exe^$all
+||185.172.128.127/timeSync.exe^$all
+||185.215.113.68/mine/amers.exe^$all
+||109.107.182.3/cost/ladas.exe^$all
+||109.107.182.3/cost/vinu.exe^$all
+||109.107.182.3/cost/niks.exe^$all
+||109.107.182.3/cost/fu.exe^$all
+||185.172.128.127/syncUpd.exe^$all
+||193.233.132.167/lend/crpta.exe^$all
+||193.233.132.167/lend/lumma1234.exe^$all
+||193.233.132.167/lend/1.exe^$all
+||193.233.132.167/lend/daissss.exe^$all
+||193.233.132.167/lend/art1.exe^$all
+||193.233.132.167/lend/art33.exe^$all
+||109.107.182.3/cost/ladas.exe^$all
+||109.107.182.3/lego/Amadey.exe^$all
+||109.107.182.3/lego/crptchk.exe^$all
+||109.107.182.3/lego/1233213123213.exe^$all
+||109.107.182.3/lego/55555.exe^$all
+||109.107.182.3/lego/goldklassd.exe^$all
+||109.107.182.3/lego/mrk1234.exe^$all
+||109.107.182.3/lego/RDX.exe^$all
+||185.172.128.8/ma.exe^$all
+||185.172.128.19/dayroc.exe^$all
+||185.172.128.127/syncUpd.exe^$all
+||109.107.182.3/cost/no.exe^$all
+||109.107.182.3/cost/niks.exe^$all
+||109.107.182.3/cost/vinu.exe^$all
+||109.107.182.3/cost/lada.exe^$all
+||185.172.128.154/hv.exe^$all
+||185.172.128.160/hv.exe^$all
+||109.107.182.3/cost/no.exe^$all
+||185.172.128.32/ma.exe^$all
+||astervell.fun/DR12.exe^$all
+||5.42.64.4/rockrunn.exe^$all
+||15.204.49.148/files/Amadey.exe^$all
+||habrafa.com/files/1/build3.exe^$all
+||brusuax.com/dl/build2.exe^$all
+||185.172.128.160/hv.exe^$all
+||185.172.128.154/hv.exe^$all
+||103.245.236.146/skyljnee.arm^$all
+||185.172.128.160/ma.exe^$all
+||5.42.66.29/am.exe^$all
+||d1rbb432n5n8so.cloudfront.net/InstallSetup.exe^$all
+||109.107.182.3/lego/crypted.exe^$all
+||109.107.182.3/lego/rdxx1.exe^$all
+||109.107.182.3/lego/fsdfsfsfs.exe^$all
+||109.107.182.3/lego/sadsadsadsa.exe^$all
+||109.107.182.3/lego/alex.exe^$all
+||109.107.182.3/lego/installs.exe^$all
+||109.107.182.3/lego/MRK.exe^$all
+||109.107.182.3/lego/2024.exe^$all
+||109.107.182.3/lego/moto.exe^$all
+||109.107.182.3/lego/redline1234.exe^$all
+||185.215.113.68/mine/amers.exe^$all
+||109.107.182.3/cost/lada.exe^$all
+||109.107.182.3/cost/networa.exe^$all
+||109.107.182.3/cost/vinu.exe^$all
+||109.107.182.3/cost/niks.exe^$all
+||109.107.182.3/cost/ko.exe^$all
+||185.172.128.8/hv.exe^$all
+||185.172.128.8/sc.exe^$all
+||185.172.128.8/sc.exe^$all
+||185.172.128.8/cp.exe^$all
+||amacey.com/x1g/sdfr^$all
+||185.172.128.8/ma.exe^$all
 ||hack-x.su/file/installs.exe^$all
 ||stable4download.ocmtancmi2c5t.website/eee.exe^$all
 ||37.221.93.230/file/1693511367-HealthProtocol.exe^$all
@@ -870,96 +956,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||103.228.126.17/mips^$all
 ||sterkinekor.co.zw/univer.exe^$all
 ||wispafoods.com/BestSoftware.exe^$all
-||cat.lobret.co.za/55aa5e.exe^$all
-||192.3.179.157/112/TiWorker.exe^$all
-||192.3.179.157/112/1/Rzcjkedka.exe^$all
-||192.3.23.242/80/mtdocs.exe^$all
-||103.182.16.23/M189T/smss.exe^$all
-||103.182.16.23/s179m/smss.exe^$all
-||hndcakewalkers.com/update1.exe^$all
-||193.42.32.101/files/get3.exe^$all
-||193.42.32.101/files/UM.exe^$all
-||galandskiyher2.com/downloads/toolspub4.exe^$all
-||galandskiyher2.com/downloads/toolspub3.exe^$all
-||galandskiyher2.com/downloads/toolspub2.exe^$all
-||ji.alie3ksgbb.com/m/ss29^$all
-||aszfiltration.com/storage/files/postmon.exe^$all
-||193.42.32.101/files/get3.exe^$all
-||193.42.32.101/files/UM.exe^$all
-||galandskiyher2.com/downloads/toolspub1.exe^$all
-||94.142.138.20/version_s/upd.exe^$all
-||128.199.11.249/minerxd.exe^$all
-||171.22.28.214/PolymodXT.exe^$all
-||subirfact.com/desktopditor.exe^$all
-||77.91.97.133/index.php^$all
-||77.91.97.133/regogo.exe^$all
-||77.91.97.56/regogo.exe^$all
-||47.111.23.242/m.txt^$all
-||cdn.discordapp.com/attachments/1143583597752766515/1143595419868336248/ProcessView.exe^$all
-||cdn.discordapp.com/attachments/1132800981114032168/1143214632329285752/main.exe^$all
-||fidelbringas.com/amday.exe^$all
-||xn----8sbkbfthkmkkzmo6dvh.xn--p1ai/crypted.exe^$all
-||193.31.28.13/mips^$all
-||artmediastudio.ro/Amdau.exe^$all
-||github.com/ZiliBoba1488/TempFiles/raw/main/Client.exe^$all
-||gecitartandmore.com/purchaseorder.exe^$all
-||africatechs.com/Amdaygo.exe^$all
-||193.233.255.9/lend/Documents-EnemyFrauz.exe^$all
-||erfolgsgruender.com/Profistiler763432_ping.exe^$all
-||wtmc.com.pk/TurnedYOU749sampls.exe^$all
-||20.234.58.62/xClient.html^$all
-||20.234.58.62/sd.exe^$all
-||20.234.58.62/x.exe^$all
-||212.8.251.176/596a96cc7bf9108cd896f33c44aedc8a/db0fa4b8db0333367e9bda3ab68b8042.m68k^$all
-||ha5hfiles.xyz/jusched.exe^$all
-||212.8.251.176/596a96cc7bf9108cd896f33c44aedc8a/db0fa4b8db0333367e9bda3ab68b8042.i686^$all
-||165.232.162.31/udp/taskhostamd.exe^$all
-||raw.githubusercontent.com/duantienty/miner/main/Client.jpg^$all
-||raw.githubusercontent.com/duantienty/miner/main/Jcojp.jpg^$all
-||107.189.3.174/596a96cc7bf9108cd896f33c44aedc8a/db0fa4b8db0333367e9bda3ab68b8042.x86^$all
-||103.110.33.164/mips^$all
-||cdn.discordapp.com/attachments/906552604258082849/1127979465348218900/Output.bin^$all
-||87.121.47.63/lend/YoDo_Fake.exe^$all
-||91.234.99.110/mipsel^$all
-||103.95.196.149/x86^$all
-||cdn.discordapp.com/attachments/1124469077491069010/1124473530491338752/inteldrv.exe^$all
-||23.137.249.127/ddw23/pstol1.exe^$all
-||103.95.196.149/mips^$all
-||45.66.230.149/offer/updChrome.exe^$all
-||allansworthng.com/1/data64_2.exe^$all
-||sofancy.co.za/data/IqXYLXKzl6.exe^$all
-||192.3.109.146/325/DaHost.exe^$all
-||161.35.160.195/P9G9T9M9D7P/18715498712833059056.bin^$all
-||141.98.6.99/Uzlrz.exe^$all
-||192.3.109.135/24/Dahost.exe^$all
-||23.94.148.6/GIB.exe^$all
-||23.94.144.13/555/vbc.exe^$all
-||bluestaks.novationgroups.com/post/ClipperDoej4oa.exe^$all
-||bluestaks.novationgroups.com/post/Upshotox64.exe^$all
-||bluestaks.novationgroups.com/post/p5zl9bq82kjf7.exe^$all
-||africatechs.com/YoutubeAdvert.exe^$all
-||miateknik.com/Amday.exe^$all
-||51.79.49.73/crc/Play.exe^$all
-||51.79.49.73/crc/bz.exe^$all
-||134.122.135.4/datelog.dll^$all
-||distroforex.com/crona.exe^$all
-||89.185.85.117/laupdate.exe^$all
-||94.142.138.116/bebra.exe^$all
-||filebin.net/zexd4wguldbgaetq/rh1.exe^$all
-||raw.githubusercontent.com/duantienty/client/main/tdc.jpg^$all
-||file.gta5cheatcode.world/dashboard/file/dxpserver.exe^$all
-||file.gta5cheatcode.world/dashboard/file/dxpserver.exe^$all
-||109.205.213.7/bins/UnHAnaAW.x86^$all
-||192.210.215.42/860/cache_cleaner.exe^$all
-||koiniosportsde.com/bRzNAmYd/ddsc.exe^$all
-||79.137.195.246/client12/enc.exe^$all
-||79.137.195.246/client13/enc.exe^$all
-||raw.githubusercontent.com/xegefi/XOXO/main/WindowsDefender.exe^$all
-||cdn.discordapp.com/attachments/1053354068959051837/1113107209493155840/update.exe^$all
-||raw.githubusercontent.com/duantienty/client/main/kyovn.jpg^$all
-||raw.githubusercontent.com/duantienty/client/main/Client2.jpg^$all
-||ji.jahhaega2qq.com/m/p0aw25.exe^$all
-||ji.ase6gasdegkk.com/m/ss49.exe^$all
 
 
 

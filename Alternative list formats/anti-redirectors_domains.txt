@@ -247,3 +247,6 @@ shawt.af
 dub.co
 spoo.me
 sor.bz
+trk.pm-srv.co
+click.discord.com
+heylink.me
