@@ -9,29 +9,29 @@ already_resolved = {}
 known_whois = {}
 
 def get_whois_data_raw(domain, server):
-	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-	s.connect((server, 43))
-	all_data = b""
-	s.send("{domain}\r\n".replace("{domain}", domain).encode())
-	while True:
-		try:
-			newdata = s.recv(100)
-			if len(newdata) == 0:
-				break
-			all_data += newdata
-		except Exception:
-			break
-	s.close()
-	return all_data.decode()
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    s.connect((server, 43))
+    all_data = b""
+    s.send("{domain}\r\n".replace("{domain}", domain).encode())
+    while True:
+        try:
+            newdata = s.recv(100)
+            if len(newdata) == 0:
+                break
+            all_data += newdata
+        except Exception:
+            break
+    s.close()
+    return all_data.decode()
 
 def get_whois(domain):
     global known_whois
     if domain in known_whois:
         return known_whois[domain]
-	tld = p.publicsuffix(domain).upper()
-	server = f"{tld}.whois-servers.net"
+    tld = p.publicsuffix(domain).upper()
+    server = f"{tld}.whois-servers.net"
     try:
-	    whois_data = get_whois_data_raw(domain, server)
+        whois_data = get_whois_data_raw(domain, server)
     except:
         return ""
     known_whois[domain] = whois_data
