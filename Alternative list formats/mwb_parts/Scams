@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 18/2/2024
-! Version: 1822024-2
+! Last updated: 23/2/2024
+! Version: 2322024-1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -928,10 +928,10 @@
 
 ! https://app.any.run/tasks/a24d7146-479f-4b90-b4d6-c9d6e73257a8
 ||pogothere.xyz^$document
+||sihighlyrecom.xyz^$all
 ||czxcm.sihighlyrecom.xyz^$all
 ||rwanf.sihighlyrecom.xyz^$all
 ||zosuc.sihighlyrecom.xyz^$all
-||sihighlyrecom.xyz^$document
 
 ! https://forums.malwarebytes.com/topic/290022-malware-from-acaptchalesstop/ <-- No proof, but the domain name looks sus
 ||captchaless.top^$document
@@ -1209,8 +1209,8 @@
 ! https://github.com/uBlockOrigin/uAssets/issues/16000
 ! https://app.any.run/tasks/195b871c-b9cd-48f8-a7c1-6a53ea943a4b
 ||z83z9.com^$document
-||zcelv.toftheca.buzz^$all
 ||toftheca.buzz^$all
+||zcelv.toftheca.buzz^$all
 ||fvsuo.toftheca.buzz^$all
 ||videofon.space^$all
 ||videofen.space^$all
@@ -2221,8 +2221,8 @@
 
 ! NSFW: https://app.any.run/tasks/dff4525c-555a-479e-83ba-c5b2f2d11ab6
 ||baconaces.pro^$all
-||twgfw.eredhadbeen.xyz^$all
 ||eredhadbeen.xyz^$all
+||twgfw.eredhadbeen.xyz^$all
 ||nugans.live^$all
 ||chrome.google.com/webstore/detail/cats-fanpage/nkhleengjihjncmbkldpfmoankdkhahg^$document
 
@@ -3190,8 +3190,8 @@
 ||warehousesale.shop^$document
 
 ! https://app.any.run/tasks/3137c861-185d-4037-84e9-65cc0adeba15
+||econsultingcoem.com^$all
 ||bgqcb.econsultingcoem.com^$all
-||econsultingcoem.com^$document
 ||j4352.top^$all
 ||emqu4.top^$all
 ||kp0z3.top^$all
@@ -5631,8 +5631,8 @@
 ! https://www.reddit.com/r/uBlockOrigin/comments/12wqrv5/steamunlockednet_badware/ <-- have not verified sites to be malware! These are just domains ads in my analysis
 ! https://app.any.run/tasks/9ed7df61-f0a9-49cc-91bc-a3fcc2c59ae1/
 ||antivirusgaming.com^$all
+||aluationiamcur.com^$all
 ||xrlbq.aluationiamcur.com^$all
-||aluationiamcur.com^$document
 ||awesome-blocker.com^$document
 
 ! https://app.any.run/tasks/c9657f58-f49e-4e9e-80bf-9704f0eaa32a (NSFW)
@@ -5649,8 +5649,8 @@
 
 ! NSFW: https://app.any.run/tasks/a1a425ca-7b5d-4774-95bf-c11f8f25685a
 ||webpick-cdn.s3.us-west-2.amazonaws.com/getlaid.jpeg^$all
+||uuksehinkitwkuo.com^$all
 ||wzzzs.uuksehinkitwkuo.com^$all
-||uuksehinkitwkuo.com^$document
 
 ! https://app.any.run/tasks/d576fecb-3250-4a18-82de-eba82ac7ba6d
 ||click2code.xyz^$all

@@ -2,11 +2,12 @@
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 21/02/2024
+! Last updated: 23/02/2024
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Wed, 21 Feb 2024 20:19:02 +0000
+! Fri, 23 Feb 2024 20:20:28 +0000
+||93.123.39.166/s-h.4-.Sakura^$all
 ||195.20.16.46/download/RetailerRise.exe^$all
 ||41.216.183.27/bins/yakuza.arm^$all
 ||91.92.240.69/beastmode/b3astmode.arm^$all
@@ -107,4 +108,3 @@
 ||217.196.96.84/svchost.exe^$all
 ||103.228.126.17/mips^$all
 ||sterkinekor.co.zw/univer.exe^$all
-||wispafoods.com/BestSoftware.exe^$all
