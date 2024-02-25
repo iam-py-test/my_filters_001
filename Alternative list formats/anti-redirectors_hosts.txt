@@ -487,3 +487,5 @@
 # X spam DM from "Christine Joncas" (ChristineJ86918): hxxpx[://]heylink[.]me/sexting
 # https://github.com/hagezi/dns-blocklists/issues/2207
 0.0.0.0 heylink.me
+# https://github.com/brave/adblock-lists/pull/1546
+0.0.0.0 streak-link.com
