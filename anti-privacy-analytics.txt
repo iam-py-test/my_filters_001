@@ -89,3 +89,4 @@
 ! https://github.com/easylist/easylist/issues/18489
 ||pl.letsblock.it^
 ||analytics.blender.org^
+||analytics.lunaweb.cloud^
