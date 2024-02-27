@@ -9213,3 +9213,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||americanunsecured.com^$document
 ||grantsreach.com^$document
 
+! https://github.com/hagezi/dns-blocklists/issues/2228
+||z-lib.id^$document
+
