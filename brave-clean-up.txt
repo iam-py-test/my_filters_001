@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results, along with other annoyances
 ! Expires: 1 day
 ! Last updated: 7/4/2023
-! Last auto-generated: 26/02/2024
+! Last auto-generated: 27/02/2024
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -4255,12 +4255,20 @@ search.brave.com##div.fdb.snippet:has(a[href*="://fundatingquest.fun"])
 search.brave.com##div.fdb.snippet:has(a[href*="://i.fundatingquest.fun"])
 search.brave.com##div.fdb.snippet:has(a[href*="://b.fundatingquest.fun"])
 search.brave.com##div.fdb.snippet:has(a[href*="://a.fundatingquest.fun"])
+search.brave.com##div.fdb.snippet:has(a[href*="://h.fundatingquest.fun"])
+search.brave.com##div.fdb.snippet:has(a[href*="://f.fundatingquest.fun"])
+search.brave.com##div.fdb.snippet:has(a[href*="://c.fundatingquest.fun"])
 search.brave.com##div.fdb.snippet:has(a[href*="://sharlalias.click"])
 search.brave.com##div.fdb.snippet:has(a[href*="://mysuperdatingforyou.life"])
 search.brave.com##div.fdb.snippet:has(a[href*="://chat-o-live.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://rozaholshouser.cfd"])
 search.brave.com##div.fdb.snippet:has(a[href*="://eshaalfawson.shop"])
+search.brave.com##div.fdb.snippet:has(a[href*="://kristidamon.beauty"])
+search.brave.com##div.fdb.snippet:has(a[href*="://bethanytunks.skin"])
+search.brave.com##div.fdb.snippet:has(a[href*="://localdatez.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://leoniaivey.site"])
 search.brave.com##div.fdb.snippet:has(a[href*="://40plusshag.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://delivery.40plusshag.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublockerext.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://quatrefeuillepolonaise.xyz"])
@@ -12941,6 +12949,7 @@ search.brave.com##div.fdb.snippet:has(a[href*="://qimail.su"])
 search.brave.com##div.fdb.snippet:has(a[href*="://cybergeniehackpro.xyz"])
 search.brave.com##div.fdb.snippet:has(a[href*="://cyberservices.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://forestver.se"])
+search.brave.com##div.fdb.snippet:has(a[href*="://tambayan.us"])
 search.brave.com##div.fdb.snippet:has(a[href*="://csgo.xyz"])
 search.brave.com##div.fdb.snippet:has(a[href*="://brightdata.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://brightdata.de"])

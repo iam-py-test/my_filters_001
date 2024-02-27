@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from DuckDuckGo search results, along with other annoyances
 ! Expires: 1 day
 ! Last updated: 23/10/2023
-! Last auto-generated: 26/02/2024
+! Last auto-generated: 27/02/2024
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -8479,6 +8479,12 @@ duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.result:has(a[href*="://b.fundatingquest.fun"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*="://a.fundatingquest.fun"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.result:has(a[href*="://a.fundatingquest.fun"])
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*="://h.fundatingquest.fun"])
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.result:has(a[href*="://h.fundatingquest.fun"])
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*="://f.fundatingquest.fun"])
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.result:has(a[href*="://f.fundatingquest.fun"])
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*="://c.fundatingquest.fun"])
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.result:has(a[href*="://c.fundatingquest.fun"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*="://sharlalias.click"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.result:has(a[href*="://sharlalias.click"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*="://mysuperdatingforyou.life"])
@@ -8489,8 +8495,18 @@ duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.result:has(a[href*="://rozaholshouser.cfd"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*="://eshaalfawson.shop"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.result:has(a[href*="://eshaalfawson.shop"])
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*="://kristidamon.beauty"])
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.result:has(a[href*="://kristidamon.beauty"])
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*="://bethanytunks.skin"])
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.result:has(a[href*="://bethanytunks.skin"])
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*="://localdatez.com"])
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.result:has(a[href*="://localdatez.com"])
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*="://leoniaivey.site"])
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.result:has(a[href*="://leoniaivey.site"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*="://40plusshag.com"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.result:has(a[href*="://40plusshag.com"])
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*="://delivery.40plusshag.com"])
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.result:has(a[href*="://delivery.40plusshag.com"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*="://ublock.org"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.result:has(a[href*="://ublock.org"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*="://ublockerext.com"])
@@ -25851,6 +25867,8 @@ duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.result:has(a[href*="://cyberservices.com"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*="://forestver.se"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.result:has(a[href*="://forestver.se"])
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*="://tambayan.us"])
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.result:has(a[href*="://tambayan.us"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*="://csgo.xyz"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.result:has(a[href*="://csgo.xyz"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*="://brightdata.com"])
