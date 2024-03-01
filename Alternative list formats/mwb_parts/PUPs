@@ -927,10 +927,29 @@
 ||mysearchdial.com^$document
 ||start.mysearchdial.com^$document
 
-! 
+! origin unknown (forgot to add a comment here)
+! TODO: reverify
 ||driveridentifier.com^$document
 ! driverpack
 ||driverpack.io^$document
 ||driverpack.tilda.ws^$document
 ||dwrapper-prod.herokuapp.com^$document
+
+
+! https://virustotal.com/gui/url/48a9e88e0b6cf59fac14588d252d9bb6b936ec2fd847e832d17fdb76322b35d3/detection
+! https://virustotal.com/gui/file/e66db6f687eacf9852542ab583f4d77191965f3a8d6c2e726f4e6b8b83b4f390/detection
+! https://virustotal.com/gui/file/93f1afd730eb30421d8e7cae9fc79cbee918c4b0a75d68bf64d34d2cc99d29f0/detection
+! To remove, run ADWCleaner (https://malwarebytes.com/adwcleaner) and follow instructions.
+||speedupmypcfree.com^$all
+! https://virustotal.com/gui/domain/speedupmypcfree.com/relations
+||mail.speedupmypcfree.com^$all
+||www.speedupmypcfree.com^$all
+||ftp.speedupmypcfree.com^$all
+
+! https://windowsreport.com/extend-windows-laptop-battery-life/
+! https://www.hybrid-analysis.com/sample/0dd66edadbe93df04f6759e5549d3e76b5bfcb292ba6f6a6139903dd705ced6a
+! Tested on VM: Removed by ADWCleaner
+! Switched to document as per https://github.com/uBlockOrigin/uAssets/issues/9974
+||driverfix.com^$all
+||www.driverfix.com^$all
 

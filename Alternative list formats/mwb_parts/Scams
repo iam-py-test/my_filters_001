@@ -5933,9 +5933,6 @@
 ||anyplacehere.me^$document
 ||funaroundy.click^$document
 
-! https://github.com/hagezi/dns-blocklists/issues/1116
-!!! ||dr-farfar.com^$all - https://github.com/hagezi/dns-blocklists/issues/1336
-
 ! https://0xacab.org/my-privacy-dns/matrix/-/issues/594269
 ! my analysis: https://tria.ge/230604-x8gtcadd85/behavioral1
 ||darkskin.world^$all
@@ -7055,7 +7052,6 @@ $all,domain=goatmod.xyz|metriumoldeb.com
 ||mobile-safe-app.com^$all
 ||moi1qwhcp7ns.top^$all
 ||most-advanced-vpn.com^$all
-||mp6g8i2yjaal.top^$all
 ||mt2dpmyjzblr.top^$all
 ||mu7cmiqx2j20.top^$all
 ||my-casino-now.com^$all
