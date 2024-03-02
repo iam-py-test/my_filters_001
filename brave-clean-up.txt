@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results, along with other annoyances
 ! Expires: 1 day
 ! Last updated: 7/4/2023
-! Last auto-generated: 01/03/2024
+! Last auto-generated: 02/03/2024
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -13101,6 +13101,16 @@ search.brave.com##div.fdb.snippet:has(a[href*="://sync-a942.thetruthspy.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://myspyapps.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://my-spy-a9c92.firebaseio.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://flexispy.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://clevguard.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://www.clevguard.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://images.clevguard.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://panel.clevguard.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://public.clevguard.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://account.clevguard.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://clevguard.org"])
+search.brave.com##div.fdb.snippet:has(a[href*="://www.clevguard.org"])
+search.brave.com##div.fdb.snippet:has(a[href*="://images.clevguard.org"])
+search.brave.com##div.fdb.snippet:has(a[href*="://imyfone.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://91.241.60.117"])
 search.brave.com##div.fdb.snippet:has(a[href*="://176.121.14.103"])
 search.brave.com##div.fdb.snippet:has(a[href*="://176.121.14.143"])
