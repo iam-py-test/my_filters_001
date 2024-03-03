@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
 ! Last updated: 2/3/2024
-! Version: 232024-1
+! Version: 232024-2
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -219,4 +219,134 @@
 
 ! https://github.com/Mastodon-DE/blocklists/issues/17
 ||tambayan.us^$document
+
+! https://www.bleepingcomputer.com/news/security/news-farm-impersonates-60-plus-major-outlets-bbc-cnn-cnbc-guardian/
+||australiannewstoday.com^$document
+||bbcnewstoday.com^$document
+||bloombergnewstoday.com^$document
+||bostonnewstoday.com^$document
+||britishnewstoday.com^$document
+||canadiannewstoday.com^$document
+||chinaworldnewstoday.com^$document
+||chroniclenewstoday.com^$document
+||cnbcnewstoday.com^$document
+||cnnworldtoday.com^$document
+||crunchbasenewstoday.com^$document
+||dailyexpressnewstoday.com^$document
+||dailyheraldnewstoday.com^$document
+||dailymirrornewstoday.com^$document
+||dailystarnewstoday.com^$document
+||dailytelegraphnewstoday.com^$document
+||dutchnewstoday.com^$document
+||dwnewstoday.com^$document
+||europeannewstoday.com^$document
+||forbesnewstoday.com^$document
+||frenchnewstoday.com^$document
+||germaynewstoday.com^$document
+||guardiannewstoday.com^$document
+||headlinesworldnews.com^$document
+||huffingtonposttoday.com^$document
+||irishnewstoday.com^$document
+||italiannewstoday.com^$document
+||livemintnewstoday.com^$document
+||maltanewstime.com^$document
+||mirrornewstoday.com^$document
+||nationalposttoday.com^$document
+||neatherlandnewstoday.com^$document
+||neweuropetoday.com^$document
+||norwaynewstoday.com^$document
+||oxfordnewstoday.com^$document
+||portugalnewstoday.com^$document
+||postgazettenewstoday.com^$document
+||republicofchinatoday.com^$document
+||reuterstoday.com^$document
+||russiannewstoday.com^$document
+||scotlandnewstoday.com^$document
+||spanenewstoday.com^$document
+||switzerlandnewstoday.com^$document
+||thedailymailnewstoday.com^$document
+||thedailytelegraphnewstoday.com^$document
+||theexpressnewstoday.com^$document
+||theheraldnewstoday.com^$document
+||theindependentnewstoday.com^$document
+||theirishtimesnewstoday.com^$document
+||theirishtimestoday.com^$document
+||themetronewstoday.com^$document
+||themirrornewstoday.com^$document
+||thequintnewstoday.com^$document
+||thestarnewstoday.com^$document
+||thesunnewstoday.com^$document
+||thetelegraphnewstoday.com^$document
+||timesofnetherland.com^$document
+||timesofspanish.com^$document
+||topeuropenews.com^$document
+||topworldnewstoday.com^$document
+||turkeynewstoday.com^$document
+||walesnewstoday.com^$document
+||washingtonposttoday.com^$document
+||washingtontimesnewstoday.com^$document
+||www.australiannewstoday.com^$document
+||www.bbcnewstoday.com^$document
+||www.bloombergnewstoday.com^$document
+||www.bostonnewstoday.com^$document
+||www.britishnewstoday.com^$document
+||www.canadiannewstoday.com^$document
+||www.chinaworldnewstoday.com^$document
+||www.chroniclenewstoday.com^$document
+||www.cnbcnewstoday.com^$document
+||www.cnnworldtoday.com^$document
+||www.crunchbasenewstoday.com^$document
+||www.dailyexpressnewstoday.com^$document
+||www.dailyheraldnewstoday.com^$document
+||www.dailymirrornewstoday.com^$document
+||www.dailystarnewstoday.com^$document
+||www.dailytelegraphnewstoday.com^$document
+||www.dutchnewstoday.com^$document
+||www.dwnewstoday.com^$document
+||www.europeannewstoday.com^$document
+||www.forbesnewstoday.com^$document
+||www.frenchnewstoday.com^$document
+||www.germaynewstoday.com^$document
+||www.guardiannewstoday.com^$document
+||www.headlinesworldnews.com^$document
+||www.huffingtonposttoday.com^$document
+||www.irishnewstoday.com^$document
+||www.italiannewstoday.com^$document
+||www.livemintnewstoday.com^$document
+||www.maltanewstime.com^$document
+||www.mirrornewstoday.com^$document
+||www.nationalposttoday.com^$document
+||www.neatherlandnewstoday.com^$document
+||www.neweuropetoday.com^$document
+||www.norwaynewstoday.com^$document
+||www.oxfordnewstoday.com^$document
+||www.portugalnewstoday.com^$document
+||www.postgazettenewstoday.com^$document
+||www.republicofchinatoday.com^$document
+||www.reuterstoday.com^$document
+||www.russiannewstoday.com^$document
+||www.scotlandnewstoday.com^$document
+||www.spanenewstoday.com^$document
+||www.switzerlandnewstoday.com^$document
+||www.thedailymailnewstoday.com^$document
+||www.thedailytelegraphnewstoday.com^$document
+||www.theexpressnewstoday.com^$document
+||www.theheraldnewstoday.com^$document
+||www.theindependentnewstoday.com^$document
+||www.theirishtimesnewstoday.com^$document
+||www.theirishtimestoday.com^$document
+||www.themetronewstoday.com^$document
+||www.themirrornewstoday.com^$document
+||www.thequintnewstoday.com^$document
+||www.thestarnewstoday.com^$document
+||www.thesunnewstoday.com^$document
+||www.thetelegraphnewstoday.com^$document
+||www.timesofnetherland.com^$document
+||www.timesofspanish.com^$document
+||www.topeuropenews.com^$document
+||www.topworldnewstoday.com^$document
+||www.turkeynewstoday.com^$document
+||www.walesnewstoday.com^$document
+||www.washingtonposttoday.com^$document
+||www.washingtontimesnewstoday.com^$document
 
