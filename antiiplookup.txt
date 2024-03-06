@@ -42,6 +42,7 @@
 0.0.0.0 pro.ip-api.com
 # malware
 0.0.0.0 icanhazip.com
+0.0.0.0 ipv6.icanhazip.com
 # https://tria.ge/230810-2gkhdahd53/behavioral1
 0.0.0.0 geo-ip.enigmasoft.net
 # https://github.com/PeterDaveHello/ipinfo.tw-uptime
@@ -74,3 +75,7 @@
 0.0.0.0 myip.wtf
 # https://github.com/hagezi/dns-blocklists/issues/2154
 0.0.0.0 checkip.com.vn
+# https://stackoverflow.com/questions/30286293/make-requests-using-python-over-tor
+0.0.0.0 ipecho.net
+# has ip lookup but also other services, uncomment if you wish
+# 0.0.0.0 httpbin.org
