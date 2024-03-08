@@ -90,3 +90,6 @@
 ||pl.letsblock.it^
 ||analytics.blender.org^
 ||analytics.lunaweb.cloud^
+
+! https://github.com/hagezi/dns-blocklists/issues/2269
+||piwik.audiotapes.kiev.ua^
