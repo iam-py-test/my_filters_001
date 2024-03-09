@@ -109,6 +109,7 @@ def is_valid(domain):
 
 def port_open(host, port):
     try:
+        print(f"scaning port {port} on {host}")
         s = socket.socket()
         return s.connect_ex((host, port)) == 0
     except:
@@ -123,7 +124,7 @@ domain_list = open("Alternative list formats/antimalware_domains.txt", encoding=
 current_date = datetime.datetime.now().isoformat()
 entry_data["last_updated"] = current_date
 
-
+print("Beginning part 1", len(domain_list), current_date)
 for e in domain_list:
     #print(e, e in entry_data)
     if (e not in entry_data or type(entry_data[e]) == str) and e != "last_updated":
@@ -214,6 +215,7 @@ for e in entry_data:
             if "dead_on_removal" in entry_data[e]:
                 entry_data[e]['alive_on_removal'] = entry_data[e]["dead_on_removal"]
             if entry_data[e]["removed"] == False:
+                print("Just removed", e)
                 entry_data[e]["removed"] = True
                 entry_data[e]["removed_date"] = current_date
                 entry_data[e]["alive_on_removal"] = is_alive(e)
