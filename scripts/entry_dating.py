@@ -110,6 +110,10 @@ entry_data["last_updated"] = current_date
 
 
 for e in domain_list:
+    if e in entry_data:
+        if type(entry_data[e]) == str:
+            print(e, "broken entry")
+            del entry_data[e]
     if e not in entry_data and e != "last_updated":
         entry_is_alive = is_alive(e)
         dead_since = ""
@@ -157,7 +161,7 @@ for e in domain_list:
             if "ips" not in entry_data[e]:
                 entry_data[e]["ips"] = get_ips(e)
         elif "ips" not in entry_data[e]:
-            entry_data[e]["ips"] = []
+            entry_data[e]["ips"] = get_ips(e)
         if entry_data[e]["check_status"] == False:
             dead_domains.append(e)
         if "removed" in entry_data[e]:
@@ -184,7 +188,7 @@ for e in domain_list:
             entry_data[e]["ever_rechecked"] = True
             entry_data[e]["times_checked"] += 1
             if "whois" not in entry_data[e]:
-                entry_data[e] = get_whois(e)
+                entry_data[e]['whois'] = get_whois(e)
             if "ips" not in entry_data[e]:
                 entry_data[e]["ips"] = get_ips(e)
             if "ports_open" not in entry_data[e]:
