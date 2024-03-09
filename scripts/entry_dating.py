@@ -110,6 +110,7 @@ entry_data["last_updated"] = current_date
 
 
 for e in domain_list:
+    print(e, e in entry_data)
     if (e not in entry_data or type(entry_data[e]) == str) and e != "last_updated":
         entry_is_alive = is_alive(e)
         dead_since = ""
@@ -187,26 +188,19 @@ for e in domain_list:
                 entry_data[e]['whois'] = get_whois(e)
             if "ips" not in entry_data[e]:
                 entry_data[e]["ips"] = get_ips(e)
-            if "ports_open" not in entry_data[e]:
-                entry_data[e]['ports_open'] = {
-                    80: port_open(e, 80),
-                    443: port_open(e, 443),
-                    8000: port_open(e, 8000),
-                    8080: port_open(e, 8080),
-                    9090: port_open(e, 9090)
-                }
             if domain_is_alive != True:
                 entry_data[e]["dead_since"] = current_date
-
+print("Done with part 1")
 for e in entry_data:
     if e not in domain_list and e != "last_updated":
         try:
-            entry_data[e]["removed"] = True
-            entry_data[e]["removed_date"] = current_date
-            entry_data[e]["dead_on_removal"] = is_alive(e)
+            if entry_data[e]["removed"] == False:
+                entry_data[e]["removed"] = True
+                entry_data[e]["removed_date"] = current_date
+                entry_data[e]["dead_on_removal"] = is_alive(e)
         except Exception as err:
             print(err, e, entry_data[e])
-
+print("Done with part 2")
 entry_data_file = open("entry_data.json", 'w', encoding="UTF-8")
 entry_data_file.write(json.dumps(entry_data))
 entry_data_file.close()
