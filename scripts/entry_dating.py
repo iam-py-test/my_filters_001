@@ -110,7 +110,6 @@ entry_data["last_updated"] = current_date
 
 
 for e in domain_list:
-    if e in entry_data:
     if (e not in entry_data or type(entry_data[e]) == str) and e != "last_updated":
         entry_is_alive = is_alive(e)
         dead_since = ""
@@ -188,6 +187,14 @@ for e in domain_list:
                 entry_data[e]['whois'] = get_whois(e)
             if "ips" not in entry_data[e]:
                 entry_data[e]["ips"] = get_ips(e)
+            if "ports_open" not in entry_data[e]:
+                entry_data[e]['ports_open'] = {
+                    80: port_open(e, 80),
+                    443: port_open(e, 443),
+                    8000: port_open(e, 8000),
+                    8080: port_open(e, 8080),
+                    9090: port_open(e, 9090)
+                }
             if domain_is_alive != True:
                 entry_data[e]["dead_since"] = current_date
 
