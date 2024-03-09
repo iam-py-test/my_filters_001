@@ -444,5 +444,12 @@ Remove-Item "$env:systemdrive\Windows\Prefetch\*" -Include "*.pf"
 Remove-Item "$env:windir\SoftwareDistribution\Download\*" -Recurse -Force
 Clear-RecycleBin -Force
 
+$twdirs = Get-ChildItem C:\Windows\System32\config\systemprofile\AppData\Local -Directory -Filter "tw-*.tmp"
+foreach($dir in $twdirs) {
+    if(!(Get-ChildItem $dir.FullName)){
+        Remove-Item -Force $dir.FullName
+    }
+}
+
 Write-Host "You need to reboot your system"
 Read-Host "Press enter to end" | Out-Null

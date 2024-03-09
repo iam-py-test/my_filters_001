@@ -92,6 +92,13 @@ def is_valid(domain):
     except:
         return False
 
+def port_open(host, port):
+    try:
+        s = socket.socket()
+        return s.connect_ex((host, port)) == 0
+    except:
+        return False
+
 try:
     entry_data = json.loads(open("entry_data.json", encoding="UTF-8").read())
 except:
@@ -120,12 +127,20 @@ for e in domain_list:
             "times_checked": 1,
             "ever_rechecked": False,
             "readded": False,
+            "dead_on_removal": None,
             "origin_add": "",
             "readd": "",
             "is_valid": is_valid(e),
             "ips": get_ips(e),
             "dead_since": dead_since,
-            "whois": get_whois(e)
+            "whois": get_whois(e),
+            "ports_open": {
+                80: port_open(e, 80),
+                443: port_open(e, 443),
+                8000: port_open(e, 8000),
+                8080: port_open(e, 8080),
+                9090: port_open(e, 9090)
+            }
         }
     else:
         if "times_checked" not in entry_data[e]:
@@ -168,6 +183,18 @@ for e in domain_list:
             entry_data[e]["check_counter"] = 0
             entry_data[e]["ever_rechecked"] = True
             entry_data[e]["times_checked"] += 1
+            if "whois" not in entry_data[e]:
+                entry_data[e] = get_whois(e)
+            if "ips" not in entry_data[e]:
+                entry_data[e]["ips"] = get_ips(e)
+            if "ports_open" not in entry_data[e]:
+                entry_data[e]['ports_open'] = {
+                    80: port_open(e, 80),
+                    443: port_open(e, 443),
+                    8000: port_open(e, 8000),
+                    8080: port_open(e, 8080),
+                    9090: port_open(e, 9090)
+                }
             if domain_is_alive != True:
                 entry_data[e]["dead_since"] = current_date
 
@@ -176,6 +203,7 @@ for e in entry_data:
         try:
             entry_data[e]["removed"] = True
             entry_data[e]["removed_date"] = current_date
+            entry_data[e]["dead_on_removal"] = is_alive(e)
         except Exception as err:
             print(err, e, entry_data[e])
 
