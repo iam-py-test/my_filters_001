@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results, along with other annoyances
 ! Expires: 1 day
 ! Last updated: 7/4/2023
-! Last auto-generated: 08/03/2024
+! Last auto-generated: 09/03/2024
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -4294,7 +4294,12 @@ search.brave.com##div.fdb.snippet:has(a[href*="://espacefidelitefree.fr"])
 search.brave.com##div.fdb.snippet:has(a[href*="://shopflarehub.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://dynamiclink.lol"])
 search.brave.com##div.fdb.snippet:has(a[href*="://dynamic-linx.com"])
-search.brave.com##div.fdb.snippet:has(a[href*="://androeed.store"])
+search.brave.com##div.fdb.snippet:has(a[href*="://casino-ice.fun"])
+search.brave.com##div.fdb.snippet:has(a[href*="://fortuneadvert.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://lalielynaualish.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://vast-conexxion.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://bllthbatnthes.life"])
+search.brave.com##div.fdb.snippet:has(a[href*="://kuualosd.bllthbatnthes.life"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublockerext.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://quatrefeuillepolonaise.xyz"])
@@ -4451,7 +4456,6 @@ search.brave.com##div.fdb.snippet:has(a[href*="://inteledirect.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://turapport-strience.icu"])
 search.brave.com##div.fdb.snippet:has(a[href*="://americanwinnerscircle.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://yunosurveys.com"])
-search.brave.com##div.fdb.snippet:has(a[href*="://gospelchor.info"])
 search.brave.com##div.fdb.snippet:has(a[href*="://reykijnoac.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://totalnicefeed.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://omnatuor.com"])
@@ -4607,7 +4611,6 @@ search.brave.com##div.fdb.snippet:has(a[href*="://atandmouse.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://masstech.info"])
 search.brave.com##div.fdb.snippet:has(a[href*="://windows-secureit.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://anonmods.com"])
-search.brave.com##div.fdb.snippet:has(a[href*="://freychang.fun"])
 search.brave.com##div.fdb.snippet:has(a[href*="://us.doctorpost.net"])
 search.brave.com##div.fdb.snippet:has(a[href*="://richinfo.co"])
 search.brave.com##div.fdb.snippet:has(a[href*="://contact.uplevelrewards.com"])
