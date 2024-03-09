@@ -1,6 +1,21 @@
 import os, sys, json, datetime, socket, random, publicsuffixlist
 import dns.resolver
 
+PORTS_TO_CHECK = [
+    25, # SMTP
+    80, # HTTP port used by... almost everything
+    143, # IMAP 
+    220, # IMAP - I have blocklisted some email servers
+    443, # HTTPS (TLS)
+    993, # IMAP but over TLS
+    3000, # according to Wikipedia, default Ruby on Rails port
+    4444, # according to Wikipedia, metasploit
+    5000, # default port for Flask apps
+    8000, # Python http.server uses this by default, also supposedly Django according to Wikipedia - we know attackers *have* used http.server in the past as it's easy
+    8080, # very common HTTP port, second only to 80
+    9090 # used by updog for hosting files
+]
+
 dead_domains = []
 p = publicsuffixlist.PublicSuffixList(only_icann=True)
 resolver = dns.resolver.Resolver()
@@ -116,6 +131,9 @@ for e in domain_list:
         dead_since = ""
         if entry_is_alive != True:
             dead_since = current_date
+        ports_open = {}
+        for port in PORTS_TO_CHECK:
+            ports_open[port] = port_open(e, port)
         entry_data[e] = {
             "first_seen": current_date,
             "last_seen": current_date,
@@ -135,13 +153,7 @@ for e in domain_list:
             "ips": get_ips(e),
             "dead_since": dead_since,
             "whois": get_whois(e),
-            "ports_open": {
-                80: port_open(e, 80),
-                443: port_open(e, 443),
-                8000: port_open(e, 8000),
-                8080: port_open(e, 8080),
-                9090: port_open(e, 9090)
-            }
+            "ports_open": ports_open
         }
     else:
         if "times_checked" not in entry_data[e]:
@@ -188,6 +200,11 @@ for e in domain_list:
                 entry_data[e]['whois'] = get_whois(e)
             if "ips" not in entry_data[e]:
                 entry_data[e]["ips"] = get_ips(e)
+            if "ports_open" not in entry_data[e]:
+                ports_open = {}
+                for port in PORTS_TO_CHECK:
+                    ports_open[port] = port_open(e, port)
+                entry_data[e]['ports_open'] = ports_open
             if domain_is_alive != True:
                 entry_data[e]["dead_since"] = current_date
 print("Done with part 1")
