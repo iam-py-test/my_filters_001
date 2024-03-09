@@ -128,7 +128,7 @@ for e in domain_list:
             "times_checked": 1,
             "ever_rechecked": False,
             "readded": False,
-            "dead_on_removal": None,
+            "alive_on_removal": None,
             "origin_add": "",
             "readd": "",
             "is_valid": is_valid(e),
@@ -194,11 +194,12 @@ print("Done with part 1")
 for e in entry_data:
     if e not in domain_list and e != "last_updated":
         try:
-            print(f"removed {e}")
+            if "dead_on_removal" in entry_data[e]:
+                entry_data[e]['alive_on_removal'] = entry_data[e]["dead_on_removal"]
             if entry_data[e]["removed"] == False:
                 entry_data[e]["removed"] = True
                 entry_data[e]["removed_date"] = current_date
-                entry_data[e]["dead_on_removal"] = is_alive(e)
+                entry_data[e]["alive_on_removal"] = is_alive(e)
         except Exception as err:
             print(err, e, entry_data[e])
 print("Done with part 2")
