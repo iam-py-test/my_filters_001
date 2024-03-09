@@ -110,7 +110,7 @@ entry_data["last_updated"] = current_date
 
 
 for e in domain_list:
-    print(e, e in entry_data)
+    #print(e, e in entry_data)
     if (e not in entry_data or type(entry_data[e]) == str) and e != "last_updated":
         entry_is_alive = is_alive(e)
         dead_since = ""
@@ -194,6 +194,7 @@ print("Done with part 1")
 for e in entry_data:
     if e not in domain_list and e != "last_updated":
         try:
+            print(f"removed {e}")
             if entry_data[e]["removed"] == False:
                 entry_data[e]["removed"] = True
                 entry_data[e]["removed_date"] = current_date
