@@ -1,3 +1,4 @@
+print(__file__, "BEGIN")
 import os, sys, json, datetime, socket, random, publicsuffixlist
 import dns.resolver
 
@@ -120,6 +121,7 @@ try:
 except:
     entry_data = {}
 
+print(__file__, "LOADING")
 domain_list = open("Alternative list formats/antimalware_domains.txt", encoding="UTF-8").read().replace("\r\n","\n").split("\n")
 current_date = datetime.datetime.now().isoformat()
 entry_data["last_updated"] = current_date
@@ -201,11 +203,6 @@ for e in domain_list:
                 entry_data[e]['whois'] = get_whois(e)
             if "ips" not in entry_data[e]:
                 entry_data[e]["ips"] = get_ips(e)
-            if "ports_open" not in entry_data[e]:
-                ports_open = {}
-                for port in PORTS_TO_CHECK:
-                    ports_open[port] = port_open(e, port)
-                entry_data[e]['ports_open'] = ports_open
             if domain_is_alive != True:
                 entry_data[e]["dead_since"] = current_date
 print("Done with part 1")
