@@ -93,3 +93,6 @@
 
 ! https://github.com/hagezi/dns-blocklists/issues/2269
 ||piwik.audiotapes.kiev.ua^
+
+! https://github.com/ShadowWhisperer/BlockLists/issues/140
+||sentry.fundraiseup.com^
