@@ -96,3 +96,20 @@
 
 ! https://github.com/ShadowWhisperer/BlockLists/issues/140
 ||sentry.fundraiseup.com^
+
+! https://github.com/hagezi/dns-blocklists/issues/2323
+||sentry.eridan-company.com.ua^
+||matomo.ccplatz.de^
+||matomo.uppsala.se^
+||matomo.lt-company.de^
+||matomo.easysites.uk^
+||matomo.verbreughalexandre.fr^
+||matomo.woojinkim.org^
+||matomo.plusx.social^
+||matomo.zip-media.de^
+||matomo.w3stats.de^
+||matomo.sensor.community^
+||matomo.gulper.net^
+||matomo.s18m2.com^
+||matomo.fdi-partner.fr^
+||matomo.moteefe.app^
