@@ -29,7 +29,7 @@ jobs:
         python scripts/checksum.py
         python scripts/mwb_parts.py antimalware.txt "Alternative list formats/mwb_parts"
         echo running entry dating
-        python scripts/entry_dating.py
+        python -v scripts/entry_dating.py
     - name: Commit & Push
       uses: actions-x/commit@v6
       with:
