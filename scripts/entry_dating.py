@@ -138,6 +138,9 @@ for e in domain_list:
             "ports_open": {
                 80: port_open(e, 80),
                 443: port_open(e, 443),
+                4567: port_open(e, 4567), # default port for Sinatra, according to Wikipedia
+                5000: port_open(e, 5000), # default port for python flask
+                7001: port_open(e, 7001), # default port for Oracle WebLogic Server, according to Wikipedia
                 8000: port_open(e, 8000),
                 8080: port_open(e, 8080),
                 9090: port_open(e, 9090)
