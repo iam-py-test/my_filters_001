@@ -1,0 +1,4 @@
+dnspython==2.0.0
+publicsuffixlist
+idna
+requests
