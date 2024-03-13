@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 8/3/2024
-! Version: 832024-1
+! Last updated: 12/3/2024
+! Version: 1232024-1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -22,19 +22,9 @@
 ||media-sync-a.copy9.com^$all
 ||media-sync-a.fonetracker.com^$all
 ||media-sync-a.thetruthspy.com^$all
-||media-sync-a100.fonetracker.com^$all
-||media-sync-a600.fonetracker.com^$all
-||media-sync-a740.thetruthspy.com^$all
 ||media-sync-a743.thetruthspy.com^$all
-||media-sync-a746.thetruthspy.com^$all
-||media-sync-a747.thetruthspy.com^$all
 ||media-sync-a748.thetruthspy.com^$all
-||media-sync-a749.thetruthspy.com^$all
-||media-sync-a780.fonetracker.com^$all
-||media-sync-a785.fonetracker.com^$all
 ||media-sync-a7xx.thetruthspy.com^$all
-||media-sync-a810.thetruthspy.com^$all
-||media-sync-a820.thetruthspy.com^$all
 ||media-sync-a825.thetruthspy.com^$all
 ||media-sync-a830.thetruthspy.com^$all
 ||media-sync-a835.thetruthspy.com^$all
@@ -60,33 +50,16 @@
 ||protocol-a.ispyoo.com^$all
 ||protocol-a.mxspy.com^$all
 ||protocol-a.thetruthspy.com^$all
-||protocol-a100.fonetracker.com^$all
-||protocol-a600.fonetracker.com^$all
 ||protocol-a621.copy9.com^$all
 ||protocol-a696.copy9.com^$all
 ||protocol-a710.copy9.com^$all
-||protocol-a712.fonetracker.com^$all
-||protocol-a740.thetruthspy.com^$all
-||protocol-a741.thetruthspy.com^$all
-||protocol-a742.thetruthspy.com^$all
 ||protocol-a743.thetruthspy.com^$all
-||protocol-a744.thetruthspy.com^$all
 ||protocol-a745.thetruthspy.com^$all
-||protocol-a746.thetruthspy.com^$all
-||protocol-a747.thetruthspy.com^$all
 ||protocol-a748.thetruthspy.com^$all
-||protocol-a749.thetruthspy.com^$all
 ||protocol-a780.copy9.com^$all
-||protocol-a780.fonetracker.com^$all
-||protocol-a780.ispyoo.com^$all
 ||protocol-a780.mxspy.com^$all
 ||protocol-a785.copy9.com^$all
-||protocol-a785.fonetracker.com^$all
-||protocol-a810.ispyoo.com^$all
-||protocol-a810.thetruthspy.com^$all
-||protocol-a811.ispyoo.com^$all
 ||protocol-a811.mxspy.com^$all
-||protocol-a880.ispyoo.com^$all
 ||protocol-a910.thetruthspy.com^$all
 ||protocol-a915.thetruthspy.com^$all
 ||protocol-a920.thetruthspy.com^$all
@@ -103,40 +76,17 @@
 ||protocol.thetruthspy.com^$all
 ||secondclone-2d312.firebaseio.com^$all
 ||setupmail-a.icloudappe.com^$all
-||setupmail-a720.icloudappe.com^$all
-||setupmail-a722.icloudappe.com^$all
 ||setupmail-a724.icloudappe.com^$all
-||setupmail-a725.icloudappe.com^$all
-||setupmail-a726.icloudappe.com^$all
-||setupmail-a727.icloudappe.com^$all
-||setupmail-a729.icloudappe.com^$all
-||setupmail-a732.icloudappe.com^$all
-||setupmail-a733.icloudappe.com^$all
-||setupmail-a734.icloudappe.com^$all
-||setupmail-a735.icloudappe.com^$all
-||setupmail-a737.icloudappe.com^$all
-||setupmail-a738.icloudappe.com^$all
-||setupmail-a740.icloudappe.com^$all
-||setupmail-a741.icloudappe.com^$all
-||setupmail-a742.icloudappe.com^$all
 ||setupmail-a743.icloudappe.com^$all
-||setupmail-a744.icloudappe.com^$all
 ||setupmail-a745.icloudappe.com^$all
-||setupmail-a746.icloudappe.com^$all
-||setupmail-a747.icloudappe.com^$all
 ||setupmail-a748.icloudappe.com^$all
 ||setupmail-a910.icloudappe.com^$all
 ||setupmail-a915.icloudappe.com^$all
 ||setupmail-a920.icloudappe.com^$all
 ||setupmail.icloudappe.com^$all
 ||sync-a.copy9.com^$all
-||sync-a.fonetracker.com^$all
-||sync-a.ispyoo.com^$all
 ||sync-a.mxspy.com^$all
 ||sync-a.thetruthspy.com^$all
-||sync-a100.fonetracker.com^$all
-||sync-a600.fonetracker.com^$all
-||sync-a712.fonetracker.com^$all
 ||sync-a7xx.thetruthspy.com^$all
 ||sync-a8xx.thetruthspy.com^$all
 ||sync-a925.thetruthspy.com^$all

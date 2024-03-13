@@ -2,11 +2,25 @@
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 08/03/2024
+! Last updated: 12/03/2024
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Fri, 08 Mar 2024 20:17:32 +0000
+! Tue, 12 Mar 2024 20:20:32 +0000
+||185.172.128.187/Ledger-Live.exe^$all
+||185.172.128.187/syncUpd.exe^$all
+||185.172.128.126/InstallSetupNew.exe^$all
+||91.92.250.216/page/c11zx.scr^$all
+||bitbucket.org/j-upsps/microsoft_network1/downloads/a01.exe^$all
+||bitbucket.org/j-upsps/microsoft_network1/downloads/a03.exe^$all
+||seastyle.org/7725eaa6592c80f8124e769b4e8a07f7.exe^$all
+||147.45.47.93/zigma/kefir.exe^$all
+||185.172.128.187/timeSync.exe^$all
+||medfioytrkdkcodlskeej.net/987123.exe^$all
+||bitbucket.org/tanij75843/anij758u3443/downloads/Soft.exe^$all
+||triedchicken.net/cad54ba5b01423b1af8ec10ab5719d97.exe^$all
+||195.20.16.46/download/123p.exe^$all
+||147.45.47.116/static/brg.exe^$all
 ||193.233.132.167/cost/ladas.exe^$all
 ||193.233.132.167/mine/plaza.exe^$all
 ||193.233.132.62/hera/amadka.exe^$all
@@ -94,17 +108,3 @@
 ||109.107.182.3/lego/sadsadsadsa.exe^$all
 ||109.107.182.3/lego/alex.exe^$all
 ||109.107.182.3/lego/installs.exe^$all
-||109.107.182.3/lego/MRK.exe^$all
-||109.107.182.3/lego/2024.exe^$all
-||109.107.182.3/lego/moto.exe^$all
-||109.107.182.3/lego/redline1234.exe^$all
-||185.215.113.68/mine/amers.exe^$all
-||109.107.182.3/cost/lada.exe^$all
-||109.107.182.3/cost/networa.exe^$all
-||109.107.182.3/cost/vinu.exe^$all
-||109.107.182.3/cost/niks.exe^$all
-||109.107.182.3/cost/ko.exe^$all
-||185.172.128.8/hv.exe^$all
-||185.172.128.8/sc.exe^$all
-||185.172.128.8/sc.exe^$all
-||185.172.128.8/cp.exe^$all
