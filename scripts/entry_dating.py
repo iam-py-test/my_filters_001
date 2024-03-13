@@ -1,21 +1,5 @@
-print(__file__, "BEGIN")
 import os, sys, json, datetime, socket, random, publicsuffixlist
 import dns.resolver
-
-PORTS_TO_CHECK = [
-    25, # SMTP
-    80, # HTTP port used by... almost everything
-    143, # IMAP 
-    220, # IMAP - I have blocklisted some email servers
-    443, # HTTPS (TLS)
-    993, # IMAP but over TLS
-    3000, # according to Wikipedia, default Ruby on Rails port
-    4444, # according to Wikipedia, metasploit
-    5000, # default port for Flask apps
-    8000, # Python http.server uses this by default, also supposedly Django according to Wikipedia - we know attackers *have* used http.server in the past as it's easy
-    8080, # very common HTTP port, second only to 80
-    9090 # used by updog for hosting files
-]
 
 dead_domains = []
 p = publicsuffixlist.PublicSuffixList(only_icann=True)
@@ -110,7 +94,6 @@ def is_valid(domain):
 
 def port_open(host, port):
     try:
-        #print(f"scaning port {port} on {host}")
         s = socket.socket()
         return s.connect_ex((host, port)) == 0
     except:
@@ -121,24 +104,18 @@ try:
 except:
     entry_data = {}
 
-print(__file__, "LOADING")
 domain_list = open("Alternative list formats/antimalware_domains.txt", encoding="UTF-8").read().replace("\r\n","\n").split("\n")
 current_date = datetime.datetime.now().isoformat()
 entry_data["last_updated"] = current_date
 
-print("Beginning part 1", len(domain_list), current_date)
+
 for e in domain_list:
     #print(e, e in entry_data)
     if (e not in entry_data or type(entry_data[e]) == str) and e != "last_updated":
-        if e in entry_data:
-            print(type(entry_data[e]), e)
         entry_is_alive = is_alive(e)
         dead_since = ""
         if entry_is_alive != True:
             dead_since = current_date
-        ports_open = {}
-        for port in PORTS_TO_CHECK:
-            ports_open[port] = port_open(e, port)
         entry_data[e] = {
             "first_seen": current_date,
             "last_seen": current_date,
@@ -158,7 +135,13 @@ for e in domain_list:
             "ips": get_ips(e),
             "dead_since": dead_since,
             "whois": get_whois(e),
-            "ports_open": ports_open
+            "ports_open": {
+                80: port_open(e, 80),
+                443: port_open(e, 443),
+                8000: port_open(e, 8000),
+                8080: port_open(e, 8080),
+                9090: port_open(e, 9090)
+            }
         }
     else:
         if "times_checked" not in entry_data[e]:
@@ -214,7 +197,6 @@ for e in entry_data:
             if "dead_on_removal" in entry_data[e]:
                 entry_data[e]['alive_on_removal'] = entry_data[e]["dead_on_removal"]
             if entry_data[e]["removed"] == False:
-                print("Just removed", e)
                 entry_data[e]["removed"] = True
                 entry_data[e]["removed_date"] = current_date
                 entry_data[e]["alive_on_removal"] = is_alive(e)
