@@ -193,7 +193,7 @@ for e in domain_list:
                 entry_data[e]["ips"] = get_ips(e)
             if domain_is_alive != True:
                 entry_data[e]["dead_since"] = current_date
-                entry_data[e]["check_counter"] = 40
+                entry_data[e]["check_counter"] = 35
 print("Done with part 1")
 for e in entry_data:
     if e not in domain_list and e != "last_updated":
