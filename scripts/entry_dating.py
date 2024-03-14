@@ -184,7 +184,7 @@ for e in domain_list:
             domain_is_alive = is_alive(e)
             entry_data[e]["check_status"] = domain_is_alive
             entry_data[e]["last_checked"] = current_date
-            entry_data[e]["check_counter"] = 0
+            entry_data[e]["check_counter"] = random.randint(0, 10)
             entry_data[e]["ever_rechecked"] = True
             entry_data[e]["times_checked"] += 1
             if "whois" not in entry_data[e]:
@@ -193,6 +193,7 @@ for e in domain_list:
                 entry_data[e]["ips"] = get_ips(e)
             if domain_is_alive != True:
                 entry_data[e]["dead_since"] = current_date
+                entry_data[e]["check_counter"] = 40
 print("Done with part 1")
 for e in entry_data:
     if e not in domain_list and e != "last_updated":
