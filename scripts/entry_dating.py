@@ -144,7 +144,9 @@ for e in domain_list:
                 8000: port_open(e, 8000),
                 8080: port_open(e, 8080),
                 9090: port_open(e, 9090)
-            }
+            },
+            "had_www_on_creation": is_alive(f"www.{e}"),
+            "had_www_on_check": is_alive(f"www.{e}")
         }
     else:
         if "times_checked" not in entry_data[e]:
@@ -179,6 +181,8 @@ for e in domain_list:
         if "last_checked" not in entry_data[e]:
             entry_data[e]["last_checked"] = "Unknown"
         entry_data[e]["check_counter"] += 1
+        if entry_data[e]["check_status"] == False and "had_www_on_check" not in entry_data[e] and entry_data[e]['check_counter'] > 5:
+            entry_data[e]['had_www_on_check'] = is_alive(f"www.{e}")
         if entry_data[e]["check_counter"] > 45:
             print(f"Checking {e}...")
             domain_is_alive = is_alive(e)
@@ -187,6 +191,7 @@ for e in domain_list:
             entry_data[e]["check_counter"] = random.randint(0, 10)
             entry_data[e]["ever_rechecked"] = True
             entry_data[e]["times_checked"] += 1
+            entry_data[e]['had_www_on_check'] = is_alive(f"www.{e}")
             if "whois" not in entry_data[e]:
                 entry_data[e]['whois'] = get_whois(e)
             if "ips" not in entry_data[e]:
