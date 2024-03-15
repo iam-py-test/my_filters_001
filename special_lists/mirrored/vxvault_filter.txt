@@ -2,11 +2,19 @@
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 14/03/2024
+! Last updated: 15/03/2024
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Thu, 14 Mar 2024 20:19:33 +0000
+! Fri, 15 Mar 2024 20:21:06 +0000
+||fonqqa0rfoutqructznfzudsrdhgeqxeuptevarkgnd.000webhostapp.com/decrypt.exe^$all
+||nacionalveiculos.com/Software.exe^$all
+||193.56.255.218/T1403F/audiodg.exe^$all
+||185.172.128.187/timeSync.exe^$all
+||185.172.128.187/syncUpd.exe^$all
+||medfioytrkdkcodlskeej.net/987123.exe^$all
+||193.233.132.62/hera/amadka.exe^$all
+||193.233.132.167/cost/lenin.exe^$all
 ||193.233.132.197/crypted.exe^$all
 ||bitbucket.org/bredil555exe/mix1/downloads/mene.exe^$all
 ||sportessentia.home.pl/temp/crypted.exe^$all
@@ -100,11 +108,3 @@
 ||185.172.128.32/ma.exe^$all
 ||astervell.fun/DR12.exe^$all
 ||5.42.64.4/rockrunn.exe^$all
-||15.204.49.148/files/Amadey.exe^$all
-||habrafa.com/files/1/build3.exe^$all
-||brusuax.com/dl/build2.exe^$all
-||185.172.128.160/hv.exe^$all
-||185.172.128.154/hv.exe^$all
-||103.245.236.146/skyljnee.arm^$all
-||185.172.128.160/ma.exe^$all
-||5.42.66.29/am.exe^$all
