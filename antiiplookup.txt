@@ -29,6 +29,7 @@
 0.0.0.0 my-ip.io
 0.0.0.0 www.my-ip.io
 0.0.0.0 api.my-ip.io
+0.0.0.0 whatismyipaddress.com
 # https://forums.malwarebytes.com/topic/294989-making-sense-of-a-website-exclusion-issue/
 # https://forums.malwarebytes.com/topic/294994-possible-false-positive/ (account required)
 0.0.0.0 stopify.co
