@@ -9123,7 +9123,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||yeezyberlin.de^$document
 ||yeezyireland.com^$document
 ||yeezyisrael.com^$document
-||yeezypraha.cz^$document
 ||yeezyuksale.com^$document
 ||yeti-southafrica.co.za^$document
 ||youngla-danmark.com^$document
@@ -9142,7 +9141,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||do0cd.com^$all
 ||doosd.pro^$all
 ||d0ood.com^$all
-||dooodg.pro^$all
 ||doode.pro^$all
 
 ! SMS phishing message
@@ -9211,4 +9209,11 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||okun.shop^$document
 ||meiguo66.okun.shop^$document
 ||de.okun.shop^$document
+
+! https://www.reddit.com/r/Scams/comments/1bfbq5e/emf_neutralizer_is_this_actually_a_thing/
+! https://yewtu.be/watch?v=EgvdvfOvdJs
+! https://yewtu.be/watch?v=VmFzPALkFyo
+! https://www.bbc.com/news/technology-55613452
+! https://www.usatoday.com/story/news/factcheck/2020/07/12/fact-check-anti-radiation-shields-do-not-protect-against-emf-emission/5349018002/
+||energydots.com^$document
 
