@@ -1,20 +1,20 @@
 ! Title: Anti-"Private analytics"
-! Description: In recent times, there has been a rise in analytics companies using privacy as part of their marketing. While these analytics pretend to be "privacy preserving", such is not the case. While EasyPrivacy and Peter Lowe block most of these already, this list aims to target them - including blocking their websites
+! Description: In recent times, there has been a rise in analytics companies using privacy as part of their marketing. While these analytics pretend to be "privacy preserving", such is not the case. While EasyPrivacy and Peter Lowe block most of these already, this list aims to target them
 ! More info: https://youtu.be/-KkMWUaajhU?t=15900
 ||gc.zgo.at^
-||goatcounter.com^
+||goatcounter.com^$third-party
 ||bearblog.dev/hit/
-||kokoanalytics.com^
+||kokoanalytics.com^$third-party
 /koko-analytics-pro/assets/dist/js/*$script
-||plausible.io^
-||umami.is^
+||plausible.io^$third-party
+||umami.is^$third-party
 /umami.js$script
-||piwik.pro^
-||dpella.io^
-||matomo.org^
+||piwik.pro^$third-party
+||dpella.io^$third-party
+||matomo.org^$third-party
 ||near.blog/matomo/
-||goatcounter.$first-party
-||plausible.$first-party
+||goatcounter.$first-party,domain=~goatcounter.com
+||plausible.$first-party,domain=~plausible.io
 ||matomo.$first-party
 ||ackee.$first-party,domain=~ackee.electerious.com
 ||a.electerious.com^
@@ -113,3 +113,10 @@
 ||matomo.s18m2.com^
 ||matomo.fdi-partner.fr^
 ||matomo.moteefe.app^
+
+! https://github.com/hagezi/dns-blocklists/issues/2359
+||unidentifiedanalytics.web.app^
+
+! https://github.com/hagezi/dns-blocklists/issues/2362
+||metricscube.io^$third-party
+||api.metricscube.io^

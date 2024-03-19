@@ -143,7 +143,9 @@ for e in domain_list:
                 7001: port_open(e, 7001), # default port for Oracle WebLogic Server, according to Wikipedia
                 8000: port_open(e, 8000),
                 8080: port_open(e, 8080),
-                9090: port_open(e, 9090)
+                8888: port_open(e, 8888),
+                9000: port_open(e, 9000),
+                9090: port_open(e, 9090) # default port for updog
             },
             "had_www_on_creation": is_alive(f"www.{e}"),
             "had_www_on_check": is_alive(f"www.{e}")
