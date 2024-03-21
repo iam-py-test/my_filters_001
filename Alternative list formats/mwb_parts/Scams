@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 19/3/2024
-! Version: 1932024-1
+! Last updated: 20/3/2024
+! Version: 2032024-2
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -9218,7 +9218,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||energydots.com^$document
 
 ! https://github.com/durablenapkin/scamblocklist/issues/80
-||produktretter.at^$document
 ||produktretter.com^$document
 ||produktretter.org^$document
 ||gratis-eltern-produkttests.com^$document
@@ -9226,6 +9225,26 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||maforia-anmeldung.com^$document
 ||produkttester-anmeldung.com^$document
 ||produkttester-werden.org^$document
-||produkttest-anmeldung.com^$document
 ||ruecksendungen-gratis.com^$document
+
+! https://github.com/RPiList/specials/issues/1515
+! https://tria.ge/240320-23k12aef2v/behavioral1
+||iioddoy.shop^$all
+||shop.iioddoy.shop^$all
+||baodan.xyz^$document
+||img.baodan.xyz^$image
+! https://tria.ge/240320-3qqanaec82/behavioral1
+||ixlcrg.shop^$all
+||shop.ixlcrg.shop^$all
+||gagabao216.com^$document
+||img.gagabao216.com^$image
+! https://tria.ge/240321-aqql7sfb49/behavioral1
+||ffuoouw.shop^$all
+||shop.ffuoouw.shop^$all
+! https://tria.ge/240321-a55dxagg71/behavioral1
+||nnsnnqn.shop^$all
+||shop.nnsnnqn.shop^$all
+! https://tria.ge/240321-babc1sgh7v/behavioral1
+||rrmuumm.shop^$all
+||shop.rrmuumm.shop^$all
 

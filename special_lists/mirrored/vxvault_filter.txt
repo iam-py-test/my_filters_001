@@ -2,11 +2,16 @@
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 18/03/2024
+! Last updated: 20/03/2024
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Mon, 18 Mar 2024 20:19:48 +0000
+! Wed, 20 Mar 2024 20:19:43 +0000
+||193.233.132.167/cost/ohara.exe^$all
+||193.233.132.167/cost/random.exe^$all
+||193.233.132.62/hera/amadka.exe^$all
+||193.233.132.167/cost/lenin.exe^$all
+||deft-sunflower-97c3b5.netlify.app/Client-built.exe^$all
 ||fonqqa0rfoutqructznfzudsrdhgeqxeuptevarkgnd.000webhostapp.com/decrypt.exe^$all
 ||nacionalveiculos.com/Software.exe^$all
 ||193.56.255.218/T1403F/audiodg.exe^$all
@@ -103,8 +108,3 @@
 ||109.107.182.3/cost/vinu.exe^$all
 ||109.107.182.3/cost/lada.exe^$all
 ||185.172.128.154/hv.exe^$all
-||185.172.128.160/hv.exe^$all
-||109.107.182.3/cost/no.exe^$all
-||185.172.128.32/ma.exe^$all
-||astervell.fun/DR12.exe^$all
-||5.42.64.4/rockrunn.exe^$all
