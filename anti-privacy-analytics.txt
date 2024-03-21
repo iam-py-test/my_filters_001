@@ -120,3 +120,8 @@
 ! https://github.com/hagezi/dns-blocklists/issues/2362
 ||metricscube.io^$third-party
 ||api.metricscube.io^
+
+! https://github.com/hagezi/dns-blocklists/issues/2372
+||matomo.sac-uto.ch^
+||matomo.i-servis.cz^
+||matomo.fitness-tracker-test.info^
