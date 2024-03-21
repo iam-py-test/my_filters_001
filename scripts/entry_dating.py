@@ -122,7 +122,7 @@ for e in domain_list:
             "removed": False,
             "removed_date": "",
             "last_checked": current_date,
-            "check_counter": random.randint(35, 49),
+            "check_counter": random.randint(20, 30),
             "check_status": entry_is_alive,
             "alive_on_creation": entry_is_alive,
             "times_checked": 1,
@@ -138,13 +138,9 @@ for e in domain_list:
             "ports_open": {
                 80: port_open(e, 80),
                 443: port_open(e, 443),
-                4567: port_open(e, 4567), # default port for Sinatra, according to Wikipedia
                 5000: port_open(e, 5000), # default port for python flask
-                7001: port_open(e, 7001), # default port for Oracle WebLogic Server, according to Wikipedia
                 8000: port_open(e, 8000),
                 8080: port_open(e, 8080),
-                8888: port_open(e, 8888),
-                9000: port_open(e, 9000),
                 9090: port_open(e, 9090) # default port for updog
             },
             "had_www_on_creation": is_alive(f"www.{e}"),
@@ -185,22 +181,18 @@ for e in domain_list:
         entry_data[e]["check_counter"] += 1
         if entry_data[e]["check_status"] == False and "had_www_on_check" not in entry_data[e] and entry_data[e]['check_counter'] > 5:
             entry_data[e]['had_www_on_check'] = is_alive(f"www.{e}")
-        if entry_data[e]["check_counter"] > 45:
+        if entry_data[e]["check_counter"] > 50:
             print(f"Checking {e}...")
             domain_is_alive = is_alive(e)
             entry_data[e]["check_status"] = domain_is_alive
             entry_data[e]["last_checked"] = current_date
-            entry_data[e]["check_counter"] = random.randint(0, 10)
+            entry_data[e]["check_counter"] = 0
             entry_data[e]["ever_rechecked"] = True
             entry_data[e]["times_checked"] += 1
             entry_data[e]['had_www_on_check'] = is_alive(f"www.{e}")
-            if "whois" not in entry_data[e]:
-                entry_data[e]['whois'] = get_whois(e)
-            if "ips" not in entry_data[e]:
-                entry_data[e]["ips"] = get_ips(e)
             if domain_is_alive != True:
                 entry_data[e]["dead_since"] = current_date
-                entry_data[e]["check_counter"] = 35
+                entry_data[e]["check_counter"] = 20
 print("Done with part 1")
 for e in entry_data:
     if e not in domain_list and e != "last_updated":
