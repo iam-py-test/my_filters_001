@@ -1,4 +1,4 @@
-dnspython==2.0.0
+dnspython
 publicsuffixlist
 idna
 requests
