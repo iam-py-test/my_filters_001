@@ -982,7 +982,6 @@ rewards-emirates.com
 host.cloudsonicwave.com
 usspaqn.top
 9-9-8.com
-www.steamcommumtiy.com
 extragifis.site
 trafcenter.us
 fwdservice.com
@@ -3244,8 +3243,7 @@ link-etsy.com
 etsy-verifed-shop.com
 produktretter.org
 maforia-anmeldung.com
-www.gagabao216.com
-www.img.gagabao216.com
+gagabao216.com
 totadblock.com
 itopupdate.com
 enigmasoft.net
@@ -3334,15 +3332,3 @@ my.ispyoo.com
 protocol-a.fonetracker.com
 protocol-a.ispyoo.com
 protocol.ispyoo.com
-
-cdn.bytefence.com
-logs.bytefence.com
-update.bytefence.com
-ulogs.bytefence.com
-www.bytefence.com
-fr.bytefence.com
-it.bytefence.com
-en.bytefence.com
-es.bytefence.com
-shield.bytefence.com
-new.bytefence.com

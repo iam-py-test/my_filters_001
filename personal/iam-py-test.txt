@@ -881,3 +881,6 @@ mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
 
 ! tempfix for https://github.com/uBlockOrigin/uBlock-issues/issues/2512
 ||localhost^$badfilter
+
+! https://github.com/mitchellkrogza/Phishing.Database/issues/853
+||phishingquiz.withgoogle.com^$badfilter
