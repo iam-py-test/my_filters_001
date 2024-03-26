@@ -1506,7 +1506,6 @@ skechers-israel.com
 skechers-tenisice.com
 skechersarchfitromania.com
 skechersfactorysoutlet.com
-skechersgolfshoesusa.com
 skechersoutletpraha.cz
 skecherstrainers-uk.com
 skecherusaclearan.com
@@ -3332,3 +3331,5 @@ my.ispyoo.com
 protocol-a.fonetracker.com
 protocol-a.ispyoo.com
 protocol.ispyoo.com
+
+skechersgolfshoesusa.com
