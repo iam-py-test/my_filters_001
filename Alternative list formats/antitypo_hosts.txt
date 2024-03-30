@@ -744,3 +744,5 @@
 # https://github.com/hagezi/dns-blocklists/issues/2405
 0.0.0.0 usps-delivery-a.com
 # https://github.com/uBlockOrigin/uAssets/issues/22765
+# https://github.com/uBlockOrigin/uAssets/issues/23084
+0.0.0.0 fitgirltorrent.com
