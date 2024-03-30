@@ -2,11 +2,31 @@
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 26/03/2024
+! Last updated: 29/03/2024
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Tue, 26 Mar 2024 20:20:42 +0000
+! Fri, 29 Mar 2024 20:20:08 +0000
+||193.233.132.139/silno/download.php^$all
+||193.233.132.167/retro/random.exe^$all
+||petalschanging.shop/current.exe^$all
+||185.149.146.227/bd2.exe^$all
+||185.172.128.65/syncUpd.exe^$all
+||sdfjhuz.com/dl/build2.exe^$all
+||changingpetals.shop/current.exe^$all
+||193.233.132.139/silno/download.php^$all
+||185.172.128.6/timeSync.exe^$all
+||ngovpn.com/share/index.php^$all
+||5.42.66.22/retail.php^$all
+||5.42.66.22/space.php^$all
+||5.42.66.22/getimage.php^$all
+||195.20.16.46/download/123p.exe^$all
+||act.fishoaks.net/data/pdf/june.exe^$all
+||193.233.132.175/server/ww12/AppGate2103v01.exe^$all
+||193.233.132.139/silno/download.php^$all
+||185.172.128.65/Ledger-Live.exe^$all
+||185.172.128.6/timeSync.exe^$all
+||whyvickyischeater.com/amaa.exe^$all
 ||5.42.66.22/getimage.php^$all
 ||github.com/Gretmeet/nbc938sdu42/raw/main/test.exe^$all
 ||github.com/incoper887/tua/raw/main/Build.exe^$all
@@ -88,23 +108,3 @@
 ||mix.avalmag.com/data/pdf/june.exe^$all
 ||109.107.182.38/retro/dota.exe^$all
 ||185.172.128.127/timeSync.exe^$all
-||185.215.113.68/mine/amers.exe^$all
-||109.107.182.3/cost/ladas.exe^$all
-||109.107.182.3/cost/vinu.exe^$all
-||109.107.182.3/cost/niks.exe^$all
-||109.107.182.3/cost/fu.exe^$all
-||185.172.128.127/syncUpd.exe^$all
-||193.233.132.167/lend/crpta.exe^$all
-||193.233.132.167/lend/lumma1234.exe^$all
-||193.233.132.167/lend/1.exe^$all
-||193.233.132.167/lend/daissss.exe^$all
-||193.233.132.167/lend/art1.exe^$all
-||193.233.132.167/lend/art33.exe^$all
-||109.107.182.3/cost/ladas.exe^$all
-||109.107.182.3/lego/Amadey.exe^$all
-||109.107.182.3/lego/crptchk.exe^$all
-||109.107.182.3/lego/1233213123213.exe^$all
-||109.107.182.3/lego/55555.exe^$all
-||109.107.182.3/lego/goldklassd.exe^$all
-||109.107.182.3/lego/mrk1234.exe^$all
-||109.107.182.3/lego/RDX.exe^$all
