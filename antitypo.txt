@@ -908,3 +908,7 @@
 
 ! https://github.com/uBlockOrigin/uAssets/issues/22765
 ||free-mob2584.$document
+
+! https://github.com/uBlockOrigin/uAssets/issues/23084
+||fitgirltorrent.com^$all
+||fitgirltorrent.$document
