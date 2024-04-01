@@ -49,7 +49,7 @@ def whois_exists(domain):
     except:
         return False
 
-def is_alive(domain):
+def is_alive(domain, in_list=True):
     global dead_domains
     global already_resolved
     if domain in already_resolved:
@@ -66,7 +66,7 @@ def is_alive(domain):
         already_resolved[domain] = found_ips
         return True
     except:
-        if domain not in dead_domains and whois_exists(domain) == False:
+        if domain not in dead_domains and whois_exists(domain) == False and in_list:
             dead_domains.append(domain)
         return False
 
@@ -112,7 +112,7 @@ entry_data["last_updated"] = current_date
 for e in domain_list:
     #print(e, e in entry_data)
     if (e not in entry_data or type(entry_data[e]) == str) and e != "last_updated":
-        entry_is_alive = is_alive(e)
+        entry_is_alive = is_alive(e, True)
         dead_since = ""
         if entry_is_alive != True:
             dead_since = current_date
@@ -143,14 +143,14 @@ for e in domain_list:
                 8080: port_open(e, 8080),
                 9090: port_open(e, 9090) # default port for updog
             },
-            "had_www_on_creation": is_alive(f"www.{e}"),
-            "had_www_on_check": is_alive(f"www.{e}")
+            "had_www_on_creation": is_alive(f"www.{e}", False),
+            "had_www_on_check": is_alive(f"www.{e}", False)
         }
     else:
         if "times_checked" not in entry_data[e]:
             entry_data[e]["times_checked"] = 0
         if "check_status" not in entry_data[e]:
-            domain_is_alive = is_alive(e)
+            domain_is_alive = is_alive(e, True)
             entry_data[e]["check_status"] = domain_is_alive
             entry_data[e]["last_checked"] = current_date
             if domain_is_alive != True:
@@ -180,16 +180,16 @@ for e in domain_list:
             entry_data[e]["last_checked"] = "Unknown"
         entry_data[e]["check_counter"] += 1
         if entry_data[e]["check_status"] == False and "had_www_on_check" not in entry_data[e] and entry_data[e]['check_counter'] > 5:
-            entry_data[e]['had_www_on_check'] = is_alive(f"www.{e}")
+            entry_data[e]['had_www_on_check'] = is_alive(f"www.{e}", False)
         if entry_data[e]["check_counter"] > 50:
             print(f"Checking {e}...")
-            domain_is_alive = is_alive(e)
+            domain_is_alive = is_alive(e, True)
             entry_data[e]["check_status"] = domain_is_alive
             entry_data[e]["last_checked"] = current_date
             entry_data[e]["check_counter"] = 0
             entry_data[e]["ever_rechecked"] = True
             entry_data[e]["times_checked"] += 1
-            entry_data[e]['had_www_on_check'] = is_alive(f"www.{e}")
+            entry_data[e]['had_www_on_check'] = is_alive(f"www.{e}", False)
             if domain_is_alive != True:
                 entry_data[e]["dead_since"] = current_date
                 entry_data[e]["check_counter"] = 20
