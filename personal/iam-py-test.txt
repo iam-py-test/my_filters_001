@@ -57,6 +57,9 @@ filescan.io##.card.advertisement-small-screen
 !||sanctionedsuicide.site^$all
 !||suicidabvrputryeg3mxdwwtwnv3eqj2koztuaiko5zn5rzodtencnad.onion^$all
 
+! abused hosting provider (https://github.com/uBlockOrigin/uAssets/issues/22765)
+||hubside.fr^$document
+
 ! ---- cookie banners ----
 sitecheck.sucuri.net##.p-0.hide.cookie-policy-banner.container-fluid
 mywot.com##[class*="StyledCookiesConsent__CookiesConsentContainer-"]
