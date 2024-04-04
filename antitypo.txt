@@ -5,7 +5,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-! Last updated: 2/4/2024
+! Last updated: 4/4/2024
 
 ! https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 ! https://virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
@@ -927,3 +927,10 @@
 ||us-darntoughonline.top^$all
 ||vipbargainhub.com^$all
 ||vpdamai.com^$all
+
+! https://github.com/jarelllama/Scam-Blocklist/issues/277
+! https://dfpi.ca.gov/2024/03/25/fraudulent-bank-website-scam/
+||beachcitiescommercialbank.com^$all
+! my analysis: https://tria.ge/240404-xlg6laga74/behavioral1
+! https://infosec.exchange/@iampytest1/112214528899229692
+||americasfirstnationalbank.com^$all

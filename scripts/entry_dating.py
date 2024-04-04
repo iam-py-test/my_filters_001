@@ -1,4 +1,4 @@
-import os, sys, json, datetime, socket, random, publicsuffixlist
+import os, sys, json, datetime, socket, random, publicsuffixlist, ssl
 import dns.resolver
 
 dead_domains = []
@@ -39,11 +39,11 @@ def get_whois(domain):
 
 def whois_exists(domain):
     global dead_domains
-    if domain.endswith(".onion"): # can't test onions yet
+    if domain.endswith(".onion"): # onion domains do not have WHOIS records
         return True
     try:
         whois_data = get_whois(domain)
-        if "No match for" in whois_data or "No Data Found" in whois_data or "No whois information found" in whois_data:
+        if "No match for" in whois_data or "No Data Found" in whois_data or "No whois information found" in whois_data or "%% NOT FOUND" in whois_data or f'Error for "{domain}"' in whois_data or "This domain cannot be registered because" in whois_data or "The queried object does not exist:" in whois_data or "DOMAIN NOT FOUND" in whois_data:
             return False
         return whois_data != ""
     except:
@@ -184,6 +184,11 @@ for e in domain_list:
             "tls_info": tls_info
         }
     else:
+        if "tls_info" in entry_data[e] and len(entry_data[e]["tls_info"]) == 0:
+            try:
+                entry_data[e]['tls_info'] = get_tls_info(e)
+            except:
+                del entry_data[e]["tls_info"]
         if "times_checked" not in entry_data[e]:
             entry_data[e]["times_checked"] = 0
         if "check_status" not in entry_data[e]:
