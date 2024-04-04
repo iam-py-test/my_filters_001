@@ -253,3 +253,4 @@ heylink.me
 streak-link.com
 l-k.io
 nyl.as
+appurl.io
