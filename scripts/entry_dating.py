@@ -248,14 +248,14 @@ for e in domain_list:
                 entry_data[e]["check_counter"] += 5
 print("Done with part 1")
 for e in entry_data:
-    if e not in domain_list and e != "last_updated":
+    if e not in domain_list and e != "last_updated" and e != "":
         try:
             if "dead_on_removal" in entry_data[e]:
                 entry_data[e]['alive_on_removal'] = entry_data[e]["dead_on_removal"]
             if entry_data[e]["removed"] == False:
                 entry_data[e]["removed"] = True
                 entry_data[e]["removed_date"] = current_date
-                entry_data[e]["alive_on_removal"] = is_alive(e)
+                entry_data[e]["alive_on_removal"] = is_alive(e, False)
         except Exception as err:
             print(err, e, entry_data[e])
 print("Done with part 2")
