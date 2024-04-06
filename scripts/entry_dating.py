@@ -123,6 +123,15 @@ domain_list = open("Alternative list formats/antimalware_domains.txt", encoding=
 current_date = datetime.datetime.now().isoformat()
 entry_data["last_updated"] = current_date
 
+# recheck a random entry regardless of it's status
+random_recheck = None
+try:
+    random_recheck = random.choice(domain_list)
+    print('random recheck',entry_data[random_recheck]['check_counter'], entry_data[random_recheck]['first_seen'] , random_recheck)
+    if random_recheck in entry_data:
+        entry_data[random_recheck]['check_counter'] = 55
+except Exception as err:
+    print('random recheck failed', err)
 
 for e in domain_list:
     #print(e, e in entry_data)
@@ -235,6 +244,8 @@ for e in domain_list:
             if domain_is_alive != True:
                 entry_data[e]["dead_since"] = current_date
                 entry_data[e]["check_counter"] = 40
+            if e == random_recheck:
+                entry_data[e]["check_counter"] += 5
 print("Done with part 1")
 for e in entry_data:
     if e not in domain_list and e != "last_updated":
