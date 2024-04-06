@@ -233,7 +233,7 @@ for e in domain_list:
         if entry_data[e]["check_status"] == False and "had_www_on_check" not in entry_data[e] and entry_data[e]['check_counter'] > 5:
             entry_data[e]['had_www_on_check'] = is_alive(f"www.{e}", False)
         if entry_data[e]["check_counter"] > 45:
-            print(f"Checking {e}...")
+            print(f"Checking {e}...", "previous status", entry_data[e]["check_status"], "last check", entry_data[e]["last_checked"])
             domain_is_alive = is_alive(e, True)
             entry_data[e]["check_status"] = domain_is_alive
             entry_data[e]["last_checked"] = current_date
