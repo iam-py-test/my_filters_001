@@ -913,7 +913,6 @@
 
 ! https://forums.malwarebytes.com/topic/306163-silentcryptominer-removal-help-needed/
 ||mysearchdial.com^$document
-||start.mysearchdial.com^$document
 
 ! origin unknown (forgot to add a comment here)
 ! TODO: reverify
@@ -930,9 +929,7 @@
 ! To remove, run ADWCleaner (https://malwarebytes.com/adwcleaner) and follow instructions.
 ||speedupmypcfree.com^$all
 ! https://virustotal.com/gui/domain/speedupmypcfree.com/relations
-||mail.speedupmypcfree.com^$all
 ||www.speedupmypcfree.com^$all
-||ftp.speedupmypcfree.com^$all
 
 ! https://windowsreport.com/extend-windows-laptop-battery-life/
 ! https://www.hybrid-analysis.com/sample/0dd66edadbe93df04f6759e5549d3e76b5bfcb292ba6f6a6139903dd705ced6a
