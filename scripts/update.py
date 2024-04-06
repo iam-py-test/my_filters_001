@@ -88,6 +88,7 @@ mkalt("antitypo.txt","antitypo_domains.txt")
 mkalt("clickbait.txt","clickbait_domains.txt")
 mkalt("anti-redirectors.txt","anti-redirectors_domains.txt")
 mkalt("antidynamicdns.txt","antidynamicdns_domains.txt")
+mkalt("anti-privacy-analytics.txt", "anti-privacy-analytics_domains.txt")
 
 def mkhosts(file,altname):
   donedomains = []

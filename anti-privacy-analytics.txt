@@ -125,3 +125,10 @@
 ||matomo.sac-uto.ch^
 ||matomo.i-servis.cz^
 ||matomo.fitness-tracker-test.info^
+
+! found on 2tw.in
+||plsbl.shounak.in^
+||mtmo.shounak.in^
+
+! https://github.com/hagezi/dns-blocklists/issues/2463
+||matomo-test-ecs.libretexts.org^
