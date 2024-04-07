@@ -132,3 +132,7 @@
 
 ! https://github.com/hagezi/dns-blocklists/issues/2463
 ||matomo-test-ecs.libretexts.org^
+
+! https://github.com/hagezi/dns-blocklists/issues/2470
+||matomo.panteleev.com.ua^
+||ackee.cap.cmd.pp.ua^
