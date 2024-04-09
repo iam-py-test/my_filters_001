@@ -93,3 +93,5 @@
 0.0.0.0 whatismyip.com
 # https://github.com/ShadowWhisperer/BlockLists/pull/84
 0.0.0.0 db-ip.com
+# https://vid.puffyan.us/watch?v=r8JzWoU2_lU
+0.0.0.0 ifconfig.so

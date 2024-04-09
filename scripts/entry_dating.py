@@ -8,6 +8,13 @@ resolver.nameservers = ["https://unfiltered.adguard-dns.com/dns-query","94.140.1
 already_resolved = {}
 known_whois = {}
 
+verbosity = 4
+
+def log_msg(msg, level=0):
+	elif level > 0 and level > verbosity:
+		return
+	print(f"[{datetime.datetime.now().isoformat()} - {threading.current_thread().name} - {level}] {msg}")
+
 def get_whois_data_raw(domain, server):
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.connect((server, 43))
@@ -24,18 +31,59 @@ def get_whois_data_raw(domain, server):
     s.close()
     return all_data.decode()
 
-def get_whois(domain):
+get_whois = None
+times_hit_max = 0
+def get_whois(domain, server = None, done_whois_servers = [], recurse=False, sub=False):
     global known_whois
-    if domain in known_whois:
+    global max_queries
+    global times_hit_max
+    log_msg(f"Getting WHOIS record for {domain} using {server or 'no server specified'}, recurse is {recurse}", 5)
+    if sub == True:
+        log_msg("Sleeping for 1", 6)
+        time.sleep(1)
+        log_msg("Sleep done", 6)
+    done_whois_servers.append(server)
+    if domain in known_whois and sub == False:
+        log_msg("Used cached WHOIS", 5)
         return known_whois[domain]
-    tld = p.publicsuffix(domain).upper()
-    server = f"{tld}.whois-servers.net"
+    if max_queries:
+        log_msg("At max queries, not querying right now (waiting 120)", 3)
+        time.sleep(120)
+    if server == None:
+        tld = p.publicsuffix(domain).upper()
+        server = f"{tld}.whois-servers.net"
     try:
         whois_data = get_whois_data_raw(domain, server)
-    except:
+    except Exception as err:
+        log_msg(f"{server} failed to get WHOIS for {domain} due to {err}", 4)
+        time.sleep(1)
         return ""
-    known_whois[domain] = whois_data
+    if "Number of allowed queries exceeded" in whois_data:
+        log_msg(f"Hit max allowed queries (on domain {domain}, server {server}). Hit max {times_hit_max} times before", 2)
+        times_hit_max += 1
+        max_queries = True
+        log_msg(f"Sleeping for {120*times_hit_max}", 6)
+        time.sleep(120*times_hit_max)
+        log_msg(f"Done sleeping", 6)
+        max_queries = False
+        return get_whois(domain, server=server, done_whois_servers=done_whois_servers, recurse=recurse, sub=sub)
+    if recurse == True:
+        try:
+            for line in whois_data.replace("\r", "").split("\n"):
+                log_msg(line.replace(" ", "").replace("\t", ""), 6)
+                if line.replace(" ", "").replace("\t", "").startswith("RegistrarWHOISServer:"):
+                    newserver = line.replace(" ", "").replace("\t", "").replace("RegistrarWHOISServer:", "").replace("http://", "").replace("https://", "").split("/")[0]
+                    log_msg(f"Fetching more WHOIS data from {newserver}", 5)
+                    if newserver not in done_whois_servers:
+                        whois_data += "\n" + get_whois(domain, server=newserver, recurse=True, sub=True, done_whois_servers=done_whois_servers)
+                    done_whois_servers.append(newserver)
+        except Exception as err:
+            log_msg(f"Recurse for {domain} ({server}) failed due to {err}", 3)
+                    
+    if sub == False:
+        known_whois[domain] = whois_data
     return whois_data
+
 
 def whois_exists(domain):
     global dead_domains
@@ -114,6 +162,12 @@ def get_tls_info(hostname):
     ssl_info = conn.getpeercert()
     return ssl_info
 
+def get_last_commit():
+    try:
+        return requests.get("https://api.github.com/repos/iam-py-test/my_filters_001/commits").json()[0]['html_url']
+    except:
+        return None
+
 try:
     entry_data = json.loads(open("entry_data.json", encoding="UTF-8").read())
 except:
@@ -132,7 +186,7 @@ try:
         entry_data[random_recheck]['check_counter'] = 55
 except Exception as err:
     print('random recheck failed', err)
-
+last_commit = get_last_commit()
 for e in domain_list:
     #print(e, e in entry_data)
     if (e not in entry_data or type(entry_data[e]) == str) and e != "last_updated":
@@ -190,7 +244,8 @@ for e in domain_list:
             },
             "had_www_on_creation": is_alive(f"www.{e}", False),
             "had_www_on_check": is_alive(f"www.{e}", False),
-            "tls_info": tls_info
+            "tls_info": tls_info,
+            "last_commit": last_commit
         }
     else:
         if "tls_info" in entry_data[e] and len(entry_data[e]["tls_info"]) == 0:
