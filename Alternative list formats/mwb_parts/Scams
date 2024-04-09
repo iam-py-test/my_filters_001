@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 6/4/2024
-! Version: 642024-1
+! Last updated: 7/4/2024
+! Version: 742024-1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -9276,4 +9276,10 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||americasfirstnationalbank.com^$all
 ||beachcitiescommercialbank.com.americasfirstnationalbank.com^$all
 ||www.beachcitiescommercialbank.com.americasfirstnationalbank.com^$all
+
+! https://tria.ge/240408-bf8kpscb83/behavioral1
+||spacex-invest.org^$all
+
+! https://github.com/jarelllama/Scam-Blocklist/issues/289
+||xcorepips.com^$document
 
