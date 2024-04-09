@@ -80,3 +80,16 @@
 0.0.0.0 ipecho.net
 # has ip lookup but also other services, uncomment if you wish
 # 0.0.0.0 httpbin.org
+# https://github.com/badmojr/1Hosts/issues/1726
+0.0.0.0 ip.me
+# https://github.com/ShadowWhisperer/BlockLists/issues/144
+0.0.0.0 ip4.me
+0.0.0.0 ip6.me
+0.0.0.0 ip6only.me
+0.0.0.0 whatismyv6.com
+# https://github.com/ShadowWhisperer/BlockLists/issues/10
+0.0.0.0 ipchicken.com
+0.0.0.0 whaismyip.com
+0.0.0.0 whatismyip.com
+# https://github.com/ShadowWhisperer/BlockLists/pull/84
+0.0.0.0 db-ip.com
