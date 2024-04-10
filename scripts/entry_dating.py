@@ -139,7 +139,8 @@ def get_tls_info(hostname):
 def get_last_commit():
     try:
         return requests.get("https://api.github.com/repos/iam-py-test/my_filters_001/commits").json()[0]['html_url']
-    except:
+    except Exception as err:
+        print(err)
         return None
 
 try:
@@ -192,7 +193,7 @@ for e in domain_list:
             "is_valid": is_valid(e),
             "ips": get_ips(e),
             "dead_since": dead_since,
-            "whois": get_whois(e),
+            "whois": get_whois(e, recurse=True),
             "ports_open": {
                 23: port_open(e, 23), # https://threatfox.abuse.ch/ioc/1252534/
                 80: port_open(e, 80),
