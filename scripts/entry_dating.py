@@ -1,4 +1,4 @@
-import os, sys, json, datetime, socket, random, publicsuffixlist, ssl
+import os, sys, json, datetime, socket, random, publicsuffixlist, ssl, requests
 import dns.resolver
 
 dead_domains = []
