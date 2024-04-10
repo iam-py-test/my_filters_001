@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results, along with other annoyances
 ! Expires: 1 day
 ! Last updated: 7/4/2023
-! Last auto-generated: 09/04/2024
+! Last auto-generated: 10/04/2024
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -4015,7 +4015,9 @@ search.brave.com##div.fdb.snippet:has(a[href*="://sonicglyde.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://nordivpn.xyz"])
 search.brave.com##div.fdb.snippet:has(a[href*="://besthord-vpn.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://account-cfe.mx"])
-search.brave.com##div.fdb.snippet:has(a[href*="://notepad.plus"])
+search.brave.com##div.fdb.snippet:has(a[href*="://gooq1e.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://ecmokdtj.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://apk.ecmokdtj.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublockerext.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://quatrefeuillepolonaise.xyz"])
