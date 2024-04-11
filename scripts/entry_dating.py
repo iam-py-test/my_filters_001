@@ -1,6 +1,10 @@
 import os, sys, json, datetime, socket, random, publicsuffixlist, ssl, requests, time
 import dns.resolver
 
+TLD_WHOIS_OVERRIDE = {
+	"PANASONIC": "whois.nic.gmo",
+}
+
 dead_domains = []
 p = publicsuffixlist.PublicSuffixList(only_icann=True)
 resolver = dns.resolver.Resolver()
@@ -37,11 +41,18 @@ def get_whois(domain, server = None, done_whois_servers = [], recurse=False, sub
         return known_whois[domain]
     if server == None:
         tld = p.publicsuffix(domain).upper()
-        server = f"{tld}.whois-servers.net"
+        if tld in TLD_WHOIS_OVERRIDE:
+            server = TLD_WHOIS_OVERRIDE[tld]
+        else:
+            server = f"{tld}.whois-servers.net"
     try:
         whois_data = get_whois_data_raw(domain, server)
     except Exception as err:
-        print(f"{server} failed to get WHOIS for {domain} due to {err}")
+        print(f"{server} failed to get WHOIS for {domain} due to {err} ({sub} - {recurse} - {','.join(done_whois_servers)})")
+        if sub == False and f"whois.nic.{tld}" not in done_whois_servers:
+			log_msg(f"Trying whois.nic.{tld}", 4)
+			done_whois_servers.append(f"whois.nic.{tld}")
+			return get_whois(domain, server=f"whois.nic.{tld}", done_whois_servers=done_whois_servers, recurse=recurse, sub=sub)
         return ""
     if recurse == True:
         try:
@@ -175,6 +186,16 @@ for e in domain_list:
                 tls_info = get_tls_info(e)
             except:
                 pass
+        entry_ips = get_ips(e)
+        ip_whois_data = {}
+        try:
+            for ip in entry_ips:
+                try:
+                    ip_whois_data[ip] = get_whois_data_raw(ip, "whois.arin.net")
+                except:
+                    pass
+        except:
+            pass
         entry_data[e] = {
             "first_seen": current_date,
             "last_seen": current_date,
@@ -191,7 +212,7 @@ for e in domain_list:
             "origin_add": "",
             "readd": "",
             "is_valid": is_valid(e),
-            "ips": get_ips(e),
+            "ips": ,
             "dead_since": dead_since,
             "whois": get_whois(e, recurse=True),
             "ports_open": {
@@ -220,7 +241,8 @@ for e in domain_list:
             "had_www_on_creation": is_alive(f"www.{e}", False),
             "had_www_on_check": is_alive(f"www.{e}", False),
             "tls_info": tls_info,
-            "last_commit": last_commit
+            "last_commit": last_commit,
+            "ip_whois": ip_whois_data
         }
     else:
         if "tls_info" in entry_data[e] and len(entry_data[e]["tls_info"]) == 0:
