@@ -2,7 +2,7 @@ import os, sys, json, datetime, socket, random, publicsuffixlist, ssl, requests,
 import dns.resolver
 
 TLD_WHOIS_OVERRIDE = {
-	"PANASONIC": "whois.nic.gmo",
+    "PANASONIC": "whois.nic.gmo",
 }
 
 dead_domains = []
@@ -50,9 +50,9 @@ def get_whois(domain, server = None, done_whois_servers = [], recurse=False, sub
     except Exception as err:
         print(f"{server} failed to get WHOIS for {domain} due to {err} ({sub} - {recurse} - {','.join(done_whois_servers)})")
         if sub == False and f"whois.nic.{tld}" not in done_whois_servers:
-			log_msg(f"Trying whois.nic.{tld}", 4)
-			done_whois_servers.append(f"whois.nic.{tld}")
-			return get_whois(domain, server=f"whois.nic.{tld}", done_whois_servers=done_whois_servers, recurse=recurse, sub=sub)
+            log_msg(f"Trying whois.nic.{tld}", 4)
+            done_whois_servers.append(f"whois.nic.{tld}")
+            return get_whois(domain, server=f"whois.nic.{tld}", done_whois_servers=done_whois_servers, recurse=recurse, sub=sub)
         return ""
     if recurse == True:
         try:
