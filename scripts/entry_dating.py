@@ -212,7 +212,7 @@ for e in domain_list:
             "origin_add": "",
             "readd": "",
             "is_valid": is_valid(e),
-            "ips": ,
+            "ips": entry_ips,
             "dead_since": dead_since,
             "whois": get_whois(e, recurse=True),
             "ports_open": {
