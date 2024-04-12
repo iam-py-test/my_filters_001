@@ -51,7 +51,7 @@ def get_whois(domain, server = None, done_whois_servers = [], recurse=False, sub
     except Exception as err:
         print(f"{server} failed to get WHOIS for {domain} due to {err} ({sub} - {recurse} - {','.join(done_whois_servers)})")
         if sub == False and f"whois.nic.{tld}" not in done_whois_servers:
-            log_msg(f"Trying whois.nic.{tld}", 4)
+            print(f"Trying whois.nic.{tld}")
             done_whois_servers.append(f"whois.nic.{tld}")
             return get_whois(domain, server=f"whois.nic.{tld}", done_whois_servers=done_whois_servers, recurse=recurse, sub=sub)
         return ""
@@ -100,7 +100,7 @@ def is_alive(domain, in_list=True):
         already_resolved[domain] = found_ips
         return True
     except:
-        if domain not in dead_domains and whois_exists(domain) == False and in_list:
+        if domain not in dead_domains and in_list:
             dead_domains.append(domain)
         return False
 
