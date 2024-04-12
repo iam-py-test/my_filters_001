@@ -61,7 +61,7 @@ def get_whois(domain, server = None, done_whois_servers = [], recurse=False, sub
                 if line.replace(" ", "").replace("\t", "").startswith("RegistrarWHOISServer:"):
                     newserver = line.replace(" ", "").replace("\t", "").replace("RegistrarWHOISServer:", "").replace("http://", "").replace("https://", "").split("/")[0]
                     if newserver not in done_whois_servers:
-                        whois_data += "\n" + get_whois(domain, server=newserver, recurse=True, sub=True, done_whois_servers=done_whois_servers)
+                        whois_data += f"\n\nFetching more WHOIS data from {newserver}...\n\n" + get_whois(domain, server=newserver, recurse=True, sub=True, done_whois_servers=done_whois_servers)
                     done_whois_servers.append(newserver)
         except Exception as err:
             print(f"Recurse for {domain} ({server}) failed due to {err}")
@@ -69,19 +69,6 @@ def get_whois(domain, server = None, done_whois_servers = [], recurse=False, sub
     if sub == False:
         known_whois[domain] = whois_data
     return whois_data
-
-
-def whois_exists(domain):
-    global dead_domains
-    if domain.endswith(".onion"): # onion domains do not have WHOIS records
-        return True
-    try:
-        whois_data = get_whois(domain)
-        if "No match for" in whois_data or "No Data Found" in whois_data or "No whois information found" in whois_data or "%% NOT FOUND" in whois_data or f'Error for "{domain}"' in whois_data or "This domain cannot be registered because" in whois_data or "The queried object does not exist:" in whois_data or "DOMAIN NOT FOUND" in whois_data:
-            return False
-        return whois_data != ""
-    except:
-        return False
 
 def is_alive(domain, in_list=True):
     global dead_domains
