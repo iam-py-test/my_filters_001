@@ -36,7 +36,8 @@ def get_whois(domain, server = None, done_whois_servers = [], recurse=False, sub
     print(f"Getting WHOIS record for {domain} using {server or 'no server specified'}, recurse is {recurse}")
     if sub == True:
         time.sleep(1)
-    done_whois_servers.append(server)
+    if server != None:
+        done_whois_servers.append(server)
     if domain in known_whois and sub == False:
         return known_whois[domain]
     if server == None:
