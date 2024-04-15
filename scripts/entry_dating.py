@@ -34,8 +34,6 @@ get_whois = None
 def get_whois(domain, server = None, done_whois_servers = [], recurse=False, sub=False):
     global known_whois
     print(f"Getting WHOIS record for {domain} using {server or 'no server specified'}, recurse is {recurse}")
-    if sub == True:
-        time.sleep(1)
     if server != None:
         done_whois_servers.append(server)
     if domain in known_whois and sub == False:
@@ -190,7 +188,7 @@ for e in domain_list:
             "removed": False,
             "removed_date": "",
             "last_checked": current_date,
-            "check_counter": random.randint(20, 30),
+            "check_counter": random.randint(0, 10),
             "check_status": entry_is_alive,
             "alive_on_creation": entry_is_alive,
             "times_checked": 1,
@@ -227,7 +225,7 @@ for e in domain_list:
                 50000: port_open(e, 50000), # https://threatfox.abuse.ch/ioc/1252509/
             },
             "had_www_on_creation": is_alive(f"www.{e}", False),
-            "had_www_on_check": is_alive(f"www.{e}", False),
+            "had_www_on_check": None,
             "tls_info": tls_info,
             "last_commit": last_commit,
             "ip_whois": ip_whois_data
@@ -266,12 +264,10 @@ for e in domain_list:
         entry_data[e]["removed_date"] = ""
         entry_data[e]["is_valid"] = is_valid(e)
         if "check_counter" not in entry_data[e]:
-            entry_data[e]["check_counter"] = random.randint(5, 40)
+            entry_data[e]["check_counter"] = 0
         if "last_checked" not in entry_data[e]:
             entry_data[e]["last_checked"] = "Unknown"
         entry_data[e]["check_counter"] += 1
-        if entry_data[e]["check_status"] == False and "had_www_on_check" not in entry_data[e] and entry_data[e]['check_counter'] > 5:
-            entry_data[e]['had_www_on_check'] = is_alive(f"www.{e}", False)
         if entry_data[e]["check_counter"] > 50:
             print(f"Checking {e}...", "previous status", entry_data[e]["check_status"], "last check", entry_data[e]["last_checked"])
             domain_is_alive = is_alive(e, True)
@@ -283,9 +279,6 @@ for e in domain_list:
             entry_data[e]['had_www_on_check'] = is_alive(f"www.{e}", False)
             if domain_is_alive != True:
                 entry_data[e]["dead_since"] = current_date
-                entry_data[e]["check_counter"] = 40
-            if e == random_recheck:
-                entry_data[e]["check_counter"] += 5
 print("Done with part 1")
 for e in entry_data:
     if e not in domain_list and e != "last_updated" and e != "":

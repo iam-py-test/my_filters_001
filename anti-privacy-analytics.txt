@@ -15,7 +15,7 @@
 ||near.blog/matomo/
 ||goatcounter.$first-party,domain=~goatcounter.com
 ||plausible.$first-party,domain=~plausible.io
-||matomo.$first-party
+||matomo.$first-party,domain=~matomo.org
 ||ackee.$first-party,domain=~ackee.electerious.com
 ||a.electerious.com^
 ||matomo.cloud^
@@ -136,3 +136,6 @@
 ! https://github.com/hagezi/dns-blocklists/issues/2470
 ||matomo.panteleev.com.ua^
 ||ackee.cap.cmd.pp.ua^
+
+! on https://boehs.org/node/truth-social
+||espy.boehs.org^
