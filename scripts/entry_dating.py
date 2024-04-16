@@ -200,7 +200,7 @@ for e in domain_list:
             "is_valid": is_valid(e),
             "ips": entry_ips,
             "dead_since": dead_since,
-            "whois": get_whois(e, recurse=True),
+            "whois": get_whois(e, recurse=False),
             "ports_open": {
                 23: port_open(e, 23), # https://threatfox.abuse.ch/ioc/1252534/
                 80: port_open(e, 80),
