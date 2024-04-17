@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 11/4/2024
-! Version: 1142024-3
+! Last updated: 16/4/2024
+! Version: 1642024-1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -9293,4 +9293,30 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 
 ! https://tria.ge/240411-1jkqgsdh25/behavioral1
 ||gamersahead.com^$all
+
+! https://tria.ge/240412-3g67tagc44/behavioral1
+||daniellacribbs.lol^$all
+||c.datingcompass.fun^$all
+
+! https://tria.ge/240412-3jmwysgc75/behavioral1
+||fatimaforaker.skin^$all
+||i.datingcompass.fun^$all
+
+! https://tria.ge/240412-3nkbmagd63/behavioral1
+||oletaburford.buzz^$all
+||hngfck.com^$document
+||g.datingcompass.fun^$all
+
+! https://tria.ge/240413-apvvjagg78/behavioral1
+||mailtknnews.com^$document
+||t.mailtknnews.com^$document
+||russiagirlsonline.com^$document
+||www.russiagirlsonline.com^$document
+||charmdate.com^$document
+||www.charmdate.com^$document
+
+! https://github.com/hagezi/dns-blocklists/issues/2512
+||slowmitter.top^$document
+||d.slowmitter.top^$document
+||singingfiles.com^$document
 
