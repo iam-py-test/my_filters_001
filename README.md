@@ -6,8 +6,6 @@ Thank you to all the people in https://github.com/iam-py-test/my_filters_001/blo
 For uBlock Origin users, you can right click on any link starting with `https://subscribe.adblockplus.org`, click "uBlock Origin", then "Subscribe to filterlist...":<br>
 <img src="https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/wiki/right%20click%20to%20add.jpg" alt="The Firefox context menu when clicking on a filterlist subscribe link, showing the uBlock Origin options" title="This shows the Firefox context menu, but it should work in any browser supporting the latest version of uBo. uBo lite is not supported (yet) and may will never be"><br>
 
-**The malicious website blocklist should now work in AdGuard on Windows. Please try it out (especially in AdGuard on Mac, iOS, and Android as I lack the ability to test those versions) and report any bugs. [Make sure you are using the designated version](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_adguard_app.txt)**
-
 Please note! I am only one person, and I do not have much time to dedicate to this project. These lists _don't_ get updated as often as they should, and I'm sorry.
 
 ## Filters in this repo
