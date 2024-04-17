@@ -28,6 +28,7 @@ jobs:
         python scripts/lint.py
         python scripts/checksum.py
         python scripts/mwb_parts.py antimalware.txt "Alternative list formats/mwb_parts"
+        python -v scripts/test.py
         echo running entry dating
         python -v scripts/ed.py
     - name: Commit & Push
