@@ -90,4 +90,19 @@ def is_alive(domain, in_list=True):
             dead_domains.append(domain)
         return False
 
+def get_ips(domain):
+    global already_resolved
+    if domain in already_resolved:
+        return already_resolved[domain]
+    if domain in dead_domains:
+        return []
+    try:
+        res_ips = list(dresolver.resolve(domain))
+        found_ips = []
+        for ip in res_ips:
+            found_ips.append(ip.address)
+        already_resolved[domain] = found_ips
+        return found_ips
+    except:
+        return []
 
