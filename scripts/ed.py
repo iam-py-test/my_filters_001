@@ -119,8 +119,8 @@ def is_valid(domain):
         return False
 
 def port_open(host, port):
-    print(host, port, "didn't run")
-    return True
+    #print(host, port, "didn't run")
+    #return False
     try:
         s = socket.socket()
         return s.connect_ex((host, port)) == 0
@@ -224,24 +224,13 @@ for e in domain_list:
                 23: port_open(e, 23), # https://threatfox.abuse.ch/ioc/1252534/
                 80: port_open(e, 80),
                 81: port_open(e, 81), # https://threatfox.abuse.ch/ioc/1252558/
-                100: port_open(e, 100), # https://threatfox.abuse.ch/ioc/1252471/
                 443: port_open(e, 443),
-                666: port_open(e, 666), # has been used (https://www.grc.com/port_666.htm, https://www.aircrack-ng.org/doku.php?id=airserv-ng)
-                671: port_open(e, 671), # https://threatfox.abuse.ch/ioc/1252557/
-                1337: port_open(e, 1337), # leet h@ck0rz
-                2222: port_open(e, 2222), # https://threatfox.abuse.ch/ioc/1252501/
-                3333: port_open(e, 3333), # https://threatfox.abuse.ch/ioc/1252536/
-                4880: port_open(e, 4880), # https://threatfox.abuse.ch/ioc/1252530/
                 5000: port_open(e, 5000), # default port for python flask
-                6666: port_open(e, 6666), # https://threatfox.abuse.ch/ioc/1252550/
-                7443: port_open(e, 7443), # https://threatfox.abuse.ch/ioc/1252812/
                 8000: port_open(e, 8000),
                 8080: port_open(e, 8080),
-                8081: port_open(e, 8081), # https://threatfox.abuse.ch/ioc/1252815/
                 8443: port_open(e, 8443), # https://threatfox.abuse.ch/ioc/1252551/
                 8888: port_open(e, 8888), # https://threatfox.abuse.ch/ioc/1252820/
                 9090: port_open(e, 9090), # default port for updog
-                50000: port_open(e, 50000), # https://threatfox.abuse.ch/ioc/1252509/
             },
             "had_www_on_creation": is_alive(f"www.{e}", False),
             "had_www_on_check": None,
