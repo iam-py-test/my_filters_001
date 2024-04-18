@@ -245,6 +245,6 @@ for e in domain_list:
             "had_www_on_creation": is_alive(f"www.{e}", False),
             "had_www_on_check": None,
             "tls_info": tls_info,
-            "last_commit": last_commit,
+            #"last_commit": last_commit,
             "ip_whois": ip_whois_data
         }
