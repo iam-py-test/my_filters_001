@@ -1,5 +1,5 @@
 import os, sys, json, datetime, socket, random, publicsuffixlist, ssl, requests, time
-from dns.resolver import Resolver
+import dns
 
 TLD_WHOIS_OVERRIDE = {
     "PANASONIC": "whois.nic.gmo",
@@ -7,7 +7,7 @@ TLD_WHOIS_OVERRIDE = {
 
 dead_domains = []
 p = publicsuffixlist.PublicSuffixList(only_icann=True)
-resolver = Resolver()
+resolver = dns.resolver.Resolver()
 resolver.nameservers = ["https://unfiltered.adguard-dns.com/dns-query","94.140.14.140", "8.8.8.8","1.1.1.1"]
 already_resolved = {}
 known_whois = {}
