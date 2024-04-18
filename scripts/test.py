@@ -106,3 +106,39 @@ def get_ips(domain):
     except:
         return []
 
+
+def is_valid(domain):
+    try:
+        return p.publicsuffix(domain, accept_unknown=False) != None
+    except:
+        return False
+
+def port_open(host, port):
+    try:
+        s = socket.socket()
+        return s.connect_ex((host, port)) == 0
+    except:
+        return False
+
+def get_tls_info(hostname):
+    # https://stackoverflow.com/questions/41620369/how-to-get-ssl-certificate-details-using-python
+    context = ssl.create_default_context()
+    context.check_hostname = False
+    conn = context.wrap_socket(
+        socket.socket(socket.AF_INET),
+        server_hostname=hostname,
+    )
+    # 5 second timeout
+    conn.settimeout(5.0)
+
+    conn.connect((hostname, 443))
+    ssl_info = conn.getpeercert()
+    return ssl_info
+
+def get_last_commit():
+    try:
+        return requests.get("https://api.github.com/repos/iam-py-test/my_filters_001/commits").json()[0]['html_url']
+    except Exception as err:
+        print(err)
+        return None
+
