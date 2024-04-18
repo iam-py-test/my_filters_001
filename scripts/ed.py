@@ -208,7 +208,7 @@ for e in domain_list:
             "removed": False,
             "removed_date": "",
             "last_checked": current_date,
-            "check_counter": random.randint(0, 10),
+            "check_counter": 30,
             "check_status": entry_is_alive,
             "alive_on_creation": entry_is_alive,
             "times_checked": 1,
@@ -265,7 +265,7 @@ for e in domain_list:
         if "last_checked" not in entry_data[e]:
             entry_data[e]["last_checked"] = "Unknown"
         entry_data[e]["check_counter"] += 1
-        if entry_data[e]["check_counter"] > 50:
+        if entry_data[e]["check_counter"] > 45:
             print(f"Checking {e}...", "previous status", entry_data[e]["check_status"], "last check", entry_data[e]["last_checked"])
             domain_is_alive = is_alive(e, True)
             entry_data[e]["check_status"] = domain_is_alive
