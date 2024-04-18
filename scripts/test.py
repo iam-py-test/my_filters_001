@@ -1,6 +1,10 @@
 import dns, dns.resolver
 import os, sys, json, datetime, socket, random, publicsuffixlist, ssl, requests, time
 
+TLD_WHOIS_OVERRIDE = {
+    "PANASONIC": "whois.nic.gmo",
+}
+
 dead_domains = []
 print("GETTING PSL")
 p = publicsuffixlist.PublicSuffixList(only_icann=True)
