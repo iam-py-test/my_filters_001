@@ -1,5 +1,5 @@
 import os, sys, json, datetime, socket, random, publicsuffixlist, ssl, requests, time
-import dns
+import dns, dns.resolver
 
 TLD_WHOIS_OVERRIDE = {
     "PANASONIC": "whois.nic.gmo",
