@@ -187,7 +187,7 @@ for e in domain_list:
         tls_info = {}
         if port_open(e, 443):
             try:
-                tls_info = get_tls_info(e)
+                tls_info = {} #get_tls_info(e)
             except:
                 pass
         entry_ips = [] # get_ips(e)
