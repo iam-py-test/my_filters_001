@@ -242,7 +242,7 @@ for e in domain_list:
                 9090: port_open(e, 9090), # default port for updog
                 50000: port_open(e, 50000), # https://threatfox.abuse.ch/ioc/1252509/
             },
-            "had_www_on_creation": is_alive(f"www.{e}", False),
+            "had_www_on_creation": None # is_alive(f"www.{e}", False),
             "had_www_on_check": None,
             "tls_info": tls_info,
             #"last_commit": last_commit,
