@@ -1,14 +1,21 @@
+print(f"{__file__} STARTED")
 import os, sys, json, datetime, socket, random, publicsuffixlist, ssl, requests, time
+print("IMPORTED NORMAL LIBS")
 import dns, dns.resolver
+print("IMPORTS DONE")
 
 TLD_WHOIS_OVERRIDE = {
     "PANASONIC": "whois.nic.gmo",
 }
 
 dead_domains = []
+print("GETTING PSL")
 p = publicsuffixlist.PublicSuffixList(only_icann=True)
+print("GOT PSL, SETTING UP RESOLVER")
 resolver = dns.resolver.Resolver()
+print("CREATED RESOLVER")
 resolver.nameservers = ["https://unfiltered.adguard-dns.com/dns-query","94.140.14.140", "8.8.8.8","1.1.1.1"]
+print("SETUP RESOLVER")
 already_resolved = {}
 known_whois = {}
 
@@ -140,15 +147,21 @@ def get_last_commit():
         print(err)
         return None
 
+print("LOADING DATA")
 try:
     entry_data = json.loads(open("entry_data.json", encoding="UTF-8").read())
 except:
+    print("FAILED TO LOAD DATA")
     entry_data = {}
+print("LOADED DATA")
 
+print("LOADING DOMAINS")
 domain_list = open("Alternative list formats/antimalware_domains.txt", encoding="UTF-8").read().replace("\r\n","\n").split("\n")
+print("LOADED DOMAINS")
 current_date = datetime.datetime.now().isoformat()
 entry_data["last_updated"] = current_date
 
+print("DOING RANDOM RECHECK")
 # recheck a random entry regardless of it's status
 random_recheck = None
 try:
@@ -158,7 +171,11 @@ try:
         entry_data[random_recheck]['check_counter'] = 55
 except Exception as err:
     print('random recheck failed', err)
+print("RANDOM RECHECK DONE")
+
+print("GETTING COMMIT")
 last_commit = get_last_commit()
+print("GOT COMMIT, STARTING")
 for e in domain_list:
     #print(e, e in entry_data)
     if (e not in entry_data or type(entry_data[e]) == str) and e != "last_updated":
