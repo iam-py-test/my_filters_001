@@ -149,3 +149,9 @@ except:
     print("FAILED TO LOAD DATA")
     entry_data = {}
 print("LOADED DATA")
+
+print("LOADING DOMAINS")
+domain_list = open("Alternative list formats/antimalware_domains.txt", encoding="UTF-8").read().replace("\r\n","\n").split("\n")
+print("LOADED DOMAINS")
+current_date = datetime.datetime.now().isoformat()
+entry_data["last_updated"] = current_date
