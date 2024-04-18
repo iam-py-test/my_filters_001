@@ -1,1 +1,1 @@
-import dns.rdtypes.IN.A
+import dns
