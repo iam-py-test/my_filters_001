@@ -170,3 +170,76 @@ print("RANDOM RECHECK DONE")
 
 print("GETTING COMMIT")
 last_commit = get_last_commit()
+
+print("GOT COMMIT, STARTING")
+for e in domain_list:
+    #print(e, e in entry_data)
+    if (e not in entry_data or type(entry_data[e]) == str) and e != "last_updated":
+        entry_is_alive = is_alive(e, True)
+        dead_since = ""
+        if entry_is_alive != True:
+            dead_since = current_date
+        tls_info = {}
+        if port_open(e, 443):
+            try:
+                tls_info = get_tls_info(e)
+            except:
+                pass
+        entry_ips = get_ips(e)
+        ip_whois_data = {}
+        try:
+            for ip in entry_ips:
+                try:
+                    ip_whois_data[ip] = get_whois_data_raw(ip, "whois.arin.net")
+                except:
+                    pass
+        except:
+            pass
+        entry_data[e] = {
+            "first_seen": current_date,
+            "last_seen": current_date,
+            "removed": False,
+            "removed_date": "",
+            "last_checked": current_date,
+            "check_counter": random.randint(0, 10),
+            "check_status": entry_is_alive,
+            "alive_on_creation": entry_is_alive,
+            "times_checked": 1,
+            "ever_rechecked": False,
+            "readded": False,
+            "alive_on_removal": None,
+            "origin_add": "",
+            "readd": "",
+            "is_valid": is_valid(e),
+            "ips": entry_ips,
+            "dead_since": dead_since,
+            "whois": get_whois(e, recurse=False),
+            "ports_open": {
+                23: port_open(e, 23), # https://threatfox.abuse.ch/ioc/1252534/
+                80: port_open(e, 80),
+                81: port_open(e, 81), # https://threatfox.abuse.ch/ioc/1252558/
+                100: port_open(e, 100), # https://threatfox.abuse.ch/ioc/1252471/
+                443: port_open(e, 443),
+                666: port_open(e, 666), # has been used (https://www.grc.com/port_666.htm, https://www.aircrack-ng.org/doku.php?id=airserv-ng)
+                671: port_open(e, 671), # https://threatfox.abuse.ch/ioc/1252557/
+                1337: port_open(e, 1337), # leet h@ck0rz
+                2222: port_open(e, 2222), # https://threatfox.abuse.ch/ioc/1252501/
+                3333: port_open(e, 3333), # https://threatfox.abuse.ch/ioc/1252536/
+                4880: port_open(e, 4880), # https://threatfox.abuse.ch/ioc/1252530/
+                5000: port_open(e, 5000), # default port for python flask
+                6666: port_open(e, 6666), # https://threatfox.abuse.ch/ioc/1252550/
+                7443: port_open(e, 7443), # https://threatfox.abuse.ch/ioc/1252812/
+                8000: port_open(e, 8000),
+                8080: port_open(e, 8080),
+                8081: port_open(e, 8081), # https://threatfox.abuse.ch/ioc/1252815/
+                8443: port_open(e, 8443), # https://threatfox.abuse.ch/ioc/1252551/
+                8888: port_open(e, 8888), # https://threatfox.abuse.ch/ioc/1252820/
+                9090: port_open(e, 9090), # default port for updog
+                50000: port_open(e, 50000), # https://threatfox.abuse.ch/ioc/1252509/
+            },
+            "had_www_on_creation": is_alive(f"www.{e}", False),
+            "had_www_on_check": None,
+            "tls_info": tls_info,
+            "last_commit": last_commit,
+            "ip_whois": ip_whois_data
+        }
