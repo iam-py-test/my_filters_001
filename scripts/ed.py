@@ -119,8 +119,10 @@ def is_valid(domain):
         return False
 
 def port_open(host, port):
-    #print(host, port, "didn't run")
-    #return False
+    """
+    causes the program to hang for some reason
+    """
+    return False # prevent use
     try:
         s = socket.socket()
         return s.connect_ex((host, port)) == 0
@@ -186,11 +188,10 @@ for e in domain_list:
         if entry_is_alive != True:
             dead_since = current_date
         tls_info = {}
-        if port_open(e, 443):
-            try:
-                tls_info = get_tls_info(e)
-            except:
-                pass
+        try:
+            tls_info = get_tls_info(e)
+        except:
+            pass
         entry_ips = get_ips(e)
         ip_whois_data = {}
         try:
@@ -219,19 +220,7 @@ for e in domain_list:
             "is_valid": is_valid(e),
             "ips": entry_ips,
             "dead_since": dead_since,
-            "whois": get_whois(e, recurse=False),
-            "ports_open": {
-                23: port_open(e, 23), # https://threatfox.abuse.ch/ioc/1252534/
-                80: port_open(e, 80),
-                81: port_open(e, 81), # https://threatfox.abuse.ch/ioc/1252558/
-                443: port_open(e, 443),
-                5000: port_open(e, 5000), # default port for python flask
-                8000: port_open(e, 8000),
-                8080: port_open(e, 8080),
-                8443: port_open(e, 8443), # https://threatfox.abuse.ch/ioc/1252551/
-                8888: port_open(e, 8888), # https://threatfox.abuse.ch/ioc/1252820/
-                9090: port_open(e, 9090), # default port for updog
-            },
+            "whois": get_whois(e, recurse=True),
             "had_www_on_creation": is_alive(f"www.{e}", False),
             "had_www_on_check": None,
             "tls_info": tls_info,
