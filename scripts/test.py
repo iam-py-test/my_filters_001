@@ -179,7 +179,8 @@ print("GOT COMMIT, STARTING")
 for e in domain_list:
     #print(e, e in entry_data)
     if (e not in entry_data or type(entry_data[e]) == str) and e != "last_updated":
-        entry_is_alive = is_alive(e, True)
+        print(e)
+        entry_is_alive = False # is_alive(e, True)
         dead_since = ""
         if entry_is_alive != True:
             dead_since = current_date
@@ -189,7 +190,7 @@ for e in domain_list:
                 tls_info = get_tls_info(e)
             except:
                 pass
-        entry_ips = get_ips(e)
+        entry_ips = [] # get_ips(e)
         ip_whois_data = {}
         try:
             for ip in entry_ips:
