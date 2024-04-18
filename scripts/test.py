@@ -195,7 +195,7 @@ for e in domain_list:
         try:
             for ip in entry_ips:
                 try:
-                    ip_whois_data[ip] = get_whois_data_raw(ip, "whois.arin.net")
+                    ip_whois_data[ip] = {} # get_whois_data_raw(ip, "whois.arin.net")
                 except:
                     pass
         except:
