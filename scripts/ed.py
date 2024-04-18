@@ -11,11 +11,11 @@ TLD_WHOIS_OVERRIDE = {
 dead_domains = []
 print("GETTING PSL")
 p = publicsuffixlist.PublicSuffixList(only_icann=True)
-print("GOT PSL, SETTING UP RESOLVER")
-resolver = dns.resolver.Resolver()
-print("CREATED RESOLVER")
-resolver.nameservers = ["https://unfiltered.adguard-dns.com/dns-query","94.140.14.140", "8.8.8.8","1.1.1.1"]
-print("SETUP RESOLVER")
+print("GOT PSL, SETTING UP resolver")
+dresolver = dns.resolver.Resolver()
+print("CREATED dresolver")
+dresolver.nameservers = ["https://unfiltered.adguard-dns.com/dns-query","94.140.14.140", "8.8.8.8","1.1.1.1"]
+print("SETUP resolver")
 already_resolved = {}
 known_whois = {}
 
@@ -85,7 +85,7 @@ def is_alive(domain, in_list=True):
     if domain.endswith(".onion"): # can't test onions yet
         return True
     try:
-        res_ips = list(resolver.resolve(domain))
+        res_ips = list(dresolver.resolve(domain))
         found_ips = []
         for ip in res_ips:
             found_ips.append(ip.address)
@@ -103,7 +103,7 @@ def get_ips(domain):
     if domain in dead_domains:
         return []
     try:
-        res_ips = list(resolver.resolve(domain))
+        res_ips = list(dresolver.resolve(domain))
         found_ips = []
         for ip in res_ips:
             found_ips.append(ip.address)
