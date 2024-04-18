@@ -142,3 +142,10 @@ def get_last_commit():
         print(err)
         return None
 
+print("LOADING DATA")
+try:
+    entry_data = json.loads(open("entry_data.json", encoding="UTF-8").read())
+except:
+    print("FAILED TO LOAD DATA")
+    entry_data = {}
+print("LOADED DATA")
