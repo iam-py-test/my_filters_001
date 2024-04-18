@@ -167,3 +167,6 @@ try:
 except Exception as err:
     print('random recheck failed', err)
 print("RANDOM RECHECK DONE")
+
+print("GETTING COMMIT")
+last_commit = get_last_commit()
