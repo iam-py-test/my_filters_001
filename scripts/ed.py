@@ -1,7 +1,7 @@
 print(f"{__file__} STARTED")
+import dns, dns.resolver
+print("IMPORTING NORMAL LIBS")
 import os, sys, json, datetime, socket, random, publicsuffixlist, ssl, requests, time
-print("IMPORTED NORMAL LIBS")
-#import dns, dns.resolver
 print("IMPORTS DONE")
 
 TLD_WHOIS_OVERRIDE = {
