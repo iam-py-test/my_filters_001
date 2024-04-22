@@ -945,14 +945,3 @@
 
 ! https://github.com/hagezi/dns-blocklists/issues/2506
 ||grapheneos.fr^$all
-
-! https://github.com/uBlockOrigin/uAssets/discussions/21047#discussioncomment-9117720
-||1377x.is^$document
-||1377x.to^$document
-||1337x.tw^$document
-||13377x.tw^$document
-||1337xto.to^$document
-||1337xx.to^$document
-||1337xxx.to^$document
-||1337x-official.to^$document
-||1337x.homes^$document
