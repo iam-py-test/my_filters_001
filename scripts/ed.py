@@ -45,8 +45,8 @@ def get_whois(domain, server = None, done_whois_servers = [], recurse=False, sub
         done_whois_servers.append(server)
     if domain in known_whois and sub == False:
         return known_whois[domain]
+    tld = p.publicsuffix(domain).upper()
     if server == None:
-        tld = p.publicsuffix(domain).upper()
         if tld in TLD_WHOIS_OVERRIDE:
             server = TLD_WHOIS_OVERRIDE[tld]
         else:
