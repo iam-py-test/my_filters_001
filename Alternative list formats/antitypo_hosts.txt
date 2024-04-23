@@ -772,13 +772,3 @@
 0.0.0.0 gooq1e.com
 # https://github.com/hagezi/dns-blocklists/issues/2506
 0.0.0.0 grapheneos.fr
-# https://github.com/uBlockOrigin/uAssets/discussions/21047#discussioncomment-9117720
-0.0.0.0 1377x.is
-0.0.0.0 1377x.to
-0.0.0.0 1337x.tw
-0.0.0.0 13377x.tw
-0.0.0.0 1337xto.to
-0.0.0.0 1337xx.to
-0.0.0.0 1337xxx.to
-0.0.0.0 1337x-official.to
-0.0.0.0 1337x.homes
