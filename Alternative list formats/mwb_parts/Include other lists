@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 22/4/2024
-! Version: 2242024-1
+! Last updated: 24/4/2024
+! Version: 2442024-1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -850,11 +850,14 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 23/04/2024
+! Last updated: 24/04/2024
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Tue, 23 Apr 2024 20:19:35 +0000
+! Wed, 24 Apr 2024 20:20:03 +0000
+||45.88.90.30/bot.ppc^$all
+||putin.zelenskyj.ru/bot.arm^$all
+||103.113.70.99/version_2.exe^$all
 ||5.181.190.250/cbrbinaries/cbr.arc^$all
 ||kisanbethak.com/JK/ujjdjd.exe^$all
 ||45.129.199.237/df/clip.exe^$all
@@ -953,9 +956,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||195.20.16.46/download/RetailerRise.exe^$all
 ||41.216.183.27/bins/yakuza.arm^$all
 ||91.92.240.69/beastmode/b3astmode.arm^$all
-||185.215.113.46/cost/fu.exe^$all
-||185.172.128.127/syncUpd.exe^$all
-||185.215.113.46/cost/ladas.exe^$all
 
 
 
