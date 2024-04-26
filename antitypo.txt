@@ -947,4 +947,5 @@
 ||grapheneos.fr^$all
 
 ! https://github.com/hagezi/dns-blocklists/issues/2549
+! https://github.com/StevenBlack/hosts/pull/2637
 ||sadostic.pl^$document
