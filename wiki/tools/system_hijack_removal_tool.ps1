@@ -61,6 +61,7 @@ function Check-SHRTIsSigned {
 
 Write-Host "The System Hijack Removal Tool (2)"
 Write-Host "This tool will try to remove known malware and PUPs, along with repairing Windows Defender and unblocking malware removal tools"
+Write-Host "WARNING: This tool is very experimental and largely unmaintained. DO NOT use it if you do not know what you are doing. Backup your data before running this script."
 try{
     Read-Host "Press enter to continue" | Out-Null
 }
