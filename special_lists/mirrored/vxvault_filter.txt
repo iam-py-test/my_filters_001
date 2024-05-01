@@ -2,11 +2,14 @@
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 29/04/2024
+! Last updated: 30/04/2024
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Mon, 29 Apr 2024 20:20:02 +0000
+! Tue, 30 Apr 2024 20:19:28 +0000
+||179.43.190.218/mips^$all
+||212.70.149.10/i686^$all
+||twizt.net/shitload.exe^$all
 ||5.42.66.10/download/th/Retailer_prog.exe^$all
 ||jeuxviddeo.com/zyohg9odyvknmq9zlh^$all
 ||45.88.90.30/bot.ppc^$all
@@ -105,6 +108,3 @@
 ||licocojambamarketplace.com/fwefwe324234234rgeffwehtrwyrhtrhtqwfqwd31443wefefwwfer3232fewwefwefwefqgrqwtherergqefwefqweqfwqf32fefwsda/uploads/lum^$all
 ||licocojambamarketplace.com/fwefwe324234234rgeffwehtrwyrhtrhtqwfqwd31443wefefwwfer3232fewwefwefwefqgrqwtherergqefwefqweqfwqf32fefwsda/uploads/stlc^$all
 ||transfer.sh/get/UbbsCiHlCm/xapaktep_design_crypted_LAB.exe^$all
-||medfioytrkdkcodlskeej.net/987123.exe^$all
-||93.123.39.166/s-h.4-.Sakura^$all
-||195.20.16.46/download/RetailerRise.exe^$all
