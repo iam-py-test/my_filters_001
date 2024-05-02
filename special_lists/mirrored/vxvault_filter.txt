@@ -2,11 +2,14 @@
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 30/04/2024
+! Last updated: 01/05/2024
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Tue, 30 Apr 2024 20:19:28 +0000
+! Wed, 01 May 2024 20:23:16 +0000
+||103.14.226.142/x86^$all
+||185.196.11.177/bins/sora.spc^$all
+||103.14.226.142/ppc^$all
 ||179.43.190.218/mips^$all
 ||212.70.149.10/i686^$all
 ||twizt.net/shitload.exe^$all
@@ -105,6 +108,3 @@
 ||94.156.8.244/mips^$all
 ||github.com/junlionserto/dfgdbfgndbdsfbhry/raw/main/momsstiflersdgjboigfnbio.exe^$all
 ||github.com/junlionserto/dfbhdfioughfdsiu/raw/main/poolsdnkjfdbndklsnfgb.exe^$all
-||licocojambamarketplace.com/fwefwe324234234rgeffwehtrwyrhtrhtqwfqwd31443wefefwwfer3232fewwefwefwefqgrqwtherergqefwefqweqfwqf32fefwsda/uploads/lum^$all
-||licocojambamarketplace.com/fwefwe324234234rgeffwehtrwyrhtrhtqwfqwd31443wefefwwfer3232fewwefwefwefqgrqwtherergqefwefqweqfwqf32fefwsda/uploads/stlc^$all
-||transfer.sh/get/UbbsCiHlCm/xapaktep_design_crypted_LAB.exe^$all
