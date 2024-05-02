@@ -139,3 +139,10 @@
 
 ! on https://boehs.org/node/truth-social
 ||espy.boehs.org^
+
+! https://github.com/hagezi/dns-blocklists/issues/2579
+||sqa-web.ory.sh^
+
+! https://tria.ge/240501-3krljaad5t/behavioral1
+! https://github.com/hagezi/dns-blocklists/issues/2583
+||plausible.avris.it^
