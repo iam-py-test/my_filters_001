@@ -42,7 +42,7 @@ def get_whois(domain, server = None, done_whois_servers = [], recurse=False, sub
     global known_whois
     print(f"Getting WHOIS record for {domain} using {server or 'no server specified'}, recurse is {recurse}")
     if server != None:
-        done_whois_servers.append(server)
+        done_whois_servers.append(server.lower())
     if domain in known_whois and sub == False:
         return known_whois[domain]
     tld = p.publicsuffix(domain).upper()
@@ -55,7 +55,7 @@ def get_whois(domain, server = None, done_whois_servers = [], recurse=False, sub
         whois_data = get_whois_data_raw(domain, server)
     except Exception as err:
         print(f"{server} failed to get WHOIS for {domain} due to {err} ({sub} - {recurse} - {','.join(done_whois_servers)})")
-        if sub == False and f"whois.nic.{tld}" not in done_whois_servers:
+        if sub == False and f"whois.nic.{tld}".lower() not in done_whois_servers:
             print(f"Trying whois.nic.{tld}")
             done_whois_servers.append(f"whois.nic.{tld}")
             return get_whois(domain, server=f"whois.nic.{tld}", done_whois_servers=done_whois_servers, recurse=recurse, sub=sub)
@@ -65,8 +65,8 @@ def get_whois(domain, server = None, done_whois_servers = [], recurse=False, sub
             for line in whois_data.replace("\r", "").split("\n"):
                 if line.replace(" ", "").replace("\t", "").startswith("RegistrarWHOISServer:"):
                     newserver = line.replace(" ", "").replace("\t", "").replace("RegistrarWHOISServer:", "").replace("http://", "").replace("https://", "").split("/")[0]
-                    if newserver not in done_whois_servers:
-                        whois_data += f"\n\nFetching more WHOIS data from {newserver}...\n\n" + get_whois(domain, server=newserver, recurse=True, sub=True, done_whois_servers=done_whois_servers)
+                    if newserver.lower() not in done_whois_servers:
+                        whois_data += f"\n\nFetching more WHOIS data from {newserver}...\n\n" + get_whois(domain, server=newserver.lower(), recurse=True, sub=True, done_whois_servers=done_whois_servers)
                     done_whois_servers.append(newserver)
         except Exception as err:
             print(f"Recurse for {domain} ({server}) failed due to {err}")
