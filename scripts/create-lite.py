@@ -8,7 +8,7 @@ BANNED_FILTERS_URL = "https://raw.githubusercontent.com/iam-py-test/allowlist/ma
 psl = publicsuffixlist.PublicSuffixList()
 
 # https://www.geeksforgeeks.org/how-to-validate-an-ip-address-using-regex/
-is_ip_v4 = "^((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\.){3}(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])$"
+is_ip_v4 = "^((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9]).){3}(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])$"
 is_ip_v6 = "((([0-9a-fA-F]){1,4})\\:){7}"\
              "([0-9a-fA-F]){1,4}"
 is_ip_v4_reg = re.compile(is_ip_v4)
