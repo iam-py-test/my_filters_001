@@ -3,7 +3,7 @@
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # Please report false positives & unblocked domains to me using the GitHub or GitLab (urls below). Thanks!
 # Expires: 1 day
-# Last updated: 7/4/2024
+# Last updated: 5/5/2024
 # Issues url: https://github.com/iam-py-test/my_filters_001/issues
 # GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 # Google redirects
@@ -77,7 +77,7 @@
 0.0.0.0 buff.ly
 # https://www.mywot.com/scorecard/go.microsoft.com
 # breaks a lot of things on M$ websites
-0.0.0.0 go.microsoft.com
+#!! ||go.microsoft.com^$document
 # https://github.com/404-not-find/urlshorten
 # https://www.mywot.com/scorecard/t.cn
 # https://www.virustotal.com/gui/url/13837bdd9a599156270ae6ce6cd6c0234404a0a50a52f32d0eb5ef04be95c9bf/community
@@ -499,3 +499,7 @@
 0.0.0.0 2tw.in
 # qrstuff.com
 0.0.0.0 qrs.ly
+# https://cloud.google.com/blog/topics/threat-intelligence/untangling-iran-apt42-operations
+0.0.0.0 n9.cl
+# https://github.com/hagezi/dns-blocklists/issues/2603
+#!! ||vercel.fyi^$document

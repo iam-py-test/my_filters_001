@@ -28,7 +28,6 @@ www.linkbucks.com
 linkbucks.com
 git.io
 buff.ly
-go.microsoft.com
 t.cn
 sinaurl.cn
 a.co
@@ -256,3 +255,4 @@ nyl.as
 appurl.io
 2tw.in
 qrs.ly
+n9.cl

@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results, along with other annoyances
 ! Expires: 1 day
 ! Last updated: 7/4/2023
-! Last auto-generated: 05/05/2024
+! Last auto-generated: 06/05/2024
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -12135,6 +12135,7 @@ search.brave.com##div.fdb.snippet:has(a[href*="://slowmitter.top"])
 search.brave.com##div.fdb.snippet:has(a[href*="://d.slowmitter.top"])
 search.brave.com##div.fdb.snippet:has(a[href*="://singingfiles.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://gym-sharkfinland.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://93mobiles.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://totalav.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://www.totalav.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://api.totalav.com"])
@@ -12654,6 +12655,8 @@ search.brave.com##div.fdb.snippet:has(a[href*="://www.driverfix.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://pdfpilotapp.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://application.pdfpilotapp.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://por.pdfpilotapp.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://restorex360.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://www.restorex360.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://24hourhtmlcafe.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ilovealgarve.net"])
 search.brave.com##div.fdb.snippet:has(a[href*="://nbgpapartmani.com"])

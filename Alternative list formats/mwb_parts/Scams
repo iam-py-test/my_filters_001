@@ -9323,3 +9323,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ! https://github.com/jarelllama/Scam-Blocklist/issues/334
 ||gym-sharkfinland.com^$all
 
+! https://github.com/hagezi/dns-blocklists/issues/2607
+||93mobiles.com^$all
+
