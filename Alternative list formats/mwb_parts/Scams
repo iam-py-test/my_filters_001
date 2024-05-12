@@ -9326,3 +9326,12 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ! https://github.com/hagezi/dns-blocklists/issues/2607
 ||93mobiles.com^$all
 
+! spam email
+||185.106.94.223^$document
+! https://tria.ge/240511-qjc1jacc79/behavioral1
+||serenespring.info^$all
+||mta1.serenespring.info^$all
+||naughtymatchvo1.com^$all
+||onlyfwb.com^$document
+||email.mg.onlyfwb.com^$document
+
