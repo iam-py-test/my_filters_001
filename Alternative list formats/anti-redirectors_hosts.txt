@@ -503,3 +503,5 @@
 0.0.0.0 n9.cl
 # https://github.com/hagezi/dns-blocklists/issues/2603
 #!! ||vercel.fyi^$document
+# https://infosec.exchange/@ryanc/112427509661661230
+0.0.0.0 llili.li
