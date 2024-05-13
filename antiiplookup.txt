@@ -96,3 +96,7 @@
 0.0.0.0 db-ip.com
 # https://vid.puffyan.us/watch?v=r8JzWoU2_lU
 0.0.0.0 ifconfig.so
+# thedoctors[.]com
+0.0.0.0 extreme-ip-lookup.com
+0.0.0.0 extreme-ip-lookup-com.com
+0.0.0.0 ww2-extreme-ip-lookup-com.eu

@@ -698,3 +698,6 @@ pepper.pl##+js(href-sanitizer, a[href*="https://www.pepper.pl/visit/"][title^="h
 
 ! https://github.com/hagezi/dns-blocklists/issues/2603
 !!! ||vercel.fyi^$document
+
+! https://infosec.exchange/@ryanc/112427509661661230
+||llili.li^$document
