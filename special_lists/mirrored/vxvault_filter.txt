@@ -2,11 +2,14 @@
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 19/05/2024
+! Last updated: 23/05/2024
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Sun, 19 May 2024 20:20:31 +0000
+! Thu, 23 May 2024 20:21:18 +0000
+||103.228.37.56/most-x86^$all
+||45.128.232.15/596a96cc7bf9108cd896f33c44aedc8a/db0fa4b8db0333367e9bda3ab68b8042.x86^$all
+||172.105.121.169/AsyncClient.exe^$all
 ||aefieiaehfiaehr.top/tdrpload.exe^$all
 ||5.42.96.55/lumma0805.exe^$all
 ||files.eintim.me/content/cdn/VIShpbWCxEUY.exe^$all
@@ -105,6 +108,3 @@
 ||185.172.128.126/InstallSetupNew.exe^$all
 ||91.92.250.216/page/c11zx.scr^$all
 ||bitbucket.org/j-upsps/microsoft_network1/downloads/a01.exe^$all
-||bitbucket.org/j-upsps/microsoft_network1/downloads/a03.exe^$all
-||seastyle.org/7725eaa6592c80f8124e769b4e8a07f7.exe^$all
-||147.45.47.93/zigma/kefir.exe^$all
