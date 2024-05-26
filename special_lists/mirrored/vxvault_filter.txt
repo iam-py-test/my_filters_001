@@ -2,11 +2,12 @@
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 23/05/2024
+! Last updated: 26/05/2024
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Thu, 23 May 2024 20:21:18 +0000
+! Sun, 26 May 2024 20:19:13 +0000
+||45.142.182.70/arc^$all
 ||103.228.37.56/most-x86^$all
 ||45.128.232.15/596a96cc7bf9108cd896f33c44aedc8a/db0fa4b8db0333367e9bda3ab68b8042.x86^$all
 ||172.105.121.169/AsyncClient.exe^$all
@@ -107,4 +108,3 @@
 ||185.172.128.187/syncUpd.exe^$all
 ||185.172.128.126/InstallSetupNew.exe^$all
 ||91.92.250.216/page/c11zx.scr^$all
-||bitbucket.org/j-upsps/microsoft_network1/downloads/a01.exe^$all
