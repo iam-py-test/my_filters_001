@@ -2,11 +2,14 @@
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 26/05/2024
+! Last updated: 28/05/2024
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Sun, 26 May 2024 20:19:13 +0000
+! Tue, 28 May 2024 20:21:20 +0000
+||147.78.103.195/gjui^$all
+||93.123.39.20/bins/r.x86^$all
+||147.78.103.177/arm6^$all
 ||45.142.182.70/arc^$all
 ||103.228.37.56/most-x86^$all
 ||45.128.232.15/596a96cc7bf9108cd896f33c44aedc8a/db0fa4b8db0333367e9bda3ab68b8042.x86^$all
@@ -105,6 +108,3 @@
 ||193.233.132.62/hera/amadka.exe^$all
 ||193.233.132.139/zigma/fraer.exe^$all
 ||185.172.128.187/Ledger-Live.exe^$all
-||185.172.128.187/syncUpd.exe^$all
-||185.172.128.126/InstallSetupNew.exe^$all
-||91.92.250.216/page/c11zx.scr^$all
