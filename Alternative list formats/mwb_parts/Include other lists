@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 28/5/2024
-! Version: 2852024-1
+! Last updated: 31/5/2024
+! Version: 3152024-1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -850,11 +850,18 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 28/05/2024
+! Last updated: 31/05/2024
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Tue, 28 May 2024 20:21:20 +0000
+! Fri, 31 May 2024 20:20:28 +0000
+||93.123.39.110/softbot.x86^$all
+||204.137.14.135/s2.exe^$all
+||147.78.103.195/ws8ioUp8Us^$all
+||147.78.103.195/ivy5dNMhe9^$all
+||147.78.103.195/YU5FcDWihk^$all
+||147.78.103.195/XdYLSM59XW^$all
+||93.123.39.98/bins/sora.mips^$all
 ||147.78.103.195/gjui^$all
 ||93.123.39.20/bins/r.x86^$all
 ||147.78.103.177/arm6^$all
@@ -949,13 +956,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||193.233.132.62/hera/amadka.exe^$all
 ||193.233.132.167/cost/lenin.exe^$all
 ||193.233.132.197/crypted.exe^$all
-||bitbucket.org/bredil555exe/mix1/downloads/mene.exe^$all
-||sportessentia.home.pl/temp/crypted.exe^$all
-||nessotechbd.com/TEMPradius.exe^$all
-||193.233.132.167/cost/ladas.exe^$all
-||193.233.132.62/hera/amadka.exe^$all
-||193.233.132.139/zigma/fraer.exe^$all
-||185.172.128.187/Ledger-Live.exe^$all
 
 
 
