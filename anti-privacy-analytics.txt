@@ -146,3 +146,7 @@
 ! https://tria.ge/240501-3krljaad5t/behavioral1
 ! https://github.com/hagezi/dns-blocklists/issues/2583
 ||plausible.avris.it^
+
+! https://github.com/hagezi/dns-blocklists/issues/2828
+||footprint.network^$third-party
+||footprint.network.cdn.cloudflare.net^
