@@ -265,7 +265,7 @@ for e in domain_list:
         if "last_checked" not in entry_data[e]:
             entry_data[e]["last_checked"] = "Unknown"
         entry_data[e]["check_counter"] += 1
-        if entry_data[e]["check_counter"] > 40:
+        if entry_data[e]["check_counter"] > 35:
             print(f"Checking {e}...", "previous status", entry_data[e]["check_status"], "last check", entry_data[e]["last_checked"])
             domain_is_alive = is_alive(e, True)
             entry_data[e]["check_status"] = domain_is_alive
