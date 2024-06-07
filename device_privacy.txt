@@ -2,7 +2,7 @@
 # Description: This list is designed to provide enhanced protection against trackers as a HOSTs file, at the DNS level, or even in uBlock Origin
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # License: Public domain, because I believe privacy is a human right
-# Last updated: 11/11/2021
+# Last updated: 2021-11-11
 
 # copied over from Anti-Norton Tracking Protection
 # Universal Tracker domains which (according to VT) Avast's installer contacts

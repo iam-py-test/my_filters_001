@@ -1,7 +1,7 @@
 ! Title: Test
 ! Description: This filter is for testing other adblockers, nothing more.
 ! Expires: 1 day
-! Last updated: 26/10/2021
+! Last updated: 2021-10-26
 malware.localhost$all
 scam.localhost$document
 ||ok.localhost^

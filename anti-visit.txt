@@ -1,7 +1,7 @@
 ! Title: Anti-visit counters
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Description: You know those "number of times this page has been viewed" counter images? I personally find those annoying. This is clearly just my opinion, but for those who don't want to see those anymore, this list is for you. It is very much still a work-in-progress!
-! Last updated: 11/11/2023
+! Last updated: 2023-11-11
 ! Expires: 3 days
 
 ||hits.seeyoufarm.com^$3p

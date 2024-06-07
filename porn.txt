@@ -8,7 +8,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-! Last updated: 11/1/2022
+! Last updated:  2022-1-11
 ! A note about dates: All my dates are in EU format, which means day/month/year
 ! IMPORTANT NOTE: I have given up maintaining this list as to focus on other projects and lists, and also because there are far better lists for blocking porn anyway. I will unblock false positives but don't plan on adding any new domains. 
 

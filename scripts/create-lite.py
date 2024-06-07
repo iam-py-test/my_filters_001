@@ -27,11 +27,11 @@ list1 = """[Adblock Plus 2.0]
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-! Script last updated: 25/5/2023
+! Script last updated: 2023-5-25
 ! Last updated: {}
 ! Expires: 1 day
 
-""".format(datetime.datetime.now().strftime("%d/%m/%y"))
+""".format(datetime.datetime.now().strftime("%y-%m-%d"))
 done_entries = []
 bannedfilters = []
 done_domains = []

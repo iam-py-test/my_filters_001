@@ -1,7 +1,7 @@
 ! Title: Region TLD blocking - India
 ! Description: Block India-specific TLDs. Ideal for people outside of India and who do not often visit Indian websites
 ! Expires: 1 day
-! Last updated: 20/1/2022
+! Last updated: 2022-1-20
 ! Inspired by https://github.com/hagezi/dns-blocklists/issues/143#issuecomment-1398666350
 ! Originally copied from https://github.com/yokoffing/filterlists/blob/fb16e0b5434914105e9c1fe42f3cb0febb2e9327/enhanced_site_protection.txt#L33
 ||in^$doc,domain=~amazon.in|~blogspot.in|~google.co.in|~irctc.co.in|~indiatoday.in|~lnkd.in|~homegrown.co.in|~registry.in|~payu.in|~epfindia.gov.in

@@ -1,7 +1,7 @@
 ! Title: Antirickroll list
 ! Description: Rickrolls are an annoying prank which is spreading on the internet. This list is designed to block known rickroll sites and rickroll videos (mostly on YouTube), along with normal videos of "Rick Astley Never Gonna Give you up". It will be decommissioned once this dumb prank stops being popular.
 ! Note: This list works best when autoplay is disabled in the browser
-! Last updated: 27/1/2024
+! Last updated: 2024-1-27
 ! Expires: 10s days
 ! License: No copyright (CC0)
 ! Homepage: https://github.com/iam-py-test/my_filters_001

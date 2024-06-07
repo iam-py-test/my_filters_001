@@ -3,7 +3,7 @@
 ! Description: Remove annoyances from Discord's web version
 ! Expires: 2 days
 ! Homepage: https://github.com/iam-py-test/my_filters_001
-! Last updated: 7/5/2023
+! Last updated: 2023-5-7
 ! Note: This list can not help you if you chose to use the Discord app
 
 ! Promotion for Discord Nitro

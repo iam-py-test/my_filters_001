@@ -1,7 +1,7 @@
 ! Title: Region TLD blocking - Russia
 ! Description: Block Russia-specific TLDs. Ideal for people outside of Russia and who do not often visit Russian websites
 ! Expires: 1 day
-! Last updated: 20/1/2022
+! Last updated: 2022-1-20
 ! Inspired by https://github.com/hagezi/dns-blocklists/issues/143#issuecomment-1398666350
 ! Originally copied from https://github.com/yokoffing/filterlists/blob/fb16e0b5434914105e9c1fe42f3cb0febb2e9327/enhanced_site_protection.txt#L33
 ||ru^$doc,domain=~adm-bezheck.ru|~admandreapol.ru|~admin-smolensk.ru|~adminzubcov.ru|~admmolokovo.ru|~admtyumen.ru|~aliexpress.ru|~altai-republic.ru|~blogspot.ru|~bryanskobl.ru|~dzen.ru|~e-mordovia.ru|~egov-buryatia.ru|~glavafirovo.ru|~google.ru|~gov.karelia.ru|~gov.ru|~ingushetia.ru|~journal.tinkoff.ru|~kalinin-adm.ru|~kamgov.ru|~kchr.ru|~khabkrai.ru|~khogov.ru|~kimryadm.ru|~konakovoregion.ru|~kremlin.ru|~krholm.ru|~kurganobl.ru|~kursk.ru|~kuvshinovoadm.ru|~lenobl.ru|~lihoslavl69.ru|~maksatiha-adm.ru|~olenino.ru|~ozerny.ru|~rameshki.ru|~rbologoe.ru|~rkomi.ru|~rtyva.ru|~ryazangov.ru|~rzhevcity.ru|~sandovoregion.ru|~sci-hub.ru|~sonkovo.ru|~stavregion.ru|~tatarstan.ru|~toropecadm.ru|~torzhok-adm.ru|~torzhokadm.ru|~tver.ru|~udomelskij-okrug.ru|~v-volok.ru|~volgadmin.ru|~yandex.ru|~zapdvina.ru|~zapgov.ru|~zatosoln.ru

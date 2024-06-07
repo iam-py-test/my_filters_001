@@ -1,6 +1,6 @@
 ! Title: Clickbait blocklist
 ! Description: Isn't it annoying when news websites and search results are filled with random clickbait content? This list hopefully makes some of that go away
-! Last updated: 2/3/2024
+! Last updated: 3-2-2024
 ! Expires: 1 day
 ! Special thanks to https://github.com/sanjayen for inspiring this list and contributing over half of the entries in it
 ! This list was inspired by https://github.com/DandelionSprout/adfilt/issues/272
