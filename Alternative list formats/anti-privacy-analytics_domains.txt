@@ -89,3 +89,4 @@ sqa-web.ory.sh
 plausible.avris.it
 footprint.network
 footprint.network.cdn.cloudflare.net
+stats.lineageos.org

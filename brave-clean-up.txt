@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results, along with other annoyances
 ! Expires: 1 day
 ! Last updated: 2023-4-7
-! Last auto-generated: 11/06/2024
+! Last auto-generated: 14/06/2024
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -4076,6 +4076,10 @@ search.brave.com##div.fdb.snippet:has(a[href*="://angryipsca.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://odvanced-ip-scanner.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://lightssplash.shop"])
 search.brave.com##div.fdb.snippet:has(a[href*="://wildwestshine.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://newincomingmessage.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://zaz4o.securesolidlink.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://re-captha-version-3-277.buzz"])
+search.brave.com##div.fdb.snippet:has(a[href*="://inboxtext.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublockerext.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://quatrefeuillepolonaise.xyz"])
@@ -10889,7 +10893,6 @@ search.brave.com##div.fdb.snippet:has(a[href*="://timberlandsuomi.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://timberlandsuomi.net"])
 search.brave.com##div.fdb.snippet:has(a[href*="://timberlandsuomifi.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://timberlandxsuomi.com"])
-search.brave.com##div.fdb.snippet:has(a[href*="://timbsuomi.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://uniqloale.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://uniqlo-finland.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://uniqlofinland.com"])
