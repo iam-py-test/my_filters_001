@@ -90,3 +90,17 @@ plausible.avris.it
 footprint.network
 footprint.network.cdn.cloudflare.net
 stats.lineageos.org
+analytics.service.silvenga.com
+analytics2.altweb.me
+analytics2.servere.hu
+tracking.drugimiglazami.ru
+tracking.maidprofit.com
+umami.internal.zrcn.dev
+analytics.discord.place
+statistics.12ms.xyz
+stats.arclunum.fr
+track.baylor.dev
+track.noder.se
+track.stack.my.id
+tracking.app.eway.space
+umami-app-z673x.ondigitalocean.app
