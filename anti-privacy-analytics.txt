@@ -153,3 +153,21 @@
 
 ! https://github.com/badmojr/1Hosts/issues/1771
 ||stats.lineageos.org^
+
+! https://github.com/hagezi/dns-blocklists/pull/2917
+||analytics.service.silvenga.com^
+||analytics2.altweb.me^
+||analytics2.servere.hu^
+||tracking.drugimiglazami.ru^
+||tracking.maidprofit.com^
+||umami.internal.zrcn.dev^
+
+! https://github.com/hagezi/dns-blocklists/pull/2918
+||analytics.discord.place^
+||statistics.12ms.xyz^
+||stats.arclunum.fr^
+||track.baylor.dev^
+||track.noder.se^
+||track.stack.my.id^
+||tracking.app.eway.space^
+||umami-app-z673x.ondigitalocean.app^
