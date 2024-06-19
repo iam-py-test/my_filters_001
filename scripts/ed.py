@@ -184,9 +184,16 @@ for e in domain_list:
     #print(e, e in entry_data)
     if (e not in entry_data or type(entry_data[e]) == str) and e != "last_updated":
         entry_is_alive = is_alive(e, True)
+        entry_has_http_80 = False
         dead_since = ""
         if entry_is_alive != True:
             dead_since = current_date
+        else:
+            try:
+                requests.head(f"http://{e}")
+                entry_has_http_80 = True
+            except:
+                pass
         tls_info = {}
         try:
             tls_info = get_tls_info(e)
@@ -225,7 +232,8 @@ for e in domain_list:
             "had_www_on_check": None,
             "tls_info": tls_info,
             "last_commit": last_commit,
-            "ip_whois": ip_whois_data
+            "ip_whois": ip_whois_data,
+            "has_http_80": entry_has_http_80
         }
     else:
         if "tls_info" in entry_data[e] and len(entry_data[e]["tls_info"]) == 0:
