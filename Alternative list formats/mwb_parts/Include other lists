@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 2024-6-17
-! Version: 2024615.2
+! Last updated: 2024-6-18
+! Version: 2024618.1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -850,11 +850,13 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 16/06/2024
+! Last updated: 18/06/2024
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Sun, 16 Jun 2024 20:20:23 +0000
+! Tue, 18 Jun 2024 20:21:57 +0000
+||o7labs.top/visual/blob.exe^$all
+||o7labs.top/visual/bin.exe^$all
 ||147.78.103.47/bins/jew.ppc^$all
 ||universalmovies.top/john.scr^$all
 ||147.78.103.184/sparc^$all
@@ -954,8 +956,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||nacionalveiculos.com/Software.exe^$all
 ||193.56.255.218/T1403F/audiodg.exe^$all
 ||185.172.128.187/timeSync.exe^$all
-||185.172.128.187/syncUpd.exe^$all
-||medfioytrkdkcodlskeej.net/987123.exe^$all
 
 
 
