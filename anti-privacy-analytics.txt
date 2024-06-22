@@ -171,3 +171,6 @@
 ||track.stack.my.id^
 ||tracking.app.eway.space^
 ||umami-app-z673x.ondigitalocean.app^
+
+! https://tria.ge/240620-wcbf1szcle/behavioral1
+||mtmoweb.website^
