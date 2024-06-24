@@ -608,3 +608,5 @@ freedynamicdns.org
 viewdns.net
 access.ly
 ydns.io
+dynme.ovh
+nerdpol.ovh

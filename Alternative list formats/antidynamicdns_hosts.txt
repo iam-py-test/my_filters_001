@@ -618,3 +618,6 @@
 0.0.0.0 access.ly
 # https://github.com/hagezi/dns-blocklists/issues/1854
 0.0.0.0 ydns.io
+# https://github.com/badmojr/1Hosts/issues/1794
+0.0.0.0 dynme.ovh
+0.0.0.0 nerdpol.ovh
