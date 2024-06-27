@@ -174,3 +174,6 @@
 
 ! https://tria.ge/240620-wcbf1szcle/behavioral1
 ||mtmoweb.website^
+
+! https://github.com/hagezi/dns-blocklists/issues/2996
+||umami.homarr.dev^
