@@ -105,3 +105,4 @@ track.stack.my.id
 tracking.app.eway.space
 umami-app-z673x.ondigitalocean.app
 mtmoweb.website
+umami.homarr.dev
