@@ -7,3 +7,4 @@
 ||charmdate.com^$document
 ||naughtymatchvo1.com^$document
 ||hushlove.com^$document
+||analytics.connectabil.com^
