@@ -227,7 +227,6 @@ plausible.watchthatgame.com
 pl-eu.citizens.is
 plausibly.net
 plausible.riskcompass.eu
-analytics.connectabil.com
 analytics.ventizo.com
 plausible.sproof.io
 shark.mineperial.com
