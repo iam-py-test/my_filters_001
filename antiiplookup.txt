@@ -100,3 +100,6 @@
 0.0.0.0 extreme-ip-lookup.com
 0.0.0.0 extreme-ip-lookup-com.com
 0.0.0.0 ww2-extreme-ip-lookup-com.eu
+# https://github.com/hagezi/dns-blocklists/issues/3031
+0.0.0.0 geo.sppopups.com
+0.0.0.0 geo.wdgtsrc.com

@@ -428,3 +428,5 @@
 ||plausible.tesseratech.es^
 ||vision.unitedairpower.co.uk^
 ||p2p.sdmdigital.id^
+! https://github.com/hagezi/dns-blocklists/issues/3031
+||stat.ugr.com.ua^
