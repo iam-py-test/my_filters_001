@@ -833,6 +833,8 @@ jscdn.biz
 weibo-b5game.com
 instantgreenapp.com
 free.instantgreenapp.com
+secure.instantgreenapp.com
+a5jogo.club
 v37870.com
 coe777.com
 pcsafetysurvey.com
@@ -6260,6 +6262,7 @@ conversechile.net
 converseisrael.com
 converselietuva.com
 converse-luxembourg.com
+conversephilippines.com
 conversepromocja.com
 conversesklep.com
 conversesrbija.com

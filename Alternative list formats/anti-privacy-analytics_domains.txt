@@ -346,3 +346,4 @@ plausible.hutton.ac.uk
 plausible.tesseratech.es
 vision.unitedairpower.co.uk
 p2p.sdmdigital.id
+stat.ugr.com.ua
