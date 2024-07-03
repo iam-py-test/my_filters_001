@@ -465,7 +465,6 @@ youtube.com##+js(href-sanitizer,a[href*="https://www.youtube.com/redirect"], ?q)
 ||shrunken.com^$document
 ||p.asia^$document
 ||g.asia^$document
-||3.ly^$document
 ||0.gp^$document
 ||2.ly^$document
 ||4.gp^$document
