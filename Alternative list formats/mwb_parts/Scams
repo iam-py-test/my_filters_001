@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 2024-7-3
-! Version: 202473.1
+! Last updated: 2024-7-4
+! Version: 202474.1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -76,7 +76,6 @@
 ||t.therewardboost.com^$all
 ||natnlconsmrctr.com^$document
 ||lore.deduce.com^$document
-||d2m2wsoho8qq12.cloudfront.net^$document
 ||jpgtrk.com^$document
 ||pnghst.com^$document
 ! domains which gogle[.]net redirects to on 17/10/2021
@@ -148,9 +147,8 @@
 ||get-cracked.com^$all
 ! More related domains/urls
 ||tinyurl.com/gp84uz2^$document
-||www.mediafiire.com^$all
 ||mediafiire.com^$document
-||d1xkyo9j4r7vnn.cloudfront.net^$all
+||www.mediafiire.com^$all
 ||www.onlinepromotionsusa.com^$all
 ||onlinepromotionsusa.com^$all
 ||w.promotionsonlineusa.com^$all
@@ -162,8 +160,8 @@
 ||ppcnzi.xyz^$document
 ||www.ppcnzi.xyz^$document
 ||eritokyo.jp^$document
-||www.cpanlyzr.co^$all
 ||cpanlyzr.co^$document
+||www.cpanlyzr.co^$all
 ||rewardzoneusa.com^$all
 ||contact.rewardzoneusa.com^$all
 ||reward3spot.com^$all
@@ -171,14 +169,11 @@
 ||order-safely.com^$document
 ||www.order-safely.com^$document
 ||followlink.click^$document
-||us.systemupdatecontrol.com^$all
 ||systemupdatecontrol.com^$all
+||us.systemupdatecontrol.com^$all
 ||ryderftv.co^$document
 ||www.ryderftv.co^$all
 ||publishers.revenueuniverse.com^$document
-
-! https://scammer.info/t/crypto-scam/82425
-||gemini-horoscope-astrologer.business.site^$all
 
 ! https://scammer.info/t/noteit-scam/82283
 ||pautils.online^$document
@@ -186,12 +181,9 @@
 ! https://scammer.info/t/usps-spam/83368
 ||www.wutaideng.wang^$document
 
-! https://scammer.info/t/crypto-scam/83168
-||gemini-telephonecompany.business.site^$document
-
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-974886953
-||e.datingmap.top^$all
 ||datingmap.top^$all
+||e.datingmap.top^$all
 ||tonightshookup.com^$document
 ||members.tonightshookup.com^$all
 ||t.tonightshookup.com^$all
@@ -209,8 +201,8 @@
 ||displayoptoffers.com^$all
 ||www.displayoptoffers.com^$all
 ||www.yrxtrk.com^$document
-||play.sweepstakesalerts.com^$document
 ||sweepstakesalerts.com^$document
+||play.sweepstakesalerts.com^$document
 ||www.stash.com^$document
 ||www.qualityhealth.com^$document
 ||qualityhealth.com^$document
@@ -246,8 +238,8 @@
 ||supremeadblocker.info^$all
 
 ! https://scammer.info/t/faremart/82671
-||www.faremart.com^$document,image
 ||faremart.com^$document
+||www.faremart.com^$document,image
 
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-977912975
 ! https://www.tv2.no/nyheter/14368524/
@@ -274,15 +266,12 @@
 ! https://scammer.info/t/youtube-bot-roblox-scam-39/84530
 ||freeco.xyz^$all
 
-! https://scammer.info/t/paypal-phishing-12/84592
-||golemgreat122.000webhostapp.com^$all
-
 ! https://scammer.info/t/microsoft-phishing-1/84589
 ||aceelectricalny.com^$all
 
 ! https://scammer.info/t/discord-nitro-generator-7/84570
-||www.appninjas.xyz^$all
 ||appninjas.xyz^$all
+||www.appninjas.xyz^$all
 
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-986306768
 ||chess-progress.ru^$document
@@ -386,16 +375,10 @@
 ||onemacusa.net^$all
 ! random .xyz domains which just don't look legit
 ||cp2s.xyz^$all
-||80302.xyz^$all
-
-! https://github.com/DevSpen/links/pull/3
-||d13nu0oomnx5ti.cloudfront.net^$all
-||dgu9g3a2kzqx2.cloudfront.net^$all
-||d13pxqgp3ixdbh.cloudfront.net^$all
 
 ! https://scammer.info/t/snapchat-spam-click-link-don-t-link-investigate-please/85620
-||nvoddn.hotglrls.net^$all
 ||hotglrls.net^$document
+||nvoddn.hotglrls.net^$all
 ||hushlove.com^$all
 ||jucydate.com^$document
 ||w17veh63m7o8s4ncihd1jq8i.people-wet.com^$document
@@ -444,9 +427,6 @@
 ||groups.google.com/g/cyberpunk-steam-key-generator-working-check-now-2022/$document
 ||ragamer.com^$document
 
-! https://scammer.info/t/indian-kotak-mahindra-bank-scam/85760
-||raam-and-laxman98.000webhostapp.com^$all
-
 ! https://scammer.info/t/nitro-is-handed-there-for-free-scam-7-927-324-30-54/85763
 ||gift-discords.com^$all
 
@@ -455,8 +435,6 @@
 
 ! "press allow to continue"
 ||shortnewsinfo.com^$document
-! https://scammer.info/t/mcafee-phish/83725
-||securefirst.us-east-1.linodeobjects.com^$all
 
 ! https://github.com/uBlockOrigin/uBlock-issues/issues/1774#issuecomment-1000722777
 ||viewty.xyz^$all
@@ -666,7 +644,6 @@
 ! scam browser theme
 ||chrome.google.com/webstore/detail/discord-free-nitro-free-d/ihdnmkbgjnpbkdcammpfokdmncnicfki^$all
 ||unlock3r.net^$all
-||nitroboostcord.blogspot.com^$all
 ||appbase.best/dboost^$all
 
 ! looks very shady
@@ -823,7 +800,6 @@
 ! https://web.archive.org/web/20230604184126/https://twitter.com/iam_py_test/status/1538267982551347200
 ||may8forstudents.org/free-discord-nitro-codes-list-no-human-verification/^$all
 ||www.easyrobuxtoday.org^$document
-||robloxhackv2111.blogspot.com^$all
 ||appinstallcheck.com^$all
 ||api.pushnami.com/api/push/image/id/61f58059b94aff0015c3e03c^$all
 
@@ -1051,11 +1027,10 @@
 ||linkedin.com/pulse/free-discord-nitro-generator-verification-maxpro-game-gadget-2022^$all
 ||cutt.ly/YV9jKsf^$all
 ||gamegadget2022.blogspot.com^$document
-||easymoneysurvey.space^$all
 ||gifttopsurvey.top^$all
 ! https://app.any.run/tasks/da8a44c3-965f-4fd6-816d-b5ae16235f62
-||iphone14.winnenmetje.info^$all
 ||winnenmetje.info^$document
+||iphone14.winnenmetje.info^$all
 
 ! https://virustotal.com/gui/url/7b40e1b7ffc3b710640ae41c529aff18e4c8cded55391d55c34b601912c5a2a2/community
 ! https://app.any.run/tasks/f0a198be-f4a4-4414-94c5-21ed61ae0264
@@ -1064,18 +1039,18 @@
 ||vbucks-goo.com^$all
 ||take.yunosurveys.com^$all
 ||www.jpnbgn.com^$document
-||1263dcb80ec5.789offers.net^$all
 ||789offers.net^$document
+||1263dcb80ec5.789offers.net^$all
 
 ! https://forums.malwarebytes.com/topic/291952-mb-keeps-finding-same-4-pups/#comment-1541507
-||a.wilycaptcha.live^$all
 ||wilycaptcha.live^$document
+||a.wilycaptcha.live^$all
 ||captchasee.live^$document
 ||captchatotal.live^$document
 
 ! https://app.any.run/tasks/c87a34ca-0d2f-43cb-be6d-8f48506bd723
-||ftuyn.ewoverth.buzz^$all
 ||elooksjustli.one^$all
+||ftuyn.ewoverth.buzz^$all
 
 ! https://app.any.run/tasks/6bd12a68-ef8e-4e44-9c66-9c8e82cb784c
 ||2.napublic.com^$all
@@ -1102,13 +1077,10 @@
 ! https://app.any.run/tasks/87b656b2-3fd6-4bae-9267-f918ea4189ac
 ||dating-hotcontacts.com^$all
 
-! https://youtu.be/GiixWxddP_M?t=1237
-||caren.live^$document
-
 ! https://scammer.info/t/discord-nitro-scam/113648
 ||132.226.203.60^$all
-||www.iphonediscord.info^$all
 ||iphonediscord.info^$all
+||www.iphonediscord.info^$all
 
 ! popups from shady URL shorteners
 ||mediasama.com^$document
@@ -1120,13 +1092,11 @@
 
 ! https://app.any.run/tasks/a15bbdd6-64d6-4a49-8457-6fbef1d00872
 ||form.run/@fortnite-v-bucks-codes-hack-generator-no-human-verification^$all
-||free-fortnitevbucksgenerator.blogspot.com^$all
 ||belohnung24.com^$all
 ||techplanet1.com^$all
 
 ! https://app.any.run/tasks/5a76864c-7436-4411-afc8-5937e8d1d147#
 ||form.run/@free-tiktok-followers-fans-likes-generator^$all
-||dwmsurhf1svv8.cloudfront.net^$document,frame
 ! https://app.any.run/tasks/f7cdecba-0b76-4a5f-9d19-c36a453130dc
 ! https://tria.ge/240411-xhwjtahh93/behavioral1
 ||nationalconsumerscenter.co.uk^$document
@@ -3300,7 +3270,6 @@
 ||ricens.xyz^$document
 ||rapens.xyz^$document
 ||rorens.xyz^$document
-||tonens.xyz^$document
 ||sowans.xyz^$document
 ||tikens.xyz^$document
 ||tilens.xyz^$document
@@ -6853,9 +6822,6 @@ $all,domain=goatmod.xyz|metriumoldeb.com
 ||beeronas.com^$all
 ||lobosixt.com^$all
 ||gomoyad.com^$all
-
-! https://github.com/hagezi/dns-blocklists/issues/1458
-||software19797.blogspot.com^$all
 
 ! https://github.com/hagezi/dns-blocklists/issues/1457
 ||cutty.app^$document

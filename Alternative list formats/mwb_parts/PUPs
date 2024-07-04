@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 2024-7-3
-! Version: 202473.1
+! Last updated: 2024-7-4
+! Version: 202474.1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -511,7 +511,6 @@
 
 ! https://virustotal.com/gui/file/088cbcec6b80eba99eb691968e0f972935aae301e9cb6d1c6133699530dd5621/community
 ||secure-browser.io^$document
-||d1z0mfyqx7ypd2.cloudfront.net/securebrowser.io/$all
 
 ! locks your screen and just creates a link to their website on your desktop. Malware?
 ||zipfileslikeapro.net^$document
