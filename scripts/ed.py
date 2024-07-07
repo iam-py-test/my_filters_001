@@ -284,6 +284,7 @@ for e in domain_list:
             entry_data[e]['had_www_on_check'] = is_alive(f"www.{e}", False)
             if domain_is_alive != True:
                 entry_data[e]["dead_since"] = current_date
+                entry_data[e]["check_counter"] = 10
 print("Done with part 1")
 for e in entry_data:
     if e not in domain_list and e != "last_updated" and e != "":
