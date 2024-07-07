@@ -279,7 +279,7 @@ for e in domain_list:
             entry_data[e]['had_www_on_check'] = is_alive(f"www.{e}", False)
             if domain_is_alive != True:
                 entry_data[e]["dead_since"] = current_date
-        if entry_data[e]["check_status"] == False and entry_data[e]['had_www_on_check']:
+        if entry_data[e]["check_status"] == False and entry_data[e]['had_www_on_check'] == False:
             dead_domains.append(e)
 print("Done with part 1")
 for e in entry_data:
