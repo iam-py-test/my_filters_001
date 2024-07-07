@@ -6979,3 +6979,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ! https://github.com/hagezi/dns-blocklists/issues/3068
 ||getwavemax.com^$document
 
+! https://github.com/hagezi/dns-blocklists/pull/3083
+||usonkd.com^$document
+
