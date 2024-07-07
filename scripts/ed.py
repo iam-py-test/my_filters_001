@@ -80,8 +80,6 @@ def is_alive(domain, in_list=True):
     global already_resolved
     if domain in already_resolved:
         return True
-    if domain in dead_domains:
-        return False
     if domain.endswith(".onion"): # can't test onions yet
         return True
     try:
@@ -92,16 +90,12 @@ def is_alive(domain, in_list=True):
         already_resolved[domain] = found_ips
         return True
     except:
-        if domain not in dead_domains and in_list:
-            dead_domains.append(domain)
         return False
 
 def get_ips(domain):
     global already_resolved
     if domain in already_resolved:
         return already_resolved[domain]
-    if domain in dead_domains:
-        return []
     try:
         res_ips = list(dresolver.resolve(domain))
         found_ips = []
@@ -256,8 +250,6 @@ for e in domain_list:
                 entry_data[e]["ips"] = get_ips(e)
         elif "ips" not in entry_data[e]:
             entry_data[e]["ips"] = get_ips(e)
-        if entry_data[e]["check_status"] == False:
-            dead_domains.append(e)
         if "removed" in entry_data[e]:
             if entry_data[e]["removed"] == True:
                 entry_data[e]["readded"] = True
@@ -287,6 +279,8 @@ for e in domain_list:
             entry_data[e]['had_www_on_check'] = is_alive(f"www.{e}", False)
             if domain_is_alive != True:
                 entry_data[e]["dead_since"] = current_date
+        if entry_data[e]["check_status"] == False and entry_data[e]['had_www_on_check']:
+            dead_domains.append(e)
 print("Done with part 1")
 for e in entry_data:
     if e not in domain_list and e != "last_updated" and e != "":
