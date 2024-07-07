@@ -272,6 +272,9 @@ for e in domain_list:
             entry_data[e]["check_counter"] = 0
         if "last_checked" not in entry_data[e]:
             entry_data[e]["last_checked"] = "Unknown"
+        if "had_www_on_check" not in entry_data[e]:
+            print(f"{e} doesn't have had_www_on_check")
+            entry_data[e]["check_counter"] = 40 # force recheck
         entry_data[e]["check_counter"] += 1
         if entry_data[e]["check_counter"] > 35:
             print(f"Checking {e}...", "previous status", entry_data[e]["check_status"], "last check", entry_data[e]["last_checked"])
@@ -284,7 +287,6 @@ for e in domain_list:
             entry_data[e]['had_www_on_check'] = is_alive(f"www.{e}", False)
             if domain_is_alive != True:
                 entry_data[e]["dead_since"] = current_date
-                entry_data[e]["check_counter"] = 10
 print("Done with part 1")
 for e in entry_data:
     if e not in domain_list and e != "last_updated" and e != "":
