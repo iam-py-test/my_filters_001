@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results, along with other annoyances
 ! Expires: 1 day
 ! Last updated: 2023-4-7
-! Last auto-generated: 07/07/2024
+! Last auto-generated: 08/07/2024
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -4194,6 +4194,19 @@ search.brave.com##div.fdb.snippet:has(a[href*="://flyairprestige.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://inpostcloud.buzz"])
 search.brave.com##div.fdb.snippet:has(a[href*="://midnightblue-lapwing-207108.hostingersite.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://qrco.de"])
+search.brave.com##div.fdb.snippet:has(a[href*="://crypto-wave.net"])
+search.brave.com##div.fdb.snippet:has(a[href*="://crypto-wave.store"])
+search.brave.com##div.fdb.snippet:has(a[href*="://cutepoochstore.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://www.cutepoochstore.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://dubai-never-sleep.agency"])
+search.brave.com##div.fdb.snippet:has(a[href*="://fsqaj.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://5a94eca1-13d6-4443-924a-ad8ecc9eee15.random.fsqaj.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://sitemaps.fsqaj.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://www.fsqaj.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://michaelconstantinebhanos.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://www.michaelconstantinebhanos.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://simplylovingproducts.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://www.simplylovingproducts.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublockerext.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://quatrefeuillepolonaise.xyz"])
@@ -11115,6 +11128,8 @@ search.brave.com##div.fdb.snippet:has(a[href*="://79.137.192.4"])
 search.brave.com##div.fdb.snippet:has(a[href*="://62.138.18.13"])
 search.brave.com##div.fdb.snippet:has(a[href*="://43.156.237.181"])
 search.brave.com##div.fdb.snippet:has(a[href*="://45.207.168.120"])
+search.brave.com##div.fdb.snippet:has(a[href*="://185.81.115.28"])
+search.brave.com##div.fdb.snippet:has(a[href*="://79.137.197.154"])
 search.brave.com##div.fdb.snippet:has(a[href*="://103.224.182.251"])
 search.brave.com##div.fdb.snippet:has(a[href*="://204.11.56.48"])
 search.brave.com##div.fdb.snippet:has(a[href*="://37.187.88.137"])
