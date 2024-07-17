@@ -4197,6 +4197,7 @@ search.brave.com##div.fdb.snippet:has(a[href*="://midnightblue-lapwing-207108.ho
 search.brave.com##div.fdb.snippet:has(a[href*="://qrco.de"])
 search.brave.com##div.fdb.snippet:has(a[href*="://crypto-wave.net"])
 search.brave.com##div.fdb.snippet:has(a[href*="://crypto-wave.store"])
+search.brave.com##div.fdb.snippet:has(a[href*="://crypto-wave.top"])
 search.brave.com##div.fdb.snippet:has(a[href*="://cutepoochstore.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://www.cutepoochstore.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://dubai-never-sleep.agency"])
