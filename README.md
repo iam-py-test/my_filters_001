@@ -13,6 +13,8 @@ Please note! I am only one person, and I do not have much time to dedicate to th
 #### Actively maintained
 - The malicious website blocklist (antimalware.txt) ([Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt&title=The%20malicious%20website%20blocklist))
 
+The Malicious Website Blocklist blocks malware, phishing, some scams, and Potentially Unwanted Programs (PUPs). Note the latter category includes legitimate websites which engage in deceptive practices.
+
 #### Automatically generated
 - DuckDuckGo Clean up (duckduckgo-clean-up.txt) - Generated from The malicious website blocklist and iam-py-test's anti-PUP list
 - Brave Search Clean up (brave-clean-up.txt) - Generated from The malicious website blocklist and iam-py-test's anti-PUP list
@@ -119,6 +121,7 @@ Everything not listed above, like the filters in the _Personal_ folder, is eithe
 ## Mentions
 - [fynks's extension configuration](https://github.com/fynks/configs#extension-configs-)
 - [yokoffing's recommended lists](https://github.com/yokoffing/filterlists#security)
+- [From blocking ads to blocking anything – how to master the uBlock Origin configuration](https://www.osintme.com/index.php/2023/11/30/from-blocking-ads-to-blocking-anything-how-to-master-the-ublock-origin-configuration/)
 
 These are not endorsements. 
 
