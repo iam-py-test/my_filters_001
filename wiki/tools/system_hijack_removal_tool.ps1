@@ -1,3 +1,8 @@
+Write-Host "This was an experiment. It was never ready for production, and should never have been promoted as such"
+Write-Host "Do not use this tool"
+Read-Host
+exit
+
 $shrt_log_filepath = "$env:public\Desktop\shrt.log"
 $shrt_version = "0.1.1"
 function Add-SHRTLog {

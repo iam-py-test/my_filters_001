@@ -1,3 +1,8 @@
+echo DO NOT USE THIS TOOL
+pause > nul
+exit
+
+
 echo Minor Windows hardening
 pause
 
