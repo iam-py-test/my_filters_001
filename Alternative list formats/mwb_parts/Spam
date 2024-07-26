@@ -358,3 +358,6 @@
 ! https://github.com/hagezi/dns-blocklists/issues/3122
 ||likenu.se^$document
 
+! spam wikipedia article (taken down - https://en.wikipedia.org/wiki/Fetish_Cams)
+||fetishes.cam^$document
+
