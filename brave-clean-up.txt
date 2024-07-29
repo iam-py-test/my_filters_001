@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results, along with other annoyances
 ! Expires: 1 day
 ! Last updated: 2023-4-7
-! Last auto-generated: 28/07/2024
+! Last auto-generated: 29/07/2024
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -4250,6 +4250,7 @@ search.brave.com##div.fdb.snippet:has(a[href*="://zxvbcrt.ug"])
 search.brave.com##div.fdb.snippet:has(a[href*="://mail.zxvbcrt.ug"])
 search.brave.com##div.fdb.snippet:has(a[href*="://https.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://upsbezorging.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://ww1.aniapi.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublockerext.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://quatrefeuillepolonaise.xyz"])
@@ -10775,6 +10776,23 @@ search.brave.com##div.fdb.snippet:has(a[href*="://viktoriadelenick.za.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://h.yqyh571.xyz"])
 search.brave.com##div.fdb.snippet:has(a[href*="://likenu.se"])
 search.brave.com##div.fdb.snippet:has(a[href*="://fetishes.cam"])
+search.brave.com##div.fdb.snippet:has(a[href*="://stop-project-paperless.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://transaction-2007.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://www.transaction-2007.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://mediaresmi.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://fijiluxuryvacation.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://www.cinemasaver.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://sedationdentistrycenter.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://verandasoho.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://stream-dna.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://www.goldenstatestimulus.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://www.bluegatemusicals.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://xolopbr.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://getannepro.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://www.theredbeanannapolis.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://www.lilxlotus.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://www.plantitmodern.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://www.illinoisfiberconnect.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://csgo.xyz"])
 search.brave.com##div.fdb.snippet:has(a[href*="://brightdata.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://brightdata.de"])
