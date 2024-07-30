@@ -430,3 +430,5 @@
 ||p2p.sdmdigital.id^
 ! https://github.com/hagezi/dns-blocklists/issues/3031
 ||stat.ugr.com.ua^
+! https://github.com/hagezi/dns-blocklists/issues/3310
+||tinylytics.app^$third-party
