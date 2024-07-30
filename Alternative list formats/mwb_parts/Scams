@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 2024-7-28
-! Version: 2024728.1
+! Last updated: 2024-7-29
+! Version: 2024729.1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -6986,4 +6986,12 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||sakuradate.com^$document
 ||amorpulse.com^$document
 ||datempire.com^$document
+
+! https://tria.ge/240729-3cx4cazgpf/behavioral1
+||breasts-rule.info^$all
+||hotmatchlyi.com^$document
+||yourexclusiveoffers.com^$document
+||clubforsingles.com^$document
+/ow_static/themes/flirt_clubforsingles/images$third-party
+||sttc.cupidaffairs.com^$image
 
