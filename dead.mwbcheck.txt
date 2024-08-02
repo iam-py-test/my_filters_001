@@ -865,6 +865,7 @@ easypark-id.com
 easypark-no.org
 octob.azureedge.net
 foluo.azureedge.net
+protectsystemtools.life
 real-time-system-monitoring.life
 threatdetectorhub.online
 vulnerabilityassessments.life

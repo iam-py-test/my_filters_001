@@ -4268,6 +4268,7 @@ search.brave.com##div.fdb.snippet:has(a[href*="://m-isist-emai-nmu-ne-6zft4bsbqh
 search.brave.com##div.fdb.snippet:has(a[href*="://m-isist-emai-nmu-ne-qefa68dvbd.vercel.app"])
 search.brave.com##div.fdb.snippet:has(a[href*="://thepatrones.blob.core.windows.net"])
 search.brave.com##div.fdb.snippet:has(a[href*="://xyzxyz55.xyz"])
+search.brave.com##div.fdb.snippet:has(a[href*="://vah-cont-in-uou-slyle-com-ay7t6dbmag9vhg8srhj4.vercel.app"])
 search.brave.com##div.fdb.snippet:has(a[href*="://avast-antivirus.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublockerext.com"])
