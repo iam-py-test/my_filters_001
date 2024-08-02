@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results, along with other annoyances
 ! Expires: 1 day
 ! Last updated: 2023-4-7
-! Last auto-generated: 01/08/2024
+! Last auto-generated: 02/08/2024
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -4263,6 +4263,11 @@ search.brave.com##div.fdb.snippet:has(a[href*="://leopolfa.shop"])
 search.brave.com##div.fdb.snippet:has(a[href*="://liferacer.shop"])
 search.brave.com##div.fdb.snippet:has(a[href*="://commodityprocess.top"])
 search.brave.com##div.fdb.snippet:has(a[href*="://insights.today-time.sitefind.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://m-isist-emai-nmu-ne-yx8nu6hs7k.vercel.app"])
+search.brave.com##div.fdb.snippet:has(a[href*="://m-isist-emai-nmu-ne-6zft4bsbqh.vercel.app"])
+search.brave.com##div.fdb.snippet:has(a[href*="://m-isist-emai-nmu-ne-qefa68dvbd.vercel.app"])
+search.brave.com##div.fdb.snippet:has(a[href*="://thepatrones.blob.core.windows.net"])
+search.brave.com##div.fdb.snippet:has(a[href*="://xyzxyz55.xyz"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublockerext.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://quatrefeuillepolonaise.xyz"])
