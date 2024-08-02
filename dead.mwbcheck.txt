@@ -875,6 +875,7 @@ system-security-scan.buzz
 system-scan-tool.online
 tracklinker.space
 trk-server.xyz
+systemmeasures.life
 xyzcreators.xyz
 ycybdp.com
 up-nowservice.com
