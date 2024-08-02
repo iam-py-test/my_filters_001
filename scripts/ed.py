@@ -227,7 +227,10 @@ for e in domain_list:
             "tls_info": tls_info,
             "last_commit": last_commit,
             "ip_whois": ip_whois_data,
-            "has_http_80": entry_has_http_80
+            "has_http_80": entry_has_http_80,
+            "times_died": 0,
+            "last_check_status": None,
+            "last_check_date": None
         }
     else:
         if "tls_info" in entry_data[e] and len(entry_data[e]["tls_info"]) == 0:
@@ -267,18 +270,23 @@ for e in domain_list:
         if "had_www_on_check" not in entry_data[e]:
             print(f"{e} doesn't have had_www_on_check")
             entry_data[e]["check_counter"] = 40 # force recheck
+        if "times_died" not in entry_data[e]:
+            entry_data[e]['times_died'] = 0
         entry_data[e]["check_counter"] += 1
         if entry_data[e]["check_counter"] > 35:
             print(f"Checking {e}...", "previous status", entry_data[e]["check_status"], "last check", entry_data[e]["last_checked"])
             domain_is_alive = is_alive(e, True)
+            entry_data[e]['last_check_status'] = entry_data[e]["check_status"]
+            entry_data[e]['last_check_date'] = entry_data[e]["last_checked"]
             entry_data[e]["check_status"] = domain_is_alive
             entry_data[e]["last_checked"] = current_date
             entry_data[e]["check_counter"] = 0
             entry_data[e]["ever_rechecked"] = True
             entry_data[e]["times_checked"] += 1
             entry_data[e]['had_www_on_check'] = is_alive(f"www.{e}", False)
-            if domain_is_alive != True:
+            if domain_is_alive != True and entry_data[e]['last_check_status'] != False:
                 entry_data[e]["dead_since"] = current_date
+                entry_data[e]['times_died'] += 1
         if entry_data[e]["check_status"] == False and entry_data[e]['had_www_on_check'] == False:
             dead_domains.append(e)
 print("Done with part 1")
