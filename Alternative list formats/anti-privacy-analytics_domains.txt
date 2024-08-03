@@ -348,3 +348,11 @@ vision.unitedairpower.co.uk
 p2p.sdmdigital.id
 stat.ugr.com.ua
 tinylytics.app
+ma.slovnyk.me
+stat.kyiv.ua
+core.getbenne.com
+analytics.aviso-online.com.ua
+wsoanalytics.org
+stats.ext.v35.us
+api.clockech.com
+metriqui.com
