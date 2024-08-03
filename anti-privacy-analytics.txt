@@ -432,3 +432,12 @@
 ||stat.ugr.com.ua^
 ! https://github.com/hagezi/dns-blocklists/issues/3310
 ||tinylytics.app^$third-party
+! https://github.com/hagezi/dns-blocklists/issues/3340
+||ma.slovnyk.me^
+||stat.kyiv.ua^
+||core.getbenne.com^
+||analytics.aviso-online.com.ua^
+||wsoanalytics.org^
+||stats.ext.v35.us^
+||api.clockech.com^
+||metriqui.com^$third-party
