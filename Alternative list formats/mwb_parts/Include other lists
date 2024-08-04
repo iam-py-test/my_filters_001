@@ -850,11 +850,15 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 02/08/2024
+! Last updated: 04/08/2024
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Fri, 02 Aug 2024 20:23:10 +0000
+! Sun, 04 Aug 2024 20:22:21 +0000
+||45.66.231.148/ppc^$all
+||45.66.231.148/arm7^$all
+||45.66.231.148/arc^$all
+||45.66.231.148/x86^$all
 ||27.147.132.114/.i^$all
 ||200.122.211.138/.i^$all
 ||194.42.207.3/se.exe^$all
@@ -952,10 +956,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||185.172.128.6/timeSync.exe^$all
 ||whyvickyischeater.com/amaa.exe^$all
 ||5.42.66.22/getimage.php^$all
-||github.com/Gretmeet/nbc938sdu42/raw/main/test.exe^$all
-||github.com/incoper887/tua/raw/main/Build.exe^$all
-||5.42.66.22/getimage.php^$all
-||sajdfue.com/files/1/build3.exe^$all
 
 
 
