@@ -441,3 +441,5 @@
 ||stats.ext.v35.us^
 ||api.clockech.com^
 ||metriqui.com^$third-party
+! https://v1.web-check.xyz/
+||no-track.as93.net^

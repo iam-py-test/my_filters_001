@@ -100,6 +100,7 @@ Everything not listed above, like the filters in the _Personal_ folder, is eithe
 - dnsmasq (untested) - https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_dnsmasq.txt
 - JSON - https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_json.json
 - HOSTs format (no comments) - https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_pure_hosts.txt
+    - **Warning:** [Windows can not handle large HOSTs files. Some configuration changes may be needed if you experience issues](https://github.com/StevenBlack/hosts?tab=readme-ov-file#warning-using-this-hosts-file-in-windows-may-require-disabling-dns-cache-service)
 - AdBlock Plus format (not recommended) - https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_abp.txt
 
 #### Clickbait blocklist (unmaintained)
