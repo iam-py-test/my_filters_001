@@ -1005,6 +1005,7 @@ teletrpm.fit
 alvsx.flameforgesmith.top
 cdnstatic.flameforgesmith.top
 xhkls.flameforgesmith.top
+canopusacrux.top
 apple-analyser.com
 imohub.net
 apple-health.org
@@ -3977,6 +3978,7 @@ ryderwear-polska.com
 ryderwear-suomi.com
 salmingportugalpt.com
 salomomsuomioutlet.com
+salomongermany.de
 salomonmalaysiaonlineshop.com
 salomonoutlet.it
 salomonportugal.com
@@ -4013,10 +4015,12 @@ skijasbelgie.com
 skimscz.cz
 skimsgreece.com
 skims-polska.pl
+skimspolska.pl
 skimsromania.com
 skimsshoponline.com
 sklepconversepolska.com
 sklepyadidaspolska.com
+sloggipolska.pl
 snowromania.com
 solovairpraha.cz
 sorelaustraliashops.com
@@ -4025,12 +4029,12 @@ sorel-dk.com
 sorelportugal.com
 sperryfactoryoutlets.com
 sperryshoesaustralia.com
+stevamaddenpolska.com
 stockxbelgique.com
 stockxbelgium.com
 stockxlatvia.com
 stockxsouthafrica.com
 stockxsuisse.com
-stoneislandeesti.ru
 tamarisdanmark.com
 tamarissdanmark.com
 tenisiconverseromania.com
@@ -4062,7 +4066,6 @@ vejapraha.cz
 vejasfranceoutlet.com
 vejasko.org
 verabradleypolska.com
-vessibelgium.com
 vessibelglum.com
 vessiitalia.com
 vessishoes.fr
