@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results, along with other annoyances
 ! Expires: 1 day
 ! Last updated: 2023-4-7
-! Last auto-generated: 08/08/2024
+! Last auto-generated: 09/08/2024
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -2298,7 +2298,6 @@ search.brave.com##div.fdb.snippet:has(a[href*="://stop-adblocker.info"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ia9j0.top"])
 search.brave.com##div.fdb.snippet:has(a[href*="://yk946.top"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ayybt.top"])
-search.brave.com##div.fdb.snippet:has(a[href*="://8b947.top"])
 search.brave.com##div.fdb.snippet:has(a[href*="://yz9iy.top"])
 search.brave.com##div.fdb.snippet:has(a[href*="://9sgqi.top"])
 search.brave.com##div.fdb.snippet:has(a[href*="://pivoms.live"])
@@ -2788,7 +2787,6 @@ search.brave.com##div.fdb.snippet:has(a[href*="://vgrcxa.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://vgsksc.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://whcfmp.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://xyzgnc.com"])
-search.brave.com##div.fdb.snippet:has(a[href*="://ybcgju.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://jhzhis.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://udwuyw.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://zayatr.com"])
@@ -4271,6 +4269,9 @@ search.brave.com##div.fdb.snippet:has(a[href*="://xyzxyz55.xyz"])
 search.brave.com##div.fdb.snippet:has(a[href*="://vah-cont-in-uou-slyle-com-ay7t6dbmag9vhg8srhj4.vercel.app"])
 search.brave.com##div.fdb.snippet:has(a[href*="://pr-ue-ba-de-lsa-bermu-ne-xre4pgczsk.vercel.app"])
 search.brave.com##div.fdb.snippet:has(a[href*="://pr-ue-ba-de-lsa-bermu-ne-cp5iah7zlw.vercel.app"])
+search.brave.com##div.fdb.snippet:has(a[href*="://facebook-google-ygggvmvciad74v9lhi.vercel.app"])
+search.brave.com##div.fdb.snippet:has(a[href*="://facebook-google-vptyyny63pwfipshmm.vercel.app"])
+search.brave.com##div.fdb.snippet:has(a[href*="://facebook-google-15oqyxwtkremqyujsm.vercel.app"])
 search.brave.com##div.fdb.snippet:has(a[href*="://avast-antivirus.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://nudepopsy71c.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://mamielournes.buzz"])
