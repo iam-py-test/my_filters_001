@@ -987,3 +987,5 @@
 0.0.0.0 stop-project-paperless.com
 # https://github.com/mitchellkrogza/phishing/pull/471
 0.0.0.0 avast-antivirus.com
+# typo-ed version of proton.me (ProtonMail). Not currently registered, may have legitimate future use (proto is a word)
+# ||proto.me^$document

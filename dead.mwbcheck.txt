@@ -1005,6 +1005,7 @@ alvsx.flameforgesmith.top
 cdnstatic.flameforgesmith.top
 xhkls.flameforgesmith.top
 canopusacrux.top
+xhkls.canopusacrux.top
 apple-analyser.com
 imohub.net
 apple-health.org
@@ -3423,7 +3424,6 @@ gforesuomi.com
 gforesuomi.net
 groundies-finland.com
 groundiesfinland.com
-groundiesinsuomi.com
 groundiesoutletsuomi.com
 groundiessuomioutlet.com
 gymshark.com.hr
@@ -3674,6 +3674,7 @@ revoketokens.io
 revokea.sh
 altdentifiers.com
 xairdrop.biz
+sage.directchats.site
 bonprix-sale.shop
 newdesing.guru
 cryptoslugs-hubs.com
