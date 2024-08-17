@@ -1196,6 +1196,7 @@ polyfill.cloud
 newcrbpc.com
 polyfill.site
 polyfillcache.com
+polyfill.top
 apsehick.date
 composepayyersellew.shop
 publicitycharetew.shop
@@ -3849,7 +3850,6 @@ jomasportcostarica.com
 jomavenezuela.com
 jordansboty.cz
 josefseibelsuomi.com
-joyaromania.com
 joyaschoenen.com
 joyaschuhedeutschland.com
 joyaskonorge.com
@@ -3976,6 +3976,7 @@ reef-polska.com
 reef-portugal.com
 regattafrance.com
 regattapolska.com
+rockportsaleuk.com
 rothys-suomi.com
 roxy-japan.com
 russellandbromleyromania.net
