@@ -444,7 +444,6 @@
 ! https://v1.web-check.xyz/
 ||no-track.as93.net^
 ! https://github.com/hagezi/dns-blocklists/issues/3444
-||analytics.e-lighthouse.com^
 ||go.darko.audio^
 ||analytics.fabioimoveisdeluxo.com.br^
 ||analytics.gilbertonetto.com^

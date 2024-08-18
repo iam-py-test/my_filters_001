@@ -229,8 +229,9 @@ for e in domain_list:
             "ip_whois": ip_whois_data,
             "has_http_80": entry_has_http_80,
             "times_died": 0,
-            "last_check_status": None,
-            "last_check_date": None
+            "check_history": {
+                current_date: entry_is_alive
+            }
         }
     else:
         if "tls_info" in entry_data[e] and len(entry_data[e]["tls_info"]) == 0:
@@ -241,16 +242,7 @@ for e in domain_list:
         if "times_checked" not in entry_data[e]:
             entry_data[e]["times_checked"] = 0
         if "check_status" not in entry_data[e]:
-            domain_is_alive = is_alive(e, True)
-            entry_data[e]["check_status"] = domain_is_alive
-            entry_data[e]["last_checked"] = current_date
-            if domain_is_alive != True:
-                entry_data[e]["dead_since"] = current_date
-            entry_data[e]["check_counter"] = 0
-            entry_data[e]["ever_rechecked"] = True
-            entry_data[e]["times_checked"] = 0
-            if "ips" not in entry_data[e]:
-                entry_data[e]["ips"] = get_ips(e)
+            entry_data[e]['check_counter'] = 40
         elif "ips" not in entry_data[e]:
             entry_data[e]["ips"] = get_ips(e)
         if "removed" in entry_data[e]:
@@ -272,12 +264,15 @@ for e in domain_list:
             entry_data[e]["check_counter"] = 40 # force recheck
         if "times_died" not in entry_data[e]:
             entry_data[e]['times_died'] = 0
+        if "last_check_status" not in entry_data[e]:
+            entry_data[e]["check_counter"] += 5
         entry_data[e]["check_counter"] += 1
         if entry_data[e]["check_counter"] > 35:
             print(f"Checking {e}...", "previous status", entry_data[e]["check_status"], "last check", entry_data[e]["last_checked"])
             domain_is_alive = is_alive(e, True)
-            entry_data[e]['last_check_status'] = entry_data[e]["check_status"]
-            entry_data[e]['last_check_date'] = entry_data[e]["last_checked"]
+            if "check_history" not in entry_data[e]:
+                entry_data[e]['check_history'] = {}
+            entry_data[e]['check_history'][current_date] = entry_data[e]["check_status"]
             entry_data[e]["check_status"] = domain_is_alive
             entry_data[e]["last_checked"] = current_date
             entry_data[e]["check_counter"] = 0
