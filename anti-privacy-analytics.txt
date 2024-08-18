@@ -443,6 +443,17 @@
 ||metriqui.com^$third-party
 ! https://v1.web-check.xyz/
 ||no-track.as93.net^
+! https://github.com/hagezi/dns-blocklists/issues/3444
+||analytics.e-lighthouse.com^
+||go.darko.audio^
+||analytics.fabioimoveisdeluxo.com.br^
+||analytics.gilbertonetto.com^
+||plausible.kinzig.news^
+||analytics.meutetosp.com^
+||analytics.eliteimobiliariams.com^
+||vues.laraffinerie.re^
+||analytics.alexandracalderon.com.br^
+||analytics.imobmorumbi.com.br^
 
 ! bug tracking software
 
