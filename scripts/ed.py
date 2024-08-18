@@ -264,13 +264,13 @@ for e in domain_list:
             entry_data[e]["check_counter"] = 40 # force recheck
         if "times_died" not in entry_data[e]:
             entry_data[e]['times_died'] = 0
-        if "last_check_status" not in entry_data[e]:
+        if "check_history" not in entry_data[e]:
             entry_data[e]["check_counter"] += 5
         entry_data[e]["check_counter"] += 1
+        last_check_status = entry_data[e]["check_status"]
         if entry_data[e]["check_counter"] > 35:
             print(f"Checking {e}...", "previous status", entry_data[e]["check_status"], "last check", entry_data[e]["last_checked"])
             domain_is_alive = is_alive(e, True)
-            last_check_status = entry_data[e]["check_status"]
             if "check_history" not in entry_data[e]:
                 entry_data[e]['check_history'] = {}
             entry_data[e]['check_history'][current_date] = entry_data[e]["check_status"]
@@ -283,7 +283,7 @@ for e in domain_list:
             if domain_is_alive != True and entry_data[e]['last_check_status'] != False:
                 entry_data[e]["dead_since"] = current_date
                 entry_data[e]['times_died'] += 1
-        if entry_data[e]["check_status"] == False and last_check_status:
+        if entry_data[e]["check_status"] == False and last_check_status == False:
             dead_domains.append(e)
 print("Done with part 1")
 for e in entry_data:
