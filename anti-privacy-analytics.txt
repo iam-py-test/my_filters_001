@@ -443,3 +443,13 @@
 ||metriqui.com^$third-party
 ! https://v1.web-check.xyz/
 ||no-track.as93.net^
+
+! bug tracking software
+
+! sentry
+||sentry.io^$third-party
+||sentry.dev^$third-party,domain=~sentry.io
+! https://matrix.rocks/notes/9x1o9o8vw6
+||sentry.odysee.tv^
+/api/2/envelope/?sentry_key=
+
