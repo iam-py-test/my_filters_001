@@ -367,5 +367,7 @@ analytics.eliteimobiliariams.com
 vues.laraffinerie.re
 analytics.alexandracalderon.com.br
 analytics.imobmorumbi.com.br
+analytics.marmelab.com
+analytics.socialscentury.com
 sentry.io
 sentry.odysee.tv
