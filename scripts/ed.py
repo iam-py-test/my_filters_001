@@ -280,7 +280,7 @@ for e in domain_list:
             entry_data[e]["ever_rechecked"] = True
             entry_data[e]["times_checked"] += 1
             entry_data[e]['had_www_on_check'] = is_alive(f"www.{e}", False)
-            if domain_is_alive != True and entry_data[e]['last_check_status'] != False:
+            if domain_is_alive != True and last_check_status:
                 entry_data[e]["dead_since"] = current_date
                 entry_data[e]['times_died'] += 1
         if entry_data[e]["check_status"] == False and last_check_status == False:
