@@ -454,6 +454,9 @@
 ||vues.laraffinerie.re^
 ||analytics.alexandracalderon.com.br^
 ||analytics.imobmorumbi.com.br^
+! https://github.com/hagezi/dns-blocklists/issues/3441
+||analytics.marmelab.com^
+||analytics.socialscentury.com^
 
 ! bug tracking software
 
