@@ -350,11 +350,6 @@
 ||www.washingtonposttoday.com^$document
 ||www.washingtontimesnewstoday.com^$document
 
-! https://github.com/hagezi/dns-blocklists/issues/3017
-||miahershberger.buzz^$document
-||viktoriadelenick.za.com^$document
-||h.yqyh571.xyz^$document
-
 ! https://github.com/hagezi/dns-blocklists/issues/3122
 ||likenu.se^$document
 
