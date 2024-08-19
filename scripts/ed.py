@@ -171,6 +171,18 @@ except Exception as err:
     print('random recheck failed', err)
 print("RANDOM RECHECK DONE")
 
+root_domains = {}
+for e in domain_list:
+    try:
+        rootdomain = p.privatesuffix(e)
+        if rootdomain != e and rootdomain in domain_list:
+            if rootdomain not in root_domains:
+                root_domains[rootdomain] = []
+            if e not in root_domains[rootdomain]:
+                root_domains[rootdomain].append(e)
+    except Exception as err:
+        print(e, err)
+
 print("GETTING COMMIT")
 last_commit = get_last_commit()
 print("GOT COMMIT, STARTING")
@@ -264,10 +276,14 @@ for e in domain_list:
             entry_data[e]["check_counter"] = 40 # force recheck
         if "times_died" not in entry_data[e]:
             entry_data[e]['times_died'] = 0
-        if "check_history" not in entry_data[e]:
-            entry_data[e]["check_counter"] += 5
         entry_data[e]["check_counter"] += 1
         last_check_status = entry_data[e]["check_status"]
+
+        entry_data[e]['subdomain_status'] = {}
+        if e in root_domains:
+            for subdomain in root_domains[e]:
+                entry_data[e]['subdomain_status'][subdomain] = entry_data[subdomain]['check_status']
+
         if entry_data[e]["check_counter"] > 35:
             print(f"Checking {e}...", "previous status", entry_data[e]["check_status"], "last check", entry_data[e]["last_checked"])
             domain_is_alive = is_alive(e, True)
