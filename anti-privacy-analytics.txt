@@ -527,11 +527,9 @@
 ||matomo.ddl.net^
 ||analiticaweb.juntaex.es^
 ||webstat.uni-graz.at^
-||estadisticas.comunidad.madrid^
 ! https://github.com/hagezi/dns-blocklists/issues/3450
 ||plausible.apartamentoenmardepulpi.es^
 ||plausible.mzr.es^
-||plausible.tesseratech.es^
 ||matomo.inspiredby.es^
 ||matomo.gva.es^
 ||piwik.uma.es^
