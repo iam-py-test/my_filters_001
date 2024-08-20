@@ -436,10 +436,8 @@ estadisticas.caceres.es
 matomo.ddl.net
 analiticaweb.juntaex.es
 webstat.uni-graz.at
-estadisticas.comunidad.madrid
 plausible.apartamentoenmardepulpi.es
 plausible.mzr.es
-plausible.tesseratech.es
 matomo.inspiredby.es
 matomo.gva.es
 piwik.uma.es

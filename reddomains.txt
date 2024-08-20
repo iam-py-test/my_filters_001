@@ -1,5 +1,3 @@
-||estadisticas.comunidad.madrid^
-||plausible.tesseratech.es^
 ||analytics.intricom.es^
 ||analytics.net.usf.edu^
 ||analytics.topten.eu^
