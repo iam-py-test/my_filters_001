@@ -659,6 +659,8 @@
 ||tr.scip.es^
 ||hossa.inwx.com^
 ||analytics.cdmon.com^
+! https://github.com/hagezi/dns-blocklists/issues/3487
+|simpleanalyticsexternal.com^
 
 ! bug tracking software
 
