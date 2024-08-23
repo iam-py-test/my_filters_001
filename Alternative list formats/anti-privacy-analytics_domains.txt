@@ -529,5 +529,11 @@ analytics.cdmon.com
 simpleanalyticsexternal.com
 sa.hoodmaps.com
 analytics.roylenferink.nl
+matomo.ph-freiburg.de
+sts.acerinox.com
+analytics.iea-hamburg.org
+webstats.bibb.de
+matomo-com.vinci-energies.net
+matomo01.communice.de
 sentry.io
 sentry.odysee.tv
