@@ -293,7 +293,7 @@
 ||163.172.112.10^
 ||plausible.zaomakeup.com^
 ||plausible.dypcosmethic.com^
-! currently down: ||plausible.kail.io^
+||plausible.kail.io^
 ||plausible.daim.dev^
 ||analytics.jamstackvietnam.com^
 ||analytics.logeekal.eu^
@@ -634,6 +634,29 @@
 ||matomo01.communice.de^
 ! https://github.com/hagezi/dns-blocklists/issues/3488
 ||stat.cms.rv.ua^
+! https://github.com/hagezi/dns-blocklists/issues/3477
+||google-ua-analytics.raspberrypi.org^
+||plausible.ketseum.synology.me^
+||plausible.panoee.com^
+||plausible.flowcanon.com^
+||plausible.innocode.com^
+||plausible.prisma-solutions.com^
+||cslf-stats.sociodb.io^
+||plausible-gcbc.zero-one.cloud^
+||plausible.agronewscastillayleon.com^
+||plausible.ensidian.com^
+||stats.kralj.io^
+||admin.sparkel.coach^
+||stats.stothardresearch.ca^
+||141.5.110.56^
+||analytics.torreseo.com^
+||analytics.koeck.dev^
+||analytics.helpingmakelifeeasier.com^
+||5.75.250.57^
+||api.dreamclients.io^
+||app-analytics.veixtech.com^
+! in the cert of s401288291.siteweb-initial.fr (from above issue)
+||api2.frtg-group.de^
 
 ! bug tracking software
 
