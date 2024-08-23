@@ -632,6 +632,8 @@
 ||webstats.bibb.de^
 ||matomo-com.vinci-energies.net^
 ||matomo01.communice.de^
+! https://github.com/hagezi/dns-blocklists/issues/3488
+||stat.cms.rv.ua^
 
 ! bug tracking software
 
