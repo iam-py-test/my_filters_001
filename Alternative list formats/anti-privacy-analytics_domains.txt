@@ -535,5 +535,6 @@ analytics.iea-hamburg.org
 webstats.bibb.de
 matomo-com.vinci-energies.net
 matomo01.communice.de
+stat.cms.rv.ua
 sentry.io
 sentry.odysee.tv
