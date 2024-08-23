@@ -625,6 +625,13 @@
 ||sa.hoodmaps.com^
 ! https://github.com/hagezi/dns-blocklists/issues/3485
 ||analytics.roylenferink.nl^
+! https://github.com/hagezi/dns-blocklists/issues/3491
+||matomo.ph-freiburg.de^
+||sts.acerinox.com^
+||analytics.iea-hamburg.org^
+||webstats.bibb.de^
+||matomo-com.vinci-energies.net^
+||matomo01.communice.de^
 
 ! bug tracking software
 
