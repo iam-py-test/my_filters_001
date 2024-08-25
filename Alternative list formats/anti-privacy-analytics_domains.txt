@@ -554,7 +554,6 @@ analytics.torreseo.com
 analytics.koeck.dev
 analytics.helpingmakelifeeasier.com
 api.dreamclients.io
-app-analytics.veixtech.com
 api2.frtg-group.de
 sentry.io
 sentry.odysee.tv
