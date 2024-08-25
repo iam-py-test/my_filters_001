@@ -5,7 +5,7 @@ import os, sys, json, datetime, socket, random, publicsuffixlist, ssl, requests,
 print("IMPORTS DONE")
 
 TLD_WHOIS_OVERRIDE = {
-    "PANASONIC": "whois.nic.gmo",
+    "panasonic": "whois.nic.gmo",
 }
 
 dead_domains = []
@@ -38,14 +38,15 @@ def get_whois_data_raw(domain, server):
     return all_data.decode()
 
 get_whois = None
-def get_whois(domain, server = None, done_whois_servers = [], recurse=False, sub=False):
+def get_whois(domain, server = None, done_whois_servers_arg = [], recurse=False, sub=False):
     global known_whois
+    done_whois_servers = list(done_whois_servers_arg)
     print(f"Getting WHOIS record for {domain} using {server or 'no server specified'}, recurse is {recurse}")
     if server != None:
         done_whois_servers.append(server.lower())
     if domain in known_whois and sub == False:
         return known_whois[domain]
-    tld = p.publicsuffix(domain).upper()
+    tld = p.publicsuffix(domain).lower()
     if server == None:
         if tld in TLD_WHOIS_OVERRIDE:
             server = TLD_WHOIS_OVERRIDE[tld]
@@ -57,8 +58,8 @@ def get_whois(domain, server = None, done_whois_servers = [], recurse=False, sub
         print(f"{server} failed to get WHOIS for {domain} due to {err} ({sub} - {recurse} - {','.join(done_whois_servers)})")
         if sub == False and f"whois.nic.{tld}".lower() not in done_whois_servers:
             print(f"Trying whois.nic.{tld}")
-            done_whois_servers.append(f"whois.nic.{tld}")
-            return get_whois(domain, server=f"whois.nic.{tld}", done_whois_servers=done_whois_servers, recurse=recurse, sub=sub)
+            done_whois_servers.append(f"whois.nic.{tld}".lower())
+            return get_whois(domain, server=f"whois.nic.{tld}".lower(), done_whois_servers_arg=done_whois_servers, recurse=recurse, sub=sub)
         return ""
     if recurse == True:
         try:
