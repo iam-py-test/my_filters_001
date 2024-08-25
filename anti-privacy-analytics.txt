@@ -654,7 +654,6 @@
 ||analytics.helpingmakelifeeasier.com^
 ||5.75.250.57^
 ||api.dreamclients.io^
-||app-analytics.veixtech.com^
 ! in the cert of s401288291.siteweb-initial.fr (from above issue)
 ||api2.frtg-group.de^
 

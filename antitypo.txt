@@ -1175,7 +1175,7 @@
 ! https://github.com/mitchellkrogza/phishing/pull/471
 ||avast-antivirus.com^$all
 
-! typo-ed version of proton.me (ProtonMail). Not currently registered, may have legitimate future use (proto is a word)
+! typo-ed version of proton.me (ProtonMail). Not currently registered, may have legitimate future use (proto is a normal english prefix)
 ! ||proto.me^$document
 
 ! https://github.com/mitchellkrogza/phishing/pull/475
