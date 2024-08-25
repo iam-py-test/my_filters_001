@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 2024-8-23
-! Version: 2024823.2
+! Last updated: 2024-8-24
+! Version: 2024824.1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -339,6 +339,16 @@ $popup,third-party,domain=tii.la
 
 ! https://threatfox.abuse.ch/browse.php?search=ioc%3Adiscord-gg.duckdns.org
 ||discord-gg.$document,domain=~translate.goog
+
+! example scam URLs which this should match:
+! http://unsealedbag.info/?id=684050ce-c9af-4622-9dca-585460a4544f&u=265&t={auct}
+! http://ar-dent.info/?id=1fc76c98-0235-43b5-945e-2252032ddd09&u=270&t={auct}
+! http://flirttuorist.info/?id=7318e429-1abb-4a5e-af58-7cb38ea14025&u=268&t={auct}
+! http://niightfall.info/?id=e51e5e02-6c57-4af8-b767-cf81f8727fb2&u=267&t={auct}
+/^https?:\/\/[a-zA-Z\-]*\.info\/\?id=[a-z0-9A-Z]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}&u=[0-9]{3}&t=\{auct\}$/$doc,domain=info
+! http://virtucams.life/?id=1b8acfae-f073-42ea-a381-88c81436dfab&u=267&t={auct}
+/^https?:\/\/[a-zA-Z\-]*\.life\/\?id=[a-z0-9A-Z]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}&u=[0-9]{3}&t=\{auct\}$/$doc,domain=life
+
 
 ! ---- malware or scam browser extensions -----
 
@@ -850,11 +860,11 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 23/08/2024
+! Last updated: 24/08/2024
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Fri, 23 Aug 2024 20:23:13 +0000
+! Sat, 24 Aug 2024 20:22:56 +0000
 ||45.66.231.16/xd_/cyber-x86^$all
 ||91.92.242.124/bins/bin.mips^$all
 ||91.92.246.18/upl/t2.exe^$all
