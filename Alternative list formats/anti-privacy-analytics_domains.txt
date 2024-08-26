@@ -555,5 +555,6 @@ analytics.koeck.dev
 analytics.helpingmakelifeeasier.com
 api.dreamclients.io
 api2.frtg-group.de
+use.hetzner.com
 sentry.io
 sentry.odysee.tv
