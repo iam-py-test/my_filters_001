@@ -656,6 +656,8 @@
 ||api.dreamclients.io^
 ! in the cert of s401288291.siteweb-initial.fr (from above issue)
 ||api2.frtg-group.de^
+! https://github.com/hagezi/dns-blocklists/issues/3522
+||use.hetzner.com^
 
 ! bug tracking software
 
