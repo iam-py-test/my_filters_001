@@ -658,6 +658,21 @@
 ||api2.frtg-group.de^
 ! https://github.com/hagezi/dns-blocklists/issues/3522
 ||use.hetzner.com^
+! https://github.com/hagezi/dns-blocklists/issues/3531
+||piwik.ses.mir.es^
+||analytics.muenchenwaehlt.de^
+||piwik2.inist.fr^
+||stats.prodemos.nl^
+||nix.eox.at^
+||matomo.internetcleanup.foundation^
+||matomo.bvi.de^
+||piwik.bbaw.de^
+||piwik.vdl.lu^
+||analytics.klu.org^
+||stats.bundesarchiv.de^
+||bbbb.arch.be^
+||matomo.datack.fr^
+||visitas-web.redsara.es^
 
 ! bug tracking software
 
