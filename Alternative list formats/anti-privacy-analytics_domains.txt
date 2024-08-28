@@ -570,5 +570,6 @@ stats.bundesarchiv.de
 bbbb.arch.be
 matomo.datack.fr
 visitas-web.redsara.es
+stats.exoscale.com
 sentry.io
 sentry.odysee.tv
