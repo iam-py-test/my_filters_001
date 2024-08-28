@@ -673,6 +673,8 @@
 ||bbbb.arch.be^
 ||matomo.datack.fr^
 ||visitas-web.redsara.es^
+! https://github.com/hagezi/dns-blocklists/issues/3552
+||stats.exoscale.com^
 
 ! bug tracking software
 
