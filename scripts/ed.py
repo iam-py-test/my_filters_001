@@ -296,7 +296,10 @@ for e in domain_list:
         entry_data[e]['subdomain_status'] = {}
         if e in root_domains:
             for subdomain in root_domains[e]:
-                entry_data[e]['subdomain_status'][subdomain] = entry_data[subdomain]['check_status']
+                try:
+                    entry_data[e]['subdomain_status'][subdomain] = entry_data[subdomain]['check_status']
+                except:
+                    pass
 
         if entry_data[e]["check_counter"] > 35:
             print(f"Checking {e}...", "previous status", entry_data[e]["check_status"], "last check", entry_data[e]["last_checked"])
@@ -313,6 +316,10 @@ for e in domain_list:
             if domain_is_alive != True and last_check_status:
                 entry_data[e]["dead_since"] = current_date
                 entry_data[e]['times_died'] += 1
+            if "MX" not in entry_data[e]:
+                entry_data[e]['MX'] = get_dns_record(e, 'MX')
+            if "CNAME" not in entry_data[e]:
+                entry_data[e]['CNAME'] = get_dns_record(e, 'CNAME')
         if entry_data[e]["check_status"] == False and last_check_status == False:
             dead_domains.append(e)
 print("Done with part 1")
