@@ -146,6 +146,16 @@ def get_last_commit():
         print(err)
         return None
 
+def get_dns_record(domain, record):
+    try:
+        records = []
+        resolved_records = dresolver.resolve(domain, record)
+        for returned_record in resolved_records:
+            records.append(returned_record.to_text())
+    except:
+        pass
+    return records
+
 print("LOADING DATA")
 try:
     entry_data = json.loads(open("entry_data.json", encoding="UTF-8").read())
@@ -244,7 +254,10 @@ for e in domain_list:
             "times_died": 0,
             "check_history": {
                 current_date: entry_is_alive
-            }
+            },
+            "MX": get_dns_record(e, 'MX'),
+            "TXT": get_dns_record(e, "TXT"),
+            "CNAME": get_dns_record(e, "CNAME")
         }
     else:
         if "tls_info" in entry_data[e] and len(entry_data[e]["tls_info"]) == 0:
