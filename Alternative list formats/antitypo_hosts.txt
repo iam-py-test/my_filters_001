@@ -4,7 +4,7 @@
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # Issues url: https://github.com/iam-py-test/my_filters_001/issues
 # GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-# Last updated: 2024-8-27
+# Last updated: 2024-8-28
 # https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 # https://virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
 # https://virustotal.com/gui/domain/xn--gogle-jua.com/detection
@@ -1006,3 +1006,6 @@
 0.0.0.0 joannofficial.com
 0.0.0.0 joannoutlet.com
 0.0.0.0 joannclearances.com
+# https://github.com/hagezi/dns-blocklists/issues/2858
+0.0.0.0 githubtalentcommunity.online
+0.0.0.0 githubcareers.online
