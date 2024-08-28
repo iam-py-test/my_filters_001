@@ -259,6 +259,13 @@ for e in domain_list:
             "TXT": get_dns_record(e, "TXT"),
             "CNAME": get_dns_record(e, "CNAME")
         }
+        entry_data[e]['subdomain_status'] = {}
+        if e in root_domains:
+            for subdomain in root_domains[e]:
+                try:
+                    entry_data[e]['subdomain_status'][subdomain] = entry_data[subdomain]['check_status']
+                except:
+                    pass
     else:
         if "tls_info" in entry_data[e] and len(entry_data[e]["tls_info"]) == 0:
             try:
