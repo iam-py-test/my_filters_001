@@ -709,3 +709,6 @@ pepper.pl##+js(href-sanitizer, a[href*="https://www.pepper.pl/visit/"][title^="h
 
 ! https://github.com/738/awesome-url-shortener/pull/58
 ||xurl.app^$document
+
+! https://github.com/hagezi/dns-blocklists/issues/3565
+||vipurl.pro^$document
