@@ -510,3 +510,5 @@
 0.0.0.0 link.is.it
 # https://github.com/738/awesome-url-shortener/pull/58
 0.0.0.0 xurl.app
+# https://github.com/hagezi/dns-blocklists/issues/3565
+0.0.0.0 vipurl.pro
