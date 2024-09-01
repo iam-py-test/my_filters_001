@@ -1339,6 +1339,8 @@ auth.ggchallengemode.world
 uspayserv.cfd
 safety-x-feedback.com
 documentary-x.com
+deadlockgame.lol
+playdeadlock.lol
 extragifis.site
 trafcenter.us
 gamesex.fun
@@ -4128,7 +4130,6 @@ skijakke.com
 skijasbelgie.com
 skimscz.cz
 skimsgreece.com
-skims-polska.pl
 skimspolska.pl
 skimsromania.com
 skimsshoponline.com
