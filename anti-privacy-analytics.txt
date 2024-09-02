@@ -684,4 +684,6 @@
 ! https://matrix.rocks/notes/9x1o9o8vw6
 ||sentry.odysee.tv^
 /api/2/envelope/?sentry_key=
+! https://github.com/hagezi/dns-blocklists/issues/3607
+||sentry.contabo.net^
 
