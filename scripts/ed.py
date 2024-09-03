@@ -257,7 +257,11 @@ for e in domain_list:
             },
             "MX": get_dns_record(e, 'MX'),
             "TXT": get_dns_record(e, "TXT"),
-            "CNAME": get_dns_record(e, "CNAME")
+            "CNAME": get_dns_record(e, "CNAME"),
+            "CAA": get_dns_record(e, "CAA"),
+            "SOA": get_dns_record(e, "SOA"),
+            "NS": get_dns_record(e, "NS"),
+            "LOC": get_dns_record(e, "LOC"), # unlikely
         }
         entry_data[e]['subdomain_status'] = {}
         if e in root_domains:
@@ -327,6 +331,10 @@ for e in domain_list:
                 entry_data[e]['MX'] = get_dns_record(e, 'MX')
             if "CNAME" not in entry_data[e]:
                 entry_data[e]['CNAME'] = get_dns_record(e, 'CNAME')
+            if "TXT" not in entry_data[e]:
+                entry_data[e]['TXT'] = get_dns_record(e, 'TXT')
+            if "NS" not in entry_data[e]:
+                entry_data[e]['NS'] = get_dns_record(e, 'NS')
         if entry_data[e]["check_status"] == False and last_check_status == False:
             dead_domains.append(e)
 print("Done with part 1")
