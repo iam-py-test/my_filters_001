@@ -260,3 +260,4 @@ shrtm.nu
 link.is.it
 xurl.app
 vipurl.pro
+slug.vercel.app
