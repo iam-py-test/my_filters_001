@@ -571,6 +571,7 @@ bbbb.arch.be
 matomo.datack.fr
 visitas-web.redsara.es
 stats.exoscale.com
+redtrack.io
 sentry.io
 sentry.odysee.tv
 sentry.contabo.net

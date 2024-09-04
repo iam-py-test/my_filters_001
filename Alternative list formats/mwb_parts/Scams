@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
 ! Last updated: 2024-9-3
-! Version: 202493.1
+! Version: 202493.2
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -6875,11 +6875,17 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 
 ! https://tria.ge/240413-apvvjagg78/behavioral1
 ||mailtknnews.com^$document
-||t.mailtknnews.com^$document
+||t.mailtknnews.com^$all
 ||russiagirlsonline.com^$document
 ||www.russiagirlsonline.com^$document
 ||charmdate.com^$all
 ||www.charmdate.com^$all
+! owned by the same company, see also https://infosec.exchange/@iampytest1/113074397683569302
+||latamdate.com^$document
+||asiame.com^$document
+||chnlove.com^$document
+||idateasia.com^$document
+||charmlive.com^$document
 
 ! https://github.com/hagezi/dns-blocklists/issues/2512
 ||slowmitter.top^$document
@@ -6925,6 +6931,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 
 ! spam email -> https://tria.ge/240621-1m4yjawemm/behavioral1
 ||findrussiabrides.com^$document
+||www.findrussiabrides.com^$document
 
 ! spam email -> https://tria.ge/240622-stxtssserh/behavioral1
 ||emb-race.info^$all
@@ -6984,6 +6991,8 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||yourexclusiveoffers.com^$document
 ||clubforsingles.com^$document
 /ow_static/themes/flirt_clubforsingles/images$third-party
+||cupidaffairs.com^$document
+||www.cupidaffairs.com^$document
 ||sttc.cupidaffairs.com^$image
 
 ! https://github.com/hagezi/dns-blocklists/issues/3312
@@ -7103,4 +7112,18 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ! https://github.com/hagezi/dns-blocklists/issues/3602
 ||localmeets.link^$document
 ||ddbca.localmeets.link^$document
+
+! https://tria.ge/240903-nrb24awhrb/behavioral1
+||wooqi.win^$document
+||tds.wooqi.win^$document
+||milfsaround.com^$all
+||join.milfsaround.com^$all
+||cdn.milfsaround.com^$all
+||salbories-symphemes.com^$all
+||chemiclk.com^$document
+||chaludistrecret.com^$document
+||chatnotifier.com^$all
+||16hl07csd16.nl^$all
+||discreethookups.co.uk^$document
+||22mlf09mds22.com^$all
 
