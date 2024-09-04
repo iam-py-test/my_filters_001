@@ -675,6 +675,8 @@
 ||visitas-web.redsara.es^
 ! https://github.com/hagezi/dns-blocklists/issues/3552
 ||stats.exoscale.com^
+! https://github.com/hagezi/dns-blocklists/issues/3612
+||redtrack.io^$third-party
 
 ! bug tracking software
 
