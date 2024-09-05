@@ -677,6 +677,8 @@
 ||stats.exoscale.com^
 ! https://github.com/hagezi/dns-blocklists/issues/3612
 ||redtrack.io^$third-party
+! https://github.com/hagezi/dns-blocklists/issues/3640
+||analytics.bredband2.se^
 
 ! bug tracking software
 
