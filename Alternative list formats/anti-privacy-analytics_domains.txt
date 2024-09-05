@@ -572,6 +572,7 @@ matomo.datack.fr
 visitas-web.redsara.es
 stats.exoscale.com
 redtrack.io
+analytics.bredband2.se
 sentry.io
 sentry.odysee.tv
 sentry.contabo.net
