@@ -19,6 +19,11 @@ print("SETUP resolver")
 already_resolved = {}
 known_whois = {}
 
+try:
+    parked_ips = open("parking.ips").read().split('\n')
+except:
+    parked_ips = []
+
 verbosity = 4
 
 def get_whois_data_raw(domain, server):
@@ -91,7 +96,7 @@ def is_alive(domain, in_list=True):
                 return False
         except:
             pass
-    if domain.endswith(".itch.io") or domain.endswith(".appspot.com"):
+    if domain.endswith(".itch.io") or domain.endswith(".appspot.com") or domain.endswith(".squarespace.com"):
         try:
             userreq = requests.get(f"http://{domain}")
             if userreq.status_code == 404:
@@ -124,9 +129,11 @@ def is_alive(domain, in_list=True):
         found_ips = []
         for ip in res_ips:
             found_ips.append(ip.address)
+            if ip.address in parked_ips:
+                return False
         already_resolved[domain] = found_ips
         return True
-    except:
+    except Exception:
         return False
 
 def get_ips(domain):
@@ -338,11 +345,8 @@ for e in domain_list:
         if "times_died" not in entry_data[e]:
             entry_data[e]['times_died'] = 0
         entry_data[e]["check_counter"] += 1
-        if e.endswith(".github.io") or e.endswith(".itch.io") or e.endswith(".azurefd.net") or e.endswith(".appspot.com"): # temp measure to force recheck of these domains now that death detection has been added
+        if e.endswith(".squarespace.com") or e.endswith(".itch.io") or e.endswith(".azurefd.net") or e.endswith(".appspot.com"): # temp measure to force recheck of these domains now that death detection has been added
             entry_data[e]["check_counter"] += 10
-        if e.endswith(".page.link"):
-            entry_data[e]["check_counter"] = 40
-        last_check_status = entry_data[e]["check_status"]
 
         entry_data[e]['subdomain_status'] = {}
         if e in root_domains:
