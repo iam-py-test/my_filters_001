@@ -101,6 +101,7 @@ def is_alive(domain, in_list=True):
     if domain.endswith(".page.link"):
         try:
             userreq = requests.get(f"http://{domain}")
+            print(domain, userreq.status_code, userreq.url)
             if usereq.status_code == 400:
                 return False
         except:
@@ -338,8 +339,10 @@ for e in domain_list:
         if "times_died" not in entry_data[e]:
             entry_data[e]['times_died'] = 0
         entry_data[e]["check_counter"] += 1
-        if e.endswith(".github.io") or e.endswith(".itch.io") or e.endswith(".page.link") or e.endswith(".azurefd.net") or e.endswith(".appspot.com"): # temp measure to force recheck of these domains now that death detection has been added
+        if e.endswith(".github.io") or e.endswith(".itch.io") or e.endswith(".azurefd.net") or e.endswith(".appspot.com"): # temp measure to force recheck of these domains now that death detection has been added
             entry_data[e]["check_counter"] += 10
+        if e.endswith(".page.link"):
+            entry_data[e]["check_counter"] = 40
         last_check_status = entry_data[e]["check_status"]
 
         entry_data[e]['subdomain_status'] = {}
