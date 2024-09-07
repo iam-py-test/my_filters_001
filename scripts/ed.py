@@ -83,6 +83,21 @@ def is_alive(domain, in_list=True):
         return True
     if domain.endswith(".onion"): # can't test onions yet
         return True
+    if domain.endswith(".github.io"):
+        try:
+            username = domain.replace(".github.io", "")
+            userreq = requests.get(f"https://api.github.com/users/{username}")
+            if userreq.status_code == 404:
+                return False
+        except:
+            pass
+    if domain.endswith(".itch.io"):
+        try:
+            userreq = requests.get(f"https://{domain}")
+            if usereq.status_code == 404:
+                return False
+        except:
+            pass
     try:
         res_ips = list(dresolver.resolve(domain))
         found_ips = []
@@ -302,6 +317,8 @@ for e in domain_list:
         if "times_died" not in entry_data[e]:
             entry_data[e]['times_died'] = 0
         entry_data[e]["check_counter"] += 1
+        if e.endswith(".github.io") or e.endswith(".itch.io"): # temp measure to force recheck of these domains now that death detection has been added
+            entry_data[e]["check_counter"] += 10
         last_check_status = entry_data[e]["check_status"]
 
         entry_data[e]['subdomain_status'] = {}
