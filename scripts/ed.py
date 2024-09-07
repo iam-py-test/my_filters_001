@@ -347,7 +347,7 @@ for e in domain_list:
         entry_data[e]["check_counter"] += 1
         if e.endswith(".squarespace.com") or e.endswith(".itch.io") or e.endswith(".azurefd.net") or e.endswith(".appspot.com"): # temp measure to force recheck of these domains now that death detection has been added
             entry_data[e]["check_counter"] += 10
-
+        last_check_status = entry_data[e]["check_status"]
         entry_data[e]['subdomain_status'] = {}
         if e in root_domains:
             for subdomain in root_domains[e]:
