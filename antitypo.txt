@@ -1202,7 +1202,6 @@
 ||joannclearances.com^$document
 
 ! https://github.com/hagezi/dns-blocklists/issues/2858
-||githubtalentcommunity.online^$document
 ||githubcareers.online^$document
 
 ! https://github.com/hagezi/dns-blocklists/issues/3615
