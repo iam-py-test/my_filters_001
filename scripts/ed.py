@@ -67,7 +67,7 @@ def get_whois(domain, server = None, done_whois_servers_arg = [], recurse=False,
                 if line.replace(" ", "").replace("\t", "").startswith("RegistrarWHOISServer:"):
                     newserver = line.replace(" ", "").replace("\t", "").replace("RegistrarWHOISServer:", "").replace("http://", "").replace("https://", "").split("/")[0]
                     if newserver.lower() not in done_whois_servers:
-                        whois_data += f"\n\nFetching more WHOIS data from {newserver}...\n\n" + get_whois(domain, server=newserver.lower(), recurse=True, sub=True, done_whois_servers=done_whois_servers)
+                        whois_data += f"\n\nFetching more WHOIS data from {newserver}...\n\n" + get_whois(domain, server=newserver.lower(), recurse=True, sub=True, done_whois_servers_arg=done_whois_servers)
                     done_whois_servers.append(newserver)
         except Exception as err:
             print(f"Recurse for {domain} ({server}) failed due to {err}")
