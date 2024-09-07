@@ -1007,7 +1007,6 @@
 0.0.0.0 joannoutlet.com
 0.0.0.0 joannclearances.com
 # https://github.com/hagezi/dns-blocklists/issues/2858
-0.0.0.0 githubtalentcommunity.online
 0.0.0.0 githubcareers.online
 # https://github.com/hagezi/dns-blocklists/issues/3615
 0.0.0.0 steampowered.cn.com
