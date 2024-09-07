@@ -91,7 +91,7 @@ def is_alive(domain, in_list=True):
                 return False
         except:
             pass
-    if domain.endswith(".itch.io"):
+    if domain.endswith(".itch.io") or domain.endswith(".appspot.com"):
         try:
             userreq = requests.get(f"http://{domain}")
             if usereq.status_code == 404:
@@ -109,6 +109,13 @@ def is_alive(domain, in_list=True):
         try:
             userreq = requests.get(f"http://{domain}")
             if usereq.status_code == 404 and "azurefrontdoorpages.azureedge.net/pages/PageNotFound_files/favicon.ico" in userreq.text:
+                return False
+        except:
+            pass
+    if domain.endswith(".glitch.me"):
+        try:
+            userreq = requests.get(f"http://{domain}")
+            if (usereq.status_code == 403 and "<title>Oops! This project isn't running.</title>" in userreq.text) or userreq.status_code == 401:
                 return False
         except:
             pass
@@ -331,7 +338,7 @@ for e in domain_list:
         if "times_died" not in entry_data[e]:
             entry_data[e]['times_died'] = 0
         entry_data[e]["check_counter"] += 1
-        if e.endswith(".github.io") or e.endswith(".itch.io") or e.endswith(".page.link") or e.endswith(".azurefd.net"): # temp measure to force recheck of these domains now that death detection has been added
+        if e.endswith(".github.io") or e.endswith(".itch.io") or e.endswith(".page.link") or e.endswith(".azurefd.net") or e.endswith(".appspot.com"): # temp measure to force recheck of these domains now that death detection has been added
             entry_data[e]["check_counter"] += 10
         last_check_status = entry_data[e]["check_status"]
 
