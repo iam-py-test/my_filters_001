@@ -94,29 +94,28 @@ def is_alive(domain, in_list=True):
     if domain.endswith(".itch.io") or domain.endswith(".appspot.com"):
         try:
             userreq = requests.get(f"http://{domain}")
-            if usereq.status_code == 404:
+            if userreq.status_code == 404:
                 return False
         except:
             pass
     if domain.endswith(".page.link"):
         try:
             userreq = requests.get(f"http://{domain}")
-            print(domain, userreq.status_code, userreq.url)
-            if usereq.status_code == 400:
+            if userreq.status_code == 400:
                 return False
         except:
             pass
     if domain.endswith(".azurefd.net"):
         try:
             userreq = requests.get(f"http://{domain}")
-            if usereq.status_code == 404 and "azurefrontdoorpages.azureedge.net/pages/PageNotFound_files/favicon.ico" in userreq.text:
+            if userreq.status_code == 404 and "azurefrontdoorpages.azureedge.net/pages/PageNotFound_files/favicon.ico" in userreq.text:
                 return False
         except:
             pass
     if domain.endswith(".glitch.me"):
         try:
             userreq = requests.get(f"http://{domain}")
-            if (usereq.status_code == 403 and "<title>Oops! This project isn't running.</title>" in userreq.text) or userreq.status_code == 401:
+            if (userreq.status_code == 403 and "<title>Oops! This project isn't running.</title>" in userreq.text) or userreq.status_code == 401:
                 return False
         except:
             pass
