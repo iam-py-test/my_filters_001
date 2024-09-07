@@ -2785,7 +2785,6 @@ user0.subscribe-notifications.com
 user1.subscribe-notifications.com
 yourstented.azurewebsites.net
 winkcap.net
-discordnitro.live
 www.discordnitro.live
 letmimy.com
 ereallywasnoth.com
