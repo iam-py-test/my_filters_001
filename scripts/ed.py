@@ -156,17 +156,6 @@ def is_valid(domain):
     except:
         return False
 
-def port_open(host, port):
-    """
-    causes the program to hang for some reason
-    """
-    return False # prevent use
-    try:
-        s = socket.socket()
-        return s.connect_ex((host, port)) == 0
-    except:
-        return False
-
 def get_tls_info(hostname):
     # https://stackoverflow.com/questions/41620369/how-to-get-ssl-certificate-details-using-python
     context = ssl.create_default_context()
@@ -345,8 +334,6 @@ for e in domain_list:
         if "times_died" not in entry_data[e]:
             entry_data[e]['times_died'] = 0
         entry_data[e]["check_counter"] += 1
-        if e.endswith(".squarespace.com") or e.endswith(".itch.io") or e.endswith(".azurefd.net") or e.endswith(".appspot.com"): # temp measure to force recheck of these domains now that death detection has been added
-            entry_data[e]["check_counter"] += 10
         last_check_status = entry_data[e]["check_status"]
         entry_data[e]['subdomain_status'] = {}
         if e in root_domains:
