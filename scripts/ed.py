@@ -1,7 +1,7 @@
 print(f"{__file__} STARTED")
 import dns, dns.resolver
 print("IMPORTING NORMAL LIBS")
-import os, sys, json, datetime, socket, random, publicsuffixlist, ssl, requests, time
+import os, sys, json, datetime, socket, random, publicsuffixlist, ssl, requests, time, hashlib
 print("IMPORTS DONE")
 
 TLD_WHOIS_OVERRIDE = {
@@ -188,6 +188,34 @@ def get_dns_record(domain, record):
         pass
     return records
 
+FAV_URLS = ["favicon.ico", "favicon.png", "images/favicon.ico", "favicon.jpg", "favicon.jpeg", "resources/favicon.ico"]
+def get_favicon_hash(domain):
+    try:
+        for url in FAV_URLS:
+            try:
+                favreq = requests.get(f"http://{domain}/{url}")
+                if favreq.status_code == 200 and len(favreq.content) > 0:
+                    return hashlib.md5(favreq.content).hexdigest()
+            except Exception:
+                pass
+        for url in FAV_URLS:
+            try:
+                favreq = requests.get(f"https://{domain}/{url}")
+                if favreq.status_code == 200 and len(favreq.content) > 0:
+                    return hashlib.md5(favreq.content).hexdigest()
+            except Exception:
+                pass
+        for url in FAV_URLS:
+            try:
+                favreq = requests.get(f"http://{domain}:8080/{url}")
+                if favreq.status_code == 200 and len(favreq.content) > 0:
+                    return hashlib.md5(favreq.content).hexdigest()
+            except Exception:
+                pass
+        return None
+    except:
+        return None
+
 print("LOADING DATA")
 try:
     entry_data = json.loads(open("entry_data.json", encoding="UTF-8").read())
@@ -294,6 +322,7 @@ for e in domain_list:
             "SOA": get_dns_record(e, "SOA"),
             "NS": get_dns_record(e, "NS"),
             "LOC": get_dns_record(e, "LOC"), # unlikely
+            "favicon_hash": get_favicon_hash(e)
         }
         entry_data[e]['subdomain_status'] = {}
         if e in root_domains:
@@ -325,7 +354,7 @@ for e in domain_list:
         entry_data[e]["removed_date"] = ""
         entry_data[e]["is_valid"] = is_valid(e)
         if "check_counter" not in entry_data[e]:
-            entry_data[e]["check_counter"] = 0
+            entry_data[e]["check_counter"] = 40
         if "last_checked" not in entry_data[e]:
             entry_data[e]["last_checked"] = "Unknown"
         if "had_www_on_check" not in entry_data[e]:
@@ -358,6 +387,12 @@ for e in domain_list:
             if domain_is_alive != True and last_check_status:
                 entry_data[e]["dead_since"] = current_date
                 entry_data[e]['times_died'] += 1
+                try:
+                    for sub in entry_data[e]["subdomain_status"]:
+                        entry_data[sub]['check_counter'] += 2
+                        print(f"Increased check count on {sub} as root domain {e} is dead")
+                except Exception as err:
+                    print(e, err, "subdomain_status" in entry_data[e])
             if "MX" not in entry_data[e]:
                 entry_data[e]['MX'] = get_dns_record(e, 'MX')
             if "CNAME" not in entry_data[e]:
@@ -366,6 +401,10 @@ for e in domain_list:
                 entry_data[e]['TXT'] = get_dns_record(e, 'TXT')
             if "NS" not in entry_data[e]:
                 entry_data[e]['NS'] = get_dns_record(e, 'NS')
+            if "favicon_hash" not in entry_data[e]:
+                entry_data[e]["favicon_hash"] = get_favicon_hash(e)
+                if entry_data[e]["favicon_hash"] != None:
+                    print("Added fav hash",entry_data[e]["favicon_hash"])
         if entry_data[e]["check_status"] == False and last_check_status == False:
             dead_domains.append(e)
 print("Done with part 1")
