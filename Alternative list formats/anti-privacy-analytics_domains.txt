@@ -573,6 +573,9 @@ visitas-web.redsara.es
 stats.exoscale.com
 redtrack.io
 analytics.bredband2.se
+analytiikka.hus.fi
+analytiikka2.terveyskyla.fi
+webbanalys.regiongavleborg.se
 sentry.io
 sentry.odysee.tv
 sentry.contabo.net
