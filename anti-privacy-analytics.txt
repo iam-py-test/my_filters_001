@@ -1,5 +1,7 @@
 ! Title: Anti-"Private analytics"
 ! Description: In recent times, there has been a rise in analytics companies using privacy as part of their marketing. While these analytics pretend to be "privacy preserving", such is not the case. While EasyPrivacy and Peter Lowe block most of these already, this list aims to target them
+! Expires: 2 days
+! Last updated: 2024-9-9
 ! More info: https://youtu.be/-KkMWUaajhU?t=15900
 ||gc.zgo.at^
 ||goatcounter.com^$third-party
@@ -679,6 +681,10 @@
 ||redtrack.io^$third-party
 ! https://github.com/hagezi/dns-blocklists/issues/3640
 ||analytics.bredband2.se^
+! https://github.com/hagezi/dns-blocklists/issues/3676
+||analytiikka.hus.fi^
+||analytiikka2.terveyskyla.fi^
+||webbanalys.regiongavleborg.se^
 
 ! bug tracking software
 
