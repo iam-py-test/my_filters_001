@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
 ! Last updated: 2024-9-9
-! Version: 202499.1
+! Version: 202499.2
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -861,11 +861,11 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 08/09/2024
+! Last updated: 09/09/2024
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Sun, 08 Sep 2024 20:22:19 +0000
+! Mon, 09 Sep 2024 20:24:25 +0000
 ||twizt.net/lk.exe^$all
 ||ddl.safone.dev/3808735/US+ONLY1.exe?hash=AgADkx^$all
 ||raw.githubusercontent.com/Marcin2123/actualka/main/113133.exe^$all
