@@ -1365,6 +1365,9 @@ playdeadlock.lol
 steampowered.cn.com
 betadeadlock.com
 venmo-571.fartit.com
+help-metamask-org-us.webflow.io
+sso-cdn--coinbasepo-eng-auth.webflow.io
+microsoft-outlook-11402a.webflow.io
 extragifis.site
 trafcenter.us
 gamesex.fun
@@ -4320,6 +4323,7 @@ montlusa.top
 hookupsconnect.com
 fitflirts.com
 flirtyconnection.com
+cloudflirts.com
 windowserrorfixer.com
 www.windowserrorfixer.com
 itopupdate.com
