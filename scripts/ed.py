@@ -188,34 +188,6 @@ def get_dns_record(domain, record):
         pass
     return records
 
-FAV_URLS = ["favicon.ico", "favicon.png", "images/favicon.ico", "favicon.jpg", "favicon.jpeg", "resources/favicon.ico"]
-def get_favicon_hash(domain):
-    try:
-        for url in FAV_URLS:
-            try:
-                favreq = requests.get(f"http://{domain}/{url}")
-                if favreq.status_code == 200 and len(favreq.content) > 0:
-                    return hashlib.md5(favreq.content).hexdigest()
-            except Exception:
-                pass
-        for url in FAV_URLS:
-            try:
-                favreq = requests.get(f"https://{domain}/{url}")
-                if favreq.status_code == 200 and len(favreq.content) > 0:
-                    return hashlib.md5(favreq.content).hexdigest()
-            except Exception:
-                pass
-        for url in FAV_URLS:
-            try:
-                favreq = requests.get(f"http://{domain}:8080/{url}")
-                if favreq.status_code == 200 and len(favreq.content) > 0:
-                    return hashlib.md5(favreq.content).hexdigest()
-            except Exception:
-                pass
-        return None
-    except:
-        return None
-
 print("LOADING DATA")
 try:
     entry_data = json.loads(open("entry_data.json", encoding="UTF-8").read())
@@ -322,7 +294,6 @@ for e in domain_list:
             "SOA": get_dns_record(e, "SOA"),
             "NS": get_dns_record(e, "NS"),
             "LOC": get_dns_record(e, "LOC"), # unlikely
-            "favicon_hash": get_favicon_hash(e)
         }
         entry_data[e]['subdomain_status'] = {}
         if e in root_domains:
