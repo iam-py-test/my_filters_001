@@ -401,10 +401,6 @@ for e in domain_list:
                 entry_data[e]['TXT'] = get_dns_record(e, 'TXT')
             if "NS" not in entry_data[e]:
                 entry_data[e]['NS'] = get_dns_record(e, 'NS')
-            if "favicon_hash" not in entry_data[e]:
-                entry_data[e]["favicon_hash"] = get_favicon_hash(e)
-                if entry_data[e]["favicon_hash"] != None:
-                    print("Added fav hash",entry_data[e]["favicon_hash"])
         if entry_data[e]["check_status"] == False and last_check_status == False:
             dead_domains.append(e)
 print("Done with part 1")
