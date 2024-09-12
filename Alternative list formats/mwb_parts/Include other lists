@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 2024-9-9
-! Version: 202499.2
+! Last updated: 2024-9-11
+! Version: 2024911.1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -790,6 +790,8 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||95.214.24.244^$all
 ! as of 18/9/2023 (https://threatfox.abuse.ch/ioc/1164432/)
 ||webclinetzero.cloud^$all
+! as of 11/9/2024 (coinbase phishing)
+||auth-coinbase-official.webflow.io^$all
 
 
 ! This is a list of domains blocked by Microsoft Smartscreen (when tested using MS Edge in a Windows 10 VM) in an attempt to understand how it works
@@ -853,6 +855,8 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||www.pioxe.live^$all
 ! 28/7/2023 (https://www.virustotal.com/gui/url/5734c94e00548cfda13f00486306e56d9dc693b9388d4751cf29fd75d832d13e/community)
 ||muskcrypto.io^$all
+! as of 11/9/2024 (coinbase phishing)
+||auth-coinbase-official.webflow.io^$all
 
 
 
@@ -861,11 +865,12 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 09/09/2024
+! Last updated: 11/09/2024
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Mon, 09 Sep 2024 20:24:25 +0000
+! Wed, 11 Sep 2024 20:23:04 +0000
+||stolc-download.tech/download/file/stolc_app.exe^$all
 ||twizt.net/lk.exe^$all
 ||ddl.safone.dev/3808735/US+ONLY1.exe?hash=AgADkx^$all
 ||raw.githubusercontent.com/Marcin2123/actualka/main/113133.exe^$all
@@ -966,7 +971,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||ngovpn.com/share/index.php^$all
 ||5.42.66.22/retail.php^$all
 ||5.42.66.22/space.php^$all
-||5.42.66.22/getimage.php^$all
 
 
 

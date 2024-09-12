@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results, along with other annoyances
 ! Expires: 1 day
 ! Last updated: 2023-4-7
-! Last auto-generated: 09/09/2024
+! Last auto-generated: 12/09/2024
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -4358,6 +4358,14 @@ search.brave.com##div.fdb.snippet:has(a[href*="://nameless2020.github.io"])
 search.brave.com##div.fdb.snippet:has(a[href*="://albapietra.com.br"])
 search.brave.com##div.fdb.snippet:has(a[href*="://drarayanacafe.com.br"])
 search.brave.com##div.fdb.snippet:has(a[href*="://venmo-571.fartit.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://auth-coinbase-official.webflow.io"])
+search.brave.com##div.fdb.snippet:has(a[href*="://metamaskchromextensuiin.webflow.io"])
+search.brave.com##div.fdb.snippet:has(a[href*="://help-metamask-org-us.webflow.io"])
+search.brave.com##div.fdb.snippet:has(a[href*="://login-orange-fr.webflow.io"])
+search.brave.com##div.fdb.snippet:has(a[href*="://secure---sso-robinhood-com-autth.webflow.io"])
+search.brave.com##div.fdb.snippet:has(a[href*="://att-verification-542-9acc4c.webflow.io"])
+search.brave.com##div.fdb.snippet:has(a[href*="://sso-cdn--coinbasepo-eng-auth.webflow.io"])
+search.brave.com##div.fdb.snippet:has(a[href*="://microsoft-outlook-11402a.webflow.io"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublockerext.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://quatrefeuillepolonaise.xyz"])
@@ -6670,7 +6678,6 @@ search.brave.com##div.fdb.snippet:has(a[href*="://omclyzyapf.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://godpvqnszo.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://news-mapara.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://vipdatingtoday.top"])
-search.brave.com##div.fdb.snippet:has(a[href*="://mo4ckid.click"])
 search.brave.com##div.fdb.snippet:has(a[href*="://xxxnewvideos.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://iseult-aplite.xyz"])
 search.brave.com##div.fdb.snippet:has(a[href*="://theantivirusprotection.xyz"])
@@ -10151,6 +10158,12 @@ search.brave.com##div.fdb.snippet:has(a[href*="://tiamo.life"])
 search.brave.com##div.fdb.snippet:has(a[href*="://jennajoslyn.ru.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://3bigs.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://savkar.ai"])
+search.brave.com##div.fdb.snippet:has(a[href*="://cloudflirts.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://dgm.cloudflirts.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://fxmnf8trk.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://www.fxmnf8trk.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://findneighboursonline.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://uk.findneighboursonline.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://totalav.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://www.totalav.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://api.totalav.com"])
