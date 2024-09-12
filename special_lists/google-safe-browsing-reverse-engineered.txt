@@ -131,3 +131,5 @@
 ||95.214.24.244^$all
 ! as of 18/9/2023 (https://threatfox.abuse.ch/ioc/1164432/)
 ||webclinetzero.cloud^$all
+! as of 11/9/2024 (coinbase phishing)
+||auth-coinbase-official.webflow.io^$all

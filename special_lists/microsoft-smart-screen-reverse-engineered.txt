@@ -59,3 +59,5 @@
 ||www.pioxe.live^$all
 ! 28/7/2023 (https://www.virustotal.com/gui/url/5734c94e00548cfda13f00486306e56d9dc693b9388d4751cf29fd75d832d13e/community)
 ||muskcrypto.io^$all
+! as of 11/9/2024 (coinbase phishing)
+||auth-coinbase-official.webflow.io^$all
