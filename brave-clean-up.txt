@@ -4366,6 +4366,7 @@ search.brave.com##div.fdb.snippet:has(a[href*="://secure---sso-robinhood-com-aut
 search.brave.com##div.fdb.snippet:has(a[href*="://att-verification-542-9acc4c.webflow.io"])
 search.brave.com##div.fdb.snippet:has(a[href*="://sso-cdn--coinbasepo-eng-auth.webflow.io"])
 search.brave.com##div.fdb.snippet:has(a[href*="://microsoft-outlook-11402a.webflow.io"])
+search.brave.com##div.fdb.snippet:has(a[href*="://ww3.dane-cr2024.io.webm.ru"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublockerext.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://quatrefeuillepolonaise.xyz"])
