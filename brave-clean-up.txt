@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results, along with other annoyances
 ! Expires: 1 day
 ! Last updated: 2023-4-7
-! Last auto-generated: 18/09/2024
+! Last auto-generated: 21/09/2024
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -2991,6 +2991,7 @@ search.brave.com##div.fdb.snippet:has(a[href*="://set4theupdatesforever.click"])
 search.brave.com##div.fdb.snippet:has(a[href*="://supportversion.set4theupdatesforever.click"])
 search.brave.com##div.fdb.snippet:has(a[href*="://goads.pro"])
 search.brave.com##div.fdb.snippet:has(a[href*="://bblck.me"])
+search.brave.com##div.fdb.snippet:has(a[href*="://ssl.bblck.me"])
 search.brave.com##div.fdb.snippet:has(a[href*="://perevod-a.shop"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ad-blocking24.net"])
 search.brave.com##div.fdb.snippet:has(a[href*="://dwnld-here.com"])
@@ -4378,6 +4379,7 @@ search.brave.com##div.fdb.snippet:has(a[href*="://csbestplayers.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://bitegifts.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://hackpc.net"])
 search.brave.com##div.fdb.snippet:has(a[href*="://github-scanner.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://finalsteptogo.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublockerext.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://quatrefeuillepolonaise.xyz"])
