@@ -18,6 +18,7 @@ dresolver.nameservers = ["https://unfiltered.adguard-dns.com/dns-query","94.140.
 print("SETUP resolver")
 already_resolved = {}
 known_whois = {}
+parked_domains = []
 
 try:
     parked_ips = open("parking.ips").read().split('\n')
@@ -84,6 +85,7 @@ def get_whois(domain, server = None, done_whois_servers_arg = [], recurse=False,
 def is_alive(domain, in_list=True):
     global dead_domains
     global already_resolved
+    global parked_domains
     if domain in already_resolved:
         return True
     if domain.endswith(".onion"): # can't test onions yet
@@ -130,6 +132,8 @@ def is_alive(domain, in_list=True):
         for ip in res_ips:
             found_ips.append(ip.address)
             if ip.address in parked_ips:
+                print(f"{domain} is parked!", len(parked_domains))
+                parked_domains.append(domain)
                 return False
         already_resolved[domain] = found_ips
         return True
@@ -294,6 +298,7 @@ for e in domain_list:
             "SOA": get_dns_record(e, "SOA"),
             "NS": get_dns_record(e, "NS"),
             "LOC": get_dns_record(e, "LOC"), # unlikely
+            "parked": e in parked_domains
         }
         entry_data[e]['subdomain_status'] = {}
         if e in root_domains:
@@ -355,6 +360,7 @@ for e in domain_list:
             entry_data[e]["ever_rechecked"] = True
             entry_data[e]["times_checked"] += 1
             entry_data[e]['had_www_on_check'] = is_alive(f"www.{e}", False)
+            entry_data[e]['parked'] = e in parked_domains
             if domain_is_alive != True and last_check_status:
                 entry_data[e]["dead_since"] = current_date
                 entry_data[e]['times_died'] += 1
