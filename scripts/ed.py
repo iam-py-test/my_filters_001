@@ -325,6 +325,10 @@ for e in domain_list:
                 entry_data[e]["readd"] = current_date
                 entry_data[e]["origin_add"] = entry_data[e]["first_seen"]
                 entry_data[e]["origin_removed_date"] = entry_data[e]["last_seen"]
+        for ip in entry_data[e]["ips"]:
+            if ip in parked_ips:
+                print(f"{e} is - and has always been - parked. Forcing recheck")
+                entry_data[e]['check_counter'] = 40
         entry_data[e]["last_seen"] = current_date
         entry_data[e]["removed"] = False
         entry_data[e]["removed_date"] = ""
@@ -359,6 +363,7 @@ for e in domain_list:
             entry_data[e]["check_counter"] = 0
             entry_data[e]["ever_rechecked"] = True
             entry_data[e]["times_checked"] += 1
+            entry_data[e]["check_ips"] = get_ips(e)
             entry_data[e]['had_www_on_check'] = is_alive(f"www.{e}", False)
             entry_data[e]['parked'] = e in parked_domains
             if domain_is_alive != True and last_check_status:
