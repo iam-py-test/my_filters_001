@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results, along with other annoyances
 ! Expires: 1 day
 ! Last updated: 2023-4-7
-! Last auto-generated: 25/09/2024
+! Last auto-generated: 27/09/2024
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -3018,19 +3018,13 @@ search.brave.com##div.fdb.snippet:has(a[href*="://qz94.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://arzo.ge"])
 search.brave.com##div.fdb.snippet:has(a[href*="://0nlinesigning.groupletter.io"])
 search.brave.com##div.fdb.snippet:has(a[href*="://matchgoalsam.com"])
-search.brave.com##div.fdb.snippet:has(a[href*="://argenferia.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://realvnc.pro"])
 search.brave.com##div.fdb.snippet:has(a[href*="://corporatecomf.online"])
 search.brave.com##div.fdb.snippet:has(a[href*="://cilrix-corp.pro"])
-search.brave.com##div.fdb.snippet:has(a[href*="://thecoopmodel.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://winscp-apps.online"])
 search.brave.com##div.fdb.snippet:has(a[href*="://wireshark-app.online"])
 search.brave.com##div.fdb.snippet:has(a[href*="://cilrix-corporate.online"])
-search.brave.com##div.fdb.snippet:has(a[href*="://workspace-app.online"])
-search.brave.com##div.fdb.snippet:has(a[href*="://11234jkhfkujhs.site"])
-search.brave.com##div.fdb.snippet:has(a[href*="://11234jkhfkujhs.top"])
 search.brave.com##div.fdb.snippet:has(a[href*="://donwnaloadezzal.cfd"])
-search.brave.com##div.fdb.snippet:has(a[href*="://downloadlekem.sbs"])
 search.brave.com##div.fdb.snippet:has(a[href*="://stopadblocker.pro"])
 search.brave.com##div.fdb.snippet:has(a[href*="://chaffewerbureaks.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://videoadblocker-pro.net"])
@@ -3053,7 +3047,6 @@ search.brave.com##div.fdb.snippet:has(a[href*="://autoscuola-momo.ch"])
 search.brave.com##div.fdb.snippet:has(a[href*="://tcastro.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://www.steadyrun.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://moussedanslabouche.com"])
-search.brave.com##div.fdb.snippet:has(a[href*="://paxert.xyz"])
 search.brave.com##div.fdb.snippet:has(a[href*="://track.local-hotsite.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://downloading-free.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://anacondastoresaleau.com"])
@@ -4379,6 +4372,8 @@ search.brave.com##div.fdb.snippet:has(a[href*="://github-scanner.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://finalsteptogo.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ftx-claims.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://postevrikifsi.top"])
+search.brave.com##div.fdb.snippet:has(a[href*="://xdpapmz.shop"])
+search.brave.com##div.fdb.snippet:has(a[href*="://upf.xdpapmz.shop"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublockerext.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://quatrefeuillepolonaise.xyz"])
