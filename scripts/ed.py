@@ -2,6 +2,7 @@ print(f"{__file__} STARTED")
 import dns, dns.resolver
 print("IMPORTING NORMAL LIBS")
 import os, sys, json, datetime, socket, random, publicsuffixlist, ssl, requests, time, hashlib
+from tranco import Tranco
 print("IMPORTS DONE")
 
 TLD_WHOIS_OVERRIDE = {
@@ -16,6 +17,9 @@ dresolver = dns.resolver.Resolver()
 print("CREATED dresolver")
 dresolver.nameservers = ["https://unfiltered.adguard-dns.com/dns-query","94.140.14.140", "8.8.8.8","1.1.1.1"]
 print("SETUP resolver")
+trancoobject = Tranco(cache=False)
+tranco_list = trancoobject.list()
+print("LOADED tranco")
 already_resolved = {}
 known_whois = {}
 parked_domains = []
@@ -89,6 +93,8 @@ def is_alive(domain, in_list=True):
     if domain in already_resolved:
         return True
     if domain.endswith(".onion"): # can't test onions yet
+        return True
+    if tranco_list.rank(domain) != -1:
         return True
     if domain.endswith(".github.io"):
         try:

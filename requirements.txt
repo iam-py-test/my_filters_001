@@ -2,3 +2,4 @@ dnspython
 publicsuffixlist
 idna
 requests
+tranco
