@@ -1400,6 +1400,7 @@ playdeadlock.lol
 steamcommnunjity.com
 steampowered.cn.com
 betadeadlock.com
+deadlockbetatest.com
 venmo-571.fartit.com
 auth-coinbase-official.webflow.io
 help-metamask-org-us.webflow.io
