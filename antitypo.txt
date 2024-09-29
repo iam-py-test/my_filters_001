@@ -1215,3 +1215,6 @@
 
 ! https://github.com/hagezi/dns-blocklists/issues/3823
 ||costssco.com^$all
+
+! once dairy shop, now porn scam... their socials still point to this
+||liegeanddairy.com^$all
