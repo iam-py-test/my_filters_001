@@ -2,11 +2,11 @@
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 27/09/2024
+! Last updated: 28/09/2024
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Fri, 27 Sep 2024 20:25:10 +0000
+! Sat, 28 Sep 2024 20:23:59 +0000
 ||raw.githubusercontent.com/unknwon1352/qawfdasfaw/main/Software.exe^$all
 ||185.215.113.103/mine/random.exe^$all
 ||103.130.147.211/Files/2.exe^$all

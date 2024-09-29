@@ -1015,3 +1015,5 @@
 0.0.0.0 tplinkextender.net
 # https://github.com/hagezi/dns-blocklists/issues/3823
 0.0.0.0 costssco.com
+# once dairy shop, now porn scam... their socials still point to this
+0.0.0.0 liegeanddairy.com
