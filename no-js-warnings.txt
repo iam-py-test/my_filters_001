@@ -1,5 +1,5 @@
 ! Title: Anti-'JavaScript is disabled' warnings (beta)
-! Expires: 1 day
+! Expires: 30 days
 ! Description: Tired of websites telling you to enable JavaScript? This list aims to remove some of those warnings
 
 ! site-specific cosmedic filters
@@ -7,7 +7,8 @@ drweb.com##.JsDisabled
 python.org###nojs
 ! pypi.org##.notification-bar--warning.notification-bar
 
-! generic cosmedic filters
+! generic cosmetic filters:
+! mostly substack.com
 ###nojs-banner
 ##.u-noJsOnly.blockMessage--iconic
 
