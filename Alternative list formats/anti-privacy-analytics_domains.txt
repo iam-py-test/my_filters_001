@@ -576,6 +576,12 @@ analytics.bredband2.se
 analytiikka.hus.fi
 analytiikka2.terveyskyla.fi
 webbanalys.regiongavleborg.se
+plausible.imio-test.be
+matomo.saint-brieuc.bzh
+track.martronic.ch
+stats4.i-web.ch
+stats.i-web.ch
+analytics.mairie-niort.com
 sentry.io
 sentry.odysee.tv
 sentry.contabo.net
