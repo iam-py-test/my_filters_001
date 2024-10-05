@@ -1,4 +1,4 @@
-# Title: iam-py-test's device privacy list
+# Title: iam-py-test's device privacy list (abandoned)
 # Description: This list is designed to provide enhanced protection against trackers as a HOSTs file, at the DNS level, or even in uBlock Origin
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # License: Public domain, because I believe privacy is a human right
