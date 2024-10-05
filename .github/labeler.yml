@@ -16,11 +16,21 @@ custom:
   - location: body
     keywords:
       - 'malware domain'
+      - 'command and control'
+      - 'malware viruses'
+      - 'cryptojacking'
+      - 'C2'
     labels:
       - malware
   - location: body
     keywords:
       - 'false positive'
+      - 'should not be blocked'
+      - 'please allow'
+      - 'unblock'
+      - 'avoid blocking'
+      - 'broken website'
+      - 'breaks website'
     labels:
       - remove
   - location: body
