@@ -36,11 +36,35 @@ custom:
   - location: body
     keywords:
       - 'false positive'
+    labels:
+      - remove
+  - location: body
+    keywords:
       - 'should not be blocked'
+    labels:
+      - remove
+  - location: body
+    keywords:
       - 'please allow'
+    labels:
+      - remove
+  - location: body
+    keywords:
       - 'unblock'
+    labels:
+      - remove
+  - location: body
+    keywords:
       - 'avoid blocking'
+    labels:
+      - remove
+  - location: body
+    keywords:
       - 'broken website'
+    labels:
+      - remove
+  - location: body
+    keywords:
       - 'breaks website'
     labels:
       - remove
@@ -79,3 +103,8 @@ custom:
       - redirector
     labels: 
       - redirectors
+  - location: body
+    keywords:
+      - '🆂🆃🆁🅴🅰🅼 👉'
+    labels:
+      - spam
