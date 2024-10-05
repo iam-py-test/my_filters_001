@@ -63,6 +63,11 @@ def parse(lines):
     else:
       try:
         domain = line.split("^")[0][2:]
+        entryoptions = ""
+        try:
+          entryoptions = line.split("^")[1]
+        except:
+          pass
         if psl.is_public(domain):
           continue
         rootdomain = psl.privatesuffix(domain)
@@ -72,7 +77,7 @@ def parse(lines):
           lcontents += line + "\n"
           done_entries.append(line)
           done_domains.append(domain)
-          if "/" not in line and isipdomain(domain) == False and "#" not in domain and "$" not in domain and domain.endswith(".") == False and "domain" not in line:
+          if "/" not in line and isipdomain(domain) == False and "#" not in domain and "$" not in domain and domain.endswith(".") == False and "domain" not in entryoptions:
             all_domains.append(domain)
       except Exception as err:
         print(err)
