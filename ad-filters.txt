@@ -1,6 +1,6 @@
-! Title: iam-py-test's simple adblock filter (BETA)
+! Title: iam-py-test's simple adblock filter  (abandoned)
 ! Expires: 1 day
-! Description: This this is a simple list which trys to block ads and trackers on the top non-NSFW websites (partly based on https://tranco-list.eu) with no breakage. Please, don't use this list on it's own
+! Description: This was a simple list which trys to block ads and trackers on the top non-NSFW websites (partly based on https://tranco-list.eu) with no breakage. Please, don't use this list
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 
 ! generic Google ad servers
