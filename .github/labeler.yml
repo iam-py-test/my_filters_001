@@ -15,11 +15,22 @@ custom:
       - remove
   - location: body
     keywords:
-      - 'malware domain'
+      - 'malware'
+    labels:
+      - malware
+  - location: body
+    keywords:
       - 'command and control'
-      - 'malware viruses'
-      - 'cryptojacking'
-      - 'C2'
+    labels:
+      - malware
+  - location: body
+    keywords:
+      - 'cryptojack'
+    labels:
+      - malware
+  - location: body
+    keywords:
+      - 'cryptomine'
     labels:
       - malware
   - location: body
