@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 2024-10-11
-! Version: 20241011.1
+! Last updated: 2024-10-12
+! Version: 20241012.1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Special thanks to all of the people who have helped me maintain this list! Check out https://github.com/iam-py-test/my_filters_001/blob/main/CONTRIBUTORS.md
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -865,11 +865,14 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 10/10/2024
+! Last updated: 12/10/2024
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Thu, 10 Oct 2024 20:25:18 +0000
+! Sat, 12 Oct 2024 20:23:25 +0000
+||176.113.115.95/thebig/swf.exe^$all
+||cache.ussc.org/css/67065a0933c9e_UUESUpdater.exe^$all
+||proxy.siteterbaru.xyz/css/0a839761915d.exe^$all
 ||91.228.10.22/hb/docii.exe^$all
 ||103.130.147.211/Files/22.exe^$all
 ||194.116.215.195/12dsvc.exe^$all
@@ -968,9 +971,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||github.com/Pidoras883/-/releases/download/huesos/IjerkOff.exe^$all
 ||185.172.128.144/ISetup8.exe^$all
 ||185.172.128.144/ISetup10.exe^$all
-||185.172.128.144/ISetup9.exe^$all
-||185.172.128.144/ISetup5.exe^$all
-||185.172.128.144/ISetup1.exe^$all
 
 
 
