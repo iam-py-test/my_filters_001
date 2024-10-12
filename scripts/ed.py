@@ -335,8 +335,6 @@ for e in domain_list:
             if ip in parked_ips:
                 print(f"{e} is - and has always been - parked. Forcing recheck")
                 entry_data[e]['check_counter'] = 40
-        if e.endswith(".vercel.app") and entry_data[e]['check_status'] == True: # TODO: remove afterword
-            entry_data[e]["check_counter"] = 40
         entry_data[e]["last_seen"] = current_date
         entry_data[e]["removed"] = False
         entry_data[e]["removed_date"] = ""
