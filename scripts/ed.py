@@ -104,7 +104,7 @@ def is_alive(domain, in_list=True):
                 return False
         except:
             pass
-    if domain.endswith(".itch.io") or domain.endswith(".appspot.com") or domain.endswith(".squarespace.com") or domain.endswith(".web.app") or domain.endswith(".weeblysite.com") or domain.endswith(".square.site") or domain.endswith(".webflow.io") or domain.endswith(".firebaseio.com"):
+    if domain.endswith(".itch.io") or domain.endswith(".appspot.com") or domain.endswith(".squarespace.com") or domain.endswith(".web.app") or domain.endswith(".weeblysite.com") or domain.endswith(".square.site") or domain.endswith(".webflow.io") or domain.endswith(".firebaseio.com") or domain.endswith(".vercel.app"):
         try:
             userreq = requests.get(f"http://{domain}")
             if userreq.status_code == 404:
@@ -335,6 +335,8 @@ for e in domain_list:
             if ip in parked_ips:
                 print(f"{e} is - and has always been - parked. Forcing recheck")
                 entry_data[e]['check_counter'] = 40
+        if e.endswith(".vercel.app") and entry_data[e]['check_status'] == True: # TODO: remove afterword
+            entry_data[e]["check_counter"] = 40
         entry_data[e]["last_seen"] = current_date
         entry_data[e]["removed"] = False
         entry_data[e]["removed_date"] = ""
