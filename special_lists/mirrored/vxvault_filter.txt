@@ -2,11 +2,15 @@
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 13/10/2024
+! Last updated: 16/10/2024
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Sun, 13 Oct 2024 20:24:03 +0000
+! Wed, 16 Oct 2024 20:25:07 +0000
+||files.catbox.moe/rutcsx.dhj^$all
+||185.215.113.103/steam/random.exe^$all
+||185.215.113.103/test/num.exe^$all
+||185.215.113.103/luma/random.exe^$all
 ||176.113.115.95/thebig/swf.exe^$all
 ||cache.ussc.org/css/67065a0933c9e_UUESUpdater.exe^$all
 ||proxy.siteterbaru.xyz/css/0a839761915d.exe^$all
@@ -104,7 +108,3 @@
 ||5.42.66.10/download/123p.exe^$all
 ||5.42.66.10/download/th/getimage12.php^$all
 ||185.172.128.6/timeSync.exe^$all
-||193.233.132.175/server/ww12/AppGate2103v01.exe^$all
-||github.com/Pidoras883/-/releases/download/huesos/IjerkOff.exe^$all
-||185.172.128.144/ISetup8.exe^$all
-||185.172.128.144/ISetup10.exe^$all
