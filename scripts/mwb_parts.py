@@ -65,6 +65,15 @@ Sections:
 """
 
 for part in mwb_parts:
+    end_parts = []
+    for line in mwb_parts[part].split("\n"):
+        if line.startswith("~"):
+            end_parts.append(line[1:])
+        else:
+            end_parts.append(line)
+    mwb_parts[part] = "\n".join(end_parts)
+
+for part in mwb_parts:
     partfilename = os.path.join(args.outdir,part)
     print(partfilename)
     partfile = open(partfilename,'w',encoding="UTF-8")
