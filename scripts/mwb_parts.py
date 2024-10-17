@@ -44,6 +44,8 @@ def include_list(path,parentpath):
         return ""
 
 for l in mwb:
+    if l.startswith("~"):
+        l = l[1:]
     if l.startswith("! ---- "):
         part_name = l[7:-5]
         if part_name.startswith(" "):
