@@ -1446,6 +1446,7 @@ lunarbattle.pro
 expert.lunarbattle.pro
 midwayauth.pro
 midway-canada.midwayauth.pro
+github-scanner.com
 ftx-claims.com
 xdpapmz.shop
 the-north-face.gr
