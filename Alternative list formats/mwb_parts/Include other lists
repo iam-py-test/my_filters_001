@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 2024-10-20
-! Version: 20241020.2
+! Last updated: 2024-10-22
+! Version: 20241022.1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
@@ -792,6 +792,11 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||webclinetzero.cloud^$all
 ! as of 11/9/2024 (coinbase phishing)
 ||auth-coinbase-official.webflow.io^$all
+! https://github.com/hagezi/dns-blocklists/issues/4059
+! https://tria.ge/241022-zf1f4ashlh/behavioral1
+||olive121407.studio.site^$all
+! https://hybrid-analysis.com/sample/de4bbee346de708d20287a3aeed659aa056abf697eb8ac87332f814ce124b0e8
+||jask.powerforxes.shop^$all
 
 
 ! This is a list of domains blocked by Microsoft Smartscreen (when tested using MS Edge in a Windows 10 VM) in an attempt to understand how it works
@@ -865,11 +870,12 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 20/10/2024
+! Last updated: 22/10/2024
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Sun, 20 Oct 2024 20:23:25 +0000
+! Tue, 22 Oct 2024 20:25:11 +0000
+||assets.padmamuseum.gov.bd/css/7d26acda3d7c.exe^$all
 ||72.5.42.222/api/dll/zetta^$all
 ||files.catbox.moe/rutcsx.dhj^$all
 ||185.215.113.103/steam/random.exe^$all
@@ -970,7 +976,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||5.42.66.10/download/th/retail.php^$all
 ||5.42.66.10/download/th/space.php^$all
 ||5.42.66.10/download/123p.exe^$all
-||5.42.66.10/download/th/getimage12.php^$all
 
 
 
