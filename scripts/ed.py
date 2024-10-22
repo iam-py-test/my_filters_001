@@ -104,7 +104,7 @@ def is_alive(domain, in_list=True):
                 return False
         except:
             pass
-    if domain.endswith(".itch.io") or domain.endswith(".appspot.com") or domain.endswith(".squarespace.com") or domain.endswith(".web.app") or domain.endswith(".weeblysite.com") or domain.endswith(".square.site") or domain.endswith(".webflow.io") or domain.endswith(".firebaseio.com") or domain.endswith(".vercel.app"):
+    if domain.endswith(".itch.io") or domain.endswith(".appspot.com") or domain.endswith(".squarespace.com") or domain.endswith(".web.app") or domain.endswith(".weeblysite.com") or domain.endswith(".square.site") or domain.endswith(".webflow.io") or domain.endswith(".firebaseio.com") or domain.endswith(".vercel.app") or domain.endswith(".studio.site"):
         try:
             userreq = requests.get(f"http://{domain}")
             if userreq.status_code == 404:

@@ -133,3 +133,8 @@
 ||webclinetzero.cloud^$all
 ! as of 11/9/2024 (coinbase phishing)
 ||auth-coinbase-official.webflow.io^$all
+! https://github.com/hagezi/dns-blocklists/issues/4059
+! https://tria.ge/241022-zf1f4ashlh/behavioral1
+||olive121407.studio.site^$all
+! https://hybrid-analysis.com/sample/de4bbee346de708d20287a3aeed659aa056abf697eb8ac87332f814ce124b0e8
+||jask.powerforxes.shop^$all
