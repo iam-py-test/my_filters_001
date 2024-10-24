@@ -2,11 +2,13 @@
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 22/10/2024
+! Last updated: 24/10/2024
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Tue, 22 Oct 2024 20:25:11 +0000
+! Thu, 24 Oct 2024 20:25:37 +0000
+||bitwelly.design/2.exe^$all
+||bitwelly.design/1.exe^$all
 ||assets.padmamuseum.gov.bd/css/7d26acda3d7c.exe^$all
 ||72.5.42.222/api/dll/zetta^$all
 ||files.catbox.moe/rutcsx.dhj^$all
@@ -106,5 +108,3 @@
 ||185.215.113.46/sauna/download.php^$all
 ||sly.fishoaks.net/data/pdf/june.exe^$all
 ||5.42.66.10/download/th/retail.php^$all
-||5.42.66.10/download/th/space.php^$all
-||5.42.66.10/download/123p.exe^$all
