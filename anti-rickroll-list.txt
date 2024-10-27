@@ -251,6 +251,8 @@
 ! YouTube shorts
 ||youtube.com/shorts/xHEgHjJvR94^$document,popup
 ||youtube.com/shorts/LNew965FXZs^$document,popup
+||youtube.com/shorts/3DSkcmAEjH4^$document,popup
+||youtube.com/embed/3DSkcmAEjH4?
 
 !More non-youtube rickroll videos
 ||vimeo.com/516035924^$document,frame
