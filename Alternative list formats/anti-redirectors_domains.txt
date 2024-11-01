@@ -262,3 +262,4 @@ xurl.app
 vipurl.pro
 slug.vercel.app
 bitly.cx
+feji.us
