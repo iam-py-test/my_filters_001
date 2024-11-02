@@ -1030,3 +1030,5 @@
 # https://github.com/hagezi/dns-blocklists/issues/4036
 0.0.0.0 storecommuinityworkshop.com
 0.0.0.0 steam.storecommuinityworkshop.com
+# https://www.virustotal.com/gui/url/0e48078e1cdb8e31d049da5561bf95caa0ccb93be457f8e479e330efda1b1641/community
+0.0.0.0 staemcomnnunity.com
