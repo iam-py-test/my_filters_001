@@ -132,6 +132,13 @@ def is_alive(domain, in_list=True):
                 return False
         except:
             pass
+    if domain.endswith(".builderall.net"):
+        try:
+            pagereq = requests.get(f"http://{domain}")
+            if pagereq.text == f"Website not found {domain}":
+                return False
+        except:
+            pass
     try:
         res_ips = list(dresolver.resolve(domain))
         found_ips = []
