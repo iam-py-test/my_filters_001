@@ -1,8 +1,19 @@
 76.223.54.146
 # https://github.com/hagezi/dns-blocklists/issues/3777
 13.248.169.48
-# 
+# https://github.com/uBlockOrigin/uAssets/issues/25944
 199.59.243.227
 31.42.186.54
 199.191.50.153
 89.40.70.21
+# https://github.com/uBlockOrigin/uAssets/commit/faf8f48a9437f5cfcbbed4ddc5a00dea39b34c0a#diff-7e8bc78cc2c2639fe0ddbd1757385b890c8518005342180ca4ce212422b2da06R3860
+# https://www.virustotal.com/gui/domain/skipthecommericals.xyz/relations
+199.59.243.227
+146.59.34.227
+51.79.74.96
+199.59.243.227
+94.23.47.113
+192.99.39.78
+94.23.47.113
+192.99.39.78
+91.121.133.194
