@@ -724,3 +724,6 @@ pepper.pl##+js(href-sanitizer, a[href*="https://www.pepper.pl/visit/"][title^="h
 
 ! https://www.bleepingcomputer.com/news/security/googles-mysterious-searchapp-links-leave-android-users-concerned/
 ||search.app^$document
+
+! https://github.com/AdguardTeam/FiltersRegistry/issues/1036
+||spoo.me^$document
