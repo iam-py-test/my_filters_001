@@ -520,3 +520,5 @@
 0.0.0.0 feji.us
 # https://www.bleepingcomputer.com/news/security/googles-mysterious-searchapp-links-leave-android-users-concerned/
 0.0.0.0 search.app
+# https://github.com/AdguardTeam/FiltersRegistry/issues/1036
+0.0.0.0 spoo.me
