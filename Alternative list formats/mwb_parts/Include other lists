@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 2024-11-10
-! Version: 20241110.1
+! Last updated: 2024-11-11
+! Version: 20241111.1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
@@ -15,46 +15,29 @@
 ! Title: The malicious website blocklist - extension
 ! Description: This is an extension to The malicious website blocklist for uBlock Origin and AdGuard which includes rules which can not be added to the main blocklist
 ! WARNING: This list is _not_ intended to be used on its own, or to be manually added. This list is auto-included in the uBo/AdGuard version of The malicious website blocklist
-! Last updated: 28/1/2024
+! Last updated: 2024-11-11
+! Date format: YYYY-MM-DD
 
 ! ----- threats which can not or will not be blocked in the main list -----
 
 ! YouTube spam (i.e. on https://www.youtube.com/watch?v=K2AhNVdKq-A)
 ||youtube.com/channel/UCWW7EjmEmZzi6N6Y7YMUnzQ^$document
 ||youtube.com/channel/UCUYkrrkUcrrnLpmejhGmCvQ^$document
-||youtube.com/channel/UCxCLdWKpF6Q1xGF_fVW6t5g^$document
 ||youtube.com/channel/UCEBXm13iwQAXN2Kz4YV5rVQ^$document
-||youtube.com/channel/UCtjaY3UG_5KxQRMDUczFMXQ^$document
+||youtube.com/watch?v=u89U2U7TJ18^$all
+||youtube.com/@Mascot_cyberpunk^$all
 ||youtube.com/channel/UC3Iqfjqv79rOqZcbrUBzB8Q^$document
 ||youtube.com/channel/UCR3GagpPBSlCegUOrlWiuqQ^$document
 ||youtube.com/channel/UC9o2JoFCpUBjxLxYSNLtIqw^$document
 ||youtube.com/channel/UCLJuDTN9-RwCKZfiTQSmQNw^$document
-||youtube.com/channel/UCcPnuqWCtMJK4rrVhTiDtlg^$document
-||youtube.com/channel/UCC_2xhblgtcA1YoS8Rr6mOQ^$document
-||youtube.com/channel/UCSr4quHpOpm0mwPQ4_0wz1g^$document
-||youtube.com/channel/UCzynpoHU3QF4nw4AYTY8CsA^$document
-||youtube.com/channel/UCXadJ8WXmlbeGbmxlY7foWg^$document
 ||youtube.com/channel/UCgSlARY1XMjOmBc_TWVIokQ^$document
-||youtube.com/channel/UCCUbeSnqfvdhGDnavmPO7vQ^$document
-||youtube.com/channel/UCXYuZPnivfpLQFol_-AMqEA^$document
-||youtube.com/channel/UC4BA48f2crsX-Gf1wMcb7eg^$document
-||youtube.com/channel/UCGWJ20THLElJxRU2EB4WBRQ^$document
-||youtube.com/channel/UCXcYQa5hgMic4EOo4syR8Nw^$document
 ||youtube.com/channel/UC90u7VCSfmLUvMJeuvbEz1g^$document
 ||youtube.com/channel/UCqV8bLGbLKvSUVDZtfEYz8g^$document
-||youtube.com/channel/UCUUKlL3uzVmFQ1vtd-jpAlw^$document
-||youtube.com/channel/UCA6vBoVGTXXLNCIq2Mp1tXA^$document
-||youtube.com/channel/UCf2aBb8v-q2jUg-kdAo_emQ^$document
-||youtube.com/channel/UC0cDYHKKI3WuHY6PT-YsBTw^$document
 ||youtube.com/channel/UCf9PTi384IFnBjH5FbGvoag^$document
-||youtube.com/channel/UCDTcPk8eNOP4FDTRTGFdo4A^$document
-||youtube.com/channel/UCslhNIF-vTeYnL4W8yg9F1Q^$document
-||youtube.com/channel/UCWjGB-2evM8AB9rj6fVxmcA^$document
 ||youtube.com/channel/UCNEuUGHoTTyt1247GzNdfbA^$document
 ||youtube.com/channel/UC1HVJDDHoSVcerD46K-J6ng^$document
 ||youtube.com/channel/UCGaMJeO7YClK_dmoHB4-BIw^$document
 ||youtube.com/channel/UCszV4lSIfrZVwZE1YiANUzw^$document
-||youtube.com/channel/UCyeh7kwrZGgmDUmkw1Svkuw^$document
 ||youtube.com/channel/UCWaneJzQcS5WhaaerEuSg1g^$document
 ||youtube.com/channel/UC8-4-iapLTjw-MUi72kaDiQ^$document
 ||youtube.com/channel/UC3qrUm-HpLdin8q-IGQ4UMQ^$document
@@ -350,6 +333,8 @@ $popup,third-party,domain=tii.la
 ! http://aeriview.life/?id=3e7abb98-92f1-47d7-817b-c3dbfcb7ec33&u=360&t={auct}
 /^https?:\/\/[a-zA-Z\-]*\.life\/\?id=[a-z0-9A-Z]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}&u=[0-9]{3}&t=\{auct\}$/$doc,domain=life
 
+! https://www.bleepingcomputer.com/news/security/scammers-target-uk-senior-citizens-with-winter-fuel-payment-texts/
+/^https?:\/\/winterpayment[a-zA-Z0-9]*\.top\//$doc,domain=top
 
 ! ---- malware or scam browser extensions -----
 
@@ -870,11 +855,11 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 10/11/2024
+! Last updated: 11/11/2024
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Sun, 10 Nov 2024 20:23:17 +0000
+! Mon, 11 Nov 2024 20:24:24 +0000
 ||github.com/clipaCHEAT/chaaa/raw/refs/heads/main/Built.exe^$all
 ||github.com/Abdulah345/pizdaporc/raw/refs/heads/main/XClient.exe^$all
 ||newvideo.link/temp/xnsjjxja.exe^$all
