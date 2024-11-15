@@ -4,7 +4,7 @@
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # Issues url: https://github.com/iam-py-test/my_filters_001/issues
 # GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-# Last updated: 2024-11-11
+# Last updated: 2024-11-15
 # https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 # https://virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
 # https://virustotal.com/gui/domain/xn--gogle-jua.com/detection
@@ -1034,3 +1034,21 @@
 0.0.0.0 staemcomnnunity.com
 # https://www.bleepingcomputer.com/news/security/scammers-target-uk-senior-citizens-with-winter-fuel-payment-texts/
 0.0.0.0 /^https?:\/\/winterpayment[a-za-z0-9]*\.top\//
+# https://github.com/hagezi/dns-blocklists/issues/4327
+0.0.0.0 airupbelgiums.com
+0.0.0.0 airup-bottlegreece.com
+0.0.0.0 airupbulgaria.com
+0.0.0.0 airupespana.com
+0.0.0.0 air-upfrance.com
+0.0.0.0 airupfrance.fr
+0.0.0.0 airup-gr.com
+0.0.0.0 airupgreece.net
+0.0.0.0 airupitaly.it
+0.0.0.0 airup-nederland.com
+0.0.0.0 airupnederlands.com
+0.0.0.0 airup-romania.com
+0.0.0.0 airupromania.ro
+0.0.0.0 airupsrbija.com
+0.0.0.0 air-up-turkiye.com
+0.0.0.0 xn--airupespaa-19a.com
+0.0.0.0 xn--airuptrkiye-yhb.com
