@@ -2,11 +2,13 @@
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 11/11/2024
+! Last updated: 14/11/2024
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Mon, 11 Nov 2024 20:24:24 +0000
+! Thu, 14 Nov 2024 20:25:52 +0000
+||aquafusion.com.co/ngbx/ngown.exe^$all
+||59.99.215.146/Mozi.m^$all
 ||github.com/clipaCHEAT/chaaa/raw/refs/heads/main/Built.exe^$all
 ||github.com/Abdulah345/pizdaporc/raw/refs/heads/main/XClient.exe^$all
 ||newvideo.link/temp/xnsjjxja.exe^$all
@@ -106,5 +108,3 @@
 ||179.43.190.218/mips^$all
 ||212.70.149.10/i686^$all
 ||twizt.net/shitload.exe^$all
-||5.42.66.10/download/th/Retailer_prog.exe^$all
-||jeuxviddeo.com/zyohg9odyvknmq9zlh^$all
