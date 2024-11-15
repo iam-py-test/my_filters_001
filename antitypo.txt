@@ -5,7 +5,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-! Last updated: 2024-11-11
+! Last updated: 2024-11-15
 
 ! https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 ! https://virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
@@ -1241,3 +1241,22 @@
 
 ! https://www.bleepingcomputer.com/news/security/scammers-target-uk-senior-citizens-with-winter-fuel-payment-texts/
 /^https?:\/\/winterpayment[a-zA-Z0-9]*\.top\//$doc,domain=top
+
+! https://github.com/hagezi/dns-blocklists/issues/4327
+||airupbelgiums.com^$document
+||airup-bottlegreece.com^$document
+||airupbulgaria.com^$document
+||airupespana.com^$document
+||air-upfrance.com^$document
+||airupfrance.fr^$document
+||airup-gr.com^$document
+||airupgreece.net^$document
+||airupitaly.it^$document
+||airup-nederland.com^$document
+||airupnederlands.com^$document
+||airup-romania.com^$document
+||airupromania.ro^$document
+||airupsrbija.com^$document
+||air-up-turkiye.com^$document
+||xn--airupespaa-19a.com^$document
+||xn--airuptrkiye-yhb.com^$document
