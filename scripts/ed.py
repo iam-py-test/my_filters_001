@@ -140,6 +140,27 @@ def is_alive(domain, in_list=True):
         except:
             pass
     try:
+        pagereq = requests.get(f"http://{domain}")
+        if pagereq.url.endswith("/cgi-sys/suspendedpage.cgi"):
+            print(pagereq.url)
+            return False
+    except:
+        pass
+    try:
+        pagereq = requests.get(f"https://{domain}")
+        if pagereq.url.endswith("/cgi-sys/suspendedpage.cgi"):
+            print(pagereq.url)
+            return False
+    except:
+        pass
+    try:
+        pagereq = requests.get(f"http://{domain}:8080")
+        if pagereq.url.endswith("/cgi-sys/suspendedpage.cgi"):
+            print(pagereq.url)
+            return False
+    except:
+        pass
+    try:
         res_ips = list(dresolver.resolve(domain))
         found_ips = []
         for ip in res_ips:
