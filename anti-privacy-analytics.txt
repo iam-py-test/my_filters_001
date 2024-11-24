@@ -1,7 +1,7 @@
 ! Title: Anti-"Private analytics"
 ! Description: In recent times, there has been a rise in analytics companies using privacy as part of their marketing. While these analytics pretend to be "privacy preserving", such is not the case. While EasyPrivacy and Peter Lowe block most of these already, this list aims to target them
 ! Expires: 2 days
-! Last updated: 2024-10-1
+! Last updated: 2024-11-24
 ! More info: https://youtu.be/-KkMWUaajhU?t=15900
 ||gc.zgo.at^
 ||goatcounter.com^$third-party
@@ -693,6 +693,10 @@
 ||stats.i-web.ch^
 ||analytics.mairie-niort.com^
 
+! https://github.com/hagezi/dns-blocklists/issues/4418
+||p.catppuccin.com^
+||matomo.acmodasi.com^
+
 ! bug tracking software
 
 ! sentry
@@ -703,4 +707,5 @@
 /api/2/envelope/?sentry_key=
 ! https://github.com/hagezi/dns-blocklists/issues/3607
 ||sentry.contabo.net^
-
+! https://github.com/hagezi/dns-blocklists/issues/4418
+||sentry.5nix.com^
