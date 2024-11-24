@@ -582,6 +582,9 @@ track.martronic.ch
 stats4.i-web.ch
 stats.i-web.ch
 analytics.mairie-niort.com
+p.catppuccin.com
+matomo.acmodasi.com
 sentry.io
 sentry.odysee.tv
 sentry.contabo.net
+sentry.5nix.com
