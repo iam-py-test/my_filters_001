@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 2024-11-24
-! Version: 20241124.2
+! Last updated: 2024-12-1
+! Version: 2024121.1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
@@ -855,11 +855,13 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 26/11/2024
+! Last updated: 01/12/2024
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Tue, 26 Nov 2024 20:27:14 +0000
+! Sun, 01 Dec 2024 20:25:39 +0000
+||185.7.78.88/bot.arm^$all
+||mapimwp.org/wp-content/images/pic8.jpg^$all
 ||nasa.r2cloudhikepoo2.shop/NHFMUBEFH4C9ARNQC6U9.bin^$all
 ||83.217.208.37/app/upd.exe^$all
 ||durraactive.com.my/wp-content/images/pic11.jpg^$all
@@ -959,8 +961,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||173.44.139.198/i6^$all
 ||site-nbg.com/Orcamento_HEJOASSUADMINISTRACAO_.PDF6784372024.exe^$all
 ||github.com/ExeXeam/Test/raw/main/Discord.exe^$all
-||bitbucket.org/silentdown/kadzumi/downloads/Silent.exe^$all
-||spy-ware-dudu.squareweb.app/donwload^$all
 
 
 
