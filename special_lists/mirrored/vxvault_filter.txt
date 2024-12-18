@@ -2,11 +2,16 @@
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 15/12/2024
+! Last updated: 17/12/2024
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Sun, 15 Dec 2024 20:25:38 +0000
+! Tue, 17 Dec 2024 20:26:26 +0000
+||185.81.68.147/Build.exe^$all
+||185.81.68.147/zx.exe^$all
+||185.81.68.147/ssg.exe^$all
+||185.81.68.147/Update.exe^$all
+||kiltone.top/stelin/Gosjeufon.cpl^$all
 ||dominikatracy.com/audidg.exe^$all
 ||zakazbuketov.kz/audiodf.exe^$all
 ||80.82.65.70/dl?name=mixthree.exe^^$all
@@ -103,8 +108,3 @@
 ||147.78.103.195/YU5FcDWihk^$all
 ||147.78.103.195/XdYLSM59XW^$all
 ||93.123.39.98/bins/sora.mips^$all
-||147.78.103.195/gjui^$all
-||93.123.39.20/bins/r.x86^$all
-||147.78.103.177/arm6^$all
-||45.142.182.70/arc^$all
-||103.228.37.56/most-x86^$all
