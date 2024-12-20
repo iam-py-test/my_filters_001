@@ -282,3 +282,6 @@
 ! search engine spam
 ||n7p28.com^$document
 
+! https://github.com/hagezi/dns-blocklists/issues/4654
+||crm-b2c-26477.de^$document
+

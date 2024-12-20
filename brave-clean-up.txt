@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results, along with other annoyances
 ! Expires: 1 day
 ! Last updated: 2023-4-7
-! Last auto-generated: 18/12/2024
+! Last auto-generated: 20/12/2024
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -4417,6 +4417,7 @@ search.brave.com##div.fdb.snippet:has(a[href*="://pumpfun.cx"])
 search.brave.com##div.fdb.snippet:has(a[href*="://pumpfun.so"])
 search.brave.com##div.fdb.snippet:has(a[href*="://amlbot.request.report"])
 search.brave.com##div.fdb.snippet:has(a[href*="://comdinew.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://paquet1nfopabox.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublockerext.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://quatrefeuillepolonaise.xyz"])
@@ -4680,9 +4681,7 @@ search.brave.com##div.fdb.snippet:has(a[href*="://shortnewsinfo.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://viewty.xyz"])
 search.brave.com##div.fdb.snippet:has(a[href*="://landing.marketstm.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://discrode-gifte.club"])
-search.brave.com##div.fdb.snippet:has(a[href*="://hu-video.xyz"])
 search.brave.com##div.fdb.snippet:has(a[href*="://bs-video.xyz"])
-search.brave.com##div.fdb.snippet:has(a[href*="://xa-video.xyz"])
 search.brave.com##div.fdb.snippet:has(a[href*="://video-cd.xyz"])
 search.brave.com##div.fdb.snippet:has(a[href*="://gm-video.xyz"])
 search.brave.com##div.fdb.snippet:has(a[href*="://iamoney.xyz"])
@@ -11211,6 +11210,7 @@ search.brave.com##div.fdb.snippet:has(a[href*="://miracrookshanks.ru.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://bethanfreedland.ru.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://1000fapvids.online"])
 search.brave.com##div.fdb.snippet:has(a[href*="://n7p28.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://crm-b2c-26477.de"])
 search.brave.com##div.fdb.snippet:has(a[href*="://csgo.xyz"])
 search.brave.com##div.fdb.snippet:has(a[href*="://brightdata.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://brightdata.de"])
