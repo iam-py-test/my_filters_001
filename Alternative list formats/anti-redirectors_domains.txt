@@ -265,3 +265,4 @@ bitly.cx
 feji.us
 search.app
 spoo.me
+qrco.de
