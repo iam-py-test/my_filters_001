@@ -1702,6 +1702,7 @@ pumpfun.homes
 pumpfun.cx
 pumpfun.so
 amlbot.request.report
+comdinew.com
 extragifis.site
 captcharesolver.com
 cpmstatsart.com
