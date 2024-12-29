@@ -1701,6 +1701,7 @@ proai.club
 pumpfun.homes
 pumpfun.cx
 pumpfun.so
+amlbot.request.report
 extragifis.site
 captcharesolver.com
 cpmstatsart.com
@@ -4974,6 +4975,8 @@ mcdreward.com
 localmeets.link
 ddbca.localmeets.link
 relationsbuddy.com
+hardabbuy.live
+hasnegtiny.live
 manpurerely.live
 hookupsconnect.com
 fitflirts.com
@@ -5046,7 +5049,6 @@ hirsuttic.com
 uncality.com
 bbcrossworld.com
 img.bbcrossworld.com
-e-touristvisaindia.com
 evisasindia.org
 onlinevisa.com
 downloaditop.com
