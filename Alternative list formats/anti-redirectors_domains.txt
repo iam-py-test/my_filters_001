@@ -266,3 +266,5 @@ feji.us
 search.app
 spoo.me
 qrco.de
+encurtador.com.br
+www.encurtador.com.br

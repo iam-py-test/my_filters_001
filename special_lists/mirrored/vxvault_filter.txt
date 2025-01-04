@@ -2,11 +2,12 @@
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 29/12/2024
+! Last updated: 03/01/2025
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Sun, 29 Dec 2024 20:23:13 +0000
+! Fri, 03 Jan 2025 20:24:33 +0000
+||194.37.81.64/Aqua.x86_64^$all
 ||185.81.68.147/Build.exe^$all
 ||185.81.68.147/zx.exe^$all
 ||185.81.68.147/ssg.exe^$all
@@ -107,4 +108,3 @@
 ||147.78.103.195/ivy5dNMhe9^$all
 ||147.78.103.195/YU5FcDWihk^$all
 ||147.78.103.195/XdYLSM59XW^$all
-||93.123.39.98/bins/sora.mips^$all
