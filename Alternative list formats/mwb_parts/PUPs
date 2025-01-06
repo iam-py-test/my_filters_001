@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 2025-1-3
-! Version: 202513.1
+! Last updated: 2025-1-6
+! Version: 202516.1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
@@ -870,12 +870,20 @@
 ! https://spyware.neocities.org/articles/ccleaner
 ||ccleaner.com^$document
 
-! https://nitter.net/gorhill/status/1352651716265713665
+! https://github.com/uBlockOrigin/uAssets/issues/13566
+! https://web.archive.org/web/20220220102436/https://twitter.com/gorhill/status/1352651716265713665
 ! https://palant.info/2020/10/28/what-would-you-risk-for-free-honey/
 ! https://infosec.exchange/@iampytest1/111069238525172731
 ! https://github.com/hagezi/dns-blocklists/issues/4666
 ! https://github.com/StevenBlack/hosts/issues/2792
+! https://storage.courtlistener.com/recap/gov.uscourts.cand.441974/gov.uscourts.cand.441974.9.0_1.pdf (see also https://techcrunch.com/2025/01/05/youtuber-legaleagle-sues-paypal-over-sleeping-leech-honey-extension/ and https://infosec.exchange/@iampytest1/113782185134949815)
+! https://www.heise.de/news/YouTuber-Mit-Honey-zu-arbeiten-war-sehr-einfach-10225641.html
 ||joinhoney.com^$document
+||honey.io^$document
+! from the TLS cert of supra
+||joinhoney.app^$document
+||joinhoney.co.uk^$document
+||joinhoney.com.au^$document
 
 ! https://tria.ge/230821-2bt5maad51/behavioral1
 ! https://web.archive.org/web/20231120191617/https://forums.malwarebytes.com/topic/304687-pupoptionalfortect/
