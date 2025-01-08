@@ -623,6 +623,8 @@
 0.0.0.0 nerdpol.ovh
 # https://github.com/iam-py-test/my_filters_001/issues/130
 0.0.0.0 myfritz.link
+# https://www.addr.tools/
 0.0.0.0 myaddr.tools
 0.0.0.0 myaddr.dev
 0.0.0.0 myaddr.io
+0.0.0.0 dyn.addr.tools
