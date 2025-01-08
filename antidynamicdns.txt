@@ -623,6 +623,8 @@
 ||nerdpol.ovh^$document
 ! https://github.com/iam-py-test/my_filters_001/issues/130
 ||myfritz.link^$document
+! https://www.addr.tools/
 ||myaddr.tools^$document
 ||myaddr.dev^$document
 ||myaddr.io^$document
+||dyn.addr.tools^$document
