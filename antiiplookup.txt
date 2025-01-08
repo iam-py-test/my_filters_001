@@ -1,7 +1,8 @@
 # Title: IP Lookup service blocklist (beta)
-# Description: This list is designed to block services which allow any lookup of your IP, including those which are not abused or lack an API. This is designed to be used at the system or network level, as it provides little protection at the browser level
+# Description: This list is designed to block services which allow any lookup of your IP, including those which are not abused or lack an API. This is designed to be used at the system or network level, as it provides little protection at the browser level.
 # Expires: 10 days
 # Note: There is nothing inherently bad about these services, but they are sometimes abused by malware and can present a privacy risk
+# Note 2: No filterlist can prevent a website from knowing your IP - your IP is sent with every network connection because it is needed for the connections to work. This list just blocks common services used for this, which may cover common malware and trackers because they are easy to use and often free. However, note any malware can just use it's own C2 server to get your IP, and every website you visit already knows your IP.
 0.0.0.0 geoplugin.net
 0.0.0.0 api.ip.sb
 0.0.0.0 api.2ip.ua
@@ -103,3 +104,8 @@
 # https://github.com/hagezi/dns-blocklists/issues/3031
 0.0.0.0 geo.sppopups.com
 0.0.0.0 geo.wdgtsrc.com
+# https://myip.addr.tools/help
+# from the same person/company as https://github.com/iam-py-test/my_filters_001/issues/130#issuecomment-2577947065
+0.0.0.0 myip.addr.tools
+0.0.0.0 myipv4.addr.tools
+0.0.0.0 myipv6.addr.tools
