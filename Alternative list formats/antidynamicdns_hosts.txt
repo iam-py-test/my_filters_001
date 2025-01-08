@@ -1,6 +1,6 @@
 # Title: Anti-Dynamic DNS
 # Expires: 4 days
-# Version: 2025-1-6.1
+# Version: 2025-1-8.1
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # Description: Dynamic DNS providers are often abused by malware and phishing. While these do have legit uses, some people may wish to block them completly
 # Note: This list blocks ALL use of listed services, not just abuse. All Dynamic DNS services should be listed, regardless of abuse
@@ -623,3 +623,6 @@
 0.0.0.0 nerdpol.ovh
 # https://github.com/iam-py-test/my_filters_001/issues/130
 0.0.0.0 myfritz.link
+0.0.0.0 myaddr.tools
+0.0.0.0 myaddr.dev
+0.0.0.0 myaddr.io

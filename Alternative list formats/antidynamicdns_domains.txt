@@ -611,3 +611,6 @@ ydns.io
 dynme.ovh
 nerdpol.ovh
 myfritz.link
+myaddr.tools
+myaddr.dev
+myaddr.io
