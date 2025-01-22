@@ -1267,4 +1267,5 @@
 ! https://agora.echelon.pl/objects/310d887d-e111-48a4-9331-bc9e6b8cdd3b
 ! https://x.com/ryanchenkie/status/1880730173634699393
 ||brewe.sh^$all
+! https://masto.deoan.org/@neurovagrant/113857415001588398
 ||brewmacos.com^$document
