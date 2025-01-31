@@ -62,7 +62,9 @@
 0.0.0.0 ipbase.com
 0.0.0.0 api.ipbase.com
 # https://forums.lanik.us/viewtopic.php?t=48351-app-ipgeolocation-io
+# https://github.com/hagezi/dns-blocklists/issues/5050
 0.0.0.0 ipgeolocation.io
+0.0.0.0 api.ipgeolocation.io
 # https://github.com/hagezi/dns-blocklists/issues/1873
 0.0.0.0 country.jimdo.com
 # https://github.com/hagezi/dns-blocklists/issues/1886
