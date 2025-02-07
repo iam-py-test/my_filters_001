@@ -1269,3 +1269,6 @@
 ||brewe.sh^$all
 ! https://masto.deoan.org/@neurovagrant/113857415001588398
 ||brewmacos.com^$document
+
+! https://atomicpoet.org/objects/0a89b5d5-b1f0-4b2c-85ef-23007f842231
+||mostodon.social^$all
