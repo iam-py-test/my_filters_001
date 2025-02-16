@@ -2,11 +2,16 @@
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 13/01/2025
+! Last updated: 15/02/2025
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Mon, 13 Jan 2025 20:24:49 +0000
+! Sat, 15 Feb 2025 20:22:43 +0000
+||github.com/temperloin/piponis/raw/refs/heads/main/plrifjidicfid.exe^$all
+||github.com/temperloin/piponis/raw/refs/heads/main/jtunuhhrr.exe^$all
+||github.com/temperloin/piponis/raw/refs/heads/main/jrirkfiweid.exe^$all
+||filter.trueddns.com/x/encode/ntoskrnl.b64^$all
+||github.com/BalletsPistol/d9fb74g8db7d8b7db48df7g8db77f4drb7er8db7fd84d7b1gdb47d8b7brt18bcy87gdfb8hfg74h87fh8bf18h7/raw/refs/heads/main/Encryptor.exe^$all
 ||194.37.81.64/Aqua.x86_64^$all
 ||185.81.68.147/Build.exe^$all
 ||185.81.68.147/zx.exe^$all
@@ -103,8 +108,3 @@
 ||universalmovies.top/john.scr^$all
 ||147.78.103.184/sparc^$all
 ||93.123.39.110/softbot.x86^$all
-||204.137.14.135/s2.exe^$all
-||147.78.103.195/ws8ioUp8Us^$all
-||147.78.103.195/ivy5dNMhe9^$all
-||147.78.103.195/YU5FcDWihk^$all
-||147.78.103.195/XdYLSM59XW^$all

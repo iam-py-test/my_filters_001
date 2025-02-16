@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 2025-1-14
-! Version: 2025114.3
+! Last updated: 2025-2-16
+! Version: 2025216.1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
@@ -6866,8 +6866,9 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ! https://tria.ge/240908-r6svyathjh/behavioral1
 ||hookupsconnect.com^$all
 ||hfa.hookupsconnect.com^$all
-||info-extremechat.com^$document
-||promo.info-extremechat.com^$document
+||info-extremechat.com^$all
+||promo.info-extremechat.com^$all
+||promo3.info-extremechat.com^$all
 
 ! https://tria.ge/240908-s5knlstgjp/behavioral1
 ||fitflirts.com^$all
@@ -7216,4 +7217,17 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ! https://www.trustpilot.com/review/paidwings.ag
 ! https://www.justanswer.co.uk/ireland-law/f3uhk-signed-dating-site-company-named-paidwings.html
 ||UK-Mums.com^$all
+
+! promoted by a fake version of the McAfee account - officialmcarfee
+||t.me/AIntivirusHQ/MCAFEE^$all
+
+! https://tria.ge/250215-qd3n1a1pgk/behavioral1
+||simplymatches.com^$all
+||8pm.simplymatches.com^$all
+||info-mymilfs.com^$all
+||promo.info-mymilfs.com^$all
+||ad-extremesite.com^$all
+||www.ad-extremesite.com^$all
+! owned by the same company
+||bbwdates24.com^$all
 
