@@ -4,7 +4,7 @@
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # Issues url: https://github.com/iam-py-test/my_filters_001/issues
 # GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-# Last updated: 2024-11-22
+# Last updated: 2025-2-7
 # https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 # https://virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
 # https://virustotal.com/gui/domain/xn--gogle-jua.com/detection
@@ -1054,3 +1054,14 @@
 0.0.0.0 xn--airuptrkiye-yhb.com
 # https://github.com/mitchellkrogza/phishing/pull/513
 0.0.0.0 /^https:\/\/usps.com-expres[a-za-z0-9]\.top\//
+# https://agora.echelon.pl/objects/310d887d-e111-48a4-9331-bc9e6b8cdd3b
+# https://x.com/ryanchenkie/status/1880730173634699393
+0.0.0.0 brewe.sh
+# https://masto.deoan.org/@neurovagrant/113857415001588398
+0.0.0.0 brewmacos.com
+# https://atomicpoet.org/objects/0a89b5d5-b1f0-4b2c-85ef-23007f842231
+0.0.0.0 mostodon.social
+# https://github.com/hagezi/dns-blocklists/issues/5112
+0.0.0.0 vencord.app
+0.0.0.0 newpipe.app
+0.0.0.0 revanced-extended.com
