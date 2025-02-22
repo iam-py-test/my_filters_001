@@ -3,5 +3,6 @@
 ||weewae.top^$document
 ||qwerggre.top^$document
 ||muydrth.top^$document
+||group-teneta.online^$document
 ||usabangpalace.com^$all
 ||spoo.me^$document
