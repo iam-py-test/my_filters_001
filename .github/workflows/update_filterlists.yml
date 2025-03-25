@@ -31,7 +31,7 @@ jobs:
         python scripts/checksum.py
         python scripts/mwb_parts.py antimalware.txt "Alternative list formats/mwb_parts"
         echo running entry dating
-        python -vvv scripts/ed.py
+        #python -vvv scripts/ed.py
         rm -rf .tranco
     - name: Commit & Push
       uses: actions-x/commit@v6
