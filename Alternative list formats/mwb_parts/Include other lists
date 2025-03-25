@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 2025-2-25
-! Version: 2025225.1
+! Last updated: 2025-3-25
+! Version: 2025325.1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
@@ -855,11 +855,20 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 24/02/2025
+! Last updated: 25/03/2025
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Mon, 24 Feb 2025 20:26:17 +0000
+! Tue, 25 Mar 2025 20:27:26 +0000
+||31.170.22.205/bins/whisper.x64^$all
+||196.251.115.212/x86_64^$all
+||github.com/deripascod/coderoom/raw/refs/heads/main/kythkkaewdth.exe^$all
+||raw.githubusercontent.com/XeroxzB/weqeq/main/XClient.exe^$all
+||62.60.226.112/file/590_9883.exe^$all
+||recursoscompartidos.xyz/pora/csc.exe^$all
+||176.65.134.5/arm^$all
+||176.65.134.62/bins/morte.x86^$all
+||hybridemails.ae/esign-app.exe^$all
 ||37.44.238.88/l7vmra^$all
 ||37.44.238.88/spim^$all
 ||185.232.205.104/bins/g4za.arm7^$all
@@ -952,15 +961,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||198.23.165.253/shindex86^$all
 ||b46.oss-cn-hongkong.aliyuncs.com/config/qNVQKFyM.exe^$all
 ||77.91.77.82/lend/ama.exe^$all
-||77.91.77.82/lend/deep.exe^$all
-||45.148.10.78/x86^$all
-||penisware.com/r77/Install.exe^$all
-||penisware.com/venom/penisware2.exe^$all
-||penisware.com/xworm/sdchost.exe^$all
-||penisware.com/venom/scchost.exe^$all
-||o7labs.top/visual/blob.exe^$all
-||o7labs.top/visual/bin.exe^$all
-||147.78.103.47/bins/jew.ppc^$all
 
 
 
