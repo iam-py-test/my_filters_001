@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results, along with other annoyances
 ! Expires: 1 day
 ! Last updated: 2023-4-7
-! Last auto-generated: 26/03/2025
+! Last auto-generated: 27/03/2025
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -4475,6 +4475,7 @@ search.brave.com##div.fdb.snippet:has(a[href*="://vodlist.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://zobaczfilm.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://food-network.fwh.is"])
 search.brave.com##div.fdb.snippet:has(a[href*="://virginmoney-livesupport.web.app"])
+search.brave.com##div.fdb.snippet:has(a[href*="://primakovreadings.info"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublockerext.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://quatrefeuillepolonaise.xyz"])
