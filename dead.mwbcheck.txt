@@ -1687,6 +1687,7 @@ teneta.join-group.online
 helperanalytics.ru
 teneta.group
 group.kropyva.site
+sportsspot-moviebuffs.com
 extragifis.site
 captcharesolver.com
 cpmstatsart.com
@@ -2617,8 +2618,6 @@ bestdatingsforyou.life
 findsoulmate.life
 instinctdating.life
 delightdatings.life
-delightflirt.life
-delightdating.life
 bestflirtzone.life
 lover-finder.life
 adidas-budapest.com
