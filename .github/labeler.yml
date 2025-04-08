@@ -50,11 +50,6 @@ custom:
       - remove
   - location: body
     keywords:
-      - 'unblock'
-    labels:
-      - remove
-  - location: body
-    keywords:
       - 'avoid blocking'
     labels:
       - remove
