@@ -426,7 +426,7 @@ for e in domain_list:
             if "NS" not in entry_data[e]:
                 entry_data[e]['NS'] = get_dns_record(e, 'NS')
             if "tranco_rank" not in entry_data[e]:
-                 try:
+                try:
                     tranco_rank = tranco_list.rank(e)
                     entry_data[e]['tranco_rank'] = tranco_rank
                     entry_data[e]['tranco_rank_added_on'] = current_date
