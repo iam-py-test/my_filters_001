@@ -97,8 +97,11 @@ def is_alive(domain, in_list=True):
         return True
     if domain.endswith(".onion"): # can't test onions yet
         return True
-    if tranco_list.rank(domain) != -1:
-        return True
+    try:
+        if tranco_list.rank(domain) != -1:
+            return True
+    except:
+        pass
     if domain.endswith(".github.io"):
         try:
             username = domain.replace(".github.io", "")
