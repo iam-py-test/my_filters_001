@@ -17,9 +17,12 @@ dresolver = dns.resolver.Resolver()
 print("CREATED dresolver")
 dresolver.nameservers = ["https://unfiltered.adguard-dns.com/dns-query","94.140.14.140", "8.8.8.8","1.1.1.1"]
 print("SETUP resolver")
-trancoobject = Tranco(cache=False)
-tranco_list = trancoobject.list()
-print("LOADED tranco")
+try:
+    trancoobject = Tranco(cache=False)
+    tranco_list = trancoobject.list()
+    print("LOADED tranco")
+except Exception as err:
+    print("Failed to load tranco",err)
 already_resolved = {}
 known_whois = {}
 parked_domains = []
@@ -334,6 +337,11 @@ for e in domain_list:
             "LOC": get_dns_record(e, "LOC"), # unlikely
             "parked": e in parked_domains
         }
+        try:
+            tranco_rank = tranco_list.rank(e)
+            entry_data[e]['tranco_rank'] = tranco_rank
+        except:
+            entry_data[e]['tranco_rank'] = None
         entry_data[e]['subdomain_status'] = {}
         if e in root_domains:
             for subdomain in root_domains[e]:
@@ -417,6 +425,13 @@ for e in domain_list:
                 entry_data[e]['TXT'] = get_dns_record(e, 'TXT')
             if "NS" not in entry_data[e]:
                 entry_data[e]['NS'] = get_dns_record(e, 'NS')
+            if "tranco_rank" not in entry_data[e]:
+                 try:
+                    tranco_rank = tranco_list.rank(e)
+                    entry_data[e]['tranco_rank'] = tranco_rank
+                    entry_data[e]['tranco_rank_added_on'] = current_date
+                except:
+                    pass
         if entry_data[e]["check_status"] == False and last_check_status == False:
             dead_domains.append(e)
 print("Done with part 1")
@@ -429,6 +444,13 @@ for e in entry_data:
                 entry_data[e]["removed"] = True
                 entry_data[e]["removed_date"] = current_date
                 entry_data[e]["alive_on_removal"] = is_alive(e, False)
+                if "tranco_rank" not in entry_data[e]:
+                    try:
+                        tranco_rank = tranco_list.rank(e)
+                        entry_data[e]['tranco_rank'] = tranco_rank
+                        entry_data[e]['tranco_rank_added_on'] = current_date
+                    except:
+                        pass
         except Exception as err:
             print(err, e, entry_data[e])
 print("Done with part 2")
