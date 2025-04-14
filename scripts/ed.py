@@ -23,6 +23,13 @@ try:
     print("LOADED tranco")
 except Exception as err:
     print("Failed to load tranco",err)
+    try:
+        yesterday_dateobj = datetime.datetime.now().replace(day=datetime.datetime.now().day-1)
+        trancoobject = Tranco(cache=False,date=f"{yesterday_dateobj.year}-{yesterday_dateobj.month}-{yesterday_dateobj.day}")
+        tranco_list = trancoobject.list()
+        print("LOADED tranco from yesterday!")
+    except Exception as err:
+        print("Failed to load tranco with yesterday's date",err,datetime.datetime.now().day)
 already_resolved = {}
 known_whois = {}
 parked_domains = []
