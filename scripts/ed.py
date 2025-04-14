@@ -344,7 +344,7 @@ for e in domain_list:
             tranco_rank = tranco_list.rank(e)
             entry_data[e]['tranco_rank'] = tranco_rank
         except:
-            entry_data[e]['tranco_rank'] = None
+            pass
         entry_data[e]['subdomain_status'] = {}
         if e in root_domains:
             for subdomain in root_domains[e]:
@@ -370,6 +370,15 @@ for e in domain_list:
                 entry_data[e]["readd"] = current_date
                 entry_data[e]["origin_add"] = entry_data[e]["first_seen"]
                 entry_data[e]["origin_removed_date"] = entry_data[e]["last_seen"]
+        if "tranco_rank" in entry_data[e] and entry_data[e]['tranco_rank'] == None:
+            try:
+                print(f"{e} failed to get a tranco rank when added. Adding rank...")
+                entry_data[e]["check_counter"] += 1
+                tranco_rank = tranco_list.rank(e)
+                entry_data[e]['tranco_rank'] = tranco_rank
+            except:
+                print("Failed")
+                entry_data[e]["check_counter"] += 5
         for ip in entry_data[e]["ips"]:
             if ip in parked_ips:
                 print(f"{e} is - and has always been - parked. Forcing recheck")
