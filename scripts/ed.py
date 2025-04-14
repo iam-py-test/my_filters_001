@@ -167,6 +167,20 @@ def is_alive(domain, in_list=True):
     except:
         pass
     try:
+        pagereq = requests.get(f"http://{domain}/lander")
+        if "https://www.godaddy.com/forsale/" in pagereq.text or pagereq.url.startswith("https://www.godaddy.com/forsale/"):
+            parked_domains.append(domain)
+            return False
+    except:
+        pass
+    try:
+        pagereq = requests.get(f"https://{domain}/lander")
+        if "https://www.godaddy.com/forsale/" in pagereq.text or pagereq.url.startswith("https://www.godaddy.com/forsale/"):
+            parked_domains.append(domain)
+            return False
+    except:
+        pass
+    try:
         res_ips = list(dresolver.resolve(domain))
         found_ips = []
         for ip in res_ips:
