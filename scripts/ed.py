@@ -102,6 +102,19 @@ def is_alive(domain, in_list=True):
             return True
     except:
         pass
+    try:
+        res_ips = list(dresolver.resolve(domain))
+        found_ips = []
+        for ip in res_ips:
+            found_ips.append(ip.address)
+            if ip.address in parked_ips:
+                print(f"{domain} is parked!", len(parked_domains))
+                parked_domains.append(domain)
+                return False
+        already_resolved[domain] = found_ips
+    except Exception:
+        return False
+    
     if domain.endswith(".github.io"):
         try:
             username = domain.replace(".github.io", "")
@@ -180,19 +193,9 @@ def is_alive(domain, in_list=True):
             return False
     except:
         pass
-    try:
-        res_ips = list(dresolver.resolve(domain))
-        found_ips = []
-        for ip in res_ips:
-            found_ips.append(ip.address)
-            if ip.address in parked_ips:
-                print(f"{domain} is parked!", len(parked_domains))
-                parked_domains.append(domain)
-                return False
-        already_resolved[domain] = found_ips
-        return True
-    except Exception:
-        return False
+    
+    return True
+
 
 def get_ips(domain):
     global already_resolved
@@ -396,7 +399,7 @@ for e in domain_list:
         for ip in entry_data[e]["ips"]:
             if ip in parked_ips:
                 print(f"{e} is - and has always been - parked. Forcing recheck")
-                entry_data[e]['check_counter'] = 40
+                entry_data[e]['check_counter'] = 100
         entry_data[e]["last_seen"] = current_date
         entry_data[e]["removed"] = False
         entry_data[e]["removed_date"] = ""
