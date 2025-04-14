@@ -110,7 +110,7 @@ def is_alive(domain, in_list=True):
             if ip.address in parked_ips:
                 print(f"{domain} is parked!", len(parked_domains))
                 parked_domains.append(domain)
-                return False
+                #return False
         already_resolved[domain] = found_ips
     except Exception:
         return False
@@ -183,6 +183,7 @@ def is_alive(domain, in_list=True):
         pagereq = requests.get(f"http://{domain}/lander")
         if "https://www.godaddy.com/forsale/" in pagereq.text or pagereq.url.startswith("https://www.godaddy.com/forsale/"):
             parked_domains.append(domain)
+            print('parked url redirect detected', pagereq.url)
             return False
     except:
         pass
@@ -190,6 +191,7 @@ def is_alive(domain, in_list=True):
         pagereq = requests.get(f"https://{domain}/lander")
         if "https://www.godaddy.com/forsale/" in pagereq.text or pagereq.url.startswith("https://www.godaddy.com/forsale/"):
             parked_domains.append(domain)
+            print('parked url redirect detected', pagereq.url)
             return False
     except:
         pass
