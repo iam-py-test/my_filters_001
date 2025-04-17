@@ -1688,7 +1688,9 @@ signals-group.com
 confirm-signal.site
 signal-protect.host
 teneta.join-group.online
+group-teneta.online
 helperanalytics.ru
+group-teneta.online
 teneta.group
 group.kropyva.site
 sportsspot-moviebuffs.com
@@ -1696,7 +1698,7 @@ date-girl.world
 virginmoney-livesupport.web.app
 anacondanz.com
 zdwtixh.xyz
-akademipraktik.com
+jesxterplay.run
 extragifis.site
 captcharesolver.com
 cpmstatsart.com
