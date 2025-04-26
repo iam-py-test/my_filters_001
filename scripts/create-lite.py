@@ -41,6 +41,8 @@ try:
 except:
   pass
 
+deaddomains = open("dead.mbwcheck.txt", encoding="UTF-8").read().split("\n")
+
 parse = None
 def parse(lines):
   global done_domains
@@ -69,6 +71,8 @@ def parse(lines):
         except:
           pass
         if psl.is_public(domain):
+          continue
+        if domain in deaddomains:
           continue
         rootdomain = psl.privatesuffix(domain)
         if rootdomain in done_domains or domain in done_domains:
