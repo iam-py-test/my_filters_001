@@ -41,7 +41,7 @@ try:
 except:
   pass
 
-deaddomains = open("dead.mbwcheck.txt", encoding="UTF-8").read().split("\n")
+deaddomains = open("dead.mwbcheck.txt", encoding="UTF-8").read().split("\n")
 
 parse = None
 def parse(lines):
