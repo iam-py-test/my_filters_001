@@ -299,6 +299,7 @@ for e in domain_list:
 print("GETTING COMMIT")
 last_commit = get_last_commit()
 print("GOT COMMIT, STARTING")
+"""
 for e in domain_list:
     #print(e, e in entry_data)
     if (e not in entry_data or type(entry_data[e]) == str) and e != "last_updated":
@@ -472,6 +473,7 @@ for e in domain_list:
                     pass
         if entry_data[e]["check_status"] == False and last_check_status == False:
             dead_domains.append(e)
+"""
 print("Done with part 1")
 for e in entry_data:
     if e not in domain_list and e != "last_updated" and e != "":
