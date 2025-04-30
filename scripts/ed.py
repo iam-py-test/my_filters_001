@@ -1,5 +1,5 @@
 print(f"{__file__} STARTED")
-#import dns, dns.resolver
+import dns.resolver
 print("IMPORTING NORMAL LIBS")
 import os, sys, json, datetime, socket, random, publicsuffixlist, ssl, requests, time, hashlib
 from tranco import Tranco
