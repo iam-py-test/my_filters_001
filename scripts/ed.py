@@ -1,8 +1,7 @@
 print(f"{__file__} STARTED")
 print("IMPORTING dns.resolver")
-dns = {
-    "resolver": __import__('dns.resolver')
-}
+dnsresolver = __import__('dns.resolver')
+print(dnsresolver)
 print("IMPORTING NORMAL LIBS")
 import os, sys, json, datetime, socket, random, publicsuffixlist, ssl, requests, time, hashlib
 from tranco import Tranco
@@ -16,7 +15,7 @@ dead_domains = []
 print("GETTING PSL")
 p = publicsuffixlist.PublicSuffixList(only_icann=True)
 print("GOT PSL, SETTING UP resolver")
-dresolver = dns.resolver.Resolver()
+dresolver = dnsresolver.Resolver()
 print("CREATED dresolver")
 dresolver.nameservers = ["https://unfiltered.adguard-dns.com/dns-query","94.140.14.140", "8.8.8.8","1.1.1.1"]
 print("SETUP resolver")
