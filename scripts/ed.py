@@ -15,7 +15,7 @@ dead_domains = []
 print("GETTING PSL")
 p = publicsuffixlist.PublicSuffixList(only_icann=True)
 print("GOT PSL, SETTING UP resolver")
-dresolver = dnsresolver.resolver.Resolver()
+#dresolver = dnsresolver.resolver.Resolver()
 print("CREATED dresolver")
 dresolver.nameservers = ["https://unfiltered.adguard-dns.com/dns-query","94.140.14.140", "8.8.8.8","1.1.1.1"]
 print("SETUP resolver")
