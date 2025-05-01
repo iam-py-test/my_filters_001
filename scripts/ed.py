@@ -301,7 +301,7 @@ for e in domain_list:
 print("GETTING COMMIT")
 last_commit = get_last_commit()
 print("GOT COMMIT, STARTING")
-"""
+
 for e in domain_list:
     #print(e, e in entry_data)
     if (e not in entry_data or type(entry_data[e]) == str) and e != "last_updated":
@@ -435,7 +435,7 @@ for e in domain_list:
                 except:
                     pass
 
-        if entry_data[e]["check_counter"] > 70 and False: # will revert back to 50 soon
+        if entry_data[e]["check_counter"] > 90 and False: # will revert back to 50 soon
             print(f"Checking {e}...", "previous status", entry_data[e]["check_status"], "last check", entry_data[e]["last_checked"])
             domain_is_alive = is_alive(e, True)
             if "check_history" not in entry_data[e]:
@@ -475,7 +475,7 @@ for e in domain_list:
                     pass
         if entry_data[e]["check_status"] == False and last_check_status == False:
             dead_domains.append(e)
-"""
+
 print("Done with part 1")
 for e in entry_data:
     if e not in domain_list and e != "last_updated" and e != "":
