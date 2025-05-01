@@ -411,7 +411,7 @@ for e in domain_list:
         for ip in entry_data[e]["ips"]:
             if ip in parked_ips:
                 print(f"{e} is - and has always been - parked. Forcing recheck")
-                entry_data[e]['check_counter'] = 100
+                entry_data[e]['parked'] = True
         entry_data[e]["last_seen"] = current_date
         entry_data[e]["removed"] = False
         entry_data[e]["removed_date"] = ""
@@ -486,6 +486,7 @@ for e in entry_data:
                 entry_data[e]["removed"] = True
                 entry_data[e]["removed_date"] = current_date
                 entry_data[e]["alive_on_removal"] = is_alive(e, False)
+                entry_data[e]['removed_commit'] = last_commit
                 if "tranco_rank" not in entry_data[e]:
                     try:
                         tranco_rank = tranco_list.rank(e)
