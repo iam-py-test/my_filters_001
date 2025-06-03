@@ -74,7 +74,7 @@ def mkalt(file,alt):
           continue
         alt.write("{}\n".format(domain))
         if domain in donedomains:
-          reddomains.append(line)
+          reddomains.append(domain)
         donedomains.append(domain)
         alldomains[file].append(domain)
         allentries[file].append(domain)
