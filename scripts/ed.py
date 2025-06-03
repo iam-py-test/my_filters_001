@@ -423,7 +423,7 @@ for e in domain_list:
             entry_data[e]["check_counter"] = 40 # force recheck
         if "times_died" not in entry_data[e]:
             entry_data[e]['times_died'] = 0
-        entry_data[e]["check_counter"] += 1
+        #entry_data[e]["check_counter"] += 1
         last_check_status = entry_data[e]["check_status"]
         entry_data[e]['subdomain_status'] = {}
         if e in root_domains:
@@ -433,7 +433,7 @@ for e in domain_list:
                 except:
                     pass
 
-        if entry_data[e]["check_counter"] > 90: # will revert back to 50 soon
+        if entry_data[e]["check_counter"] > 90 and False: # will revert back to 50 soon
             print(f"Checking {e}...", "previous status", entry_data[e]["check_status"], "last check", entry_data[e]["last_checked"])
             domain_is_alive = is_alive(e, True)
             if "check_history" not in entry_data[e]:
