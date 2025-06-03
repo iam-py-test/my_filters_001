@@ -132,45 +132,43 @@ def is_alive(domain, in_list=True):
                 return False
         except:
             pass
+    try:
+        plain_http_req = requests.get(f"http://{domain}")
+    except:
+        plain_http_req = None
     if domain.endswith(".itch.io") or domain.endswith(".appspot.com") or domain.endswith(".squarespace.com") or domain.endswith(".web.app") or domain.endswith(".weeblysite.com") or domain.endswith(".square.site") or domain.endswith(".webflow.io") or domain.endswith(".firebaseio.com") or domain.endswith(".vercel.app") or domain.endswith(".studio.site"):
         try:
-            userreq = requests.get(f"http://{domain}")
-            if userreq.status_code == 404:
+            if plain_http_req.status_code == 404:
                 return False
         except:
             pass
     if domain.endswith(".page.link"):
         try:
-            userreq = requests.get(f"http://{domain}")
-            if userreq.status_code == 400:
+            if plain_http_req.status_code == 400:
                 return False
         except:
             pass
     if domain.endswith(".azurefd.net"):
         try:
-            userreq = requests.get(f"http://{domain}")
-            if userreq.status_code == 404 and "azurefrontdoorpages.azureedge.net/pages/PageNotFound_files/favicon.ico" in userreq.text:
+            if plain_http_req.status_code == 404 and "azurefrontdoorpages.azureedge.net/pages/PageNotFound_files/favicon.ico" in plain_http_req.text:
                 return False
         except:
             pass
     if domain.endswith(".glitch.me"):
         try:
-            userreq = requests.get(f"http://{domain}")
-            if (userreq.status_code == 403 and "<title>Oops! This project isn't running.</title>" in userreq.text) or userreq.status_code == 401:
+            if (plain_http_req.status_code == 403 and "<title>Oops! This project isn't running.</title>" in plain_http_req.text) or plain_http_req.status_code == 401:
                 return False
         except:
             pass
     if domain.endswith(".builderall.net"):
         try:
-            pagereq = requests.get(f"http://{domain}")
-            if pagereq.text == f"Website not found {domain}":
+            if plain_http_req.text == f"Website not found {domain}":
                 return False
         except:
             pass
     try:
-        pagereq = requests.get(f"http://{domain}")
-        if pagereq.url.endswith("/cgi-sys/suspendedpage.cgi"):
-            print(pagereq.url)
+        if plain_http_req.url.endswith("/cgi-sys/suspendedpage.cgi") or plain_http_req.url.startswith('http://suspended-website.com/') or plain_http_req.url.startswith('https://suspended-website.com/'):
+            print('suspended:',plain_http_req.url,domain)
             return False
     except:
         pass
