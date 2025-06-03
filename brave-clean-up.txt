@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results, along with other annoyances
 ! Expires: 1 day
 ! Last updated: 2023-4-7
-! Last auto-generated: 02/06/2025
+! Last auto-generated: 03/06/2025
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -4535,6 +4535,7 @@ search.brave.com##div.fdb.snippet:has(a[href*="://v3-dappradar.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://app.darppadar.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://darppadar.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://seller-verification.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://darkmodz-links.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublockerext.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://quatrefeuillepolonaise.xyz"])
@@ -9296,6 +9297,11 @@ search.brave.com##div.fdb.snippet:has(a[href*="://qgxeqm.unfamiillardates.net"])
 search.brave.com##div.fdb.snippet:has(a[href*="://fuckfinder.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://www.fuckfinder.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://fun-casualdate.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://bociti.click"])
+search.brave.com##div.fdb.snippet:has(a[href*="://flytomoon.online"])
+search.brave.com##div.fdb.snippet:has(a[href*="://ep2z.flytomoon.online"])
+search.brave.com##div.fdb.snippet:has(a[href*="://casualhookup.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://www.casualhookup.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://totalav.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://www.totalav.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://api.totalav.com"])
