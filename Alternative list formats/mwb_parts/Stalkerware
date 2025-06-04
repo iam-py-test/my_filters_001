@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
 ! Last updated: 2025-6-3
-! Version: 202563.1
+! Version: 202563.2
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
@@ -20,7 +20,6 @@
 ||icloudappe.com^$all
 ||spyzee.com^$all
 ||media-sync-a.copy9.com^$all
-||media-sync-a.fonetracker.com^$all
 ||media-sync-a.thetruthspy.com^$all
 ||media-sync-a743.thetruthspy.com^$all
 ||media-sync-a748.thetruthspy.com^$all
@@ -39,16 +38,10 @@
 ||media-sync-a940.thetruthspy.com^$all
 ||media-sync-a941.thetruthspy.com^$all
 ||media-sync-a942.thetruthspy.com^$all
-||media.thetruthspy.com^$all
 ||my.copy9.com^$all
-||my.ispyoo.com^$all
 ||my.thetruthspy.com^$all
-||my.thespyapp.com^$all
 ||phonetracking.net^$all
 ||protocol-a.copy9.com^$all
-||protocol-a.fonetracker.com^$all
-||protocol-a.ispyoo.com^$all
-||protocol-a.mxspy.com^$all
 ||protocol-a.thetruthspy.com^$all
 ||protocol-a621.copy9.com^$all
 ||protocol-a696.copy9.com^$all
@@ -67,10 +60,8 @@
 ||protocol-a940.thetruthspy.com^$all
 ||protocol-a941.thetruthspy.com^$all
 ||protocol-a942.thetruthspy.com^$all
-||protocol-monitor.thetruthspy.com^$all
 ||protocol-viewer-a.copy9.com^$all
 ||protocol.copy9.com^$all
-||protocol.ispyoo.com^$all
 ||protocol.thetruthspy.com^$all
 ||secondclone-2d312.firebaseio.com^$all
 ||setupmail-a.icloudappe.com^$all
@@ -83,7 +74,6 @@
 ||setupmail-a920.icloudappe.com^$all
 ||setupmail.icloudappe.com^$all
 ||sync-a.copy9.com^$all
-||sync-a.mxspy.com^$all
 ||sync-a.thetruthspy.com^$all
 ||sync-a7xx.thetruthspy.com^$all
 ||sync-a8xx.thetruthspy.com^$all
@@ -125,7 +115,6 @@
 
 ! an ad pretending to be an email on tempmail.email - the "emails" claim to be from Microsoft. It is not known if Spy99 is behind this deceptive advertising, or just happens to be promoted this way. No other service has been promoted via these deceptive ads.
 ! https://infosec.exchange/@iampytest1/113137078414460638
-||quicksightnow.com^$document
 ||la.quicksightnow.com^$document
 ||spy99.com^$all
 

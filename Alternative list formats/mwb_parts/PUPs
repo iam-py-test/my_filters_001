@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
 ! Last updated: 2025-6-3
-! Version: 202563.1
+! Version: 202563.2
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
@@ -328,7 +328,6 @@
 ||update.itopupdate.com^$document
 ||stats.itopupdate.com^$document
 ! https://tria.ge/240511-bb4qysca5x/behavioral2
-||downloaditop.com^$document
 ||update.downloaditop.com^$document
 
 ! https://virustotal.com/gui/file/4efd1bc1bdc12da1bbdc597cf3f37f0c65e582f42e353cf781ac1fe422dfa68c/detection
@@ -341,7 +340,6 @@
 ||2-spyware.com/download/ReimageRepair$all
 ! https://virustotal.com/gui/url/16766e8681f0bf474ec3238d4b6d7f33047f5f368abef0aac13001d2be0a757d/detection
 ||reimageplus.com^$all
-||cdnrep.reimageplus.com^$all
 ! More reimage - new name, new SHA256, new domain?
 ! https://virustotal.com/gui/url/3493793318d49332b789aba96de7937c468c5f6a20d6fdbf8da87832183c5d07/detection
 ! https://github.com/iam-py-test/Assets-001/tree/main/PUPs/Restoro_2
@@ -369,7 +367,6 @@
 ! ADWCleaner detects malware after execution. File opens webpage with generic 'your system has issues' message
 ||driveragent.com^$all
 ! https://www.joesandbox.com/analysis/237782/0/html#domains
-||secure.driveragent.com^$all
 
 ! https://virustotal.com/gui/file/61ddc79c421d13052f0acdb838d1a68d98c5e4eda0058f018f72a65474135d08/detection
 ! https://github.com/DandelionSprout/adfilt/issues/254
@@ -409,8 +406,6 @@
 ||dynamicdownloads.tweakbit.com^$all
 ||downloads.tweakbit.com^$all
 ||store.tweakbit.com^$all
-||cdn.tweakbit.com^$all
-||aff.tweakbit.com^$all
 ||mail.tweakbit.com^$all
 
 ! Original inspection
@@ -468,15 +463,12 @@
 ! https://virustotal.com/gui/url/f7be15d28340acb7db31f63a62a26bad1253824f2424117a816203950e86fd22/community
 ||slimware.com^$all
 ! https://virustotal.com/gui/url/440e39a20d7e01064269dadfc38eafd80c8534f7391f2c1ef7ac41c10d9c4e20/detection
-||slimcleaner.com^$all
-||www.slimcleaner.com^$all
 ! https://virustotal.com/gui/url/946a5c2295cfef547f162350af93257df55d6b2103a0ce2e84b241cf727a81f6/detection
 ||slimwareutilities.com^$all
 ! The executable from the website (https://virustotal.com/gui/file/d9103347f6043f0266a6480b6c794a4ee9f07800db43b6301920fe97587066d2/detection) seemed broken, but this one (maybe an older/newer mirror) works
 ||slimcleaner-plus.en.softonic.com^$all
 ! Other TLDs
 ||slimcleaner-plus.softonic.com.tr^$document
-||slimcleaner-plus.softonic.vn^$document
 
 ! https://github.com/iam-py-test/investigations/blob/main/2021/11/5/1.md
 ||windowserrorhelp.com^$document
@@ -512,9 +504,6 @@
 ||secure-browser.io^$document
 
 ! locks your screen and just creates a link to their website on your desktop. Malware?
-||zipfileslikeapro.net^$document
-||use.zipfileslikeapro.net^$document
-||www.zipfileslikeapro.net^$document
 ||goto.searchproonline.com^$all
 ||searchproonline.com^$all
 
@@ -542,22 +531,17 @@
 
 ! adware downloader - https://app.any.run/tasks/d1918395-7080-4292-9a71-1059bc7a90cf
 ||sway.office.com/flj90JK1oswcTJEO^$document
-||certatd.ru^$all
 
 ! Bundled installer & PUP
 ||sysdriverupdater.com^$document
 ||www.sysdriverupdater.com^$document
 
 ! This is just Advanced System Repair Pro
-||regcure.com^$document
-||www.regcure.com^$document
 ||directbrand.com/dl/asr_regcure.php^$document
 
 ! https://blog.malwarebytes.com/threat-analysis/2022/06/forced-chrome-extensions-keep-reappearing/
 ||activesearchbar.me^$all
 ||customsearchbar.me^$all
-||securedatacorner.com^$all
-||wincloudservice.com^$all
 ! https://forums.malwarebytes.com/topic/286395-microsoft-edge-custom-search-bar-extension-redirects-to-rbfastsearchme/
 ||rb.fastsearch.me^$all
 ! https://forums.malwarebytes.com/topic/287338-browser-hi-jacker-royb2fastsearchme/
@@ -565,7 +549,6 @@
 
 ! adware
 ||pdfconverterpower.net^$document
-||downpdfpwr.com^$document
 ||searchpoweronline.com^$document
 ||goto.searchpoweronline.com^$document
 ||www.searchpoweronline.com^$document
@@ -573,12 +556,10 @@
 ||gifsearchutils.com^$document
 ||start.gifsearchutils.com^$document
 ||pdfsharkapp.com^$document
-||start.pdfsharkapp.com^$document
 ||searchmagiconline.com^$document
 ||start.searchmagiconline.com^$document
 ||pdfsuperhero.com^$all
 ||stats.pdfsuperhero.com^$all
-||bl.searchpoweronline.com^$document
 
 ! https://forums.malwarebytes.com/topic/289030-mbam-browser-guard-identifying-malware-but-mbam-not-removing-malware/
 ||mysearchengine.co^$document
@@ -595,32 +576,19 @@
 ||quick-speedtest.com^$document
 ||husmicto.com^$document
 ||splendidus.net^$document
-||optimusquaero.com^$document
-||potenzamano.com^$document
 ||tutatagliente.com^$document
-||megliolavoro.com^$document
 ||osservareimmaginare.com^$document
 ||desideriosoldi.com^$document
-||sottilesezione.com^$document
-||alcunirisposta.com^$document
 ||www.humanverified.net^$document
 ||search.potestainsula.com^$document
 ||search.husmicto.com^$document
 ||search.splendidus.net^$document
-||search.optimusquaero.com^$document
-||search.potenzamano.com^$document
 ||search.tutatagliente.com^$document
-||search.megliolavoro.com^$document
 ||search.luminosoocchio.com^$document
 ||search.osservareimmaginare.com^$document
-||search.avantiwendo.com^$document
 ||search.desideriosoldi.com^$document
-||search.sottilesezione.com^$document
-||search.alcunirisposta.com^$document
-||search.thecanem.net^$document
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/132840
-||adblocker-app.info^$all
 
 ! https://blog.malwarebytes.com/detections/pup-optional-bytefence/
 ! https://virustotal.com/gui/file/21dfa4ed47de7007c0fb6eadb3f94d2e847b3f4e301767d2320623f02f0926ba
@@ -651,7 +619,6 @@
 ! https://virustotal.com/gui/url/9979729afeff4472121a6faa8d4a4b7c885a5f391b082d50585bf16929597d4e/community --> https://virustotal.com/gui/file/c9bb2af73703f81a31ae5a3dedbf6eebf404256b679303111c1dedf0e24879db/community
 ! https://app.any.run/tasks/d2533d89-8e5e-4fc6-b110-bafc153c3636 (my analysis)
 ! walliant: https://www.youtube.com/watch?v=91w4rzBTP5o
-||riversnails.club^$all
 ||walliant.com^$document
 
 ! clone of another screenlocker adware
@@ -664,9 +631,6 @@
 ||mobility-search.com^$all
 
 ! another clone of ziprar thing (Adware.SearchLightPro)
-||imagelighteditor.com^$document
-||www.imagelighteditor.com^$document
-||downloadimglight.com^$document
 ||searchlightpro.com^$document
 ||start.searchlightpro.com^$all
 ||dsc.searchlightpro.com^$all
@@ -688,7 +652,6 @@
 ||home.customsearchtool.com^$document
 ||config.customsearchtool.com^$document
 ||hp.customsearchtool.com^$document
-||imp.customsearchtool.com^$document
 ||d3pxa1onb1zy4q.cloudfront.net/custom_search_tool-2022.7.15-fx.xpi^$all
 
 ! https://forums.malwarebytes.com/topic/293616-google-doc-fake-extension-not-detected/ (account required)
@@ -705,7 +668,6 @@
 ||cdn.freshysearch.com^$all
 
 ! doesn't seem to do much, but clearly not legit
-||tor-browser.app^$document
 
 ! two search engine hijackers
 ! https://virustotal.com/gui/url/1ca49bde04ac00c79b259a4a02b041d91c512ca55a6d0e839f69010d0bc32061/detection
@@ -791,7 +753,6 @@
 ! (my analysis) https://tria.ge/230523-zqkhmahd85/behavioral2
 ||doodrdash.com^$all
 ||thale-ete.com^$document
-||fivetrafficroads.com^$document
 ||dkjfhuyd.fivetrafficroads.com^$all
 ||chrome.google.com/webstore/detail/weather-in/jpflgehebdhjjcdojdloemfeflelhmoh^$document
 ||weather-in.xyz^$document
@@ -834,7 +795,6 @@
 ||api.websearchextension-api.info^$document
 
 ! https://github.com/StevenBlack/hosts/issues/2403
-||madqudden.com^$document
 ! https://github.com/StevenBlack/hosts/issues/2408
 ||santknow.com^$document
 
@@ -860,10 +820,8 @@
 ||sensorstechforum.com^$document
 
 ! https://tria.ge/231028-pvxzeabb9z/behavioral1s
-||donwnaloadeluzal.cfd^$all
 /11/?*&lpkey=*&filename=Click%20to%20view%20the%20file%20links|$document
 ||ivedmanyyea.org^$document
-||townrusisedprivat.info^$document
 
 ! snake oil, bundles software
 ! https://youtube.com/watch?v=bIpYJoE7CxA
@@ -927,7 +885,6 @@
 ||download.freedownloadmanager.org/Windows-PC/AML-Free-Registry-Cleaner/$document
 
 ! https://forums.malwarebytes.com/topic/306163-silentcryptominer-removal-help-needed/
-||mysearchdial.com^$document
 
 ! origin unknown (forgot to add a comment here)
 ! TODO: reverify
@@ -950,7 +907,6 @@
 ! Tested on VM: Removed by ADWCleaner
 ! Switched to document as per https://github.com/uBlockOrigin/uAssets/issues/9974
 ||driverfix.com^$all
-||www.driverfix.com^$all
 
 ! https://tria.ge/240427-2e441aac8x/behavioral1
 ||pdfpilotapp.com^$document

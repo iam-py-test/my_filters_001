@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
 ! Last updated: 2025-6-3
-! Version: 202563.1
+! Version: 202563.2
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
@@ -30,7 +30,6 @@
 ||stormlordpublishing.com^$document
 
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1029244954
-||quickdates1.com^$document
 
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1120210042
 ||fuckbookmobile.com^$document
@@ -56,7 +55,6 @@
 ! https://github.com/DandelionSprout/adfilt/commit/e83dc45b60a61c6097b8c40605855a80e3282901
 ||link.sv^$document
 ! https://virustotal.com/gui/url/6bbc5fc50b84711644db9739cab16fbdd5659b3d6b82dbde0a3a82427e6f03b9/community
-||to.sv^$document
 ||go.sv^$document
 
 ! https://virustotal.com/gui/url/1f273d4cd56060082b8a598514f975bf4592a5f6be5f77e05f7c453266edaaad/community
@@ -70,7 +68,6 @@
 ||bingenerator.one^$document
 
 ! https://forums.malwarebytes.com/topic/295956-from-another-malwarebytes-forum-spammer/ (account required)
-||discord.onl^$document
 
 ! https://github.com/hagezi/dns-blocklists/issues/804
 ||venezuelabaseballjerseys.com^$document
@@ -82,10 +79,7 @@
 ||shopsyracuseonline.com^$document
 
 ! https://github.com/hagezi/dns-blocklists/issues/1169
-||boooodas.com^$all
-||m-contact.site^$all
 ||fuckmebaby.click^$all
-||vipdeit.com^$all
 
 ! comment spam - endless cloudflare redirects
 ||getcutt.fun^$document
@@ -96,14 +90,10 @@
 ||newfast.pics^$all
 
 ! https://infosec.exchange/@iampytest1/111669699558836859
-||newdate32.site^$all
 
 ! https://infosec.exchange/@iampytest1/111669799133185795
-||gimail.su^$document
-||qimail.su^$document
 
 ! cryptocurrency recovery scammers
-||cybergeniehackpro.xyz^$document
 ||cyberservices.com^$document
 
 ! X/Twitter spammer
@@ -183,7 +173,6 @@
 ||washingtontimesnewstoday.com^$document
 ||www.australiannewstoday.com^$document
 ||www.bbcnewstoday.com^$document
-||www.bloombergnewstoday.com^$document
 ||www.bostonnewstoday.com^$document
 ||www.britishnewstoday.com^$document
 ||www.canadiannewstoday.com^$document
@@ -243,7 +232,6 @@
 ||www.topworldnewstoday.com^$document
 ||www.turkeynewstoday.com^$document
 ||www.walesnewstoday.com^$document
-||www.washingtonposttoday.com^$document
 ||www.washingtontimesnewstoday.com^$document
 
 ! https://github.com/hagezi/dns-blocklists/issues/3122

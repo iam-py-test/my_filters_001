@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
 ! Last updated: 2025-6-3
-! Version: 202563.1
+! Version: 202563.2
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
@@ -34,62 +34,46 @@
 ! Related to above
 ! https://github.com/DandelionSprout/adfilt/issues/188
 ! https://github.com/DandelionSprout/adfilt/commit/0af1431c8f4cf45e9c27e359edf777b0c9bfa153
-||extragifis.site^$all
 ||captcharesolving-universe.com^$all
 ! https://virustotal.com/gui/ip-address/5.8.34.26/relations
 ! https://github.com/DandelionSprout/adfilt/issues/188
-||captcharesolver.com^$all
 ! https://virustotal.com/gui/url/136909c39798eacfc82e58459684619a4b89de8d3dedbe5a3010c5152b670328/detection
 ! https://github.com/iam-py-test/Assets-001/blob/main/goglenet%20malware
-||cpmstatsart.com^$all
 ! https://github.com/DandelionSprout/adfilt/issues/188#issuecomment-848834204
 ||instantfwding.com^$all
 ||103.224.182.251^$all
 ||catnip.de^$all
-||trafcenter.us^$all
 ||fwdservice.com^$all
 ! https://securitytrails.com/list/ip/5.8.47.3
 ! https://safeweb.norton.com/report/show?url=gamesex.fun
 ! https://www.siteadvisor.com/sitereport.html?url=gamesex.fun
 ! https://virustotal.com/gui/url/7bedfdd70bd23869a3598186270bcca9e64870842fb95df46da9ed5519e0b41c/detection
-||gamesex.fun^$all
 ! just redirects to another blocked domain
 ! https://github.com/DandelionSprout/adfilt/issues/188
 ||kmip.net^$all
 ||iuqerfsodp9ifjaposdfjhgosurijfaewrwergwff.com^$all
 ||204.11.56.48^$document
-||goldprize.xyz^$all
 ! More scam stuff on 27/9/2021
-||smartcaptchasolve.top^$all
-||cloud-repos.store^$document
 ||retailproductsusa.com^$all
 ||www.retailproductsusa.com^$all
 ! Even more scams - https://github.com/DandelionSprout/adfilt/issues/188#issuecomment-931700117
 ||findanswersnow.net^$document
 ||two.findanswersnow.net^$document
-||diabasewoodhouse.xyz^$document
 ||signupandturnyourscreenoffsafepowernow.date^$document
 ||www.signupandturnyourscreenoffsafepowernow.date^$all
-||best-prizes.life^$document
 ||jsontdsexit.com^$document
 ||therewardboost.com^$all
 ||t.therewardboost.com^$all
 ||natnlconsmrctr.com^$document
 ||lore.deduce.com^$document
 ||jpgtrk.com^$document
-||pnghst.com^$document
 ! domains which gogle[.]net redirects to on 17/10/2021
-||positivestar.org^$all
 ||securysearchapp.com^$document
 ||www1.securysearchapp.com^$document
-||mydealprotection.com^$document
-||www.mydealprotection.com^$document
 ! on the same IP & just by looking at them, I can tell they are not legit
 ||intunes.com^$document
-||pple.com^$document
 ||gimal.com^$document
 ! 19/11/2022: https://sitecheck.sucuri.net/results/get-the-prize-ht3.live
-||get-the-prize-ht3.live^$document
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9344
 ! https://github.com/iam-py-test/Assets-001/tree/main/uiz.io_scam
@@ -106,12 +90,10 @@
 ||gooooooooogle.com^$all
 
 ! https://github.com/iam-py-test/investigations/blob/main/2021/10/26/1.md#domains
-||p185689.mybetterdl.com^$all
 ||r-tb.com^$document
 ||feed.r-tb.com^$all
 ||t.r-tb.com^$all
 ||cdn.hoood.info^$document
-||barah-flo.com^$document
 ||beta-one.net^$all
 ||ny-t.r-tb.com^$all
 ||pisism.com^$document
@@ -131,14 +113,12 @@
 
 ! https://github.com/DandelionSprout/adfilt/pull/289
 ||gogles.com^$all
-||flexroll.online^$document
 ||army-glo.scrollingsystem.com^$document
 ! ||www.kqzyfj.com^$all
 ! ||kqzyfj.com^$all
 ! ||cj.dotomi.com^$all
 ||mcafee12.tt.omtrdc.net^$document
 ! https://virustotal.com/gui/ip-address/70.32.1.32/relations
-||clk.rtpdn14.com^$document
 ||cd.org^$document
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9848#issuecomment-907855092
@@ -156,10 +136,6 @@
 
 ! https://github.com/uBlockOrigin/uBlock-issues/issues/1774
 ! https://github.com/iam-py-test/investigations/blob/main/2021/10/28/1.md
-||slobodapatient.me^$all
-||www.slobodapatient.me^$all
-||ppcnzi.xyz^$document
-||www.ppcnzi.xyz^$document
 ||eritokyo.jp^$document
 ||cpanlyzr.co^$document
 ||www.cpanlyzr.co^$all
@@ -170,17 +146,11 @@
 ||order-safely.com^$document
 ||www.order-safely.com^$document
 ||followlink.click^$document
-||systemupdatecontrol.com^$all
-||us.systemupdatecontrol.com^$all
-||ryderftv.co^$document
-||www.ryderftv.co^$all
 ||publishers.revenueuniverse.com^$document
 
 ! https://scammer.info/t/noteit-scam/82283
-||pautils.online^$document
 
 ! https://scammer.info/t/usps-spam/83368
-||www.wutaideng.wang^$document
 
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-974886953
 ||datingmap.top^$all
@@ -188,7 +158,6 @@
 ||tonightshookup.com^$document
 ||members.tonightshookup.com^$all
 ||t.tonightshookup.com^$all
-||yourladiefun.life^$all
 
 ! Scam and fake Roblox hacks
 ||gghacks.com^$all
@@ -223,14 +192,10 @@
 ||yonhelioliskor.com^$document
 ||ptauxofi.net^$document
 ||betshucklean.com^$document
-||buncoswosh.com^$document
 ||b58ncoa1c07f.com^$document
-||t.avroute01.com^$document
 ||gammamkt.com^$document
 ||leadgentrk.com^$document
-||chirkacylal.com^$document
 ! https://github.com/AdguardTeam/AdguardFilters/issues/122055
-||shoksips.com^$all
 ! https://tria.ge/230714-tf54paga3y/behavioral1
 ||adblock-zen-download.com^$all
 ||adblock-zen.com^$all
@@ -251,13 +216,11 @@
 ||poweradblocker.com^$document
 
 ! https://github.com/iam-py-test/investigations/blob/main/2021/11/25/1.md
-||steamkeygiveaway.net^$all
 ||fasterfiles.net^$all
 ||inteledirect.com^$all
 ||turapport-strience.icu^$document
 ||americanwinnerscircle.com^$all
 ! https://github.com/uBlockOrigin/uAssets/pull/10599#issuecomment-979356358
-||yunosurveys.com^$all
 
 ! https://github.com/iam-py-test/investigations/blob/main/2021/11/28/1.md
 ||reykijnoac.com^$document
@@ -270,8 +233,6 @@
 ||aceelectricalny.com^$all
 
 ! https://scammer.info/t/discord-nitro-generator-7/84570
-||appninjas.xyz^$all
-||www.appninjas.xyz^$all
 
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-986306768
 ||chess-progress.ru^$document
@@ -279,16 +240,12 @@
 
 ! https://forums.malwarebytes.com/topic/281514-scam-websites/
 ||812138.com^$document
-||dk-video.xyz^$document
 ||dj-video.xyz^$document
-||gi-video.xyz^$document
 ||hj-video.xyz^$document
-||havmoney.xyz^$document
 
 ! https://github.com/uBlockOrigin/uAssets/pull/10804
 ! https://bbs.kafan.cn/thread-2221500-1-1.html
 ||88btbtt.com^$all
-||musmentportal.com^$all
 
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-988127908
 ! https://www.tek.no/i/lVeQAe/
@@ -310,7 +267,6 @@
 
 ! https://github.com/iam-py-test/investigations/blob/main/2021/12/9/1.md
 ||0s.click^$document
-||0ffer.icu^$document
 ||0pen.online^$document
 
 ! https://github.com/iam-py-test/investigations/blob/main/2021/12/12/1.md
@@ -323,33 +279,20 @@
 ||yourcoolfeed.com^$all
 
 ! fake MediaFire websites
-||songlos.com^$document
 ||royaltees.co^$all
-||findes.co^$document
-||vitafox.findes.co^$document
 ||supersong.nl/upload/6277.rar^$all
-||monkeyselite.tonick.co^$document
 ||kitago.info^$all
 ||herezfile400.weebly.com^$all
 ||hereeup447.weebly.com^$all
 ||yaihxj.knewdayfull.top^$all
 ||knewdayfull.top^$document
 ||4lgx4.bemobtrcks.com^$document
-||hugewifesilver.top^$document
 ||ge6s.com^$all
-||sitexchange.causeart.co^$all
 ||yellowmother374.weebly.com^$all
-||myhayward.us^$all
 ||tiborola.info^$all
-||artbistro.us^$all
 ||myhypeposts.com^$all
-||onlynewstoday.com^$all
-||payments4u.org^$all
-||freeiphone.info^$all
 ||static.cdnativepush.com/contents/s/7f/95/8c/2488823c2d95d7162ff723c840/01192333514141.png^$all
 ||static.cdnativepush.com/contents/s/04/d8/68/c0dd305c8a79b01ae4f24672ac/01477976446043.png^$all
-||flummer.geppe.us^$all
-||tuckets.moanas.us^$all
 ||static.cdnativepush.com/contents/s/b8/4e/1d/153294973f0fff7258e8f43d7c/0647024544646.jpeg^$all
 ||static.cdnativepush.com/contents/s/d2/3f/93/7fe562c37a9a7a6af5df460ee7/0490618650236.png^$all
 ||ssp-creatives.askprivate.com/prod/images/33242825/en/69dcb41b14c0449dbc67b998ca5b0c94.jpeg^$all
@@ -357,15 +300,12 @@
 ||zxzfic.weebly.com^$all
 ||iminna.info^$all
 ||bloghunter.aaguatemala.org^$all
-||abated-hamate.xyz^$all
 ||api.pushnami.com/scripts/v2/pushnami-sw/5e4bf7d0e7585f1f723a7243^$all
 ||cleveradult148.weebly.com^$all
 ||forexever451.weebly.com^$all
 ||ourcoolposts.com^$all
 ||bitnew695.weebly.com^$all
 
-||www.iztzo.com^$all
-||iztzo.com^$all
 ||gomusic.info^$document
 ||myprotectionsurveys.com^$document
 ||www.myprotectionsurveys.com^$document
@@ -388,7 +328,6 @@
 ||clickgadgets.club^$all
 
 ! scam website with only fake links
-||crackthisgame.com^$document
 ||pseepsie.com^$document
 
 ! pretty sure this is a porn scam
@@ -407,20 +346,15 @@
 
 ! https://github.com/DandelionSprout/adfilt/issues/288
 ||discordap.com^$all
-||forwrdnow.com^$document
 ||7lyonline.com^$document
 ||safelyonline.net^$document
 ||get.safelyonline.net^$all
 ||browse-safe.net^$document
 ||get.browse-safe.net^$all
 ||btpnative.com^$document
-||besty-deals.com^$all
 ||data-px.services^$document
 ||live.newsvot.com^$document
-||adalgard-wol.com^$all
-||secure-access-981cd52a6hqpm8e2.gate23.xyz^$document
 ||ny-feed.r-tb.com^$document
-||clk.hosting-redirect.com^$document
 
 ! https://scammer.info/t/cyberpunk-2077-fake-generator/85772
 ||groups.google.com/g/cyberpunk-steam-key-generator-working-check-now-2022?$document
@@ -428,7 +362,6 @@
 ||ragamer.com^$document
 
 ! https://scammer.info/t/nitro-is-handed-there-for-free-scam-7-927-324-30-54/85763
-||gift-discords.com^$all
 
 ! possible Tech Support Scam
 ||installmysecurity.com^$document
@@ -441,7 +374,6 @@
 ||landing.marketstm.com^$document
 
 ! https://scammer.info/t/1-month-nitro-for-free-take-it-scam/86166
-||discrode-gifte.club^$all
 
 ! https://forums.malwarebytes.com/topic/282206-scam-websites/
 ||bs-video.xyz^$all
@@ -449,18 +381,12 @@
 ||gm-video.xyz^$all
 ||iamoney.xyz^$all
 ||vbmoney.xyz^$all
-||obmoney.xyz^$all
-||kcmoney.xyz^$all
-||dcmoney.xyz^$all
 ||lstmoney.xyz^$all
 ||uamoney.xyz^$all
-||tbmoney.xyz^$all
 ||ecmoney.xyz^$all
 ||gcmoney.xyz^$all
 ||xosi.ru/shop-wallets/$document
 ! https://forums.malwarebytes.com/topic/282206-scam-websites/?do=findComment&comment=1494794
-||iglookup.com^$document
-||www.iglookup.com^$document
 
 ! 'click allow to continue' scam which redirects to random subdomains when the premission is blocked. Also redirects to TotalAV at the end
 ||8db3p.leadoesnotknowaboutkukuriko.xyz^$all
@@ -470,36 +396,26 @@
 ||weledying-jessed.com^$all
 
 ! https://forums.malwarebytes.com/topic/282376-website-giving-spammy-popups/
-||tepspr.com^$all
 ||rplnd10.com^$all
 
 ! https://scammer.info/t/youtube-bot/86668
 ||kingapp.store^$all
 ||downloadlocked.com^$document
 ||advantagecircles.com^$document
-||iwin.rewardsadvisor.com^$all
-||rewardsadvisor.com^$document
 
 ! found this while looking for Memz samples - https://user-images.githubusercontent.com/84232764/149638659-8e0e9e91-8d02-4fff-bd0f-af8423550777.png (hxxps://verify-me.club/2004cbf?s1=down1)
 ||tinyurl.com/45tkeyep^$all
-||verify-me.club^$all
 ! still alive as of 11/11/2022 - https://app.any.run/tasks/f0474f51-6b14-432b-b1f0-98a1137e359c
-||verifyme.za.com^$all
 ||letmik.com^$all
 ||c.atandmouse.com^$all
-||g.atandmouse.com^$all
 ||atandmouse.com^$document
 
 ! "press allow to continue" popup ad
-||masstech.info^$all
-||windows-secureit.com^$all
 
 ! fake game cheat download buttons redirecting to "press allow to continue" and Norton
 ! also https://forums.malwarebytes.com/topic/287349-my-google-browser-could-be-infected-need-help-removing-it/
-||anonmods.com^$all
 
 ! fake discord Nitro generator
-||us.doctorpost.net^$document
 
 ! another fake Nitro generator
 ||pastebin.com/qwUbwYbq^$all
@@ -524,7 +440,6 @@
 ||cracked-games.org^$all
 ||prksism.com^$all
 ! https://virustotal.com/gui/ip-address/18.210.201.44/relations
-||antirobotsystem.com^$document
 
 ! fake 'no human verification' discord nitro generator
 ||huffduffer.com^$all
@@ -540,14 +455,8 @@
 ! "press allow to continue"
 ||www.kuyhaa-mee.com^$all
 ||kuyhaa-mee.com^$all
-||waystriling.com^$all
-||nze0xw.waystriling.com^$all
-||581358.waystriling.com^$all
-||qyt8pi.waystriling.com^$all
-||xiiowt.waystriling.com^$all
 ||www.upload-4ever.com^$document
 ||upload-4ever.com^$document
-||worldcoolfeed.com^$all
 
 ! Fake discord nitro (still alive as of 11/11/2022)
 ||myget.org/feed/discord-nitro-hack/package/nuget/Free-discord-nitro-codes-2021^$document
@@ -557,10 +466,8 @@
 ! another fake site
 ||www.aldvingomes.com^$document
 ||aldvingomes.com^$document
-||codegen.fun^$all
 
 ! fake discord nitro
-||getmecodes.xyz^$all
 ||filevortex.com/1029130^$all
 ! https://app.any.run/tasks/73236419-3190-47fa-81f0-8a31bcf48a5b
 ||minutewinner.com^$document
@@ -572,7 +479,6 @@
 ||discord.birth/kjqsSQDF4qs9f4sK456ds7^$document
 
 ! https://www.reddit.com/r/computerviruses/comments/swrrx8/used_a_youtube_to_mp3_downloader_today_and_these/
-||unrelered.xyz^$all
 
 ! https://web.archive.org/web/20230604183723/https://twitter.com/iam_py_test/status/1496259425493225472
 ||sites.google.com/view/groundworkssolutions/contact-us^$all
@@ -580,8 +486,6 @@
 ||sites.google.com/mytv/maintenance^$all
 
 ! all the RARs just contained one zero-byte file, so just blocking the confirmed scam part of it (start URL hxxpx[://]bayanhuu[.]com/microsoft-office-2016-full-download[/]
-||habitum.xyz^$all
-||news-easy.org^$all
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11157#issuecomment-1049093327
 ||sideload.cc^$all
@@ -594,11 +498,6 @@
 ||omnioffers.com^$document
 
 ! https://virustotal.com/gui/url/98f0186f4d20f3138a4e05f58369019cee8e88153578e3d729b716d8b57c0857/community
-||k6pay.top^$document
-||h6pay.top^$all
-||g6pay.top^$all
-||n6pay.top^$document
-||c6pay.top^$all
 
 ! hxxpx[://]consortiumrecords[.]co/free-tools/download-microsoft-office-365-product-key-crack-updated/
 ||foradream.top^$all
@@ -634,7 +533,6 @@
 
 ! even more fake "human verification"
 ||speedboostpc.com^$document
-||unlimitedtools.website^$all
 
 ! redirects to already blocked sites
 ||coub.com/stories/946163-free-discord-nitro-codes-list-all-valid-with-no-human-verification^$document
@@ -657,14 +555,11 @@
 ||ark-today.com/btcgiveaway.html^$document
 
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1060031240
-||webcams-chat.com^$all
 ||mydirtytinders.com^$all
 
 ! yet another fake Discord Nitro Generator
 ||www.everydaywinner.com^$document
 ||everydaywinner.com^$document
-||generatekey.xyz^$all
-||e.9nl.it^$document
 ||www.monumented.com^$document
 ! looks like Fox News, to promote something which is probably a scam
 ||www.livingyourbestlife.co^$document
@@ -677,7 +572,6 @@
 ! auto-redirect from hxxpx://createwithkrista[.]co/windows/winrar-for-windows-10-64-bit-free-download-with-crack/
 ||outto.us^$document
 ! hxxpx://thecornermarket[.]co/free-crack/winrar-64-bit-download-crack/?utm_referrer=https%3A%2F%2Fwww.bing.com%2F
-||merchd.rip^$all
 
 ! the rest is blocked
 ||buymeacoffee.com/getcode/discord-free-nitro-generator-no-human-verification-survey^$all
@@ -687,11 +581,9 @@
 ||grptrac.com^$all
 
 ! https://app.any.run/tasks/b43b04b3-b8c1-4384-b455-961f427f5379
-||h.shyflirttalks.com^$document
 
 ! Yet Another fake discord generator
 ||pota.site-ym.com/global_engine/download_custom.aspx?fileid=c0f7d962-63d2-4ab2-82dd-7582a79c5ba0.pdf&filename=discord2021_gu-36.pdf&blnIsPublic=2&code=blog&sub=add^$document
-||gamex.codes^$all
 ||consumerdigitalsurvey.com^$document
 
 ! Reddit spam --> already blocked
@@ -707,22 +599,18 @@
 
 ! https://app.any.run/tasks/a8a589e0-2aee-43f5-9fbe-92dc9e4bfec4
 ||action.miliated.xyz^$document
-||undrininvereb.info^$all
 
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1094359634
 ||disq.us/p/2o9pztr^$document
 ||disq.us/p/2o9qqsl^$document
 ||disq.us/p/2o9pmyi^$document
-||2horney-girls.life^$document
 ||localdates16s.com^$document
 ||popupchat-live.com^$document
-||bhgfsfh.com^$document
 
 ! a "press allow to continue" + fake McAfee
 ||ultrafastultra.blogspot.com^$all
 ||tei.ai^$document
 ||forfrogadiertor.com^$all
-||ourdailystories.com^$all
 
 ! Fake Discord nitro generator
 ||acreauburn.com/profile/kyrrwgutzctpad/profile^$document
@@ -730,7 +618,6 @@
 ||uplevelreward.com^$all
 
 ! https://github.com/uBlockOrigin/uAssets/pull/12699
-||ziltzwebsol.online^$all
 
 ! even more fake Discord Nitro generators
 ||coub.com/stories/946163-free-discord-nitro-codes-list-all^$document
@@ -744,7 +631,6 @@
 ||groups.google.com/g/discord-nitro-hack-generator-no-survey-or-verification?msclkid=316e2fa7c87e11ec972f52d4d5e431fd^$document
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115955
-||family24rx.com^$all
 ||37.187.88.137^$document
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115960
 ||onpharmvermen.com^$all
@@ -753,7 +639,6 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115958
 ||sale24-pills.com^$document
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115957
-||helppharmlead.com^$document
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115954
 ||everypdnsharmacy.com^$document
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115953
@@ -763,11 +648,9 @@
 ||static.cdnativepush.com/contents/s/69/55/b8/8c4f4e3359518f986fc7970194/0201779526711.png^$all
 ||static.cdnativepush.com/contents/s/6e/aa/67/726cd9cf6ea6a525bbb628cab3/0303553451413.png^$all
 ||littlecdn.com/apps/contents/s/e1/43/b6/8d4db17f1838a03992a72e9dbf/01412844174435.png^$all
-||gapscult.com^$all
 
 ! a fake MediaFire domain
 ||walkeryellow141.weebly.com^$all
-||www.rewards-cards.org^$document
 ||www.dealskeeper.com^$document
 ||h.promotionsonlineusa.com^$document
 
@@ -782,7 +665,6 @@
 ! ads on a site --> https://virustotal.com/gui/url/0871f217f945c993d8624aadd5e718e9bb740096d13fad74d58b3fc3a4fdfda0
 ||ebaaa.xyz^$all
 ||uprimp.com^$document
-||odaba.live^$all
 
 
 ! a random popup
@@ -804,10 +686,8 @@
 ! weird website with some Push Allow To Continue alerts - hxxpx[://]www[.]filefixation[.]com/malwarebytes-pro-crack-serial-keygen-download.html
 ||filefixation.com^$document
 ||www.filefixation.com^$document
-||deal-warriors.com^$document
 
 ! ads
-||ffe405491d.28b67b8230.com^$popup
 ||german0.xyz^$all
 ||wnprt.club^$all
 ||kerbians.click^$all
@@ -827,7 +707,6 @@
 ||doodlekit.gotorange.top^$document
 
 ! tech support scam - https://forums.malwarebytes.com/topic/287438-excel-macro-40-abuse-protection-prevents-opening-password-protected-files/?do=findComment&comment=1519928
-||ewebprotection.info^$document
 
 ! hxxps://iyoutubetomp4[.]com/en/
 ||img.pushflow.net/creatives/11/6706/1654098151508-push-preview-img.png^$all
@@ -836,9 +715,6 @@
 ||justtrck.net/run.php^$document
 
 ! https://app.any.run/tasks/8125703c-6fdb-49bc-a18c-918e64e83f4d
-||nedaugha.buzz^$all
-||jarine.co^$all
-||nedukeratio.lol^$all
 ||lsmnz.perfordpetre.xyz^$all
 ||perfordpetre.xyz^$document
 
@@ -848,11 +724,9 @@
 ! Push-Allow-To-Continue
 ||ptaimpeerte.com^$all
 ! possible tech support scam, might be dead
-||vyredis.bio^$document
 
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1195654525
 ! https://github.com/DandelionSprout/adfilt/commit/5ca8e833c7817f2d5929a4adf4792fdcbb822fc0
-||k-yw.com^$all
 
 ! McAfee-themed scam
 ||d3f068fvt45f1f.cloudfront.net^$all
@@ -861,19 +735,14 @@
 ! Fake giveaway
 ||teenmas46.tistory.com^$all
 ||teenymi.tistory.com^$all
-||myapplesite.us^$all
 
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1209782781
 ! https://app.any.run/tasks/a7cc86ee-a604-4a65-968c-26c237620b2b (nsfw)
-||girlluscious.com^$document
 ||fuckbook.tv^$document
 
 ! https://www.youtube.com/watch?v=6e7MsoThffo
 ||loadnova898.netlify.app^$document
 ||tonrino.info^$all
-||new.bestageoffers2022.com^$document
-||d0zi.com^$all
-||rewards-cards.org^$document
 ||x-delivery.icu^$document
 ||nextsoft.icu^$all
 
@@ -882,7 +751,6 @@
 
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1230875702
 ||youtube.com/channel/UCxpXAcML6p3Ns5T9GwEK5hQ^$document
-||stils-top.space^$all
 
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1230939213
 ||classicsgirl.com^$document
@@ -903,7 +771,6 @@
 ! https://app.any.run/tasks/3c8b1d38-de18-488a-9e3f-62b3354c17e8
 ||talkweb.org.uk/cl/36889_md/4/5055/3668/710/150935^$document
 ||haltertrailer.info^$all
-||safesecureprotect.com^$all
 ||trk-magnam.com^$all
 ||event.trk-magnam.com^$all
 ||trk-deserunt.com^$all
@@ -913,7 +780,6 @@
 ||alertsx.com^$all
 ||core.alertsx.com^$all
 ! https://twitter.com/iam_py_test/status/1571997052900413440 (image is age restricted for some reason, thus can't archive)
-||medialysticos.live^$all
 
 ! Porn scam
 ||her-cupid.com^$all
@@ -927,7 +793,6 @@
 ! credit to https://forums.malwarebytes.com/profile/62534-chas4/
 ||install-network.com^$document
 ! https://app.any.run/tasks/541d38e7-67d1-46a7-85c8-dfcba7e40761
-||fatededers.com^$all
 
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1257870944
 ||netbuilding.com.ar^$document
@@ -1017,13 +882,11 @@
 ||toido.arrowtoldilim.com^$all
 
 ! https://forums.malwarebytes.com/topic/291290-infected-with-chilichicytriecom/
-||chilichicytrie.com^$all
 
 ! https://app.any.run/tasks/07bb037e-3180-40cd-8f59-b7854cabd601/
 ||linkedin.com/pulse/free-discord-nitro-generator-verification-maxpro-game-gadget-2022^$all
 ||cutt.ly/YV9jKsf^$all
 ||gamegadget2022.blogspot.com^$document
-||gifttopsurvey.top^$all
 ! https://app.any.run/tasks/da8a44c3-965f-4fd6-816d-b5ae16235f62
 ||winnenmetje.info^$document
 ||iphone14.winnenmetje.info^$all
@@ -1033,7 +896,6 @@
 ! https://app.any.run/tasks/6600c704-20f5-4643-a9b7-322673aa7eb4
 ||vbucks-goo.com^$all
 ||www.vbucks-goo.com^$all
-||take.yunosurveys.com^$all
 ||www.jpnbgn.com^$document
 ||789offers.net^$document
 ||1263dcb80ec5.789offers.net^$all
@@ -1052,9 +914,6 @@
 ||napublic.com^$document
 ||haxbyq.com^$all
 ||authookroop.com^$document
-||dlinkrdr.com^$document
-||s.viichxt.com^$document
-||getsecures.com^$all
 ||s.viiqvmfb.com^$document
 
 ! porn-related scams
@@ -1070,25 +929,19 @@
 ||18hot.pw^$document
 
 ! https://app.any.run/tasks/87b656b2-3fd6-4bae-9267-f918ea4189ac
-||dating-hotcontacts.com^$all
 
 ! https://scammer.info/t/discord-nitro-scam/113648
 ||132.226.203.60^$all
-||iphonediscord.info^$all
-||www.iphonediscord.info^$all
 
 ! popups from shady URL shorteners
 ||mediasama.com^$document
-||nadjustifygas.com^$document
 ||ufacw.com^$document
 ||lyconery-readset.com^$document
 ||fralstamp-genglyric.icu^$all
-||m1dnightclubx.com^$document
 
 ! https://app.any.run/tasks/a15bbdd6-64d6-4a49-8457-6fbef1d00872
 ||form.run/@fortnite-v-bucks-codes-hack-generator-no-human-verification^$all
 ||belohnung24.com^$all
-||techplanet1.com^$all
 
 ! https://app.any.run/tasks/5a76864c-7436-4411-afc8-5937e8d1d147#
 ||form.run/@free-tiktok-followers-fans-likes-generator^$all
@@ -1099,10 +952,8 @@
 
 ! https://forums.malwarebytes.com/topic/292511-phishing-site-for-fake-usps-shipping-validation-information/ (account required)
 ! https://virustotal.com/gui/url/fdefaa6e73e722536cd080b4e820f8b69b6678d5f0c74268de126d2435369386
-||uspftiltedt.info^$all
 
 ! https://www.bleepingcomputer.com/forums/t/779953/urambledcom-just-a-nuisance-or-what/
-||urambled.com^$all
 
 ! https://tria.ge/221208-2zaqwsbg78/behavioral1
 ! I got some kind of miner/adware and an adware extension! All in one run!
@@ -1139,9 +990,7 @@
 
 ! an infected VM
 ||dreamyproducts4u.net^$document
-||xorror.shop^$document
 ||getarrectlive.com^$all
-||identitysecurecenter.online^$all
 ||get.securedbrowser.net^$document
 ||securedbrowser.net^$document
 ||settings.securedbrowser.net^$document
@@ -1153,19 +1002,12 @@
 ||phenotypeguide.com^$all
 ||onesocialimpactnow.com^$all
 ||globaledyta.com^$all
-||topcontactinc.com^$all
-||adsforcomputertech.com^$all
-||pushuworld.com^$all
-||jytibarose.xyz^$all
 ! https://app.any.run/tasks/67907c11-6877-4c38-932f-2cf09ee4e434
 ||adblock-chrome.net^$all
 
 ! https://github.com/uBlockOrigin/uAssets/issues/16000
 ! https://app.any.run/tasks/195b871c-b9cd-48f8-a7c1-6a53ea943a4b
 ||z83z9.com^$document
-||toftheca.buzz^$all
-||zcelv.toftheca.buzz^$all
-||fvsuo.toftheca.buzz^$all
 ||videofon.space^$all
 ||videofen.space^$all
 ||video7top.com^$all
@@ -1191,18 +1033,13 @@
 ||af.247games.mobi^$document
 
 ! a "meet local girls" scam
-||easy-sexxx.com^$document
 
 ! various scams from one site
 ||recodetime.com^$all
 ||updateinfoacademy.com^$all
-||updaterglobal.com^$all
-||phooking-nearected.com^$all
-||deten.live^$all
 
 ! https://forums.malwarebytes.com/topic/293205-alexa-support-scam/
 ||twitter.com/smartdotsupport^$all
-||smartdotsupport.com^$document
 ||privacysearching.com^$document
 
 ! probably a Tech Support scam
@@ -1219,7 +1056,6 @@
 ! https://virustotal.com/gui/url/9c7b98445c0fd303be8604f383b3c940309068ea88b37d3945f4d34bb42d6c57/community
 ! (nsfw) https://app.any.run/tasks/a8a191ea-0e54-439f-96fd-c04a04150b06
 ||expresscommusa.com^$document
-||flirtingworld.com^$document
 ||date.sofortdates69.com^$document
 ||sofortdates69.com^$document
 
@@ -1237,11 +1073,8 @@
 
 ! https://virustotal.com/gui/url/5808655d76b6ad31b7cc15fc266be2acb904ff8512fc1424103a6c54443bd272/community
 ! https://app.any.run/tasks/f619367b-ba77-4dbb-9046-211758a7f31a (my "analysis")
-||viptips4youtoday.world^$document
 
 ! typical fake "discord nitro generator"
-||an1.fun^$all
-||b7ax3cyzhq.com^$all
 ||thunderfiles.co^$document
 ||g.luckycashzone.com^$document
 
@@ -1250,8 +1083,6 @@
 
 ! https://dnstwist.it/
 ! https://app.any.run/tasks/015824a4-f267-48df-8dde-a7ddd78f167e
-||discordt.com^$all
-||wildberriessgift.pw^$all
 
 ! https://scammer.info/t/viruses-need-to-be-removed-immediately-take-emergency-measures-trojan/117241/3
 ||install.sunlifestores.com^$document
@@ -1262,33 +1093,17 @@
 ||rdr.mobiletime.net^$all
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139667 (credit to DandelionSprout for some of these entries)
-||500654179.kilpa2017.fi^$all
 ||yepsimmen.live^$all
-||kilpa2017.fi^$all
 ||51.68.87.229^$all
 ! resolve to 51.68.87.229
-||hillendan.live^$document
 ||intoobut.live^$document
 ||logomuado.live^$document
 ||laxthatpie.live^$document
-||nebdanext.live^$document
-||drewcorsit.live^$document
-||weyeplost.live^$document
-||loaditjew.live^$document
-||rawsalwet.live^$document
-||rugpinchi.live^$document
-||tillwoonote.live^$document
-||becashcode.live^$document
-||absbeatsic.live^$document
 ||tooldidhurt.live^$document
-||crypostmark.live^$document
-||varyhurtback.live^$document
-||toeastdue.live^$document
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139667#issuecomment-1383935774
 ||tapwhomjay.live^$all
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139667#issuecomment-1387103725
 ! https://virustotal.com/gui/url/5c74d63d19b8ec82321d352749977e29795a9d074fcdacce3f1c822da28a3bba/detection
-||mindkneenay.live^$document
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139667#issuecomment-1398421015
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139667#issuecomment-1399002017
 ! https://tria.ge/230120-1tlersbg8x/behavioral1
@@ -1298,118 +1113,18 @@
 ! https://github.com/DandelionSprout/adfilt/commit/f055f89a51e7f9b1bcc58a0013b6207f89594ebe (all credit to DandlionSprout)
 ||2022crucialcatch.store^$all
 ||adidascostarica.com^$all
-||adidasencostarica.com^$all
-||adidasfactoryoutlet-uk.com^$all
-||adidasfactoryoutletonline.com^$all
-||adsoutletusa.com^$all
-||adulttoysale.top^$all
-||airjordanshoes.store^$all
-||airjordansneakers.store^$all
-||alabamacollege.store^$all
-||alabamacrimsontide.store^$all
-||aldo-sale.com^$all
-||aldofactoryoutletcanada.com^$all
-||aldoukshoes.com^$all
-||allinclearance.com^$all
 ||aloyogaaustria.com^$all
 ||aloyogacz.com^$all
-||altrafactoryoutletonline.com^$all
-||approachmall.com^$all
-||arastockistsuk.com^$all
-||arizonacollege.store^$all
-||arkansascollege.store^$all
-||arkansasrazorbacks.store^$all
-||asiacenter.sk^$all
 ||asicousutlet.com^$all
-||asicrunningus.com^$all
-||asics-outlet-greece.com^$all
-||asicscolombiaoutlet.com^$all
-||asicsfalabella.com^$all
-||asicsoutletnl.com^$all
-||asicsoutletsireland.com^$all
-||asicssgonline.com^$all
-||asicsskosneakers.com^$all
-||astroshat.store^$all
-||astrosjersey.store^$all
-||astrosworldseries.store^$all
-||astroswschampions.store^$all
 ||atl-braves.shop^$all
-||atlantabraves.store^$all
-||auburncollege.store^$all
-||aukarenmillenbest.net^$all
-||balansukcheap.com^$all
-||baseballhat.store^$all
-||baseballjerseys.store^$all
-||basketballshoe.store^$all
-||bayaayakkabi.com^$all
-||baylorbears.shop^$all
-||baylorbearsncaa.store^$all
-||baylorcollege.store^$all
-||begaborschoenensale.com^$all
-||bestsclothingsale.com^$all
 ||billabong-turkiye.com^$all
-||billabong-us.com^$all
-||billabongoutletstore.com^$all
-||billabongoutletuk.com^$all
-||billabongromania.com^$all
-||billabonguruguay.com^$all
-||blundstonefactoryoutletus.com^$all
-||bogsoutletie.com^$all
-||bossoutletsau.com^$all
 ||bosssalescheap.com^$all
-||bossukcheaps.com^$all
 ||bossusaclearan.com^$all
-||bossusaoutlet.com^$all
-||bossusbest.com^$all
-||bossusclearan.com^$all
-||bostoncollegecollege.store^$all
-||bostoncollegeeagles.store^$all
-||bostonjersey.store^$all
-||bravesjersey.store^$all
-||bravesworldseries.shop^$all
-||broncosnfl.store^$all
-||buccaneersjersey.store^$all
-||bucsjersey.com^$all
 ||bucsjersey.sale^$all
-||buffalopolska.net^$all
-||bugattishoessaleuk.com^$all
-||butypumaoutlet.com^$all
 ||californiasports.shop^$all
-||camperportugal.com^$all
-||camperskonorge.com^$all
-||camperzapatochile.com^$all
-||camperzapatoschile.com^$all
-||canadagoosebrasil.com^$all
-||cancercatch.store^$all
-||carharttfactory-store.com^$all
-||cariuma-australia.com^$all
-||cariumafactoryoutlet.com^$all
-||celticsfan.store^$all
-||celticsjersey.shop^$all
-||celticsjersey.store^$all
-||chacofootwearusa.com^$all
-||chaconewzealand.com^$all
-||chacooutletswebsite.com^$all
 ||chacosandalsaustralia.com^$all
-||chacoshoesuk.com^$all
-||cheapdiesesale.com^$all
-||cheappumuk.com^$all
-||cheapsclothingus.com^$all
-||chgaborschuhe.com^$all
-||cincinnatibearcats.shop^$all
-||cincinnaticollege.store^$all
 ||cipomagyarorszag.com^$all
-||cipooutlethungary.com^$all
 ||cityconnect.pro^$all
-||cityconnect.shop^$all
-||cityconnect.store^$all
-||cityconnecthat.shop^$all
-||cityconnecthat.store^$all
-||cityconnectjersey.store^$all
-||cityconnectmlb.store^$all
-||clarkcheapuk.com^$all
-||clarkclearanus.com^$all
-||clarkdiscountus.com^$all
 ||clarks-ar.com^$all
 ||clarks-dk.com^$all
 ||clarks-pe.com^$all
@@ -1417,245 +1132,39 @@
 ||clarksoutlet-philippines.com^$all
 ||clarksoutletecuador.com^$all
 ||clarkssaleturkiye.com^$all
-||clarksskonorge.com^$all
 ||clarksuy.com^$all
-||clarkusoutlets.com^$all
-||clarusaoutet.com^$all
-||clearanclarkusa.com^$all
-||clearanlacostus.com^$all
-||clearanlacostusa.com^$all
-||clearanskecheusa.com^$all
-||clearantumius.com^$all
-||clearantumus.com^$all
-||clemsoncollege.store^$all
-||clemsontigers.online^$all
-||clemsontigers.store^$all
 ||clipperton.sk^$all
-||coacbestusa.com^$all
-||coacoutletsusa.com^$all
-||coacoutletusa.com^$all
-||coausaclearan.com^$all
-||collegeauburntigers.store^$all
-||collegebuckeyes.shop^$all
-||collegefootballshop.top^$all
 ||collegegameshop.com^$all
-||collegejayhawks.store^$all
-||collegejersey.store^$all
-||collegencaa.store^$all
-||collegepro.store^$all
 ||collegespartans.com^$all
-||collegewolverines.store^$all
-||coloradobuffaloes.store^$all
-||coloradocollege.store^$all
-||columbiafactorysusa.com^$all
-||columbiaoutletco.com^$all
-||columbiaoutletonlines.com^$all
-||columbiasalemalaysia.com^$all
-||columbisportsale.com^$all
-||columoutletusa.com^$all
-||columsportsale.net^$all
-||columsportsusa.com^$all
 ||converse-finland.com^$all
-||converse-malaysia.com^$all
-||converseirelandshop.com^$all
-||converseschweizshop.com^$all
-||crucialcatch.online^$all
 ||crucialcatch.pro^$all
-||crucialcatchhoodie.store^$all
-||crucialcatchpro.store^$all
 ||crucialcatchshop.pro^$all
-||crucialcatchstore.com^$all
 ||dallascowboys.sale^$all
-||demonia--suomi.com^$all
-||demonia-boots-australia.com^$all
-||demonia-boots-uk.com^$all
-||diadora-schoenen.com^$all
-||dieseclothingus.com^$all
-||dieselsalebests.com^$all
-||dieselsalesfr.net^$all
-||diesusoutlet.com^$all
-||discountskecheus.com^$all
-||discounttumusa.com^$all
-||discountumius.com^$all
-||dkgaborsneakers.com^$all
-||dodgershat.shop^$all
-||dodgershat.store^$all
-||dodgersjersey.shop^$all
-||dodgersjersey.store^$all
-||drcanadaoutletstore.com^$all
-||dukebluedevils.store^$all
-||dukecollege.store^$all
-||ecco-canadasale.com^$all
-||ecco-turkiye.com^$all
-||eccodanmarkwebbutik.com^$all
-||eccofactoryoutlets.com^$all
-||eccofactoryoutletus.com^$all
-||eccofactoryoutletusa.com^$all
-||eccooutletukfactory.com^$all
-||eccoshoesnz.com^$all
-||eccoskonorge.com^$all
-||eccsaleusonline.com^$all
-||ellumalls.com^$all
-||elluthings.com^$all
-||encompassmalls.com^$all
-||enucuzuggbot.com^$all
-||evolutionmalls.com^$all
-||exynet.sk^$all
-||fanaticsretailer.store^$all
 ||fanaticsshop.net^$all
-||fashioninmall.com^$all
-||fightingirish.shop^$all
-||fightingirish.store^$all
-||firstcoastthings.com^$all
-||fitflop-irelandstockists.com^$all
-||fitflop-philippines.com^$all
-||fitflop-ukoutlet.com^$all
-||fitflopfactoryoutlet.com^$all
-||fjallravengreece.com^$all
-||fjallravenitalia.com^$all
-||fjallravenoutletpolska.com^$all
-||fjallravenschweiz.com^$all
-||fjallraventilbud.com^$all
 ||floridagators.sale^$all
-||floridagators.store^$all
-||floridagators.xyz^$all
-||floridastatecollege.store^$all
-||floridastateseminoles.store^$all
-||flylondonportugal.com^$all
-||footballstaple.store^$all
-||fredperrylojas.com^$all
-||fredperrymelbourne.com^$all
-||fryefactoryoutlet.com^$all
-||fryeshoescanada.com^$all
-||gabor-chweiz.com^$all
-||gaborbelgique.com^$all
 ||gaborcanadasale.com^$all
 ||gaborfactoryoutlets.com^$all
-||gaborfactorysoutlets.com^$all
-||gaborireland.com^$all
-||gaborirelandsale.com^$all
-||gaboroutlet-online.com^$all
-||gaborpolska.com^$all
 ||gaborsaleireland.com^$all
-||gaborschuheshop.com^$all
-||gaborshoeespana.com^$all
-||gaborshoesespana.com^$all
-||gaborshoesireland.com^$all
-||gaborshoesnz.com^$all
-||gaborshoesuk.com^$all
 ||gaborskodanmark.com^$all
 ||gaborskonorge.com^$all
-||gaborsneakers.com^$all
 ||gaborsuomi.com^$all
 ||gaborsverige.com^$all
-||gaboruksale.com^$all
-||gatorscollege.store^$all
-||geacahellyhansenoutlet.com^$all
 ||georgiabulldogs.pro^$all
-||georgiabulldogs.shop^$all
-||georgiabulldogs.store^$all
-||georgiacollege.store^$all
-||geoxaustralia.com^$all
-||geoxmalaysia.com^$all
 ||gheteclarksromania.com^$all
-||gonzagabulldogs.store^$all
-||goodr-australia.com^$all
-||goodr-indonesia.com^$all
-||goodrphilippines.com^$all
-||goodrsingapore.com^$all
-||goodrsunglassesmalaysia.com^$all
-||goodrsunglassessaleus.com^$all
-||goodrsunglassesuk.com^$all
 ||groundiesshoesuk.com^$all
-||gym-shark-usa.com^$all
-||gymshark-canada.com^$all
 ||gymshark-greece.com^$all
-||gymshark-ireland.com^$all
-||gymshark-southafrica.com^$all
-||gymsharkaustria.com^$all
-||gymsharkgreeceshop.com^$all
 ||gymsharksaleus.com^$all
-||gymsharkunitedkingdom.com^$all
-||gymsharkunitedstates.com^$all
 ||haglofsrea.com^$all
-||haglofstilbud.com^$all
-||haglofsturkiye.com^$all
 ||haglofsusastore.com^$all
-||havenshungary.com^$all
-||hellyhansencanadasale.com^$all
-||hhjacketsfactoryoutlet.com^$all
 ||hitecayakkabi.com^$all
-||hitecchaussure.com^$all
 ||hitecscarpe.com^$all
-||hitecschoenen.com^$all
-||hitecskonorge.com^$all
-||hitecsouthafrica.com^$all
-||hockeyfightscancer.store^$all
-||hokairelandsales.com^$all
-||hokashoesaustralia.com^$all
-||hotsaleclearance.com^$all
-||houstonastros.store^$all
-||houstonastrosfan.store^$all
-||hoyoufat.store^$all
-||hoyoufatjersey.store^$all
-||hugobossclearanuk.net^$all
-||hushpuppies-uk.com^$all
-||hushpuppiesshoesoutlet.com^$all
-||illinoiscollege.store^$all
 ||illinoisfightingillini.shop^$all
-||illinoisfightingillini.store^$all
-||iowacollege.store^$all
 ||iowahawkeyes.pro^$all
-||iowahawkeyes.shop^$all
-||iowahawkeyes.store^$all
-||iowastatecollege.store^$all
-||iowastatecyclones.store^$all
-||jackwolfskindubai.com^$all
-||japanzarclothes.com^$all
-||jayhawkscollege.store^$all
-||jeweloutletshopline.com^$all
-||jeweloutletshoplus.com^$all
-||jewelrylimitedsr.com^$all
-||jordanshoe.store^$all
-||jordanshoes.store^$all
-||josefseibelshoesuk.com^$all
 ||kamikbootsukstore.com^$all
-||kankenportugal.com^$all
-||kansasjayhawks.shop^$all
-||kansasstatecollege.store^$all
-||kansasstatewildcats.store^$all
-||karenmillebestus.com^$all
-||karenmillensusoutlet.com^$all
-||karenmillenusbest.com^$all
-||karenmilleusaclearan.com^$all
-||karenmilleusasale.com^$all
-||karenmilleusastore.com^$all
-||katespusoutlet.com^$all
-||keds-schuhe.com^$all
-||kedsonlineshopnl.com^$all
-||keen1uae.com^$all
-||keenshoesfactoryoutletsuk.com^$all
-||keenuae.com^$all
 ||kenscottshop.com^$all
-||kenscottshopify.com^$all
 ||kentuckywildcats.shop^$all
-||kentuckywildcats.store^$all
-||ksgiftshopline.com^$all
-||kubasketball.shop^$all
-||kurtka-hhsklep.com^$all
-||lachargers.store^$all
 ||lacostcheapuk.com^$all
-||lacostclearances.net^$all
-||lacostdiscountus.com^$all
-||lacosteclearanusa.com^$all
-||lacosteuaeonline.com^$all
-||lacostsaleusa.com^$all
-||lacostusabest.com^$all
-||ladodgershat.shop^$all
-||ladodgersjersey.store^$all
 ||lasport.shop^$all
-||legginsmexico.com^$all
-||lojashushpuppies.com^$all
 ||longchamp-luxembourg.com^$all
 ||longchamp-southafrica.com^$all
 ||longchampbagsonsalecanada.com^$all
@@ -1664,243 +1173,28 @@
 ||longchampoutletsydney.com^$all
 ||longchampparissoldes.net^$all
 ||longchampuaedubai.com^$all
-||losangelesdodgers.store^$all
-||louisvillecardinals.store^$all
-||louisvillecollege.store^$all
-||lowa-boots-uk.com^$all
-||lowakangor.com^$all
-||lowaoutlet-usa.com^$all
-||lowaslovensko.com^$all
-||lsucollege.store^$all
-||lsutigers.store^$all
-||mango-pakistan.com^$all
-||marmot-australia.com^$all
-||marmot-schweiz.com^$all
-||marylandcollege.store^$all
-||marylandterrapins.store^$all
-||merrell-outletfactory.com^$all
-||merrell-sg.com^$all
-||merrell-shoesphilippines.com^$all
-||miamicollege.store^$all
-||michigancollege.store^$all
-||michiganstatecollege.store^$all
-||michiganstatespartans.store^$all
-||minnesotacollege.store^$all
-||minnesotagoldengophers.store^$all
-||mississippistatebulldogs.store^$all
-||mississippistatecollege.store^$all
-||mixedmalls.com^$all
-||mizunooutletuk.com^$all
-||mlballstar.net^$all
-||mlballstarshop.com^$all
-||mlbastros.store^$all
-||mlbastrosjersey.store^$all
-||mlbbaseballhat.store^$all
 ||mlbbraves.pro^$all
-||mlbcap.net^$all
-||mlbcapshop.com^$all
-||mlbcityconnect.sale^$all
-||mlbcityconnect.store^$all
-||mlbfansjersey.store^$all
-||mlbfanstore.com^$all
-||mlbhat.sale^$all
-||mlbhat.store^$all
-||mlbhat.top^$all
-||mlbhats.sale^$all
 ||mlbjersey.store^$all
-||mlbjerseys.online^$all
-||mlbjerseysale.shop^$all
-||mlbjerseyshop.net^$all
-||mlbprobraves.store^$all
-||mlbprojersey.com^$all
-||mlbraves.store^$all
-||monitormalls.com^$all
-||nba75.store^$all
-||nba75jerseys.store^$all
 ||nbaallstarfan.store^$all
-||nbafanjerseys.com^$all
-||nbafansjersey.com^$all
-||nbajerseycheap.com^$all
-||nbajerseys.top^$all
-||nboutletphilippines.com^$all
-||ncaaalabama.store^$all
-||ncaaarizona.store^$all
-||ncaaauburntigers.store^$all
-||ncaabasketball.store^$all
-||ncaabaylor.store^$all
-||ncaabaylorbears.store^$all
-||ncaabears.store^$all
-||ncaabluedevils.store^$all
-||ncaabruins.store^$all
-||ncaabuckeyes.store^$all
-||ncaaclemsontigers.store^$all
-||ncaacollege.store^$all
-||ncaacollegejersey.store^$all
-||ncaacougars.store^$all
-||ncaacrimsontide.store^$all
-||ncaadiablesbleus.store^$all
-||ncaaducks.store^$all
-||ncaaduke.store^$all
-||ncaadukebluedevils.store^$all
 ||ncaafanshop.com^$all
-||ncaafightingirish.store^$all
-||ncaafightingtigers.store^$all
-||ncaafootballjersey.store^$all
-||ncaageorgia.store^$all
-||ncaageorgiabulldogs.store^$all
-||ncaahoustoncougars.store^$all
-||ncaahurricanes.store^$all
-||ncaaillinois.store^$all
-||ncaaiowa.store^$all
-||ncaajayhawks.store^$all
 ||ncaajersey.com^$all
 ||ncaajersey.pro^$all
 ||ncaajersey.sale^$all
-||ncaajerseycollege.store^$all
-||ncaajerseyfan.store^$all
-||ncaajerseypro.store^$all
-||ncaajerseys.store^$all
 ||ncaajerseysstore.com^$all
-||ncaakentuckywildcats.store^$all
-||ncaalonghorns.store^$all
-||ncaalsu.store^$all
-||ncaamiami.store^$all
-||ncaamiamihurricanes.store^$all
-||ncaamichigan.store^$all
-||ncaamichiganwolverines.store^$all
-||ncaanorthcarolina.store^$all
-||ncaanotredame.store^$all
-||ncaaoklahoma.store^$all
-||ncaaolemiss.store^$all
-||ncaaoregon.store^$all
-||ncaaoregonducks.store^$all
-||ncaarazorbacks.store^$all
 ||ncaashopjerseys.com^$all
-||ncaasooners.store^$all
-||ncaatarheels.store^$all
-||ncaatennessee.store^$all
-||ncaauclabruins.store^$all
-||ncaauk.store^$all
-||ncaavols.store^$all
-||ncaawildcats.store^$all
-||ncaawolverines.store^$all
-||ncaaworldseries.store^$all
-||ncaazags.store^$all
-||nebraskacollege.store^$all
-||nebraskacornhuskers.store^$all
-||newyorksport.store^$all
-||nfl49ers.store^$all
-||nflbengals.store^$all
-||nflbroncos.store^$all
-||nflcancercatch.store^$all
-||nflcardinals.store^$all
-||nflchargers.store^$all
-||nflchiefs.store^$all
-||nflcrucialcatch.sale^$all
-||nflcrucialcatch.store^$all
-||nflcrucialcatch.top^$all
-||nflcrucialcatchshop.com^$all
-||nfldraft.shop^$all
-||nfldrafthat.store^$all
-||nfldraftshop.com^$all
-||nfleagles.store^$all
 ||nflgamejersey.store^$all
-||nflgamelimited.store^$all
-||nflhelmet.store^$all
-||nfljersey.fans^$all
 ||nfljersey.pro^$all
-||nfljerseysale.shop^$all
 ||nflnikeshoes.com^$all
-||nflnikeshoes.store^$all
-||nflpackers.store^$all
 ||nflsaleshop.com^$all
 ||nflsalutetoservice.com^$all
-||nflsalutetoservice.store^$all
-||nflservice.store^$all
-||nflshoe.store^$all
-||nflshoes.pro^$all
-||nflshoes.shop^$all
-||nflshoes.store^$all
-||nflshoesale.store^$all
-||nflshopfan.com^$all
 ||nflsocks.com^$all
-||nflstaple.store^$all
-||nflstapleshop.top^$all
 ||nflstorefan.com^$all
 ||nflsts.com^$all
-||nflstsjersey.com^$all
-||nflstsjersey.store^$all
-||nfltitans.store^$all
-||nflzoompegasus.store^$all
 ||nhlallstar.pro^$all
-||nhlauthenticpro.store^$all
-||nhlfan.store^$all
-||nhlfanjersey.store^$all
-||nhlfansjersey.store^$all
-||nhlfansjerseys.store^$all
-||nhlfightscancer.store^$all
-||nhlhockey.store^$all
-||nhlhockeyjersey.store^$all
 ||nhljersey.sale^$all
-||nhljersey.site^$all
-||nhljersey.store^$all
-||nhljersey.top^$all
-||nhljerseyfan.store^$all
-||nhljerseypro.store^$all
-||nhljerseys.sale^$all
-||nhljerseysale.shop^$all
-||nhljerseysfan.store^$all
-||nhljerseyshop.store^$all
-||nhljerseyssale.store^$all
-||nhlprojerseys.store^$all
-||nhlsalejersey.store^$all
 ||nhlshopfan.com^$all
 ||nhlshopjersey.com^$all
-||nhlstadiumseries.store^$all
-||nhlwinterclassicjersey.store^$all
-||nike--usa.com^$all
-||nike-clearancestore.com^$all
-||nikeairjordan.store^$all
-||nikeairshoes.store^$all
-||nikeshoesale.store^$all
-||nikesneaker.store^$all
-||ninewestpolska.com^$all
-||ninewestusasale.com^$all
-||nobull-brasil.com^$all
-||northcarolinacollege.store^$all
-||northcarolinashop.net^$all
-||northcarolinatarheels.shop^$all
-||northcarolinatarheels.store^$all
-||northfaceoutletstoreus.com^$all
-||notredamecollege.store^$all
-||notredamefightingirish.store^$all
-||off-whitecanada.com^$all
-||off-whitecolombia.com^$all
-||off-whitedanmark.com^$all
-||off-whitedeutschland.com^$all
-||off-whitegreece.com^$all
-||off-whitehungary.com^$all
-||off-whiteindonesia.com^$all
-||off-whitemalaysia.com^$all
-||off-whitemexico.com^$all
-||off-whitenetherlands.com^$all
-||off-whiteromania.com^$all
-||off-whiteschweiz.com^$all
-||off-whitesuomi.com^$all
-||off-whitesverige.com^$all
-||off-whiteturkey.com^$all
-||ohiostatebuckeyes.online^$all
-||ohiostatebuckeyes.store^$all
-||ohiostatecollege.store^$all
-||oklahomacollege.store^$all
-||oklahomasooners.store^$all
-||olemisscollege.store^$all
-||olemissrebels.shop^$all
-||olemissrebels.store^$all
-||onlinejewelshopline.com^$all
-||onlinejewelshoplus.com^$all
 ||onlinestoresshops.com^$all
-||onlinevipshplus.com^$all
 ||oofos-ireland.com^$all
 ||oofosnorgeoutlet.com^$all
 ||oofosoutletcanada.com^$all
@@ -1908,327 +1202,95 @@
 ||oofosoutletonline.com^$all
 ||oofosshoeaustralia.com^$all
 ||oofosskorsveriges.com^$all
-||operationmalls.com^$all
-||oregoncollege.store^$all
-||oregonducks.shop^$all
-||oregonducks.store^$all
-||osucowboys.shop^$all
-||outletargentinacolumbia.com^$all
-||outletchilecolumbia.com^$all
-||outletgoodshopline.com^$all
-||outletjewelshoplzza.com^$all
-||outletjewelsvip.com^$all
-||outletmerrellargentina.com^$all
-||outletuksorel.com^$all
-||outletvipshoplus.com^$all
-||outletvipshopy.com^$all
-||panelmalls.com^$all
-||partnershipmalls.com^$all
-||paulsmitfactoryus.net^$all
-||pennstatecollege.store^$all
-||pennstatenittanylions.store^$all
-||philadelphiaeagles.store^$all
-||piercemalls.com^$all
-||pittpanthers.shop^$all
 ||pittsburghsteelersshop.com^$all
-||planmalls.com^$all
-||proficientmalls.com^$all
 ||psychobunnycolombia.com^$all
-||puma-greece.com^$all
-||puma-norge.co.no^$all
-||puma-uy.com^$all
-||pumachileoutlet.com^$all
-||pumacostarica.net^$all
-||pumaecuador.net^$all
-||pumairelandsale.com^$all
-||pumaoutletonlineportugal.com^$all
-||pumaturkish.com^$all
-||pumauruguay.com^$all
-||pumoutletusa.com^$all
-||pumsaleusa.com^$all
-||pumusoutlet.com^$all
-||purdueboilermakers.store^$all
-||purduecollege.store^$all
-||quicksilveruae.com^$all
-||quiksilver-australia.com^$all
-||quiksilver-canada.com^$all
-||quiksilver-malaysia.com^$all
-||quiksilver-philippines.com^$all
 ||quiksilver-southafrica.com^$all
 ||quiksilverfactoryoutlet.com^$all
-||quiksilverindonesia.com^$all
 ||quiksilveroutletusa.com^$all
-||quiksilveruksale.com^$all
-||rebecamalls.com^$all
-||reclassicsg.org^$all
-||redwingbootsoutlets.com^$all
 ||reebok-chile.com^$all
 ||reebok-romania.com^$all
-||reebokblackfridayoffers.com^$all
 ||reebokfactoryoutlet.com^$all
-||riekeroutletca.com^$all
-||riekershoessaleuk.com^$all
-||rolltide.shop^$all
-||romaniakanken.com^$all
-||rothyusonline.shop^$all
-||roxclothingusa.com^$all
-||rritemalls.com^$all
-||sacfjallravensoldes.com^$all
-||saleushoka.com^$all
-||salewaoutletschile.com^$all
-||salomon--portugal.com^$all
 ||salomon-nederland.com^$all
-||salomon-nederlands.com^$all
-||salomon-norge.co.no^$all
-||salomon-outletsturkiye.com^$all
-||salomon-portugal.com^$all
 ||salomonaphilippines.com^$all
 ||salomonashoesnz.com^$all
-||salomonbootsbrisbane.com^$all
-||salomonbootsoutletusa.com^$all
 ||salomonespanas.com^$all
 ||salomonfactoryoutletmadrid.com^$all
 ||salomonmalaysiawebsite.com^$all
 ||salomonoutletgreece.com^$all
-||salomonoutletnl.com^$all
 ||salomonoutletsfactory.com^$all
 ||salomonoutletstoresusa.com^$all
-||salomonshoesoutletusa.com^$all
 ||salomonxapro3d.com^$all
-||samsonclearanus.com^$all
-||samsondiscountus.com^$all
-||sandalitevaofferta.com^$all
-||sanfrancisco49ers.store^$all
-||sanuksingapore.com^$all
-||sapatilhasallstarbaratas.com^$all
 ||sapatosclarkportugal.com^$all
-||saucony-australia.com^$all
-||sauconyfactoryoutletsuk.com^$all
-||sauconyfactoryoutletuk.com^$all
-||sauconyjazzturkey.com^$all
-||sauconyoutletaustralia.com^$all
-||sauconyoutletuk.com^$all
 ||seattlekraken.sale^$all
 ||sebagoshoesdubai.com^$all
-||shoesnike.store^$all
-||shopmksus.com^$all
-||shopsmithsus.com^$all
-||silentmalls.com^$all
-||skecheausale.com^$all
-||skecheclearanceus.com^$all
-||skechers-israel.com^$all
-||skechers-tenisice.com^$all
-||skechersarchfitromania.com^$all
-||skechersfactorysoutlet.com^$all
-||skechersoutletpraha.cz^$all
-||skecherstrainers-uk.com^$all
-||skecherusaclearan.com^$all
-||skecheukclearan.com^$all
-||skecheusoutlet.com^$all
-||slovenskokanken.com^$all
-||sneakersnike.store^$all
-||sorelfactoryoutlet.com^$all
-||southcarolinacollege.store^$all
-||southcarolinagamecocks.store^$all
-||spartanscollege.shop^$all
-||sperroutletusa.com^$all
-||sperryfactoryoutlet.com^$all
-||sperryonlinesatis.com^$all
-||spinmalls.com^$all
-||sportgear.store^$all
-||spraygoutletus.com^$all
-||spraygroclearanusa.com^$all
 ||spraygrousoutlet.com^$all
-||stanfordcardinal.store^$all
-||stanfordcollege.store^$all
-||storeskechesale.com^$all
-||suicokeshoessale.com^$all
-||suicokeuk.com^$all
-||superbowllvi.shop^$all
-||superbowllvi.store^$all
-||superbowlstore.com^$all
 ||swarovskichile.com^$all
 ||swarovskidubai.com^$all
 ||swarovskifactoryoutlet.com^$all
 ||swarovskioutletuk.com^$all
 ||swarovskiphilippines.com^$all
 ||swarovskisaleoutlet.com^$all
-||tamarisfactoryoutlet.com^$all
-||tamarisgreece.com^$all
-||tamarisgreecer.com^$all
-||tarheelscollege.store^$all
-||tbeautybeauty.com^$all
-||tcucollege.store^$all
-||tcuhornedfrogs.store^$all
-||tenisveja-portugal.com^$all
-||tennesseecollege.store^$all
-||tennesseevolunteers.store^$all
-||teva-nederlands.com^$all
 ||tevacolombia.com^$all
-||tevafactoryoutletuk.com^$all
 ||tevagreece.com^$all
-||tevaromaniasandale.com^$all
-||tevaturkey.com^$all
-||texasamaggies.store^$all
-||texasamcollege.store^$all
-||texascollege.store^$all
-||texaslonghorns.online^$all
-||texaslonghorns.store^$all
-||texastechcollege.store^$all
-||texastechredraiders.store^$all
-||thegirlfriendcollectiveaustralia.com^$all
-||thegirlfriendcollectivenederland.com^$all
-||thegirlfriendcollectiveuk.com^$all
-||thorogoodfactoryoutlets.com^$all
 ||tiendacolumbiachile.com^$all
 ||tiendaunderarmourmexico.com^$all
-||tocontrolbeauty.com^$all
-||tombrady.store^$all
 ||tombradyshop.pro^$all
-||tombradystore.com^$all
 ||tommyhilfigerperth.com^$all
-||tomssingaporesale.com^$all
-||tumibeststores.com^$all
 ||tumicheapuk.com^$all
-||tumioutletclearan.com^$all
-||tumusaoutlet.com^$all
 ||ua-australia.com^$all
 ||ua-canada.com^$all
 ||ua-chile.com^$all
 ||ua-greece.com^$all
-||ukclarkcheap.com^$all
-||ukclarkoutlets.com^$all
-||ukcollege.store^$all
-||ukkarenmillencheap.com^$all
-||uklacostsale.com^$all
-||ukskechecheap.com^$all
-||uncbasketball.store^$all
-||uncjersey.shop^$all
-||uncjersey.store^$all
-||unctarheels.shop^$all
-||unctarheels.store^$all
-||underarmour-costerica.com^$all
 ||underarmour-israel.com^$all
 ||underarmour-italia.com^$all
 ||underarmour-nl.com^$all
 ||underarmour-nz.com^$all
 ||underarmour-saudiarabia.com^$all
-||underarmourhungary.com^$all
 ||underarmourosterreich.com^$all
-||underarmouroutlet-usa.com^$all
 ||underarmouroutletromania.com^$all
-||underarmourromania-ro.com^$all
-||underarmourshortsuk.com^$all
-||undergroundmalls.com^$all
-||underrmourireland.com^$all
-||usccollege.store^$all
-||uscolumbsportswear.com^$all
-||usctrojans.online^$all
-||uspumsale.com^$all
-||utahcollege.store^$all
-||utahutes.shop^$all
-||utahutes.store^$all
-||veja-froutlet.com^$all
-||vejafactoryoutletusa.com^$all
-||vejajapanstore.com^$all
 ||vejaoslo.com^$all
 ||vejaosterreich.com^$all
-||vejaromaniaoutlet.com^$all
-||vejasale-ireland.com^$all
-||vejasneakers-schweiz.com^$all
-||vejatenisice-hr.com^$all
-||vibramfive-fingers.cz^$all
-||vibramsk.com^$all
-||vionicshoes-southafrica.com^$all
-||vionicshoessingapore.com^$all
-||vionicshoesuksale.com^$all
-||vipgiftshopline.com^$all
-||vipgiftshoppy.com^$all
-||vipgoodshoppy.com^$all
-||vippgiftsonline.com^$all
-||virginiatechcollege.store^$all
-||virginiatechhokies.store^$all
-||vlone-uk.com^$all
-||wakeforestcollege.store^$all
-||wakeforestdemondeacons.store^$all
-||warriorsjersey.store^$all
-||washingtoncollege.store^$all
-||washingtonhuskies.store^$all
-||wellness-gym.sk^$all
-||westvirginiacollege.store^$all
-||westvirginiamountaineers.store^$all
-||wolverineaustralias.com^$all
 ||xn--conversemaazalar-shc44a.com^$all
 ||xn--hotiayakkab-p9a38g.com^$all
 ||xn--vansayakkab-9zb.com^$all
-||zainofjallravenkanken.com^$all
-||zalesglobaljewelry.com^$all
-||zamberlanireland.com^$all
-||zapatillasvejacl.com^$all
-||zapatosaldochile.org^$all
 
 ! https://forums.malwarebytes.com/topic/293979-recent-scamware-not-recognized-by-malwarebytes/
 ||allreqdusa.com^$all
 
 ! NSFW: https://app.any.run/tasks/dff4525c-555a-479e-83ba-c5b2f2d11ab6
 ||baconaces.pro^$all
-||eredhadbeen.xyz^$all
-||twgfw.eredhadbeen.xyz^$all
-||nugans.live^$all
 ||chrome.google.com/webstore/detail/cats-fanpage/nkhleengjihjncmbkldpfmoankdkhahg^$document
 
 ! NSFW: https://app.any.run/tasks/10647999-b75b-42bd-ae49-c7d596f3c797
-||kdakm.eredhadbeen.xyz^$all
 ||qualitydating.top^$all
 ||a.curedating.top^$all
 ||curedating.top^$all
 ! https://virustotal.com/gui/ip-address/5.181.203.4/relations
 ||finestdating.top^$document
-||goodating.top^$document
 ||datingpoint.top^$document
-||cutiesdating.top^$document
 ||vipdatingtime.top^$document
 ! https://virustotal.com/gui/ip-address/195.201.253.131/relations
-||sensualflirts.life^$document
-||yourbestpartner.life^$document
-||thebestdate.life^$document
-||besttightflirts.life^$document
 ||timetopdatings.life^$document
-||realhotmeets.life^$document
 ||dateflirt.life^$document
 ||originalspartner.life^$document
-||loveclick.life^$document
-||goyummdating.life^$document
-||bestdatingsforyou.life^$document
-||findsoulmate.life^$document
-||instinctdating.life^$document
 ||charmingdating.life^$document
 ||datingarea.life^$document
-||delightdatings.life^$document
-||bestflirtzone.life^$document
 ||getsexy.life^$document
-||lover-finder.life^$document
 ||findsexy.life^$document
 
 ! https://app.any.run/tasks/8ced67f6-f4e6-4fed-b634-86fd93ac4074/
 ||darkinfotale.xyz^$all
-||f.estivaltodayz.com^$document
 ||hollandcash.nl^$all
 ||exit.hollandcash.nl^$all
 ||clean-blocker.com^$all
 
 ! https://github.com/DandelionSprout/adfilt/issues/752
-||omclyzyapf.com^$all
 ||godpvqnszo.com^$popup
-||news-mapara.com^$all
 ||vipdatingtoday.top^$all
 ||xxxnewvideos.com^$all
 ||iseult-aplite.xyz^$all
 ||img.pushflow.net/creatives/11/5645/1649754393755-push-preview-img.png^$all
-||theantivirusprotection.xyz^$all
-||1.news-mapara.com^$all
 ||battik-bowwow.xyz^$all
-||2.news-mapara.com^$all
 ||pshsbscapr.xyz^$all
 ||cdn.pncloudfl.com/pn/f83/d57/83b/f83d5783b20e21e0de65e6f7f632cde8a29b9ef6.jpg^$all
 ||click01.pshtrkg.com^$document
@@ -2242,29 +1304,20 @@
 ||gamingtoolz.club^$all
 
 ! from notification scams
-||nahist.live^$all
-||redins.live^$all
-||carltus.click^$all
-||www.carltus.click^$all
 ||renhadmasandbab.info^$document
-||bestadultdatinglist-com.ru^$document
-||findflirtpartner6.euroshoptrendingclub.ru^$document
 ||h.curedating.top^$all
 ||martoysure.live^$all
 ||goodgollygold.com^$document
 
 ! https://virustotal.com/gui/domain/beastws.com
 ! (my analysis) https://app.any.run/tasks/dc144216-7c8d-4a2b-963e-24b507124e81
-||beastws.com^$all
 
 ! https://github.com/no-cmyk/Search-Engine-Spam-Blocklist/issues/8
 ! TODO: verify these entries, hopefully there aren't any more https://github.com/hagezi/dns-blocklists/issues/987
 ! https://app.any.run/tasks/e90c2a06-036f-4fff-a36f-dffd0d4048ab
-||doxspb.adajobs.de^$all
 ||giftaward.life^$all
 
 ! https://github.com/badmojr/1Hosts/issues/1098
-||elon23.page.link^$all
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142492 --> https://github.com/uBlockOrigin/uAssets/commit/fca5436e3e823d73541721867f42dd0712da54a0
 ||apkmirror.co^$all
@@ -2283,9 +1336,6 @@
 ||yandex.co^$document
 
 ! a test system
-||paleks.live^$all
-||kempus.click^$all
-||www.kempus.click^$all
 ||webpick-cdn.s3.amazonaws.com/2%20-%20pending%20massage.jpeg$all
 
 ! https://app.any.run/tasks/3f79c271-f68d-48a8-af16-efd001ce7be3
@@ -2296,69 +1346,37 @@
 ||jatostepa.com^$all
 
 ! https://forums.malwarebytes.com/topic/295377-false-mcaffee-warning/ (account required)
-||powerpcsupport.com^$document
 
 ! https://github.com/hagezi/dns-blocklists/issues/598
 ||t-post.com^$all
 
 ! https://github.com/hagezi/dns-blocklists/issues/597
-||stallioncredit.com^$all
 
 ! https://github.com/hagezi/dns-blocklists/issues/595
-||goldtimeinvest.com^$all
 
 ! https://github.com/hagezi/dns-blocklists/issues/594
 ||nirvezal.com^$all
 
 ! https://virustotal.com/gui/url/413da77a326371e24a4c334e749a54928b43ee6bcd27165167940456b9c14f52/community
-||eg-ame.com^$all
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/144514
-||attractbonus.life^$all
 ||best-prize.life^$all
 ||bestbigbonus.life^$all
 ||bonusgift.life^$all
-||bonusreward.life^$all
 ||bonusscore.life^$all
-||gainquick.life^$all
-||giftjackpot.life^$all
-||greatbonushere.life^$all
 ||greatprizes.life^$all
-||jackpotscore.life^$all
-||jackpotwinning.life^$all
-||keep-rewards.life^$all
-||keepbonus.life^$all
-||keepreward.life^$all
 ||mygreatprize.life^$all
 ||prizeaward.life^$all
-||prizefast.life^$all
-||prizegain.life^$all
-||prizehere.life^$all
-||prizerush.life^$all
 ||prizesenses.life^$all
-||prizesure.life^$all
 ||realgift.life^$all
-||rewardgains.life^$all
 ||scorereward.life^$all
 ||simpleprize.life^$all
-||simplewin.life^$all
 ||taketheprizes.life^$all
-||topbonusgain.life^$all
-||win-bonus.life^$all
-||win-prize-now.life^$all
-||win-prize.life^$all
-||win-touch.life^$all
-||winbigdrip.life^$all
-||wincorporate.life^$all
 ||winearth.life^$all
 ||winexpert.life^$all
-||wingiftnow.life^$all
 ||winmore.life^$all
-||winprizehere.life^$all
 ||winpulse.life^$all
-||winregistry.life^$all
 ||winsimply.life^$all
-||wintarget.life^$all
 
 ! https://github.com/uBlockOrigin/uAssets/issues/17075
 ! my analysis: https://app.any.run/tasks/ed301c03-1105-47e5-88d1-66fded6a0a9b
@@ -2404,10 +1422,8 @@
 ||cdn.locked3.com^$document
 
 ! https://github.com/durablenapkin/scamblocklist/issues/15
-||thuthuatxiaomi.com^$document
 ||petsimulator.live^$document
 ||rewardsgiantca.com^$document
-||earnpets.com^$document
 
 ! https://0xacab.org/my-privacy-dns/matrix/-/issues/90853
 ! (my analysis) https://app.any.run/tasks/029760ea-9972-4c3a-8a7e-cca3d7777c0f
@@ -2415,10 +1431,8 @@
 
 ! https://0xacab.org/my-privacy-dns/matrix/-/issues/90813
 ! (my analysis) https://app.any.run/tasks/0992866b-9af2-41ba-9b91-8fe5a2917908
-||bbxxvwb.tk^$all
 
 ! https://github.com/StevenBlack/hosts/issues/2271
-||transive.top^$document
 ||warehousesale.shop^$document
 
 ! https://app.any.run/tasks/3137c861-185d-4037-84e9-65cc0adeba15
@@ -2431,14 +1445,11 @@
 ||157.230.4.182^$document
 
 ! https://github.com/durablenapkin/scamblocklist/issues/18
-||q3i5q2r6.stackpathcdn.com^$all
 
 ! https://github.com/uBlockOrigin/uAssets/pull/17530
 ||rblx.land^$all
 
 ! https://forums.malwarebytes.com/topic/296891-malwarebytes-fake-website-scam-website/#comment-1563262 (account required)
-||webstore.getsecuredsetup.com^$document
-||www.webstore.getsecuredsetup.com^$document
 
 ! https://github.com/uBlockOrigin/uAssets/issues/17602
 ||allprizesforme.com^$all
@@ -2462,7 +1473,6 @@
 ! https://0xacab.org/my-privacy-dns/matrix/-/issues/121792
 ||rplnd60.com^$all
 ||news-pewuce.com^$all
-||djpjwf.com^$all
 ! from notifications
 ||totalprotection-2023.store^$all
 ||closingday2.xyz^$all
@@ -2479,7 +1489,6 @@
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/12wqrv5/steamunlockednet_badware/ <-- have not verified sites to be malware! These are just domains ads in my analysis
 ! https://app.any.run/tasks/9ed7df61-f0a9-49cc-91bc-a3fcc2c59ae1/
-||antivirusgaming.com^$all
 ||aluationiamcur.com^$all
 ||xrlbq.aluationiamcur.com^$all
 ||awesome-blocker.com^$document
@@ -2490,9 +1499,6 @@
 ||mobilesecuremail.com^$document
 
 ! https://github.com/durablenapkin/scamblocklist/issues/38
-||miningpror.top^$all
-||paypartc.top^$all
-||bitcllpay.top^$all
 ||tdsintegrations11.online^$all
 ||crypto030.online^$all
 
@@ -2502,34 +1508,26 @@
 ||wzzzs.uuksehinkitwkuo.com^$all
 
 ! https://app.any.run/tasks/d576fecb-3250-4a18-82de-eba82ac7ba6d
-||click2code.xyz^$all
 
 ! https://github.com/durablenapkin/scamblocklist/issues/40
 ||dischargebackhanded.com^$document
-||zech-company.com^$document
 ||govmedcareers.com^$document
-||talentmaster.bio^$document
 ||radiatorcrate.com^$document
 ||theniemannbest.com^$document
-||jellyfishstat.live^$document
 
 ! https://github.com/durablenapkin/scamblocklist/issues/42
-||intgblockchain.online^$document
 
 ! https://github.com/uBlockOrigin/uAssets/issues/17947
 ||pccdirect.site^$all
 
 ! youtube typosquatt I found
 ||you8tube.com^$all
-||getluckyprize2023.com^$all
 /17138/iphone14.html?$document
 ! https://app.any.run/tasks/494077d1-478b-47e0-871c-b22788a455b6
-||pingleflavor.xyz^$all
 ||funprizeali.site^$all
 
 ! other notification spam
 ||losbestbsdating2023.com^$document
-||datenow.losbestbsdating2023.com^$all
 
 ! discord nitro scam 
 ||techsoftglobals.com^$all
@@ -2539,36 +1537,18 @@
 ||prorify.de^$document
 ||milgenial.uy^$document
 ||swuso.com^$document
-||cebubestbuy.com^$document
 ||buyyeezy2023.com^$document
-||casavec.com^$document
 ||kingcampoutdoors.co.jp^$document
 ||imlb2c.com^$document
-||wareeb.pk^$document
-||loepwatch.com^$document
-||fiewatch.com^$document
 ||felara.com.do^$document
-||posehee.com^$document
-||beautyt.shop^$document
-||lomoor.com^$document
-||morlyes.com^$document
-||ajcenteruss.com^$document
-||bitiiy.com^$document
 ||storagestory.com^$document
-||ihuers.com^$document
-||bloomessentialsbrand.com^$document
 ||quitasueno.com^$document
 ||lifestyletrading.co.za^$document
-||yyderfreap.shop^$document
 ||audiosg.com.sg^$document
 ||fujibikes.com^$document
-||walmartchina.top^$document
 ||geldencosmeticos.com^$document
 ||sellfox.com^$document
-||parklaneupholstemk.com^$document
 ||iteeus.com^$document
-||monark-store.com^$document
-||shapeden.com^$document
 ||andamente.pt^$document
 ||staging.zendrop.com^$document
 ||courier-tracking.com^$document
@@ -2576,65 +1556,37 @@
 ||stellara.de^$document
 ||innomediacreate.com^$document
 ||sehaleservices.com^$document
-||magnite.shop^$document
 ||decompraschile.com^$document
 ||salimusic.com^$document
 ||open-cbd.de^$document
-||onrunningshop.com^$document
-||bygigi.mx^$document
-||vkeys.online^$document
 ||teevpower.com^$document
 ||caraci.it^$document
-||easyshopper.org^$document
-||oncloudrun.shop^$document
 ||shopperexpress.shop^$document
-||aoocib.com^$document
-||7s4c.top^$document
-||chandeco.com^$document
-||networksfishing.com^$document
-||millabay.com^$document
 ||mila-vica.de^$document
-||ballsbags.com^$document
 ||vinisay.com^$document
 ||tinkleo.com^$document
 ||draxu.com^$document
 ||headsets4business.co.uk^$document
-||kielorelief.io^$document
-||olaoffer.shop^$document
 ||nosdaarte.com^$document
-||pairmate.se^$document
 ||babybeddingdesign.com^$document
 ||coco-vip-shop.com^$document
 ||xunlei.it^$document
 ||botsuanah.com^$document
 ||lojaacasa.com.br^$document
 ||dashracegear.net^$document
-||youthfy.shop^$document
 ||smartokids.com^$document
 ||pipopi.com^$document
-||k-tozluxury.shop^$document
-||zuozuoshoe.shop^$document
-||vip-yuki-shop.com^$document
-||c-tozluxury.shop^$document
 ||lasercutjewelry.net^$document
-||sleepyfull.com^$document
-||expofstore.com^$document
-||watchmark.shop^$document
 ||carsaratek.com^$document
 ||xajzfwgs.com^$document
-||uange.shop^$document
 ||imagemotorcycles.co.nz^$document
 ||twinsbio.com^$document
-||snapchaty.com^$document
-||tomfordgo.com^$document
-||worthas.shop^$document
 ||microgull.com^$document
 
 ! https://github.com/hagezi/dns-blocklists/issues/1025
 ||msmcompare.com^$all
 
 ! https://github.com/durablenapkin/scamblocklist/issues/45
-||teslatucker.com^$all
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/13e53jy/badware_movie_sites/
 ! https://github.com/uBlockOrigin/uAssets/issues/18333
@@ -2646,7 +1598,6 @@
 ||smcdsecure.com^$all
 
 ! https://github.com/durablenapkin/scamblocklist/issues/46
-||muskbtc.io^$all
 
 ! https://github.com/hagezi/dns-blocklists/issues/1053
 ||i-grade.online^$all
@@ -2660,28 +1611,22 @@
 ||abncbp.com^$all
 
 ! spam
-||hotgirlsj8k8.com^$document
 ||locasualx.com^$document
 ||web.locasualx.com^$document
 ||datingcentral.top^$all
 ||i.datingcentral.top^$all
 
 ! https://0xacab.org/my-privacy-dns/matrix/-/issues/418503
-||0a317d9d6b.79c4215c89.com^$document
 
 ! https://tria.ge/230520-nthbwseg41/behavioral1
-||ugpe.krokwbok.pl^$all
 ||37.1.213.100^$document
 ||tabloidquantitycosts.com^$all
-||newsfrcity.azurewebsites.net^$all
 
 ! account required: https://forums.malwarebytes.com/topic/298281-genshin-impact-scam-websites-to-avoid/
 ! my analysis: https://tria.ge/230524-wfaznadg93/behavioral1
 ||hoylab.firebaseapp.com^$all
 ||cloudfront.net/public/dynamo/lockerClick.php?offer=*offer_position$document
-||visitor-country.info^$document
 ||weletmim.com/click?pid=*&offer_id=*&$document
-||go.letmimy.com^$all
 
 ! https://github.com/hagezi/dns-blocklists/issues/1075
 ||factorysale2023.com^$document
@@ -2703,13 +1648,8 @@
 ||85.192.63.194^$all
 
 ! https://github.com/hagezi/dns-blocklists/issues/1089
-||elonmix.org^$all
-||musklink.org^$all
-||muskbot.io^$all
 
 ! https://github.com/badmojr/1Hosts/issues/1429
-||thelabourforce.com^$document
-||v5o.disktopic.com^$document
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/13ub824/trojan_scam_ads_to_block/
 ! my analysis: https://app.any.run/tasks/e3720726-f650-434c-b34c-68ce718977ff
@@ -2727,12 +1667,10 @@
 ||hypercracker.com^$all
 
 ! https://github.com/hagezi/dns-blocklists/issues/1098
-||jakedstake.com^$all
 ||improtants.space^$all
 
 ! https://0xacab.org/my-privacy-dns/matrix/-/issues/551938
 ! my analysis: https://tria.ge/230531-2tegwsbh3v/behavioral1
-||azmovies.io^$all
 ||pdtrax.g2afse.com^$document
 ||tr.trackingit.site^$all
 ||trackingit.site^$document
@@ -2747,51 +1685,31 @@
 ! https://github.com/uBlockOrigin/uAssets/issues/18375
 ! nsfw: https://app.any.run/tasks/e3da5e5e-8b6d-4a7f-8165-6439ff68d940
 ||www.fulltimesecurityguard.com^$all
-||fulltimesecurityguard.com^$document
-||tepirg.xyz^$all
 
 ! https://github.com/uBlockOrigin/uAssets/issues/18380
 ||lgpc.bestextensionegde.com^$all
 ||bestextensionegde.com^
 ! nsfw: https://app.any.run/tasks/49927d07-3f8e-4115-a6e3-476e6aec62c0
-||onevenadvnow.com^$all
 ||nodritsissub.com^$all
 
 ! https://github.com/uBlockOrigin/uAssets/pull/18388
 ||roundyearfun.org^$document
 ||anyplacehere.me^$document
-||funaroundy.click^$document
 
 ! https://0xacab.org/my-privacy-dns/matrix/-/issues/594269
 ! my analysis: https://tria.ge/230604-x8gtcadd85/behavioral1
-||darkskin.world^$all
 
 ! https://tria.ge/230605-nfg4zagb63/behavioral2
 ||errors.pro^$document
-||donwloadkeepet.buzz^$all
 ||stucktimeoutvexed.com^$document
-||sembilme.com^$all
 
 ! https://forums.malwarebytes.com/topic/298628-specific-adwarephishing-attack-whats-the-source/
-||axufcs.space^$document
 
 ! https://github.com/hagezi/dns-blocklists/issues/718
-||leverage-btc.com^$all
 
 ! https://www.malwarebytes.com/blog/threat-intelligence/2023/06/thousands-of-malicious-google-cloud-run-instances-deployed-to-scam-facebook-users
-||trendingentertainers.com^$all
-||trendingfilmreviews.com^$all
-||trendingshowbiz.com^$all
-||trendingtvshows.com^$all
-||usunveiled.net^$all
-||viralcelebrityzone.com^$all
-||viralfamezone.com^$all
-||virallaughtrack.com^$all
-||viralstargossip.com^$all
-||viralfunnylaugh.com^$all
 
 ! https://www.youtube.com/watch?v=3Vy2l1kv7Cc
-||sirisangabofoundation.org^$document
 
 ! https://github.com/DandelionSprout/adfilt/discussions/779#discussioncomment-6141190
 ||SEXUS.ML^$all
@@ -2803,7 +1721,6 @@
 
 ! https://virustotal.com/gui/url/7df0f1873fb746b2eb98a9fc8245000222a31db82506d9988adc83f145c80b3a
 ! my analysis: https://app.any.run/tasks/eb63e697-9df1-425a-814d-5e23858c146f
-||gvcyk.mobiledir.us^$all
 ||umbrellacorporation.id^$all
 ||push-gabjbib-9138.boustahe.com^$all
 ||memesfunny.org^$document
@@ -2824,23 +1741,19 @@
 ||whaujimisurvey.top^$all
 ||eehuzaih.com^$document
 ! https://tria.ge/230617-ar39pahb3w/behavioral3
-||toodownload.com^$document
 ||subscribe-notifications.com^$document
 ||user0.subscribe-notifications.com^$document
 ||user1.subscribe-notifications.com^$document
 
 ! clicked on an ad: https://tria.ge/230617-m6144abb3z/behavioral2
-||yourstented.azurewebsites.net^$all
 
 ! https://github.com/hagezi/dns-blocklists/issues/1193
 ||coinaps.com^$all
 
 ! https://www.bleepingcomputer.com/forums/t/786537/mcafee-popup/
-||www.mistiotia.com^$document
 
 ! https://virustotal.com/gui/url/73d9ff9f34da3e716e5b549746d789655bb42bfaadbdeaf13d70cae63768f8cb/community
 ! my analysis: https://app.any.run/tasks/f5abc08a-802f-4560-9ae2-ee107fee1a2b
-||winkcap.net^$all
 
 ! https://tria.ge/230624-phdd8scc7t/behavioral1
 ||discordnitro.live^$all
@@ -2851,27 +1764,21 @@
 
 ! https://tria.ge/230624-pw6ypsbc94/behavioral1
 ||freevbucks2022.online^$all
-||letmimy.com^$document
 
 ! https://tria.ge/230624-p3xcvabd24/behavioral2
 ! https://www.hybrid-analysis.com/sample/9cdcea08ed2d28f0618a032fdcac2a0f070020035d54d0e63ae3b90ba9a8cfa3
 ||ufile.io/p4nduixt^$all
 ! unrelated malware ads on the download link
 ! https://app.any.run/tasks/426cbd81-f441-436c-b227-15224316ce4b
-||ereallywasnoth.com^$all
-||czpcc.nereherewetem.info^$all
 ! https://tria.ge/230624-pzryysbc98/behavioral1
-||free.premiumworldapp.com^$document
 ||chromnius.com^$document
 ||www.chromnius.com^$document
 
 ! https://github.com/DandelionSprout/adfilt/discussions/779#discussioncomment-6298369
-||anglebank.space^$all
 ! https://tria.ge/230701-q2qdksgh48/behavioral1
 ||crummygoddess.com^$all
 
 ! https://github.com/uBlockOrigin/uAssets/pull/18736
-||funtwitter.games^$all
 ||twitter-circle.com^$all
 
 ! https://github.com/uBlockOrigin/uAssets/issues/18664
@@ -2882,48 +1789,22 @@
 ||bigosext9s.com^$document
 
 ! musk-themed crypto scam
-||muskday.org^$all
 
 ! popups
 ||xmegaxvideox.com^$all
 ||neeglashsurvey.top^$all
 
 ! https://github.com/MetaMask/eth-phishing-detect/pull/12959
-||l0ktf.com^$document
-||babydegods.com^$document
 
 ! https://github.com/hagezi/dns-blocklists/issues/1244
-||soaplooparrowstereo.click^$document
 
 ! https://github.com/MetaMask/eth-phishing-detect/pull/12960
-||apecoin.group^$document
 ||app.uniswap.cam^$document
-||bbhjb.com^$document
-||blur-nft.xyz^$document
-||bridge-claim.xyz^$document
 ||claim-booster.xyz^$document
-||claim-pepe-airdrop.xyz^$document
-||claimairdrop.online^$document
 ||crypto-claims.io^$document
-||dev851.d3710yoqrad6y3.amplifyapp.com^$document
-||email-metamask.com^$document
-||enter-uniswap.net^$document
-||get-uniswap.org^$document
-||join-whatisthissorcery.com^$document
-||lensprotocols-claim.com^$document
-||live-update-security.com^$document
-||loyaldrops.life^$document
-||metamaskdrop.fun^$document
-||metamasks.best^$document
-||newsletter-metamask.com^$document
-||nft-free.store^$document
 ||notify-metamask.com^$document
-||psydex.gl^$document
-||register-ether.com^$document
-||whitelist-ether.site^$document
 
 ! https://github.com/MetaMask/eth-phishing-detect/pull/12983
-||rabbit.claims^$document
 
 ! https://github.com/hagezi/dns-blocklists/issues/1255
 ||beze.co^$document
@@ -2936,17 +1817,9 @@
 ||durro.co^$document
 
 ! https://tria.ge/230708-zw13kaab69/behavioral2
-||rightsapphiresand.info^$all
-||aonforhaving.info^$all
-||download7locked.com^$all
 ||install-check.com^$all
-||uldmakefeagre.com^$all
-||ourmarketingefi.info^$all
 ||goph.club^$all
-||ebutiseemedlikea.com.ua^$all
-||alargeredrubygsw.info^$all
 ! https://app.any.run/tasks/561c592f-07c8-4954-95c7-1201da83e2f5
-||dacins.xyz^$all
 
 ! https://github.com/hagezi/dns-blocklists/issues/1266
 ||zat.io^$all
@@ -2970,16 +1843,13 @@
 ! https://github.com/durablenapkin/scamblocklist/issues/58
 ! https://github.com/hagezi/dns-blocklists/issues/1330
 ||hotdebrid.com^$document
-||debridlink.com^$document
 ||maxdebrid.com^$document
 ! https://github.com/hagezi/dns-blocklists/issues/409
 ||anydebrid.com^$document
 
 ! https://tria.ge/230720-3qya9sbh2t/behavioral2
-||performintenselydevelopedinfo-product.info^$all
 
 ! https://tria.ge/230721-yjxzpsgg84/behavioral1
-||qk0im.top^$all
 
 ! https://github.com/durablenapkin/scamblocklist/issues/59
 ! https://github.com/hagezi/dns-blocklists/issues/1335
@@ -3002,25 +1872,15 @@
 
 ! https://0xacab.org/my-privacy-dns/matrix/-/issues/646177
 ||desbiens123.net^$all
-||sex-dating.qbig.site^$all
 ! https://0xacab.org/my-privacy-dns/matrix/-/issues/646175
-||anesthesia2000.com^$all
 
 ! https://0xacab.org/my-privacy-dns/matrix/-/issues/646174
-||balladoron.life^$all
 ||avprotect.store^$all
-||www.pioxe.live^$all
-||pioxe.live^$all
 
 ! https://0xacab.org/my-privacy-dns/matrix/-/issues/646168
-||86ff56b6d5.com^$all
-||030e9b0efb.47aead8f05.com^$all
-||47aead8f05.com^$3p
 ||systemoon.co.in^$all
-||moontrck.xyz^$all
 
 ! https://0xacab.org/my-privacy-dns/matrix/-/issues/644873
-||donemileliondol.info^$all
 
 ! https://0xacab.org/my-privacy-dns/matrix/-/issues/644871
 ||inarilyhukel.info^$all
@@ -3029,148 +1889,85 @@
 ||prizehub.top^$all
 
 ! https://0xacab.org/my-privacy-dns/matrix/-/issues/646602
-||antiques-spb.ru^$all
 
 ! https://tria.ge/230729-a8fjysba31/behavioral1
-||vcyx4.top^$all
-||hfe0t.top^$all
 ||ambrs.online^$document
 ||www.ambrs.online^$document
 
 ! infected system
 ||dojtxl6jydd7s.cloudfront.net/*/*/indexp.html$document
 ||jokekroako.com^$all
-||gokend.xyz^$all
 ||push-ebfhafd-7996.boustahe.com^$document
 
 ! https://0xacab.org/my-privacy-dns/matrix/-/issues/646845
-||pacosystem.es^$all
 
 ! https://0xacab.org/my-privacy-dns/matrix/-/issues/646600
 ||74les.ru^$all
 
 ! https://0xacab.org/my-privacy-dns/matrix/-/issues/646179
-||zaffirosas.it^$all
 
 ! https://0xacab.org/my-privacy-dns/matrix/-/issues/646173
-||alimentasegovia.es^$all
 
 ! https://github.com/durablenapkin/scamblocklist/issues/60
-||upstrick.com^$all
 
 ! fake robux generator
-||waratlas.org^$all
-||cpabuild.com^$all
 ! https://tria.ge/230731-x1nlxsae69/behavioral2
 ||94.142.138.131^$all
 
 ! https://0xacab.org/my-privacy-dns/matrix/-/issues/647492
-||krasnaya-talka-sanatoriy-gelendzhik.ru^$all
-||p9a3g5g2.stackpathcdn.com^$all
 
 ! https://tria.ge/230731-w9769aad25/behavioral2
-||fixextremelyoriginalinfo-product.info^$all
-||dfxtg.top^$all
-||d7s62.top^$all
-||dlvur.top^$all
-||dcnhx.top^$all
-||ops7s.top^$all
 ! https://tria.ge/230731-w9769aad25/behavioral1
-||downloadelz.website^$all
-||downloadelz.buzz^$all
 ! https://tria.ge/230731-3n8n8abh28/behavioral2
-||downloadfilekee.lol^$all
 
 ! anonfiles ads
 ||browser-app.co^$popup
-||golend.xyz^$all
 
 ! https://0xacab.org/my-privacy-dns/matrix/-/issues/647478
-||seduction-simple.fr^$all
 
 ! https://0xacab.org/my-privacy-dns/matrix/-/issues/649522
 ! https://tria.ge/230802-vtcjzaga38/behavioral1
-||farmrrlendsee.ru^$all
-||mokha.top^$all
-||voecf.top^$all
-||a7afn.top^$all
-||zn4hk.top^$all
-||t0hgf.top^$all
-||kuq2s.top^$all
-||o8he3.top^$all
 
 ! https://0xacab.org/my-privacy-dns/matrix/-/issues/649521
 ! https://tria.ge/230802-v5brtahd4w/behavioral1
-||expressionsvegetales.fr^$all
-||kfl86.top^$all
-||aroyf.top^$all
-||aord3.top^$all
 
 ! https://www.bleepingcomputer.com/news/security/fake-flipperzero-sites-promise-free-devices-after-completing-offer/
-||flipperzero.at^$all
 ||trkrspace.com^$all
 
 ! anonfiles ads
-||kncecafvdeuk.info^$all
-||karbe.live^$all
-||downloadpeso.space^$all
-||rewovucikaf.shop^$document
 ||outhjkm.ezasutuduwife.online^$document
-||wtfgep.xyz^$document
 
 ! https://forums.malwarebytes.com/topic/300873-i-keep-getting-pop-ups-from-eudmailcom/
 ||eudmail.com^$all
 
 ! crypto scams
-||musk-x.org^$all
-||give2x.net^$all
 ! https://tria.ge/230804-15hs1sfh6t/behavioral1
-||2xtesla.net^$all
 
 ! https://0xacab.org/my-privacy-dns/matrix/-/issues/649649
 ! https://tria.ge/230805-rb1bjaee3x/behavioral1
-||master2gppp-assas.fr^$all
-||12f01e3591.com^$all
-||1472f9a583.12f01e3591.com^$all
 ||thewinjackpot.life^$all
-||us.secureonlineinternet.com^$all
-||secureonlineinternet.com^$all
 
 ! https://0xacab.org/my-privacy-dns/matrix/-/issues/649556
 ! https://tria.ge/230805-rk4qbadb96/behavioral1
-||gavihuginn.best^$all
-||imgot.info^$all
 
 ! https://0xacab.org/my-privacy-dns/matrix/-/issues/649306
 ! https://tria.ge/230805-s3g5psdd99/behavioral1
-||eternitonline.it^$all
 
 ! https://github.com/uBlockOrigin/uAssets/issues/19271
 ! https://tria.ge/230805-1pnz4agc7w/behavioral1
 ||wbilvnmool.com^$popup
-||metriumoldeb.com^$all
-||www.metriumoldeb.com^$all
-||hyjecr.metriumoldeb.com^$all
-||fjvv2i.metriumoldeb.com^$all
-||581358.metriumoldeb.com^$all
 ||theod-omq.com^$document
 ||goatmod.xyz^$all
-||mkhvuv.metriumoldeb.com^$all
 ! https://tria.ge/231022-p48ghaab87/behavioral1
-||qyt8pi.metriumoldeb.com^$all
-||vjr2ws.metriumoldeb.com^$all
 ||propolixte.com^$all
 ||quinc-rdk.com^$document
-||burbolore.xyz^$all
 /nlp/index.php?clickid=*&t1=*&t2=*&t3=*&t4=*&t5=propolixte,propolixte.com,propolis&url_bnm_redirect=$all
 /click.php?lp=data_upd&site_id=1293|$document
 $all,domain=goatmod.xyz|metriumoldeb.com
 ||12ezo5v60.com^$document
-||2ntrfi.metriumoldeb.com^$all
 
 ! https://0xacab.org/my-privacy-dns/matrix/-/issues/649771
 ! https://tria.ge/230806-v2fatsbc57/behavioral1
-||sex-girls.khayyamfestival.com^$document
 
 ! https://github.com/easylist/easylist/pull/16955
 ! https://tria.ge/230806-xd58fsdc4t/behavioral1
@@ -3180,7 +1977,6 @@ $all,domain=goatmod.xyz|metriumoldeb.com
 
 ! https://web.archive.org/web/20230806191228/https://spamlogger.com/t/congrats-claim-your-500-walmart-gift-card/295
 ! https://tria.ge/230806-xteenscb23/behavioral1
-||usadailysweepswinners.com^$all
 
 ! https://github.com/durablenapkin/scamblocklist/issues/61
 ! https://github.com/hagezi/dns-blocklists/issues/1390
@@ -3189,10 +1985,7 @@ $all,domain=goatmod.xyz|metriumoldeb.com
 
 ! https://github.com/uBlockOrigin/uAssets/issues/19316
 ! https://tria.ge/230810-zq62maag9y/behavioral1
-||graduatedgroan.com^$document,popup
-||oudguide.com^$all
 ||uidhealth.com^$all
-||repairmostspeedyinfo-product.info^$all
 
 ! https://tria.ge/230810-zzlr2sah5y/behavioral1
 ||popgoldblocker.info^$document
@@ -3201,36 +1994,29 @@ $all,domain=goatmod.xyz|metriumoldeb.com
 ||blockadsology.net^$document
 
 ! https://github.com/hagezi/dns-blocklists/issues/1411
-||lido-pass.org^$all
 
 ! https://web.archive.org/web/20230813181452/https://www.bleepingcomputer.com/news/security/uk-gov-keeps-repeating-its-voter-registration-website-is-not-a-scam/
 ||householdresponses.com^$document
 
 ! https://infosec.exchange/@briankrebs/110889813735728083
-||equity-invest.ch^$document
 ||diligere.co.uk^$document
 
 ! https://github.com/MetaMask/eth-phishing-detect/pull/13289
-||optimismtokens-drop.com^$document
 ||optimisim.io^$document
 ! https://tria.ge/230815-nlmlmsad73/behavioral1
-||arkhaminteiligence.com^$document
 
 ! https://github.com/MetaMask/eth-phishing-detect/pull/13300
 ! https://github.com/MetaMask/eth-phishing-detect/issues/13297
 ! https://tria.ge/230815-2pl16sdg78/behavioral1
-||ceramic.gift^$all
 
 ! https://github.com/hagezi/dns-blocklists/issues/1440
 ! https://tria.ge/230817-nq2alaha63/behavioral1
 ||seasonsofficial.com^$document
 
 ! https://tria.ge/230817-127yqsdh56/behavioral1
-||investmusk.org^$all
 
 ! https://github.com/uBlockOrigin/uAssets/issues/19400
 ! https://tria.ge/230819-nzqkfshe69/behavioral1
-||adblocko-supremo.info^$document
 ||video-adblocker.pro^$document
 
 ! https://github.com/hagezi/dns-blocklists/issues/1452
@@ -3239,38 +2025,14 @@ $all,domain=goatmod.xyz|metriumoldeb.com
 
 ! https://www.malwarebytes.com/blog/threat-intelligence/2023/08/wooflocker2
 ||api.cloudcachestels.com^$all
-||api.cloudseedzedo.com^$all
 ||api.imagecloudsedo.com^$all
-||appcloudzedo.com^$all
-||cdn.contentob.com^$all
 ||cdncontentstorage.com^$all
 ||cdnpictureasset.com^$all
 ||cloudcusersyn.com^$all
 ||cloudgertopage.com^$all
 ||cloudlogobox.com^$all
-||csscloudstorage.com^$all
-||datacloudasset.com^$all
 ||logosvault.com^$all
 ||miniassetcloud.com^$all
-||furakelw.com^$all
-||gopilofan.com^$all
-||zemolist.com^$all
-||besoliza.com^$all
-||vedopixt.com^$all
-||defolis.com^$all
-||somawan.com^$all
-||vulidoc.com^$all
-||barustan.com^$all
-||semilupa.com^$all
-||bopiland.com^$all
-||somalics.com^$all
-||sebasong.com^$all
-||molesanu.com^$all
-||xepilondi.com^$all
-||malubana.com^$all
-||beeronas.com^$all
-||lobosixt.com^$all
-||gomoyad.com^$all
 
 ! https://github.com/hagezi/dns-blocklists/issues/1457
 ||cutty.app^$document
@@ -3296,7 +2058,6 @@ $all,domain=goatmod.xyz|metriumoldeb.com
 ||big-winnings-spot.com^$all
 ||bustygirls-online.com^$all
 ||campwredir.com^$all
-||cehv8gvifhdr.com^$all
 ||check-you-device.com^$all
 ||chikasinapp.com^$all
 ||crazy-win-casino.com^$all
@@ -3335,7 +2096,6 @@ $all,domain=goatmod.xyz|metriumoldeb.com
 ||love-connectors.com^$all
 ||love-territory.com^$all
 ||wheel-of-luck.com^$all
-||millionaires-secret-site.com^$all
 ||mobile-safe-app.com^$all
 ||most-advanced-vpn.com^$all
 ||my-casino-now.com^$all
@@ -3357,7 +2117,6 @@ $all,domain=goatmod.xyz|metriumoldeb.com
 ||nor-pw9.com^$all
 ||techbytemedia.com^$all
 ||o863tmto6ocp.com^$all
-||official-video-app.com^$all
 ||oj0in172pri5.com^$all
 ||online-survey-service.com^$all
 ||only-sexy-girls.com^$all
@@ -3373,7 +2132,6 @@ $all,domain=goatmod.xyz|metriumoldeb.com
 ||pw-show-ad.com^$all
 ||pw-show-main.com^$all
 ||pw-show-test.com^$all
-||pw1waj4wyf35.top^$all
 ||pwredir-1.com^$all
 ||pwredir-2.com^$all
 ||pwredir-3.com^$all
@@ -3406,7 +2164,6 @@ $all,domain=goatmod.xyz|metriumoldeb.com
 ||stay-virus-free.com^$all
 ||strip-hotbabes.com^$all
 ||super-protection-app.com^$all
-||sv3kausmasgz.top^$all
 ||sweet-alone-girls.com^$all
 ||testpwredir.com^$all
 ||three-hundred-bucks.com^$all
@@ -3452,17 +2209,13 @@ $all,domain=goatmod.xyz|metriumoldeb.com
 ||kingsoftz.com^$all
 
 ! https://github.com/hagezi/dns-blocklists/issues/1476
-||msm-coop.co.uk^$all
 
 ! https://forums.malwarebytes.com/topic/301587-adware-not-recognized-or-deleted/
-||presonsinatize.com^$all
 
 ! https://tria.ge/230828-zyzbraga22/behavioral1
 ||push-ebfhafd-6311.boustahe.com^$all
 ||push-*.boustahe.com^$document
 ||nomadsfit.com^$all
-||mackledcity.com^$all
-||onebiensillc.com^$all
 ||wejds.co.in^$document
 ||1c6d7sl37a5xsd90.wejds.co.in^$all
 ||1c358sl37a69r073.wejds.co.in^$all
@@ -3572,28 +2325,17 @@ $all,domain=goatmod.xyz|metriumoldeb.com
 
 ! https://tria.ge/230830-l7yjxseb6z/behavioral1
 ||push-ebfhafd-5643.boustahe.com^$all
-||foldedabstinenceconsole.com^$all
-||unkinerecle.com^$all
-||shwomettleye.com^$all
-||unbalterce.com^$document
-||gougenoticei.com^$all
 ||sys.donecperficiam.net^$document
-||ww3.keytrack.site^$popup
 ||nomadsbrand.com^$all
 
 ! https://tria.ge/230831-zcwzhaad59/behavioral1
 ||system-notify.app^$third-party
-||aroidssolutions.com^$all
-||thearoids.com^$all
 ||paladiact.com^$all
-||onebiensicenter.com^$all
 ||pupspu.com^
-||cramlexad.com^$all
 ||aug3120.rednewly.com^$document
 ||browsekeeper.com^$document
 
 ! https://github.com/hagezi/dns-blocklists/issues/1512
-||daftar-binomo.website^$document
 ||online-binomo.com^$document
 ||binomo-id.pro^$document
 ||binomoindonesia.com^$document
@@ -3602,7 +2344,6 @@ $all,domain=goatmod.xyz|metriumoldeb.com
 ||binomoweblogin.com^$document
 ||binomo2022.net^$document
 ||www.binom0-web.com^$document
-||binomorupiah-id.com^$document
 ||binomo.broker^$document
 ||binomo-brokers.com^$document
 
@@ -3620,54 +2361,30 @@ $all,domain=goatmod.xyz|metriumoldeb.com
 ||adblocked-supreme.net^$document
 
 ! https://forums.malwarebytes.com/topic/302090-virus-found-malware/
-||guartian.co.in^$all
 
 ! https://tria.ge/230909-tghd1scd3y/behavioral1
-||5hgawd5145.monster^$all
-||another-seem.monster^$document
-||ptbqre.com^$all
-||datinghere-top.life^$document
 ||h.datingcentral.top^$all
-||cuddleyadmire.com^$document
-||mcaverify.click^$all
-||www.mcaverify.click^$all
 
 ! https://github.com/StevenBlack/hosts/issues/2436
 ||w61.1piecemanga.com^$document
 ||fbet.com^$all
-||onwardrespirationcommandment.com^$all
 ! my analysis: https://tria.ge/230910-pysh4ahb47/behavioral1
 ! my analysis: https://tria.ge/230910-py86vahb49/behavioral1
 ||stemboastfulrattle.com^$all
-||odesbest.com^$all
-||loadoverlylatestinfo-program.info^$all
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161349
 ! https://tria.ge/230913-mb6fbsdh42/behavioral1
 /light/QfhuPJ/index.php?lpkey=$document
-||rtmladweb.com^$all
 ||best-pc-protect.xyz^$all
 
 ! https://tria.ge/230914-mn75paeb34/behavioral1
-||odessystems.com^$all
-||saniceproxic.com^$all
-||derryneeptedle.com^$all
 
 ! https://web.archive.org/web/20230918040019/https://www.bleepingcomputer.com/news/security/tiktok-flooded-by-elon-musk-cryptocurrency-giveaway-scams/
-||bitoxies.com^$document
-||moonexio.com^$document
-||altgetxio.com^$document
-||cratopex.com^$document
 
 ! https://tria.ge/231002-nhasnsbb63
 ||allsidesguide.com^$all
-||realxavounow.com^$all
 ||sulkvulnerableexpecting.com^$all
-||reenethoname.com^$all
-||rhoramegarate.com^$all
 ||secondquaver.com^$document
-||gentlynudegranny.com^$document
-||ramlexdigital.com^$all
 
 ! https://github.com/hagezi/dns-blocklists/issues/1658
 ! my analysis: https://tria.ge/231004-p3e4kabg8t/behavioral1
@@ -3677,14 +2394,9 @@ $all,domain=goatmod.xyz|metriumoldeb.com
 ||zlib.to^$all
 ||zlibrary.to^$all
 ||zlibrary.is^$all
-||z-lib.to^$all
 ||z-lib.io^$all
 
 ! https://github.com/hagezi/dns-blocklists/issues/1662
-||bridgelinering.com^$document
-||show.bridgelinering.com^$all
-||go.bridgelinering.com^$document
-||daynitroglass.com^$all
 
 ! https://tria.ge/231005-2c2abshf76/behavioral1
 ||2ntrfi.torixibre.com^$all
@@ -3696,8 +2408,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||rmut-glo.brandandgift.com/t/clk?id=$popup,third-party
 
 ! https://tria.ge/231005-2pvy3sff9v/behavioral1
-||keyimaginarycomprise.com^$document
-||loadoriginalintenselyinfo-program.info^$all
 
 ! https://github.com/hagezi/dns-blocklists/issues/1724
 ||healy.world^$document
@@ -3705,483 +2415,148 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||healy.shop^$document
 
 ! https://tria.ge/231021-mvvg6sff95/behavioral1
-||getforupgradeandstabilizefree.click^$all
-||setupnow.getforupgradeandstabilizefree.click^$all
 ||downloads-101.com^$document
 ||mafens.xyz^$all
 .xyz/74Ko/7.html?cep=$document
 .xyz/74Ko/files/images/action_3.gif|$image,first-party
 
 ! https://infosec.exchange/@iampytest1/111270258079028453
-||metachartview.com^$all
-||metatradebox.net^$all
 
 ! https://github.com/hagezi/dns-blocklists/issues/1760
-||adidassuomi-fi.com^$document
-||alohasfinland.com^$document
-||alohas-suomi.com^$document
-||alohassuomi.com^$document
 ||altrafi.com^$document
 ||altrafinland.com^$document
-||altrahelsinki.com^$document
 ||altrasuomi.com^$document
-||altrasuomifi.com^$document
 ||altrasuomioutlet.com^$document
-||altrasuomishop.com^$document
-||arcteryxfi.com^$document
-||arcteryxfinland.com^$document
-||arcteryxoutletsuomi.com^$document
-||arcteryxsuomiale.com^$document
 ||asicsale.com^$document
-||asicsfi.com^$document
-||asics-finland.com^$document
-||asicsfinlandoutlets.com^$document
-||asicsfi-suomi.com^$document
-||asicshelsinki.com^$document
-||asicshelsinki.net^$document
-||asicsoutlet-suomi.com^$document
 ||asicsoutletsuomi.com^$document
 ||asics-suomi.com^$document
-||asicssuomi.com^$document
 ||asicssuomioutlet.com^$document
-||balmain-suomi.com^$document
-||balmainsuomi.com^$document
 ||balmainsuomishop.com^$document
-||canada-gymshark.com^$document
-||carhartt-suomi.com^$document
 ||carharttsuomi.com^$document
 ||caterpillarfi.com^$document
-||caterpillar-finland.com^$document
-||caterpillarinsuomi.com^$document
-||caterpillar-suomi.com^$document
 ||caterpillarsuomi.com^$document
-||caterpillarsuomifi.com^$document
-||championhelsinki.com^$document
 ||champion-suomi.com^$document
 ||championsuomi.com^$document
-||columbiakengatsuomi.com^$document
 ||columbia-suomi.com^$document
-||columbiasuomi-fi.com^$document
-||columbiasuomifi.com^$document
-||columbiasuomioutlet.com^$document
-||columbiasuomis.com^$document
 ||comfitunderwear-suomi.com^$document
-||converseale.com^$document
-||conversealesuomi.com^$document
 ||conversefi.com^$document
-||conversehelsinki.com^$document
 ||converseinsuomi.com^$document
 ||converseoutlethelsinki.com^$document
-||converseoutlet-suomi.com^$document
-||converseoutletsuomi.com^$document
-||converse-suomi.com^$document
-||conversesuomi.com^$document
-||conversesuomi.net^$document
-||conversesuomioutlet.com^$document
-||conversexsuomi.com^$document
 ||crossfitsuomi.co^$document
-||crossfitsuomi.com^$document
-||demonia-finland.com^$document
 ||demoniafinland.com^$document
 ||demoniasuomi.com^$document
 ||demoniasuomi.net^$document
-||demoniasuomioutlet.com^$document
-||desigual-suomi.com^$document
-||desigualsuomi.com^$document
 ||desigualsuomi.net^$document
-||dopeoutletsuomi.com^$document
-||dopesnow-finland.com^$document
-||dopesnowfinland.com^$document
-||dopesnow-suomi.com^$document
 ||dopesnowsuomi.com^$document
-||dopesnowsuomi-fi.com^$document
 ||dope-suomi.com^$document
 ||dopesuomi.com^$document
-||dopesuomi-fi.com^$document
-||dopetakki.com^$document
-||dopetakki-suomi.com^$document
-||dopetakkisuomi.com^$document
-||dubarrysuomi.com^$document
-||eccooutlet-suomi.com^$document
-||eccooutletsuomi.com^$document
-||eccooutletsuomis.com^$document
-||ecco-suomi.com^$document
-||eccosuomi.com^$document
-||eccosuomi.net^$document
-||eccosuomioutlet.com^$document
-||fjallravenoutletsuomi.com^$document
-||fjallraven-suomi.com^$document
-||fjallravensuomi.com^$document
-||footjoy-finland.com^$document
-||footjoyssuomi.com^$document
 ||footjoy-suomi.com^$document
 ||footjoysuomi.com^$document
-||freedommoses-suomi.com^$document
-||gforefinland.com^$document
-||gfore-suomi.com^$document
-||gforesuomi.com^$document
-||gforesuomi.net^$document
-||groundies-finland.com^$document
-||groundiesfinland.com^$document
-||groundiesinsuomi.com^$document
-||groundiesoutletsuomi.com^$document
-||groundiessuomioutlet.com^$document
 ||gym-shark.co.za^$document
-||gymshark.com.hr^$document
-||gymsharkale.com^$document
-||gymsharkalesuomi.com^$document
-||gymsharkar.com^$document
-||gymsharkauckland.com^$document
 ||gymsharkaustralia-au.com^$document
-||gymsharkaustraliastores.com^$document
-||gymsharkbutikkoslo.com^$document
-||gym-shark-canada.com^$document
-||gymsharkcanadafactoryoutlet.com^$document
-||gymsharkcanadastore.com^$document
 ||gymsharkcolombia-co.com^$document
 ||gymsharkcz.cz^$document
-||gymsharkczsale.com^$document
-||gymshark-cz-shop.com^$document
 ||gymsharkczshop.cz^$document
 ||gym-shark-danmark.com^$document
-||gymsharkdanmark.com^$document
 ||gymsharkdublin.com^$document
-||gym-shark-egypt.com^$document
-||gymsharkeufinland.com^$document
-||gymshark-fi.com^$document
-||gymsharkfi.com^$document
-||gymshark-finland.com^$document
 ||gymsharkfinland.com^$document
-||gym-sharkgreece.com^$document
-||gym-shark-hungary.com^$document
 ||gymsharkhungarystore.com^$document
-||gymsharkieonline.com^$document
 ||gym-shark-india.com^$document
-||gymsharkindiashops.com^$document
-||gymsharkinsingapore.com^$document
 ||gymsharkinsouthafrica.co.za^$document
-||gymsharkinus.com^$document
 ||gym-shark-italia.com^$document
 ||gymshark-italia.com^$document
 ||gym-sharkmexico.com.mx^$document
 ||gymsharkmexicostore.com^$document
 ||gymsharkmexicotiendas.com.mx^$document
 ||gymshark-no.com^$document
-||gym-sharknorge.com^$document
-||gymsharknzsale.com^$document
-||gymsharkostereichs.com^$document
 ||gymshark-osterreich.at^$document
-||gymsharkosterreichshop.com^$document
-||gymsharkoutletsuomi.com^$document
-||gymsharkoutletwebsite.com^$document
-||gymsharkperu.com^$document
 ||gym-shark-philippines.com^$document
-||gymsharkportugalstore.com^$document
-||gymsharkpt.com^$document
-||gym-shark-romania.com^$document
-||gymsharksbelgie.com^$document
-||gymsharksbudapest.com^$document
-||gym-shark-schweiz.com^$document
 ||gymsharkshop.cz^$document
-||gym-sharksingapore.com^$document
-||gymsharksingaporeshop.com^$document
 ||gymshark-sk.sk^$document
 ||gymsharkslovenijaeu.com^$document
-||gymsharkslovensko.sk^$document
-||gymsharksnorge.com^$document
-||gymsharksouthafrica.com^$document
 ||gymsharkspainstore.com^$document
 ||gymsharkssuomi.com^$document
-||gymsharkssverige.com^$document
-||gymsharkstore.com.au^$document
-||gymsharkstoreindia.com^$document
 ||gymsharkstorenyc.com^$document
-||gym-shark-suomi.com^$document
-||gym-sharksuomi.com^$document
-||gymshark-suomi.com^$document
-||gymsharksuomi.com^$document
-||gymshark-suomiale.com^$document
-||gymsharksuomiale.com^$document
-||gymshark-suomi-fi.com^$document
-||gymsharksuomi-fi.com^$document
-||gymsharksuomifi.com^$document
-||gymsharksuomioutlet.com^$document
-||gymsharksuomishop.com^$document
 ||gymshark-sweden.com.se^$document
-||gym-shark-turkiye.com^$document
-||gymshark-turkiye-tayt.com^$document
-||gym-sharkuaestore.com^$document
-||gymshark-uk.com^$document
-||gymsharkukoutlet.com^$document
-||gymshark-uk-sale.com^$document
-||gymsharkwinkel.com^$document
-||gymsharkzagreb.com^$document
-||gymsharkzurich.com^$document
-||haglofsoutlethelsinki.com^$document
 ||haglofsoutletsuomi.com^$document
-||haglofssuomifi.com^$document
-||hanwag-suomi.com^$document
-||hanwagsuomi.com^$document
 ||hanwagsuomi.net^$document
-||hellyhansen-fi.com^$document
-||hellyhansenfinland.com^$document
-||hellyhansenoutletsuomi.com^$document
-||hellyhansen-suomi.com^$document
-||hellyhansensuomi.com^$document
 ||hellyhansensuomi.net^$document
-||hokaale.com^$document
-||hoka-finland.com^$document
-||hokasuomi.com^$document
-||hokasuomifi.com^$document
-||icebugfinland.com^$document
 ||icebugfioutlet.com^$document
-||icebugsfioutlet.com^$document
-||icebugsuomi.com^$document
 ||icebugsuomi.net^$document
-||ilsejacobsen-suomi.com^$document
-||ilsejacobsensuomi.com^$document
-||inov-8-suomi.com^$document
 ||inov-8suomi.com^$document
 ||jomafinland.com^$document
-||joma-suomi.com^$document
-||jomasuomi.com^$document
-||kamikfinland.com^$document
-||kamik-suomi.com^$document
-||kamiksuomi.com^$document
-||kamiksuomi.net^$document
-||kappafi.com^$document
-||kappa-suomi.com^$document
 ||kappasuomi.com^$document
-||karhulenkkaritale.com^$document
-||karhulenkkarithelsinki.com^$document
-||kedsoutletsuomi.com^$document
 ||keds-suomi.com^$document
 ||kedssuomi.com^$document
 ||kedssuomishop.com^$document
-||kickersfinland.com^$document
-||kickers-suomi.com^$document
 ||kickerssuomi.com^$document
-||legoale.com^$document
-||legosuomi.com^$document
-||loake-suomi.com^$document
-||loakesuomi.com^$document
 ||loakesuomioutlet.com^$document
-||lojagymsharkportugal.com^$document
-||lornajane-suomi.com^$document
 ||lornajanesuomi.com^$document
 ||lornajanesuomi.net^$document
 ||louboutin-finland.com^$document
-||louboutin-suomi.com^$document
 ||mizunofi.com^$document
-||mizuno-finland.com^$document
-||mizunofinland.com^$document
-||mizunossuomi.com^$document
 ||mizuno-suomi.com^$document
-||mizuno-suomis.com^$document
-||mizunosuomishop.com^$document
-||moonbootfi.com^$document
-||moonbootfinland.com^$document
-||moonboothelsinki.com^$document
 ||moonbootssuomi.com^$document
 ||moonboot-suomi.com^$document
-||moonbootsuomi.com^$document
-||moonbootsuomi.net^$document
-||muckbootale.com^$document
-||muckbootinsuomi.com^$document
-||muckboots-suomi.com^$document
-||muckbootssuomi.com^$document
-||muckboot-suomi.com^$document
 ||muckbootsuomi.com^$document
-||nautica-suomi.com^$document
-||nauticasuomi.com^$document
-||nikealesuomi.com^$document
-||nikefinland.com^$document
 ||nikeinsuomi.com^$document
 ||nikeoutletsuomi.com^$document
-||nikesuomi.com^$document
-||nikesuomi.net^$document
 ||nikesuomi-fi.com^$document
-||nikesuomioutlet.com^$document
-||nikesuomishop.com^$document
-||olukaifi.com^$document
-||olukai-suomi.com^$document
-||olukaisuomi.com^$document
-||osirisfi.com^$document
 ||osirissuomi.com^$document
-||ospreyfinland.com^$document
 ||osprey-suomi.com^$document
-||ospreysuomi.com^$document
 ||ospreysuomi.net^$document
 ||outletadidas.com^$document
 ||outletadidasfi.com^$document
 ||outletarcteryx.com^$document
 ||outletcarhartt.com^$document
-||outletconverse.com^$document
-||outletdopesnow.com^$document
-||outlethellyhansen.com^$document
 ||outletjoma.com^$document
 ||outletlego.com^$document
 ||outletmizuno.com^$document
-||outletmuckboot.com^$document
-||outletosprey.com^$document
-||outletregatta.com^$document
 ||outletsalomon.com^$document
-||outletveja.com^$document
 ||outletversace.com^$document
 ||palladiumfi.com^$document
-||palladiumfinland.com^$document
-||palladiumhelsinki.com^$document
-||palladiumoutletsuomi.com^$document
-||palladium-suomi.com^$document
-||palladiumsuomi.com^$document
 ||palladiumsuomishop.com^$document
-||persol-suomi.com^$document
 ||pleaserssuomi.com^$document
 ||pleasersuomi.com^$document
 ||puma-fi.com^$document
-||pumafi.com^$document
-||puma-finland.com^$document
 ||pumafinland.com^$document
 ||pumafi-suomi.com^$document
-||pumainsuomi.com^$document
-||pumaoutlet-suomi.com^$document
 ||puma-suomi.com^$document
-||pumasuomi.com^$document
-||pumasuomi.net^$document
-||pumasuomiale.com^$document
 ||pumasuomioutlet.com^$document
-||pumasuomis.com^$document
-||redwing-suomi.com^$document
-||redwingsuomi.com^$document
-||regatta-suomi.com^$document
-||regattasuomi.com^$document
 ||restockssuomi.com^$document
-||rvca-suomi.com^$document
-||rvcasuomi.com^$document
-||salmingale.com^$document
 ||salmingsuomi.com^$document
-||salomonalesuomi.com^$document
-||salomon-finland.com^$document
 ||salomonfinland.com^$document
-||salomonhelsinki.com^$document
-||salomonoutletfi.com^$document
-||salomonoutlethelsinki.com^$document
-||salomonssuomi.com^$document
-||salomon--suomi.com^$document
-||salomon-suomi.com^$document
-||salomonsuomi.com^$document
-||salomon-suomiale.com^$document
-||salomonsuomi-fi.com^$document
-||salomonsuomihuijaus.com^$document
 ||salomonsuomioutlet.com^$document
-||salomonsuomishop.com^$document
-||samsonite-suomi.com^$document
-||samsonitesuomi.com^$document
-||samsonitesuomi.net^$document
-||sanukale.com^$document
-||sanukfinland.com^$document
-||sanuk-suomi.com^$document
-||sanuksuomi.com^$document
 ||sanuksuomi.net^$document
-||sendra-suomi.com^$document
-||sendrasuomi.com^$document
 ||sendrasuomi.net^$document
-||sendrasuomioutlet.com^$document
-||sendrasuomis.com^$document
-||skimsale.com^$document
 ||skims-suomi.com^$document
-||skimssuomi.com^$document
-||skimssuomi.net^$document
-||skimssuomiale.com^$document
-||supergafi.com^$document
-||superga-finland.com^$document
-||superga-suomi.com^$document
-||supergasuomi.com^$document
-||tedbakerale.com^$document
 ||tedbakerfinland.com^$document
 ||tedbakeroutletsuomi.com^$document
-||tedbaker-suomi.com^$document
 ||tedbakersuomi.net^$document
 ||tevafi.com^$document
 ||teva-finland.com^$document
-||tevafinland.com^$document
 ||tevahelsinki.com^$document
-||tevaoutletsuomi.com^$document
 ||tevassuomi.com^$document
 ||tevasuomi.com^$document
-||timberlandfi.com^$document
-||timberland-finland.com^$document
-||timberlandfi-suomi.com^$document
 ||timberlandhelsinki.com^$document
-||timberlandoutletfi.com^$document
-||timberlandoutlethelsinki.com^$document
 ||timberland--suomi.com^$document
-||timberland-suomi.com^$document
-||timberlandsuomi.com^$document
 ||timberlandsuomi.net^$document
-||timberlandsuomifi.com^$document
-||timberlandxsuomi.com^$document
-||uniqloale.com^$document
-||uniqlo-finland.com^$document
 ||uniqlofinland.com^$document
-||uniqlohelsinki.com^$document
-||uniqlo-suomi.com^$document
 ||uniqlosuomi.com^$document
-||uniqlosuomi.net^$document
-||uniqlosuomioutlet.com^$document
 ||vansale.net^$document
-||vansfi.com^$document
-||vansfioutlet.com^$document
-||vanshelsinki.net^$document
-||vansoutlet-suomi.com^$document
-||vansssuomi.com^$document
-||vanssuomi.net^$document
-||vanssuomioutlet.com^$document
-||veja-fi.com^$document
-||veja-finland.com^$document
-||vejafioutlet.com^$document
-||vejahelsinki.com^$document
-||vejassuomi.com^$document
 ||vejasuomi.net^$document
-||veja-suomiale.com^$document
-||vejasuomioutlet.com^$document
-||versaceinsuomi.com^$document
-||versacesuomi.net^$document
 ||vessiale.com^$document
-||vessi-suomi.com^$document
 ||vessisuomi.com^$document
-||vitaelight-suomi.com^$document
-||vivobarefootale.com^$document
-||vivobarefootalesuomi.com^$document
-||vivobarefoot-fi.com^$document
-||vivobarefootfi.com^$document
-||vivobarefoot-finland.com^$document
 ||vivobarefoot-suomi.com^$document
 ||vivobarefootsuomi.com^$document
-||vivobarefootsuomiale.com^$document
-||xn--gymshark-espaa-2nb.com.es^$document
-||xn--gymsharkespaaoutlet-63b.com^$document
 ||xn--gymsharkespaa-tkb.com^$document
 ||xn--gymsharksterreich-6zb.com^$document
 ||youngla-suomi.com^$document
-||younglasuomi.com^$document
-||younglasuomi.net^$document
 ! https://lumendatabase.org/notices/34749939
-||gymsharkuswebsite.com^$document
-||www.gymsharkuswebsite.com^$document
-||gymsharkindiashop.com^$document
-||www.gymsharkindiashop.com^$document
-||gymsharkleggings-philippines.com^$document
-||www.gymsharkleggings-philippines.com^$document
-||gymsharkvenezuela.com^$document
-||www.gymsharkvenezuela.com^$document
 
 ! https://github.com/hagezi/dns-blocklists/issues/1803
-||atsholz.com^$document
 
 ! https://www.bleepingcomputer.com/news/security/fraudsters-make-50-000-a-day-by-spoofing-crypto-researchers/
-||revoketokens.io^$all
-||revokea.sh^$all
 
 ! https://www.bleepingcomputer.com/news/security/bloomberg-crypto-x-account-snafu-leads-to-discord-phishing-attack/
 ||altdentifiers.com^$all
@@ -4199,43 +2574,10 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||try.ekommmedia.com^$document
 
 ! https://github.com/hagezi/dns-blocklists/issues/1866
-||travix-works.com^$document
-||www.travix-works.com^$document
 
 ! https://infosec.exchange/@iampytest1/111490361011885326
-||xairdrop.biz^$all
 
 ! porn scam
-||directchats.site^$document
-||rose.directchats.site^$document
-||ariana.directchats.site^$document
-||liliana.directchats.site^$document
-||sienna.directchats.site^$document
-||margaret.directchats.site^$document
-||adalynn.directchats.site^$document
-||elliana.directchats.site^$document
-||eliza.directchats.site^$document
-||alina.directchats.site^$document
-||raelynn.directchats.site^$document
-||brielle.directchats.site^$document
-||hadley.directchats.site^$document
-||maria.directchats.site^$document
-||madeline.directchats.site^$document
-||lyla.directchats.site^$document
-||everleigh.directchats.site^$document
-||eden.directchats.site^$document
-||mackenzie.directchats.site^$document
-||sage.directchats.site^$document
-||ximena.directchats.site^$document
-||lydia.directchats.site^$document
-||mlie.directchats.site^$document
-||daisy.directchats.site^$document
-||piper.directchats.site^$document
-||sarah.directchats.site^$document
-||gabriella.directchats.site^$document
-||serenity.directchats.site^$document
-||charlie.directchats.site^$document
-||vivian.directchats.site^$document
 
 ! https://github.com/RPiList/specials/issues/1369
 ||qdyqdym.shop^$all
@@ -4248,7 +2590,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||america4internationalstudents.com^$document
 
 ! https://github.com/RPiList/specials/issues/1404
-||bonprix-sale.shop^$all
 ||bonprix-sale.$document
 
 ! https://github.com/durablenapkin/scamblocklist/issues/73
@@ -4258,122 +2599,73 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||medium.com/@liamm7203/hire-a-hacker-to-change-university-grades-transcripts-lee-ultimate-hac-0ea869b69aca^$all
 
 ! https://forums.malwarebytes.com/topic/306200-fake-fakebook-t-shirt-scam/ (account required)
-||newdesing.guru^$all
 
 ! possible scam (fake age verification)
 ||pregnantsimulator.com^$document
 ||adultonlineplay.com^$document
 
 ! https://github.com/Dogino/Discord-Phishing-URLs/issues/24
-||cryptoslugs-hubs.com^$document
-||verify.cryptoslugs-hubs.com^$document
 
 ! https://virustotal.com/gui/url/dc11c48005d4e6e10f3cee13a731a131887b99ced613abd81900a2530689b94d/community
 ! my analysis: https://tria.ge/240106-xd1yqsdfdq/behavioral1
-||fazeskins.ru^$all
 
 ! https://github.com/hagezi/dns-blocklists/issues/2019
-||realboos.online^$document
 
 ! https://github.com/RPiList/specials/issues/1422
-||jaynapatel.co.uk^$document
 ||nelyc5h5x.jaynapatel.co.uk^$all
 
 ! https://github.com/gchq/CyberChef/issues/1639#issuecomment-1893099540
-||technocraterecovery.site^$all
 
 ! https://github.com/hagezi/dns-blocklists/issues/2049
 ||adidasbrasil.net^$document
 ||adidascolombia.net^$document
 ||adidasfotballsko.com^$document
-||adidashrvatskas.com^$document
 ||adidashungaryhu.com^$document
-||adidasihungary.com^$document
-||adidasjapan.net^$document
-||adidasoutletfrance.com^$document
-||adidasoutletslovenija.com^$document
 ||adidasperu.com^$document
 ||adidasschoenen.com^$document
-||adidasslovenijaonline.com^$document
-||adidasslovenijaoutlet.com^$document
-||adidassrbijaeshop.com^$document
 ||adidassrbijashop.com^$document
-||adidasuae.net^$document
 ||adidaszagreb.com^$document
 ||aerosolesshoesoutlets.com^$document
 ||airjordanbelgique.net^$document
-||airjordanberlin.de^$document
-||airjordanfemme.fr^$document
 ||airjordangreece.net^$document
 ||airjordanmagasinsuisse.com^$document
 ||airjordanromania.net^$document
 ||airjordanuruguay.com^$document
-||aldobolsasmexico.com^$document
 ||aldocanada.net^$document
 ||aldomontreal.com^$document
-||aldonetherlands.com^$document
-||aldosapatos.com^$document
-||aldosouthafrica.com^$document
 ||aldozapatos.com^$document
 ||alessandrozavettijas.com^$document
 ||alessandrozavettiromania.com^$document
 ||alessandrozavettiuk.com^$document
 ||alessandrozavettiweste.de^$document
-||allbirdsmadrid.com^$document
-||allsaintshungary.com^$document
-||allsaintsonlineuae.com^$document
-||allsaintsportugal.net^$document
-||allsaintsslovenija.com^$document
 ||aloyogaaustralia.net^$document
 ||aloyogabrasil.com^$document
-||aloyogapraha.cz^$document
 ||aloyogasale.net^$document
 ||aloyogasuomi.net^$document
-||alphalete-suomi.com^$document
-||alphaletesuomi.com^$document
 ||altra.ae^$document
 ||altrabelgie.com^$document
 ||altradanmarkshop.com^$document
 ||altraroadshoesnz.com^$document
-||altraruningpolska.com^$document
 ||altrarunnerjapan.com^$document
 ||altrashoesdk.com^$document
 ||altrasverigeshop.com^$document
-||americantouristerpolska.pl^$document
-||americantouristersuomi.com^$document
 ||annafieldshop.fr^$document
-||arcterryxoutletuk.com^$document
-||arcterxysuomi.com^$document
 ||asicskuwaitsale.com^$document
-||asicsoutletwien.at^$document
-||asicssuomisneakers.com^$document
-||asicswarsaw.pl^$document
-||asicswarszawaoutlet.pl^$document
 ||asolocipele.com^$document
 ||asolosko.com^$document
 ||asportuguesaslatvija.com^$document
 ||autrybelgique.net^$document
-||autryboty.cz^$document
 ||autryjapan.net^$document
 ||autrymexico.net^$document
-||autrynz.com^$document
-||autryoutlet.com^$document
 ||autryshoes.pl^$document
 ||autryshoesjapan.com^$document
 ||autrystore.net^$document
 ||autryuae.net^$document
-||autryvienna.at^$document
 ||axelarigatojapan.net^$document
 ||axelarigatomilano.it^$document
 ||axelarigatooslo.com^$document
 ||axelarigatotenisice.com^$document
-||aybl.pl^$document
-||ayblsuomi.com^$document
-||baffinstiefel.com^$document
 ||balancecentrum.eu^$document
-||balenciagaireland.com^$document
-||balenciagasuomi.com^$document
-||balmainhrvatskashop.com^$document
 ||bapebelgium.com^$document
 ||bapeberlin.de^$document
 ||bapecanadasale.com^$document
@@ -4384,93 +2676,52 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||bapelietuva.com^$document
 ||bapenederland.net^$document
 ||bapenorgeoutlet.com^$document
-||bapeparisshop.fr^$document
 ||bapeportugal.net^$document
-||bapesklepwarszawa.pl^$document
 ||bapesuisse.com^$document
 ||bapewien.at^$document
-||barbourfinland.com^$document
-||barbourkurtka.com^$document
 ||barbourpolska.com^$document
 ||barbourpolska.net^$document
-||bearpawbrazil.com^$document
-||bearpawbuty.com^$document
 ||belenkafi.com^$document
 ||billabong-argentina.com^$document
 ||billabongcanada.net^$document
 ||billabongportugal.net^$document
 ||billabongromania.net^$document
-||billabongwarszawa.pl^$document
 ||bocancilowa.com^$document
-||botascolumbia.com^$document
-||botasdemonia.com^$document
 ||botashunterargentina.com^$document
 ||botashuntermexico.com^$document
 ||botashuntermujer.com^$document
-||botaspajar.com^$document
 ||bothunterturkiye.com^$document
 ||bottegavenetasuomi.com^$document
-||botyadidas.cz^$document
-||botybearpaw.com^$document
 ||botycaterpillar.cz^$document
-||brooksfinland.com^$document
-||brooksoutletpolska.com^$document
 ||brooksrunningindonesia.com^$document
 ||brooksshoesuk.com^$document
-||brooksshoeuk.com^$document
-||brookssuomi-fi.com^$document
 ||brookssuomioutlet.com^$document
 ||brookswyprzedaz.pl^$document
-||buenobratislava.sk^$document
-||buenoshoesuk.com^$document
-||bugattifashionro.com^$document
-||butydanner-polska.com^$document
-||butykeenoutlet.pl^$document
-||butyveja.pl^$document
-||buyshoesmalaysiaonline.com^$document
-||buyshoesonlinemalaysia.com^$document
-||carharttbratislava.sk^$document
 ||carharttchile.net^$document
-||carharttdanmark.com^$document
 ||carhartthungary.com^$document
 ||carharttlatvia.com^$document
-||carharttparis.fr^$document
-||carharttpolska.com^$document
-||carharttpraha.cz^$document
 ||carharttsrbija.com^$document
 ||carharttsuisse.com^$document
 ||carharttuae.net^$document
-||cartier-malaysia.com^$document
 ||castanerromania.com^$document
 ||caterpillarbootscanada.net^$document
 ||caterpillarchaussure.net^$document
 ||caterpillarnorge.org^$document
-||caterpillarshoesuk.com^$document
 ||cerabone.cz^$document
 ||championargentina.net^$document
 ||championbelgique.com^$document
 ||championberlin.de^$document
-||championbulgaria.com^$document
 ||championclchile.com^$document
 ||championcolombia.net^$document
 ||championdanmark.com^$document
-||championeesti.com^$document
-||championgreece.net^$document
 ||championisrael.net^$document
 ||championjapan.net^$document
 ||championkuwait.net^$document
-||championmexico.net^$document
-||championoutletstore.sk^$document
-||champion-polska.pl^$document
 ||championroma.it^$document
 ||championslovenija.com^$document
 ||championuae.net^$document
 ||championuksale.com^$document
-||championuruguay.com^$document
-||championwarszawa.pl^$document
-||chaussuresmusto.com^$document
 ||cizmesorel.com^$document
-||clarksargentina.net^$document
 ||clarksbuty.pl^$document
 ||clarksmontreal.net^$document
 ||clarksportugal.net^$document
@@ -4478,127 +2729,68 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||clarksshoesaustralia.net^$document
 ||clarksshoesnz.net^$document
 ||coccinellepolska.com^$document
-||colehaanbrasilsale.com^$document
-||colehaangreece.com^$document
-||columbiacolombiatiendas.com^$document
-||columbiafootweargreece.com^$document
-||columbiagreeceonline.com^$document
-||columbianetherlands.com^$document
-||columbiapolskaoutlet.com^$document
 ||columbiashoesmalaysia.com^$document
-||columbiashoesph.com^$document
-||columbiashopnederland.com^$document
-||columbiasnetherlands.com^$document
-||columbiaspolskasklep.com^$document
-||columbiassuomioutlet.com^$document
-||converseallstarisrael.com^$document
 ||converseberlin.de^$document
-||conversebrasil.com^$document
 ||converse-chile.cl^$document
-||conversechile.net^$document
 ||converseinespana.com^$document
-||converseisrael.com^$document
 ||conversekuwait.com^$document
-||converselietuva.com^$document
-||converse-luxembourg.com^$document
-||conversephilippines.com^$document
-||conversepromocja.com^$document
 ||converseromestore.it^$document
 ||converseshoesmalaysia.com^$document
-||conversesklep.com^$document
 ||conversesrbija.com^$document
 ||conversestoreperu.com^$document
 ||converseuk.com^$document
 ||conversezurich.net^$document
-||convresefi.com^$document
 ||convresesuomi.com^$document
-||cosabellanederland.com^$document
-||crocskaufenwien.at^$document
 ||crocslietuva.com^$document
 ||crocsuruguay.net^$document
 ||crocswarszawa.pl^$document
 ||cycasturkey.com^$document
-||dannerbootsaustralia.net^$document
 ||dannerbootsfrance.net^$document
 ||dannerbootsromania.com^$document
-||dannersko.net^$document
 ||dannerwandelschoen.com^$document
 ||dc-shoesperu.com^$document
-||demoniaboots.it^$document
 ||demoniabootscanada.com^$document
 ||demoniabootsireland.com^$document
 ||demoniabudapest.com^$document
 ||demoniajapan.com^$document
-||demoniapolska.com^$document
 ||demoniaportugal.com^$document
 ||demoniaromania.com^$document
 ||demoniashoesnorge.com^$document
 ||demoniastiefel.de^$document
-||demoniegreeceoutlet.com^$document
-||demoniepolska.com^$document
 ||docsmartensfactoryoutlet.com^$document
-||docsmartenspoland.pl^$document
 ||dopeargentina.net^$document
-||dopebelgie.com^$document
 ||dopechile.com^$document
 ||dopedanmark.com^$document
 ||dopeeesti.com^$document
-||dopejackeschweiz.com^$document
-||dopelaskettelutakki.com^$document
 ||dopenorge.com^$document
 ||dopeportugal.net^$document
-||doperomania.com^$document
-||dopeskikleding.com^$document
-||dopesnowboard.fr^$document
 ||dopesnownederland.com^$document
 ||dopesnowromania.com^$document
-||dopesnowtakki.com^$document
-||dopetakit.com^$document
 ||drmartensbatai.com^$document
 ||drmartensbot.com^$document
 ||drmartensbotas.com^$document
-||drmartensbotasmexico.com^$document
-||drmartensboty.cz^$document
 ||drmartensdamen.de^$document
-||drmartensdonna.com^$document
 ||drmartensdublin.com^$document
-||drmartenshomme.fr^$document
 ||drmartensjapan.net^$document
 ||drmartenssalg.com^$document
-||drmartensshoesuk.com^$document
 ||drmartensskroutz.com^$document
 ||eastpaklietuva.com^$document
-||eccohrvatskaoutlet.com^$document
 ||eccomontreal.com^$document
-||eccooutletsklep.pl^$document
-||eccooutletssuomi.com^$document
 ||eccorusland.com^$document
 ||eccoshoessaleaustralia.com^$document
-||emuaustraliaromania.com^$document
 ||etniesshoesireland.com^$document
 ||extreehome.com^$document
-||femistoriessuomi.com^$document
-||fila-finland.com^$document
 ||fitflopparis.net^$document
 ||fitflopromania.com^$document
-||footjoyapparelnz.com^$document
 ||footjoycanada.net^$document
-||footjoygolfshoe-india.com^$document
-||footjoygolfshoes-india.com^$document
 ||footjoygolfshoesuk.com^$document
 ||footjoyjapan.net^$document
 ||footjoyoutletmexico.com^$document
 ||footjoyshoesaustralia.com^$document
-||footjoyshoessouthafrica.com^$document
-||footjoysko.com^$document
-||fossilirelandsale.com^$document
 ||fotbalovyfestival.cz^$document
-||gapsuomi.com^$document
 ||geoxargentina.net^$document
 ||geoxbelgique.com^$document
-||geoxczpraha.cz^$document
 ||geoxgreece.net^$document
-||geox-ireland.com^$document
 ||geoxisrael.com^$document
 ||geoxkuwait.com^$document
 ||geoxlatvija.com^$document
@@ -4607,42 +2799,23 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||geoxnorge.net^$document
 ||geoxportugaloutlet.com^$document
 ||geoxschweiz.com^$document
-||geox-shoes-india.com^$document
 ||geoxsouthafrica.com^$document
 ||geoxsrbija.com^$document
 ||geoxsuomi.com^$document
 ||geoxuk.com^$document
 ||geoxuruguay.com^$document
-||ghdhaircanada.ca^$document
-||gola-portugal.com^$document
-||goldengoose-italia.com^$document
 ||groundiescanada.net^$document
-||groundiesgreeceoutlet.com^$document
-||groundiesgreeces.com^$document
-||groundiesitalia.top^$document
-||groundiesoutletchile.com^$document
-||groundiesoutletportugal.com^$document
 ||groundiesportugal.top^$document
-||groundiesscarpeitalia.it^$document
 ||groundiesschoenennederland.com^$document
-||groundiestroutlet.com^$document
-||groundieswyprzedaz.pl^$document
 ||guessfinland.com^$document
-||gymshark-polska.pl^$document
 ||gymsharkrea.com^$document
-||gymsharksaledk.com^$document
 ||gymsharksklep.pl^$document
 ||gymsharksoldes.net^$document
 ||gymsharkstorejapan.net^$document
-||gymsharksverigesale.com^$document
-||gymsharksweden.com^$document
-||hackettsrbija.com^$document
-||haflingerslipperswebsite.com^$document
 ||hanwagoutletstore.com^$document
 ||hanwagshoesoutlet.com^$document
 ||hellyhansenargentina.net^$document
 ||hellyhansenaustralia.net^$document
-||hellyhansenbratislava.sk^$document
 ||hellyhansencanada.com^$document
 ||hellyhansenchile.com^$document
 ||hellyhansencolombia.com^$document
@@ -4657,27 +2830,14 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||hellyhansenmexico.com^$document
 ||hellyhansennederland.com^$document
 ||hellyhansennorge.net^$document
-||hellyhansenoutletgreece.com^$document
 ||hellyhansenparis.net^$document
-||hellyhansenpraha.cz^$document
 ||hellyhansenromania.net^$document
 ||hellyhansenschweiz.com^$document
-||hellyhansensrbija.com^$document
 ||hellyhansenuk.com^$document
 ||hellyhansenuruguay.com^$document
 ||hellyhansenwarszawa.pl^$document
-||herschelireland.com^$document
-||heydudeforsale.com^$document
-||hm-portugal.com^$document
-||hoka-denmark.com^$document
-||hoka-magyarorszag.com^$document
-||hokanorgebutikk.com^$document
-||hokaoneonehrvatska.com^$document
-||hokaonept.com^$document
 ||hokaoutletparis.com^$document
 ||hokarunnershungary.com^$document
-||hokascarpe-italia.com^$document
-||hoka-schweiz.com^$document
 ||hoka-soldes.fr^$document
 ||hokastoreportugal.com^$document
 ||hummelchile.com^$document
@@ -4688,21 +2848,10 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||hunterbootsschweiz.net^$document
 ||hunterfinland.com^$document
 ||huntergumbootsaustralia.com^$document
-||huntergummistiefeldamen.de^$document
-||hunterkaloszeoutlets.pl^$document
-||hunteroutletsuomi.com^$document
 ||hunterregenlaarzen.com^$document
-||hushpuppiesfinland.com^$document
 ||inov8boty.cz^$document
-||ipanemauae.com^$document
 ||johannisstein.eu^$document
-||johnstonmurphyaustraliau.com^$document
-||jomacdmx.com^$document
 ||jomajp.com^$document
-||jomasportcostarica.com^$document
-||jomavenezuela.com^$document
-||jordansboty.cz^$document
-||josefseibelsuomi.com^$document
 ||joyaperuventa.com^$document
 ||joyaromania.com^$document
 ||joyaschoenen.com^$document
@@ -4710,185 +2859,80 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||joyashoeskuwait.com^$document
 ||joyaskonorge.com^$document
 ||joyaskorstockholm.com^$document
-||jsbackpackcanada.com^$document
 ||kaloszehunter.com^$document
-||kappazurich.com^$document
 ||karenmillenslovensko.sk^$document
 ||karhuskor.com^$document
 ||karhusneakersnorge.net^$document
-||karrimormexico.com^$document
-||kedsberlin.de^$document
 ||kedscanada.net^$document
-||kedsoutletpolska.com^$document
 ||kedspt.com^$document
 ||kedssklep.pl^$document
 ||kenzoindonesia.com^$document
-||kickers-hungary.com^$document
 ||kiplingfrance.com^$document
-||kipling-polska.com^$document
-||kiplingspain.com^$document
-||kiplingsuomi.com^$document
-||kurtkadope.com^$document
 ||lasportivabootsnz.com^$document
 ||lasportivaclimbingshoescanada.com^$document
 ||lasportivaklatresko.com^$document
 ||lasportivamontreal.com^$document
-||lasportivanederland.com^$document
-||lasportivaportugal.com^$document
-||lasportivaschuheschweiz.com^$document
-||lasportivatenisice.com^$document
 ||lasportivawanderschuhe.de^$document
 ||lecoqsportifparis.fr^$document
-||leggingsnvgtnitaly.com^$document
-||legginsygymsharkpolska.com^$document
-||lems-greece.com^$document
 ||liujoukshop.com^$document
 ||loakedanmarkshop.com^$document
-||lojacolumbiaportugal.com^$document
 ||longchampbucharest.com^$document
-||lornajaneaustralia.com^$document
 ||lottoargentina.net^$document
 ||lottoaustralia.org^$document
 ||lottobelgium.net^$document
-||lottoboty.cz^$document
 ||lottobulgaria.org^$document
 ||lottocolombia.net^$document
 ||lottodanmark.net^$document
-||lottoeesti.org^$document
 ||lottofrankfurt.de^$document
-||lottogreece.org^$document
-||lottohrvatska.org^$document
 ||lottohungary.org^$document
 ||lottoireland.net^$document
 ||lottokuwait.org^$document
 ||lottolithuania.org^$document
 ||lottomexico.org^$document
 ||lottonorway.net^$document
-||lottoparis.net^$document
 ||lottoportugal.net^$document
 ||lottoschweiz.com^$document
 ||lottoserbia.org^$document
 ||lottoslovakia.sk^$document
 ||lottosouthafrica.net^$document
 ||lottosuomi.net^$document
-||lottotokyo.org^$document
 ||lottoturkey.org^$document
 ||lottouruguay.net^$document
-||lottowarszawa.pl^$document
 ||louboutin-polska.com^$document
 ||lowaapavi.com^$document
-||lowabakancs.net^$document
-||lowabatai.com^$document
 ||lowabootsaustralia.net^$document
 ||lowabootsmexico.com^$document
-||lowabotas.com^$document
 ||lowaisrael.net^$document
-||lowamilitarybootsuk.com^$document
-||lowa-philippines.com^$document
-||lowaschoenen-nl.com^$document
-||lowasuomi.com^$document
-||lowausastore.com^$document
-||lowawandelschoenen.com^$document
-||lowawinterstiefel.de^$document
-||lululemonamsterdam.net^$document
-||lululemoneu.cz^$document
-||lululemonjapan.ru^$document
-||lululemonmontreal.com^$document
-||lululemonoutletcolombia.net^$document
 ||lululemonportugal.net^$document
 ||lululemonsale.de^$document
-||mackagebelgique.net^$document
 ||mackagedenmark.com^$document
 ||mackagefemmeparis.com^$document
 ||mackageireland.com^$document
 ||mackagejacketcanada.com^$document
 ||mackageschweiz.com^$document
 ||magasinhokabelgique.com^$document
-||marcjacobs-france.fr^$document
-||marc-jacobssuomi.com^$document
-||meindlschuhedeutschland.com^$document
-||mephistoonsale.com^$document
 ||merrellbarbati.com^$document
-||merrellbutysklep.com^$document
-||merrelloutletfactoryuk.com^$document
 ||merrellsandaalit.com^$document
 ||merrellsklepy.pl^$document
 ||michaelkorsargentina.net^$document
 ||michaelkorsberlin.de^$document
 ||michaelkorsgreece.net^$document
 ||michaelkorslatvia.com^$document
-||michaelkorssrbija.net^$document
 ||michaelkorssuisse.net^$document
 ||michaelkorsuruguay.net^$document
-||michaelkorsvienna.at^$document
 ||michaelkorswarszawa.pl^$document
-||mizuno-hungary.com^$document
-||mizunonorway.com^$document
 ||mizunoonsaleuk.com^$document
 ||mizunosaleportugal.com^$document
-||mizunosnorge.com^$document
-||mizuno-sweden.com^$document
 ||mlbhungary.com^$document
-||mlbshopschweiz.com^$document
 ||mollybootmexico.com^$document
-||moonbootargentina.com^$document
-||moonbootaustralia.net^$document
-||moonbootbelgique.com^$document
-||moonbootbratislava.sk^$document
-||moonbootbulgaria.com^$document
-||moonbootireland.net^$document
-||moonbootisrael.net^$document
-||moonbootjapan.net^$document
-||moonbootlatvia.com^$document
-||moonbootlietuva.com^$document
-||moonbootnorge.net^$document
-||moonboot-polska.com^$document
-||moonbootportugal.net^$document
-||moonbootroma.it^$document
-||moonbootsgreece.net^$document
-||moonbootslovenija.net^$document
-||moonbootsouthafrica.net^$document
-||moonbootsperu.com^$document
-||moonbootuae.net^$document
-||moonbootukstore.com^$document
 ||muckbootdanmark.com^$document
-||muckboots-cz.com^$document
-||muckbootscz.com^$document
-||muckbootsgreece.com^$document
-||muckbootsmagyarorszagon.com^$document
 ||muckbootsnl.com^$document
-||muckbootsnorge.com^$document
 ||muckbootsosterreich.at^$document
 ||muckbootsoutletstore.de^$document
-||muckbootspolska.com^$document
-||muckbootsportugal.com^$document
-||muckbootsromania.com^$document
-||muckbootsschweiz.com^$document
-||muckbootssouthafrica.com^$document
-||muckbootssverige.com^$document
 ||nadejbaletu.sk^$document
-||nativeshoesfrance.com^$document
-||nauticanederland.com^$document
-||nauticapolska.com^$document
 ||nauticaromania.com^$document
 ||nauticaukwebsite.com^$document
-||newbalanceonline.pl^$document
-||new-lookireland.com^$document
-||newlooksuomi.com^$document
-||nfiserova.cz^$document
-||nikeaustralia.net^$document
-||nikeayakkabiindirim.com^$document
-||nikegreece.net^$document
-||nikenorgesalg.com^$document
-||nikeoutletspain.com^$document
-||nike-philippines.com^$document
-||nike-polska.pl^$document
-||nike-portugal.com^$document
-||nikeshoeoutlets.gr^$document
-||nikeslovenija.net^$document
 ||nikesouthafricasale.co.za^$document
-||niketrturkiye.com^$document
-||nine-west.pl^$document
 ||nobullbelgie.net^$document
 ||nobullcanadasale.com^$document
 ||nobullcrossfitoutlet.net^$document
@@ -4896,189 +2940,90 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||nobullgreece.net^$document
 ||nobullprojectireland.net^$document
 ||nobullprojectmexico.com^$document
-||nobullshoponline.sk^$document
-||nobullskonorge.com^$document
 ||nobullsrbija.com^$document
-||no-bulluk.com^$document
 ||norronabunda.sk^$document
-||obuvlasportiva.sk^$document
 ||ohpollyportugal.com^$document
-||oliverpeoplesschweiz.com^$document
-||olukaibe.com^$document
-||olukaidk.com^$document
 ||olukai-france.fr^$document
-||olukai-greece.com^$document
-||olukainorway.com^$document
-||olukaisaleclearance.com^$document
-||onitsukatiger-ireland.com^$document
-||oofossingaporestore.com^$document
 ||osirisfootwearmexico.com^$document
 ||osirisuk.com^$document
-||palladiumargentina.com^$document
-||palladiumbootsargentina.com^$document
-||palladiumbootspolska.pl^$document
-||palladium-denmark.com^$document
 ||palladiumfi.me^$document
-||palladium-hrvatska.com^$document
-||palladiumpolskaoutlet.com^$document
 ||panamajack-france.fr^$document
 ||panamajackonline.sk^$document
-||panamajackoutlet.pl^$document
-||panamajackparis.com^$document
-||panamajackschweiz.ch^$document
 ||panamajackschweiz.net^$document
 ||panamajackslovenija.com^$document
 ||pandorajapan.net^$document
 ||pandorakorut.com^$document
-||pandoraoslo.com^$document
 ||pandoraportugal.com^$document
 ||pandoraringsuk.com^$document
-||parajumpersjackede.de^$document
-||parfois-chile.com^$document
-||parfoiscz.cz^$document
-||parfoisdublin.com^$document
-||parfoisosterreich.at^$document
-||parfois-sverige.com^$document
 ||patagoniapolskasklep.pl^$document
-||perfectmomentromania.com^$document
 ||pitviperbril.com^$document
 ||pitviperbriller.com^$document
-||pitviperfrance.net^$document
 ||pitvipergafas.com^$document
 ||pitviperjapan.com^$document
-||pitviperlunette.fr^$document
-||pitviperocchiali.it^$document
 ||pitviperoculos.com^$document
 ||pitvipersunglassesnz.com^$document
 ||pleaserchaussure.com^$document
 ||pleaserchaussures.com^$document
 ||pleaserheelscanada.com^$document
-||pleaserschweiz.com^$document
-||portugalgroundies.com^$document
 ||procuradoresnavas.com^$document
-||pumaoutletpolska.com^$document
-||puma-polska.com^$document
 ||quaygreece.net^$document
 ||quayocchiali.it^$document
 ||quayonline.net^$document
 ||quayoutlet.com^$document
 ||quayparis.com^$document
-||quayphilippines.com^$document
 ||quaysouthafrica.net^$document
 ||quaysstore.com^$document
 ||quaysuomeksi.com^$document
-||rabclothingsouthafrica.net^$document
 ||rabdanmark.net^$document
 ||rabhungary.com^$document
 ||rabonline.net^$document
 ||rabparis.fr^$document
 ||rabromania.net^$document
 ||rabsrbija.net^$document
-||raybanmalaysiastore.com^$document
 ||raybanslovensko.sk^$document
 ||redwingoslo.com^$document
 ||reebokaustralia.com^$document
-||reebokuswebsite.com^$document
-||reef-danmark.com^$document
-||reef-polska.com^$document
-||reef-portugal.com^$document
-||regattafrance.com^$document
-||regattapolska.com^$document
 ||rockportbootsireland.com^$document
 ||rockportjapan.com^$document
 ||rockportmontreal.com^$document
 ||rockportnz.com^$document
 ||rockportontario.com^$document
 ||rockportoutletortugal.com^$document
-||rockportsaleuk.com^$document
 ||rockportschoenen.com^$document
 ||rockportshoesmexico.com^$document
 ||rockporttr.com^$document
 ||rockportzapatos.com^$document
-||rothys-suomi.com^$document
-||roxy-japan.com^$document
 ||russellandbromleynorge.net^$document
-||russellandbromleyromania.net^$document
-||russellandbromleywien.at^$document
-||russellbromleyoutlet.net^$document
 ||russellnbromleycanada.com^$document
 ||rvcajapan.net^$document
-||ryderwear-finland.com^$document
 ||ryderwearjapan.com^$document
 ||ryderwearjapann.com^$document
-||ryderwear-polska.com^$document
-||ryderwear-suomi.com^$document
 ||safenordicsolutions.com^$document
 ||saintjamesireland.com^$document
 ||salmingchile.com^$document
 ||salmingcolombia.com^$document
-||salmingportugalpt.com^$document
 ||salmingslovenija.com^$document
-||salomomsuomioutlet.com^$document
-||salomonbuty.com^$document
 ||salomonenucuz.com^$document
 ||salomonfinlandoutlet.com^$document
 ||salomongermany.de^$document
-||salomonmalaysiaonlineshop.com^$document
-||salomonoutlet.it^$document
-||salomonportugal.com^$document
 ||salomonpraha.com^$document
-||salomonshoes.co.za^$document
 ||salomonshoesbulgaria.com^$document
-||salomonshopgreece.com^$document
-||salomonslovensko.me^$document
 ||salomonstoreuae.com^$document
-||salomonvandreskotilbud.com^$document
-||sanitamalaysia.com^$document
-||sanitasverige.com^$document
-||sanukchiletiendas.com^$document
 ||sanukdublin.com^$document
 ||sanukflipflops.de^$document
-||sanuknederlandnl.com^$document
 ||sanuknz.com^$document
-||sanuk-philippines.com^$document
-||sanukromaniaro.com^$document
 ||sanuksalecanada.com^$document
-||sanuksandalssingapore.com^$document
 ||sanukschoenen.com^$document
-||sanukshoesschweiz.com^$document
-||sanukzapatoscolombia.com^$document
 ||scarpejoya.com^$document
 ||scarpelowa.it^$document
-||scarpesanuk.it^$document
-||scotchandsodaromania.com^$document
-||scotch-sodaromania.com^$document
 ||sebagoantwerpen.com^$document
 ||sebagobruxelles.com^$document
 ||sebagodeckshoesireland.com^$document
-||sebagodockside.fr^$document
 ||sebagojapan.net^$document
 ||sebagosaat.com^$document
 ||sebagoschoenen.com^$document
 ||sebagoshoesgreece.com^$document
 ||sebagozapatos.com^$document
-||shoesmalaysiastores.com^$document
-||shoessalesmalaysia.com^$document
-||skechersfactory.com^$document
-||skechersinphilippines.com^$document
-||skechersmilano.com^$document
-||skechersoutletsverige.com^$document
-||skechersparissale.com^$document
-||skechersschuhe.com^$document
-||skechersturkiyeoutlet.com.tr^$document
-||skechersuruguayoutlet.com^$document
-||skijakke.com^$document
-||skijasbelgie.com^$document
-||skimscz.cz^$document
-||skimsgreece.com^$document
-||skims-polska.pl^$document
-||skimspolska.pl^$document
-||skimsromania.com^$document
-||skimsshoponline.com^$document
-||sklepconversepolska.com^$document
-||sklepyadidaspolska.com^$document
-||sloggipolska.pl^$document
-||snowromania.com^$document
 ||solovairargentina.com^$document
 ||solovairbelgique.com^$document
 ||solovairbelgium.net^$document
@@ -5087,67 +3032,32 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||solovairchile.net^$document
 ||solovairgreece.net^$document
 ||solovairhrvatska.net^$document
-||solovairpraha.cz^$document
 ||solovairschweiz.net^$document
 ||solovairshop.com^$document
 ||solovairslovenija.net^$document
 ||solovairsuomi.net^$document
-||sorelaustraliashops.com^$document
-||sorelbootsuk.com^$document
-||sorelchaussures.com^$document
-||sorel-dk.com^$document
-||sorelportugal.com^$document
 ||sorelschoenen.com^$document
 ||sorelschweiz.com^$document
-||sperryfactoryoutlets.com^$document
-||sperryshoesaustralia.com^$document
 ||stevamaddenpl.com^$document
-||stevamaddenpolska.com^$document
-||stockxbelgique.com^$document
-||stockxbelgium.com^$document
-||stockxlatvia.com^$document
-||stockxsouthafrica.com^$document
-||stockxsuisse.com^$document
-||stoneislandeesti.ru^$document
 ||stoneislandjapan.com^$document
 ||stoneislandlietuva.com^$document
-||stoneislandparis.ru^$document
-||stoneislandsouthafrica.ru^$document
 ||stoneislandsuisse.com^$document
 ||stoneislandsuomi.org^$document
 ||stussygreece.com^$document
 ||stussy-italia.com^$document
 ||suprainsuomi.com^$document
 ||suprashoescanada.com^$document
-||tamarisdanmark.com^$document
-||tamarissdanmark.com^$document
 ||tedbakereesti.com^$document
 ||tedbakerireland.net^$document
-||tenisiconverseromania.com^$document
 ||tenisiconverseromania.ro^$document
 ||teniskyunderarmour.sk^$document
-||teva-ar.com^$document
-||teva-be.com^$document
-||teva-colombia.com^$document
 ||teva-cz.com^$document
 ||tevaforhandler.com^$document
-||tevahr.com^$document
-||tevaoutletchile.com^$document
 ||teva-polska.com^$document
-||tevasandalesrbija.com^$document
-||tevaskor.com^$document
-||tevaszandalbudapest.com^$document
-||teva-turkey.com^$document
 ||thursdaycanada.com^$document
-||thursdaynorge.com^$document
-||thursdayuk.com^$document
-||tiendahokaonemexico.com^$document
 ||tiendasairjordanmexico.com^$document
-||tiffanysuomi.com^$document
 ||tiffanyturkiye.com.tr^$document
 ||timberlandmontreal.net^$document
-||timberlandpolska.pl^$document
-||timberlandtopanky.sk^$document
 ||tomfordsuomi.com^$document
 ||tommyhilfigerbunda.sk^$document
 ||tommyhilfigerdeutschland.de^$document
@@ -5163,115 +3073,54 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||tommyhilfigersko.com^$document
 ||tomsjapan.net^$document
 ||tomsjapanoutlet.com^$document
-||tomsschuhedamen.de^$document
-||tomsshoesdubai.com^$document
-||tomsskotilbud.com^$document
-||tonybianconz.com^$document
-||toryburchoutletespana.com^$document
-||uggssklep.pl^$document
-||umbropolska.pl^$document
-||underarmouradidasi.com^$document
 ||underarmourchaussures.net^$document
 ||underarmourjas.com^$document
 ||underarmouroslo.com^$document
 ||underarmourschuhe.at^$document
-||underarmourskor.se^$document
 ||underarmourskroutz.com^$document
 ||underarmourtrainersuk.com^$document
 ||undervon.com^$document
-||valentinocanada.com^$document
-||vansalte.it^$document
-||vanscolombia.net^$document
 ||vansdames.com^$document
 ||vansforsaleuk.net^$document
 ||vansindonesiastore.com^$document
 ||vansschoenenbelgie.com^$document
 ||vansshoesksa.com^$document
 ||vanssko.com^$document
-||vansskoletaske.com^$document
 ||vanstenisice.com^$document
 ||veja.com.gr^$document
-||vejaadidasi.com^$document
 ||vejaathensgreece.net^$document
 ||vejabelgium.com^$document
 ||vejabrasil.net^$document
 ||vejanorge.com^$document
-||vejanz.com^$document
 ||vejaoutlet.net^$document
-||vejapraha.cz^$document
-||vejasfranceoutlet.com^$document
 ||vejashoes.cz^$document
 ||vejashoesuk.com^$document
-||vejasko.org^$document
 ||vejaslovenia.com^$document
-||vejatenis.com^$document
 ||vejazapatoscolombia.net^$document
-||verabradleypolska.com^$document
 ||vessibelgium.com^$document
-||vessibelglum.com^$document
-||vessiitalia.com^$document
 ||vessijapan.net^$document
 ||vessischoenen.com^$document
-||vessishoes.fr^$document
 ||vibram-es.com^$document
-||vibrammagyarorszag.com^$document
-||vibramnederland.me^$document
-||vibramparis.com^$document
-||vibramsalenz.com^$document
-||vibramukstore.com^$document
-||vibramvypredaj.sk^$document
 ||viking-cnc.com^$document
 ||viking-solutions.com^$document
-||vineyardvines.pl^$document
-||vineyardvinessuomi.com^$document
 ||vionicmexico.com^$document
-||vionicshoesportugal.com^$document
-||vioniczapatos.com^$document
 ||vivaiabuty.pl^$document
 ||vivobarefootbrasil.net^$document
-||vivobarefootbrussel.com^$document
-||vivobarefootchileoutlet.net^$document
-||vivobarefooteesti.com^$document
-||vivobarefoothrvatska.net^$document
-||vivobarefoot-hu.com^$document
-||vivobarefootjapan.net^$document
-||vivobarefootkengat.com^$document
-||vivobarefootkokotaulukko.com^$document
-||vivobarefootkuwait.com^$document
-||vivobarefoot-romania.ro^$document
 ||vivobarefootslovenia.com^$document
-||vivobarefoot-slovenija.com^$document
-||vivobarefootsrbija.net^$document
-||vivobarefootsuisse.com^$document
-||vivobarefootusretailers.com^$document
-||vivobarefoot-za.com^$document
-||vivoshoessouthafrica.com^$document
-||wolverinefactoryoutlet.com^$document
-||wolverinefactoryoutlets.com^$document
 ||xerobarefoot.sk^$document
 ||xerofootwearuk.com^$document
-||xerojapan.net^$document
 ||xeroshoesaustralia.com^$document
 ||xeroshoesnz.com^$document
-||xeroskor.com^$document
-||xn--adidasayakkab-gbc.net^$document
 ||xn--aloyogamnchen-3ob.de^$document
 ||xn--asolokengt-y5a.com^$document
 ||xn--axelarigatokbenhavn-67b.com^$document
 ||xn--bapeespaa-s6a.com^$document
 ||xn--billabongtrkiye-8vb.com^$document
 ||xn--carharttespaa-tkb.com^$document
-||xn--castaerespaa-ehbg.com^$document
 ||xn--clarksespaa-beb.com^$document
 ||xn--clarkszrich-zhb.com^$document
-||xn--conversebelgi-gib.com^$document
-||xn--dannerespaa-beb.com^$document
-||xn--dannerstvler-2jb.com^$document
 ||xn--dopeespaa-s6a.com^$document
 ||xn--dopetrkiye-eeb.com^$document
-||xn--drmartensstvler-gub.com^$document
-||xn--footjoygolfkengt-9nb.com^$document
-||xn--gillmarinetrkiye-tzb.com^$document
 ||xn--hellyhansenbelgi-prb.com^$document
 ||xn--hellyhansenespaa-lub.com^$document
 ||xn--hellyhansenper-yrb.com^$document
@@ -5279,37 +3128,24 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||xn--huntergummistvler-d1b.com^$document
 ||xn--hunterstvler-2jb.com^$document
 ||xn--joyaespaa-s6a.com^$document
-||xn--neweraapka-j9b.com^$document
 ||xn--norronatrkiye-3ob.com^$document
-||xn--skimstrkiye-yhb.com^$document
 ||xn--solovairmxico-jhb.com^$document
-||xn--sorelcip-8sb.com^$document
-||xn--tomscip-8mb.com^$document
-||xn--underarmourayakkab-v0c.com^$document
 ||xn--vejazrich-u9a.com^$document
-||xn--vessiespaa-19a.com^$document
 ||yeezybelgique.com^$document
-||yeezyberlin.de^$document
 ||yeezyireland.com^$document
 ||yeezyisrael.com^$document
 ||yeezyuksale.com^$document
 ||yeti-southafrica.co.za^$document
 ||youngla-danmark.com^$document
-||youngla-polska.pl^$document
-||yslpolska.pl^$document
 ||zapatillasunderarmourchile.com^$document
-||zapatossanuk.com^$document
 ||zavettiireland.com^$document
 
 ! https://github.com/durablenapkin/scamblocklist/issues/74
-||link-etsy.com^$all
-||etsy-verifed-shop.com^$all
 
 ! https://github.com/hagezi/dns-blocklists/issues/2081
 ||do0cd.com^$all
 ||doosd.pro^$all
 ||d0ood.com^$all
-||doode.pro^$all
 
 ! SMS phishing message
 ! cloudflared: https://tria.ge/240127-rgd1gsdgb8/behavioral1
@@ -5351,7 +3187,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 
 ! https://github.com/hagezi/dns-blocklists/issues/2178
 ||guidesite.info^$all
-||ustrack.online^$all
 
 ! https://github.com/hagezi/dns-blocklists/pull/2182
 ||cashjuice.com^$document
@@ -5374,9 +3209,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||z-lib.id^$document
 
 ! https://github.com/RPiList/specials/issues/1492
-||okun.shop^$document
-||meiguo66.okun.shop^$document
-||de.okun.shop^$document
 
 ! https://www.reddit.com/r/Scams/comments/1bfbq5e/emf_neutralizer_is_this_actually_a_thing/
 ! https://youtube.com/watch?v=EgvdvfOvdJs
@@ -5387,10 +3219,8 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 
 ! https://github.com/durablenapkin/scamblocklist/issues/80
 ||produktretter.com^$document
-||produktretter.org^$document
 ||gratis-eltern-produkttests.com^$document
 ||produkttest-anmeldung.com^$document
-||maforia-anmeldung.com^$document
 ||produkttester-anmeldung.com^$document
 ||produkttester-werden.org^$document
 ||ruecksendungen-gratis.com^$document
@@ -5404,7 +3234,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ! https://tria.ge/240320-3qqanaec82/behavioral1
 ||ixlcrg.shop^$all
 ||shop.ixlcrg.shop^$all
-||gagabao216.com^$document
 ||img.gagabao216.com^$image
 ! https://tria.ge/240321-aqql7sfb49/behavioral1
 ||ffuoouw.shop^$all
@@ -5418,32 +3247,18 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 
 ! https://github.com/jarelllama/Scam-Blocklist/issues/265
 ||luizeva.com^$document
-||earnglobal.co^$document
 ||prostargift.com^$document
 ||quirkleaf.com^$document
 
 ! https://github.com/jarelllama/Scam-Blocklist/issues/264
 ||hft-fyfc.com^$document
-||askotrade.net^$document
-||binozy.com^$document
-||monarchlibertygroup.cc^$document
-||polybox.finance^$document
 ||sanexer.com^$document
 
 ! https://infosec.exchange/@iampytest1/112203822803380750
-||toughknifes.com^$all
-||darntoughfactory.shop^$all
-||darnroughonline.top^$all
-||darntoughonline.shop^$all
-||darntoughonline-us.top^$all
-||darntoughsales.shop^$all
-||us-darntoughonline.top^$all
 ||vipbargainhub.com^$all
-||vpdamai.com^$all
 
 ! https://github.com/jarelllama/Scam-Blocklist/issues/277
 ! https://dfpi.ca.gov/2024/03/25/fraudulent-bank-website-scam/
-||beachcitiescommercialbank.com^$all
 ! my analysis: https://tria.ge/240404-xlg6laga74/behavioral1
 ! https://infosec.exchange/@iampytest1/112214528899229692
 ||americasfirstnationalbank.com^$all
@@ -5461,29 +3276,21 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 
 ! https://github.com/RPiList/specials/issues/1532
 ! https://tria.ge/240411-nps8laaf48/behavioral1
-||websharetday.online^$document
 
 ! https://tria.ge/240411-xhwjtahh93/behavioral1
 ||gettechreward.com^$all
 
 ! https://tria.ge/240411-1dm9esde97/behavioral1
-||leanbiome-discount.store^$all
 
 ! https://tria.ge/240411-1jkqgsdh25/behavioral1
 ||gamersahead.com^$all
 
 ! https://tria.ge/240412-3g67tagc44/behavioral1
-||daniellacribbs.lol^$all
-||c.datingcompass.fun^$all
 
 ! https://tria.ge/240412-3jmwysgc75/behavioral1
-||fatimaforaker.skin^$all
-||i.datingcompass.fun^$all
 
 ! https://tria.ge/240412-3nkbmagd63/behavioral1
-||oletaburford.buzz^$all
 ||hngfck.com^$document
-||g.datingcompass.fun^$all
 
 ! https://tria.ge/240413-apvvjagg78/behavioral1
 ||mailtknnews.com^$document
@@ -5500,14 +3307,10 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||charmlive.com^$document
 
 ! https://github.com/hagezi/dns-blocklists/issues/2512
-||slowmitter.top^$document
-||d.slowmitter.top^$document
 ||singingfiles.com^$document
 
 ! https://github.com/jarelllama/Scam-Blocklist/issues/334
 ! https://github.com/hagezi/dns-blocklists/issues/2946
-||gym-sharkfinland.com^$all
-||www.gym-sharkfinland.com^$all
 
 ! https://github.com/hagezi/dns-blocklists/issues/2607
 ||93mobiles.com^$all
@@ -5516,8 +3319,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||185.106.94.223^$document
 ! https://tria.ge/240511-qjc1jacc79/behavioral1
 ||serenespring.info^$all
-||mta1.serenespring.info^$all
-||naughtymatchvo1.com^$all
 ||onlyfwb.com^$document
 ||email.mg.onlyfwb.com^$document
 
@@ -5535,7 +3336,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||service-rundfunkbeitrag.de^$document
 
 ! spam email -> https://tria.ge/240621-y6rffa1cqe/behavioral1
-||wowgirl69.site^$all
 ||dateflng.com^$all
 ||bgigdga.dateflng.com^$all
 ! https://infosec.exchange/@iampytest1/112973906679266779
@@ -5547,11 +3347,9 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 
 ! spam email -> https://tria.ge/240622-stxtssserh/behavioral1
 ||emb-race.info^$all
-||passionatechick2.com^$document
 ||clublov.com^$document
 
 ! https://tria.ge/240622-wypwjaybpc/behavioral1
-||universal-romance.live^$all
 ||datingdealshub.com^$all
 ||www.datingdealshub.com^$all
 ||mydirtyneighbour.com^$document
@@ -5565,7 +3363,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 
 ! https://github.com/hagezi/dns-blocklists/issues/2983
 ||veilcurtin.world^$document
-||yikesgroto.com^$document
 
 ! https://github.com/hagezi/dns-blocklists/issues/2999
 ||elonweb.org^$all
@@ -5574,12 +3371,9 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||dInp2rm.suitablepartner.life^$document
 ||p𝓸𝘳𝘯𝚔𝘢f.net^$document
 ||netfucks1.com^$document
-||c.dreamdating1.fun^$document
 ||yoursecrethookup.com^$document
 ||brttre.com^$document
-||ohmysweetromancespot.life^$document
 ||𝚋yest𝚊r.com^$document
-||yourdatefind.com^$document
 ||olosex.pics^$document
 
 ! https://tria.ge/240702-1356jascqh/behavioral1
@@ -5610,9 +3404,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ! https://github.com/hagezi/dns-blocklists/issues/3312
 ! not my analysis: https://any.run/report/c89740ba0467ed00c1ce3346f1455ed28c02b3b9cd11f7b338822b9f7e0e2a53/ad056e7a-e353-464f-a1ad-1fb2ca7d2ffb
 ! my analysis: https://tria.ge/240731-137pcs1bqf/behavioral1
-||bonuspulsefortune.life^$all
-||boxwhatfur.live^$all
-||d0dptv2.boxwhatfur.live^$all
 ||threejplating.com^$document
 ||www.threejplating.com^$document
 
@@ -5630,7 +3421,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||mynemesis.live^$all
 
 ! https://mastodon.world/@GregArcus/112923555449275504
-||illinoistollwayinvoice.com^$document
 
 ! https://tria.ge/240816-z7rm9s1flm/behavioral1
 ! https://infosec.exchange/@iampytest1/112973719034472123
@@ -5645,8 +3435,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 
 ! https://github.com/hagezi/dns-blocklists/issues/3458https://github.com/hagezi/dns-blocklists/issues/3458
 ||exclusivebuyz4uu.shop^$document
-||route2content.com^$document
-||www.route2content.com^$document
 
 ! https://github.com/hagezi/dns-blocklists/issues/3473
 ||reviewgiftfb.com^$document
@@ -5688,14 +3476,12 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||change-harlot.life^$all
 
 ! https://tria.ge/240824-wg64gsscqd/behavioral1
-||solarswooper.info^$all
 
 ! https://tria.ge/240824-wh97jathjm/behavioral1
 ||virtucams.life^$all
 
 ! inspired by https://github.com/ThioJoe/YT-Spammer-Purge/issues/1138
 ! Musk-themed crypto scam
-||presalesxai.com^$document
 
 ! https://github.com/hagezi/dns-blocklists/issues/3565
 ||snapbabes9.com^$all
@@ -5712,7 +3498,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||www.datingunlimitedtoday.com^$all
 
 ! https://github.com/hagezi/dns-blocklists/issues/3608
-||mcdreward.com^$all
 ||awesomedealsfinder.com^$document
 ||www.awesomedealsfinder.com^$document
 ||rtrcr52.com^$document
@@ -5722,8 +3507,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||42h.firmsecurejump.com^$document
 
 ! https://github.com/hagezi/dns-blocklists/issues/3602
-||localmeets.link^$document
-||ddbca.localmeets.link^$document
 
 ! https://tria.ge/240903-nrb24awhrb/behavioral1
 ||wooqi.win^$all
@@ -5740,7 +3523,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||22mlf09mds22.com^$all
 
 ! https://tria.ge/240907-sbn4ya1fke/behavioral1
-||relationsbuddy.com^$all
 ||n5n.relationsbuddy.com^$all
 ||montlusa.top^$all
 ||ortb.montlusa.top^$all
@@ -5754,28 +3536,22 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ! https://tria.ge/240908-r3nf2stfph/behavioral1
 ||oncemanboy.live^$all
 ! no sandbox
-||hardabbuy.live^$all
 ||batrevrig.info^$all
-||hasnegtiny.live^$all
-||manpurerely.live^$all
 ||vowpairmax.live^$all
 ||impfehut.live^$all
 
 ! https://tria.ge/240908-r6svyathjh/behavioral1
-||hookupsconnect.com^$all
 ||hfa.hookupsconnect.com^$all
 ||info-extremechat.com^$all
 ||promo.info-extremechat.com^$all
 ||promo3.info-extremechat.com^$all
 
 ! https://tria.ge/240908-s5knlstgjp/behavioral1
-||fitflirts.com^$all
 ||uhe.fitflirts.com^$all
 ||testars-consin.icu^$document
 ||flirten.com^$document
 
 ! https://tria.ge/240908-s8jwgswhme/behavioral1
-||flirtyconnection.com^$all
 ||pt0.flirtyconnection.com^$all
 
 ! https://tria.ge/240908-tb2wgavbmp/behavioral1
@@ -5789,7 +3565,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||savkar.ai^$all
 
 ! https://tria.ge/240912-bqh3sstele/behavioral1
-||cloudflirts.com^$document
 ||dgm.cloudflirts.com^$document
 ||findneighboursonline.com^$all
 ||uk.findneighboursonline.com^$all
@@ -5806,7 +3581,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||freebitcoin.pages.dev^$all
 
 ! https://tria.ge/240927-2emjysvgja/behavioral1
-||directaffair.com^$document
 ||suc.directaffair.com^$document
 
 ! https://tria.ge/240927-2hvdzatanl/behavioral1
@@ -5819,9 +3593,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||loveaholics.com^$all
 
 ! https://github.com/hagezi/dns-blocklists/issues/3854
-||foundations-x2024.sbs^$all
 ! my analysis: https://tria.ge/241001-1tqdqasdjp/behavioral1
-||foundations-x2024.cloud^$all
 
 ! spam GitHub discussions thread -> https://tria.ge/241003-ntd98sxdkr/behavioral1
 ||seriedfilm.com^$document
@@ -5831,7 +3603,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ! https://tria.ge/241003-n7c94axejr/behavioral1
 ||goshopgadget.com^$document
 ! https://tria.ge/241003-2ns34avalb/behavioral1
-||theconversionsguru.com^$document
 ||lwyn.theconversionsguru.com^$document
 ||deals4you.click^$document
 ||toysfunzone.com^$document
@@ -5839,7 +3610,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||fabulousitem.com^$document
 
 ! https://tria.ge/241010-zfyx9s1dql/behavioral1
-||flylocals.com^$all
 ||mzb.flylocals.com^$all
 ||ukflirtzone.com^$all
 ! owned by same company/other front companies
@@ -5930,7 +3700,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||fuckmatches.com^$all
 
 ! https://github.com/hagezi/dns-blocklists/issues/3944
-||physiotherapyindhaka.com^$all
 ||info-animals.com^$all
 ! https://tria.ge/241011-rdzssawcqa/behavioral1
 ||opdomaines.space^$all
@@ -5938,7 +3707,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||static.imghst-de.com/*.png^$image
 
 ! https://github.com/hagezi/dns-blocklists/issues/3969 
-||starshipstart.com^$all
 
 ! https://github.com/hagezi/dns-blocklists/issues/3998
 ||subsequentoven.info^$document
@@ -5955,75 +3723,15 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ! https://github.com/hagezi/dns-blocklists/issues/4035
 ||containably.com^$document
 ! other similar sites
-||habilacity.com^$document
-||intraate.com^$document
-||writeise.com^$document
-||semieer.com^$document
-||novenish.com^$document
-||nearier.com^$document
-||useian.com^$document
 ||lefttic.com^$document
 ||oramarian.com^$document
-||whileative.com^$document
-||clarless.com^$document
-||zygature.com^$document
-||whenage.com^$document
 ||equiward.com^$document
-||findenne.com^$document
-||scribward.com^$document
-||cirrness.com^$document
-||meterade.com^$document
-||simiarian.com^$document
-||phyleer.com^$document
-||ceratical.com^$document
-||aurfic.com^$document
-||ethnsome.com^$document
-||frugard.com^$document
-||couldity.com^$document
-||duringette.com^$document
-||phosain.com^$document
-||seboably.com^$document
-||speakous.com^$document
-||risator.com^$document
-||graphoeous.com^$document
 ||termarian.com^$document
-||alreadyatic.com^$document
-||electraneous.com^$document
-||rateetic.com^$document
-||fascaster.com^$document
-||supinar.com^$document
-||liquedegree.com^$document
-||facful.com^$document
-||theoryise.com^$document
-||cruitular.com^$document
-||abilityo.com^$document
 ||quirize.com^$document
-||naucouldad.com^$document
-||flamful.com^$document
-||mnesish.com^$document
-||clinoable.com^$document
-||stultiarian.com^$document
 ||diuntilard.com^$document
 ||exouous.com^$document
-||plebatory.com^$document
-||ophiice.com^$document
-||activityics.com^$document
-||trigesimian.com^$document
-||aevence.com^$document
-||frontuous.com^$document
-||mesiage.com^$document
-||tremadom.com^$document
-||onomasize.com^$document
-||crurlet.com^$document
-||concernary.com^$document
 ||arculike.com^$document
-||ptoics.com^$document
-||cotylistic.com^$document
-||hirsuttic.com^$document
-||uncality.com^$document
 ! CDN for these scam sites?
-||bbcrossworld.com^$all
-||img.bbcrossworld.com^$all
 ||static.bbcrossworld.com^$all
 
 ! https://github.com/hagezi/dns-blocklists/issues/4223
@@ -6047,7 +3755,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||evisa-india-online.com^$document
 ||evisaindiaonline.org^$document
 ||evisaindia.org^$document
-||evisasindia.org^$document
 ||evisatoindia.org^$document
 ||e-visums.nl^$document
 ||globalvisacorp.com^$document
@@ -6095,7 +3802,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||jsdimmigrations.com^$document
 ||natvisa.com^$document
 ||online-eta.com^$document
-||onlinevisa.com^$document
 ||smvisa.co.il^$document
 ||touristvisaonline.com^$document
 ||traveldocs.com^$document
@@ -6119,7 +3825,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||t.me/AIntivirusHQ/MCAFEE^$all
 
 ! https://tria.ge/250215-qd3n1a1pgk/behavioral1
-||simplymatches.com^$all
 ||8pm.simplymatches.com^$all
 ||info-mymilfs.com^$all
 ||promo.info-mymilfs.com^$all
@@ -6138,7 +3843,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 
 ! from Yuki
 ! my analysis: https://tria.ge/250413-m75tnsvtax/behavioral1
-||unfamiillardates.net^$all
 ||qgxeqm.unfamiillardates.net^$all
 ||fuckfinder.com^$document
 ||www.fuckfinder.com^$document
