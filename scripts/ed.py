@@ -41,6 +41,11 @@ try:
 except:
     parked_ips = []
 
+try:
+    reddomains = open("reddomains.txt").read().split('\n')
+except:
+    reddomains = []
+
 verbosity = 4
 
 def get_whois_data_raw(domain, server):
@@ -365,7 +370,8 @@ for e in domain_list:
             "SOA": get_dns_record(e, "SOA"),
             "NS": get_dns_record(e, "NS"),
             "LOC": get_dns_record(e, "LOC"), # unlikely
-            "parked": e in parked_domains
+            "parked": e in parked_domains,
+            "red_on_add": e in reddomains
         }
         try:
             tranco_rank = tranco_list.rank(e)
@@ -483,15 +489,16 @@ for e in entry_data:
             if entry_data[e]["removed"] == False:
                 entry_data[e]["removed"] = True
                 entry_data[e]["removed_date"] = current_date
-                #entry_data[e]["alive_on_removal"] = is_alive(e, False)
+                entry_data[e]["alive_on_removal"] = is_alive(e, False)
                 entry_data[e]['removed_commit'] = last_commit
-                #if "tranco_rank" not in entry_data[e]:
-                #    try:
-                #        tranco_rank = tranco_list.rank(e)
-                #        entry_data[e]['tranco_rank'] = tranco_rank
-                #        entry_data[e]['tranco_rank_added_on'] = current_date
-                #    except:
-                #        pass
+                entry_data[e]['red_on_remove'] = e in reddomains
+                if "tranco_rank" not in entry_data[e]:
+                    try:
+                        tranco_rank = tranco_list.rank(e)
+                        entry_data[e]['tranco_rank'] = tranco_rank
+                        entry_data[e]['tranco_rank_added_on'] = current_date
+                    except:
+                        pass
         except Exception as err:
             print(err, e, entry_data[e])
 print("Done with part 2")
