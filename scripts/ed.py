@@ -483,15 +483,15 @@ for e in entry_data:
             if entry_data[e]["removed"] == False:
                 entry_data[e]["removed"] = True
                 entry_data[e]["removed_date"] = current_date
-                entry_data[e]["alive_on_removal"] = is_alive(e, False)
+                #entry_data[e]["alive_on_removal"] = is_alive(e, False)
                 entry_data[e]['removed_commit'] = last_commit
-                if "tranco_rank" not in entry_data[e]:
-                    try:
-                        tranco_rank = tranco_list.rank(e)
-                        entry_data[e]['tranco_rank'] = tranco_rank
-                        entry_data[e]['tranco_rank_added_on'] = current_date
-                    except:
-                        pass
+                #if "tranco_rank" not in entry_data[e]:
+                #    try:
+                #        tranco_rank = tranco_list.rank(e)
+                #        entry_data[e]['tranco_rank'] = tranco_rank
+                #        entry_data[e]['tranco_rank_added_on'] = current_date
+                #    except:
+                #        pass
         except Exception as err:
             print(err, e, entry_data[e])
 print("Done with part 2")
