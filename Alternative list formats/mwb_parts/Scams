@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 2025-6-3
-! Version: 202563.2
+! Last updated: 2025-6-4
+! Version: 202564.1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
@@ -3612,9 +3612,8 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ! https://tria.ge/241010-zfyx9s1dql/behavioral1
 ||mzb.flylocals.com^$all
 ||ukflirtzone.com^$all
-! owned by same company/other front companies
+! owned by same company/other front companies (see also the entry for usabangpalace[.]com)
 ||onlineromanceusa.com^$all
-||usabangpalace.com^$all
 ||forumofsecrets.com^$all
 ||forumofdesires.com^$all
 ||lustycanadians.com^$all
