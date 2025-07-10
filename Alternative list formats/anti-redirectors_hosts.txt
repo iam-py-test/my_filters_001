@@ -3,7 +3,7 @@
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # Please report false positives & unblocked domains to me using the GitHub or GitLab (urls below). Thanks!
 # Expires: 1 day
-# Last updated: 2025-6-25
+# Last updated: 2025-7-9
 # Issues url: https://github.com/iam-py-test/my_filters_001/issues
 # GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 # Google redirects
@@ -534,3 +534,5 @@
 # https://tria.ge/250625-teekcayxay/behavioral1
 0.0.0.0 rkns.link
 0.0.0.0 rekonise.com
+# https://github.com/hagezi/dns-blocklists/issues/6657
+0.0.0.0 mub.me
