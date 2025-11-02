@@ -855,11 +855,17 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 26/10/2025
+! Last updated: 02/11/2025
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Sun, 26 Oct 2025 20:27:47 +0000
+! Sun, 02 Nov 2025 20:26:12 +0000
+||176.46.152.62/7526e77af84e4d3da650295a11488a99_crypted_build.exe^$all
+||178.16.55.189/files/6331503294/nGFFa2Q.exe^$all
+||178.16.55.189/files/5917492177/Mwt6qk5.exe^$all
+||144.172.107.244/frost.x86_64^$all
+||162.0.225.149/XjeelShZ/build.exe^$all
+||108.181.161.143/build.exe^$all
 ||178.16.55.189/files/7968590541/T7V02QZ.exe^$all
 ||185.238.191.89/beba.exe^$all
 ||94.154.34.240/Muzul.exe^$all
@@ -955,12 +961,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||twizt.net/lk.exe^$all
 ||ddl.safone.dev/3808735/US+ONLY1.exe?hash=AgADkx^$all
 ||raw.githubusercontent.com/Marcin2123/actualka/main/113133.exe^$all
-||45.66.231.16/xd_/cyber-x86^$all
-||91.92.242.124/bins/bin.mips^$all
-||91.92.246.18/upl/t2.exe^$all
-||91.92.246.18/upl/t1.exe^$all
-||45.66.231.213/x86^$all
-||45.66.231.148/ppc^$all
 
 
 
