@@ -2,11 +2,18 @@
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 03/12/2025
+! Last updated: 06/12/2025
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Wed, 03 Dec 2025 20:33:26 +0000
+! Sat, 06 Dec 2025 20:28:58 +0000
+||178.16.55.189/amka/random.exe^$all
+||178.16.55.189/files/unique2/random.exe^$all
+||178.16.55.189/modka/duna.exe^$all
+||178.16.55.189/files/mr/random.exe^$all
+||178.16.55.189/files/8233900432/o7Hjuu7.exe^$all
+||216.126.239.11/alfa.exe^$all
+||172.86.123.179/inihiddenngentod/zerobotv9.x86_64^$all
 ||bdddda.cfd/ddq1.exe^$all
 ||hody-musique.com/modules/blog/oc.exe^$all
 ||62.60.226.16/dva.exe^$all
@@ -101,10 +108,3 @@
 ||raw.githubusercontent.com/unknwon1352/qawfdasfaw/main/Software.exe^$all
 ||185.215.113.103/mine/random.exe^$all
 ||103.130.147.211/Files/2.exe^$all
-||147.45.44.104/malesa/66ed86be077bb_12.exe^$all
-||185.215.113.26/Nework.exe^$all
-||194.116.215.195/12dsvc.exe^$all
-||185.215.113.117/inc/LummaC222222.exe^$all
-||185.215.113.117/inc/crypted.exe^$all
-||185.215.113.117/inc/needmoney.exe^$all
-||185.215.113.117/inc/gold.exe^$all
