@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 2025-12-6
-! Version: 2025126.1
+! Last updated: 2025-12-7
+! Version: 2025127.1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
@@ -366,8 +366,6 @@
 ! https://virustotal.com/gui/file/a367e0562e612bc66729f3a4676bad849e5c3c32fad8223b5ea991e11604f5fe/details
 ! ADWCleaner detects malware after execution. File opens webpage with generic 'your system has issues' message
 ||driveragent.com^$all
-! https://www.joesandbox.com/analysis/237782/0/html#domains
-
 ! https://virustotal.com/gui/file/61ddc79c421d13052f0acdb838d1a68d98c5e4eda0058f018f72a65474135d08/detection
 ! https://github.com/DandelionSprout/adfilt/issues/254
 ! https://blog.malwarebytes.com/detections/onesafe-software-com/
@@ -588,8 +586,6 @@
 ||search.osservareimmaginare.com^$document
 ||search.desideriosoldi.com^$document
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/132840
-
 ! https://blog.malwarebytes.com/detections/pup-optional-bytefence/
 ! https://virustotal.com/gui/file/21dfa4ed47de7007c0fb6eadb3f94d2e847b3f4e301767d2320623f02f0926ba
 ! https://virustotal.com/gui/file/d41405553da0287be81722125b35405ad90923e7aa0631b5e5c6ab80358355ca
@@ -666,8 +662,6 @@
 ! https://virustotal.com/gui/url/c7cdd1eaf651fbf4446d189d91b52b0c6a5811fb70db18b3eec1fa575057163a/detection
 ||freshysearch.com^$all
 ||cdn.freshysearch.com^$all
-
-! doesn't seem to do much, but clearly not legit
 
 ! two search engine hijackers
 ! https://virustotal.com/gui/url/1ca49bde04ac00c79b259a4a02b041d91c512ca55a6d0e839f69010d0bc32061/detection
@@ -883,8 +877,6 @@
 
 ! "free registry cleaner"
 ||download.freedownloadmanager.org/Windows-PC/AML-Free-Registry-Cleaner/$document
-
-! https://forums.malwarebytes.com/topic/306163-silentcryptominer-removal-help-needed/
 
 ! origin unknown (forgot to add a comment here)
 ! TODO: reverify
