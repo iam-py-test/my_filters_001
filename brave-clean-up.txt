@@ -2908,6 +2908,7 @@ search.brave.com##div.fdb.snippet:has(a[href*="://sublime-merge-git-client.githu
 search.brave.com##div.fdb.snippet:has(a[href*="://aftop10.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://dokopka.icu"])
 search.brave.com##div.fdb.snippet:has(a[href*="://acrossprotocols.com"])
+search.brave.com##div.fdb.snippet:has(a[href*="://simplexspot.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublockerext.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://quatrefeuillepolonaise.xyz"])
