@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 2025-12-8
-! Version: 2025128.1
+! Last updated: 2025-12-11
+! Version: 20251211.1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
@@ -3630,6 +3630,15 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ! https://www.tiktok.com/@arsalonalderwood/video/7395080532641500458
 ! https://www.tripadvisor.com/ShowTopic-g1-i12334-k15116031-o20-Possible_Holiday_Scam-Holiday_Travel.html
 ! spam: https://web.archive.org/web/20231203215247/https://pcnflightwest.blogspot.com/2018/05/nwa-capt-larry-wade-morrison.html?showComment=1603277821646#c33024045163227171
+! +1-844-414-9223 is the number of air1network.us and flyostudio.com 
+! it is spammed all over the internet (i.e. https://www.scribd.com/document/665286995/1-844-414-9223-How-to-Book-a-Wheelchair-for-International-Flights-in-Turkish-Airlines), with titles like "How to request assistance on Turkish Airlines?" and "How Do I Select My Seat On British Airways?" - I found this complaint against this number (https://www.bbb.org/scamtracker/lookupscam/1075963)
+! mastodon posts
+! https://infosec.exchange/@iampytest1/115663214485049568
+! https://infosec.exchange/@iampytest1/115673008851143479
+! https://infosec.exchange/@iampytest1/115675508755253109
+! https://infosec.exchange/@iampytest1/115679298019525586
+! https://infosec.exchange/@iampytest1/115699009370293618
+! https://infosec.exchange/@iampytest1/115699148601687231
 ||skytravelfly.com^$document
 ||travodeals.us^$document
 ||travodeals.co.uk^$document
@@ -3644,6 +3653,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||fareslist.com^$document
 ||unocruise.com^$document
 ||air1network.us^$document
+||flyostudio.com^$document
 ! spam profiles
 ||hub.docker.com/u/winktraveldeals$document
 
