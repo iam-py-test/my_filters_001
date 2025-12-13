@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
 ! Last updated: 2025-12-12
-! Version: 20251212.1
+! Version: 20251212.2
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
@@ -3640,6 +3640,8 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ! https://infosec.exchange/@iampytest1/115699009370293618
 ! https://infosec.exchange/@iampytest1/115699148601687231
 ! https://infosec.exchange/@iampytest1/115710085606959759
+! https://infosec.exchange/@iampytest1/115710267139467948
+! https://infosec.exchange/@iampytest1/115710280785788137
 ||skytravelfly.com^$document
 ||travodeals.us^$document
 ||travodeals.co.uk^$document
@@ -3657,8 +3659,13 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||flyostudio.com^$document
 ||airlinesupports.us^$document
 ||airlinesupports.co.uk^$document
+||aircancellation.com^$document
+||friendztravel.com^$document
 ! spam profiles
 ||hub.docker.com/u/winktraveldeals$document
+||aircancellation.website3.me^$document
+||americanairlinescustomerservic.godaddysites.com^$document
+||americanairlinescustomerservic.$document
 
 ! https://archive.is/M6YMo
 ! https://archive.is/sGXqv
