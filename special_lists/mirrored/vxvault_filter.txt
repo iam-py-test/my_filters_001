@@ -2,11 +2,12 @@
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 10/12/2025
+! Last updated: 12/12/2025
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Wed, 10 Dec 2025 20:34:34 +0000
+! Fri, 12 Dec 2025 20:31:55 +0000
+||86.54.24.29/Renewable.exe^$all
 ||178.16.55.189/amka/random.exe^$all
 ||178.16.55.189/files/unique2/random.exe^$all
 ||178.16.55.189/modka/duna.exe^$all
@@ -107,4 +108,3 @@
 ||194.116.215.195/12dsvc.exe^$all
 ||raw.githubusercontent.com/unknwon1352/qawfdasfaw/main/Software.exe^$all
 ||185.215.113.103/mine/random.exe^$all
-||103.130.147.211/Files/2.exe^$all
