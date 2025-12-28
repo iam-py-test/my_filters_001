@@ -46,6 +46,10 @@
 # malware
 0.0.0.0 icanhazip.com
 0.0.0.0 ipv6.icanhazip.com
+# https://github.com/hagezi/dns-blocklists/issues/8514
+0.0.0.0 4.icanhazip.com
+0.0.0.0 6.icanhazip.com
+0.0.0.0 ipv4.icanhazip.com
 # https://tria.ge/230810-2gkhdahd53/behavioral1
 0.0.0.0 geo-ip.enigmasoft.net
 # https://github.com/PeterDaveHello/ipinfo.tw-uptime
@@ -111,3 +115,34 @@
 0.0.0.0 myip.addr.tools
 0.0.0.0 myipv4.addr.tools
 0.0.0.0 myipv6.addr.tools
+# https://github.com/hagezi/dns-blocklists/issues/8510
+0.0.0.0 api.ipapi.is
+# https://github.com/hagezi/dns-blocklists/issues/8509
+# not enabled due to legitimate content on these domains & as they don't seem to be for automated lookup
+# 0.0.0.0 iplocation.net
+# 0.0.0.0 www.iplocation.net
+# IP Tracker allows anyone to create a shortned URL, which is a link used to track visitor's IP address and provide an advanced analytics for the traffic obtained through the link.
+0.0.0.0 tracker.iplocation.net
+# https://github.com/hagezi/dns-blocklists/issues/8511
+0.0.0.0 get-my-ipv6.com
+# https://github.com/hagezi/dns-blocklists/issues/8513
+# https://github.com/ipqwery
+# https://ipquery.gitbook.io/ipquery-docs
+# only api. subdomain seems to be used for lookups
+0.0.0.0 api.ipquery.io
+# https://github.com/hagezi/dns-blocklists/issues/8515
+0.0.0.0 ipv4.getmyip.dev
+0.0.0.0 ipv6.getmyip.dev
+# https://github.com/hagezi/dns-blocklists/issues/8516
+0.0.0.0 geoip.cookieyes.com
+# https://github.com/hagezi/dns-blocklists/issues/8518
+# https://ipapi.com/documentation
+0.0.0.0 api.ipapi.com
+# https://github.com/hagezi/dns-blocklists/issues/8517
+# "Also accessible as myip.wtf!"
+0.0.0.0 wtfismyip.com
+0.0.0.0 ipv4.wtfismyip.com
+0.0.0.0 ipv6.wtfismyip.com
+0.0.0.0 myip.wtf
+0.0.0.0 ipv4.myip.wtf
+0.0.0.0 ipv6.myip.wtf
