@@ -3,7 +3,7 @@ print("IMPORTING dns.resolver")
 dnsresolver = __import__('dns.resolver')
 print(dnsresolver)
 print("IMPORTING NORMAL LIBS")
-import os, sys, json, datetime, socket, random, publicsuffixlist, ssl, requests, time, hashlib
+import os, sys, json, datetime, socket, random, publicsuffixlist, ssl, requests, time, hashlib, random
 from tranco import Tranco
 print("IMPORTS DONE")
 
@@ -439,7 +439,7 @@ for e in domain_list:
                 except:
                     pass
 
-        if entry_data[e]["check_counter"] > 90 and False: # will revert back to 50 soon
+        if entry_data[e]["check_counter"] > 90 and random.choice([True,False,False,False]) == True: # will revert back to 50 soon
             print(f"Checking {e}...", "previous status", entry_data[e]["check_status"], "last check", entry_data[e]["last_checked"])
             domain_is_alive = is_alive(e, True)
             if "check_history" not in entry_data[e]:
