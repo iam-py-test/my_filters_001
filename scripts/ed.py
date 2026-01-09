@@ -36,6 +36,13 @@ already_resolved = {}
 known_whois = {}
 parked_domains = []
 
+nrd_list = []
+try:
+    nrd_file = requests.get("https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/nrd7.txt")
+    nrd_list = nrd_file.text.split("\n")
+except:
+    pass
+
 try:
     parked_ips = open("parking.ips").read().split('\n')
 except:
@@ -371,7 +378,8 @@ for e in domain_list:
             "NS": get_dns_record(e, "NS"),
             "LOC": get_dns_record(e, "LOC"), # unlikely
             "parked": e in parked_domains,
-            "red_on_add": e in reddomains
+            "red_on_add": e in reddomains,
+            "is_nrd": e in nrd_list
         }
         try:
             tranco_rank = tranco_list.rank(e)
