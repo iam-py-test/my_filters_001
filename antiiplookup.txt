@@ -146,3 +146,6 @@
 0.0.0.0 myip.wtf
 0.0.0.0 ipv4.myip.wtf
 0.0.0.0 ipv6.myip.wtf
+# https://github.com/hagezi/dns-blocklists/issues/8707
+0.0.0.0 my.ipinfo.app
+0.0.0.0 ipinfo.im
