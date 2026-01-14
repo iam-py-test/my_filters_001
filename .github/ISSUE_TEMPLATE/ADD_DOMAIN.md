@@ -13,8 +13,4 @@ assignees: iam-py-test
 
 #### Screenshots (optional)
 
-#### Results for various scanners (optional)
-- [ ] [VirusTotal](https://virustotal.com)
-- [ ] [MyWOT](https://mywot.com)
-- [ ] [FortiGuard Labs](https://www.fortiguard.com/webfilter)
 #### Other information
