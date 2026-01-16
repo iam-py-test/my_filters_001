@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 2026-1-11
-! Version: 2026111.2
+! Last updated: 2026-1-15
+! Version: 2026115.1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
@@ -855,11 +855,13 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 13/01/2026
+! Last updated: 15/01/2026
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Tue, 13 Jan 2026 20:35:03 +0000
+! Thu, 15 Jan 2026 20:35:47 +0000
+||marsalek.cy/static/abcfg.exe^$all
+||marsalek.cy/static/Pjibf2.exe^$all
 ||190.198.218.210/i^$all
 ||176.97.210.242/bins/skid.x86^$all
 ||raw.githubusercontent.com/lenkonftw/Project-Admini/refs/heads/main/pdf.exe^$all
@@ -959,8 +961,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||185.215.113.103/luma/random.exe^$all
 ||176.113.115.95/thebig/swf.exe^$all
 ||cache.ussc.org/css/67065a0933c9e_UUESUpdater.exe^$all
-||proxy.siteterbaru.xyz/css/0a839761915d.exe^$all
-||91.228.10.22/hb/docii.exe^$all
 
 
 
