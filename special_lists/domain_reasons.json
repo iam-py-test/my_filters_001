@@ -1,0 +1,23 @@
+{
+	"domains": {
+		"ddosecrets.com": {
+			"desc": "This domain used to be used by DDoSecrets, but it expired and they moved to ddosecrets.org",
+			"links": [
+				"https://kolektiva.social/@ddosecrets/115979746538660397",
+				"https://infosec.exchange/@iampytest1/115980541940453844"
+			]
+		},
+		"accurate.you": {
+			"desc": "Alleged typosquatt domain",
+			"links": [
+				"https://x.com/BrandiKruse/status/2014525124553388390",
+				"https://x.com/BrandiKruse/status/2014558762871464440",
+				"https://www.reddit.com/r/SeattleWA/comments/1qmpeof/someone_at_wsdot_put_a_link_to_fuckiceorg_in_a/",
+				"https://tria.ge/260129-zww4lsgt8a/behavioral1",
+				"https://infosec.exchange/@iampytest1/115980534212744514",
+				"https://bsky.app/profile/did:plc:ysz3jltsuhnyrqrskrcbcz2s/post/3mdlqzvbkec25",
+				"https://x.com/iam_py_test/status/2016990950141067696"
+			]
+		}
+	}
+}
