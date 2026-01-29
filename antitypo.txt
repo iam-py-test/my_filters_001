@@ -5,7 +5,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
-! Last updated: 2026-1-14
+! Last updated: 2026-1-29
 
 ! https://safeweb.norton.com/report/show?url=xn--gogle-jua.com
 ! https://virustotal.com/gui/url/0a354e33a0171ba3a740b823473ac7f8f0ae6d60924c9ced0ae6ba46851275bb/detection
@@ -1283,3 +1283,10 @@
 
 ! https://www.reddit.com/r/redditsniper/comments/1qbo4pd/can_we_please_dmca_them_for_n/
 ||minecraf.wiki^$document
+
+! https://kolektiva.social/@ddosecrets/115979746538660397
+||ddosecrets.com^$document
+
+! https://www.reddit.com/r/SeattleWA/comments/1qmpeof/someone_at_wsdot_put_a_link_to_fuckiceorg_in_a/
+! https://tria.ge/260129-zww4lsgt8a/behavioral1
+||accurate.you^$document
