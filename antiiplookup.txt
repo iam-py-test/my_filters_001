@@ -149,3 +149,6 @@
 # https://github.com/hagezi/dns-blocklists/issues/8707
 0.0.0.0 my.ipinfo.app
 0.0.0.0 ipinfo.im
+# https://github.com/hagezi/dns-blocklists/issues/8974
+0.0.0.0 ip.sb
+0.0.0.0 api.ip.sb
