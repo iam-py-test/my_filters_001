@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 2026-2-1
-! Version: 2026201.1
+! Last updated: 2026-2-2
+! Version: 2026202.1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
@@ -3718,4 +3718,8 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||websiteinf05.com^$document
 ||superoptz.com^$document
 ||mainredirect.top^$document
+
+! https://github.com/hagezi/dns-blocklists/issues/9005
+! evasive: https://tria.ge/260202-2z8mxsfw7f/behavioral1
+||elta.564306.com^$document
 
