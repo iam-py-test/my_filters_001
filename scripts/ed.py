@@ -55,7 +55,7 @@ except:
 
 verbosity = 4
 
-def get_whois_data_raw(domain, server):
+def get_whois_data_raw(domain: str, server: str):
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.connect((server, 43))
     all_data = b""
@@ -72,7 +72,7 @@ def get_whois_data_raw(domain, server):
     return all_data.decode()
 
 get_whois = None
-def get_whois(domain, server = None, done_whois_servers_arg = [], recurse=False, sub=False):
+def get_whois(domain: str, server = None, done_whois_servers_arg = [], recurse=False, sub=False):
     global known_whois
     done_whois_servers = list(done_whois_servers_arg)
     print(f"Getting WHOIS record for {domain} using {server or 'no server specified'}, recurse is {recurse}")
@@ -110,7 +110,7 @@ def get_whois(domain, server = None, done_whois_servers_arg = [], recurse=False,
         known_whois[domain] = whois_data
     return whois_data
 
-def is_alive(domain, in_list=True):
+def is_alive(domain: str, in_list=True):
     global dead_domains
     global already_resolved
     global parked_domains
@@ -218,7 +218,7 @@ def is_alive(domain, in_list=True):
     return True
 
 
-def get_ips(domain):
+def get_ips(domain: str):
     global already_resolved
     if domain in already_resolved:
         return already_resolved[domain]
@@ -232,13 +232,13 @@ def get_ips(domain):
     except:
         return []
 
-def is_valid(domain):
+def is_valid(domain: str):
     try:
         return p.publicsuffix(domain, accept_unknown=False) != None
     except:
         return False
 
-def get_tls_info(hostname):
+def get_tls_info(hostname: str):
     # https://stackoverflow.com/questions/41620369/how-to-get-ssl-certificate-details-using-python
     context = ssl.create_default_context()
     context.check_hostname = False
@@ -260,7 +260,7 @@ def get_last_commit():
         print(err)
         return None
 
-def get_dns_record(domain, record):
+def get_dns_record(domain: str, record: str):
     try:
         records = []
         resolved_records = dresolver.resolve(domain, record)
@@ -447,7 +447,7 @@ for e in domain_list:
                 except:
                     pass
 
-        if entry_data[e]["check_counter"] > 90 and random.choice([True,False,False,False]) == True: # will revert back to 50 soon
+        if entry_data[e]["check_counter"] > 80 and random.choice([True,False,False,False]) == True: # will revert back to 50 soon
             print(f"Checking {e}...", "previous status", entry_data[e]["check_status"], "last check", entry_data[e]["last_checked"])
             domain_is_alive = is_alive(e, True)
             if "check_history" not in entry_data[e]:

@@ -44,7 +44,7 @@ except:
 deaddomains = open("dead.mwbcheck.txt", encoding="UTF-8").read().split("\n")
 
 parse = None
-def parse(lines):
+def parse(lines: list):
   global done_domains
   global done_entries
   global all_domains

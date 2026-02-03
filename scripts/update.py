@@ -18,7 +18,7 @@ is_ip_v6 = "((([0-9a-fA-F]){1,4})\\:){7}"\
 is_ip_v4_reg = re.compile(is_ip_v4)
 is_ip_v6_reg = re.compile(is_ip_v6)
 
-def isipdomain(domain):
+def isipdomain(domain: str):
   if re.search(is_ip_v4_reg,domain):
     return True
   if re.search(is_ip_v6_reg,domain):

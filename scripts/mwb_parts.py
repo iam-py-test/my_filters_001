@@ -24,7 +24,7 @@ titlearea = ""
 print(os.getcwd(), args)
 
 include_list = None
-def include_list(path,parentpath):
+def include_list(path: str, parentpath: str):
     reldir = os.path.split(parentpath)[0]
     includepath = os.path.join(reldir,path)
     try:

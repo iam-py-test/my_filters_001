@@ -138,3 +138,9 @@
 ||olive121407.studio.site^$all
 ! https://hybrid-analysis.com/sample/de4bbee346de708d20287a3aeed659aa056abf697eb8ac87332f814ce124b0e8
 ||jask.powerforxes.shop^$all
+! https://phishtank.com/phish_detail.php?phish_id=9331376
+||amazing-business-586348.framer.app^$all
+! https://urlhaus.abuse.ch/url/3771567/
+||130.12.180.43^$all
+! https://www.virustotal.com/gui/domain/parking-fines6.top/community
+||parking-fines6.top^$all
