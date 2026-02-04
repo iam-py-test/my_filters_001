@@ -785,6 +785,12 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||olive121407.studio.site^$all
 ! https://hybrid-analysis.com/sample/de4bbee346de708d20287a3aeed659aa056abf697eb8ac87332f814ce124b0e8
 ||jask.powerforxes.shop^$all
+! https://phishtank.com/phish_detail.php?phish_id=9331376
+||amazing-business-586348.framer.app^$all
+! https://urlhaus.abuse.ch/url/3771567/
+||130.12.180.43^$all
+! https://www.virustotal.com/gui/domain/parking-fines6.top/community
+||parking-fines6.top^$all
 
 
 ! This is a list of domains blocked by Microsoft Smartscreen (when tested using MS Edge in a Windows 10 VM) in an attempt to understand how it works
@@ -858,11 +864,11 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 01/02/2026
+! Last updated: 03/02/2026
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Sun, 01 Feb 2026 20:37:19 +0000
+! Tue, 03 Feb 2026 20:49:27 +0000
 ||45.133.74.103/x86^$all
 ||marsalek.cy/static/abcfg.exe^$all
 ||marsalek.cy/static/Pjibf2.exe^$all
