@@ -55,7 +55,7 @@ except:
 
 verbosity = 4
 
-def get_whois_data_raw(domain: str, server: str):
+def get_whois_data_raw(domain: str, server: str) -> str:
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.connect((server, 43))
     all_data = b""
@@ -72,7 +72,7 @@ def get_whois_data_raw(domain: str, server: str):
     return all_data.decode()
 
 get_whois = None
-def get_whois(domain: str, server = None, done_whois_servers_arg = [], recurse=False, sub=False):
+def get_whois(domain: str, server = None, done_whois_servers_arg = [], recurse=False, sub=False) -> str:
     global known_whois
     done_whois_servers = list(done_whois_servers_arg)
     print(f"Getting WHOIS record for {domain} using {server or 'no server specified'}, recurse is {recurse}")
@@ -110,7 +110,7 @@ def get_whois(domain: str, server = None, done_whois_servers_arg = [], recurse=F
         known_whois[domain] = whois_data
     return whois_data
 
-def is_alive(domain: str, in_list=True):
+def is_alive(domain: str, in_list=True) -> bool:
     global dead_domains
     global already_resolved
     global parked_domains
@@ -134,7 +134,11 @@ def is_alive(domain: str, in_list=True):
                 #return False
         already_resolved[domain] = found_ips
     except Exception:
-        return False
+        try:
+            dresolver.resolve("www." + domain)
+            return True
+        except Exception:
+            return False
     
     if domain.endswith(".github.io"):
         try:
@@ -218,7 +222,7 @@ def is_alive(domain: str, in_list=True):
     return True
 
 
-def get_ips(domain: str):
+def get_ips(domain: str) -> list:
     global already_resolved
     if domain in already_resolved:
         return already_resolved[domain]
@@ -232,7 +236,7 @@ def get_ips(domain: str):
     except:
         return []
 
-def is_valid(domain: str):
+def is_valid(domain: str) -> bool:
     try:
         return p.publicsuffix(domain, accept_unknown=False) != None
     except:
@@ -253,14 +257,14 @@ def get_tls_info(hostname: str):
     ssl_info = conn.getpeercert()
     return ssl_info
 
-def get_last_commit():
+def get_last_commit() -> str:
     try:
         return requests.get("https://api.github.com/repos/iam-py-test/my_filters_001/commits").json()[0]['html_url']
     except Exception as err:
         print(err)
         return None
 
-def get_dns_record(domain: str, record: str):
+def get_dns_record(domain: str, record: str) -> list:
     try:
         records = []
         resolved_records = dresolver.resolve(domain, record)
