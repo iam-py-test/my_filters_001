@@ -507,6 +507,7 @@ for e in entry_data:
                 entry_data[e]["alive_on_removal"] = is_alive(e, False)
                 entry_data[e]['removed_commit'] = last_commit
                 entry_data[e]['red_on_remove'] = e in reddomains
+                entry_data[e]['removed_ips'] = get_ips(e)
                 if "tranco_rank" not in entry_data[e]:
                     try:
                         tranco_rank = tranco_list.rank(e)

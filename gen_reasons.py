@@ -1,8 +1,11 @@
 import os, sys, json
 
-domain_reasons = {
-	"domains": {}
-}
+try:
+	domain_reasons = json.loads(open("domain_reasons.json", 'r', encoding='UTF-8').read())
+except:
+	domain_reasons = {
+		"domains": {}
+	}
 
 mwb_full = open("antimalware.txt", encoding="UTF-8").read().split("\n")
 buffer = []
