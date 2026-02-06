@@ -1187,7 +1187,6 @@
 ||underarmour-nz.com^$all
 ||underarmour-saudiarabia.com^$all
 ||underarmourosterreich.com^$all
-||underarmouroutletromania.com^$all
 ||vejaoslo.com^$all
 ||vejaosterreich.com^$all
 ||xn--conversemaazalar-shc44a.com^$all
@@ -1748,9 +1747,6 @@
 ! https://0xacab.org/my-privacy-dns/matrix/-/issues/646177
 ||desbiens123.net^$all
 
-! https://0xacab.org/my-privacy-dns/matrix/-/issues/646174
-||avprotect.store^$all
-
 ! https://0xacab.org/my-privacy-dns/matrix/-/issues/646168
 ||systemoon.co.in^$all
 
@@ -2309,17 +2305,13 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||adidaszagreb.com^$document
 ||aerosolesshoesoutlets.com^$document
 ||airjordanbelgique.net^$document
-||airjordangreece.net^$document
 ||airjordanmagasinsuisse.com^$document
-||airjordanromania.net^$document
-||airjordanuruguay.com^$document
 ||aldocanada.net^$document
 ||aldomontreal.com^$document
 ||aldozapatos.com^$document
 ||alessandrozavettijas.com^$document
 ||alessandrozavettiromania.com^$document
 ||alessandrozavettiuk.com^$document
-||alessandrozavettiweste.de^$document
 ||aloyogaaustralia.net^$document
 ||aloyogabrasil.com^$document
 ||aloyogasale.net^$document
@@ -2453,7 +2445,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||drmartensbotas.com^$document
 ||drmartensdamen.de^$document
 ||drmartensdublin.com^$document
-||drmartensjapan.net^$document
 ||drmartenssalg.com^$document
 ||drmartensskroutz.com^$document
 ||eastpaklietuva.com^$document
@@ -2566,7 +2557,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||lottocolombia.net^$document
 ||lottodanmark.net^$document
 ||lottofrankfurt.de^$document
-||lottohungary.org^$document
 ||lottoireland.net^$document
 ||lottokuwait.org^$document
 ||lottolithuania.org^$document
@@ -2607,7 +2597,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||mizunosaleportugal.com^$document
 ||mlbhungary.com^$document
 ||mollybootmexico.com^$document
-||muckbootdanmark.com^$document
 ||muckbootsnl.com^$document
 ||muckbootsosterreich.at^$document
 ||muckbootsoutletstore.de^$document
@@ -2632,7 +2621,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||panamajack-france.fr^$document
 ||panamajackonline.sk^$document
 ||panamajackschweiz.net^$document
-||panamajackslovenija.com^$document
 ||pandorajapan.net^$document
 ||pandorakorut.com^$document
 ||pandoraportugal.com^$document
@@ -2742,7 +2730,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||timberlandmontreal.net^$document
 ||tomfordsuomi.com^$document
 ||tommyhilfigerbunda.sk^$document
-||tommyhilfigerdeutschland.de^$document
 ||tommyhilfigerdublin.com^$document
 ||tommyhilfigerjakke.com^$document
 ||tommyhilfigerjakne.com^$document
@@ -2827,44 +2814,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||doosd.pro^$all
 ||d0ood.com^$all
 
-! SMS phishing message
-! cloudflared: https://tria.ge/240127-rgd1gsdgb8/behavioral1
-||bbbvnvn.com^$all
-||usps.bbbvnvn.com^$all
-||kai12102.top^$all
-! https://www.virustotal.com/gui/ip-address/47.251.77.252/relations
-||47.251.77.252^$document
-||bbbnvnv.com^$document
-||usps.bbbnvnv.com^$document
-||bbblmlm.com^$document
-||usps.bbblmlm.com^$document
-||bbbkdt.com^$document
-||usps.bbbkdt.com^$document
-||bbbhaod.com^$document
-||usps.bbbhaod.com^$document
-||bbbnbnb.com^$document
-||usps.hkjtion.com^$document
-||usps.hjktion.com^$document
-||bbbiiuu.com^$document
-||usps.bbbiiuu.com^$document
-||bbbvbvb.com^$document
-||usps.bbbvbvb.com^$document
-||usps.bbbnbnb.com^$document
-||usps.bbbuuui.com^$document
-||bbbuuui.com^$document
-||bbbdjsgd.com^$document
-||usps.bbbdjsgd.com^$document
-||bbbdjdhes.com^$document
-||usps.bbbdjdhes.com^$document
-||bbbiuiu.com^$document
-||usps.bbbiuiu.com^$document
-||usps.zzzopjl.com^$document
-||bbbouou.com^$document
-||usps.bbbouou.com^$document
-||zzzopjl.com^$document
-||bbbiudhs.com^$document
-||usps.bbbiudhs.com^$document
-
 ! https://github.com/hagezi/dns-blocklists/issues/2178
 ||guidesite.info^$all
 
@@ -2882,7 +2831,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||cashusa.com^$document
 ||choicecreditrepair.life^$document
 ||swagbucks.com^$document
-||americanunsecured.com^$document
 ||grantsreach.com^$document
 
 ! https://github.com/hagezi/dns-blocklists/issues/2228
@@ -2899,7 +2847,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||produktretter.com^$document
 ||gratis-eltern-produkttests.com^$document
 ||produkttest-anmeldung.com^$document
-||produkttester-anmeldung.com^$document
 ||produkttester-werden.org^$document
 ||ruecksendungen-gratis.com^$document
 
@@ -3024,9 +2971,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ! scam email
 ||bestflirt.fun^$all
 
-! https://github.com/hagezi/dns-blocklists/issues/2982
-||midnightsociety-x.com^$all
-
 ! https://github.com/hagezi/dns-blocklists/issues/2983
 ||veilcurtin.world^$document
 
@@ -3085,14 +3029,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||jungefrau.eu^$all
 ! https://tria.ge/240811-x13qvatepm/behavioral1
 ||mynemesis.live^$all
-
-! https://tria.ge/240816-z7rm9s1flm/behavioral1
-! https://infosec.exchange/@iampytest1/112973719034472123
-||noartplace.info^$all
-
-! https://tria.ge/240817-ykvkzatckc/behavioral1
-||magnetismpull.info^$all
-||tricksygirlsp.com^$all
 
 ! https://github.com/hagezi/dns-blocklists/issues/3458https://github.com/hagezi/dns-blocklists/issues/3458
 ||exclusivebuyz4uu.shop^$document
