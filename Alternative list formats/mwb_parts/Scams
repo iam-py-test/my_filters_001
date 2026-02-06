@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
 ! Last updated: 2026-2-6
-! Version: 2026206.1
+! Version: 2026206.2
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
@@ -501,7 +501,11 @@
 ||www.therewardboost.com^$all
 
 ! porn scam? asks for personal info and gets stuck in a loop
+! https://tria.ge/260206-ybjr4sa19a/behavioral1
 ||dream-singles.com^$document
+||www.dream-singles.com^$document
+||assets.dream-singles.com^$all
+||cdn-assets.dream-singles.com^$all
 
 ! even more fake "human verification"
 ||speedboostpc.com^$document
@@ -3619,4 +3623,24 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ! it's an ad for a PUP (don't install Combo Cleaner, it odviously can't remove this), but it documents this domain: https://www[.]youtube[.]com/watch?v=Ljs2b6isD5Y
 ||texonnero.co.in^$all
 ||d61mf78hubcc739qivmg.texonnero.co.in^$all
+
+! Mastodon spam
+! https://tria.ge/260206-ybjr4sa19a/behavioral1
+||satisfy-yourself.com^$all
+||m.satisfy-yourself.com^$all
+||mq.satisfy-yourself.com^$all
+||static.satisfy-yourself.com^$all
+||holouvery-vality.com^$all
+||wishtoserve.com^$document
+||date-corner.com^$all
+||wcp8i2vke3a4lj4g3v90bm6m.date-corner.com^$all
+||romanticboo.com^$document
+||positive-daters.com^$all
+||wume2vk7f2313j4g3srbdr3u.positive-daters.com^$all
+||flingaroundme.com^$all
+||w7cipjlb00bcoj4g3b90tft6.flingaroundme.com^$all
+! https://hucksters.net/person/gyorgy-gattyan/
+! https://hucksters.net/forum/topic/gyorgy-gattyan-tries-to-takedown-hucksters-net-page/
+! listed in EasyList
+||overdates.com^
 

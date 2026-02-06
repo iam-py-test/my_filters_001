@@ -3,7 +3,7 @@
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # Please report false positives & unblocked domains to me using the GitHub or GitLab (urls below). Thanks!
 # Expires: 1 day
-# Last updated: 2025-7-9
+# Last updated: 2026-2-6
 # Issues url: https://github.com/iam-py-test/my_filters_001/issues
 # GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 # Google redirects
@@ -476,6 +476,7 @@
 # https://github.com/738/awesome-url-shortener/pull/32
 0.0.0.0 dub.co
 # https://github.com/738/awesome-url-shortener/pull/36
+# https://github.com/AdguardTeam/FiltersRegistry/issues/1036
 0.0.0.0 spoo.me
 # https://github.com/738/awesome-url-shortener/pull/37
 0.0.0.0 sor.bz
@@ -520,8 +521,6 @@
 0.0.0.0 feji.us
 # https://www.bleepingcomputer.com/news/security/googles-mysterious-searchapp-links-leave-android-users-concerned/
 0.0.0.0 search.app
-# https://github.com/AdguardTeam/FiltersRegistry/issues/1036
-0.0.0.0 spoo.me
 # URL shortener used by legitimate companies in letters
 0.0.0.0 qrco.de
 # used by threat actors, see 
@@ -536,3 +535,5 @@
 0.0.0.0 rekonise.com
 # https://github.com/hagezi/dns-blocklists/issues/6657
 0.0.0.0 mub.me
+# https://github.com/hagezi/dns-blocklists/discussions/8996
+0.0.0.0 go.ly

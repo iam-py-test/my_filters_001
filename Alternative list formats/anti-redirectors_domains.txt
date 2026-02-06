@@ -264,7 +264,6 @@ slug.vercel.app
 bitly.cx
 feji.us
 search.app
-spoo.me
 qrco.de
 encurtador.com.br
 www.encurtador.com.br
@@ -273,3 +272,4 @@ xsin.it
 rkns.link
 rekonise.com
 mub.me
+go.ly
