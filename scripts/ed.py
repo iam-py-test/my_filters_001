@@ -450,7 +450,8 @@ for e in domain_list:
                     entry_data[e]['subdomain_status'][subdomain] = entry_data[subdomain]['check_status']
                 except:
                     pass
-
+        if "had_www_on_check" in entry_data[e] and entry_data[e]["had_www_on_check"] == True and entry_data[e]["check_status"] == False:
+            print(e, entry_data[e]["check_counter"], entry_data[e]["had_www_on_check"])
         if entry_data[e]["check_counter"] > 80 and random.choice([True,False,False,False]) == True: # will revert back to 50 soon
             print(f"Checking {e}...", "previous status", entry_data[e]["check_status"], "last check", entry_data[e]["last_checked"])
             domain_is_alive = is_alive(e, True)
@@ -464,6 +465,8 @@ for e in domain_list:
             entry_data[e]["times_checked"] += 1
             entry_data[e]["check_ips"] = get_ips(e)
             entry_data[e]['had_www_on_check'] = is_alive(f"www.{e}", False)
+            if entry_data[e]['had_www_on_check'] == None:
+                print(entry_data[e]['had_www_on_check'], e)
             entry_data[e]['parked'] = e in parked_domains
             if domain_is_alive != True and last_check_status:
                 entry_data[e]["dead_since"] = current_date
