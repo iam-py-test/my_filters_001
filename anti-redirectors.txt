@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Please report false positives & unblocked domains to me using the GitHub or GitLab (urls below). Thanks!
 ! Expires: 1 day
-! Last updated: 2025-7-9
+! Last updated: 2026-2-6
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 
@@ -659,6 +659,7 @@ pepper.pl##+js(href-sanitizer, a[href*="https://www.pepper.pl/visit/"][title^="h
 ||dub.co^$document
 
 ! https://github.com/738/awesome-url-shortener/pull/36
+! https://github.com/AdguardTeam/FiltersRegistry/issues/1036
 ||spoo.me^$document
 
 ! https://github.com/738/awesome-url-shortener/pull/37
@@ -725,9 +726,6 @@ pepper.pl##+js(href-sanitizer, a[href*="https://www.pepper.pl/visit/"][title^="h
 ! https://www.bleepingcomputer.com/news/security/googles-mysterious-searchapp-links-leave-android-users-concerned/
 ||search.app^$document
 
-! https://github.com/AdguardTeam/FiltersRegistry/issues/1036
-||spoo.me^$document
-
 ! URL shortener used by legitimate companies in letters
 ||qrco.de^$document
 
@@ -746,3 +744,6 @@ pepper.pl##+js(href-sanitizer, a[href*="https://www.pepper.pl/visit/"][title^="h
 
 ! https://github.com/hagezi/dns-blocklists/issues/6657
 ||mub.me^$document
+
+! https://github.com/hagezi/dns-blocklists/discussions/8996
+||go.ly^$document
