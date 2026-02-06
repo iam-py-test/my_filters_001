@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 2026-2-4
-! Version: 2026204.3
+! Last updated: 2026-2-5
+! Version: 2026205.1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
@@ -3613,4 +3613,10 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ! https://github.com/hagezi/dns-blocklists/issues/9005
 ! evasive: https://tria.ge/260202-2z8mxsfw7f/behavioral1
 ||elta.564306.com^$document
+
+! https://www.reddit.com/r/antivirus/comments/1qvzjrq/i_need_help_in_removing_a_trojan_virus_from_my/
+! https://github.com/hagezi/dns-blocklists/issues/9054
+! it's an ad for a PUP (don't install Combo Cleaner, it odviously can't remove this), but it documents this domain: https://www[.]youtube[.]com/watch?v=Ljs2b6isD5Y
+||texonnero.co.in^$all
+||d61mf78hubcc739qivmg.texonnero.co.in^$all
 
