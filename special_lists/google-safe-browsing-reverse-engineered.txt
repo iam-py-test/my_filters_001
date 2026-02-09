@@ -144,3 +144,5 @@
 ||130.12.180.43^$all
 ! https://www.virustotal.com/gui/domain/parking-fines6.top/community
 ||parking-fines6.top^$all
+! https://infosec.exchange/@iampytest1/116042005986881470
+||att-currently-10-13-2025.weeblysite.com^$all
