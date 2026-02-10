@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
 ! Last updated: 2026-2-9
-! Version: 2026209.2
+! Version: 2026209.3
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
@@ -2970,9 +2970,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 
 ! scam email
 ||bestflirt.fun^$all
-
-! https://github.com/hagezi/dns-blocklists/issues/2983
-||veilcurtin.world^$document
 
 ! https://github.com/hagezi/dns-blocklists/issues/2999
 ||elonweb.org^$all
