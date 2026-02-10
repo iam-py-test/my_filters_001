@@ -1,4 +1,4 @@
-# Title: IP Lookup service blocklist (beta)
+# Title: IP Lookup service blocklist
 # Description: This list is designed to block services which allow any lookup of your IP, including those which are not abused or lack an API. This is designed to be used at the system or network level, as it provides little protection at the browser level.
 # Expires: 10 days
 # Note: There is nothing inherently bad about these services, but they are sometimes abused by malware and can present a privacy risk
@@ -152,3 +152,5 @@
 # https://github.com/hagezi/dns-blocklists/issues/8974
 0.0.0.0 ip.sb
 0.0.0.0 api.ip.sb
+# https://github.com/hagezi/dns-blocklists/issues/9070
+0.0.0.0 ip.v4.ro.co
