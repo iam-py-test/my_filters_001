@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results, along with other annoyances
 ! Expires: 1 day
 ! Last updated: 2023-4-7
-! Last auto-generated: 10/02/2026
+! Last auto-generated: 11/02/2026
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -2799,6 +2799,17 @@ search.brave.com##div.fdb.snippet:has(a[href*="://resultsfastfind.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://protonwalletdesktop.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://actiwated.win"])
 search.brave.com##div.fdb.snippet:has(a[href*="://get.actiwated.win"])
+search.brave.com##div.fdb.snippet:has(a[href*="://snowvan.xyz"])
+search.brave.com##div.fdb.snippet:has(a[href*="://kygens.xyz"])
+search.brave.com##div.fdb.snippet:has(a[href*="://host11m.cfd"])
+search.brave.com##div.fdb.snippet:has(a[href*="://getlink6.host11m.cfd"])
+search.brave.com##div.fdb.snippet:has(a[href*="://generate89c659.host11m.cfd"])
+search.brave.com##div.fdb.snippet:has(a[href*="://host15m.cfd"])
+search.brave.com##div.fdb.snippet:has(a[href*="://file169599.host15m.cfd"])
+search.brave.com##div.fdb.snippet:has(a[href*="://filehost09.sbs"])
+search.brave.com##div.fdb.snippet:has(a[href*="://s2.filehost09.sbs"])
+search.brave.com##div.fdb.snippet:has(a[href*="://cdn5.sharehost06.sbs"])
+search.brave.com##div.fdb.snippet:has(a[href*="://getdwnloadss.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublock.org"])
 search.brave.com##div.fdb.snippet:has(a[href*="://ublockerext.com"])
 search.brave.com##div.fdb.snippet:has(a[href*="://quatrefeuillepolonaise.xyz"])
