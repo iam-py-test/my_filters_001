@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 2026-2-12
-! Version: 2026212.1
+! Last updated: 2026-2-13
+! Version: 2026213.2
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
@@ -125,7 +125,6 @@
 ! https://virustotal.com/gui/url/0eca172b2f35f81e0f222dbdf261a100c7897f734c7ba43920b67c4cddd6f8c9/detection
 ||get-cracked.com^$all
 ! More related domains/urls
-||tinyurl.com/gp84uz2^$document
 ||mediafiire.com^$document
 ||www.mediafiire.com^$all
 ||www.onlinepromotionsusa.com^$all
@@ -394,8 +393,8 @@
 ||tinyurl.com/45tkeyep^$all
 ! still alive as of 11/11/2022 - https://app.any.run/tasks/f0474f51-6b14-432b-b1f0-98a1137e359c
 ||letmik.com^$all
-||c.atandmouse.com^$all
 ||atandmouse.com^$document
+||c.atandmouse.com^$all
 
 ! another fake Nitro generator
 ||pastebin.com/qwUbwYbq^$all
@@ -455,11 +454,6 @@
 
 ! https://scammer.info/t/paste-your-discord-nitro-scams-here/89880/2
 ||discord.birth/kjqsSQDF4qs9f4sK456ds7^$document
-
-! https://web.archive.org/web/20230604183723/https://twitter.com/iam_py_test/status/1496259425493225472
-||sites.google.com/view/groundworkssolutions/contact-us^$all
-||sites.google.com/view/groundworkssolutions/^$all
-||sites.google.com/mytv/maintenance^$all
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11157#issuecomment-1049093327
 ||sideload.cc^$all
@@ -3508,8 +3502,8 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||americanairlinescustomerservic.godaddysites.com^$document
 ||americanairlinescustomerservic.$document
 
-! https://archive.is/M6YMo
-! https://archive.is/sGXqv
+! see wiki\usa514k 1.png and wiki\usa514k 2.png in the repo for screenshots
+! formally linked to archive[.]is but links removed due to the presence of malicious code on archive[.]is
 ! https://infosec.exchange/@iampytest1/115702574009471266
 ||cikadron.co.in^$all
 ||virusscanner.cc^$all
