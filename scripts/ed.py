@@ -5,6 +5,7 @@ print(dnsresolver)
 print("IMPORTING NORMAL LIBS")
 #import os, sys, json, datetime, socket, random, publicsuffixlist, ssl, requests, time, hashlib, random
 #from tranco import Tranco
+import os, sys, json, datetime, socket, random
 print("IMPORTS DONE")
 
 TLD_WHOIS_OVERRIDE = {
