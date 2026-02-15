@@ -3,7 +3,7 @@
 # Homepage: https://github.com/iam-py-test/my_filters_001
 # Please report false positives & unblocked domains to me using the GitHub or GitLab (urls below). Thanks!
 # Expires: 1 day
-# Last updated: 2026-2-6
+# Last updated: 2026-2-15
 # Issues url: https://github.com/iam-py-test/my_filters_001/issues
 # GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 # Google redirects
@@ -537,3 +537,68 @@
 0.0.0.0 mub.me
 # https://github.com/hagezi/dns-blocklists/discussions/8996
 0.0.0.0 go.ly
+# https://github.com/hagezi/dns-blocklists/issues/9148
+0.0.0.0 hjl.me
+0.0.0.0 unim.ma
+0.0.0.0 shortlink.ad
+0.0.0.0 linkat.me
+0.0.0.0 nxlnk.com
+0.0.0.0 core.airforce
+0.0.0.0 url.smmizo.com
+0.0.0.0 urlyy.com
+0.0.0.0 firefone.com
+0.0.0.0 urlshortner.at
+0.0.0.0 biritr.com
+0.0.0.0 url.optidiscover.com
+0.0.0.0 biopagina.com
+0.0.0.0 hsh.sh
+0.0.0.0 spqr.to
+0.0.0.0 iqr.im
+0.0.0.0 mavlynk.com
+0.0.0.0 url77xx.com
+0.0.0.0 blinkbio.me
+0.0.0.0 utml.it
+0.0.0.0 itsme.page
+0.0.0.0 y0utu.be
+0.0.0.0 link.mbhumans.com
+0.0.0.0 s.alkapida.com
+0.0.0.0 go.pedido.me
+0.0.0.0 sosyal.one
+0.0.0.0 duopro.io
+0.0.0.0 smalee.com
+0.0.0.0 a.qar.sa
+0.0.0.0 kata.to
+0.0.0.0 zapurl.me
+0.0.0.0 whr.to
+0.0.0.0 linksbr.com.br
+0.0.0.0 xxlink.me
+0.0.0.0 appcurt.com
+0.0.0.0 knpp.online
+0.0.0.0 fic.my.id
+0.0.0.0 spoturl.com
+0.0.0.0 webproject.pt
+0.0.0.0 shlink.id
+0.0.0.0 go.akbor.org
+0.0.0.0 10xtools.io
+0.0.0.0 prolink168.com
+0.0.0.0 url.or.at
+0.0.0.0 sxrm.tr
+0.0.0.0 shmetalink.com
+0.0.0.0 123415.xyz
+0.0.0.0 booplink.com
+0.0.0.0 caplnk.com
+0.0.0.0 xdomain.io
+0.0.0.0 slk.me
+0.0.0.0 link-z.net
+0.0.0.0 unlockflowurls.com
+0.0.0.0 qr.dev.eg
+0.0.0.0 biturl.app
+0.0.0.0 dlik.ch
+0.0.0.0 skif-com.kiev.ua
+0.0.0.0 jbiv.com
+0.0.0.0 49r.de
+0.0.0.0 bs09.de
+0.0.0.0 urles.us
+0.0.0.0 getbio.co
+0.0.0.0 b1.fr
+0.0.0.0 dollarlink.net
