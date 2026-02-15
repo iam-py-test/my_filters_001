@@ -398,7 +398,7 @@ for e in domain_list:
                 except:
                     pass
     else:
-        if entry_data[e]['first_seen'] == "Sun Feb 15 2026 03:55:27 GMT-0500":
+        if entry_data[e]['first_seen'] == "2026-02-15T03:55:27.683373":
             entry_data[e]["last_commit"] = "https://github.com/iam-py-test/my_filters_001/commit/6a190dde537beb4689b8c58eea903f5bbbe1bd8f"
             entry_data[e]['last_commit_faked_1'] = "See https://infosec.exchange/@iampytest1/116072758422943054 for the reason why the last commit may be inaccurate."
             print(e)
