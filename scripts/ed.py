@@ -397,7 +397,7 @@ for e in domain_list:
                     entry_data[e]['subdomain_status'][subdomain] = entry_data[subdomain]['check_status']
                 except:
                     pass
-    else:
+    elif False:
         if "tls_info" in entry_data[e] and len(entry_data[e]["tls_info"]) == 0:
             try:
                 entry_data[e]['tls_info'] = get_tls_info(e)
