@@ -452,7 +452,7 @@ for e in domain_list:
                     pass
         if "had_www_on_check" in entry_data[e] and entry_data[e]["had_www_on_check"] == True and entry_data[e]["check_status"] == False:
             print(e, entry_data[e]["check_counter"], entry_data[e]["had_www_on_check"])
-        if entry_data[e]["check_counter"] > 80 and False: # will revert back to 50 soon
+        if entry_data[e]["check_counter"] > 80: # will revert back to 50 soon
             print(f"Checking {e}...", "previous status", entry_data[e]["check_status"], "last check", entry_data[e]["last_checked"])
             domain_is_alive = is_alive(e, True)
             if "check_history" not in entry_data[e]:
