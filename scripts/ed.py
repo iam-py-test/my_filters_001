@@ -4,7 +4,7 @@ dnsresolver = __import__('dns.resolver')
 print(dnsresolver)
 print("IMPORTING NORMAL LIBS")
 import json, datetime, socket, random, publicsuffixlist, ssl, requests, time, hashlib
-#from tranco import Tranco
+from tranco import Tranco
 print("IMPORTS DONE")
 
 TLD_WHOIS_OVERRIDE = {
