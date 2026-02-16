@@ -16,6 +16,7 @@ jobs:
         python-version: '3.x'
     - name: Build
       run: |
+        curl https://raw.githubusercontent.com/iam-py-test/thiojoe_yt_lists/refs/heads/main/filter.txt > special_lists/mirrored/thiojoe_yt_lists.txt
         curl https://raw.githubusercontent.com/iam-py-test/vxvault_filter/main/ubolist.txt > special_lists/mirrored/vxvault_filter.txt
         pip3 install -r requirements.txt
         ls -la
