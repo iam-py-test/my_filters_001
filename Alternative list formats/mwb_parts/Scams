@@ -228,7 +228,6 @@
 
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-986306768
 ||chess-progress.ru^$document
-||ouhastay.net^$all
 
 ! https://forums.malwarebytes.com/topic/281514-scam-websites/
 ||812138.com^$document
@@ -1046,7 +1045,6 @@
 
 ! https://github.com/DandelionSprout/adfilt/issues/747
 ! https://github.com/DandelionSprout/adfilt/commit/f055f89a51e7f9b1bcc58a0013b6207f89594ebe (all credit to DandlionSprout)
-||2022crucialcatch.store^$all
 ||adidascostarica.com^$all
 ||aloyogaaustria.com^$all
 ||aloyogacz.com^$all
@@ -1070,7 +1068,6 @@
 ||clarksuy.com^$all
 ||clipperton.sk^$all
 ||collegegameshop.com^$all
-||collegespartans.com^$all
 ||converse-finland.com^$all
 ||crucialcatch.pro^$all
 ||crucialcatchshop.pro^$all
@@ -1141,7 +1138,6 @@
 ||psychobunnycolombia.com^$all
 ||quiksilver-southafrica.com^$all
 ||quiksilverfactoryoutlet.com^$all
-||quiksilveroutletusa.com^$all
 ||reebok-chile.com^$all
 ||reebok-romania.com^$all
 ||reebokfactoryoutlet.com^$all
@@ -1343,7 +1339,6 @@
 ||cdn.locked3.com^$document
 
 ! https://github.com/durablenapkin/scamblocklist/issues/15
-||petsimulator.live^$document
 ||rewardsgiantca.com^$document
 
 ! https://0xacab.org/my-privacy-dns/matrix/-/issues/90853
@@ -1469,7 +1464,6 @@
 ||decompraschile.com^$document
 ||salimusic.com^$document
 ||open-cbd.de^$document
-||teevpower.com^$document
 ||caraci.it^$document
 ||shopperexpress.shop^$document
 ||mila-vica.de^$document
@@ -1518,7 +1512,6 @@
 
 ! spam
 ||locasualx.com^$document
-||web.locasualx.com^$document
 ||datingcentral.top^$all
 ||i.datingcentral.top^$all
 
@@ -1601,9 +1594,8 @@
 ||stucktimeoutvexed.com^$document
 
 ! https://github.com/DandelionSprout/adfilt/discussions/779#discussioncomment-6141190
-||SEXUS.ML^$all
-||c.dateperfectly.top^$all
 ||dateperfectly.top^$all
+||c.dateperfectly.top^$all
 
 ! https://github.com/uBlockOrigin/uAssets/issues/18452
 ||geminifond.com^$all
@@ -1688,7 +1680,6 @@
 ||zatte.co^$document
 ||lanno.co^$document
 ||detty.co^$document
-||durro.co^$document
 
 ! https://tria.ge/230708-zw13kaab69/behavioral2
 ||install-check.com^$all
@@ -1978,7 +1969,6 @@ $all,domain=goatmod.xyz|metriumoldeb.com
 ||stay-secured-online.com^$all
 ||stay-virus-free.com^$all
 ||strip-hotbabes.com^$all
-||super-protection-app.com^$all
 ||sweet-alone-girls.com^$all
 ||testpwredir.com^$all
 ||three-hundred-bucks.com^$all
@@ -2063,7 +2053,6 @@ $all,domain=goatmod.xyz|metriumoldeb.com
 ||www.uplevelrewards.com^$document
 ||liveappsearch.com^$document
 ||www.liveappsearch.com^$document
-||oasoomsa.top^$all
 ||wholedailyjournal.com^$all
 ||fubsoupt.top^$all
 ||adblocked-supreme.net^$document
@@ -2258,17 +2247,12 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||iboltcyberhacker.wixsite.com^$all
 
 ! https://github.com/durablenapkin/scamblocklist/issues/70
-||equiwarmpro.co^$document
-||try.equiwarmpro.co^$document
 ||ekommmedia.com^$document
 ||try.ekommmedia.com^$document
 
 ! https://github.com/RPiList/specials/issues/1369
 ||qdyqdym.shop^$all
 ||buy.qdyqdym.shop^$all
-
-! https://github.com/RPiList/specials/issues/1399
-||schnellmpu.com^$all
 
 ! https://github.com/RPiList/specials/issues/1400
 ||america4internationalstudents.com^$document
@@ -2290,7 +2274,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||nelyc5h5x.jaynapatel.co.uk^$all
 
 ! https://github.com/hagezi/dns-blocklists/issues/2049
-||adidasbrasil.net^$document
 ||adidascolombia.net^$document
 ||adidasfotballsko.com^$document
 ||adidashungaryhu.com^$document
@@ -2354,7 +2337,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||billabong-argentina.com^$document
 ||billabongcanada.net^$document
 ||billabongportugal.net^$document
-||billabongromania.net^$document
 ||bocancilowa.com^$document
 ||botashunterargentina.com^$document
 ||botashuntermexico.com^$document
@@ -2375,9 +2357,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||castanerromania.com^$document
 ||caterpillarbootscanada.net^$document
 ||caterpillarchaussure.net^$document
-||caterpillarnorge.org^$document
 ||cerabone.cz^$document
-||championargentina.net^$document
 ||championbelgique.com^$document
 ||championberlin.de^$document
 ||championclchile.com^$document
@@ -2388,7 +2368,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||championkuwait.net^$document
 ||championroma.it^$document
 ||championslovenija.com^$document
-||championuae.net^$document
 ||championuksale.com^$document
 ||cizmesorel.com^$document
 ||clarksbuty.pl^$document
@@ -2399,7 +2378,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||clarksshoesnz.net^$document
 ||coccinellepolska.com^$document
 ||columbiashoesmalaysia.com^$document
-||converseberlin.de^$document
 ||converse-chile.cl^$document
 ||converseinespana.com^$document
 ||conversekuwait.com^$document
@@ -2447,7 +2425,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||eccorusland.com^$document
 ||eccoshoessaleaustralia.com^$document
 ||etniesshoesireland.com^$document
-||extreehome.com^$document
 ||fitflopparis.net^$document
 ||fitflopromania.com^$document
 ||footjoycanada.net^$document
@@ -2478,7 +2455,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||guessfinland.com^$document
 ||gymsharkrea.com^$document
 ||gymsharksklep.pl^$document
-||gymsharksoldes.net^$document
 ||gymsharkstorejapan.net^$document
 ||hanwagoutletstore.com^$document
 ||hanwagshoesoutlet.com^$document
@@ -2533,7 +2509,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||karhusneakersnorge.net^$document
 ||kedscanada.net^$document
 ||kedspt.com^$document
-||kedssklep.pl^$document
 ||kenzoindonesia.com^$document
 ||kiplingfrance.com^$document
 ||lasportivabootsnz.com^$document
