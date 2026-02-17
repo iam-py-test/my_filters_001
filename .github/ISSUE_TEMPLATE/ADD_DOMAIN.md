@@ -14,3 +14,6 @@ assignees: iam-py-test
 #### Screenshots (optional)
 
 #### Other information
+
+- [ ] This issue report was not in any way generated using AI, nor is it based entirely or in large part on output from AI.
+- [x] I am an AI

@@ -7,6 +7,7 @@ Before opening an issue, please be sure there is not another issue open about th
 If your issue was closed as `invalid`, please avoid immediately opening another issue without correcting the problem. Doing so will result in that issue being closed as well. Before opening an issue, please check https://github.com/iam-py-test/my_filters_001/blob/main/wiki/incompatible.md to ensure the issue is not a conflict. <br/>
 Please understand that I am only one person, and that I will not be able to respond to or correct your issue immediately. If something is important, please @ reference me in that issue and I will check it out.<br/>
 Please follow the [GitHub Community Guidelines](https://docs.github.com/en/github/site-policy/github-community-guidelines#what-is-not-allowed) or else you will be banned from this Repo and reported to GitHub. Internet pranks - including rickrolling - are prohibited and may result in a ban after repeated violations. <br/>
+Submitting AI generated issues or code is forbidden.
 
 I will currently not be accepting issues for server-side paywalls (unless you have a fix) as there is **nothing** I can do about them. <br>
 
