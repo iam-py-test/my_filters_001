@@ -16,6 +16,8 @@ Please note! I am only one person, and I do not have much time to dedicate to th
 
 The Malicious Website Blocklist blocks malware, phishing, some scams, and Potentially Unwanted Programs (PUPs). Note the latter category includes legitimate websites which engage in deceptive practices.
 
+<img src="https://raw.githubusercontent.com/iam-py-test/blocklist_stats/refs/heads/main/stats/The_malicious_website_blocklist.png" alt="A graph of the number of entries in the malicious website blocklist"><br>
+
 #### Automatically generated
 - DuckDuckGo Clean up (duckduckgo-clean-up.txt) - Generated from The malicious website blocklist and iam-py-test's anti-PUP list
 - Brave Search Clean up (brave-clean-up.txt) - Generated from The malicious website blocklist and iam-py-test's anti-PUP list
