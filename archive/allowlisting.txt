@@ -1,0 +1,13 @@
+[Adblock Plus 2.0]
+! Title: SIAllowlist
+! Last modified: 01 Jul 2024 09:45 UTC
+! Expires: 30 days (update frequency)
+@@||samsung.net^$document
+ndtv.com#@##\5f _cricketsubscribe
+ndtv.com#@#.subscribe
+ndtv.com#@##__cricketsubscribe
+ndtv.com#@##___ndtvpushdiv
+ndtv.in#@##___ndtvpushdiv
+@@||aO.awsstatic.com^web-vitals
+@@||amazonwebservicesinc.tt.omtrdc.net^
+@@||analytics.bigdata.samsung.com^*/event
