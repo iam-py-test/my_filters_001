@@ -49,6 +49,20 @@ except:
 
 verbosity = 4
 
+print("LOADING DATA")
+try:
+    entry_data = json.loads(open("entry_data.json", encoding="UTF-8").read())
+except:
+    print("FAILED TO LOAD DATA")
+    entry_data = {}
+print("LOADED DATA")
+
+print("LOADING DOMAINS")
+domain_list = open("Alternative list formats/antimalware_domains.txt", encoding="UTF-8").read().replace("\r\n","\n").split("\n")
+print("LOADED DOMAINS")
+current_date = "DISABLED_FOR_TESTING_1" # datetime.datetime.now().isoformat()
+entry_data["last_updated"] = current_date
+
 def get_whois_data_raw(domain: str, server: str) -> str:
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.connect((server, 43))
@@ -262,20 +276,6 @@ def get_dns_record(domain: str, record: str) -> list:
     except:
         pass
     return records
-
-print("LOADING DATA")
-try:
-    entry_data = json.loads(open("entry_data.json", encoding="UTF-8").read())
-except:
-    print("FAILED TO LOAD DATA")
-    entry_data = {}
-print("LOADED DATA")
-
-print("LOADING DOMAINS")
-domain_list = open("Alternative list formats/antimalware_domains.txt", encoding="UTF-8").read().replace("\r\n","\n").split("\n")
-print("LOADED DOMAINS")
-current_date = "DISABLED_FOR_TESTING_1" # datetime.datetime.now().isoformat()
-entry_data["last_updated"] = current_date
 
 print("DOING RANDOM RECHECK")
 # recheck a random entry regardless of it's status
