@@ -1,5 +1,5 @@
-Write-Host "This was an experiment. It was never ready for production, and should never have been promoted as such"
-Write-Host "Do not use this tool"
+Write-Host "This tool is not maintained and may have issues."
+Write-Host "Please do not use this tool"
 Read-Host
 exit
 

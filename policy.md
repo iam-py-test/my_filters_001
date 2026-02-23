@@ -1,3 +1,5 @@
+**Note: this policy was never completed. It does not reflect the policy of the MWB.**
+
 # Policy for The malicious website blocklist
 Work in progress.
 

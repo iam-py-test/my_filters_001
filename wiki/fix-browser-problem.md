@@ -4,7 +4,9 @@ Now days, it is common for malware to make unwanted modifications to your browse
 Warning: This is a work in progress!
 
 ## Notice!
-This page has been moved to https://iam-py-test.github.io/malware_removal.html
+This page has been moved to <a href="https://iam-py-test.github.io/malware_removal.html">https://iam-py-test.github.io/malware_removal.html</a><br>
+The information here is not updated, and may not be accurate.<br>
+The updated version of this guide (see the link above) includes more information, corrections, and <i>alt text</i>.
 
 ### Things not to do
 - Do not use "cleaner" programs to clear browser cache/cookies. These programs may cause problems with your browser. Use your browser settings to clear cookies and cache.

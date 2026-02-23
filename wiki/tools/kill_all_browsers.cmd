@@ -51,3 +51,4 @@ taskkill /F /IM "chromstera.exe"
 taskkill /F /IM "chromnius.exe"
 
 echo All browsers killed
+pause

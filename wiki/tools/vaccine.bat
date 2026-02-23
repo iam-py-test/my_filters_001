@@ -1,4 +1,5 @@
 echo DO NOT USE THIS TOOL
+echo It is unmaintained and likely will cause problems
 pause > nul
 exit
 
