@@ -2,7 +2,15 @@ print(f"{__file__} STARTED")
 print("IMPORTING dns.resolver")
 dnsresolver = __import__('dns.resolver')
 print("IMPORTING NORMAL LIBS")
-import json, datetime, socket, random, publicsuffixlist, ssl, requests, time, hashlib
+import json
+import datetime
+import socket
+import random
+import publicsuffixlist
+import ssl
+import requests
+import time
+import hashlib
 print("IMPORTS DONE")
 
 TLD_WHOIS_OVERRIDE = {
