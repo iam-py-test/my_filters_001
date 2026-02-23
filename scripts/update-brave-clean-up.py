@@ -1,7 +1,7 @@
 from datetime import date
 currentdate = date.today().strftime('%d/%m/%Y')
 
-FILTER_LINE = "search.brave.com##div.snippet:has(a[href*=\"://{}\"])\n"
+FILTER_LINE = "search.brave.com,search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion##div.snippet:has(a[href*=\"://{}\"])\n"
 TEMPLATE_FILENAME = "brave-clean-up.template"
 
 template = open(TEMPLATE_FILENAME)

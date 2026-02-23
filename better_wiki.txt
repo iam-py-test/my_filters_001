@@ -3,6 +3,6 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 
-search.brave.com##div.snippet:has(a[href*="://minecraft.fandom.com"])
+search.brave.com,search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion##div.snippet:has(a[href*="://minecraft.fandom.com"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-testid="result"]:upward(li):has(a[href*="://minecraft.fandom.com"])
 search.yahoo.com##.compTitle:has(a[href*="://minecraft.fandom.com"]):upward(li)
