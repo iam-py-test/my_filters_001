@@ -14,7 +14,7 @@ Entries: 234 <br>
 #### annoyances.txt
 Entries: 109 <br> 
 #### duckduckgo-clean-up.template
-Entries: 17 <br> 
+Entries: 12 <br> 
 #### enhanced_protection.txt
 Entries: 25 <br> 
 #### anti-norton-tracking.txt
