@@ -274,8 +274,8 @@ print("LOADED DATA")
 print("LOADING DOMAINS")
 domain_list = open("Alternative list formats/antimalware_domains.txt", encoding="UTF-8").read().replace("\r\n","\n").split("\n")
 print("LOADED DOMAINS")
-current_date = datetime.datetime.now().isoformat()
-entry_data["last_updated"] = current_date
+#current_date = datetime.datetime.now().isoformat()
+#entry_data["last_updated"] = current_date
 
 print("DOING RANDOM RECHECK")
 # recheck a random entry regardless of it's status
