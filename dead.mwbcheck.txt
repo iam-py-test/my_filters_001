@@ -6,6 +6,7 @@ help.record-x-center.com
 sublime-merge-git-client.github.io
 connectgates.co.in
 zlib.is
+keds-suomi.com
 kenzoindonesia.com
 lasportivamontreal.com
 lottoschweiz.com
