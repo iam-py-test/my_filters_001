@@ -1,0 +1,8 @@
+! Title: Anti-Fandom Minecraft Wiki
+! Description: Despite the popularity of the new minecraft.wiki, the old abandoned Fandom wiki still shows up in search results. This list removes it from Brave, DuckDuckGo, and Yahoo. More search engines may be supported someday.
+! Expires: 4 days
+! Homepage: https://github.com/iam-py-test/my_filters_001
+
+search.brave.com##div.snippet:has(a[href*="://minecraft.fandom.com"])
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-testid="result"]:upward(li):has(a[href*="://minecraft.fandom.com"])
+search.yahoo.com##.compTitle:has(a[href*="://minecraft.fandom.com"]):upward(li)

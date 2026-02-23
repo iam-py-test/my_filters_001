@@ -1,6 +1,6 @@
 from datetime import date
 
-FILTER_TEMPLATE = "duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn=\"result\"]:has(a[href*=\"://{}\"])\nduckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.result:has(a[href*=\"://{}\"])\n"
+FILTER_TEMPLATE = "duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-testid=\"result\"]:upward(li):has(a[href*=\"{}\"])\n"
 ALT_FOLDER = "Alternative list formats"
 ALT_AM_DOMAINS = f"{ALT_FOLDER}/antimalware_domains.txt"
 ALT_AM_IPS = f"{ALT_FOLDER}/antimalware_ips.txt"
