@@ -3,7 +3,6 @@ print("IMPORTING dns.resolver")
 dnsresolver = __import__('dns.resolver')
 print("IMPORTING NORMAL LIBS")
 import json, datetime, socket, random, publicsuffixlist, ssl, requests, time, hashlib
-from tranco import Tranco
 print("IMPORTS DONE")
 
 TLD_WHOIS_OVERRIDE = {
@@ -18,19 +17,7 @@ dresolver = dnsresolver.resolver.Resolver()
 print("CREATED dresolver")
 #dresolver.nameservers = ["https://unfiltered.adguard-dns.com/dns-query","94.140.14.140", "8.8.8.8","1.1.1.1"]
 print("SETUP resolver")
-try:
-    trancoobject = Tranco(cache=False)
-    tranco_list = trancoobject.list()
-    print("LOADED tranco")
-except Exception as err:
-    print("Failed to load tranco",err)
-    try:
-        yesterday_dateobj = datetime.datetime.now().replace(day=datetime.datetime.now().day-1)
-        trancoobject = Tranco(cache=False,date=f"{yesterday_dateobj.year}-{yesterday_dateobj.month}-{yesterday_dateobj.day}")
-        tranco_list = trancoobject.list()
-        print("LOADED tranco from yesterday!")
-    except Exception as err:
-        print("Failed to load tranco with yesterday's date",err,datetime.datetime.now().day)
+
 already_resolved = {}
 known_whois = {}
 parked_domains = []
@@ -117,11 +104,6 @@ def is_alive(domain: str, in_list=True) -> bool:
         return True
     if domain.endswith(".onion"): # can't test onions yet
         return True
-    try:
-        if tranco_list.rank(domain) != -1:
-            return True
-    except:
-        pass
     try:
         res_ips = list(dresolver.resolve(domain))
         found_ips = []
@@ -384,11 +366,7 @@ for e in domain_list:
             "red_on_add": e in reddomains,
             "is_nrd": e in nrd_list
         }
-        try:
-            tranco_rank = tranco_list.rank(e)
-            entry_data[e]['tranco_rank'] = tranco_rank
-        except:
-            pass
+
         entry_data[e]['subdomain_status'] = {}
         if e in root_domains:
             for subdomain in root_domains[e]:
@@ -418,15 +396,7 @@ for e in domain_list:
                 entry_data[e]["readd"] = current_date
                 entry_data[e]["origin_add"] = entry_data[e]["first_seen"]
                 entry_data[e]["origin_removed_date"] = entry_data[e]["last_seen"]
-        if "tranco_rank" in entry_data[e] and entry_data[e]['tranco_rank'] == None:
-            try:
-                print(f"{e} failed to get a tranco rank when added. Adding rank...")
-                entry_data[e]["check_counter"] += 1
-                tranco_rank = tranco_list.rank(e)
-                entry_data[e]['tranco_rank'] = tranco_rank
-            except:
-                print("Failed")
-                entry_data[e]["check_counter"] += 5
+
         for ip in entry_data[e]["ips"]:
             if ip in parked_ips:
                 print(f"{e} is - and has always been - parked. Forcing recheck")
@@ -488,13 +458,6 @@ for e in domain_list:
                 entry_data[e]['TXT'] = get_dns_record(e, 'TXT')
             if "NS" not in entry_data[e]:
                 entry_data[e]['NS'] = get_dns_record(e, 'NS')
-            if "tranco_rank" not in entry_data[e]:
-                try:
-                    tranco_rank = tranco_list.rank(e)
-                    entry_data[e]['tranco_rank'] = tranco_rank
-                    entry_data[e]['tranco_rank_added_on'] = current_date
-                except:
-                    pass
         if entry_data[e]["check_status"] == False and last_check_status == False:
             dead_domains.append(e)
 
@@ -511,13 +474,6 @@ for e in entry_data:
                 entry_data[e]['removed_commit'] = last_commit
                 entry_data[e]['red_on_remove'] = e in reddomains
                 entry_data[e]['removed_ips'] = get_ips(e)
-                if "tranco_rank" not in entry_data[e]:
-                    try:
-                        tranco_rank = tranco_list.rank(e)
-                        entry_data[e]['tranco_rank'] = tranco_rank
-                        entry_data[e]['tranco_rank_added_on'] = current_date
-                    except:
-                        pass
         except Exception as err:
             print(err, e, entry_data[e])
 print("Done with part 2")
