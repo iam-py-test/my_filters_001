@@ -4,8 +4,8 @@ dnsresolver = __import__('dns.resolver')
 print("IMPORTING NORMAL LIBS")
 """import json
 import datetime
-import socket
-import random"""
+import socket"""
+import random
 import publicsuffixlist
 import ssl
 import requests
