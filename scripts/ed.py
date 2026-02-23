@@ -2,8 +2,8 @@ print(f"{__file__} STARTED")
 print("IMPORTING dns.resolver")
 dnsresolver = __import__('dns.resolver')
 print("IMPORTING NORMAL LIBS")
-"""import json
-import datetime"""
+"""import json"""
+import datetime
 import socket
 import random
 import publicsuffixlist
