@@ -305,6 +305,170 @@ print("GETTING COMMIT")
 last_commit = get_last_commit()
 print("GOT COMMIT, STARTING")
 
+for e in domain_list:
+    #print(e, e in entry_data)
+    if (e not in entry_data or type(entry_data[e]) == str) and e != "last_updated":
+        entry_is_alive = is_alive(e, True)
+        entry_has_http_80 = False
+        dead_since = ""
+        if entry_is_alive != True:
+            dead_since = current_date
+        else:
+            try:
+                requests.head(f"http://{e}")
+                entry_has_http_80 = True
+            except:
+                pass
+        tls_info = {}
+        try:
+            tls_info = get_tls_info(e)
+        except:
+            pass
+        entry_ips = get_ips(e)
+        ip_whois_data = {}
+        try:
+            for ip in entry_ips:
+                try:
+                    ip_whois_data[ip] = get_whois_data_raw(ip, "whois.arin.net")
+                except:
+                    pass
+        except:
+            pass
+        entry_data[e] = {
+            "first_seen": current_date,
+            "last_seen": current_date,
+            "removed": False,
+            "removed_date": "",
+            "last_checked": current_date,
+            "check_counter": 30,
+            "check_status": entry_is_alive,
+            "alive_on_creation": entry_is_alive,
+            "times_checked": 1,
+            "ever_rechecked": False,
+            "readded": False,
+            "alive_on_removal": None,
+            "origin_add": "",
+            "readd": "",
+            "is_valid": is_valid(e),
+            "ips": entry_ips,
+            "dead_since": dead_since,
+            "whois": get_whois(e, recurse=True),
+            "had_www_on_creation": is_alive(f"www.{e}", False),
+            "had_www_on_check": None,
+            "tls_info": tls_info,
+            "last_commit": last_commit,
+            "ip_whois": ip_whois_data,
+            "has_http_80": entry_has_http_80,
+            "times_died": 0,
+            "check_history": {
+                current_date: entry_is_alive
+            },
+            "MX": get_dns_record(e, 'MX'),
+            "TXT": get_dns_record(e, "TXT"),
+            "CNAME": get_dns_record(e, "CNAME"),
+            "CAA": get_dns_record(e, "CAA"),
+            "SOA": get_dns_record(e, "SOA"),
+            "NS": get_dns_record(e, "NS"),
+            "LOC": get_dns_record(e, "LOC"), # unlikely
+            "parked": e in parked_domains,
+            "red_on_add": e in reddomains,
+            "is_nrd": e in nrd_list
+        }
+
+        entry_data[e]['subdomain_status'] = {}
+        if e in root_domains:
+            for subdomain in root_domains[e]:
+                try:
+                    entry_data[e]['subdomain_status'][subdomain] = entry_data[subdomain]['check_status']
+                except:
+                    pass
+    else:
+        if entry_data[e]['first_seen'] == "2026-02-15T03:55:27.683373":
+            entry_data[e]["last_commit"] = "https://github.com/iam-py-test/my_filters_001/commit/6a190dde537beb4689b8c58eea903f5bbbe1bd8f"
+            entry_data[e]['last_commit_faked_1'] = "See https://infosec.exchange/@iampytest1/116072758422943054 for the reason why the last commit may be inaccurate."
+            print(e)
+        if "tls_info" in entry_data[e] and len(entry_data[e]["tls_info"]) == 0:
+            try:
+                entry_data[e]['tls_info'] = get_tls_info(e)
+            except:
+                del entry_data[e]["tls_info"]
+        if "times_checked" not in entry_data[e]:
+            entry_data[e]["times_checked"] = 0
+        if "check_status" not in entry_data[e]:
+            entry_data[e]['check_counter'] = 40
+        elif "ips" not in entry_data[e]:
+            entry_data[e]["ips"] = get_ips(e)
+        if "removed" in entry_data[e]:
+            if entry_data[e]["removed"] == True:
+                entry_data[e]["readded"] = True
+                entry_data[e]["readd"] = current_date
+                entry_data[e]["origin_add"] = entry_data[e]["first_seen"]
+                entry_data[e]["origin_removed_date"] = entry_data[e]["last_seen"]
+
+        for ip in entry_data[e]["ips"]:
+            if ip in parked_ips:
+                print(f"{e} is - and has always been - parked. Forcing recheck")
+                entry_data[e]['parked'] = True
+        entry_data[e]["last_seen"] = current_date
+        entry_data[e]["removed"] = False
+        entry_data[e]["removed_date"] = ""
+        entry_data[e]["is_valid"] = is_valid(e)
+        if "check_counter" not in entry_data[e]:
+            entry_data[e]["check_counter"] = 40
+        if "last_checked" not in entry_data[e]:
+            entry_data[e]["last_checked"] = "Unknown"
+        if "had_www_on_check" not in entry_data[e]:
+            print(f"{e} doesn't have had_www_on_check")
+            entry_data[e]["check_counter"] = 40 # force recheck
+        if "times_died" not in entry_data[e]:
+            entry_data[e]['times_died'] = 0
+        #entry_data[e]["check_counter"] += 1
+        last_check_status = entry_data[e]["check_status"]
+        entry_data[e]['subdomain_status'] = {}
+        if e in root_domains:
+            for subdomain in root_domains[e]:
+                try:
+                    entry_data[e]['subdomain_status'][subdomain] = entry_data[subdomain]['check_status']
+                except:
+                    pass
+        if "had_www_on_check" in entry_data[e] and entry_data[e]["had_www_on_check"] == True and entry_data[e]["check_status"] == False:
+            print(e, entry_data[e]["check_counter"], entry_data[e]["had_www_on_check"])
+        if entry_data[e]["check_counter"] > 80: # will revert back to 50 soon
+            print(f"Checking {e}...", "previous status", entry_data[e]["check_status"], "last check", entry_data[e]["last_checked"])
+            domain_is_alive = is_alive(e, True)
+            if "check_history" not in entry_data[e]:
+                entry_data[e]['check_history'] = {}
+            entry_data[e]['check_history'][current_date] = entry_data[e]["check_status"]
+            entry_data[e]["check_status"] = domain_is_alive
+            entry_data[e]["last_checked"] = current_date
+            entry_data[e]["check_counter"] = 0
+            entry_data[e]["ever_rechecked"] = True
+            entry_data[e]["times_checked"] += 1
+            entry_data[e]["check_ips"] = get_ips(e)
+            entry_data[e]['had_www_on_check'] = is_alive(f"www.{e}", False)
+            if entry_data[e]['had_www_on_check'] == None:
+                print(entry_data[e]['had_www_on_check'], e)
+            entry_data[e]['parked'] = e in parked_domains
+            if domain_is_alive != True and last_check_status:
+                entry_data[e]["dead_since"] = current_date
+                entry_data[e]['times_died'] += 1
+                try:
+                    for sub in entry_data[e]["subdomain_status"]:
+                        entry_data[sub]['check_counter'] += 2
+                        print(f"Increased check count on {sub} as root domain {e} is dead")
+                except Exception as err:
+                    print(e, err, "subdomain_status" in entry_data[e])
+            if "MX" not in entry_data[e]:
+                entry_data[e]['MX'] = get_dns_record(e, 'MX')
+            if "CNAME" not in entry_data[e]:
+                entry_data[e]['CNAME'] = get_dns_record(e, 'CNAME')
+            if "TXT" not in entry_data[e]:
+                entry_data[e]['TXT'] = get_dns_record(e, 'TXT')
+            if "NS" not in entry_data[e]:
+                entry_data[e]['NS'] = get_dns_record(e, 'NS')
+        if entry_data[e]["check_status"] == False and last_check_status == False:
+            dead_domains.append(e)
+
 print("Done with part 1")
 print("Done with part 2")
 entry_data_file = open("entry_data.json", 'w', encoding="UTF-8")
