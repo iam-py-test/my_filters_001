@@ -306,20 +306,6 @@ last_commit = get_last_commit()
 print("GOT COMMIT, STARTING")
 
 print("Done with part 1")
-for e in entry_data:
-    if e not in domain_list and e != "last_updated" and e != "":
-        try:
-            if "dead_on_removal" in entry_data[e]:
-                entry_data[e]['alive_on_removal'] = entry_data[e]["dead_on_removal"]
-            if entry_data[e]["removed"] == False:
-                entry_data[e]["removed"] = True
-                entry_data[e]["removed_date"] = current_date
-                entry_data[e]["alive_on_removal"] = is_alive(e, False)
-                entry_data[e]['removed_commit'] = last_commit
-                entry_data[e]['red_on_remove'] = e in reddomains
-                entry_data[e]['removed_ips'] = get_ips(e)
-        except Exception as err:
-            print(err, e, entry_data[e])
 print("Done with part 2")
 entry_data_file = open("entry_data.json", 'w', encoding="UTF-8")
 entry_data_file.write(json.dumps(entry_data))
