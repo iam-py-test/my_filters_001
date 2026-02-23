@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
 ! Last updated: 2026-2-23
-! Version: 2026223.1
+! Version: 2026223.3
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
@@ -2171,7 +2171,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||inov-8suomi.com^$document
 ||jomafinland.com^$document
 ||kappasuomi.com^$document
-||keds-suomi.com^$document
 ||kedssuomi.com^$document
 ||kedssuomishop.com^$document
 ||kickerssuomi.com^$document
@@ -2509,12 +2508,10 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||karhusneakersnorge.net^$document
 ||kedscanada.net^$document
 ||kedspt.com^$document
-||kenzoindonesia.com^$document
 ||kiplingfrance.com^$document
 ||lasportivabootsnz.com^$document
 ||lasportivaclimbingshoescanada.com^$document
 ||lasportivaklatresko.com^$document
-||lasportivamontreal.com^$document
 ||lasportivawanderschuhe.de^$document
 ||lecoqsportifparis.fr^$document
 ||liujoukshop.com^$document
@@ -2533,7 +2530,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||lottomexico.org^$document
 ||lottonorway.net^$document
 ||lottoportugal.net^$document
-||lottoschweiz.com^$document
 ||lottoserbia.org^$document
 ||lottoslovakia.sk^$document
 ||lottosouthafrica.net^$document
@@ -2550,7 +2546,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||mackagedenmark.com^$document
 ||mackagefemmeparis.com^$document
 ||mackageireland.com^$document
-||mackagejacketcanada.com^$document
 ||mackageschweiz.com^$document
 ||magasinhokabelgique.com^$document
 ||merrellbarbati.com^$document
@@ -2711,9 +2706,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||tomsjapan.net^$document
 ||tomsjapanoutlet.com^$document
 ||underarmourchaussures.net^$document
-||underarmourjas.com^$document
 ||underarmouroslo.com^$document
-||underarmourschuhe.at^$document
 ||underarmourskroutz.com^$document
 ||underarmourtrainersuk.com^$document
 ||undervon.com^$document
@@ -2722,16 +2715,13 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||vansindonesiastore.com^$document
 ||vansschoenenbelgie.com^$document
 ||vansshoesksa.com^$document
-||vanssko.com^$document
 ||vanstenisice.com^$document
 ||veja.com.gr^$document
-||vejaathensgreece.net^$document
 ||vejabelgium.com^$document
 ||vejabrasil.net^$document
 ||vejanorge.com^$document
 ||vejaoutlet.net^$document
 ||vejashoes.cz^$document
-||vejashoesuk.com^$document
 ||vejaslovenia.com^$document
 ||vejazapatoscolombia.net^$document
 ||vessibelgium.com^$document
