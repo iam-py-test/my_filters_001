@@ -3,7 +3,7 @@
 ! Description: Remove ads, websites promoting PUPs, malware, phishing and scams from Brave Search's results, along with other annoyances
 ! Expires: 1 day
 ! Last updated: 2026-2-23
-! Last auto-generated: 23/02/2026
+! Last auto-generated: 24/02/2026
 ! Note: A lot of this list is auto-generated, so the Last updated time reflects the last time the template file was updated, and the Last auto-generated date is the last time it was auto-generated
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
@@ -5055,6 +5055,7 @@ search.brave.com,search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd
 search.brave.com,search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion##div.snippet:has(a[href*="://138.226.237.10"])
 search.brave.com,search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion##div.snippet:has(a[href*="://46.225.67.21"])
 search.brave.com,search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion##div.snippet:has(a[href*="://178.16.52.65"])
+search.brave.com,search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion##div.snippet:has(a[href*="://158.94.211.63"])
 search.brave.com,search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion##div.snippet:has(a[href*="://103.224.182.251"])
 search.brave.com,search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion##div.snippet:has(a[href*="://204.11.56.48"])
 search.brave.com,search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion##div.snippet:has(a[href*="://37.187.88.137"])
