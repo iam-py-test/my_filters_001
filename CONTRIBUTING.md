@@ -8,8 +8,7 @@ If your issue was closed as `invalid`, please avoid immediately opening another 
 Please understand that I am only one person, and that I will not be able to respond to or correct your issue immediately. If something is important, please @ reference me in that issue and I will check it out.<br/>
 Please follow the [GitHub Community Guidelines](https://docs.github.com/en/github/site-policy/github-community-guidelines#what-is-not-allowed) or else you will be banned from this Repo and reported to GitHub. Internet pranks - including rickrolling - are prohibited and may result in a ban after repeated violations. <br/><br>
 
-Submitting AI generated issues or code is forbidden; all issue reports and code must be entirely written by real people. If you are going to use AI for research, which I recommend against, such use *must* be disclosed and any information from the AI must be verified using independent sources. This includes citing articles, social media posts, or any other content generated with AI. Any issue report or code suspected to be AI will be subject to extended review, and may be rejected.<br>
-AI bots are not permitted to contribute to this repository, as their contributions are frequently low quality.<br>
+[Please see my general AI policy for my projects for information on usage of AI](https://github.com/iam-py-test/iam-py-test/blob/main/ai.md).
 
 Please open a pull request or issue instead of commenting on commits, as I am unlikely to see commit comments, but regularly check for issues.<br>
 

@@ -9,6 +9,8 @@ This image shows the Firefox context menu, but it should work in any browser sup
 
 Please note! I am only one person, and I do not have much time to dedicate to this project. These lists _don't_ get updated as often as they should, and I'm sorry.
 
+Note: AI generated issues and code are forbidden from this repository. [Please see our AI policy for more information](https://github.com/iam-py-test/iam-py-test/blob/main/ai.md).
+
 ## Filters in this repo
 
 #### Actively maintained
