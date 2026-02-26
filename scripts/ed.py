@@ -19,7 +19,7 @@ TLD_WHOIS_OVERRIDE = {
 
 dead_domains = []
 print("GETTING PSL")
-# p = publicsuffixlist.PublicSuffixList(only_icann=True)
+p = publicsuffixlist.PublicSuffixList(only_icann=True)
 print("GOT PSL, SETTING UP resolver")
 dresolver = dnsresolver.resolver.Resolver()
 print("CREATED dresolver")
