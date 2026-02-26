@@ -3,10 +3,10 @@ print("IMPORTING dns.resolver")
 dnsresolver = __import__('dns.resolver')
 print("IMPORTING NORMAL LIBS")
 import json
-import datetime
-import socket
-import random
-import publicsuffixlist
+# import datetime
+# import socket
+# import random
+# import publicsuffixlist
 import ssl
 import requests
 import time
@@ -19,7 +19,7 @@ TLD_WHOIS_OVERRIDE = {
 
 dead_domains = []
 print("GETTING PSL")
-p = publicsuffixlist.PublicSuffixList(only_icann=True)
+# p = publicsuffixlist.PublicSuffixList(only_icann=True)
 print("GOT PSL, SETTING UP resolver")
 dresolver = dnsresolver.resolver.Resolver()
 print("CREATED dresolver")
