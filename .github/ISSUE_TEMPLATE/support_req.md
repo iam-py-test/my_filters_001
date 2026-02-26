@@ -10,3 +10,5 @@ assignees: ''
 #### What do you need support with?
 
 - [ ] Have you checked [the wiki](https://github.com/iam-py-test/my_filters_001/wiki)?
+- [ ] This issue report [complies with our AI policy](https://github.com/iam-py-test/iam-py-test/blob/main/ai.md)
+- [x] I am an AI

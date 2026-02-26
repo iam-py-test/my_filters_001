@@ -15,9 +15,7 @@ assignees: ''
 ### What OS/browser do you have (optional)
 
 ### What list(s) are you using?
-- [ ] Antirickroll
-- [ ] The malicious website blocklist
-- [ ] Other (explain)
+
 ### What other lists do you have (optional - helps me find the problem)
 
 ### What is the issue?
@@ -37,3 +35,6 @@ assignees: ''
 #### If it is site breakage, how is the site broken:
 
 #### Did you try updating your lists? This could fix the problem.
+
+- [ ] This issue report [complies with our AI policy](https://github.com/iam-py-test/iam-py-test/blob/main/ai.md)
+- [x] I am an AI

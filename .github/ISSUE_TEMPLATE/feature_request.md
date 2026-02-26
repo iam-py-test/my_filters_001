@@ -18,3 +18,6 @@ A clear and concise description of any alternative solutions or features you've 
 
 **Additional context**
 Add any other context or screenshots about the feature request here.
+
+- [ ] This issue report [complies with our AI policy](https://github.com/iam-py-test/iam-py-test/blob/main/ai.md)
+- [x] I am an AI

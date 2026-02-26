@@ -15,5 +15,5 @@ assignees: iam-py-test
 
 #### Other information
 
-- [ ] This issue report was not in any way generated using AI, nor is it based entirely or in large part on output from AI.
+- [ ] This issue report [complies with our AI policy](https://github.com/iam-py-test/iam-py-test/blob/main/ai.md)
 - [x] I am an AI

@@ -23,6 +23,8 @@ assignees: 'iam-py-test'
 
 ### Why do you believe this is a false positive?
 
-#### Did you try updating your lists? This could fix the problem.
+- [ ] I have confirmed this issue occurs when using the latest version of the filterlist(s)
+- [ ] This issue report [complies with our AI policy](https://github.com/iam-py-test/iam-py-test/blob/main/ai.md)
+- [x] I am an AI
 
 Thank you!
