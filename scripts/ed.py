@@ -239,12 +239,6 @@ def get_ips(domain: str) -> list:
     except:
         return []
 
-def is_valid(domain: str) -> bool:
-    try:
-        return p.publicsuffix(domain, accept_unknown=False) != None
-    except:
-        return False
-
 def get_tls_info(hostname: str):
     # https://stackoverflow.com/questions/41620369/how-to-get-ssl-certificate-details-using-python
     context = ssl.create_default_context()
@@ -289,6 +283,7 @@ except Exception as err:
     print('random recheck failed', err)
 print("RANDOM RECHECK DONE")
 
+"""
 root_domains = {}
 for e in domain_list:
     try:
@@ -300,6 +295,7 @@ for e in domain_list:
                 root_domains[rootdomain].append(e)
     except Exception as err:
         print(e, err)
+"""
 
 print("GETTING COMMIT")
 last_commit = get_last_commit()
@@ -349,7 +345,6 @@ for e in domain_list:
             "alive_on_removal": None,
             "origin_add": "",
             "readd": "",
-            "is_valid": is_valid(e),
             "ips": entry_ips,
             "dead_since": dead_since,
             "whois": get_whois(e, recurse=True),
@@ -376,12 +371,14 @@ for e in domain_list:
         }
 
         entry_data[e]['subdomain_status'] = {}
+        """
         if e in root_domains:
             for subdomain in root_domains[e]:
                 try:
                     entry_data[e]['subdomain_status'][subdomain] = entry_data[subdomain]['check_status']
                 except:
                     pass
+        """
     else:
         if entry_data[e]['first_seen'] == "2026-02-15T03:55:27.683373":
             entry_data[e]["last_commit"] = "https://github.com/iam-py-test/my_filters_001/commit/6a190dde537beb4689b8c58eea903f5bbbe1bd8f"
@@ -412,7 +409,6 @@ for e in domain_list:
         entry_data[e]["last_seen"] = current_date
         entry_data[e]["removed"] = False
         entry_data[e]["removed_date"] = ""
-        entry_data[e]["is_valid"] = is_valid(e)
         if "check_counter" not in entry_data[e]:
             entry_data[e]["check_counter"] = 40
         if "last_checked" not in entry_data[e]:
@@ -424,6 +420,7 @@ for e in domain_list:
             entry_data[e]['times_died'] = 0
         #entry_data[e]["check_counter"] += 1
         last_check_status = entry_data[e]["check_status"]
+        """
         entry_data[e]['subdomain_status'] = {}
         if e in root_domains:
             for subdomain in root_domains[e]:
@@ -431,6 +428,7 @@ for e in domain_list:
                     entry_data[e]['subdomain_status'][subdomain] = entry_data[subdomain]['check_status']
                 except:
                     pass
+        """
         if "had_www_on_check" in entry_data[e] and entry_data[e]["had_www_on_check"] == True and entry_data[e]["check_status"] == False:
             print(e, entry_data[e]["check_counter"], entry_data[e]["had_www_on_check"])
         if entry_data[e]["check_counter"] > 80: # will revert back to 50 soon
