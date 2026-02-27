@@ -19,7 +19,7 @@ TLD_WHOIS_OVERRIDE = {
 
 dead_domains = []
 print("GETTING PSL")
-p = publicsuffixlist.PublicSuffixList(only_icann=True)
+#p = publicsuffixlist.PublicSuffixList(only_icann=True)
 print("GOT PSL, SETTING UP resolver")
 dresolver = dnsresolver.resolver.Resolver()
 print("CREATED dresolver")
@@ -88,7 +88,7 @@ def get_whois(domain: str, server = None, done_whois_servers_arg = [], recurse=F
         done_whois_servers.append(server.lower())
     if domain in known_whois and sub == False:
         return known_whois[domain]
-    tld = p.publicsuffix(domain).lower()
+    tld = domain.split(".")[-1] # p.publicsuffix(domain).lower()
     if server == None:
         if tld in TLD_WHOIS_OVERRIDE:
             server = TLD_WHOIS_OVERRIDE[tld]
