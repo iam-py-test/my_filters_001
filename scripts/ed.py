@@ -3,10 +3,10 @@ print("IMPORTING dns.resolver")
 dnsresolver = __import__('dns.resolver')
 print("IMPORTING NORMAL LIBS")
 import json
-# import datetime
-# import socket
-# import random
-# import publicsuffixlist
+import datetime
+import socket
+import random
+import publicsuffixlist
 import ssl
 import requests
 import time
@@ -19,11 +19,11 @@ TLD_WHOIS_OVERRIDE = {
 
 dead_domains = []
 print("GETTING PSL")
-#p = publicsuffixlist.PublicSuffixList(only_icann=True)
+p = publicsuffixlist.PublicSuffixList(only_icann=True)
 print("GOT PSL, SETTING UP resolver")
 dresolver = dnsresolver.resolver.Resolver()
 print("CREATED dresolver")
-#dresolver.nameservers = ["https://unfiltered.adguard-dns.com/dns-query","94.140.14.140", "8.8.8.8","1.1.1.1"]
+dresolver.nameservers = ["https://unfiltered.adguard-dns.com/dns-query","94.140.14.140", "8.8.8.8","1.1.1.1"]
 print("SETUP resolver")
 
 already_resolved = {}
@@ -88,7 +88,7 @@ def get_whois(domain: str, server = None, done_whois_servers_arg = [], recurse=F
         done_whois_servers.append(server.lower())
     if domain in known_whois and sub == False:
         return known_whois[domain]
-    tld = domain.split(".")[-1] # p.publicsuffix(domain).lower()
+    tld = p.publicsuffix(domain).lower()
     if server == None:
         if tld in TLD_WHOIS_OVERRIDE:
             server = TLD_WHOIS_OVERRIDE[tld]
@@ -283,7 +283,6 @@ except Exception as err:
     print('random recheck failed', err)
 print("RANDOM RECHECK DONE")
 
-"""
 root_domains = {}
 for e in domain_list:
     try:
@@ -295,7 +294,6 @@ for e in domain_list:
                 root_domains[rootdomain].append(e)
     except Exception as err:
         print(e, err)
-"""
 
 print("GETTING COMMIT")
 last_commit = get_last_commit()

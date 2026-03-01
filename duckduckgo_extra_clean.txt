@@ -1,7 +1,7 @@
 ! Title: DuckDuckGo Additional Cleanup
 ! Description: Remove annoyances from DuckDuckGo to create a clean search experence. Some of what is removed may be considered helpful. Use with caution!
 ! Expires: 10 days
-! Last updated: 2023-1-18
+! Last updated: 2026-2-28
 ! I would recommend using this list alongside my "DuckDuckGo cleanup" list to remove unwanted/malicious websites as well
 
 ! get rid of the Feedback icon
@@ -23,3 +23,6 @@ duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaf
 ! Twitter link
 ||/assets/icons/thirdparty/twitter.svg$image,domain=duckduckgo.com|3g2upl4pq6kufc4m.onion|duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##li.about-profiles__item:has(img[src*="/assets/icons/thirdparty/twitter.svg"])
+
+! AI
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##+js(set-cookie, be, 0)
