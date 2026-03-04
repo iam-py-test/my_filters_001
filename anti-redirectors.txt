@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Please report false positives & unblocked domains to me using the GitHub or GitLab (urls below). Thanks!
 ! Expires: 1 day
-! Last updated: 2026-3-3
+! Last updated: 2026-3-4
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 
@@ -816,3 +816,17 @@ pepper.pl##+js(href-sanitizer, a[href*="https://www.pepper.pl/visit/"][title^="h
 
 ! https://mstdn.feddit.social/@admin/116163281080679983
 ||lyzo.io^$document
+
+! https://github.com/hagezi/dns-blocklists/issues/9301
+||linkswave.net^$document
+||play-aja.click^$document
+||prediksiyupitoto.xyz^$document
+||ingatgunung.click^$document
+||imorningplus.click^$document
+||olinkdirect.info^$document
+! not sure if root domains used or just subdomain - blocking subdomain for HOSTs lists
+||D.play-aja.click^$document
+||D.prediksiyupitoto.xyz^$document
+||D.ingatgunung.click^$document
+||D.imorningplus.click^$document
+||D.olinkdirect.info^$document
