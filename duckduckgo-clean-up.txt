@@ -1630,6 +1630,7 @@ duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-testid="result"]:upward(li):has(a[href*="chrome.apkcmd.com"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-testid="result"]:upward(li):has(a[href*="chromeandroid.com"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-testid="result"]:upward(li):has(a[href*="chrome.jisuliulanqi.cn"])
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-testid="result"]:upward(li):has(a[href*="bendigorewardsaj-homes.info"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-testid="result"]:upward(li):has(a[href*="ublock.org"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-testid="result"]:upward(li):has(a[href*="ublockerext.com"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-testid="result"]:upward(li):has(a[href*="quatrefeuillepolonaise.xyz"])
