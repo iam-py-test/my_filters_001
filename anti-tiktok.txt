@@ -1,5 +1,6 @@
-! Title: anti-TikTok
-! Description: Block TikTok
+! Title: Anti-TikTok list
+! Description: A list to block access and usage of TikTok. I'm not sure how this will be impacted by TikTok's current ownership changes.
+! Last updated: 2026-03-06
 ! Expires: 2 days
 ||tiktok.com^$all
 ||tiktokcdn-us.com^$all
@@ -25,3 +26,15 @@
 ! https://github.com/hagezi/dns-blocklists/issues/1890
 ||bytescm.com^$all
 ||lf-cdn-tos.bytescm.com^$all
+
+! visited TikTok's website
+||bytedance.map.fastly.net^$all
+||us.bytedance.map.fastly.net^$all
+||tiktokcdn-us.com^$all
+||tiktokv.us^$all
+||mcs.tiktokv.us^$all
+||tiktokw.us^$all
+||lf16-cdn-tos.tiktokcdn-us.com^$all
+||lf16-tiktok-common.tiktokcdn-us.com^$all
+||lf16-tiktok-web.tiktokcdn-us.com^$all
+||v16m-webapp.tiktokcdn-us.com^$all
