@@ -31,6 +31,7 @@ jobs:
         python scripts/lint.py
         python scripts/checksum.py
         python scripts/mwb_parts.py antimalware.txt "Alternative list formats/mwb_parts"
+        python scripts/no_pup_domains.py antimalware.txt "Alternative list formats/antimalware_domains_nopups.txt"
         echo running entry dating
         #python scripts/ed.py
         rm -rf .tranco
