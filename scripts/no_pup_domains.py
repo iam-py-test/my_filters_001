@@ -102,6 +102,6 @@ for part in mwb_parts:
 outfile = open(args.outfile, 'w', encoding="UTF-8")
 
 for part in mwb_parts:
-	outfile.write(mwb_parts[part] + "\n")
+	outfile.write(mwb_parts[part])
 outfile.close()
 
