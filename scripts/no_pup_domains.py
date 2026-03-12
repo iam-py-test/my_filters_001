@@ -45,6 +45,8 @@ def extract_domain(line: str) -> str:
 		ext_line = ext_line.split("$")[0]
 	if ext_line.endswith("^"):
 		ext_line = ext_line[:-1]
+	if isipdomain(ext_line):
+		return ""
 	return ext_line
 
 include_list = None
@@ -76,10 +78,11 @@ for l in mwb:
 			part_name = part_name[1:]
 		mwb_parts[part_name] = ""
 	elif part_name == "":
-		titlearea += l + "\n"
+		continue
 	elif l.startswith("!#include "):
-		includepath = l[10:]
-		mwb_parts[part_name] += include_list(includepath,args.source)
+		continue
+	elif l.startswith("!"):
+		continue
 	else:
 		ext_domain = extract_domain(l)
 		if ext_domain != "" and "." in ext_domain:
@@ -97,7 +100,6 @@ for part in mwb_parts:
 	mwb_parts[part] = "\n".join(end_parts)
 
 outfile = open(args.outfile, 'w', encoding="UTF-8")
-outfile.write(titlearea)
 
 for part in mwb_parts:
 	outfile.write(mwb_parts[part] + "\n")
