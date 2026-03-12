@@ -2,7 +2,7 @@
 Code copied from mwb_parts.py
 """
 
-import os, sys, string
+import os, sys, string, re
 
 import argparse
 parser = argparse.ArgumentParser()
