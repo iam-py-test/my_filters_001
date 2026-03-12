@@ -29,11 +29,11 @@ is_ip_v4_reg = re.compile(is_ip_v4)
 is_ip_v6_reg = re.compile(is_ip_v6)
 
 def isipdomain(domain: str) -> bool:
-  if re.search(is_ip_v4_reg,domain):
-	return True
-  if re.search(is_ip_v6_reg,domain):
-	return True
-  return False
+	if re.search(is_ip_v4_reg,domain):
+		return True
+	if re.search(is_ip_v6_reg,domain):
+		return True
+	return False
 
 def extract_domain(line: str) -> str:
 	ext_line = line
