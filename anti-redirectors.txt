@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Please report false positives & unblocked domains to me using the GitHub or GitLab (urls below). Thanks!
 ! Expires: 1 day
-! Last updated: 2026-3-18
+! Last updated: 2026-3-30
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
 
@@ -834,3 +834,6 @@ pepper.pl##+js(href-sanitizer, a[href*="https://www.pepper.pl/visit/"][title^="h
 ! https://github.com/hagezi/dns-blocklists/issues/9444
 ! https://github.com/DandelionSprout/adfilt/issues/904
 ||tkqlhce.com^$document
+
+! https://github.com/hagezi/dns-blocklists/issues/9453
+||g.elyng.com^$document
