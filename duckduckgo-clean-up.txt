@@ -1648,6 +1648,7 @@ duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-testid="result"]:upward(li):has(a[href*="support-128448844521.us-south1.run.app"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-testid="result"]:upward(li):has(a[href*="atlanta-international-airport.com"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-testid="result"]:upward(li):has(a[href*="www.atlanta-international-airport.com"])
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-testid="result"]:upward(li):has(a[href*="ifuelpass.org"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-testid="result"]:upward(li):has(a[href*="ublock.org"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-testid="result"]:upward(li):has(a[href*="ublockerext.com"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-testid="result"]:upward(li):has(a[href*="quatrefeuillepolonaise.xyz"])

@@ -1652,6 +1652,7 @@ search.brave.com,search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd
 search.brave.com,search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion##div.snippet:has(a[href*="://support-128448844521.us-south1.run.app"])
 search.brave.com,search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion##div.snippet:has(a[href*="://atlanta-international-airport.com"])
 search.brave.com,search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion##div.snippet:has(a[href*="://www.atlanta-international-airport.com"])
+search.brave.com,search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion##div.snippet:has(a[href*="://ifuelpass.org"])
 search.brave.com,search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion##div.snippet:has(a[href*="://ublock.org"])
 search.brave.com,search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion##div.snippet:has(a[href*="://ublockerext.com"])
 search.brave.com,search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion##div.snippet:has(a[href*="://quatrefeuillepolonaise.xyz"])
