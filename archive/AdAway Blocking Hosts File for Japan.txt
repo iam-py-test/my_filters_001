@@ -1,0 +1,4600 @@
+# AdAway Blocking Hosts File for Japan
+#
+# author: logroid
+#         http://logroid.blogspot.jp/
+#         https://twitter.com/logroid
+#
+# last updated: 2017/08/22
+
+127.0.0.1       localhost
+255.255.255.255 broadcasthost
+::1             localhost
+fe80::1%lo0     localhost
+
+# white list
+white ad-api-v01.uliza.jp
+white ad.dmm.com
+white app-adforce.jp
+white imgstat.ameba.jp
+white lh3.googleusercontent.com
+white rd.rakuten.co.jp
+white scontent.xx.fbcdn.net
+white setting.adzcore.com
+white static.xx.fbcdn.net
+white ws.tapjoyads.com
+white www.googleadservices.com
+white www.google-analytics.com
+white s0.2mdn.net
+white pubads.g.doubleclick.net
+white r.r10s.jp
+white web-jp.ad-v.jp
+white s.yimg.jp
+white ssl.google-analytics.com
+white pagead2.googlesyndication.com
+white clickserve.dartsearch.net
+white ad.doubleclick.net
+white api.r10s.jp
+white c.kakaku.com
+
+# 0076.pics
+127.0.0.1 p9kzz.stream.0076.pics
+127.0.0.1 stream.0076.pics
+127.0.0.1 xevzz.stream.0076.pics
+
+# 072m.com
+127.0.0.1 g2.072m.com
+
+# 1tmg.info
+127.0.0.1 1tmg.info
+
+# 207.net
+127.0.0.1 102.112.207.net
+
+# 2mdn.info
+127.0.0.1 2mdn.info
+
+# 2mobio.com
+127.0.0.1 av4.2mobio.com
+
+# 2o7.net
+127.0.0.1 102.112.2o7.net
+127.0.0.1 102.122.2o7.net
+127.0.0.1 10xhellometro.112.2o7.net
+127.0.0.1 1105governmentinformationgroup.122.2o7.net
+127.0.0.1 192.168.112.2o7.net
+127.0.0.1 192.168.122.2o7.net
+127.0.0.1 2o7.net
+127.0.0.1 3gupload.112.2o7.net
+127.0.0.1 acckalaharinet.112.2o7.net
+127.0.0.1 acpmagazines.112.2o7.net
+127.0.0.1 adbrite.122.2o7.net
+127.0.0.1 advertisingcom.122.2o7.net
+127.0.0.1 aehistory.112.2o7.net
+127.0.0.1 aetv.112.2o7.net
+127.0.0.1 affilcrtopcolle.112.2o7.net
+127.0.0.1 agamgreetingscom.112.2o7.net
+127.0.0.1 agbmcom.112.2o7.net
+127.0.0.1 agegreetings.112.2o7.net
+127.0.0.1 agmsnag.112.2o7.net
+127.0.0.1 agwebshots.112.2o7.net
+127.0.0.1 agyahooag.112.2o7.net
+127.0.0.1 albanytimesunion.122.2o7.net
+127.0.0.1 allabout.122.2o7.net
+127.0.0.1 allbritton.122.2o7.net
+127.0.0.1 amdvtest.112.2o7.net
+127.0.0.1 americanexpress.122.2o7.net
+127.0.0.1 ameritradeamerivest.112.2o7.net
+127.0.0.1 ameritradeogilvy.112.2o7.net
+127.0.0.1 ana.112.2o7.net
+127.0.0.1 angiba.112.2o7.net
+127.0.0.1 angmar.112.2o7.net
+127.0.0.1 angmil.112.2o7.net
+127.0.0.1 angpar.112.2o7.net
+127.0.0.1 aolbks.122.2o7.net
+127.0.0.1 aolcamember.122.2o7.net
+127.0.0.1 aolcg.122.2o7.net
+127.0.0.1 aolcmp.122.2o7.net
+127.0.0.1 aolcommem.122.2o7.net
+127.0.0.1 aolcommvid.122.2o7.net
+127.0.0.1 aolcsmen.122.2o7.net
+127.0.0.1 aoldlama.122.2o7.net
+127.0.0.1 aoldrambuie.122.2o7.net
+127.0.0.1 aolgam.122.2o7.net
+127.0.0.1 aolgamedaily.122.2o7.net
+127.0.0.1 aoljournals.122.2o7.net
+127.0.0.1 aollatblog.122.2o7.net
+127.0.0.1 aollove.122.2o7.net
+127.0.0.1 aolmov.122.2o7.net
+127.0.0.1 aolmus.122.2o7.net
+127.0.0.1 aolnews.122.2o7.net
+127.0.0.1 aolnssearch.122.2o7.net
+127.0.0.1 aolpf.122.2o7.net
+127.0.0.1 aolpolls.122.2o7.net
+127.0.0.1 aolsearch.122.2o7.net
+127.0.0.1 aolshred.122.2o7.net
+127.0.0.1 aolsports.122.2o7.net
+127.0.0.1 aolstylist.122.2o7.net
+127.0.0.1 aolsvc.122.2o7.net
+127.0.0.1 aolswitch.122.2o7.net
+127.0.0.1 aoltmz.122.2o7.net
+127.0.0.1 aoltruveo.122.2o7.net
+127.0.0.1 aolturnercnnmoney.122.2o7.net
+127.0.0.1 aolturnersi.122.2o7.net
+127.0.0.1 aoluk.122.2o7.net
+127.0.0.1 aolvideo.122.2o7.net
+127.0.0.1 aolwbautoblog.122.2o7.net
+127.0.0.1 aolwbcinema.122.2o7.net
+127.0.0.1 aolwbdnlsq.122.2o7.net
+127.0.0.1 aolwbengadget.122.2o7.net
+127.0.0.1 aolwbgadling.122.2o7.net
+127.0.0.1 aolwbluxist.122.2o7.net
+127.0.0.1 aolwbpspfboy.122.2o7.net
+127.0.0.1 aolwbtvsq.122.2o7.net
+127.0.0.1 aolwbwowinsd.122.2o7.net
+127.0.0.1 aolwinamp.122.2o7.net
+127.0.0.1 aolwpmq.122.2o7.net
+127.0.0.1 aolwpnscom.122.2o7.net
+127.0.0.1 aolwpnswhatsnew.112.2o7.net
+127.0.0.1 aolyedda.122.2o7.net
+127.0.0.1 apdigitalorg.112.2o7.net
+127.0.0.1 apdigitalorgovn.112.2o7.net
+127.0.0.1 apnonline.112.2o7.net
+127.0.0.1 aporg.112.2o7.net
+127.0.0.1 appleglobal.112.2o7.net
+127.0.0.1 asahishimbun.122.2o7.net
+127.0.0.1 associatedcontent.112.2o7.net
+127.0.0.1 aumo123usedcarscom.112.2o7.net
+127.0.0.1 aumoautomotivecom.112.2o7.net
+127.0.0.1 aumoautomotivectl.112.2o7.net
+127.0.0.1 aumocarsbelowinvoice.112.2o7.net
+127.0.0.1 aumointernetautoguidecom.112.2o7.net
+127.0.0.1 aumomotortrend.112.2o7.net
+127.0.0.1 aumonewcarcom.112.2o7.net
+127.0.0.1 aumotradeinvaluecom.112.2o7.net
+127.0.0.1 autoanythingcom.112.2o7.net
+127.0.0.1 autobytel.112.2o7.net
+127.0.0.1 autobytelcorppopup.112.2o7.net
+127.0.0.1 autoscout24.112.2o7.net
+127.0.0.1 autoweb.112.2o7.net
+127.0.0.1 avgtechnologies.112.2o7.net
+127.0.0.1 avon.112.2o7.net
+127.0.0.1 awarenesstech.122.2o7.net
+127.0.0.1 babycentercom.112.2o7.net
+127.0.0.1 bankwest.112.2o7.net
+127.0.0.1 bellglobemediapublishing.122.2o7.net
+127.0.0.1 bertelwissenprod.122.2o7.net
+127.0.0.1 bet.122.2o7.net
+127.0.0.1 betterhg.112.2o7.net
+127.0.0.1 bhgdiabeticliving.112.2o7.net
+127.0.0.1 bhgdiy.112.2o7.net
+127.0.0.1 bhgkitchenbath.112.2o7.net
+127.0.0.1 bhgquilting.112.2o7.net
+127.0.0.1 bhgremodel.112.2o7.net
+127.0.0.1 bhgscrap.112.2o7.net
+127.0.0.1 bigpond.122.2o7.net
+127.0.0.1 bizjournals.112.2o7.net
+127.0.0.1 blethenmaine.112.2o7.net
+127.0.0.1 bnk30livejs.112.2o7.net
+127.0.0.1 bnkholic.112.2o7.net
+127.0.0.1 bnkr8dev.112.2o7.net
+127.0.0.1 bonneville.112.2o7.net
+127.0.0.1 boostmobile.112.2o7.net
+127.0.0.1 bostoncommonpress.112.2o7.net
+127.0.0.1 brightcove.112.2o7.net
+127.0.0.1 brighthouse.122.2o7.net
+127.0.0.1 bruceclay.112.2o7.net
+127.0.0.1 builderonlinecom.112.2o7.net
+127.0.0.1 businessweekpoc.112.2o7.net
+127.0.0.1 buycom.122.2o7.net
+127.0.0.1 buzznet.112.2o7.net
+127.0.0.1 byubroadcast.112.2o7.net
+127.0.0.1 canadapost.112.2o7.net
+127.0.0.1 cancalgary.112.2o7.net
+127.0.0.1 canfinancialpost.112.2o7.net
+127.0.0.1 cannationalpost.112.2o7.net
+127.0.0.1 canoe.112.2o7.net
+127.0.0.1 canottowa.112.2o7.net
+127.0.0.1 canshowcase.112.2o7.net
+127.0.0.1 canwestglobal.112.2o7.net
+127.0.0.1 capcityadvcom.112.2o7.net
+127.0.0.1 capecodonlinecom.112.2o7.net
+127.0.0.1 care2.112.2o7.net
+127.0.0.1 carlsonradisson.112.2o7.net
+127.0.0.1 cartoonnetwork.122.2o7.net
+127.0.0.1 cbc.122.2o7.net
+127.0.0.1 cbcnewmedia.112.2o7.net
+127.0.0.1 cbglobal.112.2o7.net
+127.0.0.1 cbmsn.112.2o7.net
+127.0.0.1 cbs.112.2o7.net
+127.0.0.1 cbscom.112.2o7.net
+127.0.0.1 cbsdigitalmedia.112.2o7.net
+127.0.0.1 cbsnfl.112.2o7.net
+127.0.0.1 cbspgatour.112.2o7.net
+127.0.0.1 cbsspln.112.2o7.net
+127.0.0.1 ccrgaviscom.112.2o7.net
+127.0.0.1 chacha.112.2o7.net
+127.0.0.1 chchoice.112.2o7.net
+127.0.0.1 chghowardjohnson.112.2o7.net
+127.0.0.1 chgsupereight.112.2o7.net
+127.0.0.1 chgwyndham.112.2o7.net
+127.0.0.1 chicagosuntimes.122.2o7.net
+127.0.0.1 chumtv.122.2o7.net
+127.0.0.1 ciaocom.122.2o7.net
+127.0.0.1 ciaoshopcouk.122.2o7.net
+127.0.0.1 ciaoshopit.122.2o7.net
+127.0.0.1 classicvacations.112.2o7.net
+127.0.0.1 classmatescom.112.2o7.net
+127.0.0.1 clubmed.112.2o7.net
+127.0.0.1 clubmom.122.2o7.net
+127.0.0.1 cmp.112.2o7.net
+127.0.0.1 cmpdotnetjunkiescom.112.2o7.net
+127.0.0.1 cmpglobalvista.112.2o7.net
+127.0.0.1 cmtvia.112.2o7.net
+127.0.0.1 cnetasiapacific.122.2o7.net
+127.0.0.1 cnetaustralia.122.2o7.net
+127.0.0.1 cneteurope.122.2o7.net
+127.0.0.1 cnetjapan.122.2o7.net
+127.0.0.1 cnetnews.112.2o7.net
+127.0.0.1 cnettech.112.2o7.net
+127.0.0.1 cnetzdnet.112.2o7.net
+127.0.0.1 cnheagletribune.112.2o7.net
+127.0.0.1 cnhiautovertical.122.2o7.net
+127.0.0.1 cnhibatesvilleheraldtribune.122.2o7.net
+127.0.0.1 cnhibdtonline.122.2o7.net
+127.0.0.1 cnhicrossvillechronicle.122.2o7.net
+127.0.0.1 cnhidailyindependent.122.2o7.net
+127.0.0.1 cnhieagletribune.122.2o7.net
+127.0.0.1 cnhienid.122.2o7.net
+127.0.0.1 cnhijohnstown.122.2o7.net
+127.0.0.1 cnhijoplinglobe.122.2o7.net
+127.0.0.1 cnhinewscourier.122.2o7.net
+127.0.0.1 cnhinewsservicedev.122.2o7.net
+127.0.0.1 cnhirecordeagle.122.2o7.net
+127.0.0.1 cnn.122.2o7.net
+127.0.0.1 cnnglobal.122.2o7.net
+127.0.0.1 cnnireport.122.2o7.net
+127.0.0.1 cnocanoecaprod.112.2o7.net
+127.0.0.1 cnoompprod.112.2o7.net
+127.0.0.1 computerworldcom.112.2o7.net
+127.0.0.1 condenast.112.2o7.net
+127.0.0.1 conpst.112.2o7.net
+127.0.0.1 cookingcom.112.2o7.net
+127.0.0.1 corelcom.112.2o7.net
+127.0.0.1 coreluk.112.2o7.net
+127.0.0.1 costargroup.112.2o7.net
+127.0.0.1 couhome.112.2o7.net
+127.0.0.1 couponchief.122.2o7.net
+127.0.0.1 coxhsi.112.2o7.net
+127.0.0.1 coxnetmasterglobal.112.2o7.net
+127.0.0.1 cpusall.112.2o7.net
+127.0.0.1 creditcardscom.112.2o7.net
+127.0.0.1 csoonlinecom.112.2o7.net
+127.0.0.1 ctvcrimelibrary.112.2o7.net
+127.0.0.1 ctvmaincom.112.2o7.net
+127.0.0.1 ctvsmokinggun.112.2o7.net
+127.0.0.1 ctvtsgtv.112.2o7.net
+127.0.0.1 cwportal.112.2o7.net
+127.0.0.1 cxociocom.112.2o7.net
+127.0.0.1 cxocomdev.112.2o7.net
+127.0.0.1 cyberdefender.122.2o7.net
+127.0.0.1 dailyheraldpaddockpublication.112.2o7.net
+127.0.0.1 dardenrestaurants.112.2o7.net
+127.0.0.1 dealnews.122.2o7.net
+127.0.0.1 delightful.112.2o7.net
+127.0.0.1 divx.112.2o7.net
+127.0.0.1 dixonscouk.112.2o7.net
+127.0.0.1 dmvguidecom.112.2o7.net
+127.0.0.1 dominionenterprises.112.2o7.net
+127.0.0.1 dotster.112.2o7.net
+127.0.0.1 dotsterdomaincom.112.2o7.net
+127.0.0.1 dotsterdotsteraug08.112.2o7.net
+127.0.0.1 dreamhome.112.2o7.net
+127.0.0.1 eaeacom.112.2o7.net
+127.0.0.1 eagamesuk.112.2o7.net
+127.0.0.1 eaglemiles.112.2o7.net
+127.0.0.1 eapogocom.112.2o7.net
+127.0.0.1 earthlink.122.2o7.net
+127.0.0.1 earthlnkpsplive.122.2o7.net
+127.0.0.1 edietsmain.112.2o7.net
+127.0.0.1 edmundscom.112.2o7.net
+127.0.0.1 efashionsolutions.122.2o7.net
+127.0.0.1 ehadvicedev.112.2o7.net
+127.0.0.1 eharmony.112.2o7.net
+127.0.0.1 electronicarts.112.2o7.net
+127.0.0.1 eloqua.122.2o7.net
+127.0.0.1 emc.122.2o7.net
+127.0.0.1 enterprisemediagroup.112.2o7.net
+127.0.0.1 entrepreneur.122.2o7.net
+127.0.0.1 entrepreneurpoc.122.2o7.net
+127.0.0.1 epebuild.112.2o7.net
+127.0.0.1 eplans.112.2o7.net
+127.0.0.1 eremedia.112.2o7.net
+127.0.0.1 eurostar.122.2o7.net
+127.0.0.1 evepdaggiesports.112.2o7.net
+127.0.0.1 evepdaikencom.112.2o7.net
+127.0.0.1 evepdbrazossports.112.2o7.net
+127.0.0.1 evepdcharleston.112.2o7.net
+127.0.0.1 evepdeagledev.112.2o7.net
+127.0.0.1 ewsabilene.112.2o7.net
+127.0.0.1 ewscorpuschristi.112.2o7.net
+127.0.0.1 ewsmemphis.112.2o7.net
+127.0.0.1 ewsnaples.112.2o7.net
+127.0.0.1 ewsventura.112.2o7.net
+127.0.0.1 examinercom.122.2o7.net
+127.0.0.1 expedia1.112.2o7.net
+127.0.0.1 expedia6vt.112.2o7.net
+127.0.0.1 expedia8.112.2o7.net
+127.0.0.1 extrovert.122.2o7.net
+127.0.0.1 ezgds.112.2o7.net
+127.0.0.1 f2communitynews.112.2o7.net
+127.0.0.1 f2nbt.112.2o7.net
+127.0.0.1 f2network.112.2o7.net
+127.0.0.1 f2nmycareer.112.2o7.net
+127.0.0.1 f2nsmh.112.2o7.net
+127.0.0.1 f2ntheage.112.2o7.net
+127.0.0.1 facebookinc.122.2o7.net
+127.0.0.1 factiva.122.2o7.net
+127.0.0.1 farecastcom.122.2o7.net
+127.0.0.1 fbfredericksburgcom.112.2o7.net
+127.0.0.1 figlobal.112.2o7.net
+127.0.0.1 ford.112.2o7.net
+127.0.0.1 foxamw.112.2o7.net
+127.0.0.1 foxcom.112.2o7.net
+127.0.0.1 foxidol.112.2o7.net
+127.0.0.1 foxinteractivemedia.122.2o7.net
+127.0.0.1 furniturecom.112.2o7.net
+127.0.0.1 furnlevitz.112.2o7.net
+127.0.0.1 gatehousemedia.122.2o7.net
+127.0.0.1 gateway.122.2o7.net
+127.0.0.1 genetree.112.2o7.net
+127.0.0.1 geosign.112.2o7.net
+127.0.0.1 gifastcompanycom.112.2o7.net
+127.0.0.1 giftscom.122.2o7.net
+127.0.0.1 gjfastcompanycom.112.2o7.net
+127.0.0.1 gjincscobleizer.112.2o7.net
+127.0.0.1 gmgmacfs.112.2o7.net
+127.0.0.1 gmgmacmortgage.112.2o7.net
+127.0.0.1 gmgoodwrenchdmaprod.112.2o7.net
+127.0.0.1 gntbcstglobal.112.2o7.net
+127.0.0.1 gntbcstkare.112.2o7.net
+127.0.0.1 gntbcstksdk.112.2o7.net
+127.0.0.1 gntbcstkthv.112.2o7.net
+127.0.0.1 gntbcstkusa.112.2o7.net
+127.0.0.1 gntbcstkxtv.112.2o7.net
+127.0.0.1 gntbcstwbir.112.2o7.net
+127.0.0.1 gntbcstwcsh.112.2o7.net
+127.0.0.1 gntbcstwfmy.112.2o7.net
+127.0.0.1 gntbcstwkyc.112.2o7.net
+127.0.0.1 gntbcstwlbz.112.2o7.net
+127.0.0.1 gntbcstwltx.112.2o7.net
+127.0.0.1 gntbcstwmaz.112.2o7.net
+127.0.0.1 gntbcstwtlv.112.2o7.net
+127.0.0.1 gntbcstwtsp.112.2o7.net
+127.0.0.1 gntbcstwusa.112.2o7.net
+127.0.0.1 gntbcstwxia.112.2o7.net
+127.0.0.1 gntbcstwzzm.112.2o7.net
+127.0.0.1 gourmetgiftbaskets.112.2o7.net
+127.0.0.1 gpaper104.112.2o7.net
+127.0.0.1 gpaper105.112.2o7.net
+127.0.0.1 gpaper106.112.2o7.net
+127.0.0.1 gpaper107.112.2o7.net
+127.0.0.1 gpaper108.112.2o7.net
+127.0.0.1 gpaper109.112.2o7.net
+127.0.0.1 gpaper110.112.2o7.net
+127.0.0.1 gpaper111.112.2o7.net
+127.0.0.1 gpaper112.112.2o7.net
+127.0.0.1 gpaper114.112.2o7.net
+127.0.0.1 gpaper115.112.2o7.net
+127.0.0.1 gpaper116.112.2o7.net
+127.0.0.1 gpaper117.112.2o7.net
+127.0.0.1 gpaper119.112.2o7.net
+127.0.0.1 gpaper120.112.2o7.net
+127.0.0.1 gpaper121.112.2o7.net
+127.0.0.1 gpaper122.112.2o7.net
+127.0.0.1 gpaper123.112.2o7.net
+127.0.0.1 gpaper124.112.2o7.net
+127.0.0.1 gpaper125.112.2o7.net
+127.0.0.1 gpaper127.112.2o7.net
+127.0.0.1 gpaper128.112.2o7.net
+127.0.0.1 gpaper131.112.2o7.net
+127.0.0.1 gpaper132.112.2o7.net
+127.0.0.1 gpaper133.112.2o7.net
+127.0.0.1 gpaper134.112.2o7.net
+127.0.0.1 gpaper135.112.2o7.net
+127.0.0.1 gpaper136.112.2o7.net
+127.0.0.1 gpaper137.112.2o7.net
+127.0.0.1 gpaper138.112.2o7.net
+127.0.0.1 gpaper139.112.2o7.net
+127.0.0.1 gpaper140.112.2o7.net
+127.0.0.1 gpaper141.112.2o7.net
+127.0.0.1 gpaper142.112.2o7.net
+127.0.0.1 gpaper143.112.2o7.net
+127.0.0.1 gpaper144.112.2o7.net
+127.0.0.1 gpaper145.112.2o7.net
+127.0.0.1 gpaper147.112.2o7.net
+127.0.0.1 gpaper149.112.2o7.net
+127.0.0.1 gpaper150.112.2o7.net
+127.0.0.1 gpaper151.112.2o7.net
+127.0.0.1 gpaper152.112.2o7.net
+127.0.0.1 gpaper156.112.2o7.net
+127.0.0.1 gpaper157.112.2o7.net
+127.0.0.1 gpaper158.112.2o7.net
+127.0.0.1 gpaper160.112.2o7.net
+127.0.0.1 gpaper161.112.2o7.net
+127.0.0.1 gpaper162.112.2o7.net
+127.0.0.1 gpaper163.112.2o7.net
+127.0.0.1 gpaper164.112.2o7.net
+127.0.0.1 gpaper166.112.2o7.net
+127.0.0.1 gpaper167.112.2o7.net
+127.0.0.1 gpaper168.112.2o7.net
+127.0.0.1 gpaper169.112.2o7.net
+127.0.0.1 gpaper170.112.2o7.net
+127.0.0.1 gpaper171.112.2o7.net
+127.0.0.1 gpaper172.112.2o7.net
+127.0.0.1 gpaper173.112.2o7.net
+127.0.0.1 gpaper174.112.2o7.net
+127.0.0.1 gpaper175.112.2o7.net
+127.0.0.1 gpaper176.112.2o7.net
+127.0.0.1 gpaper177.112.2o7.net
+127.0.0.1 gpaper178.112.2o7.net
+127.0.0.1 gpaper180.112.2o7.net
+127.0.0.1 gpaper182.112.2o7.net
+127.0.0.1 gpaper183.112.2o7.net
+127.0.0.1 gpaper184.112.2o7.net
+127.0.0.1 gpaper185.112.2o7.net
+127.0.0.1 gpaper186.112.2o7.net
+127.0.0.1 gpaper187.112.2o7.net
+127.0.0.1 gpaper188.112.2o7.net
+127.0.0.1 gpaper190.112.2o7.net
+127.0.0.1 gpaper191.112.2o7.net
+127.0.0.1 gpaper194.112.2o7.net
+127.0.0.1 gpaper195.112.2o7.net
+127.0.0.1 gpaper196.112.2o7.net
+127.0.0.1 gpaper197.112.2o7.net
+127.0.0.1 gpaper199.112.2o7.net
+127.0.0.1 gpaper201.112.2o7.net
+127.0.0.1 gpaper202.112.2o7.net
+127.0.0.1 gpaper204.112.2o7.net
+127.0.0.1 gpaper211.112.2o7.net
+127.0.0.1 gpaper214.112.2o7.net
+127.0.0.1 gpaper218.112.2o7.net
+127.0.0.1 gpaper223.112.2o7.net
+127.0.0.1 gpaper231.112.2o7.net
+127.0.0.1 gpaper246.112.2o7.net
+127.0.0.1 gpapercareer.112.2o7.net
+127.0.0.1 gpapermom104.112.2o7.net
+127.0.0.1 guj.122.2o7.net
+127.0.0.1 hallmarkibmcom.112.2o7.net
+127.0.0.1 harconsumer.112.2o7.net
+127.0.0.1 harpo.122.2o7.net
+127.0.0.1 harrahscom.112.2o7.net
+127.0.0.1 haymarketbusinesspublications.122.2o7.net
+127.0.0.1 hchrmain.112.2o7.net
+127.0.0.1 hearstdigital.122.2o7.net
+127.0.0.1 hearstmagazines.112.2o7.net
+127.0.0.1 hearstugo.112.2o7.net
+127.0.0.1 heavycom.122.2o7.net
+127.0.0.1 hertz.122.2o7.net
+127.0.0.1 highbeam.122.2o7.net
+127.0.0.1 himedia.112.2o7.net
+127.0.0.1 homepjlconline.com.112.2o7.net
+127.0.0.1 homepproav.112.2o7.net
+127.0.0.1 homesteadtechnologies.122.2o7.net
+127.0.0.1 homestore.122.2o7.net
+127.0.0.1 hotelscom.122.2o7.net
+127.0.0.1 hphqglobal.112.2o7.net
+127.0.0.1 hswmedia.122.2o7.net
+127.0.0.1 hulu.112.2o7.net
+127.0.0.1 huludev.112.2o7.net
+127.0.0.1 ibibo.112.2o7.net
+127.0.0.1 ice.112.2o7.net
+127.0.0.1 ihc.112.2o7.net
+127.0.0.1 imc2.122.2o7.net
+127.0.0.1 imeem.112.2o7.net
+127.0.0.1 imiliving.122.2o7.net
+127.0.0.1 incisivemedia.112.2o7.net
+127.0.0.1 indigio.122.2o7.net
+127.0.0.1 infoworldmediagroup.112.2o7.net
+127.0.0.1 infratotalduicom.122.2o7.net
+127.0.0.1 insiderpagescom.122.2o7.net
+127.0.0.1 instadia.112.2o7.net
+127.0.0.1 intelcorpchan.112.2o7.net
+127.0.0.1 intelcorperror.112.2o7.net
+127.0.0.1 intelcorpsupp.112.2o7.net
+127.0.0.1 interland.122.2o7.net
+127.0.0.1 intuitinc.122.2o7.net
+127.0.0.1 ipcmedia.122.2o7.net
+127.0.0.1 ipcuncut.122.2o7.net
+127.0.0.1 ipcwebuserprod.122.2o7.net
+127.0.0.1 itmedia.122.2o7.net
+127.0.0.1 itv.112.2o7.net
+127.0.0.1 iusacomlive.112.2o7.net
+127.0.0.1 ivillageglobal.112.2o7.net
+127.0.0.1 jennycraig.112.2o7.net
+127.0.0.1 jetbluepkgcs.112.2o7.net
+127.0.0.1 jijsonline.112.2o7.net
+127.0.0.1 jijsonline.122.2o7.net
+127.0.0.1 jiktnv.122.2o7.net
+127.0.0.1 jiwire.112.2o7.net
+127.0.0.1 jiwtmj.122.2o7.net
+127.0.0.1 jmsyap.112.2o7.net
+127.0.0.1 johnlewis.112.2o7.net
+127.0.0.1 journalregistercompany.122.2o7.net
+127.0.0.1 jrcdelcotimescom.122.2o7.net
+127.0.0.1 jrcom.112.2o7.net
+127.0.0.1 kaboose.112.2o7.net
+127.0.0.1 kaspersky.122.2o7.net
+127.0.0.1 kasperthreatpostprod.112.2o7.net
+127.0.0.1 kbbmain.112.2o7.net
+127.0.0.1 kelleybluebook.112.2o7.net
+127.0.0.1 kiplinger.112.2o7.net
+127.0.0.1 lab88inc.112.2o7.net
+127.0.0.1 laptopmag.122.2o7.net
+127.0.0.1 laxnws.112.2o7.net
+127.0.0.1 laxprs.112.2o7.net
+127.0.0.1 laxpsd.112.2o7.net
+127.0.0.1 laxtrb.112.2o7.net
+127.0.0.1 laxwht.112.2o7.net
+127.0.0.1 laxwht.122.2o7.net
+127.0.0.1 ldsfch.112.2o7.net
+127.0.0.1 leaitworldprod.112.2o7.net
+127.0.0.1 leeenterprises.112.2o7.net
+127.0.0.1 leveragemarketing.112.2o7.net
+127.0.0.1 livedealcom.112.2o7.net
+127.0.0.1 livenation.122.2o7.net
+127.0.0.1 mailtribunecom.112.2o7.net
+127.0.0.1 mapscom2.112.2o7.net
+127.0.0.1 marinermarketing.112.2o7.net
+127.0.0.1 marketlive.122.2o7.net
+127.0.0.1 marketworksinc.122.2o7.net
+127.0.0.1 marksandspencer.122.2o7.net
+127.0.0.1 mattressusa.122.2o7.net
+127.0.0.1 maxim.122.2o7.net
+127.0.0.1 mcclatchy.112.2o7.net
+127.0.0.1 mdjacksonville.112.2o7.net
+127.0.0.1 mdpparents.112.2o7.net
+127.0.0.1 mdwathens.112.2o7.net
+127.0.0.1 mdwaugusta.112.2o7.net
+127.0.0.1 mdwjuneau.112.2o7.net
+127.0.0.1 mdwoakridge.112.2o7.net
+127.0.0.1 mdwsavannah.112.2o7.net
+127.0.0.1 mediabistro.112.2o7.net
+127.0.0.1 mediabistrocom.112.2o7.net
+127.0.0.1 medialogic.122.2o7.net
+127.0.0.1 mediamatters.112.2o7.net
+127.0.0.1 meetupdev.122.2o7.net
+127.0.0.1 memberservicesinc.122.2o7.net
+127.0.0.1 metacafe.122.2o7.net
+127.0.0.1 mgdothaneagle.112.2o7.net
+127.0.0.1 mghickoryrecord.112.2o7.net
+127.0.0.1 mgjournalnow.112.2o7.net
+127.0.0.1 mgoanow.112.2o7.net
+127.0.0.1 mgstarexponent.112.2o7.net
+127.0.0.1 mgtbo.112.2o7.net
+127.0.0.1 mgtbopanels.112.2o7.net
+127.0.0.1 mgtimesdispatch.112.2o7.net
+127.0.0.1 mgwcbd.112.2o7.net
+127.0.0.1 mgwjar.112.2o7.net
+127.0.0.1 mgwnct.112.2o7.net
+127.0.0.1 mgwsav.112.2o7.net
+127.0.0.1 mgwsls.112.2o7.net
+127.0.0.1 microsofteup.112.2o7.net
+127.0.0.1 microsoftgamestudio.112.2o7.net
+127.0.0.1 microsoftinternetexplorer.112.2o7.net
+127.0.0.1 microsoftmachinetranslation.112.2o7.net
+127.0.0.1 microsoftoffice.112.2o7.net
+127.0.0.1 microsoftsto.112.2o7.net
+127.0.0.1 microsoftuk.122.2o7.net
+127.0.0.1 microsoftwga.112.2o7.net
+127.0.0.1 microsoftwindows.112.2o7.net
+127.0.0.1 microsoftwllivemkt.112.2o7.net
+127.0.0.1 microsoftwlmailmkt.112.2o7.net
+127.0.0.1 microsoftwlmessengermkt.112.2o7.net
+127.0.0.1 microsoftwlmobilemkt.112.2o7.net
+127.0.0.1 microsoftwlsearchcrm.112.2o7.net
+127.0.0.1 midala.112.2o7.net
+127.0.0.1 midar.112.2o7.net
+127.0.0.1 midcru.112.2o7.net
+127.0.0.1 midsen.112.2o7.net
+127.0.0.1 milbglobal.112.2o7.net
+127.0.0.1 mkcthehomemarketplace.112.2o7.net
+127.0.0.1 mkt10.122.2o7.net
+127.0.0.1 mlbatlanta.112.2o7.net
+127.0.0.1 mlbcincinnati.112.2o7.net
+127.0.0.1 mlbcom.112.2o7.net
+127.0.0.1 mlbglobal.112.2o7.net
+127.0.0.1 mlbglobal08.112.2o7.net
+127.0.0.1 mlbsanfrancisco.112.2o7.net
+127.0.0.1 mlsglobal.112.2o7.net
+127.0.0.1 mmc.122.2o7.net
+127.0.0.1 mngidailybreeze.112.2o7.net
+127.0.0.1 mngidmn.112.2o7.net
+127.0.0.1 mngimercurynews.112.2o7.net
+127.0.0.1 mngimng.112.2o7.net
+127.0.0.1 mngirockymtnnews.112.2o7.net
+127.0.0.1 mngislctrib.112.2o7.net
+127.0.0.1 mngisv.112.2o7.net
+127.0.0.1 mngitwincities.112.2o7.net
+127.0.0.1 mngiyhnat.112.2o7.net
+127.0.0.1 morningnewsonline.112.2o7.net
+127.0.0.1 mpire.112.2o7.net
+127.0.0.1 mseupwinxpfam.112.2o7.net
+127.0.0.1 msna1com.112.2o7.net
+127.0.0.1 msnaccountservices.112.2o7.net
+127.0.0.1 msnbc.112.2o7.net
+127.0.0.1 msnbcom.112.2o7.net
+127.0.0.1 msneshopbase.112.2o7.net
+127.0.0.1 msninvite.112.2o7.net
+127.0.0.1 msninviteprod.112.2o7.net
+127.0.0.1 msnlivefavorites.112.2o7.net
+127.0.0.1 msnmercom.112.2o7.net
+127.0.0.1 msnmercustacqprod.112.2o7.net
+127.0.0.1 msnonecare.112.2o7.net
+127.0.0.1 msnportal.112.2o7.net
+127.0.0.1 msnportalaffiliate.112.2o7.net
+127.0.0.1 msnportalaunews.112.2o7.net
+127.0.0.1 msnportalbeetoffice2007.112.2o7.net
+127.0.0.1 msnportalgame.112.2o7.net
+127.0.0.1 msnportalhome.112.2o7.net
+127.0.0.1 msnportallatino.112.2o7.net
+127.0.0.1 msnportallive.112.2o7.net
+127.0.0.1 msnportalmsgboardsrvc.112.2o7.net
+127.0.0.1 msnportalscp.112.2o7.net
+127.0.0.1 msnportalvideo.112.2o7.net
+127.0.0.1 msnservices.112.2o7.net
+127.0.0.1 msntrademarketing.112.2o7.net
+127.0.0.1 msnwinonecare.112.2o7.net
+127.0.0.1 mssbcprod.112.2o7.net
+127.0.0.1 mswlspcmktdev.112.2o7.net
+127.0.0.1 multiply.112.2o7.net
+127.0.0.1 mxmacromedia.112.2o7.net
+127.0.0.1 myfamilyancestry.112.2o7.net
+127.0.0.1 nandomedia.112.2o7.net
+127.0.0.1 nasdaq.122.2o7.net
+127.0.0.1 natgeoedit.112.2o7.net
+127.0.0.1 natgeoeditcom.112.2o7.net
+127.0.0.1 natgeoglobal.112.2o7.net
+127.0.0.1 natgeohomepage.112.2o7.net
+127.0.0.1 natgeonavcom.112.2o7.net
+127.0.0.1 natgeonews.112.2o7.net
+127.0.0.1 natgeongkidsmagccom.112.2o7.net
+127.0.0.1 natgeongmcom.112.2o7.net
+127.0.0.1 natgeopeopleplaces.112.2o7.net
+127.0.0.1 natgeotravelermagcom.112.2o7.net
+127.0.0.1 natgeovideo.112.2o7.net
+127.0.0.1 nbcuniversal.122.2o7.net
+127.0.0.1 neber.112.2o7.net
+127.0.0.1 nebnr.112.2o7.net
+127.0.0.1 neref.112.2o7.net
+127.0.0.1 networksolutions.112.2o7.net
+127.0.0.1 newcom.122.2o7.net
+127.0.0.1 newsinteractive.112.2o7.net
+127.0.0.1 newsinternational.122.2o7.net
+127.0.0.1 newsok.112.2o7.net
+127.0.0.1 newstimeslivecom.112.2o7.net
+127.0.0.1 newyorkmagazine.112.2o7.net
+127.0.0.1 nhl.112.2o7.net
+127.0.0.1 nielsen.112.2o7.net
+127.0.0.1 nikefootball.112.2o7.net
+127.0.0.1 nikefootballglobal.112.2o7.net
+127.0.0.1 nikegoddess.112.2o7.net
+127.0.0.1 nikehome.112.2o7.net
+127.0.0.1 nikerunning.112.2o7.net
+127.0.0.1 nikerunningglobal.112.2o7.net
+127.0.0.1 njmvc.112.2o7.net
+127.0.0.1 nmanchorage.112.2o7.net
+127.0.0.1 nmbakersfieldca.112.2o7.net
+127.0.0.1 nmbeaufort.112.2o7.net
+127.0.0.1 nmbelleville.112.2o7.net
+127.0.0.1 nmbradenton.112.2o7.net
+127.0.0.1 nmcharlotte.112.2o7.net
+127.0.0.1 nmcolumbia.112.2o7.net
+127.0.0.1 nmcomnancomedia.112.2o7.net
+127.0.0.1 nmeprod.122.2o7.net
+127.0.0.1 nmfortworth.112.2o7.net
+127.0.0.1 nmfresno.112.2o7.net
+127.0.0.1 nmhiltonhead.112.2o7.net
+127.0.0.1 nmkansascity.112.2o7.net
+127.0.0.1 nmlexington.112.2o7.net
+127.0.0.1 nmmclatchy.112.2o7.net
+127.0.0.1 nmmerced.112.2o7.net
+127.0.0.1 nmmiami.112.2o7.net
+127.0.0.1 nmminneapolis.112.2o7.net
+127.0.0.1 nmmodesto.112.2o7.net
+127.0.0.1 nmraleigh.112.2o7.net
+127.0.0.1 nmrockhill.112.2o7.net
+127.0.0.1 nmsacramento.112.2o7.net
+127.0.0.1 nmsanluisobispo.112.2o7.net
+127.0.0.1 nmstatecollege.112.2o7.net
+127.0.0.1 nmthatsracin.112.2o7.net
+127.0.0.1 nortelcom.112.2o7.net
+127.0.0.1 northjersey.112.2o7.net
+127.0.0.1 northwestairlines.112.2o7.net
+127.0.0.1 novell.112.2o7.net
+127.0.0.1 novellcom.112.2o7.net
+127.0.0.1 nsdldlese.112.2o7.net
+127.0.0.1 nttcommunications.122.2o7.net
+127.0.0.1 nysun.com.112.2o7.net
+127.0.0.1 nytbglobe.112.2o7.net
+127.0.0.1 nytrflorence.112.2o7.net
+127.0.0.1 nytrgainesville.112.2o7.net
+127.0.0.1 nytrhendersonville.112.2o7.net
+127.0.0.1 nytrlakeland.112.2o7.net
+127.0.0.1 nytrlexington.112.2o7.net
+127.0.0.1 nytrocala.112.2o7.net
+127.0.0.1 nytrsantarosa.112.2o7.net
+127.0.0.1 nytrsarasota.112.2o7.net
+127.0.0.1 nytrthibodaux.112.2o7.net
+127.0.0.1 nytrtuscaloosa.112.2o7.net
+127.0.0.1 nytrwilmington.112.2o7.net
+127.0.0.1 nytrwinterhaven.112.2o7.net
+127.0.0.1 nytrworcester.112.2o7.net
+127.0.0.1 nyttechnology.112.2o7.net
+127.0.0.1 oberonincredig.112.2o7.net
+127.0.0.1 oklahomadepartmentofcommerce.112.2o7.net
+127.0.0.1 omniscbt.112.2o7.net
+127.0.0.1 omniture.112.2o7.net
+127.0.0.1 omniturebanners.112.2o7.net
+127.0.0.1 omniturecom.112.2o7.net
+127.0.0.1 omvisidtest1.112.2o7.net
+127.0.0.1 onetoone.112.2o7.net
+127.0.0.1 onlinegurupopularsitecom.112.2o7.net
+127.0.0.1 oodpreprod.122.2o7.net
+127.0.0.1 optimost.112.2o7.net
+127.0.0.1 oraclecom.112.2o7.net
+127.0.0.1 oracleglobal.112.2o7.net
+127.0.0.1 osiristrading.112.2o7.net
+127.0.0.1 ottacknet.112.2o7.net
+127.0.0.1 ottdailytidingscom.112.2o7.net
+127.0.0.1 overstockcom.112.2o7.net
+127.0.0.1 overturecom.112.2o7.net
+127.0.0.1 overturecomvista.112.2o7.net
+127.0.0.1 pandasoftware.112.2o7.net
+127.0.0.1 partygaming.122.2o7.net
+127.0.0.1 partygamingglobal.122.2o7.net
+127.0.0.1 paypal.112.2o7.net
+127.0.0.1 pch.122.2o7.net
+127.0.0.1 pctoolscom.112.2o7.net
+127.0.0.1 pennwellcorp.112.2o7.net
+127.0.0.1 pentonmedia.122.2o7.net
+127.0.0.1 petakfc.112.2o7.net
+127.0.0.1 petamain.112.2o7.net
+127.0.0.1 philips.112.2o7.net
+127.0.0.1 phillyburbscom.112.2o7.net
+127.0.0.1 phillycom.112.2o7.net
+127.0.0.1 pittsburghpostgazette.112.2o7.net
+127.0.0.1 planetout.122.2o7.net
+127.0.0.1 pldev.112.2o7.net
+127.0.0.1 plsoyfoods.112.2o7.net
+127.0.0.1 poacprod.122.2o7.net
+127.0.0.1 poconorecordcom.112.2o7.net
+127.0.0.1 popcapgames.122.2o7.net
+127.0.0.1 powellsbooks.122.2o7.net
+127.0.0.1 poweronemedia.122.2o7.net
+127.0.0.1 premiumtv.122.2o7.net
+127.0.0.1 primediabusiness.122.2o7.net
+127.0.0.1 primemensfitness.112.2o7.net
+127.0.0.1 primestarmagazine.112.2o7.net
+127.0.0.1 prnewswire.122.2o7.net
+127.0.0.1 pulkauaiworld.112.2o7.net
+127.0.0.1 pultheworldlink.112.2o7.net
+127.0.0.1 questiacom.112.2o7.net
+127.0.0.1 questsoftware.112.2o7.net
+127.0.0.1 qwestfull.112.2o7.net
+127.0.0.1 rainbowmedia.122.2o7.net
+127.0.0.1 rakuten.112.2o7.net
+127.0.0.1 rcntelecom.112.2o7.net
+127.0.0.1 rebtelnetworks.112.2o7.net
+127.0.0.1 recordeaglecom.112.2o7.net
+127.0.0.1 recordnetcom.112.2o7.net
+127.0.0.1 recordonlinecom.112.2o7.net
+127.0.0.1 registercom.122.2o7.net
+127.0.0.1 remodelingonlinecom.112.2o7.net
+127.0.0.1 rentcom.112.2o7.net
+127.0.0.1 reunioncom.112.2o7.net
+127.0.0.1 ringcentral.112.2o7.net
+127.0.0.1 riptownmedia.122.2o7.net
+127.0.0.1 riverdeep.112.2o7.net
+127.0.0.1 rmgparcelforcecom.112.2o7.net
+127.0.0.1 rmgroyalmailcom.112.2o7.net
+127.0.0.1 rrpartners.122.2o7.net
+127.0.0.1 sa.aol.com.122.2o7.net
+127.0.0.1 safaribooks.112.2o7.net
+127.0.0.1 saksfifthavenue.122.2o7.net
+127.0.0.1 santacruzsentinelcom.112.2o7.net
+127.0.0.1 saxobutlereagle.122.2o7.net
+127.0.0.1 saxoconcordmonitor.122.2o7.net
+127.0.0.1 saxoeverett.122.2o7.net
+127.0.0.1 saxofosters.122.2o7.net
+127.0.0.1 saxogoerie.122.2o7.net
+127.0.0.1 saxogreensboro.122.2o7.net
+127.0.0.1 saxoorklamedia.122.2o7.net
+127.0.0.1 saxopeninsuladailynews.122.2o7.net
+127.0.0.1 saxorutland.122.2o7.net
+127.0.0.1 saxosumteritem.122.2o7.net
+127.0.0.1 saxotech.122.2o7.net
+127.0.0.1 saxotechtylerpaper.122.2o7.net
+127.0.0.1 saxotelegraph.122.2o7.net
+127.0.0.1 saxotoledo.122.2o7.net
+127.0.0.1 saxowatertowndailytimes.122.2o7.net
+127.0.0.1 saxowenworld.122.2o7.net
+127.0.0.1 saxowesterncommunications.122.2o7.net
+127.0.0.1 sbsblukgov.112.2o7.net
+127.0.0.1 schaeffers.112.2o7.net
+127.0.0.1 sciamcom.112.2o7.net
+127.0.0.1 scottrade.112.2o7.net
+127.0.0.1 scrippsdiy.112.2o7.net
+127.0.0.1 scrippsfineliving.112.2o7.net
+127.0.0.1 scrippsfoodnet.112.2o7.net
+127.0.0.1 scrippsfoodnetnew.112.2o7.net
+127.0.0.1 scrippsgac.112.2o7.net
+127.0.0.1 scrippshgtv.112.2o7.net
+127.0.0.1 scrippshgtvpro.112.2o7.net
+127.0.0.1 scrippsrecipezaar.112.2o7.net
+127.0.0.1 seacoastonlinecom.112.2o7.net
+127.0.0.1 sears.112.2o7.net
+127.0.0.1 searscom.112.2o7.net
+127.0.0.1 searskmartcom.112.2o7.net
+127.0.0.1 sento.122.2o7.net
+127.0.0.1 sevenoneintermedia.112.2o7.net
+127.0.0.1 shawnewspapers.112.2o7.net
+127.0.0.1 shopping.112.2o7.net
+127.0.0.1 skyauction.122.2o7.net
+127.0.0.1 slbbbcom.112.2o7.net
+127.0.0.1 sltravelcom.112.2o7.net
+127.0.0.1 smartmoney.112.2o7.net
+127.0.0.1 smibs.112.2o7.net
+127.0.0.1 smokingeverywhere.122.2o7.net
+127.0.0.1 smpopmech.112.2o7.net
+127.0.0.1 smwww.112.2o7.net
+127.0.0.1 snagajob.122.2o7.net
+127.0.0.1 snapfish.112.2o7.net
+127.0.0.1 softonic.112.2o7.net
+127.0.0.1 sonychina.112.2o7.net
+127.0.0.1 sonycorporate.112.2o7.net
+127.0.0.1 sonyscei.112.2o7.net
+127.0.0.1 southcoasttodaycom.112.2o7.net
+127.0.0.1 spamfighter.112.2o7.net
+127.0.0.1 sparknetworks.112.2o7.net
+127.0.0.1 sportingnews.122.2o7.net
+127.0.0.1 sprintglobal.112.2o7.net
+127.0.0.1 stampscom.112.2o7.net
+127.0.0.1 starz.122.2o7.net
+127.0.0.1 stpetersburgtimes.122.2o7.net
+127.0.0.1 stubhub.122.2o7.net
+127.0.0.1 stylincom.112.2o7.net
+127.0.0.1 summitbusinessmedia.112.2o7.net
+127.0.0.1 sunglobal.112.2o7.net
+127.0.0.1 superpages.122.2o7.net
+127.0.0.1 surfline.112.2o7.net
+127.0.0.1 survey.112.2o7.net
+127.0.0.1 survey.122.2o7.net
+127.0.0.1 swsoft.122.2o7.net
+127.0.0.1 sympmsnglobalen.112.2o7.net
+127.0.0.1 sympmsnmusic.112.2o7.net
+127.0.0.1 tangomedia.112.2o7.net
+127.0.0.1 tbstv.112.2o7.net
+127.0.0.1 tbsveryfunnyads.112.2o7.net
+127.0.0.1 techreview.112.2o7.net
+127.0.0.1 tel3adv.112.2o7.net
+127.0.0.1 tele2nl.112.2o7.net
+127.0.0.1 telefloracom.112.2o7.net
+127.0.0.1 tgn.122.2o7.net
+127.0.0.1 thayhiltonlongisland.112.2o7.net
+127.0.0.1 thayhoteldelcoronado.112.2o7.net
+127.0.0.1 thayvenetian.112.2o7.net
+127.0.0.1 thedailystarcom.112.2o7.net
+127.0.0.1 thelibraryofcongress.122.2o7.net
+127.0.0.1 thestar.122.2o7.net
+127.0.0.1 thestardev.122.2o7.net
+127.0.0.1 thgalecom.112.2o7.net
+127.0.0.1 thinkgeek.112.2o7.net
+127.0.0.1 thomasvillefurniture.122.2o7.net
+127.0.0.1 thome.112.2o7.net
+127.0.0.1 timecom.112.2o7.net
+127.0.0.1 timecom.122.2o7.net
+127.0.0.1 timeessence.122.2o7.net
+127.0.0.1 timeew.122.2o7.net
+127.0.0.1 timefoodandwine.122.2o7.net
+127.0.0.1 timefortune.112.2o7.net
+127.0.0.1 timehealthtips.122.2o7.net
+127.0.0.1 timeinc.122.2o7.net
+127.0.0.1 timelife.122.2o7.net
+127.0.0.1 timeoutcommunications.122.2o7.net
+127.0.0.1 timepeople.122.2o7.net
+127.0.0.1 timepespanol.122.2o7.net
+127.0.0.1 timespctenbest.122.2o7.net
+127.0.0.1 timeteenpeople.122.2o7.net
+127.0.0.1 tirerackcom.112.2o7.net
+127.0.0.1 tjx.112.2o7.net
+127.0.0.1 tmslexus.112.2o7.net
+127.0.0.1 tmstoyota.112.2o7.net
+127.0.0.1 tnttv.112.2o7.net
+127.0.0.1 torstardigital.122.2o7.net
+127.0.0.1 toyota.112.2o7.net
+127.0.0.1 trailblazers.122.2o7.net
+127.0.0.1 travidia.112.2o7.net
+127.0.0.1 tribuneinteractive.122.2o7.net
+127.0.0.1 trinitymirror.112.2o7.net
+127.0.0.1 turnerclassic.112.2o7.net
+127.0.0.1 turnersports.112.2o7.net
+127.0.0.1 tvguide.112.2o7.net
+127.0.0.1 uolfreeservers.112.2o7.net
+127.0.0.1 uoljunocom2.112.2o7.net
+127.0.0.1 uolnetzeronet2.112.2o7.net
+127.0.0.1 uolphotosite.112.2o7.net
+127.0.0.1 upi.112.2o7.net
+127.0.0.1 usatoday1.112.2o7.net
+127.0.0.1 usdm.122.2o7.net
+127.0.0.1 usnews.122.2o7.net
+127.0.0.1 vcomdeepdiscount.112.2o7.net
+127.0.0.1 vcommerce.112.2o7.net
+127.0.0.1 verisignwildcard.112.2o7.net
+127.0.0.1 vermontteddybear.112.2o7.net
+127.0.0.1 viaaddictingclips.112.2o7.net
+127.0.0.1 viaaddictinggames.112.2o7.net
+127.0.0.1 viaatom.112.2o7.net
+127.0.0.1 viaatomv6.112.2o7.net
+127.0.0.1 viacomedycentral.112.2o7.net
+127.0.0.1 viacomedycentralrl.112.2o7.net
+127.0.0.1 viagametrailers.112.2o7.net
+127.0.0.1 vialogoonline.112.2o7.net
+127.0.0.1 vialogorollup.112.2o7.net
+127.0.0.1 viamtv.112.2o7.net
+127.0.0.1 viamtvcom.112.2o7.net
+127.0.0.1 viamtvnvideo.112.2o7.net
+127.0.0.1 viamtvtr.112.2o7.net
+127.0.0.1 viamtvtr3s.112.2o7.net
+127.0.0.1 viamtvuk.112.2o7.net
+127.0.0.1 viamtvukdev.112.2o7.net
+127.0.0.1 viaquiz.112.2o7.net
+127.0.0.1 viarnd.112.2o7.net
+127.0.0.1 viasatsatelliteservices.112.2o7.net
+127.0.0.1 viashockwave.112.2o7.net
+127.0.0.1 viaspike.112.2o7.net
+127.0.0.1 viavh1com.112.2o7.net
+127.0.0.1 viavh1scandalist.112.2o7.net
+127.0.0.1 viavh1video.112.2o7.net
+127.0.0.1 viay2m.112.2o7.net
+127.0.0.1 victoriaadvocate.112.2o7.net
+127.0.0.1 videotroncom.112.2o7.net
+127.0.0.1 vintacom.112.2o7.net
+127.0.0.1 vintadream.112.2o7.net
+127.0.0.1 virginmedia.112.2o7.net
+127.0.0.1 vitacost.122.2o7.net
+127.0.0.1 vodafonegroup.122.2o7.net
+127.0.0.1 volkswagen.122.2o7.net
+127.0.0.1 vpmc.122.2o7.net
+127.0.0.1 walgrns.112.2o7.net
+127.0.0.1 walmart.112.2o7.net
+127.0.0.1 warnerbros.112.2o7.net
+127.0.0.1 warnerbrothersrecords.112.2o7.net
+127.0.0.1 waterfrontmedia.112.2o7.net
+127.0.0.1 wbextecd.112.2o7.net
+127.0.0.1 wbnews.112.2o7.net
+127.0.0.1 wbprocurement.112.2o7.net
+127.0.0.1 wcastrprod.122.2o7.net
+127.0.0.1 webroot.112.2o7.net
+127.0.0.1 westwickfarrow.122.2o7.net
+127.0.0.1 whitecastle.122.2o7.net
+127.0.0.1 winecom.112.2o7.net
+127.0.0.1 winmpmain.112.2o7.net
+127.0.0.1 wissende.122.2o7.net
+127.0.0.1 wlaptoplogic.122.2o7.net
+127.0.0.1 worldnowboston.112.2o7.net
+127.0.0.1 wpni.112.2o7.net
+127.0.0.1 wrigley.122.2o7.net
+127.0.0.1 wwatchcomusa.112.2o7.net
+127.0.0.1 wweconsumer.112.2o7.net
+127.0.0.1 wwecorp2.112.2o7.net
+127.0.0.1 xhealth.112.2o7.net
+127.0.0.1 xhealthmobiltools.112.2o7.net
+127.0.0.1 yamaha.122.2o7.net
+127.0.0.1 yellcom.122.2o7.net
+127.0.0.1 yrkdsp.112.2o7.net
+127.0.0.1 yukoyuko.112.2o7.net
+127.0.0.1 zag.112.2o7.net
+127.0.0.1 zango.112.2o7.net
+127.0.0.1 zdau-builder.122.2o7.net
+127.0.0.1 ziffdavisenterprise.112.2o7.net
+127.0.0.1 ziffdavisenterpriseglobal.112.2o7.net
+127.0.0.1 ziffdaviseweek.112.2o7.net
+127.0.0.1 ziffdavisfilefront.112.2o7.net
+127.0.0.1 ziffdavisglobal.112.2o7.net
+127.0.0.1 ziffdavispennyarcade.112.2o7.net
+
+# 3xredtube.info
+127.0.0.1 3xredtube.info
+
+# 4-you.net
+127.0.0.1 www.4-you.net
+
+# 42trck.com
+127.0.0.1 42trck.com
+
+# 4clvr.jp
+127.0.0.1 img.4clvr.jp
+
+# 5.to
+127.0.0.1 d.5.to
+
+# 7113658.com
+127.0.0.1 allantivirus.7113658.com
+
+# 7889261.com
+127.0.0.1 dqrzz.super-hub.7889261.com
+
+# 7889596.com
+127.0.0.1 all.7889596.com
+
+# 7gogo.jp
+127.0.0.1 contents.7gogo.jp
+
+# 82comb.net
+127.0.0.1 t.82comb.net
+
+# a-c-engine.com
+127.0.0.1 www2.a-c-engine.com
+
+# a-cast.jp
+127.0.0.1 tracer.a-cast.jp
+
+# a-i-ad.com
+127.0.0.1 ad.insight.a-i-ad.com
+
+# a-pagerank.net
+127.0.0.1 www.a-pagerank.net
+
+# a8.net
+127.0.0.1 ad.a8.net
+127.0.0.1 amz-ad.a8.net
+127.0.0.1 px.a8.net
+127.0.0.1 rot0.a8.net
+127.0.0.1 rot1.a8.net
+127.0.0.1 rot2.a8.net
+127.0.0.1 rot3.a8.net
+127.0.0.1 rot4.a8.net
+127.0.0.1 rot5.a8.net
+127.0.0.1 rot6.a8.net
+127.0.0.1 rot7.a8.net
+127.0.0.1 rot8.a8.net
+127.0.0.1 rot9.a8.net
+127.0.0.1 rws.a8.net
+127.0.0.1 www10.a8.net
+127.0.0.1 www11.a8.net
+127.0.0.1 www12.a8.net
+127.0.0.1 www13.a8.net
+127.0.0.1 www14.a8.net
+127.0.0.1 www15.a8.net
+127.0.0.1 www16.a8.net
+127.0.0.1 www17.a8.net
+127.0.0.1 www18.a8.net
+127.0.0.1 www19.a8.net
+127.0.0.1 www20.a8.net
+127.0.0.1 www21.a8.net
+127.0.0.1 www22.a8.net
+127.0.0.1 www23.a8.net
+127.0.0.1 www24.a8.net
+127.0.0.1 www25.a8.net
+127.0.0.1 www26.a8.net
+127.0.0.1 www27.a8.net
+127.0.0.1 www28.a8.net
+127.0.0.1 www29.a8.net
+
+# aaaf.jp
+127.0.0.1 aaaf.jp
+
+# aacdn.jp
+127.0.0.1 aoe.aacdn.jp
+
+# aaddcount.com
+127.0.0.1 js.aaddcount.com
+
+# aairs.top
+127.0.0.1 us.aairs.top
+
+# accessport.jp
+127.0.0.1 accessport.jp
+
+# accesstrade.net
+127.0.0.1 h.accesstrade.net
+127.0.0.1 www.accesstrade.net
+
+# ad-arata.com
+127.0.0.1 ad-arata.com
+127.0.0.1 ad.ad-arata.com
+
+# ad-brix.com
+127.0.0.1 ref.ad-brix.com
+127.0.0.1 tracking.ad-brix.com
+
+# ad-click.biz
+127.0.0.1 www.ad-click.biz
+
+# ad-cloud.jp
+127.0.0.1 ameba.d.ad-cloud.jp
+127.0.0.1 c.ameba.d.ad-cloud.jp
+
+# ad-count.jp
+127.0.0.1 ad-count.jp
+
+# ad-feed.com
+127.0.0.1 ap.ad-feed.com
+
+# ad-house.mobi
+127.0.0.1 ad-house.mobi
+
+# ad-lista.com
+127.0.0.1 ad-lista.com
+
+# ad-m.asia
+127.0.0.1 sync-dsp.ad-m.asia
+
+# ad-maker.info
+127.0.0.1 admin.ad-maker.info
+127.0.0.1 images.ad-maker.info
+127.0.0.1 ox-d.ad-maker.info
+127.0.0.1 ox-i.ad-maker.info
+
+# ad-move.jp
+127.0.0.1 ad-move.jp
+
+# ad-rider.com
+127.0.0.1 ad.ad-rider.com
+
+# ad-seek.jp
+127.0.0.1 ad-seek.jp
+127.0.0.1 img.ad-seek.jp
+
+# ad-sell.com
+127.0.0.1 ad-sell.com
+
+# ad-shot.com
+127.0.0.1 ad-shot.com
+
+# ad-smile.jp
+127.0.0.1 image.ad-smile.jp
+
+# ad-stir.com
+127.0.0.1 ad.ad-stir.com
+127.0.0.1 adtag.ad-stir.com
+127.0.0.1 bypass-image.ad-stir.com
+127.0.0.1 bypass.ad-stir.com
+127.0.0.1 dist.adp.ad-stir.com
+127.0.0.1 dist.bpc.ad-stir.com
+127.0.0.1 js.ad-stir.com
+127.0.0.1 rtb.ad-stir.com
+127.0.0.1 sync.ad-stir.com
+
+# ad-traffic.jp
+127.0.0.1 as.xa.ad-traffic.jp
+
+# ad-trip.com
+127.0.0.1 ad-trip.com
+127.0.0.1 img.ad-trip.com
+
+# ad-v.jp
+127.0.0.1 cf.ad-v.jp
+127.0.0.1 i.ad-v.jp
+
+# ad1-click.com
+127.0.0.1 cdn.ad1-click.com
+
+# ad1data.com
+127.0.0.1 go.ad1data.com
+
+# adap.tv
+127.0.0.1 adap.tv
+127.0.0.1 sync.adap.tv
+
+# adapf.com
+127.0.0.1 ds.adapf.com
+127.0.0.1 rs.adapf.com
+
+# adblade.com
+127.0.0.1 web.adblade.com
+
+# adcash.com
+127.0.0.1 www.adcash.com
+
+# adclr.jp
+127.0.0.1 adclr.jp
+
+# adcolony.com
+127.0.0.1 androidads20.adcolony.com
+127.0.0.1 events3.adcolony.com
+127.0.0.1 events3alt.adcolony.com
+
+# adcount.mobi
+127.0.0.1 adcount.mobi
+
+# adcrops.net
+127.0.0.1 js.adcrops.net
+127.0.0.1 t.adcrops.net
+
+# adcv.jp
+127.0.0.1 adcv.jp
+
+# addeluxe.jp
+127.0.0.1 addeluxe.jp
+127.0.0.1 adv.addeluxe.jp
+127.0.0.1 img.addeluxe.jp
+
+# addthis.com
+127.0.0.1 s7.addthis.com
+
+# addtoany.com
+127.0.0.1 www.addtoany.com
+
+# ade1rtb.com
+127.0.0.1 ade1rtb.com
+
+# adfclick1.com
+127.0.0.1 xml.adfclick1.com
+
+# adflare.bz
+127.0.0.1 js.adflare.bz
+127.0.0.1 js2.adflare.bz
+
+# adflare.jp
+127.0.0.1 js.adflare.jp
+
+# adforest.net
+127.0.0.1 adforest.net
+
+# adfurikun.jp
+127.0.0.1 adfurikun.jp
+127.0.0.1 api.adfurikun.jp
+127.0.0.1 ginf.adfurikun.jp
+127.0.0.1 i.adfurikun.jp
+127.0.0.1 ipua.adfurikun.jp
+
+# adgger.jp
+127.0.0.1 public.adgger.jp
+127.0.0.1 static.adgger.jp
+127.0.0.1 www.adgger.jp
+
+# adgrip.net
+127.0.0.1 adgrip.net
+127.0.0.1 adwebp.adgrip.net
+
+# adgrowth.jp
+127.0.0.1 api.adgrowth.jp
+
+# adimg.net
+127.0.0.1 a.adimg.net
+127.0.0.1 g.adimg.net
+
+# adingo.jp
+127.0.0.1 c.dr.adingo.jp
+127.0.0.1 cdn-fluct.sh.adingo.jp
+127.0.0.1 cs.adingo.jp
+127.0.0.1 i.adingo.jp
+127.0.0.1 rd.adingo.jp
+127.0.0.1 s.sh.adingo.jp
+127.0.0.1 sh.adingo.jp
+
+# adjust-net.jp
+127.0.0.1 ads.adjust-net.jp
+127.0.0.1 afs.adjust-net.jp
+127.0.0.1 cre.adjust-net.jp
+127.0.0.1 ifr.adjust-net.jp
+
+# adjust-sp.jp
+127.0.0.1 a.adjust-sp.jp
+127.0.0.1 adjust-sp.jp
+127.0.0.1 i.adjust-sp.jp
+127.0.0.1 js.adjust-sp.jp
+
+# adjust.com
+127.0.0.1 app.adjust.com
+
+# adjustnetwork.com
+127.0.0.1 www.adjustnetwork.com
+
+# adk2x.com
+127.0.0.1 adplexmedia.adk2x.com
+127.0.0.1 iasrv.adk2x.com
+127.0.0.1 wmedia.adk2x.com
+127.0.0.1 yepdigital.adk2x.com
+
+# adlantis.jp
+127.0.0.1 ad.adlantis.jp
+127.0.0.1 adlantis.jp
+127.0.0.1 ak.assets.adlantis.jp
+127.0.0.1 conv.adlantis.jp
+127.0.0.1 m.ad.adlantis.jp
+127.0.0.1 sp.ad.adlantis.jp
+127.0.0.1 sp.click.adlantis.jp
+127.0.0.1 sp.conv.adlantis.jp
+127.0.0.1 sp.www.adlantis.jp
+127.0.0.1 static.adlantis.jp
+127.0.0.1 uuid.adlantis.jp
+127.0.0.1 vatan.adlantis.jp
+127.0.0.1 vatanir.adlantis.jp
+127.0.0.1 www.adlantis.jp
+
+# adlove.jp
+127.0.0.1 adlove.jp
+
+# admatrix.jp
+127.0.0.1 sync-tapi.admatrix.jp
+
+# admeme.net
+127.0.0.1 adv.admeme.net
+
+# adming.net
+127.0.0.1 adming.net
+
+# admob.com
+127.0.0.1 a.admob.com
+127.0.0.1 admob.com
+127.0.0.1 analytics.admob.com
+127.0.0.1 api.admob.com
+127.0.0.1 c.admob.com
+127.0.0.1 e.admob.com
+127.0.0.1 jp.admob.com
+127.0.0.1 media.admob.com
+127.0.0.1 mm.admob.com
+127.0.0.1 mm1.vip.sc1.admob.com
+127.0.0.1 mmv.admob.com
+127.0.0.1 p.admob.com
+127.0.0.1 r.admob.com
+127.0.0.1 t.admob.com
+127.0.0.1 zhcn.admob.com
+
+# admobitrack.com
+127.0.0.1 admobitrack.com
+
+# adnetasia.com
+127.0.0.1 crunchyroll.adnetasia.com
+
+# adnico.jp
+127.0.0.1 100291.adnico.jp
+
+# adnxs.com
+127.0.0.1 ib.adnxs.com
+
+# adobe.com
+127.0.0.1 animate.adobe.com
+
+# adplan-ds.com
+127.0.0.1 ad.adplan-ds.com
+127.0.0.1 adplan-ds.com
+
+# adplan.ne.jp
+127.0.0.1 www.adplan.ne.jp
+
+# adplatform.jp
+127.0.0.1 adplatform.jp
+127.0.0.1 tr.adplatform.jp
+
+# adpon.net
+127.0.0.1 ru.adpon.net
+
+# adrcf.com
+127.0.0.1 adrcf.com
+
+# adresult-sp.jp
+127.0.0.1 adresult-sp.jp
+127.0.0.1 d.adresult-sp.jp
+127.0.0.1 i.adresult-sp.jp
+127.0.0.1 j.adresult-sp.jp
+
+# adresult.jp
+127.0.0.1 ad.adresult.jp
+127.0.0.1 adresult.jp
+
+# adrunnr.com
+127.0.0.1 adrunnr.com
+
+# ads-i2i.jp
+127.0.0.1 ads-i2i.jp
+
+# ads-tool.jp
+127.0.0.1 sp.ads-tool.jp
+
+# ads.gold
+127.0.0.1 ads.gold
+
+# adscpm.net
+127.0.0.1 popserve.adscpm.net
+
+# adsee.jp
+127.0.0.1 linker.adsee.jp
+
+# adserving.jp
+127.0.0.1 adserving.jp
+127.0.0.1 j.adserving.jp
+
+# adservme.com
+127.0.0.1 ads.adservme.com
+
+# adsinstant.com
+127.0.0.1 static.adsinstant.com
+
+# adsp.jp
+127.0.0.1 adsp.jp
+
+# adsrvr.org
+127.0.0.1 ad.adsrvr.org
+127.0.0.1 match.adsrvr.org
+
+# adstore.jp
+127.0.0.1 a1.adstore.jp
+
+# adtdp.com
+127.0.0.1 acs.adtdp.com
+127.0.0.1 ad.amanad.adtdp.com
+127.0.0.1 ad.caprofitx.adtdp.com
+127.0.0.1 adp-pubd-static.adtdp.com
+127.0.0.1 imp.amanad.adtdp.com
+127.0.0.1 inview.amanad.adtdp.com
+127.0.0.1 lodeo-adnw.adtdp.com
+127.0.0.1 pv.amanad.adtdp.com
+127.0.0.1 rs-ap.adtdp.com
+
+# adtear.com
+127.0.0.1 adtear.com
+
+# adtech.de
+127.0.0.1 ad.dc2.adtech.de
+
+# adtechjp.com
+127.0.0.1 ums.adtechjp.com
+
+# adticker.net
+127.0.0.1 adticker.net
+127.0.0.1 d.adticker.net
+127.0.0.1 j.adticker.net
+
+# adtracker.jp
+127.0.0.1 adtracker.jp
+
+# adtrackers.net
+127.0.0.1 ox-d.adtrackers.net
+
+# adtune.jp
+127.0.0.1 adtune.jp
+127.0.0.1 lotate.adtune.jp
+
+# adultsuns.net
+127.0.0.1 adultsuns.net
+
+# advack.net
+127.0.0.1 advack.net
+
+# advertising.com
+127.0.0.1 ace.advertising.com
+127.0.0.1 advertising.com
+127.0.0.1 bannerfarm.ace.advertising.com
+127.0.0.1 leadback.advertising.com
+127.0.0.1 uac.advertising.com
+127.0.0.1 www.jp.advertising.com
+
+# advg.jp
+127.0.0.1 dex.advg.jp
+127.0.0.1 ds.advg.jp
+127.0.0.1 o.advg.jp
+127.0.0.1 r.advg.jp
+127.0.0.1 ssp.advg.jp
+
+# advision-adnw.jp
+127.0.0.1 100234.advision-adnw.jp
+127.0.0.1 100602.advision-adnw.jp
+127.0.0.1 100651.advision-adnw.jp
+127.0.0.1 100800.advision-adnw.jp
+
+# adxpansion.com
+127.0.0.1 ads.adxpansion.com
+127.0.0.1 cs.adxpansion.com
+
+# adyz.net
+127.0.0.1 adyz.net
+
+# adzcore.com
+127.0.0.1 action.adzcore.com
+
+# adzerk.net
+127.0.0.1 adzerk.net
+127.0.0.1 static.adzerk.net
+
+# af-mark.jp
+127.0.0.1 www.af-mark.jp
+
+# affil.jp
+127.0.0.1 affil.jp
+127.0.0.1 ib.affil.jp
+
+# affiliate-b.com
+127.0.0.1 affiliate-b.com
+127.0.0.1 track.affiliate-b.com
+127.0.0.1 www.affiliate-b.com
+
+# affiliateone.jp
+127.0.0.1 affiliateone.jp
+
+# affilist-a-ban01.com
+127.0.0.1 affilist-a-ban01.com
+
+# affilist-n-ban01.com
+127.0.0.1 affilist-n-ban01.com
+
+# affilist-n-link01.com
+127.0.0.1 affilist-n-link01.com
+
+# affipa.ne.jp
+127.0.0.1 ad.affipa.ne.jp
+
+# afnet.jp
+127.0.0.1 n.afnet.jp
+
+# agilemedia.jp
+127.0.0.1 ad.agilemedia.jp
+127.0.0.1 agilemedia.jp
+
+# agoda.com
+127.0.0.1 banner.agoda.com
+
+# aiasahi.jp
+127.0.0.1 imp.aiasahi.jp
+
+# aid-ad.jp
+127.0.0.1 aid-ad.jp
+127.0.0.1 front.aid-ad.jp
+127.0.0.1 www.aid-ad.jp
+
+# aigames.mobi
+127.0.0.1 strk.aigames.mobi
+
+# aikotoba.jp
+127.0.0.1 ct2.aikotoba.jp
+
+# airpush.com
+127.0.0.1 ab.airpush.com
+
+# aiueo-keizai.com
+127.0.0.1 image.aiueo-keizai.com
+
+# ajxqiongbg.com
+127.0.0.1 m.ajxqiongbg.com
+
+# akamaihd.net
+127.0.0.1 inmobisdk-a.akamaihd.net
+127.0.0.1 tapjoycdn-a.akamaihd.net
+
+# akamaized.net
+127.0.0.1 sfilegamefeat.akamaized.net
+127.0.0.1 speee-ad.akamaized.net
+
+# alistcloud.com
+127.0.0.1 cdn.alistcloud.com
+
+# alivedoors.com
+127.0.0.1 blog.alivedoors.com
+
+# allapp.pw
+127.0.0.1 pldrgergelgllinkp.allapp.pw
+
+# altech-ads.com
+127.0.0.1 altech-ads.com
+
+# alxsite.com
+127.0.0.1 alxsite.com
+
+# amaprop.net
+127.0.0.1 amaprop.net
+
+# amazingcreatives.fun
+127.0.0.1 www.amazingcreatives.fun
+
+# amazon-adsystem.com
+127.0.0.1 aax-fe.amazon-adsystem.com
+127.0.0.1 fls-fe.amazon-adsystem.com
+127.0.0.1 ir-jp.amazon-adsystem.com
+127.0.0.1 ps-jp.amazon-adsystem.com
+127.0.0.1 ps-us.amazon-adsystem.com
+127.0.0.1 rcm-fe.amazon-adsystem.com
+127.0.0.1 ws-fe.amazon-adsystem.com
+127.0.0.1 z-fe.amazon-adsystem.com
+
+# amazon.co.jp
+127.0.0.1 rcm-jp.amazon.co.jp
+127.0.0.1 ws.amazon.co.jp
+
+# amazonaws.com
+127.0.0.1 ad-arata.s3.amazonaws.com
+127.0.0.1 google-protection.com.s3-website-ap-northeast-1.amazonaws.com
+
+# ameba.jp
+127.0.0.1 ad.pr.ameba.jp
+127.0.0.1 api.curation.ameba.jp
+127.0.0.1 click.affiliate.ameba.jp
+127.0.0.1 spstatic.ameba.jp
+127.0.0.1 stat.gamy.ameba.jp
+127.0.0.1 usrattr.ameba.jp
+
+# ameblo.jp
+127.0.0.1 adt.measure.ameblo.jp
+
+# amh.sh
+127.0.0.1 amh.sh
+
+# amiami.jp
+127.0.0.1 amiami.jp
+
+# amigasa.jp
+127.0.0.1 ct2.amigasa.jp
+
+# amoad.com
+127.0.0.1 cdni.amoad.com
+127.0.0.1 d.amoad.com
+127.0.0.1 i.amoad.com
+127.0.0.1 j.amoad.com
+127.0.0.1 m.amoad.com
+127.0.0.1 mk.ca-conv.amoad.com
+127.0.0.1 n.amoad.com
+127.0.0.1 p.amoad.com
+
+# amung.us
+127.0.0.1 whos.amung.us
+127.0.0.1 widgets.amung.us
+
+# andoidtraffic.ru
+127.0.0.1 andoidtraffic.ru
+
+# android-devicecheck.mobi
+127.0.0.1 www.android-devicecheck.mobi
+
+# android-devicescan.mobi
+127.0.0.1 www.android-devicescan.mobi
+
+# android-store-download.com
+127.0.0.1 us.android-store-download.com
+
+# angel-live.com
+127.0.0.1 ad.angel-live.com
+
+# antennash.com
+127.0.0.1 www.antennash.com
+
+# antennasync.me
+127.0.0.1 antennasync.me
+
+# antivirusprotect-apps.info
+127.0.0.1 antivirusprotect-apps.info
+
+# app-adforce.jp
+127.0.0.1 analytics.app-adforce.jp
+
+# app-c.net
+127.0.0.1 api.app-c.net
+
+# app-play-stores.com
+127.0.0.1 click.app-play-stores.com
+
+# appad.click
+127.0.0.1 appad.click
+
+# appadsportable.site
+127.0.0.1 appadsportable.site
+
+# appdownscargo.com
+127.0.0.1 jp.appdownscargo.com
+
+# appdriver.jp
+127.0.0.1 appdriver.jp
+127.0.0.1 gyro.appdriver.jp
+
+# appier.mobi
+127.0.0.1 appier.mobi
+
+# appier.net
+127.0.0.1 xx.c.appier.net
+
+# appikomobile.com
+127.0.0.1 appikomobile.com
+
+# apple.com
+127.0.0.1 banners.itunes.apple.com
+
+# applipromotion.com
+127.0.0.1 ad.applipromotion.com
+
+# applogsdk.com
+127.0.0.1 api.applogsdk.com
+
+# applovin.com
+127.0.0.1 rt.applovin.com
+
+# appollo-plus.com
+127.0.0.1 appollo-plus.com
+
+# apps.fm
+127.0.0.1 ad.apps.fm
+
+# appsary.com
+127.0.0.1 ad.appsary.com
+
+# appsdt.com
+127.0.0.1 appsdt.com
+
+# appsthebest.com
+127.0.0.1 abc.appsthebest.com
+
+# apserver.net
+127.0.0.1 apserver.net
+127.0.0.1 rankc1.apserver.net
+
+# apvdr.com
+127.0.0.1 apvdr.com
+127.0.0.1 cdn.apvdr.com
+
+# arlinadzgn.com
+127.0.0.1 www.arlinadzgn.com
+
+# as-cube.co.jp
+127.0.0.1 ad.as-cube.co.jp
+
+# asahi.com
+127.0.0.1 imp.asahi.com
+
+# ashleyrnadison.com
+127.0.0.1 static-cdn.ashleyrnadison.com
+
+# asks.jp
+127.0.0.1 p.asks.jp
+
+# aspm.jp
+127.0.0.1 ad.aspm.jp
+127.0.0.1 aspm.jp
+
+# assoc-amazon.jp
+127.0.0.1 wms.assoc-amazon.jp
+127.0.0.1 ws.assoc-amazon.jp
+127.0.0.1 www.assoc-amazon.jp
+
+# astrsk.net
+127.0.0.1 android.public.astrsk.net
+127.0.0.1 cdn.astrsk.net
+127.0.0.1 js.astrsk.net
+127.0.0.1 public.astrsk.net
+
+# atdmt.com
+127.0.0.1 click.atdmt.com
+127.0.0.1 clicks.atdmt.com
+127.0.0.1 clk.atdmt.com
+127.0.0.1 spd.atdmt.com
+
+# atech.ne.jp
+127.0.0.1 ad.atech.ne.jp
+127.0.0.1 bnr.atech.ne.jp
+
+# atlnet.jp
+127.0.0.1 adl-wf4.s2.atlnet.jp
+127.0.0.1 adl-wf5v.s3.atlnet.jp
+127.0.0.1 adl-wf6v1.atlnet.jp
+
+# attached-04.xyz
+127.0.0.1 jp.attached-04.xyz
+
+# auone-net.jp
+127.0.0.1 ac.auone-net.jp
+127.0.0.1 www.ab.auone-net.jp
+127.0.0.1 www.ac.auone-net.jp
+
+# av-mdeta.com
+127.0.0.1 av-mdeta.com
+
+# avanato.com
+127.0.0.1 avanato.com
+
+# avdm.mobi
+127.0.0.1 avdm.mobi
+
+# axia-hakusan.com
+127.0.0.1 axia-hakusan.com
+
+# axyzconductor.jp
+127.0.0.1 ad.axyzconductor.jp
+
+# ba8.jp
+127.0.0.1 www.ba8.jp
+
+# backbeatmedia.com
+127.0.0.1 bullseye.backbeatmedia.com
+
+# baidu.com
+127.0.0.1 conf.international.baidu.com
+
+# baidu.jp
+127.0.0.1 msg.simeji.baidu.jp
+
+# baiduccdn.org
+127.0.0.1 www.baiduccdn.org
+
+# bannerbridge.net
+127.0.0.1 track.bannerbridge.net
+
+# bannertrack.net
+127.0.0.1 ox-d.bannertrack.net
+
+# bbchat.tv
+127.0.0.1 img.bbchat.tv
+
+# bead-ad.com
+127.0.0.1 bead-ad.com
+
+# become.co.jp
+127.0.0.1 partner.become.co.jp
+
+# bes-t-to-p-applicatio-n-development-online.site
+127.0.0.1 bes-t-to-p-applicatio-n-development-online.site
+
+# besappsfree.com
+127.0.0.1 besappsfree.com
+
+# bestphoneapps.mobi
+127.0.0.1 www.bestphoneapps.mobi
+
+# bibincom.com
+127.0.0.1 bibincom.com
+
+# bidverdrd.com
+127.0.0.1 secure.bidverdrd.com
+
+# bidverdrs.com
+127.0.0.1 secure.bidverdrs.com
+
+# binomax.net
+127.0.0.1 binomax.net
+
+# blog-livedorr.com
+127.0.0.1 blog-livedorr.com
+
+# blogram.jp
+127.0.0.1 widget.blogram.jp
+
+# blogranking.net
+127.0.0.1 banner.blogranking.net
+
+# blogroll.click
+127.0.0.1 a.blogroll.click
+
+# blozoo.info
+127.0.0.1 cache.blozoo.info
+
+# blueblade.co.jp
+127.0.0.1 js.blueblade.co.jp
+
+# bongacams.com
+127.0.0.1 bongacams.com
+
+# bootstrapcdn.com
+127.0.0.1 netdna.bootstrapcdn.com
+
+# brainer.jp
+127.0.0.1 ad.brainer.jp
+
+# brandscreen.biz
+127.0.0.1 static.brandscreen.biz
+
+# broadstreetads.com
+127.0.0.1 broadstreetads.com
+
+# browserloading.com
+127.0.0.1 browserloading.com
+
+# btstatic.com
+127.0.0.1 btstatic.com
+
+# buzzimpress.jp
+127.0.0.1 www.buzzimpress.jp
+
+# bypass.jp
+127.0.0.1 as.a.bypass.jp
+127.0.0.1 image.bypass.jp
+127.0.0.1 img.bypass.jp
+
+# c-team.jp
+127.0.0.1 cdn.c-team.jp
+
+# ca-conv.jp
+127.0.0.1 ad.ca-conv.jp
+127.0.0.1 auc.ca-conv.jp
+127.0.0.1 ca-conv.jp
+
+# ca-mp.jp
+127.0.0.1 ca-mp.jp
+
+# ca-mpr.jp
+127.0.0.1 ca-mpr.jp
+
+# caprofitx.com
+127.0.0.1 cdn.caprofitx.com
+
+# cartstick.com
+127.0.0.1 go.cartstick.com
+
+# cb-cdn.com
+127.0.0.1 ads.cb-cdn.com
+
+# checkm8.com
+127.0.0.1 qlipsodigital.checkm8.com
+
+# chicappa.jp
+127.0.0.1 err.chicappa.jp
+
+# chmato.me
+127.0.0.1 2.chmato.me
+
+# clickad.info
+127.0.0.1 ads.clickad.info
+127.0.0.1 clickad.info
+
+# clickadu.com
+127.0.0.1 clickadu.com
+
+# clickfusion.net
+127.0.0.1 m.clickfusion.net
+
+# clicklink.jp
+127.0.0.1 clicklink.jp
+
+# clickmedias.info
+127.0.0.1 pc.clickmedias.info
+127.0.0.1 sp.clickmedias.info
+
+# clicksgear.com
+127.0.0.1 www.clicksgear.com
+
+# clicktx.jp
+127.0.0.1 pink.clicktx.jp
+127.0.0.1 tools.clicktx.jp
+127.0.0.1 www.clicktx.jp
+
+# clipconverter.cc
+127.0.0.1 a.clipconverter.cc
+
+# cloudfront.net
+127.0.0.1 d19o643lxir6wy.cloudfront.net
+
+# coincheck.com
+127.0.0.1 coincheck.com
+
+# coinsicmp.com
+127.0.0.1 go.coinsicmp.com
+
+# colo2.jp
+127.0.0.1 js.colo2.jp
+
+# com-device-alert.online
+127.0.0.1 security.google.com-device-alert.online
+
+# com.sg
+127.0.0.1 netwayz.com.sg
+
+# com.tw
+127.0.0.1 ad.scupio.com.tw
+
+# come.cc
+127.0.0.1 ranklet.come.cc
+
+# connectoffer.com
+127.0.0.1 link.connectoffer.com
+
+# cookpad-ads.com
+127.0.0.1 a.cookpad-ads.com
+
+# coremagazine.co.jp
+127.0.0.1 bnr.coremagazine.co.jp
+
+# cormobile.com
+127.0.0.1 cormobile.com
+
+# count-ad.net
+127.0.0.1 count-ad.net
+
+# count3.mobi
+127.0.0.1 count3.mobi
+
+# cpcdn.com
+127.0.0.1 img5-ak.cpcdn.com
+
+# cq-andc.jp
+127.0.0.1 ad.cq-andc.jp
+
+# crazy-bee.com
+127.0.0.1 c.crazy-bee.com
+127.0.0.1 hitsite.crazy-bee.com
+
+# creativecarrer.com
+127.0.0.1 creativecarrer.com
+
+# criteo.com
+127.0.0.1 cas.criteo.com
+127.0.0.1 cat.jp.as.criteo.com
+
+# criteo.net
+127.0.0.1 criteo.net
+127.0.0.1 static.criteo.net
+
+# crooz.jp
+127.0.0.1 adck.crooz.jp
+127.0.0.1 cdn.pic.crooz.jp
+
+# crtracklink.com
+127.0.0.1 geo.crtracklink.com
+
+# csolution.jp
+127.0.0.1 cm-644.csolution.jp
+
+# cxense.com
+127.0.0.1 cdn.cxense.com
+127.0.0.1 scdn.cxense.com
+
+# cyberbuzz.jp
+127.0.0.1 blogscouter.cyberbuzz.jp
+
+# cyberwing.co.jp
+127.0.0.1 aimds.er.cyberwing.co.jp
+127.0.0.1 c.dr.cyberwing.co.jp
+
+# d-064.com
+127.0.0.1 image.d-064.com
+
+# d2c.ne.jp
+127.0.0.1 ad.ssp.d2c.ne.jp
+127.0.0.1 adg.d2c.ne.jp
+127.0.0.1 adw.d2c.ne.jp
+127.0.0.1 click.ssp.d2c.ne.jp
+127.0.0.1 lisads.d2c.ne.jp
+
+# dailyfortune.jp
+127.0.0.1 img.dailyfortune.jp
+
+# dailyprize.pw
+127.0.0.1 top.dailyprize.pw
+
+# dakromedia.com
+127.0.0.1 track.dakromedia.com
+
+# danmeneldur.com
+127.0.0.1 danmeneldur.com
+
+# dansdroid12.com
+127.0.0.1 dansdroid12.com
+
+# data.ea.com
+127.0.0.1 rivergt.data.ea.com
+
+# daum.net
+127.0.0.1 alea.adam.ad.daum.net
+
+# deaisakura-info.com
+127.0.0.1 image.deaisakura-info.com
+
+# deutseu.com
+127.0.0.1 track.deutseu.com
+
+# dgpot.com
+127.0.0.1 dgpot.com
+
+# directlink.jp
+127.0.0.1 directlink.jp
+
+# directrev.com
+127.0.0.1 directrev.com
+
+# disco-styles.net
+127.0.0.1 image2u.disco-styles.net
+
+# dmm.co.jp
+127.0.0.1 aqua.dmm.co.jp
+
+# doko.jp
+127.0.0.1 ads.doko.jp
+127.0.0.1 nw.ads.doko.jp
+
+# doorblog.jp
+127.0.0.1 itoman.doorblog.jp
+
+# doubleclick.com
+127.0.0.1 ad.doubleclick.com
+127.0.0.1 ads.doubleclick.com
+127.0.0.1 amazon.doubleclick.com
+127.0.0.1 doubleclick.com
+127.0.0.1 www.doubleclick.com
+127.0.0.1 www2.doubleclick.com
+127.0.0.1 www3.doubleclick.com
+
+# doubleclick.ne.jp
+127.0.0.1 doubleclick.ne.jp
+127.0.0.1 www.doubleclick.ne.jp
+
+# doubleclick.net
+127.0.0.1 accounts.doubleclick.net
+127.0.0.1 ad-emea.doubleclick.net
+127.0.0.1 ad-g.doubleclick.net
+127.0.0.1 ad.3ad.doubleclick.net
+127.0.0.1 ad.3au.doubleclick.net
+127.0.0.1 ad.ae.doubleclick.net
+127.0.0.1 ad.ar.doubleclick.net
+127.0.0.1 ad.au.doubleclick.net
+127.0.0.1 ad.be.doubleclick.net
+127.0.0.1 ad.bg.doubleclick.net
+127.0.0.1 ad.br.doubleclick.net
+127.0.0.1 ad.ca.doubleclick.net
+127.0.0.1 ad.ch.doubleclick.net
+127.0.0.1 ad.cl.doubleclick.net
+127.0.0.1 ad.cn.doubleclick.net
+127.0.0.1 ad.de.doubleclick.net
+127.0.0.1 ad.dk.doubleclick.net
+127.0.0.1 ad.es.doubleclick.net
+127.0.0.1 ad.fi.doubleclick.net
+127.0.0.1 ad.fr.doubleclick.net
+127.0.0.1 ad.gr.doubleclick.net
+127.0.0.1 ad.hk.doubleclick.net
+127.0.0.1 ad.hr.doubleclick.net
+127.0.0.1 ad.hu.doubleclick.net
+127.0.0.1 ad.ie.doubleclick.net
+127.0.0.1 ad.in.doubleclick.net
+127.0.0.1 ad.it.doubleclick.net
+127.0.0.1 ad.jp.doubleclick.net
+127.0.0.1 ad.kr.doubleclick.net
+127.0.0.1 ad.n2434.doubleclick.net
+127.0.0.1 ad.nl.doubleclick.net
+127.0.0.1 ad.no.doubleclick.net
+127.0.0.1 ad.nz.doubleclick.net
+127.0.0.1 ad.ph.doubleclick.net
+127.0.0.1 ad.pl.doubleclick.net
+127.0.0.1 ad.pt.doubleclick.net
+127.0.0.1 ad.ro.doubleclick.net
+127.0.0.1 ad.rs.doubleclick.net
+127.0.0.1 ad.ru.doubleclick.net
+127.0.0.1 ad.se.doubleclick.net
+127.0.0.1 ad.sg.doubleclick.net
+127.0.0.1 ad.si.doubleclick.net
+127.0.0.1 ad.terra.doubleclick.net
+127.0.0.1 ad.th.doubleclick.net
+127.0.0.1 ad.tw.doubleclick.net
+127.0.0.1 ad.uk.doubleclick.net
+127.0.0.1 ad.us.doubleclick.net
+127.0.0.1 ad.za.doubleclick.net
+127.0.0.1 ad2.doubleclick.net
+127.0.0.1 ad3.doubleclick.net
+127.0.0.1 ad4.doubleclick.net
+127.0.0.1 ad5.doubleclick.net
+127.0.0.1 ad6.doubleclick.net
+127.0.0.1 ad7.doubleclick.net
+127.0.0.1 ad8.doubleclick.net
+127.0.0.1 ad9.doubleclick.net
+127.0.0.1 ads.doubleclick.net
+127.0.0.1 amn.doubleclick.net
+127.0.0.1 cm.g.doubleclick.net
+127.0.0.1 creatives.doubleclick.net
+127.0.0.1 dfp.doubleclick.net
+127.0.0.1 doubleclick.net
+127.0.0.1 dp.g.doubleclick.net
+127.0.0.1 feedads.g.doubleclick.net
+127.0.0.1 fls.doubleclick.net
+127.0.0.1 fls.uk.doubleclick.net
+127.0.0.1 googleads.g.doubleclick.net
+127.0.0.1 googleads2.g.doubleclick.net
+127.0.0.1 ir.doubleclick.net
+127.0.0.1 iv.doubleclick.net
+127.0.0.1 ln.doubleclick.net
+127.0.0.1 m.doubleclick.net
+127.0.0.1 m.us.doubleclick.net
+127.0.0.1 m2.doubleclick.net
+127.0.0.1 m3.doubleclick.net
+127.0.0.1 motifcdn.doubleclick.net
+127.0.0.1 motifcdn2.doubleclick.net
+127.0.0.1 n3285ad.doubleclick.net
+127.0.0.1 n3349ad.doubleclick.net
+127.0.0.1 n4052ad.doubleclick.net
+127.0.0.1 n4061ad.jp.doubleclick.net
+127.0.0.1 n4403ad.doubleclick.net
+127.0.0.1 n479ad.doubleclick.net
+127.0.0.1 n609ad.doubleclick.net
+127.0.0.1 optout.doubleclick.net
+127.0.0.1 paypalssl.doubleclick.net
+127.0.0.1 rd.intl.doubleclick.net
+127.0.0.1 s2.video.doubleclick.net
+127.0.0.1 se1.doubleclick.net
+127.0.0.1 securepubads.g.doubleclick.net
+127.0.0.1 static.doubleclick.net
+127.0.0.1 stats.g.doubleclick.net
+127.0.0.1 www.doubleclick.net
+127.0.0.1 www3.doubleclick.net
+
+# douga-kan.com
+127.0.0.1 ad.douga-kan.com
+
+# download-performance.com
+127.0.0.1 download-performance.com
+
+# downloadappsstore.com
+127.0.0.1 jp.downloadappsstore.com
+
+# downloadlsdir.com
+127.0.0.1 download.downloadlsdir.com
+
+# downloastar.com
+127.0.0.1 report.downloastar.com
+
+# downloatransfer.com
+127.0.0.1 downloatransfer.com
+
+# dropzenad.com
+127.0.0.1 go.dropzenad.com
+
+# dsibzjqbtkjqd.bid
+127.0.0.1 dsibzjqbtkjqd.bid
+127.0.0.1 www.dsibzjqbtkjqd.bid
+
+# dtiserv.com
+127.0.0.1 affiliate.dtiserv.com
+127.0.0.1 customize.dtiserv.com
+127.0.0.1 rss.dtiserv.com
+
+# dtiserv2.com
+127.0.0.1 click.dtiserv2.com
+
+# duapps.com
+127.0.0.1 api.mobula.sdk.duapps.com
+127.0.0.1 pasta.esfile.duapps.com
+127.0.0.1 union-tracking.duapps.com
+
+# duga.jp
+127.0.0.1 ad.duga.jp
+127.0.0.1 click.duga.jp
+
+# durasite.net
+127.0.0.1 ala.durasite.net
+127.0.0.1 netdreamersad.durasite.net
+127.0.0.1 sankei2ad.durasite.net
+
+# dxlive.com
+127.0.0.1 bn.dxlive.com
+
+# e-nls.com
+127.0.0.1 img.e-nls.com
+
+# ebis.ne.jp
+127.0.0.1 as.ebis.ne.jp
+
+# ectest.net
+127.0.0.1 onetag.ectest.net
+
+# educing.info
+127.0.0.1 educing.info
+
+# eimg.jp
+127.0.0.1 c.adingo.jp.eimg.jp
+127.0.0.1 contents.adingo.jp.eimg.jp
+127.0.0.1 get.mobu.jp.eimg.jp
+127.0.0.1 img.fluct.jp.eimg.jp
+127.0.0.1 product.adingo.jp.eimg.jp
+127.0.0.1 sp.adingo.jp.eimg.jp
+127.0.0.1 spap.adingo.jp.eimg.jp
+
+# ero-advertising.com
+127.0.0.1 adspaces.ero-advertising.com
+127.0.0.1 ero-advertising.com
+127.0.0.1 redirects.ero-advertising.com
+
+# erosoku.net
+127.0.0.1 erosoku.net
+
+# erq.io
+127.0.0.1 www.erq.io
+
+# ertya.com
+127.0.0.1 geo.ertya.com
+
+# exblog.jp
+127.0.0.1 rep.exblog.jp
+
+# excite.co.jp
+127.0.0.1 adimp.excite.co.jp
+127.0.0.1 adimpkwd.excite.co.jp
+
+# exdynsrv.com
+127.0.0.1 syndication.exdynsrv.com
+
+# exit-ad.com
+127.0.0.1 d.exit-ad.com
+127.0.0.1 i.exit-ad.com
+127.0.0.1 j.exit-ad.com
+
+# exoclick.com
+127.0.0.1 ads.exoclick.com
+127.0.0.1 syndication.exoclick.com
+
+# exosrv.com
+127.0.0.1 ads.exosrv.com
+
+# extend-battery-life.com
+127.0.0.1 extend-battery-life.com
+
+# fam-ad.com
+127.0.0.1 fam-ad.com
+
+# fancrew.jp
+127.0.0.1 fancrew.jp
+
+# fbcdn.net
+127.0.0.1 scontent-nrt1-1.xx.fbcdn.net
+
+# fc2.com
+127.0.0.1 29730396.ranking.fc2.com
+127.0.0.1 4107269.ranking.fc2.com
+127.0.0.1 adf.fc2.com
+127.0.0.1 aimg.fc2.com
+127.0.0.1 analyzer.fc2.com
+127.0.0.1 analyzer2.fc2.com
+127.0.0.1 analyzer3.fc2.com
+127.0.0.1 analyzer4.fc2.com
+127.0.0.1 analyzer5.fc2.com
+127.0.0.1 analyzer51.fc2.com
+127.0.0.1 analyzer52.fc2.com
+127.0.0.1 analyzer53.fc2.com
+127.0.0.1 analyzer54.fc2.com
+127.0.0.1 analyzer55.fc2.com
+127.0.0.1 bj.fc2.com
+127.0.0.1 blogranking.fc2.com
+127.0.0.1 blogvote.fc2.com
+127.0.0.1 cnt.affiliate.fc2.com
+127.0.0.1 counter1.fc2.com
+127.0.0.1 dreamlove.h.fc2.com
+127.0.0.1 hypost.fc2.com
+127.0.0.1 liberazione.web.fc2.com
+127.0.0.1 media.fc2.com
+127.0.0.1 search.fc2.com
+127.0.0.1 vote1.fc2.com
+
+# fc2cn.com
+127.0.0.1 analyzer5.fc2cn.com
+
+# fc2rs.com
+127.0.0.1 150601.fc2rs.com
+
+# fc2web.com
+127.0.0.1 cnt.fc2web.com
+
+# felmat.net
+127.0.0.1 t.felmat.net
+
+# ficusoid.xyz
+127.0.0.1 ficusoid.xyz
+
+# find-a.jp
+127.0.0.1 tr.find-a.jp
+
+# fivecdm.com
+127.0.0.1 ad2.fivecdm.com
+127.0.0.1 bc2.fivecdm.com
+
+# fixosjp.net
+127.0.0.1 fixosjp.net
+
+# fluct.jp
+127.0.0.1 img.fluct.jp
+
+# flurry.com
+127.0.0.1 data.flurry.com
+
+# fm-p.jp
+127.0.0.1 ad2.fm-p.jp
+
+# focas.jp
+127.0.0.1 adroute.focas.jp
+127.0.0.1 static.adroute.focas.jp
+
+# formulas.jp
+127.0.0.1 opr.formulas.jp
+
+# forshrd.com
+127.0.0.1 forshrd.com
+
+# fout.jp
+127.0.0.1 ad.fout.jp
+127.0.0.1 banner.fout.jp
+127.0.0.1 click.fout.jp
+127.0.0.1 cnt.fout.jp
+127.0.0.1 conv.fout.jp
+127.0.0.1 dsp.fout.jp
+127.0.0.1 js-us.fout.jp
+127.0.0.1 js.fout.jp
+127.0.0.1 js.rfp.fout.jp
+127.0.0.1 sync.dmp.fout.jp
+127.0.0.1 sync.fout.jp
+
+# fpop.net
+127.0.0.1 statsp.fpop.net
+
+# free-top-apps.com
+127.0.0.1 free-top-apps.com
+
+# free-video-movie.com
+127.0.0.1 free-video-movie.com
+
+# freegiveaways.link
+127.0.0.1 jplr.freegiveaways.link
+
+# fungetbag.info
+127.0.0.1 fungetbag.info
+
+# funshopfun.com
+127.0.0.1 track.funshopfun.com
+
+# fuyu.gs
+127.0.0.1 amazlink.fuyu.gs
+
+# fwmrm.net
+127.0.0.1 adm.fwmrm.net
+
+# fx-nyumon.com
+127.0.0.1 image.fx-nyumon.com
+
+# g-deai.net
+127.0.0.1 image.g-deai.net
+
+# gamefeat.net
+127.0.0.1 file.gamefeat.net
+127.0.0.1 www.gamefeat.net
+
+# gamesfree4u.online
+127.0.0.1 ww.gamesfree4u.online
+
+# gamewallet.jp
+127.0.0.1 gamewallet.jp
+
+# garss.jp
+127.0.0.1 garss.jp
+
+# garss.tv
+127.0.0.1 garss.tv
+127.0.0.1 image.garss.tv
+
+# geniee.jp
+127.0.0.1 a.geniee.jp
+
+# genieesspv.jp
+127.0.0.1 a-mobile.genieesspv.jp
+127.0.0.1 adnico.genieesspv.jp
+127.0.0.1 advision-adnw.genieesspv.jp
+127.0.0.1 aladdin.genieesspv.jp
+127.0.0.1 click-plus.genieesspv.jp
+127.0.0.1 sprout-ad.genieesspv.jp
+
+# gettheapp.mobi
+127.0.0.1 load.gettheapp.mobi
+
+# ggpht.com
+127.0.0.1 lh3.ggpht.com
+127.0.0.1 yt3.ggpht.com
+
+# gigazine.asia
+127.0.0.1 gigazine.asia
+
+# gikotena.net
+127.0.0.1 tools.gikotena.net
+
+# girls-chat.tv
+127.0.0.1 girls-chat.tv
+
+# giveapp.jp
+127.0.0.1 android.giveapp.jp
+127.0.0.1 img.giveapp.jp
+
+# glam.com
+127.0.0.1 www35.glam.com
+
+# glaswall.online
+127.0.0.1 glaswall.online
+
+# globaloffers.link
+127.0.0.1 globaloffers.link
+
+# glssp.jp
+127.0.0.1 glssp.jp
+
+# gmo-searchteria.jp
+127.0.0.1 gmo-searchteria.jp
+
+# gmodmp.jp
+127.0.0.1 j.gmodmp.jp
+
+# gmossp-sp.jp
+127.0.0.1 adn-d.sp.gmossp-sp.jp
+127.0.0.1 adn-j.sp.gmossp-sp.jp
+127.0.0.1 sp.gmossp-sp.jp
+
+# godroid.pw
+127.0.0.1 in.godroid.pw
+
+# goldspotmedia.com
+127.0.0.1 jp3adv-cdn.goldspotmedia.com
+
+# goo.ne.jp
+127.0.0.1 a1.goo.ne.jp
+127.0.0.1 ad.goo.ne.jp
+127.0.0.1 adcdn.goo.ne.jp
+127.0.0.1 ashiato.goo.ne.jp
+127.0.0.1 bn.goo.ne.jp
+127.0.0.1 log000.goo.ne.jp
+127.0.0.1 owb101.goo.ne.jp
+127.0.0.1 x.goo.ne.jp
+
+# good-black4u.com
+127.0.0.1 good-black4u.com
+
+# goodad.jp
+127.0.0.1 ad.goodad.jp
+
+# goodlifess.jp
+127.0.0.1 goodlifess.jp
+
+# google.com
+127.0.0.1 adservices.google.com
+127.0.0.1 adwords.google.com
+127.0.0.1 mobileads.google.com
+127.0.0.1 video-stats.video.google.com
+
+# googleadservices.com
+127.0.0.1 4.afs.googleadservices.com
+127.0.0.1 feedads.googleadservices.com
+127.0.0.1 imageads.googleadservices.com
+127.0.0.1 pagead2.googleadservices.com
+127.0.0.1 partner.googleadservices.com
+
+# googlehen.com
+127.0.0.1 image.googlehen.com
+
+# googlesyndication.com
+127.0.0.1 domains.googlesyndication.com
+127.0.0.1 pagead.googlesyndication.com
+127.0.0.1 tpc.googlesyndication.com
+
+# googletagservices.com
+127.0.0.1 www.googletagservices.com
+
+# gplayapps.com
+127.0.0.1 gplayapps.com
+
+# gravatar.com
+127.0.0.1 s.gravatar.com
+
+# gravity.com
+127.0.0.1 gravity.com
+
+# gree.jp
+127.0.0.1 a.gree.jp
+
+# gree.net
+127.0.0.1 ard.gree.net
+
+# gsspat.jp
+127.0.0.1 rt.gsspat.jp
+
+# gunosy.com
+127.0.0.1 ad.gunosy.com
+127.0.0.1 adapi.gunosy.com
+127.0.0.1 adntokyo.gunosy.com
+127.0.0.1 assets.gunosy.com
+127.0.0.1 creatives.gunosy.com
+
+# gusion.space
+127.0.0.1 gusion.space
+
+# gvt1.com
+127.0.0.1 r7---sn-oguesnls.gvt1.com
+
+# gvt2.com
+127.0.0.1 beacons.gvt2.com
+127.0.0.1 beacons2.gvt2.com
+127.0.0.1 beacons3.gvt2.com
+127.0.0.1 beacons4.gvt2.com
+
+# gyao.jp
+127.0.0.1 clickgp.gyao.jp
+
+# hamarepo.com
+127.0.0.1 openx.hamarepo.com
+
+# hananokai.tv
+127.0.0.1 hananokai.tv
+
+# harisen.jp
+127.0.0.1 ct2.harisen.jp
+
+# hatena.ne.jp
+127.0.0.1 ad.hatena.ne.jp
+127.0.0.1 red.hatena.ne.jp
+127.0.0.1 red3.hatena.ne.jp
+
+# heyos.com
+127.0.0.1 admaster.heyos.com
+
+# heypo.com
+127.0.0.1 ad.heypo.com
+
+# hgigs.info
+127.0.0.1 dsg.hgigs.info
+
+# hishaku.com
+127.0.0.1 x6.hishaku.com
+
+# hitbestapps.com
+127.0.0.1 hitbestapps.com
+
+# hitgraph.jp
+127.0.0.1 hitgraph.jp
+
+# hoiplay.com
+127.0.0.1 tm1.hoiplay.com
+
+# href.asia
+127.0.0.1 d.href.asia
+
+# htrhcncxfy.xyz
+127.0.0.1 htrhcncxfy.xyz
+
+# humanwebr.com
+127.0.0.1 humanwebr.com
+
+# hwoxt.com
+127.0.0.1 hwoxt.com
+
+# hypapa.com
+127.0.0.1 hypapa.com
+
+# i-mobile.co.jp
+127.0.0.1 aff.i-mobile.co.jp
+127.0.0.1 cgi.i-mobile.co.jp
+127.0.0.1 imp-adedge.i-mobile.co.jp
+127.0.0.1 spad.i-mobile.co.jp
+127.0.0.1 spadp.i-mobile.co.jp
+127.0.0.1 spadpc2.i-mobile.co.jp
+127.0.0.1 spadpc3.i-mobile.co.jp
+127.0.0.1 spapi.i-mobile.co.jp
+127.0.0.1 spcdnsp.i-mobile.co.jp
+127.0.0.1 spcnv.i-mobile.co.jp
+127.0.0.1 spdeliver.i-mobile.co.jp
+127.0.0.1 spdeliverp.i-mobile.co.jp
+127.0.0.1 spmeasure.i-mobile.co.jp
+127.0.0.1 spnet2-1.i-mobile.co.jp
+127.0.0.1 spnet33.i-mobile.co.jp
+127.0.0.1 spnet5.i-mobile.co.jp
+127.0.0.1 spsvc5.i-mobile.co.jp
+127.0.0.1 ssp-sync.i-mobile.co.jp
+
+# i2i.jp
+127.0.0.1 ac.i2i.jp
+127.0.0.1 ac10.i2i.jp
+127.0.0.1 ac2.i2i.jp
+127.0.0.1 ac4.i2i.jp
+127.0.0.1 ac5.i2i.jp
+127.0.0.1 ac7.i2i.jp
+127.0.0.1 ac8.i2i.jp
+127.0.0.1 ac9.i2i.jp
+127.0.0.1 ad4.i2i.jp
+127.0.0.1 adimag.i2i.jp
+127.0.0.1 adimg.i2i.jp
+127.0.0.1 adsp1.i2i.jp
+127.0.0.1 cc.i2i.jp
+127.0.0.1 cc2.i2i.jp
+127.0.0.1 img.i2i.jp
+127.0.0.1 rc.i2i.jp
+127.0.0.1 rc2.i2i.jp
+127.0.0.1 rc3.i2i.jp
+127.0.0.1 rc4.i2i.jp
+127.0.0.1 rc5.i2i.jp
+127.0.0.1 rc6.i2i.jp
+127.0.0.1 rc7.i2i.jp
+127.0.0.1 rc8.i2i.jp
+127.0.0.1 rc9.i2i.jp
+127.0.0.1 sg.i2i.jp
+127.0.0.1 sh.i2i.jp
+127.0.0.1 sr.i2i.jp
+
+# i2idata.com
+127.0.0.1 adsp.i2idata.com
+
+# iand2ch.net
+127.0.0.1 stimg.iand2ch.net
+127.0.0.1 stimgc.iand2ch.net
+
+# ichi-ni-san.net
+127.0.0.1 www.ichi-ni-san.net
+
+# igaworks.com
+127.0.0.1 live.adbrix.igaworks.com
+
+# iid-network.jp
+127.0.0.1 widget.iid-network.jp
+
+# iid.jp
+127.0.0.1 deliver.ads2.iid.jp
+127.0.0.1 deliver.ads3.iid.jp
+
+# iij4u.or.jp
+127.0.0.1 www.ff.iij4u.or.jp
+
+# image-ad.jp
+127.0.0.1 i.image-ad.jp
+127.0.0.1 image-ad.jp
+
+# image-rentracks.com
+127.0.0.1 www.image-rentracks.com
+
+# imagineads.mobi
+127.0.0.1 tracking.imagineads.mobi
+
+# imgvc.com
+127.0.0.1 a.imgvc.com
+
+# impact-ad.jp
+127.0.0.1 a.one.impact-ad.jp
+127.0.0.1 aa.impact-ad.jp
+127.0.0.1 as.aa.impact-ad.jp
+127.0.0.1 as.ad.impact-ad.jp
+127.0.0.1 as.ao.impact-ad.jp
+127.0.0.1 as.bb.impact-ad.jp
+127.0.0.1 as.bi.impact-ad.jp
+127.0.0.1 as.bs.impact-ad.jp
+127.0.0.1 as.cd.impact-ad.jp
+127.0.0.1 as.ch.impact-ad.jp
+127.0.0.1 as.cw.impact-ad.jp
+127.0.0.1 as.dc.impact-ad.jp
+127.0.0.1 as.gh.impact-ad.jp
+127.0.0.1 as.hc.impact-ad.jp
+127.0.0.1 as.ik.impact-ad.jp
+127.0.0.1 as.in.impact-ad.jp
+127.0.0.1 as.it.impact-ad.jp
+127.0.0.1 as.iy.impact-ad.jp
+127.0.0.1 as.jc.impact-ad.jp
+127.0.0.1 as.kd.impact-ad.jp
+127.0.0.1 as.ko.impact-ad.jp
+127.0.0.1 as.lb.impact-ad.jp
+127.0.0.1 as.mc.impact-ad.jp
+127.0.0.1 as.mv.impact-ad.jp
+127.0.0.1 as.ns.impact-ad.jp
+127.0.0.1 as.nw.impact-ad.jp
+127.0.0.1 as.oe.impact-ad.jp
+127.0.0.1 as.py.impact-ad.jp
+127.0.0.1 as.se.impact-ad.jp
+127.0.0.1 as.sp.impact-ad.jp
+127.0.0.1 as.ve.impact-ad.jp
+127.0.0.1 as.wi.impact-ad.jp
+127.0.0.1 as.yl.impact-ad.jp
+127.0.0.1 aw.dw.impact-ad.jp
+127.0.0.1 ch.impact-ad.jp
+127.0.0.1 dc.impact-ad.jp
+127.0.0.1 img.ak.impact-ad.jp
+127.0.0.1 img.ll.impact-ad.jp
+127.0.0.1 impact-ad.jp
+127.0.0.1 jc.impact-ad.jp
+127.0.0.1 m.one.impact-ad.jp
+127.0.0.1 s.f1.impact-ad.jp
+127.0.0.1 sr.impact-ad.jp
+127.0.0.1 ti.impact-ad.jp
+127.0.0.1 y.one.impact-ad.jp
+
+# impress.co.jp
+127.0.0.1 ad.watch.impress.co.jp
+
+# impressbm.co.jp
+127.0.0.1 ad.impressbm.co.jp
+
+# improve-system-online-service.com
+127.0.0.1 s.improve-system-online-service.com
+
+# indisancal.com
+127.0.0.1 indisancal.com
+
+# info-apps.xyz
+127.0.0.1 click.info-apps.xyz
+127.0.0.1 sg.info-apps.xyz
+
+# infocart.jp
+127.0.0.1 imgdisp.infocart.jp
+127.0.0.1 ranking.infocart.jp
+
+# infolinks.com
+127.0.0.1 rt3009.infolinks.com
+
+# inforkg.jp
+127.0.0.1 inforkg.jp
+
+# infotop.jp
+127.0.0.1 www.infotop.jp
+
+# inmobi-jp.com
+127.0.0.1 js.inmobi-jp.com
+
+# inmobi.com
+127.0.0.1 adtracker.inmobi.com
+127.0.0.1 c.w.inmobi.com
+127.0.0.1 cf.cdn.inmobi.com
+127.0.0.1 e.ai.inmobi.com
+127.0.0.1 et.w.inmobi.com
+127.0.0.1 go.inmobi.com
+127.0.0.1 i.w.inmobi.com
+127.0.0.1 ifc.inmobi.com
+127.0.0.1 js.w.inmobi.com
+127.0.0.1 ma.inmobi.com
+127.0.0.1 r.w.inmobi.com
+127.0.0.1 sdkm.w.inmobi.com
+127.0.0.1 w.inmobi.com
+
+# inmobicdn.com
+127.0.0.1 r.edge.inmobicdn.com
+
+# inner-active.com
+127.0.0.1 tracking.inner-active.com
+
+# innovate-blog.info
+127.0.0.1 innovate-blog.info
+
+# instal.com
+127.0.0.1 ads.instal.com
+
+# installyourapps.com
+127.0.0.1 installyourapps.com
+
+# inter-edu.com
+127.0.0.1 ad.inter-edu.com
+
+# internet-ps.com
+127.0.0.1 www.internet-ps.com
+
+# internetcom.jp
+127.0.0.1 ad.internetcom.jp
+
+# investing.com
+127.0.0.1 streamjs.investing.com
+
+# iogous.com
+127.0.0.1 a.iogous.com
+
+# isboost.co.jp
+127.0.0.1 js.isboost.co.jp
+
+# itmedia.co.jp
+127.0.0.1 ad.itmedia.co.jp
+
+# itmedia.jp
+127.0.0.1 dlv.itmedia.jp
+
+# itwaokktkf.pw
+127.0.0.1 itwaokktkf.pw
+
+# iwoop.com
+127.0.0.1 track.iwoop.com
+
+# iws.vc
+127.0.0.1 tracker.iws.vc
+
+# j-a-net.jp
+127.0.0.1 click.j-a-net.jp
+127.0.0.1 image.j-a-net.jp
+127.0.0.1 s11.j-a-net.jp
+127.0.0.1 s13.j-a-net.jp
+127.0.0.1 text.j-a-net.jp
+
+# j-credit.or.jp
+127.0.0.1 www.j-credit.or.jp
+
+# j69i-browser.com
+127.0.0.1 j69i-browser.com
+127.0.0.1 static.j69i-browser.com
+
+# jacbridge.com
+127.0.0.1 jacbridge.com
+
+# japanmetrix.jp
+127.0.0.1 japanmetrix.jp
+
+# jdoingtrkac.com
+127.0.0.1 jdoingtrkac.com
+
+# jlisting.jp
+127.0.0.1 cast.ads.jlisting.jp
+127.0.0.1 jlisting.jp
+127.0.0.1 sp.ads.jlisting.jp
+
+# johnnythedoe.top
+127.0.0.1 johnnythedoe.top
+
+# jorudan.co.jp
+127.0.0.1 ad.jorudan.co.jp
+
+# jp18.com
+127.0.0.1 errors.jp18.com
+
+# jskyservices.com
+127.0.0.1 aff.jskyservices.com
+
+# jugem.jp
+127.0.0.1 ad.jugem.jp
+
+# juicyads.com
+127.0.0.1 adserver.juicyads.com
+127.0.0.1 mobile.juicyads.com
+
+# justgetitfaster.com
+127.0.0.1 justgetitfaster.com
+
+# jyonetu-fx.com
+127.0.0.1 image.jyonetu-fx.com
+
+# karmajoint.club
+127.0.0.1 a.karmajoint.club
+
+# kau.li
+127.0.0.1 js.kau.li
+
+# kimcurlrvsms.com
+127.0.0.1 kimcurlrvsms.com
+
+# king-livechat.com
+127.0.0.1 image.king-livechat.com
+
+# kira2-w.com
+127.0.0.1 kira2-w.com
+
+# kitunebi.com
+127.0.0.1 x8.kitunebi.com
+
+# kixer.com
+127.0.0.1 cdn.kixer.com
+
+# komusou.jp
+127.0.0.1 x8.komusou.jp
+
+# koukoku.red
+127.0.0.1 koukoku.red
+
+# kuaptrk.com
+127.0.0.1 kuaptrk.com
+
+# kuruten.jp
+127.0.0.1 ranking.kuruten.jp
+
+# kxcdn.com
+127.0.0.1 taponejs-184e.kxcdn.com
+
+# ladsp.com
+127.0.0.1 cd.ladsp.com
+127.0.0.1 tag.ladsp.com
+
+# lead-ad.jp
+127.0.0.1 art.lead-ad.jp
+
+# leadbolt.net
+127.0.0.1 ad.leadbolt.net
+
+# leadboltads.net
+127.0.0.1 ad.leadboltads.net
+
+# lenzmx.com
+127.0.0.1 tracking.lenzmx.com
+
+# letsonline.jp
+127.0.0.1 tool.letsonline.jp
+
+# lfstmedia.com
+127.0.0.1 mobile-android.lfstmedia.com
+
+# lijit.com
+127.0.0.1 ap.lijit.com
+
+# line.me
+127.0.0.1 line.me
+
+# link-a.net
+127.0.0.1 link-a.net
+
+# linkshare.ne.jp
+127.0.0.1 ad.linkshare.ne.jp
+
+# linksynergy.com
+127.0.0.1 ad.linksynergy.com
+
+# livead.jp
+127.0.0.1 livead.jp
+
+# liveads.jp
+127.0.0.1 s.liveads.jp
+127.0.0.1 www2.liveads.jp
+
+# livedooor.info
+127.0.0.1 blog.livedooor.info
+
+# livedoor-plus.com
+127.0.0.1 livedoor-plus.com
+
+# livedoor.com
+127.0.0.1 adv.livedoor.com
+127.0.0.1 app.click.livedoor.com
+127.0.0.1 click.adv.livedoor.com
+127.0.0.1 counter2.blog.livedoor.com
+
+# livedoor.net
+127.0.0.1 blogroll.livedoor.net
+
+# livelog.biz
+127.0.0.1 blog.livelog.biz
+
+# lmportant-notlce-sc0.gdn
+127.0.0.1 lmportant-notlce-sc0.gdn
+
+# loading-delivery2.com
+127.0.0.1 loading-delivery2.com
+
+# logly.co.jp
+127.0.0.1 l.logly.co.jp
+
+# loka.jp
+127.0.0.1 cdn.loka.jp
+
+# lolipop.jp
+127.0.0.1 err.lolipop.jp
+
+# longseller.org
+127.0.0.1 amazoo.longseller.org
+
+# loopertrk.com
+127.0.0.1 freegoodies.loopertrk.com
+
+# loopme.me
+127.0.0.1 loopme.me
+
+# m-a-d.jp
+127.0.0.1 c.m-a-d.jp
+
+# m-arata.com
+127.0.0.1 ad.m-arata.com
+
+# magifirst.com
+127.0.0.1 magifirst.com
+
+# maho.jp
+127.0.0.1 img.ad2.maho.jp
+
+# mainichi.co.jp
+127.0.0.1 adi.mainichi.co.jp
+
+# maio.jp
+127.0.0.1 media-api.maio.jp
+127.0.0.1 res-creatives.maio.jp
+
+# maist.jp
+127.0.0.1 ad.maist.jp
+127.0.0.1 cdn.ad.maist.jp
+127.0.0.1 cdn.pop.maist.jp
+127.0.0.1 maist.jp
+
+# maru.jp
+127.0.0.1 maad.maru.jp
+
+# mathtag.com
+127.0.0.1 pixel.mathtag.com
+
+# maxconvert.xyz
+127.0.0.1 maxconvert.xyz
+
+# mb-click.jp
+127.0.0.1 api.mb-click.jp
+
+# mbga.jp
+127.0.0.1 ad.sp.mbga.jp
+
+# mcgate.jp
+127.0.0.1 redirect.mcgate.jp
+
+# mcnt.jp
+127.0.0.1 4.mcnt.jp
+127.0.0.1 mcnt.jp
+127.0.0.1 mng2.mcnt.jp
+127.0.0.1 ranking.mcnt.jp
+
+# mdotm.com
+127.0.0.1 ads.mdotm.com
+127.0.0.1 cdn.mdotm.com
+
+# measurementapi.com
+127.0.0.1 158088.measurementapi.com
+127.0.0.1 158264.measurementapi.com
+
+# medi-8.net
+127.0.0.1 js.medi-8.net
+
+# media-b.jp
+127.0.0.1 media-b.jp
+
+# media-rep.com
+127.0.0.1 adc.media-rep.com
+127.0.0.1 adc01.media-rep.com
+127.0.0.1 adc02.media-rep.com
+127.0.0.1 adc03.media-rep.com
+
+# media.net
+127.0.0.1 contextual.media.net
+
+# mediab.uy
+127.0.0.1 mediab.uy
+
+# mediad.co.jp
+127.0.0.1 ad.mediad.co.jp
+127.0.0.1 mediad.co.jp
+
+# mediad2.jp
+127.0.0.1 mediad2.jp
+
+# mediaid.click
+127.0.0.1 b.resad.mediaid.click
+
+# mediba.jp
+127.0.0.1 ad.mediba.jp
+127.0.0.1 api.ad.mediba.jp
+127.0.0.1 mediba.jp
+
+# medibaad.com
+127.0.0.1 adc.medibaad.com
+
+# meilleuremutuelle.xyz
+127.0.0.1 meilleuremutuelle.xyz
+
+# mens-renai.com
+127.0.0.1 image.mens-renai.com
+
+# metactrl.com
+127.0.0.1 metactrl.com
+
+# mgid.com
+127.0.0.1 jsc.mgid.com
+
+# microad.jp
+127.0.0.1 adf.send.microad.jp
+127.0.0.1 adfp.send.microad.jp
+127.0.0.1 adfunnel.microad.jp
+127.0.0.1 associate.microad.jp
+127.0.0.1 bw.microad.jp
+127.0.0.1 cache.microad.jp
+127.0.0.1 cache.send.microad.jp
+127.0.0.1 cache.ssend.microad.jp
+127.0.0.1 d-cache.microad.jp
+127.0.0.1 d-track.send.microad.jp
+127.0.0.1 image-vsc.microad.jp
+127.0.0.1 microad.jp
+127.0.0.1 msend.microad.jp
+127.0.0.1 s-cm.send.microad.jp
+127.0.0.1 s-cs.send.microad.jp
+127.0.0.1 send.microad.jp
+127.0.0.1 spvsc.send.microad.jp
+127.0.0.1 ssend.microad.jp
+127.0.0.1 track.send.microad.jp
+127.0.0.1 vsc.send.microad.jp
+
+# microad.net
+127.0.0.1 j.microad.net
+
+# minimob.com
+127.0.0.1 clicks.minimob.com
+
+# minnnano-fuzoku.com
+127.0.0.1 av.minnnano-fuzoku.com
+
+# minpos.com
+127.0.0.1 feed.minpos.com
+
+# mintj.com
+127.0.0.1 mintj.com
+
+# mixi.jp
+127.0.0.1 ads.mixi.jp
+127.0.0.1 api.ads.mixi.jp
+127.0.0.1 img.ads.mixi.jp
+
+# mmaaxx.com
+127.0.0.1 mmaaxx.com
+127.0.0.1 www.mmaaxx.com
+
+# mmobileoffers.com
+127.0.0.1 track.mmobileoffers.com
+
+# moatads.com
+127.0.0.1 moatads.com
+
+# moba8.net
+127.0.0.1 www12.moba8.net
+127.0.0.1 www13.moba8.net
+127.0.0.1 www14.moba8.net
+127.0.0.1 www15.moba8.net
+127.0.0.1 www16.moba8.net
+127.0.0.1 www17.moba8.net
+127.0.0.1 www18.moba8.net
+127.0.0.1 www19.moba8.net
+127.0.0.1 www20.moba8.net
+127.0.0.1 www21.moba8.net
+127.0.0.1 www22.moba8.net
+127.0.0.1 www23.moba8.net
+127.0.0.1 www24.moba8.net
+127.0.0.1 www25.moba8.net
+127.0.0.1 www26.moba8.net
+127.0.0.1 www27.moba8.net
+127.0.0.1 www28.moba8.net
+127.0.0.1 www29.moba8.net
+
+# mobadme.jp
+127.0.0.1 ad.mobadme.jp
+
+# mobclix.com
+127.0.0.1 s.mobclix.com
+
+# mobfox.com
+127.0.0.1 my.mobfox.com
+
+# mobi-security.club
+127.0.0.1 mobi-security.club
+
+# mobifunworld.com
+127.0.0.1 go.mobifunworld.com
+
+# mobilcentr.com
+127.0.0.1 mobilcentr.com
+
+# mobile-10.com
+127.0.0.1 secure.mobile-10.com
+
+# mobileappmobiappshero2016.co
+127.0.0.1 mobileappmobiappshero2016.co
+
+# mobilemonetize.me
+127.0.0.1 mobilemonetize.me
+
+# mobileyouandme.com
+127.0.0.1 track.mobileyouandme.com
+
+# mobitemedia.com
+127.0.0.1 tracking.mobitemedia.com
+
+# mobitessl.online
+127.0.0.1 c.mobitessl.online
+
+# mobra.in
+127.0.0.1 go.mobra.in
+
+# mobsmart.net
+127.0.0.1 adv.mobsmart.net
+
+# mobu.jp
+127.0.0.1 get.mobu.jp
+
+# mobvault.com
+127.0.0.1 track.mobvault.com
+
+# mobylog.jp
+127.0.0.1 mobylog.jp
+
+# momijioroshi.com
+127.0.0.1 ct2.momijioroshi.com
+
+# momoemoe.com
+127.0.0.1 momoemoe.com
+
+# mopo.jp
+127.0.0.1 afac.mopo.jp
+127.0.0.1 afte.mopo.jp
+
+# mopub.com
+127.0.0.1 ads.mopub.com
+
+# moras.jp
+127.0.0.1 d.moras.jp
+127.0.0.1 i.moras.jp
+127.0.0.1 j.moras.jp
+
+# moshimo.com
+127.0.0.1 c.af.moshimo.com
+
+# motionlink.jp
+127.0.0.1 www.motionlink.jp
+
+# movie-wiki.net
+127.0.0.1 movie-wiki.net
+
+# moviegate1.net
+127.0.0.1 moviegate1.net
+
+# mreco0.jp
+127.0.0.1 ads.mreco0.jp
+127.0.0.1 img.ads.mreco0.jp
+
+# msads.net
+127.0.0.1 ads1.msads.net
+127.0.0.1 global.msads.net
+
+# msmtrakk02a.com
+127.0.0.1 app.msmtrakk02a.com
+127.0.0.1 global.msmtrakk02a.com
+
+# msmtrakk16a.com
+127.0.0.1 global.msmtrakk16a.com
+
+# msn.com
+127.0.0.1 mobileads.msn.com
+
+# mtburn.com
+127.0.0.1 ad.mtburn.com
+127.0.0.1 click.mtburn.com
+127.0.0.1 js.mtburn.com
+
+# mtmobapps.com
+127.0.0.1 mtmobapps.com
+
+# multiquicks.net
+127.0.0.1 p.multiquicks.net
+
+# mydas.mobi
+127.0.0.1 ads.mp.mydas.mobi
+127.0.0.1 aio.lp.mydas.mobi
+127.0.0.1 androidsdk.ads.mp.mydas.mobi
+127.0.0.1 bank01.ads.mp.mydas.mobi
+127.0.0.1 bank01.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank02.ads.mp.mydas.mobi
+127.0.0.1 bank02.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank03.ads.mp.mydas.mobi
+127.0.0.1 bank03.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank04.ads.mp.mydas.mobi
+127.0.0.1 bank04.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank05.ads.mp.mydas.mobi
+127.0.0.1 bank05.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank06.ads.mp.mydas.mobi
+127.0.0.1 bank06.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank07.ads.mp.mydas.mobi
+127.0.0.1 bank07.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank08.ads.mp.mydas.mobi
+127.0.0.1 bank08.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank09.ads.mp.mydas.mobi
+127.0.0.1 bank09.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank10.ads.mp.mydas.mobi
+127.0.0.1 bank10.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank11.ads.mp.mydas.mobi
+127.0.0.1 bank11.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank12.ads.mp.mydas.mobi
+127.0.0.1 bank12.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank13.ads.mp.mydas.mobi
+127.0.0.1 bank13.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank14.ads.mp.mydas.mobi
+127.0.0.1 bank14.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank15.ads.mp.mydas.mobi
+127.0.0.1 bank15.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank16.ads.mp.mydas.mobi
+127.0.0.1 bank16.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank17.ads.mp.mydas.mobi
+127.0.0.1 bank17.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank18.ads.mp.mydas.mobi
+127.0.0.1 bank18.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank19.ads.mp.mydas.mobi
+127.0.0.1 bank19.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank20.ads.mp.mydas.mobi
+127.0.0.1 bank20.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank21.ads.mp.mydas.mobi
+127.0.0.1 bank21.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank22.ads.mp.mydas.mobi
+127.0.0.1 bank22.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank23.ads.mp.mydas.mobi
+127.0.0.1 bank23.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank24.ads.mp.mydas.mobi
+127.0.0.1 bank24.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank25.ads.mp.mydas.mobi
+127.0.0.1 bank25.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank26.ads.mp.mydas.mobi
+127.0.0.1 bank26.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank27.ads.mp.mydas.mobi
+127.0.0.1 bank27.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank28.ads.mp.mydas.mobi
+127.0.0.1 bank28.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank29.ads.mp.mydas.mobi
+127.0.0.1 bank29.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank30.ads.mp.mydas.mobi
+127.0.0.1 bank30.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank31.ads.mp.mydas.mobi
+127.0.0.1 bank31.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank32.ads.mp.mydas.mobi
+127.0.0.1 bank32.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank33.ads.mp.mydas.mobi
+127.0.0.1 bank33.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank34.ads.mp.mydas.mobi
+127.0.0.1 bank34.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank35.ads.mp.mydas.mobi
+127.0.0.1 bank35.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank36.ads.mp.mydas.mobi
+127.0.0.1 bank36.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank37.ads.mp.mydas.mobi
+127.0.0.1 bank37.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank38.ads.mp.mydas.mobi
+127.0.0.1 bank38.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank39.ads.mp.mydas.mobi
+127.0.0.1 bank39.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank40.ads.mp.mydas.mobi
+127.0.0.1 bank40.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank41.ads.mp.mydas.mobi
+127.0.0.1 bank41.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank42.ads.mp.mydas.mobi
+127.0.0.1 bank42.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank43.ads.mp.mydas.mobi
+127.0.0.1 bank43.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank44.ads.mp.mydas.mobi
+127.0.0.1 bank44.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank45.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank46.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank47.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank48.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank49.mi.clicks.mp.mydas.mobi
+127.0.0.1 bank50.mi.clicks.mp.mydas.mobi
+127.0.0.1 cvt.mydas.mobi
+127.0.0.1 golds.lp.mydas.mobi
+127.0.0.1 lp.mp.mydas.mobi
+127.0.0.1 lp.mydas.mobi
+127.0.0.1 media.mydas.mobi
+127.0.0.1 mydas.mobi
+127.0.0.1 progressive.lp.mydas.mobi
+127.0.0.1 suo.lp.mydas.mobi
+
+# mygooglepagerank.com
+127.0.0.1 www.mygooglepagerank.com
+
+# myiads.com
+127.0.0.1 clk.myiads.com
+
+# mynv.jp
+127.0.0.1 ack.mynv.jp
+
+# myonlinessoftgratis.site
+127.0.0.1 myonlinessoftgratis.site
+
+# mywebzines.com
+127.0.0.1 en.mywebzines.com
+127.0.0.1 mywebzines.com
+
+# n-gate.jp
+127.0.0.1 push-iaps.n-gate.jp
+
+# n72adserv.com
+127.0.0.1 n72adserv.com
+
+# nakanohito.jp
+127.0.0.1 awasete.nakanohito.jp
+127.0.0.1 ua.nakanohito.jp
+127.0.0.1 uh.nakanohito.jp
+127.0.0.1 uh0.nakanohito.jp
+127.0.0.1 y.nakanohito.jp
+
+# nefficient.jp
+127.0.0.1 rokushiki.nefficient.jp
+
+# nend.net
+127.0.0.1 ad1.nend.net
+127.0.0.1 ad2.nend.net
+127.0.0.1 ad3.nend.net
+127.0.0.1 ad4.nend.net
+127.0.0.1 ad5.nend.net
+127.0.0.1 ad6.nend.net
+127.0.0.1 ad7.nend.net
+127.0.0.1 ad8.nend.net
+127.0.0.1 ad9.nend.net
+127.0.0.1 c1.nend.net
+127.0.0.1 cs.nend.net
+127.0.0.1 di.nend.net
+127.0.0.1 img1.nend.net
+127.0.0.1 impression.nend.net
+127.0.0.1 js1.nend.net
+127.0.0.1 js2.nend.net
+127.0.0.1 js3.nend.net
+127.0.0.1 js4.nend.net
+127.0.0.1 js5.nend.net
+127.0.0.1 js6.nend.net
+127.0.0.1 js7.nend.net
+127.0.0.1 js8.nend.net
+127.0.0.1 js9.nend.net
+127.0.0.1 lois.nend.net
+127.0.0.1 lona.nend.net
+127.0.0.1 nend.net
+127.0.0.1 output.nend.net
+127.0.0.1 s.nend.net
+127.0.0.1 s2.nend.net
+
+# net-s-sof-t-open.site
+127.0.0.1 net-s-sof-t-open.site
+
+# netowl.jp
+127.0.0.1 ad.netowl.jp
+
+# new-dev.site
+127.0.0.1 new-dev.site
+
+# newzia.jp
+127.0.0.1 connect.newzia.jp
+
+# nexage.com
+127.0.0.1 admax.nexage.com
+
+# next-channel.com
+127.0.0.1 js.next-channel.com
+
+# nextlandingads.xyz
+127.0.0.1 nextlandingads.xyz
+
+# niconicoav.com
+127.0.0.1 niconicoav.com
+
+# nicopon.jp
+127.0.0.1 nicopon.jp
+
+# nicovideo.jp
+127.0.0.1 ads.nicovideo.jp
+
+# nikkei.co.jp
+127.0.0.1 adb.nikkei.co.jp
+
+# nikkei.com
+127.0.0.1 adpriv.nikkei.com
+
+# nikkeibp.co.jp
+127.0.0.1 ads.nikkeibp.co.jp
+127.0.0.1 adserve5.nikkeibp.co.jp
+127.0.0.1 bizad.nikkeibp.co.jp
+
+# nineappcenter.com
+127.0.0.1 nineappcenter.com
+
+# no-battery-issue.tech
+127.0.0.1 no-battery-issue.tech
+
+# noahapps.jp
+127.0.0.1 and.noahapps.jp
+
+# nordot-connect.jp
+127.0.0.1 js.nordot-connect.jp
+
+# november-lax.com
+127.0.0.1 zb1.november-lax.com
+127.0.0.1 zd1.november-lax.com
+127.0.0.1 ze1.november-lax.com
+127.0.0.1 zj1.november-lax.com
+127.0.0.1 zm1.november-lax.com
+127.0.0.1 zn1.november-lax.com
+127.0.0.1 zs1.november-lax.com
+
+# nowvisitors.com
+127.0.0.1 s01.nowvisitors.com
+
+# npmpecd.com
+127.0.0.1 npmpecd.com
+
+# nttnavi.co.jp
+127.0.0.1 ad.nttnavi.co.jp
+127.0.0.1 banner.nttnavi.co.jp
+
+# ntv.co.jp
+127.0.0.1 ad.ntv.co.jp
+
+# nugee.tv
+127.0.0.1 nugee.tv
+
+# nukiero.club
+127.0.0.1 nukiero.club
+
+# oct-pass.net
+127.0.0.1 js.oct-pass.net
+
+# octopuspop.com
+127.0.0.1 ap.octopuspop.com
+127.0.0.1 js.octopuspop.com
+
+# offerfactory.click
+127.0.0.1 offerfactory.click
+
+# offerhaus.link
+127.0.0.1 offerhaus.link
+
+# ohugi.com
+127.0.0.1 x6.ohugi.com
+
+# ojaru.jp
+127.0.0.1 ct1.ojaru.jp
+127.0.0.1 x4.ojaru.jp
+
+# okoshi-yasu.com
+127.0.0.1 x8.okoshi-yasu.com
+
+# oksg.co
+127.0.0.1 i.oksg.co
+
+# olmeramarketing.com
+127.0.0.1 xml.olmeramarketing.com
+
+# omanchin.com
+127.0.0.1 omanchin.com
+
+# onclasrv.com
+127.0.0.1 go.onclasrv.com
+
+# onclickads.net
+127.0.0.1 onclickads.net
+
+# onclickpredictiv.com
+127.0.0.1 www.onclickpredictiv.com
+
+# online-dn.com
+127.0.0.1 www.online-dn.com
+
+# open8.com
+127.0.0.1 cdn.vt.open8.com
+
+# openxmarket.jp
+127.0.0.1 servedby.openxmarket.jp
+
+# optmedia.jp
+127.0.0.1 optmedia.jp
+
+# orangemovie.link
+127.0.0.1 orangemovie.link
+
+# oret.jp
+127.0.0.1 amazon.oret.jp
+
+# ousief.xyz
+127.0.0.1 www.ousief.xyz
+
+# outbrain.com
+127.0.0.1 widgets.outbrain.com
+
+# overlay.top
+127.0.0.1 a.overlay.top
+
+# overture.com
+127.0.0.1 cm.jp.overture.com
+127.0.0.1 overture.com
+127.0.0.1 rc20.overture.com
+127.0.0.1 redir.overture.com
+
+# p-advg.com
+127.0.0.1 p-advg.com
+
+# pagoda56.com
+127.0.0.1 s.pagoda56.com
+
+# pandora.tv
+127.0.0.1 prism.pandora.tv
+
+# papy.co.jp
+127.0.0.1 renta.papy.co.jp
+127.0.0.1 www.papy.co.jp
+
+# parserord.info
+127.0.0.1 parserord.info
+
+# parserwoad.info
+127.0.0.1 parserwoad.info
+
+# passaro-de-fogo.biz
+127.0.0.1 js.passaro-de-fogo.biz
+
+# pazmas.com
+127.0.0.1 pazmas.com
+
+# pazudora-friend.com
+127.0.0.1 rss.pazudora-friend.com
+
+# pcmax.jp
+127.0.0.1 pcmax.jp
+
+# pdltracking.com
+127.0.0.1 click.pdltracking.com
+
+# pdn-2.com
+127.0.0.1 xml.pdn-2.com
+
+# permalink-system.com
+127.0.0.1 p.permalink-system.com
+
+# pertholin.com
+127.0.0.1 pertholin.com
+
+# pfundertrk.me
+127.0.0.1 pfundertrk.me
+
+# pitta.ne.jp
+127.0.0.1 ad.pitta.ne.jp
+
+# pixiv.org
+127.0.0.1 d.pixiv.org
+
+# playfolders.com
+127.0.0.1 playfolders.com
+
+# playtune.info
+127.0.0.1 playtune.info
+
+# plugrush.com
+127.0.0.1 widget.plugrush.com
+
+# plus-a.net
+127.0.0.1 ad.plus-a.net
+
+# pmll.net
+127.0.0.1 pmll.net
+
+# pocofh.com
+127.0.0.1 pocofh.com
+
+# pokoran.com
+127.0.0.1 pokoran.com
+
+# polymorphicads.jp
+127.0.0.1 ad.polymorphicads.jp
+
+# popads.net
+127.0.0.1 c1.popads.net
+127.0.0.1 c2.popads.net
+127.0.0.1 serve.popads.net
+
+# popcash.net
+127.0.0.1 cdn.popcash.net
+
+# popcpm.net
+127.0.0.1 deliver.popcpm.net
+
+# popin.cc
+127.0.0.1 api.popin.cc
+127.0.0.1 discoveryplus.popin.cc
+
+# popped.biz
+127.0.0.1 popped.biz
+
+# porno-tv.com
+127.0.0.1 porno-tv.com
+
+# potcityzip.com
+127.0.0.1 potcityzip.com
+
+# ppc-direct.com
+127.0.0.1 www.ppc-direct.com
+
+# preaf.jp
+127.0.0.1 preaf.jp
+127.0.0.1 sp.preaf.jp
+
+# prestoris.com
+127.0.0.1 prestoris.com
+
+# prf.hn
+127.0.0.1 aos-creative.prf.hn
+
+# priget.jp
+127.0.0.1 s.priget.jp
+
+# primead.jp
+127.0.0.1 ad.primead.jp
+
+# prjcq.com
+127.0.0.1 prjcq.com
+
+# profilepassport.jp
+127.0.0.1 ppgcm.profilepassport.jp
+127.0.0.1 r.profilepassport.jp
+
+# propllrcurlmb.com
+127.0.0.1 propllrcurlmb.com
+
+# prscripts.com
+127.0.0.1 prscripts.com
+
+# ptengine.com
+127.0.0.1 js.ptengine.com
+
+# pubmatic.com
+127.0.0.1 ads.pubmatic.com
+
+# pubnative.net
+127.0.0.1 api.pubnative.net
+
+# purelovers.com
+127.0.0.1 contents.purelovers.com
+
+# pv4u.com
+127.0.0.1 pv4u.com
+
+# pwwysydh.com
+127.0.0.1 pwwysydh.com
+
+# qlook.net
+127.0.0.1 cleaningmovies.analytics.qlook.net
+127.0.0.1 imagedvdreview.analytics.qlook.net
+127.0.0.1 umamistreet.analytics.qlook.net
+
+# quebec-bin.com
+127.0.0.1 za1.quebec-bin.com
+
+# queen-casino.info
+127.0.0.1 www.queen-casino.info
+
+# qwapi.com
+127.0.0.1 ad.qwapi.com
+127.0.0.1 event-img.qwapi.com
+
+# r-ad.ne.jp
+127.0.0.1 cs.r-ad.ne.jp
+
+# r10.to
+127.0.0.1 r10.to
+
+# r2t.jp
+127.0.0.1 www.r2t.jp
+
+# rabschot.info
+127.0.0.1 www.rabschot.info
+
+# racyphotos.net
+127.0.0.1 roulette.racyphotos.net
+
+# raisingapps.com
+127.0.0.1 track.raisingapps.com
+
+# rakuprop.net
+127.0.0.1 rakuprop.net
+
+# rakuten.co.jp
+127.0.0.1 affiliate.rakuten.co.jp
+127.0.0.1 afl.rakuten.co.jp
+127.0.0.1 anz.rd.rakuten.co.jp
+127.0.0.1 api.ranking.rakuten.co.jp
+127.0.0.1 ba.afl.rakuten.co.jp
+127.0.0.1 hb.afl.rakuten.co.jp
+127.0.0.1 hbb.afl.rakuten.co.jp
+127.0.0.1 shopapi.ranking.rakuten.co.jp
+127.0.0.1 static.affiliate.rakuten.co.jp
+127.0.0.1 xml.affiliate.rakuten.co.jp
+
+# razil.jp
+127.0.0.1 kakkoii.razil.jp
+
+# rdsa2012.com
+127.0.0.1 rdsa2012.com
+
+# recommended-download-gh.top
+127.0.0.1 recommended-download-gh.top
+
+# redirectvoluum.com
+127.0.0.1 j1nqm.redirectvoluum.com
+127.0.0.1 mdjjp.redirectvoluum.com
+127.0.0.1 mqot2.redirectvoluum.com
+127.0.0.1 oi2cz.redirectvoluum.com
+127.0.0.1 paxsj.redirectvoluum.com
+127.0.0.1 tmfps.redirectvoluum.com
+127.0.0.1 v9ds9.redirectvoluum.com
+
+# rentracks.jp
+127.0.0.1 www.rentracks.jp
+
+# reporo.net
+127.0.0.1 cdn.reporo.net
+
+# response.jp
+127.0.0.1 ad.response.jp
+
+# ressp.net
+127.0.0.1 ads.ressp.net
+
+# reviewplus.jp
+127.0.0.1 aa.reviewplus.jp
+
+# revsci.net
+127.0.0.1 js.revsci.net
+
+# richmediaads.com
+127.0.0.1 serve.richmediaads.com
+
+# rieyjzuyhigobg.bid
+127.0.0.1 www.rieyjzuyhigobg.bid
+
+# rinad.jp
+127.0.0.1 sp-js.rinad.jp
+
+# ro.x0.com
+127.0.0.1 ro.x0.com
+
+# rovio.com
+127.0.0.1 ads.cdn.rovio.com
+
+# rss-loader.com
+127.0.0.1 rss-loader.com
+
+# rss141.com
+127.0.0.1 www.rss141.com
+
+# rtad.io
+127.0.0.1 clicks.rtad.io
+
+# rtoaster.jp
+127.0.0.1 rt.rtoaster.jp
+127.0.0.1 y.rtoaster.jp
+
+# rubiconproject.com
+127.0.0.1 ads.rubiconproject.com
+
+# safebro.site
+127.0.0.1 safebro.site
+
+# sakura.ad.jp
+127.0.0.1 sdc2.sakura.ad.jp
+
+# sakura.ne.jp
+127.0.0.1 advertise.sakura.ne.jp
+
+# sakuratan.biz
+127.0.0.1 azlink.sakuratan.biz
+
+# san-ni-ichi.com
+127.0.0.1 san-ni-ichi.com
+
+# sancdn.net
+127.0.0.1 m.sancdn.net
+
+# sbs-ad.com
+127.0.0.1 image.sbs-ad.com
+127.0.0.1 tools.sbs-ad.com
+
+# searchteria.co.jp
+127.0.0.1 ad.searchteria.co.jp
+127.0.0.1 op.searchteria.co.jp
+127.0.0.1 optag.searchteria.co.jp
+127.0.0.1 sem.searchteria.co.jp
+
+# security-warning-service.xyz
+127.0.0.1 s.security-warning-service.xyz
+
+# seegame-hoome.info
+127.0.0.1 seegame-hoome.info
+
+# seesaa.jp
+127.0.0.1 match.seesaa.jp
+127.0.0.1 sda.seesaa.jp
+
+# servicegetbook.net
+127.0.0.1 servicegetbook.net
+
+# serving-sys.com
+127.0.0.1 bs.serving-sys.com
+127.0.0.1 serving-sys.com
+
+# sexpixbox.com
+127.0.0.1 www.sexpixbox.com
+
+# sexy-ch.com
+127.0.0.1 sexy-ch.com
+
+# shard.jp
+127.0.0.1 punyu01.shard.jp
+
+# share-videos.se
+127.0.0.1 static.share-videos.se
+
+# sharpdsp.com
+127.0.0.1 sharpdsp.com
+
+# shinobi.jp
+127.0.0.1 2cmtm.vis1.shinobi.jp
+127.0.0.1 abechin.vis1.shinobi.jp
+127.0.0.1 adf.shinobi.jp
+127.0.0.1 adm.shinobi.jp
+127.0.0.1 axad.shinobi.jp
+127.0.0.1 ba1.shinobi.jp
+127.0.0.1 bar1.shinobi.jp
+127.0.0.1 bfile.shinobi.jp
+127.0.0.1 ct1.shinobi.jp
+127.0.0.1 ct2.shinobi.jp
+127.0.0.1 footballnet.vis1.shinobi.jp
+127.0.0.1 hiroiro.vis1.shinobi.jp
+127.0.0.1 img.shinobi.jp
+127.0.0.1 j5.shinobi.jp
+127.0.0.1 j7.shinobi.jp
+127.0.0.1 mudainodqnment.vis1.shinobi.jp
+127.0.0.1 netasaka.vis1.shinobi.jp
+127.0.0.1 niwaka.vis1.shinobi.jp
+127.0.0.1 notorious.vis1.shinobi.jp
+127.0.0.1 nsm.shinobi.jp
+127.0.0.1 occult12.vis1.shinobi.jp
+127.0.0.1 omt.shinobi.jp
+127.0.0.1 rcm.shinobi.jp
+127.0.0.1 st.shinobi.jp
+127.0.0.1 tokihakita.vis1.shinobi.jp
+127.0.0.1 v2st.shinobi.jp
+127.0.0.1 x5.shinobi.jp
+127.0.0.1 x6.shinobi.jp
+127.0.0.1 x7.shinobi.jp
+127.0.0.1 x8.shinobi.jp
+127.0.0.1 xr.shinobi.jp
+
+# shopserve.jp
+127.0.0.1 a.shopserve.jp
+
+# shorte.st
+127.0.0.1 ads.shorte.st
+
+# sierra-fox.com
+127.0.0.1 zb1.sierra-fox.com
+127.0.0.1 ze1.sierra-fox.com
+127.0.0.1 zo1.sierra-fox.com
+127.0.0.1 zt1.sierra-fox.com
+
+# sitecatcher.net
+127.0.0.1 ranking2.sitecatcher.net
+
+# skylark-app.com
+127.0.0.1 gtapp.skylark-app.com
+
+# slidead.ru
+127.0.0.1 trak.slidead.ru
+
+# smaad.jp
+127.0.0.1 ad.smaad.jp
+127.0.0.1 smaad.jp
+
+# smaad.net
+127.0.0.1 cf.smaad.net
+127.0.0.1 tr.smaad.net
+
+# smaato.net
+127.0.0.1 soma.smaato.net
+
+# smart-c.jp
+127.0.0.1 image.smart-c.jp
+127.0.0.1 smart-c.jp
+
+# smartaccess.biz
+127.0.0.1 smartaccess.biz
+
+# smarter-wireless.net
+127.0.0.1 advert.smarter-wireless.net
+
+# smartnews-ads.com
+127.0.0.1 api.smartnews-ads.com
+127.0.0.1 cdn.smartnews-ads.com
+127.0.0.1 conf.smartnews-ads.com
+
+# smv.to
+127.0.0.1 ad.smv.to
+
+# socdm.com
+127.0.0.1 adgen.socdm.com
+127.0.0.1 adstir.socdm.com
+127.0.0.1 bid.socdm.com
+127.0.0.1 d.socdm.com
+127.0.0.1 i.socdm.com
+127.0.0.1 ssl.socdm.com
+127.0.0.1 tg.socdm.com
+
+# social-runner.net
+127.0.0.1 social-runner.net
+
+# softbank.jp
+127.0.0.1 js.mediams.mb.softbank.jp
+
+# solty.biz
+127.0.0.1 solty.biz
+
+# someapp.me
+127.0.0.1 someapp.me
+
+# somewrite.jp
+127.0.0.1 ad.somewrite.jp
+
+# soraad.jp
+127.0.0.1 img.soraad.jp
+
+# sp-click2.jp
+127.0.0.1 img44.sp-click2.jp
+127.0.0.1 img45.sp-click2.jp
+127.0.0.1 sp-click2.jp
+
+# spaf.jp
+127.0.0.1 spaf.jp
+
+# spdeapp.com
+127.0.0.1 rss.spdeapp.com
+
+# speead.jp
+127.0.0.1 ads.speead.jp
+127.0.0.1 js.speead.jp
+
+# speedera.net
+127.0.0.1 anon.doubleclick.speedera.net
+
+# speee-ad.jp
+127.0.0.1 click.speee-ad.jp
+
+# sponsorpay.com
+127.0.0.1 api.sponsorpay.com
+
+# spotscenered.info
+127.0.0.1 engine.spotscenered.info
+
+# sprout-ad.com
+127.0.0.1 101623.sprout-ad.com
+127.0.0.1 ads.sprout-ad.com
+127.0.0.1 d.sprout-ad.com
+127.0.0.1 j.sprout-ad.com
+127.0.0.1 js.sprout-ad.com
+
+# sspintrafmsmt.com
+127.0.0.1 sspintrafmsmt.com
+
+# st-hatena.com
+127.0.0.1 red.st-hatena.com
+
+# store-mix.com
+127.0.0.1 www.store-mix.com
+
+# storematch.jp
+127.0.0.1 ck.storematch.jp
+
+# sumapo.org
+127.0.0.1 www.sumapo.org
+
+# sumatoad.com
+127.0.0.1 tracking.sumatoad.com
+
+# supermizing.com
+127.0.0.1 rd.supermizing.com
+127.0.0.1 trk.supermizing.com
+
+# surikate.com
+127.0.0.1 tracking.surikate.com
+
+# switch-app.net
+127.0.0.1 switch-app.net
+
+# syaseigangan.club
+127.0.0.1 syaseigangan.club
+
+# taboola.com
+127.0.0.1 cdn-yjp.taboola.com
+127.0.0.1 cdn.taboola.com
+
+# taboolasyndication.com
+127.0.0.1 cdn.taboolasyndication.com
+
+# taggyad.jp
+127.0.0.1 e01.taggyad.jp
+
+# tanganrss.com
+127.0.0.1 tanganrss.com
+
+# tapit.com
+127.0.0.1 i.tapit.com
+
+# tapjoy.com
+127.0.0.1 connect.tapjoy.com
+
+# tapone.jp
+127.0.0.1 ap.tapone.jp
+127.0.0.1 api.tapone.jp
+127.0.0.1 cdn.js.tapone.jp
+127.0.0.1 js.tapone.jp
+
+# taxel.jp
+127.0.0.1 taxel.jp
+
+# teads.tv
+127.0.0.1 cdn.teads.tv
+
+# teramobiles.com
+127.0.0.1 teramobiles.com
+
+# terraclicks.com
+127.0.0.1 www.terraclicks.com
+
+# textad.net
+127.0.0.1 www.textad.net
+
+# thench.net
+127.0.0.1 stimg.thench.net
+127.0.0.1 stimgc.thench.net
+
+# toki-aiad.com
+127.0.0.1 js.toki-aiad.com
+
+# tokyo-tube-ad.com
+127.0.0.1 affiliate.tokyo-tube-ad.com
+127.0.0.1 pic.tokyo-tube-ad.com
+
+# topoffers.pro
+127.0.0.1 free.topoffers.pro
+
+# totalsuperbnetwork.com
+127.0.0.1 ngiz5.totalsuperbnetwork.com
+
+# tracer.jp
+127.0.0.1 tracer.jp
+
+# track-web.link
+127.0.0.1 track-web.link
+
+# trackinit.com
+127.0.0.1 go.trackinit.com
+
+# trackmedia101.com
+127.0.0.1 trackmedia101.com
+
+# trackword.biz
+127.0.0.1 www.trackword.biz
+
+# trackword.net
+127.0.0.1 az.trackword.net
+
+# tradedoubler.com
+127.0.0.1 tradedoubler.com
+
+# trafficfactory.biz
+127.0.0.1 rpc-php.trafficfactory.biz
+
+# trafficgate.net
+127.0.0.1 trafficgate.net
+
+# trafficjunky.net
+127.0.0.1 ads.trafficjunky.net
+
+# trafficstars.com
+127.0.0.1 cdn.trafficstars.com
+127.0.0.1 rotator.trafficstars.com
+
+# trafflict.com
+127.0.0.1 trafflict.com
+
+# trax-ad.jp
+127.0.0.1 c001.trax-ad.jp
+127.0.0.1 s002.trax-ad.jp
+127.0.0.1 sn001.trax-ad.jp
+127.0.0.1 sn002.trax-ad.jp
+127.0.0.1 sp.trax-ad.jp
+127.0.0.1 spn.trax-ad.jp
+127.0.0.1 trax-ad.jp
+
+# trckgrt.com
+127.0.0.1 trker.trckgrt.com
+
+# triver.jp
+127.0.0.1 api.triver.jp
+
+# trk-optimize.com
+127.0.0.1 trk-optimize.com
+
+# truckpoush.com
+127.0.0.1 truckpoush.com
+
+# trustclick.ne.jp
+127.0.0.1 cast.trustclick.ne.jp
+127.0.0.1 motu.trustclick.ne.jp
+127.0.0.1 service.trustclick.ne.jp
+
+# tumabeni.com
+127.0.0.1 x5.tumabeni.com
+
+# turubeotoshi.com
+127.0.0.1 x8.turubeotoshi.com
+
+# ucchari.com
+127.0.0.1 www.ucchari.com
+
+# uliza.jp
+127.0.0.1 ad-beacon-v01.uliza.jp
+127.0.0.1 www2.uliza.jp
+
+# uncn.jp
+127.0.0.1 cf.uncn.jp
+
+# uncumlzowtkn.com
+127.0.0.1 www.uncumlzowtkn.com
+
+# unimhk.com
+127.0.0.1 ad.unimhk.com
+
+# unitag.jp
+127.0.0.1 nspt.unitag.jp
+
+# unitedblades.co.jp
+127.0.0.1 alist.unitedblades.co.jp
+
+# unitedblades.jp
+127.0.0.1 js.unitedblades.jp
+
+# unity3d.com
+127.0.0.1 adserver.unityads.unity3d.com
+
+# unthem.com
+127.0.0.1 api.unthem.com
+
+# uuuu.link
+127.0.0.1 ads.uuuu.link
+
+# val.jp
+127.0.0.1 ad-image.val.jp
+127.0.0.1 ad-info.val.jp
+127.0.0.1 ad.val.jp
+127.0.0.1 s3.mobile.val.jp
+
+# value-domain.com
+127.0.0.1 cache1.value-domain.com
+
+# valueclick.com
+127.0.0.1 kansas.valueclick.com
+127.0.0.1 oz.valueclick.com
+127.0.0.1 st.valueclick.com
+
+# valueclick.jp
+127.0.0.1 ads.ict.valueclick.jp
+127.0.0.1 ads.lidr.valueclick.jp
+127.0.0.1 st.lidr.valueclick.jp
+
+# valueclick.ne.jp
+127.0.0.1 hosts.valueclick.ne.jp
+127.0.0.1 kansas.valueclick.ne.jp
+127.0.0.1 oz.valueclick.ne.jp
+127.0.0.1 st.valueclick.ne.jp
+127.0.0.1 www.valueclick.ne.jp
+
+# valuecommerce.com
+127.0.0.1 ad.jp.ap.valuecommerce.com
+127.0.0.1 aml.valuecommerce.com
+127.0.0.1 apfth.valuecommerce.com
+127.0.0.1 aplkp.valuecommerce.com
+127.0.0.1 ck.jp.ap.valuecommerce.com
+
+# valuecommerce.ne.jp
+127.0.0.1 ad.valuecommerce.ne.jp
+127.0.0.1 valuecommerce.ne.jp
+
+# vasta.co.jp
+127.0.0.1 lp.vasta.co.jp
+
+# vcimg.jp
+127.0.0.1 i.vcimg.jp
+
+# vertoz.com
+127.0.0.1 search.vertoz.com
+
+# virool.com
+127.0.0.1 rb-validation.virool.com
+127.0.0.1 ssp.virool.com
+127.0.0.1 ups.virool.com
+
+# virus-protection-mobile.site
+127.0.0.1 virus-protection-mobile.site
+
+# vivid-memory.com
+127.0.0.1 touch.vivid-memory.com
+
+# vntg.jp
+127.0.0.1 cdn.vntg.jp
+
+# voluumtrk.com
+127.0.0.1 mdjjp.voluumtrk.com
+127.0.0.1 nyhct.voluumtrk.com
+127.0.0.1 tmfps.voluumtrk.com
+
+# voluumtrk2.com
+127.0.0.1 uw7mr.voluumtrk2.com
+
+# vuysooqimdbt.com
+127.0.0.1 www.vuysooqimdbt.com
+
+# wakatono.jp
+127.0.0.1 ct2.wakatono.jp
+
+# wallofmobi.com
+127.0.0.1 click.wallofmobi.com
+
+# warnlng-n0tice-zi0.gdn
+127.0.0.1 warnlng-n0tice-zi0.gdn
+
+# webdice.jp
+127.0.0.1 ad.webdice.jp
+
+# webonlinnew.com
+127.0.0.1 webonlinnew.com
+
+# webtracker.jp
+127.0.0.1 a.t.webtracker.jp
+127.0.0.1 c.a.t.webtracker.jp
+127.0.0.1 ssl.webtracker.jp
+127.0.0.1 webtracker.jp
+
+# webtrackerplus.com
+127.0.0.1 webtrackerplus.com
+
+# webtrendslive.com
+127.0.0.1 webtrendslive.com
+
+# weridclick.com
+127.0.0.1 www.weridclick.com
+
+# whatusee.com
+127.0.0.1 www.whatusee.com
+
+# wiredvision.jp
+127.0.0.1 ad.wiredvision.jp
+
+# word-my.com
+127.0.0.1 word-my.com
+
+# x-lift.jp
+127.0.0.1 cdn.x-lift.jp
+
+# xb11766.com
+127.0.0.1 xb11766.com
+
+# xdomain.ne.jp
+127.0.0.1 ad.xdomain.ne.jp
+
+# xlisting.jp
+127.0.0.1 keywordlink3.xlisting.jp
+127.0.0.1 remoraimage.xlisting.jp
+127.0.0.1 srt-srv.xlisting.jp
+
+# xmax.jp
+127.0.0.1 images.xmax.jp
+127.0.0.1 imp.xmax.jp
+
+# xrea.com
+127.0.0.1 ad.xrea.com
+127.0.0.1 ct1.xrea.com
+
+# xsrv.jp
+127.0.0.1 vinushka.xsrv.jp
+
+# yahoo.co.jp
+127.0.0.1 adserver.yahoo.co.jp
+127.0.0.1 ard.yahoo.co.jp
+127.0.0.1 b1.yahoo.co.jp
+127.0.0.1 b10.yahoo.co.jp
+127.0.0.1 b2.yahoo.co.jp
+127.0.0.1 b3.yahoo.co.jp
+127.0.0.1 b4.yahoo.co.jp
+127.0.0.1 b5.yahoo.co.jp
+127.0.0.1 b6.yahoo.co.jp
+127.0.0.1 b7.yahoo.co.jp
+127.0.0.1 b8.yahoo.co.jp
+127.0.0.1 b9.yahoo.co.jp
+127.0.0.1 bc.geocities.yahoo.co.jp
+127.0.0.1 im.ecnavi.ov.yahoo.co.jp
+127.0.0.1 im.excite.ov.yahoo.co.jp
+127.0.0.1 im.gmo.ov.yahoo.co.jp
+127.0.0.1 im.mainichi.ov.yahoo.co.jp
+127.0.0.1 im.ov.yahoo.co.jp
+127.0.0.1 im.rakuten.ov.yahoo.co.jp
+127.0.0.1 im.seesaa.ov.yahoo.co.jp
+127.0.0.1 ov.yahoo.co.jp
+127.0.0.1 parts.logoole.yahoo.co.jp
+127.0.0.1 promotionalads.yahoo.co.jp
+127.0.0.1 rd.yahoo.co.jp
+127.0.0.1 smartads.mobile.yahoo.co.jp
+127.0.0.1 yads.yahoo.co.jp
+127.0.0.1 yads.yjtag.yahoo.co.jp
+127.0.0.1 yeas.yahoo.co.jp
+127.0.0.1 yjaxc.yahoo.co.jp
+
+# yahooapis.jp
+127.0.0.1 aag.yahooapis.jp
+127.0.0.1 entrypoint.search.yahooapis.jp
+
+# yicha.jp
+127.0.0.1 adone.yicha.jp
+127.0.0.1 adpimg.yicha.jp
+127.0.0.1 advisionapp.yicha.jp
+127.0.0.1 advisionclick.yicha.jp
+127.0.0.1 advisionsort.yicha.jp
+127.0.0.1 advisionweb.yicha.jp
+127.0.0.1 advisionwebp.yicha.jp
+127.0.0.1 advpic.yicha.jp
+127.0.0.1 s1.yicha.jp
+
+# yieldmanager.com
+127.0.0.1 ad.yieldmanager.com
+
+# yjlss.jp
+127.0.0.1 a.yjlss.jp
+
+# yjtag.jp
+127.0.0.1 s.yjtag.jp
+
+# ylx-3.com
+127.0.0.1 banners.ylx-3.com
+
+# ylx-4.com
+127.0.0.1 redir.ylx-4.com
+
+# ymtracking.com
+127.0.0.1 global.ymtracking.com
+
+# yoc.mobi
+127.0.0.1 adserver-live.yoc.mobi
+
+# yomereba.com
+127.0.0.1 img.yomereba.com
+
+# ypzjwioptz.pw
+127.0.0.1 ypzjwioptz.pw
+
+# yuhuads.com
+127.0.0.1 track.yuhuads.com
+
+# yx-ads6.com
+127.0.0.1 yx-ads6.com
+
+# yyapi.net
+127.0.0.1 ad.api.yyapi.net
+
+# z-profit.com
+127.0.0.1 cdn.z-profit.com
+
+# zenback.jp
+127.0.0.1 w.zenback.jp
+127.0.0.1 widget.zenback.jp
+
+# zeroredirect12.com
+127.0.0.1 zy1.zeroredirect12.com
+
+# zimg.jp
+127.0.0.1 j.zucks.net.zimg.jp
+127.0.0.1 static.zucks.net.zimg.jp
+
+# ziyu.net
+127.0.0.1 bbns.ziyu.net
+127.0.0.1 clicktrack.ziyu.net
+127.0.0.1 clicktrack2.ziyu.net
+127.0.0.1 clicktrack3.ziyu.net
+127.0.0.1 clicktrack4.ziyu.net
+127.0.0.1 clicktrack5.ziyu.net
+127.0.0.1 ctfile.ziyu.net
+127.0.0.1 file.ziyu.net
+127.0.0.1 js1.ziyu.net
+127.0.0.1 pranking.ziyu.net
+127.0.0.1 pranking10.ziyu.net
+127.0.0.1 pranking11.ziyu.net
+127.0.0.1 pranking12.ziyu.net
+127.0.0.1 pranking2.ziyu.net
+127.0.0.1 pranking3.ziyu.net
+127.0.0.1 pranking4.ziyu.net
+127.0.0.1 pranking5.ziyu.net
+127.0.0.1 pranking6.ziyu.net
+127.0.0.1 pranking7.ziyu.net
+127.0.0.1 pranking8.ziyu.net
+127.0.0.1 pranking9.ziyu.net
+127.0.0.1 report2.ziyu.net
+127.0.0.1 rranking.ziyu.net
+127.0.0.1 rranking10.ziyu.net
+127.0.0.1 rranking11.ziyu.net
+127.0.0.1 rranking12.ziyu.net
+127.0.0.1 rranking13.ziyu.net
+127.0.0.1 rranking14.ziyu.net
+127.0.0.1 rranking15.ziyu.net
+127.0.0.1 rranking2.ziyu.net
+127.0.0.1 rranking3.ziyu.net
+127.0.0.1 rranking4.ziyu.net
+127.0.0.1 rranking5.ziyu.net
+127.0.0.1 rranking6.ziyu.net
+127.0.0.1 rranking7.ziyu.net
+127.0.0.1 rranking8.ziyu.net
+127.0.0.1 rranking9.ziyu.net
+
+# zucks.net
+127.0.0.1 k.zucks.net
+127.0.0.1 sh.zucks.net

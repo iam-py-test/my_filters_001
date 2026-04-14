@@ -6,5 +6,6 @@ Some of them lack the latest updates from before they ceased to exist, simply be
 List of filters:
 - Slickdeals Smarter Shopping (from https://slickdeals.net/attachment/extension/allowlist.txt)
 - allowlisting.txt
-Also known as SIAllowlist, this is the allowlist used by Samsung's rebranded ABP for their Samsung Internet for Windows browser.
-
+Also known as SIAllowlist, this is the allowlist used by Samsung's rebranded ABP for their Samsung Internet for Windows browser. This only existed in the beta version, and was removed from the full release.
+- AdAway Blocking Hosts File for Japan.txt
+Recovered from [a Wayback Machine archive from 2020](http://web.archive.org/web/20201024072754/https://sites.google.com/site/logroid/files/hosts.txt?attredirects=0). See also [this Mastodon post](https://infosec.exchange/@iampytest1/116404218944927369)
