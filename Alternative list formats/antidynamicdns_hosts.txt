@@ -628,3 +628,5 @@
 0.0.0.0 myaddr.dev
 0.0.0.0 myaddr.io
 0.0.0.0 dyn.addr.tools
+# see e.g. https://www.dynu.com/en-US/
+0.0.0.0 dynu.com
