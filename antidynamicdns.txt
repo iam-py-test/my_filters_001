@@ -628,3 +628,5 @@
 ||myaddr.dev^$document
 ||myaddr.io^$document
 ||dyn.addr.tools^$document
+! see e.g. https://www.dynu.com/en-US/
+||dynu.com^$document
