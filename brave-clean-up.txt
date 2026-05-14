@@ -1646,6 +1646,8 @@ search.brave.com,search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd
 search.brave.com,search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion##div.snippet:has(a[href*="://audit.checkmarx.cx"])
 search.brave.com,search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion##div.snippet:has(a[href*="://pasticceriaeconomico.com"])
 search.brave.com,search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion##div.snippet:has(a[href*="://jerrl.pasticceriaeconomico.com"])
+search.brave.com,search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion##div.snippet:has(a[href*="://toolkeep.org"])
+search.brave.com,search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion##div.snippet:has(a[href*="://gnn.dusapp.com.br"])
 search.brave.com,search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion##div.snippet:has(a[href*="://ublock.org"])
 search.brave.com,search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion##div.snippet:has(a[href*="://ublockerext.com"])
 search.brave.com,search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion##div.snippet:has(a[href*="://quatrefeuillepolonaise.xyz"])

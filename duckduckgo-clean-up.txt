@@ -1642,6 +1642,8 @@ duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-testid="result"]:upward(li):has(a[href*="audit.checkmarx.cx"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-testid="result"]:upward(li):has(a[href*="pasticceriaeconomico.com"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-testid="result"]:upward(li):has(a[href*="jerrl.pasticceriaeconomico.com"])
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-testid="result"]:upward(li):has(a[href*="toolkeep.org"])
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-testid="result"]:upward(li):has(a[href*="gnn.dusapp.com.br"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-testid="result"]:upward(li):has(a[href*="ublock.org"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-testid="result"]:upward(li):has(a[href*="ublockerext.com"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-testid="result"]:upward(li):has(a[href*="quatrefeuillepolonaise.xyz"])
