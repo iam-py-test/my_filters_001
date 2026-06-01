@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 2026-5-21
-! Version: 2026521.2
+! Last updated: 2026-5-31
+! Version: 2026531.1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
@@ -3672,4 +3672,13 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||sensualflirts.com^$all
 ||freexdates.com^$all
 ||localfoxy.com^$all
+
+! https://github.com/hagezi/dns-blocklists/issues/10359
+||nexiwin.com^$document
+||raftwin.com^$document
+||nubegamb.com^$document
+||deezbet.com^$document
+||qerugamb.com^$document
+||porewin159.pro^$document
+||fuokex.com^$document
 
