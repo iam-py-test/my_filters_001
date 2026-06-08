@@ -846,3 +846,10 @@ pepper.pl##+js(href-sanitizer, a[href*="https://www.pepper.pl/visit/"][title^="h
 
 ! https://infosec.exchange/@briankrebs/116716427976483930
 ||reallylong.link^$document
+
+! https://infosec.exchange/@bob_zim/116716451102449940
+! e.g. https://c1ic.link/Q1MYD1_click_me.docm
+||c1ic.link^$document
+! example: http://meatspin.com@sh.21111993.xyz/backdoor@eztv.re/jailbreak-memory-tool-vulnerability.bin-69da9853?leak=ready&priority&classified&flooding=activated&stealer=ready&forbidden=installed&downloader=confirmed&sniffer=activated&csrf&command&hack&spyware
+||21111993.xyz^$document
+||sh.21111993.xyz^$document
