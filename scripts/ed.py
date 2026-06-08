@@ -1,3 +1,5 @@
+# NOT IN USE - for historical purposes only
+
 print(f"{__file__} STARTED")
 print("IMPORTING dns.resolver")
 dnsresolver = __import__('dns.resolver')
