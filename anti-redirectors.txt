@@ -843,3 +843,6 @@ pepper.pl##+js(href-sanitizer, a[href*="https://www.pepper.pl/visit/"][title^="h
 
 ! account creation email for completedns.com
 ||pstmrk.it^
+
+! https://infosec.exchange/@briankrebs/116716427976483930
+||reallylong.link^$document
