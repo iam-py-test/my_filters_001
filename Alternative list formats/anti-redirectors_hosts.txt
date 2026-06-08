@@ -628,3 +628,9 @@
 0.0.0.0 pstmrk.it
 # https://infosec.exchange/@briankrebs/116716427976483930
 0.0.0.0 reallylong.link
+# https://infosec.exchange/@bob_zim/116716451102449940
+# e.g. https://c1ic.link/Q1MYD1_click_me.docm
+0.0.0.0 c1ic.link
+# example: http://meatspin.com@sh.21111993.xyz/backdoor@eztv.re/jailbreak-memory-tool-vulnerability.bin-69da9853?leak=ready&priority&classified&flooding=activated&stealer=ready&forbidden=installed&downloader=confirmed&sniffer=activated&csrf&command&hack&spyware
+0.0.0.0 21111993.xyz
+0.0.0.0 sh.21111993.xyz
