@@ -626,3 +626,5 @@
 0.0.0.0 pastely.eu
 # account creation email for completedns.com
 0.0.0.0 pstmrk.it
+# https://infosec.exchange/@briankrebs/116716427976483930
+0.0.0.0 reallylong.link
