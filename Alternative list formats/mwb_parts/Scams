@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 2026-6-8
-! Version: 202668.1
+! Last updated: 2026-6-11
+! Version: 2026611.1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
@@ -3698,4 +3698,49 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||l.gamerdenz.com^$all
 ||tenlets.com^$document
 utm_source=PWNgames$document,domain=opera.com
+
+! spam email
+||findyourmilf.agency^$all
+||lg.findyourmilf.agency^$all
+||dreamdates-spots.com^$all
+||bangzone.top^$all
+||naughtyfix.com^$all
+||lovehorizon.life^$all
+||secretloversnearby.com^$all
+! owned by the same company, Neto Web Development B.V.
+||nearbysinglesfinder.com^$all
+||myflirtingneighbor.com^$all
+||americanmatureflirt.com^$all
+! weird promo? https://megalodon.jp/2026-0612-1152-47/https://vaginamiratena.blogspot.com:443/2026/02/exploring-modern-online-dating.html
+||diskretflirt.com^$all
+||secretflirtsnearby.com^$all
+||neighborswhoplay.com^$all
+! owned by Docamos Communications B.V. (also owns diskretflirt)
+||clickncontact.com^$all
+||sverigeflirten.com^$all
+||otrohetsportalen.com^$all
+||intimmatch.com^$all
+||mogenfling.com^$all
+||flirtamedmig.com^$all
+||grannflirten.com^$all
+||minaflirts.com^$all
+! owned by Inovo Internet Innovation B.V. (also owns neighborswhoplay)
+||maturenextdoor.com^$all
+||nearbyflirtfinder.com^$all
+||yournearbyfling.com^$all
+||chemistrynearby.com^$all
+||yournearbycrush.com^$all
+||sneakyneighbors.com^$all
+||womenroundthecorner.com^$all
+||twomance.com^$all
+||flirttactic.com^$all
+||neighborswithsecrets.com^$all
+||sxmessengers.com^$all
+||localswithsecrets.com^$all
+||flirtingneighbors.com^$all
+! likely connected; Bitmaster Online B.V. is at same address as supra companies
+||trefferchat.com^$all
+! https://infosec.exchange/@iampytest1/116735122804287190
+! does break TOS on the sites listed supra
+||agreementcadence.com^$all
 
