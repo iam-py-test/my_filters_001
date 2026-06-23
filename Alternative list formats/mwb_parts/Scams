@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 2026-6-14
-! Version: 2026614.1
+! Last updated: 2026-6-23
+! Version: 2026623.1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
@@ -3743,4 +3743,24 @@ utm_source=PWNgames$document,domain=opera.com
 ! https://infosec.exchange/@iampytest1/116735122804287190
 ! does break TOS on the sites listed supra
 ||agreementcadence.com^$all
+
+! fake dating scam; the link I have goes to a dead domain (but this is still live)
+||phoebis-sennae.info^$all
+
+! owned by Qpid Network, a known scam company.
+! see also https://github.com/iam-py-test/my_filters_001/commit/494dd499053944a13501934d57fa2d14b3df8855
+||ukidate.com^$document
+||findukrainianwoman.com^$document
+
+! from a scam email; evades sandboxes. End result is adultcrush.com
+||getdreamyinterlude.live^$all
+||pt.getdreamyinterlude.live^$all
+
+! scam email
+||eternalyearning.email^$all
+||md.eternalyearning.email^$all
+||qkkie.com^$document
+||pemsrv.com^
+||anamuel-careslie.com^
+||sparkdell.com^$document
 
