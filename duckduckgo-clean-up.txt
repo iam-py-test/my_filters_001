@@ -5966,6 +5966,7 @@ duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-testid="result"]:upward(li):has(a[href*="d6d62g8hubcc73c9popg.humanverify.co.in"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-testid="result"]:upward(li):has(a[href*="answwgieq.blogspot.com"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-testid="result"]:upward(li):has(a[href*="dominioneastern.com"])
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-testid="result"]:upward(li):has(a[href*="gowy-adguard.pro"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-testid="result"]:upward(li):has(a[href*="blastnew.live"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-testid="result"]:upward(li):has(a[href*="rpcs4.com"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-testid="result"]:upward(li):has(a[href*="rpcs5.com"])
