@@ -357,3 +357,7 @@ reallylong.link
 c1ic.link
 21111993.xyz
 sh.21111993.xyz
+4.fo
+link.sv
+in.sv
+go.sv
