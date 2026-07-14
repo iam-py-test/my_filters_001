@@ -2,7 +2,6 @@ This folder includes each of the sections of The malicious website blocklist, so
 Sections:
 
 [Malware and Phishing](./Malware%20and%20Phishing)<br>
-[Scams](./Scams)<br>
 [PUPs](./PUPs)<br>
 [Spam](./Spam)<br>
 [Resource Abuse](./Resource%20Abuse)<br>
