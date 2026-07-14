@@ -263,8 +263,6 @@
 ! https://github.com/iam-py-test/investigations/blob/main/2021/12/12/1.md
 ||onlineenglishteacher.co^$document
 
-||www.fling.com^$document
-
 ! either redirects to random websites or scams
 ||lekms.com^$document
 ||yourcoolfeed.com^$all
@@ -282,12 +280,6 @@
 ||yellowmother374.weebly.com^$all
 ||tiborola.info^$all
 ||myhypeposts.com^$all
-||static.cdnativepush.com/contents/s/7f/95/8c/2488823c2d95d7162ff723c840/01192333514141.png^$all
-||static.cdnativepush.com/contents/s/04/d8/68/c0dd305c8a79b01ae4f24672ac/01477976446043.png^$all
-||static.cdnativepush.com/contents/s/b8/4e/1d/153294973f0fff7258e8f43d7c/0647024544646.jpeg^$all
-||static.cdnativepush.com/contents/s/d2/3f/93/7fe562c37a9a7a6af5df460ee7/0490618650236.png^$all
-||ssp-creatives.askprivate.com/prod/images/33242825/en/69dcb41b14c0449dbc67b998ca5b0c94.jpeg^$all
-||ssp-creatives.askprivate.com/prod/icons/33242825/en/8bb2cd79c7dd45eb8075d0127f8d8331.jpeg^$all
 ||zxzfic.weebly.com^$all
 ||iminna.info^$all
 ||bloghunter.aaguatemala.org^$all
@@ -315,7 +307,6 @@
 ||w17veh63m7o8s4ncihd1jq8i.people-wet.com^$document
 
 ! https://scammer.info/t/stupid-ass-scammers-lol/85601 (support[@]clickgadgets[.]club)
-||bit.ly/3DWxMNv^$all
 ||clickgadgets.club^$all
 
 ! scam website with only fake links
@@ -348,8 +339,7 @@
 ||ny-feed.r-tb.com^$document
 
 ! https://scammer.info/t/cyberpunk-2077-fake-generator/85772
-||groups.google.com/g/cyberpunk-steam-key-generator-working-check-now-2022?$document
-||groups.google.com/g/cyberpunk-steam-key-generator-working-check-now-2022/$document
+||groups.google.com/g/cyberpunk-steam-key-generator-working-check-now-2022$document
 ||ragamer.com^$document
 
 ! possible Tech Support Scam
@@ -505,7 +495,7 @@
 ||speedboostpc.com^$document
 
 ! redirects to already blocked sites
-||coub.com/stories/946163-free-discord-nitro-codes-list-all-valid-with-no-human-verification^$document
+||coub.com/stories/-free-discord-nitro-codes-list-all-valid-with-no-human-verification^$document
 
 ! scam browser theme
 ||chrome.google.com/webstore/detail/discord-free-nitro-free-d/ihdnmkbgjnpbkdcammpfokdmncnicfki^$all
