@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 2026-7-18
-! Version: 2026718.1
+! Last updated: 2026-7-26
+! Version: 2026726.1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
@@ -848,11 +848,12 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ! Description: VXVault's latest 100 links compiled into a filterlist. All credit to VXVault for finding these urls
 ! Script last updated: 3/10/2023
 ! Expires: 1 day
-! Last updated: 19/07/2026
+! Last updated: 25/07/2026
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Sun, 19 Jul 2026 21:03:55 +0000
+! Sat, 25 Jul 2026 21:04:54 +0000
+||github.com/muhammadzidane632/Hopeless/raw/refs/heads/main/hopeless_v4.exe^$all
 ||94.156.152.234/mipsel^$all
 ||151.242.30.51/bins/arm^$all
 ||140.233.190.47/terrabot/023782pler.x86_64^$all
@@ -953,7 +954,6 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||185.215.113.16/off/def.exe^$all
 ||dewatabalirental.com/4.exe^$all
 ||dewatabalirental.com/3.exe^$all
-||dewatabalirental.com/2.exe^$all
 
 
 
