@@ -361,3 +361,4 @@ sh.21111993.xyz
 link.sv
 in.sv
 go.sv
+ix.sk
