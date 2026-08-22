@@ -362,3 +362,4 @@ link.sv
 in.sv
 go.sv
 ix.sk
+fedishort.com
