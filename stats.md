@@ -6,7 +6,7 @@ Entries: 7394 <br>
 #### antitypo.txt
 Entries: 833 <br> 
 #### anti-redirectors.txt
-Entries: 392 <br> 
+Entries: 393 <br> 
 #### anti-cookie+sign up.txt
 Entries: 344 <br> 
 #### anti-rickroll-list.txt
