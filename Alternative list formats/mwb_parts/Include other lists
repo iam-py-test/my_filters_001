@@ -2,8 +2,8 @@
 ! Title: The malicious website blocklist
 ! Homepage: https://github.com/iam-py-test/my_filters_001
 ! Expires: 1 day
-! Last updated: 2026-8-22
-! Version: 2026822.1
+! Last updated: 2026-8-29
+! Version: 2026829.1
 ! Description: This list aims to protect against scams, phishing, malware, some stalkerware, and potentially unwanted programs (PUPs). It includes a version of vxvault.net's list, modified by me to work in adblockers.
 ! Issues url: https://github.com/iam-py-test/my_filters_001/issues
 ! GitLab issues url (not checked as often): https://gitlab.com/iam-py-test/my_filters_001/-/issues
@@ -852,7 +852,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ! Homepage: https://github.com/iam-py-test/vxvault_filter
 ! Data from http://vxvault.net/URL_List.php. All credit to VXVault for finding these URLs
 ! VX Vault last 100 Links
-! Sat, 29 Aug 2026 02:47:02 +0000
+! Sat, 29 Aug 2026 22:36:02 +0000
 ||95.155.151.113/d/xd.arm^$all
 ||github.com/muhammadzidane632/Hopeless/raw/refs/heads/main/hopeless_v4.exe^$all
 ||94.156.152.234/mipsel^$all
