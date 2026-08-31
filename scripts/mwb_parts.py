@@ -44,6 +44,9 @@ def include_list(path: str, parentpath: str):
         return ""
 
 for l in mwb:
+    if l == "||":
+        print("Warning: invalid filter || in part",part_name)
+        continue
     if l.startswith("~"):
         l = l[1:]
     if l.startswith("! ---- "):

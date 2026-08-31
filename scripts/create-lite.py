@@ -50,6 +50,10 @@ def parse(lines: list):
   global all_domains
   lcontents = ""
   for line in lines:
+    # https://github.com/iam-py-test/my_filters_001/issues/137
+    if line == "||":
+      print("Warning: invalid filter ||")
+      continue
     if line.startswith("!#include "):
       try:
         path = line[10:]
