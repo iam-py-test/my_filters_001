@@ -86,6 +86,8 @@
 0.0.0.0 checkip.com.vn
 # https://stackoverflow.com/questions/30286293/make-requests-using-python-over-tor
 0.0.0.0 ipecho.net
+0.0.0.0 ipv6.ipecho.net
+0.0.0.0 ipv4.ipecho.net
 # has ip lookup but also other services, uncomment if you wish
 # 0.0.0.0 httpbin.org
 # https://github.com/badmojr/1Hosts/issues/1726
@@ -154,3 +156,17 @@
 0.0.0.0 api.ip.sb
 # https://github.com/hagezi/dns-blocklists/issues/9070
 0.0.0.0 ip.v4.ro.co
+# malicious website
+0.0.0.0 ident.me
+0.0.0.0 ipv4.ident.me
+0.0.0.0 ipv6.ident.me
+0.0.0.0 tnedi.me
+0.0.0.0 www.tnedi.me
+0.0.0.0 ipv6.tnedi.me
+0.0.0.0 ipv4.tnedi.me
+0.0.0.0 whatismyip.akamai.com
+0.0.0.0 ipv6.whatismyip.akamai.com
+0.0.0.0 ipv4.whatismyip.akamai.com
+0.0.0.0 seeip.org
+0.0.0.0 ipv6.seeip.org
+0.0.0.0 ipv4.seeip.org
