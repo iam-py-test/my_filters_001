@@ -1,6 +1,6 @@
 ! Title: iam-py-test's anti-Meta list
 ! Expires: 30 days
-! Last updated: 13/11/2023
+! Last updated: 2026-10-29
 ! Description: Do you want to get rid of Facebook/Meta/Instagram for good? This list might help, but you may need to delete your account first.
 ||facebook.com^$all
 ||facebook.net^$all
@@ -35,3 +35,6 @@ merriam-webster.com##.hoverable.share-link.fb.ul-icon:has(#Share_Facebook)
 ##.facebook.icon
 ~facebook.com##button[aria-label="Share on Facebook"]
 ~facebook.*##[href^="https://www.facebook.com/dialog/feed"]
+
+! https://github.com/iam-py-test/my_filters_001/issues/138
+||muse.ai^$all
