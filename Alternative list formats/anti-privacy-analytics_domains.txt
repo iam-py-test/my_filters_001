@@ -588,3 +588,5 @@ sentry.io
 sentry.odysee.tv
 sentry.contabo.net
 sentry.5nix.com
+matomo.openstreetmap.org
+plausible.canine.tools
